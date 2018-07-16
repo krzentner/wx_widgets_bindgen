@@ -1,0 +1,8 @@
+# This file is read by build.rs
+
+wxSharedPtr_reftype_with_deleter
+
+# Instantiations of these are the wrong size, for some reason.
+wxNavigationEnabled
+# But this one is sometimes right and needed.
+# wxScrolled
