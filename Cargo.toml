@@ -1,0 +1,9 @@
+[package]
+name = "wx_widgets_bindgen"
+version = "0.1.0"
+authors = ["K.R. Zentner <krzentner@gmail.com>"]
+
+[dependencies]
+
+[build-dependencies]
+bindgen = "0.37.4"
