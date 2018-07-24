@@ -1,0 +1,246 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_rich_text_command" kind="class" language="C++" prot="public">
+    <compoundname>wxRichTextCommand</compoundname>
+    <basecompoundref refid="classwx_command" prot="public" virt="non-virtual">wxCommand</basecompoundref>
+    <includes local="no">wx/richtext/richtextbuffer.h</includes>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classwx_rich_text_command_1a3acb9a3906835b9d1c757229b841dfcf" prot="protected" static="no" mutable="no">
+        <type>wxList</type>
+        <definition>wxList wxRichTextCommand::m_actions</definition>
+        <argsstring></argsstring>
+        <name>m_actions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="5868" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="5868" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classwx_rich_text_command_1a8e3ef03ba5e3bc411f24c742168f6b19" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxRichTextCommand::wxRichTextCommand</definition>
+        <argsstring>(const wxString &amp;name, wxRichTextCommandId id, wxRichTextBuffer *buffer, wxRichTextParagraphLayoutBox *container, wxRichTextCtrl *ctrl, bool ignoreFirstTime=false)</argsstring>
+        <name>wxRichTextCommand</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type><ref refid="richtextbuffer_8h_1abfe80b5388eddd51c35f2c318cf33a80" kindref="member">wxRichTextCommandId</ref></type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_rich_text_buffer" kindref="compound">wxRichTextBuffer</ref> *</type>
+          <declname>buffer</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_rich_text_paragraph_layout_box" kindref="compound">wxRichTextParagraphLayoutBox</ref> *</type>
+          <declname>container</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_rich_text_ctrl" kindref="compound">wxRichTextCtrl</ref> *</type>
+          <declname>ctrl</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>ignoreFirstTime</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+<para>Constructor for one action. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="5831" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_command_1a0afbd8f7b8820ce5250587af7a1cb873" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxRichTextCommand::wxRichTextCommand</definition>
+        <argsstring>(const wxString &amp;name)</argsstring>
+        <name>wxRichTextCommand</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+<para>Constructor for multiple actions. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="5837" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_command_1aeb4f9856591f6118f7499c4c533e751b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual wxRichTextCommand::~wxRichTextCommand</definition>
+        <argsstring>()</argsstring>
+        <name>~wxRichTextCommand</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="5839" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_command_1a8308209288049a5f31efb384e43b9e15" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool wxRichTextCommand::Do</definition>
+        <argsstring>()</argsstring>
+        <name>Do</name>
+        <reimplements refid="classwx_command_1a858fb8c1b0ab1d3400b9bc2605a5e5f7">Do</reimplements>
+        <briefdescription>
+<para>Performs the command. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="5844" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_command_1afc5f9fd334b50a8d9994c4f23274f922" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool wxRichTextCommand::Undo</definition>
+        <argsstring>()</argsstring>
+        <name>Undo</name>
+        <reimplements refid="classwx_command_1afed9df8cfda3579429ba8353098859dc">Undo</reimplements>
+        <briefdescription>
+<para>Undoes the command. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="5849" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_command_1abf2aa3b362719e0f28fb8b86ba114f1a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxRichTextCommand::AddAction</definition>
+        <argsstring>(wxRichTextAction *action)</argsstring>
+        <name>AddAction</name>
+        <param>
+          <type><ref refid="classwx_rich_text_action" kindref="compound">wxRichTextAction</ref> *</type>
+          <declname>action</declname>
+        </param>
+        <briefdescription>
+<para>Adds an action to the action list. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="5854" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_command_1aeb5fede2635d878cda2791dd6f3fd800" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxRichTextCommand::ClearActions</definition>
+        <argsstring>()</argsstring>
+        <name>ClearActions</name>
+        <briefdescription>
+<para>Clears the action list. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="5859" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_command_1a110334c7783afceb79b9c08a8d583b86" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>wxList &amp;</type>
+        <definition>wxList&amp; wxRichTextCommand::GetActions</definition>
+        <argsstring>()</argsstring>
+        <name>GetActions</name>
+        <briefdescription>
+<para>Returns the action list. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="5864" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="5864" bodyend="5864"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Implements a command on the undo/redo stack. </para>    </briefdescription>
+    <detaileddescription>
+<para>A <ref refid="classwx_rich_text_command" kindref="compound">wxRichTextCommand</ref> object contains one or more <ref refid="classwx_rich_text_action" kindref="compound">wxRichTextAction</ref> objects, allowing aggregation of a number of operations into one command.</para><para><heading level="2"></heading>
+</para><para>Library:<nonbreakablespace/><nonbreakablespace/><ref refid="page_libs_1page_libs_wxrichtext" kindref="member">wxRichText</ref> &lt;&gt;&lt; =&apos;&apos;&gt;:&lt;/&gt;&amp;;&amp;;&lt; =&apos;&apos;&gt;\ &lt;/&gt;&lt;/&gt;</para><para><simplesect kind="see"><para><ref refid="classwx_rich_text_action" kindref="compound">wxRichTextAction</ref> </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="6361">
+        <label>wxRichTextCommand</label>
+        <link refid="classwx_rich_text_command"/>
+        <childnode refid="6362" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6363">
+        <label>wxObject</label>
+        <link refid="classwx_object"/>
+      </node>
+      <node id="6362">
+        <label>wxCommand</label>
+        <link refid="classwx_command"/>
+        <childnode refid="6363" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="6364">
+        <label>wxRichTextCommand</label>
+        <link refid="classwx_rich_text_command"/>
+        <childnode refid="6365" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6366">
+        <label>wxObject</label>
+        <link refid="classwx_object"/>
+        <childnode refid="6367" relation="usage">
+          <edgelabel>m_refData</edgelabel>
+        </childnode>
+      </node>
+      <node id="6365">
+        <label>wxCommand</label>
+        <link refid="classwx_command"/>
+        <childnode refid="6366" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6367">
+        <label>wxObjectRefData</label>
+        <link refid="classwx_object_ref_data"/>
+      </node>
+    </collaborationgraph>
+    <location file="interface/wx/richtext/richtextbuffer.h" line="5826" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="5825" bodyend="5869"/>
+    <listofallmembers>
+      <member refid="classwx_rich_text_command_1abf2aa3b362719e0f28fb8b86ba114f1a" prot="public" virt="non-virtual"><scope>wxRichTextCommand</scope><name>AddAction</name></member>
+      <member refid="classwx_object_1a60204063f3cc3aa2fa1c7ff5bda9eb13" prot="protected" virt="non-virtual"><scope>wxRichTextCommand</scope><name>AllocExclusive</name></member>
+      <member refid="classwx_command_1ace7a97cc386f7908833949a4402d4eab" prot="public" virt="virtual"><scope>wxRichTextCommand</scope><name>CanUndo</name></member>
+      <member refid="classwx_rich_text_command_1aeb5fede2635d878cda2791dd6f3fd800" prot="public" virt="non-virtual"><scope>wxRichTextCommand</scope><name>ClearActions</name></member>
+      <member refid="classwx_object_1a436fc8fe68cf8a31000296d9cd3d2427" prot="protected" virt="virtual"><scope>wxRichTextCommand</scope><name>CloneRefData</name></member>
+      <member refid="classwx_object_1a3f4f497c65cef611e121c41f21dd5ccc" prot="protected" virt="virtual"><scope>wxRichTextCommand</scope><name>CreateRefData</name></member>
+      <member refid="classwx_rich_text_command_1a8308209288049a5f31efb384e43b9e15" prot="public" virt="virtual"><scope>wxRichTextCommand</scope><name>Do</name></member>
+      <member refid="classwx_rich_text_command_1a110334c7783afceb79b9c08a8d583b86" prot="public" virt="non-virtual"><scope>wxRichTextCommand</scope><name>GetActions</name></member>
+      <member refid="classwx_object_1ae6d365f2556b26767ced8410c5e839d0" prot="public" virt="virtual"><scope>wxRichTextCommand</scope><name>GetClassInfo</name></member>
+      <member refid="classwx_command_1a4d2dfba5e33420ff78331f9cb364c820" prot="public" virt="virtual"><scope>wxRichTextCommand</scope><name>GetName</name></member>
+      <member refid="classwx_object_1af3c6c76a775864832f1536d3c0de3a2b" prot="public" virt="non-virtual"><scope>wxRichTextCommand</scope><name>GetRefData</name></member>
+      <member refid="classwx_object_1a3c7115ef4132dcee0c4fc34e84d7fced" prot="public" virt="non-virtual"><scope>wxRichTextCommand</scope><name>IsKindOf</name></member>
+      <member refid="classwx_object_1a059373c494c2369d7db2a556efef8ecf" prot="public" virt="non-virtual"><scope>wxRichTextCommand</scope><name>IsSameAs</name></member>
+      <member refid="classwx_rich_text_command_1a3acb9a3906835b9d1c757229b841dfcf" prot="protected" virt="non-virtual"><scope>wxRichTextCommand</scope><name>m_actions</name></member>
+      <member refid="classwx_object_1a9e31954530a0abd54982effc443ed2b8" prot="protected" virt="non-virtual"><scope>wxRichTextCommand</scope><name>m_refData</name></member>
+      <member refid="classwx_object_1a07b8f34f5afc5743195c5fed052f55d3" prot="public" virt="non-virtual"><scope>wxRichTextCommand</scope><name>operator delete</name></member>
+      <member refid="classwx_object_1a96fa423a1dbc212c8227a5d83825971f" prot="public" virt="non-virtual"><scope>wxRichTextCommand</scope><name>operator new</name></member>
+      <member refid="classwx_object_1a2f6f1aa51fe9fc2b1415ca4211a90e9e" prot="public" virt="non-virtual"><scope>wxRichTextCommand</scope><name>Ref</name></member>
+      <member refid="classwx_object_1afab780710f2adc1bb33310e27590140b" prot="public" virt="non-virtual"><scope>wxRichTextCommand</scope><name>SetRefData</name></member>
+      <member refid="classwx_rich_text_command_1afc5f9fd334b50a8d9994c4f23274f922" prot="public" virt="virtual"><scope>wxRichTextCommand</scope><name>Undo</name></member>
+      <member refid="classwx_object_1af51efc6b1ae632fc7f0cd7ebbce9fa36" prot="public" virt="non-virtual"><scope>wxRichTextCommand</scope><name>UnRef</name></member>
+      <member refid="classwx_object_1a74b40e42d19a4b9e9bec0b57d62a5725" prot="public" virt="non-virtual"><scope>wxRichTextCommand</scope><name>UnShare</name></member>
+      <member refid="classwx_command_1a544c13f28592ffd6a9e8b86be07e98d6" prot="public" virt="non-virtual"><scope>wxRichTextCommand</scope><name>wxCommand</name></member>
+      <member refid="classwx_object_1acaa378363a28af421ab56ad7b46eadf0" prot="public" virt="non-virtual"><scope>wxRichTextCommand</scope><name>wxObject</name></member>
+      <member refid="classwx_object_1a4721b4dc9b7aff0f30904ba2ea3954cf" prot="public" virt="non-virtual"><scope>wxRichTextCommand</scope><name>wxObject</name></member>
+      <member refid="classwx_rich_text_command_1a8e3ef03ba5e3bc411f24c742168f6b19" prot="public" virt="non-virtual"><scope>wxRichTextCommand</scope><name>wxRichTextCommand</name></member>
+      <member refid="classwx_rich_text_command_1a0afbd8f7b8820ce5250587af7a1cb873" prot="public" virt="non-virtual"><scope>wxRichTextCommand</scope><name>wxRichTextCommand</name></member>
+      <member refid="classwx_command_1ae1a3e8b1984fe22e23c6fc38d08b63f3" prot="public" virt="virtual"><scope>wxRichTextCommand</scope><name>~wxCommand</name></member>
+      <member refid="classwx_object_1a2a51aa8bfbab47ca2f051bcf84b3f35b" prot="public" virt="virtual"><scope>wxRichTextCommand</scope><name>~wxObject</name></member>
+      <member refid="classwx_rich_text_command_1aeb4f9856591f6118f7499c4c533e751b" prot="public" virt="virtual"><scope>wxRichTextCommand</scope><name>~wxRichTextCommand</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

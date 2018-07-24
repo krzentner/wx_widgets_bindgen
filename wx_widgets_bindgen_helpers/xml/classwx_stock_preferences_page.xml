@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_stock_preferences_page" kind="class" language="C++" prot="public">
+    <compoundname>wxStockPreferencesPage</compoundname>
+    <basecompoundref refid="classwx_preferences_page" prot="public" virt="non-virtual">wxPreferencesPage</basecompoundref>
+    <includes local="no">wx/preferences.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="classwx_stock_preferences_page_1abe71c0050c75a3b46f10a500377d335e" prot="public" static="no" strong="no">
+        <type></type>
+        <name>Kind</name>
+        <enumvalue id="classwx_stock_preferences_page_1abe71c0050c75a3b46f10a500377d335ea75902e496903c03ba1ab82d92e955b44" prot="public">
+          <name>Kind_General</name>
+          <briefdescription>
+<para>The &quot;General&quot; page. </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classwx_stock_preferences_page_1abe71c0050c75a3b46f10a500377d335ea8c173be96d263ecfacda585a265c6a5e" prot="public">
+          <name>Kind_Advanced</name>
+          <briefdescription>
+<para>The &quot;Advanced&quot; page. </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Kinds of stock pages. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/preferences.h" line="202" column="1" bodyfile="interface/wx/preferences.h" bodystart="201" bodyend="207"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classwx_stock_preferences_page_1a5f6e16f91c2f44a6e9bfc5b1678b3635" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxStockPreferencesPage::wxStockPreferencesPage</definition>
+        <argsstring>(Kind kind)</argsstring>
+        <name>wxStockPreferencesPage</name>
+        <param>
+          <type><ref refid="classwx_stock_preferences_page_1abe71c0050c75a3b46f10a500377d335e" kindref="member">Kind</ref></type>
+          <declname>kind</declname>
+        </param>
+        <briefdescription>
+<para>Constructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/preferences.h" line="210" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_stock_preferences_page_1a3ee55131ca24e69b407dc556d2789604" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_stock_preferences_page_1abe71c0050c75a3b46f10a500377d335e" kindref="member">Kind</ref></type>
+        <definition>Kind wxStockPreferencesPage::GetKind</definition>
+        <argsstring>() const</argsstring>
+        <name>GetKind</name>
+        <briefdescription>
+<para>Returns the page&apos;s kind. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/preferences.h" line="213" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_stock_preferences_page_1a2fbb3a80b61a66e4b8e4ac752c953d20" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="classwx_string" kindref="compound">wxString</ref></type>
+        <definition>virtual wxString wxStockPreferencesPage::GetName</definition>
+        <argsstring>() const</argsstring>
+        <name>GetName</name>
+        <reimplements refid="classwx_preferences_page_1aaf3db462208f700fff0fd99c66afd8d7">GetName</reimplements>
+        <briefdescription>
+<para>Reimplemented to return suitable name for the page&apos;s kind. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/preferences.h" line="216" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_stock_preferences_page_1a4caa4c4dcfd648abe36452baa0864138" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="classwx_bitmap" kindref="compound">wxBitmap</ref></type>
+        <definition>virtual wxBitmap wxStockPreferencesPage::GetLargeIcon</definition>
+        <argsstring>() const</argsstring>
+        <name>GetLargeIcon</name>
+        <reimplements refid="classwx_preferences_page_1a05880595e8507b60eaea11d5addc71e6">GetLargeIcon</reimplements>
+        <briefdescription>
+<para>Reimplemented to return stock icon on OS X. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/preferences.h" line="218" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Specialization of <ref refid="classwx_preferences_page" kindref="compound">wxPreferencesPage</ref> useful for certain commonly used preferences page. </para>    </briefdescription>
+    <detaileddescription>
+<para>On OS X, preferences pages named &quot;General&quot; and &quot;Advanced&quot; are commonly used in apps and the OS provides stock icons for them that should be used. Instead of reimplementing this behavior yourself, you can inherit from <ref refid="classwx_stock_preferences_page" kindref="compound">wxStockPreferencesPage</ref> and get correct title and icon.</para><para>Notice that this class only implements <ref refid="classwx_stock_preferences_page_1a2fbb3a80b61a66e4b8e4ac752c953d20" kindref="member">GetName()</ref> and <ref refid="classwx_stock_preferences_page_1a4caa4c4dcfd648abe36452baa0864138" kindref="member">GetLargeIcon()</ref>, you still have to provide the rest of <ref refid="classwx_preferences_page" kindref="compound">wxPreferencesPage</ref> implementation.</para><para><heading level="2"></heading>
+</para><para>Library:<nonbreakablespace/><nonbreakablespace/><ref refid="page_libs_1page_libs_wxcore" kindref="member">wxCore</ref></para><para><simplesect kind="since"><para>2.9.5 </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="7599">
+        <label>wxStockPreferencesPage</label>
+        <link refid="classwx_stock_preferences_page"/>
+        <childnode refid="7600" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7600">
+        <label>wxPreferencesPage</label>
+        <link refid="classwx_preferences_page"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="7601">
+        <label>wxStockPreferencesPage</label>
+        <link refid="classwx_stock_preferences_page"/>
+        <childnode refid="7602" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7602">
+        <label>wxPreferencesPage</label>
+        <link refid="classwx_preferences_page"/>
+      </node>
+    </collaborationgraph>
+    <location file="interface/wx/preferences.h" line="198" column="1" bodyfile="interface/wx/preferences.h" bodystart="197" bodyend="219"/>
+    <listofallmembers>
+      <member refid="classwx_preferences_page_1a5b1dabcb4d9e86ce3613f7f32803b7e5" prot="public" virt="pure-virtual"><scope>wxStockPreferencesPage</scope><name>CreateWindow</name></member>
+      <member refid="classwx_stock_preferences_page_1a3ee55131ca24e69b407dc556d2789604" prot="public" virt="non-virtual"><scope>wxStockPreferencesPage</scope><name>GetKind</name></member>
+      <member refid="classwx_stock_preferences_page_1a4caa4c4dcfd648abe36452baa0864138" prot="public" virt="virtual"><scope>wxStockPreferencesPage</scope><name>GetLargeIcon</name></member>
+      <member refid="classwx_stock_preferences_page_1a2fbb3a80b61a66e4b8e4ac752c953d20" prot="public" virt="virtual"><scope>wxStockPreferencesPage</scope><name>GetName</name></member>
+      <member refid="classwx_stock_preferences_page_1abe71c0050c75a3b46f10a500377d335e" prot="public" virt="non-virtual"><scope>wxStockPreferencesPage</scope><name>Kind</name></member>
+      <member refid="classwx_stock_preferences_page_1abe71c0050c75a3b46f10a500377d335ea8c173be96d263ecfacda585a265c6a5e" prot="public" virt="non-virtual"><scope>wxStockPreferencesPage</scope><name>Kind_Advanced</name></member>
+      <member refid="classwx_stock_preferences_page_1abe71c0050c75a3b46f10a500377d335ea75902e496903c03ba1ab82d92e955b44" prot="public" virt="non-virtual"><scope>wxStockPreferencesPage</scope><name>Kind_General</name></member>
+      <member refid="classwx_preferences_page_1a75e85f05d5c78a918dc85a891b8f4c51" prot="public" virt="non-virtual"><scope>wxStockPreferencesPage</scope><name>wxPreferencesPage</name></member>
+      <member refid="classwx_stock_preferences_page_1a5f6e16f91c2f44a6e9bfc5b1678b3635" prot="public" virt="non-virtual"><scope>wxStockPreferencesPage</scope><name>wxStockPreferencesPage</name></member>
+      <member refid="classwx_preferences_page_1ae0f9be588887bf27451efdb1400d262e" prot="public" virt="virtual"><scope>wxStockPreferencesPage</scope><name>~wxPreferencesPage</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

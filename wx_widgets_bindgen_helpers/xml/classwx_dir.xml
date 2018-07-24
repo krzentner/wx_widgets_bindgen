@@ -1,0 +1,430 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_dir" kind="class" language="C++" prot="public">
+    <compoundname>wxDir</compoundname>
+    <includes local="no">wx/dir.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classwx_dir_1a724ddccbd94415322d4bda64de4358c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxDir::wxDir</definition>
+        <argsstring>()</argsstring>
+        <name>wxDir</name>
+        <briefdescription>
+<para>Default constructor, use <ref refid="classwx_dir_1a51eb3dd2adf86bfa977aa94526242536" kindref="member">Open()</ref> afterwards. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/dir.h" line="175" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_dir_1ac4d7e373292882b38ec367536a0de1d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxDir::wxDir</definition>
+        <argsstring>(const wxString &amp;dir)</argsstring>
+        <name>wxDir</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>dir</declname>
+        </param>
+        <briefdescription>
+<para>Opens the directory for enumeration, use <ref refid="classwx_dir_1af041831b8b2835e5e0dd4db8fcff9277" kindref="member">IsOpened()</ref> to test for errors. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/dir.h" line="179" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_dir_1a5c2ca66526b2c85ac9fba8c44b95fa16" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxDir::~wxDir</definition>
+        <argsstring>()</argsstring>
+        <name>~wxDir</name>
+        <briefdescription>
+<para>Destructor cleans up the associated resources by calling <ref refid="classwx_dir_1af7d9e9270887b36b7258c9206b5c4dcf" kindref="member">Close()</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para>It is not virtual and so this class is not meant to be used polymorphically. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/dir.h" line="187" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_dir_1af7d9e9270887b36b7258c9206b5c4dcf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxDir::Close</definition>
+        <argsstring>()</argsstring>
+        <name>Close</name>
+        <briefdescription>
+<para>Close the directory. </para>        </briefdescription>
+        <detaileddescription>
+<para>The object can&apos;t be used after closing it, but <ref refid="classwx_dir_1a51eb3dd2adf86bfa977aa94526242536" kindref="member">Open()</ref> may be called again to reopen it later.</para><para><simplesect kind="since"><para>2.9.5 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/dir.h" line="197" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_dir_1a4ee4baf73377f307d11a5a9a2d37fa54" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxDir::GetFirst</definition>
+        <argsstring>(wxString *filename, const wxString &amp;filespec=wxEmptyString, int flags=wxDIR_DEFAULT) const</argsstring>
+        <name>GetFirst</name>
+        <param>
+          <type><ref refid="classwx_string" kindref="compound">wxString</ref> *</type>
+          <declname>filename</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>filespec</declname>
+          <defval><ref refid="interface_2wx_2string_8h_1a9a321d587166a30017b608dd2d234033" kindref="member">wxEmptyString</ref></defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>flags</declname>
+          <defval><ref refid="dir_8h_1aa45988fae9ce0d0c4f8312a6cf026232aa9bf30b24c5c95df5135e564ed08b147" kindref="member">wxDIR_DEFAULT</ref></defval>
+        </param>
+        <briefdescription>
+<para>Start enumerating all files matching <emphasis>filespec</emphasis> (or all files if it is empty) and <emphasis>flags</emphasis>, return true on success. </para>        </briefdescription>
+        <detaileddescription>
+<para>See <ref refid="dir_8h_1aa45988fae9ce0d0c4f8312a6cf026232" kindref="member">wxDirFlags</ref> for the list of the possible flags. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/dir.h" line="247" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_dir_1aa8cfcde3fbbcb267d99404665db2a956" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_string" kindref="compound">wxString</ref></type>
+        <definition>wxString wxDir::GetName</definition>
+        <argsstring>() const</argsstring>
+        <name>GetName</name>
+        <briefdescription>
+<para>Returns the name of the directory itself. </para>        </briefdescription>
+        <detaileddescription>
+<para>The returned string does not have the trailing path separator (slash or backslash).</para><para>Notice that in spite of this the last character of the returned string can still be the path separator if this directory is the root one. Because of this, don&apos;t append <computeroutput>wxFILE_SEP_PATH</computeroutput> to the returned value if you do need a slash-terminated directory name but use <ref refid="classwx_dir_1aaf2e46210b2be8f8c270b8f7fb6d86b6" kindref="member">GetNameWithSep()</ref> instead to avoid having duplicate consecutive slashes. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/dir.h" line="263" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_dir_1aaf2e46210b2be8f8c270b8f7fb6d86b6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_string" kindref="compound">wxString</ref></type>
+        <definition>wxString wxDir::GetNameWithSep</definition>
+        <argsstring>() const</argsstring>
+        <name>GetNameWithSep</name>
+        <briefdescription>
+<para>Returns the name of the directory with the path separator appended. </para>        </briefdescription>
+        <detaileddescription>
+<para>The last character of the returned string is always <computeroutput>wxFILE_SEP_PATH</computeroutput> unless the string is empty, indicating that this directory is invalid.</para><para><simplesect kind="see"><para><ref refid="classwx_dir_1aa8cfcde3fbbcb267d99404665db2a956" kindref="member">GetName()</ref></para></simplesect>
+<simplesect kind="since"><para>2.9.4 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/dir.h" line="275" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_dir_1aebdc17cc0ae84b323f302ceb1bcc4373" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxDir::GetNext</definition>
+        <argsstring>(wxString *filename) const</argsstring>
+        <name>GetNext</name>
+        <param>
+          <type><ref refid="classwx_string" kindref="compound">wxString</ref> *</type>
+          <declname>filename</declname>
+        </param>
+        <briefdescription>
+<para>Continue enumerating files which satisfy the criteria specified by the last call to <ref refid="classwx_dir_1a4ee4baf73377f307d11a5a9a2d37fa54" kindref="member">GetFirst()</ref>. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/dir.h" line="281" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_dir_1ad5b2271fe5a69bcc04bb5ec75b5c24c1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxDir::HasFiles</definition>
+        <argsstring>(const wxString &amp;filespec=wxEmptyString) const</argsstring>
+        <name>HasFiles</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>filespec</declname>
+          <defval><ref refid="interface_2wx_2string_8h_1a9a321d587166a30017b608dd2d234033" kindref="member">wxEmptyString</ref></defval>
+        </param>
+        <briefdescription>
+<para>Returns true if the directory contains any files matching the given <emphasis>filespec</emphasis>. </para>        </briefdescription>
+        <detaileddescription>
+<para>If <emphasis>filespec</emphasis> is empty, look for any files at all. In any case, even hidden files are taken into account. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/dir.h" line="305" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_dir_1aa6aba3500da337fecef0bb7214dcef0c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxDir::HasSubDirs</definition>
+        <argsstring>(const wxString &amp;dirspec=wxEmptyString) const</argsstring>
+        <name>HasSubDirs</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>dirspec</declname>
+          <defval><ref refid="interface_2wx_2string_8h_1a9a321d587166a30017b608dd2d234033" kindref="member">wxEmptyString</ref></defval>
+        </param>
+        <briefdescription>
+<para>Returns true if the directory contains any subdirectories (if a non empty <emphasis>filespec</emphasis> is given, only check for directories matching it). </para>        </briefdescription>
+        <detaileddescription>
+<para>The hidden subdirectories are taken into account as well. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/dir.h" line="312" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_dir_1af041831b8b2835e5e0dd4db8fcff9277" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxDir::IsOpened</definition>
+        <argsstring>() const</argsstring>
+        <name>IsOpened</name>
+        <briefdescription>
+<para>Returns true if the directory was successfully opened by a previous call to <ref refid="classwx_dir_1a51eb3dd2adf86bfa977aa94526242536" kindref="member">Open()</ref>. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/dir.h" line="318" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_dir_1a51eb3dd2adf86bfa977aa94526242536" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxDir::Open</definition>
+        <argsstring>(const wxString &amp;dir)</argsstring>
+        <name>Open</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>dir</declname>
+        </param>
+        <briefdescription>
+<para>Open the directory for enumerating, returns true on success or false if an error occurred. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/dir.h" line="333" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_dir_1aad331408428c3fdb2f78add5eec7b022" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t wxDir::Traverse</definition>
+        <argsstring>(wxDirTraverser &amp;sink, const wxString &amp;filespec=wxEmptyString, int flags=wxDIR_DEFAULT) const</argsstring>
+        <name>Traverse</name>
+        <param>
+          <type><ref refid="classwx_dir_traverser" kindref="compound">wxDirTraverser</ref> &amp;</type>
+          <declname>sink</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>filespec</declname>
+          <defval><ref refid="interface_2wx_2string_8h_1a9a321d587166a30017b608dd2d234033" kindref="member">wxEmptyString</ref></defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>flags</declname>
+          <defval><ref refid="dir_8h_1aa45988fae9ce0d0c4f8312a6cf026232aa9bf30b24c5c95df5135e564ed08b147" kindref="member">wxDIR_DEFAULT</ref></defval>
+        </param>
+        <briefdescription>
+<para>Enumerate all files and directories under the given directory. </para>        </briefdescription>
+        <detaileddescription>
+<para>If <emphasis>flags</emphasis> contains <ref refid="dir_8h_1aa45988fae9ce0d0c4f8312a6cf026232af881be92c5a0289778803f3f45ad1f8d" kindref="member">wxDIR_DIRS</ref> this enumeration is recursive, i.e. all the subdirectories of the given one and the files inside them will be traversed. Otherwise only the files in this directory itself are.</para><para>If <emphasis>flags</emphasis> doesn&apos;t contain <ref refid="dir_8h_1aa45988fae9ce0d0c4f8312a6cf026232a0f5850a0da2466b891dfd7b4ecc48b23" kindref="member">wxDIR_FILES</ref> then only subdirectories are examined but not normal files. It doesn&apos;t make sense to not specify either <ref refid="dir_8h_1aa45988fae9ce0d0c4f8312a6cf026232af881be92c5a0289778803f3f45ad1f8d" kindref="member">wxDIR_DIRS</ref> or <ref refid="dir_8h_1aa45988fae9ce0d0c4f8312a6cf026232a0f5850a0da2466b891dfd7b4ecc48b23" kindref="member">wxDIR_FILES</ref> and usually both of them should be specified, as is the case by default.</para><para>For each directory found, <ref refid="classwx_dir_traverser_1a1a63d55b08f7da5c39269f649db32aeb" kindref="member">sink.OnDir()</ref> is called and <ref refid="classwx_dir_traverser_1ad51354154a38c89d288a933866501ea8" kindref="member">sink.OnFile()</ref> is called for every file. Depending on the return value, the enumeration may continue or stop. If entering a subdirectory fails, <ref refid="classwx_dir_traverser_1a0cf17e9c925c17bef9e77bbc185c90a7" kindref="member">sink.OnOpenError()</ref> is called.</para><para>The function returns the total number of files found or <computeroutput>&quot;(size_t)-1&quot;</computeroutput> on error.</para><para>See <ref refid="dir_8h_1aa45988fae9ce0d0c4f8312a6cf026232" kindref="member">wxDirFlags</ref> for the full list of the possible flags.</para><para><simplesect kind="see"><para><ref refid="classwx_dir_1adf11b6104db3ff8c17902328d0ada848" kindref="member">GetAllFiles()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/dir.h" line="368" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classwx_dir_1ae03564ab50b6b83947f34477d89f0866" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool wxDir::Exists</definition>
+        <argsstring>(const wxString &amp;dir)</argsstring>
+        <name>Exists</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>dir</declname>
+        </param>
+        <briefdescription>
+<para>Test for existence of a directory with the given name. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/dir.h" line="202" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_dir_1a7f61cb07fa58cff063b8acdcaa015bdd" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_string" kindref="compound">wxString</ref></type>
+        <definition>static wxString wxDir::FindFirst</definition>
+        <argsstring>(const wxString &amp;dirname, const wxString &amp;filespec, int flags=wxDIR_DEFAULT)</argsstring>
+        <name>FindFirst</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>dirname</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>filespec</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>flags</declname>
+          <defval><ref refid="dir_8h_1aa45988fae9ce0d0c4f8312a6cf026232aa9bf30b24c5c95df5135e564ed08b147" kindref="member">wxDIR_DEFAULT</ref></defval>
+        </param>
+        <briefdescription>
+<para>The function returns the path of the first file matching the given <emphasis>filespec</emphasis> or an empty string if there are no files matching it. </para>        </briefdescription>
+        <detaileddescription>
+<para>The <emphasis>flags</emphasis> parameter may or may not include <ref refid="dir_8h_1aa45988fae9ce0d0c4f8312a6cf026232a0f5850a0da2466b891dfd7b4ecc48b23" kindref="member">wxDIR_FILES</ref>, the function always behaves as if it were specified. By default, <emphasis>flags</emphasis> includes <ref refid="dir_8h_1aa45988fae9ce0d0c4f8312a6cf026232af881be92c5a0289778803f3f45ad1f8d" kindref="member">wxDIR_DIRS</ref> and so the function recurses into the subdirectories but if this flag is not specified, the function restricts the search only to the directory <emphasis>dirname</emphasis> itself. See <ref refid="dir_8h_1aa45988fae9ce0d0c4f8312a6cf026232" kindref="member">wxDirFlags</ref> for the list of the possible flags.</para><para><simplesect kind="see"><para><ref refid="classwx_dir_1aad331408428c3fdb2f78add5eec7b022" kindref="member">Traverse()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/dir.h" line="217" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_dir_1adf11b6104db3ff8c17902328d0ada848" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>size_t</type>
+        <definition>static size_t wxDir::GetAllFiles</definition>
+        <argsstring>(const wxString &amp;dirname, wxArrayString *files, const wxString &amp;filespec=wxEmptyString, int flags=wxDIR_DEFAULT)</argsstring>
+        <name>GetAllFiles</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>dirname</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_array_string" kindref="compound">wxArrayString</ref> *</type>
+          <declname>files</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>filespec</declname>
+          <defval><ref refid="interface_2wx_2string_8h_1a9a321d587166a30017b608dd2d234033" kindref="member">wxEmptyString</ref></defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>flags</declname>
+          <defval><ref refid="dir_8h_1aa45988fae9ce0d0c4f8312a6cf026232aa9bf30b24c5c95df5135e564ed08b147" kindref="member">wxDIR_DEFAULT</ref></defval>
+        </param>
+        <briefdescription>
+<para>The function appends the names of all the files under directory <emphasis>dirname</emphasis> to the array <emphasis>files</emphasis> (note that its old content is preserved). </para>        </briefdescription>
+        <detaileddescription>
+<para>Only files matching the <emphasis>filespec</emphasis> are taken, with empty spec matching all the files.</para><para>The <emphasis>flags</emphasis> parameter should always include <ref refid="dir_8h_1aa45988fae9ce0d0c4f8312a6cf026232a0f5850a0da2466b891dfd7b4ecc48b23" kindref="member">wxDIR_FILES</ref> or the array would be unchanged and should include <ref refid="dir_8h_1aa45988fae9ce0d0c4f8312a6cf026232af881be92c5a0289778803f3f45ad1f8d" kindref="member">wxDIR_DIRS</ref> flag to recurse into subdirectories (both flags are included in the value by default). See <ref refid="dir_8h_1aa45988fae9ce0d0c4f8312a6cf026232" kindref="member">wxDirFlags</ref> for the list of the possible flags.</para><para><simplesect kind="return"><para>Returns the total number of files found while traversing the directory <emphasis>dirname</emphasis> (i.e. the number of entries appended to the <emphasis>files</emphasis> array).</para></simplesect>
+<simplesect kind="see"><para><ref refid="classwx_dir_1aad331408428c3fdb2f78add5eec7b022" kindref="member">Traverse()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/dir.h" line="238" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_dir_1acec31249ed7a4dd2d36e8e1011f4ac16" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_u_long_long" kindref="compound">wxULongLong</ref></type>
+        <definition>static wxULongLong wxDir::GetTotalSize</definition>
+        <argsstring>(const wxString &amp;dir, wxArrayString *filesSkipped=NULL)</argsstring>
+        <name>GetTotalSize</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>dir</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_array_string" kindref="compound">wxArrayString</ref> *</type>
+          <declname>filesSkipped</declname>
+          <defval>NULL</defval>
+        </param>
+        <briefdescription>
+<para>Returns the size (in bytes) of all files recursively found in <computeroutput>dir</computeroutput> or <computeroutput>wxInvalidSize</computeroutput> in case of error. </para>        </briefdescription>
+        <detaileddescription>
+<para>In case it happens that while traversing folders a file&apos;s size cannot be read, that file is added to the <emphasis>filesSkipped</emphasis> array, if not NULL, and then skipped. This usually happens with some special folders which are locked by the operating system or by another process. Remember that when the size of <emphasis>filesSkipped</emphasis> is not zero, then the returned value is not 100% accurate and, if the skipped files were big, it could be far from real size of the directory.</para><para><simplesect kind="see"><para><ref refid="classwx_file_name_1ab9ade6d6f9dc732fda789992e238cdc6" kindref="member">wxFileName::GetHumanReadableSize()</ref>, <ref refid="group__group__funcmacro__file_1gab94c2e0044fd40d901ac250be547d0da" kindref="member">wxGetDiskSpace()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/dir.h" line="297" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_dir_1a97ee8e2dc2154b14bcd4b2f78cb5733d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool wxDir::Make</definition>
+        <argsstring>(const wxString &amp;dir, int perm=wxS_DIR_DEFAULT, int flags=0)</argsstring>
+        <name>Make</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>dir</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>perm</declname>
+          <defval><ref refid="group__group__funcmacro__file_1gga64460401fb35c137c9df28f3c019694da5508d32ba8e3138121f604e731c7f096" kindref="member">wxS_DIR_DEFAULT</ref></defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>flags</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>Creates a directory. </para>        </briefdescription>
+        <detaileddescription>
+<para>This is just an alias for <ref refid="classwx_file_name_1aa6cc6ee8389c6ce4f94fffa6bdf94b17" kindref="member">wxFileName::Mkdir()</ref>; refer to that function for more info. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/dir.h" line="326" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_dir_1ac72c21a6fc1a1f1e681be21e6538b034" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool wxDir::Remove</definition>
+        <argsstring>(const wxString &amp;dir, int flags=0)</argsstring>
+        <name>Remove</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>dir</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>flags</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>Removes a directory. </para>        </briefdescription>
+        <detaileddescription>
+<para>This is just an alias for <ref refid="classwx_file_name_1a55d5f2f9af1a6430a74dfd75ec538028" kindref="member">wxFileName::Rmdir()</ref>; refer to that function for more info. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/dir.h" line="341" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="classwx_dir" kindref="compound">wxDir</ref> is a portable equivalent of Unix open/read/closedir functions which allow enumerating of the files in a directory. </para>    </briefdescription>
+    <detaileddescription>
+<para><ref refid="classwx_dir" kindref="compound">wxDir</ref> allows to enumerate files as well as directories.</para><para><ref refid="classwx_dir" kindref="compound">wxDir</ref> also provides a flexible way to enumerate files recursively using <ref refid="classwx_dir_1aad331408428c3fdb2f78add5eec7b022" kindref="member">Traverse()</ref> or a simpler <ref refid="classwx_dir_1adf11b6104db3ff8c17902328d0ada848" kindref="member">GetAllFiles()</ref> function.</para><para>Example of use:</para><para><programlisting><codeline><highlight class="normal">wxDir<sp/>dir(wxGetCwd());</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">if<sp/>(<sp/>!dir.IsOpened()<sp/>)</highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>//<sp/>deal<sp/>with<sp/>the<sp/>error<sp/>here<sp/>-<sp/>wxDir<sp/>would<sp/>already<sp/>log<sp/>an<sp/>error<sp/>message</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>//<sp/>explaining<sp/>the<sp/>exact<sp/>reason<sp/>of<sp/>the<sp/>failure</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>return;</highlight></codeline>
+<codeline><highlight class="normal">}</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">puts(&quot;Enumerating<sp/>object<sp/>files<sp/>in<sp/>current<sp/>directory:&quot;);</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">wxString<sp/>filename;</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">bool<sp/>cont<sp/>=<sp/>dir.GetFirst(&amp;filename,<sp/>filespec,<sp/>flags);</highlight></codeline>
+<codeline><highlight class="normal">while<sp/>(<sp/>cont<sp/>)</highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>printf(&quot;%s\n&quot;,<sp/>filename.c_str());</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>cont<sp/>=<sp/>dir.GetNext(&amp;filename);</highlight></codeline>
+<codeline><highlight class="normal">}</highlight></codeline>
+</programlisting></para><para><heading level="2"></heading>
+</para><para>Library:<nonbreakablespace/><nonbreakablespace/><ref refid="page_libs_1page_libs_wxbase" kindref="member">wxBase</ref> &lt;&gt;&lt; =&apos;&apos;&gt;:&lt;/&gt;&amp;;&amp;;&lt; =&apos;&apos;&gt;\ &lt;/&gt;&lt;/&gt; </para>    </detaileddescription>
+    <location file="interface/wx/dir.h" line="170" column="1" bodyfile="interface/wx/dir.h" bodystart="169" bodyend="371"/>
+    <listofallmembers>
+      <member refid="classwx_dir_1af7d9e9270887b36b7258c9206b5c4dcf" prot="public" virt="non-virtual"><scope>wxDir</scope><name>Close</name></member>
+      <member refid="classwx_dir_1ae03564ab50b6b83947f34477d89f0866" prot="public" virt="non-virtual"><scope>wxDir</scope><name>Exists</name></member>
+      <member refid="classwx_dir_1a7f61cb07fa58cff063b8acdcaa015bdd" prot="public" virt="non-virtual"><scope>wxDir</scope><name>FindFirst</name></member>
+      <member refid="classwx_dir_1adf11b6104db3ff8c17902328d0ada848" prot="public" virt="non-virtual"><scope>wxDir</scope><name>GetAllFiles</name></member>
+      <member refid="classwx_dir_1a4ee4baf73377f307d11a5a9a2d37fa54" prot="public" virt="non-virtual"><scope>wxDir</scope><name>GetFirst</name></member>
+      <member refid="classwx_dir_1aa8cfcde3fbbcb267d99404665db2a956" prot="public" virt="non-virtual"><scope>wxDir</scope><name>GetName</name></member>
+      <member refid="classwx_dir_1aaf2e46210b2be8f8c270b8f7fb6d86b6" prot="public" virt="non-virtual"><scope>wxDir</scope><name>GetNameWithSep</name></member>
+      <member refid="classwx_dir_1aebdc17cc0ae84b323f302ceb1bcc4373" prot="public" virt="non-virtual"><scope>wxDir</scope><name>GetNext</name></member>
+      <member refid="classwx_dir_1acec31249ed7a4dd2d36e8e1011f4ac16" prot="public" virt="non-virtual"><scope>wxDir</scope><name>GetTotalSize</name></member>
+      <member refid="classwx_dir_1ad5b2271fe5a69bcc04bb5ec75b5c24c1" prot="public" virt="non-virtual"><scope>wxDir</scope><name>HasFiles</name></member>
+      <member refid="classwx_dir_1aa6aba3500da337fecef0bb7214dcef0c" prot="public" virt="non-virtual"><scope>wxDir</scope><name>HasSubDirs</name></member>
+      <member refid="classwx_dir_1af041831b8b2835e5e0dd4db8fcff9277" prot="public" virt="non-virtual"><scope>wxDir</scope><name>IsOpened</name></member>
+      <member refid="classwx_dir_1a97ee8e2dc2154b14bcd4b2f78cb5733d" prot="public" virt="non-virtual"><scope>wxDir</scope><name>Make</name></member>
+      <member refid="classwx_dir_1a51eb3dd2adf86bfa977aa94526242536" prot="public" virt="non-virtual"><scope>wxDir</scope><name>Open</name></member>
+      <member refid="classwx_dir_1ac72c21a6fc1a1f1e681be21e6538b034" prot="public" virt="non-virtual"><scope>wxDir</scope><name>Remove</name></member>
+      <member refid="classwx_dir_1aad331408428c3fdb2f78add5eec7b022" prot="public" virt="non-virtual"><scope>wxDir</scope><name>Traverse</name></member>
+      <member refid="classwx_dir_1a724ddccbd94415322d4bda64de4358c6" prot="public" virt="non-virtual"><scope>wxDir</scope><name>wxDir</name></member>
+      <member refid="classwx_dir_1ac4d7e373292882b38ec367536a0de1d9" prot="public" virt="non-virtual"><scope>wxDir</scope><name>wxDir</name></member>
+      <member refid="classwx_dir_1a5c2ca66526b2c85ac9fba8c44b95fa16" prot="public" virt="non-virtual"><scope>wxDir</scope><name>~wxDir</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

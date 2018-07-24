@@ -1,0 +1,710 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_command_event" kind="class" language="C++" prot="public">
+    <compoundname>wxCommandEvent</compoundname>
+    <basecompoundref refid="classwx_event" prot="public" virt="non-virtual">wxEvent</basecompoundref>
+    <derivedcompoundref refid="classwx_active_x_event" prot="public" virt="non-virtual">wxActiveXEvent</derivedcompoundref>
+    <derivedcompoundref refid="classwx_child_focus_event" prot="public" virt="non-virtual">wxChildFocusEvent</derivedcompoundref>
+    <derivedcompoundref refid="classwx_clipboard_text_event" prot="public" virt="non-virtual">wxClipboardTextEvent</derivedcompoundref>
+    <derivedcompoundref refid="classwx_collapsible_pane_event" prot="public" virt="non-virtual">wxCollapsiblePaneEvent</derivedcompoundref>
+    <derivedcompoundref refid="classwx_colour_picker_event" prot="public" virt="non-virtual">wxColourPickerEvent</derivedcompoundref>
+    <derivedcompoundref refid="classwx_context_menu_event" prot="public" virt="non-virtual">wxContextMenuEvent</derivedcompoundref>
+    <derivedcompoundref refid="classwx_date_event" prot="public" virt="non-virtual">wxDateEvent</derivedcompoundref>
+    <derivedcompoundref refid="classwx_file_ctrl_event" prot="public" virt="non-virtual">wxFileCtrlEvent</derivedcompoundref>
+    <derivedcompoundref refid="classwx_file_dir_picker_event" prot="public" virt="non-virtual">wxFileDirPickerEvent</derivedcompoundref>
+    <derivedcompoundref refid="classwx_find_dialog_event" prot="public" virt="non-virtual">wxFindDialogEvent</derivedcompoundref>
+    <derivedcompoundref refid="classwx_font_picker_event" prot="public" virt="non-virtual">wxFontPickerEvent</derivedcompoundref>
+    <derivedcompoundref refid="classwx_grid_editor_created_event" prot="public" virt="non-virtual">wxGridEditorCreatedEvent</derivedcompoundref>
+    <derivedcompoundref refid="classwx_help_event" prot="public" virt="non-virtual">wxHelpEvent</derivedcompoundref>
+    <derivedcompoundref refid="classwx_html_cell_event" prot="public" virt="non-virtual">wxHtmlCellEvent</derivedcompoundref>
+    <derivedcompoundref refid="classwx_html_link_event" prot="public" virt="non-virtual">wxHtmlLinkEvent</derivedcompoundref>
+    <derivedcompoundref refid="classwx_hyperlink_event" prot="public" virt="non-virtual">wxHyperlinkEvent</derivedcompoundref>
+    <derivedcompoundref refid="classwx_notify_event" prot="public" virt="non-virtual">wxNotifyEvent</derivedcompoundref>
+    <derivedcompoundref refid="classwx_property_grid_event" prot="public" virt="non-virtual">wxPropertyGridEvent</derivedcompoundref>
+    <derivedcompoundref refid="classwx_ribbon_button_bar_event" prot="public" virt="non-virtual">wxRibbonButtonBarEvent</derivedcompoundref>
+    <derivedcompoundref refid="classwx_ribbon_gallery_event" prot="public" virt="non-virtual">wxRibbonGalleryEvent</derivedcompoundref>
+    <derivedcompoundref refid="classwx_ribbon_panel_event" prot="public" virt="non-virtual">wxRibbonPanelEvent</derivedcompoundref>
+    <derivedcompoundref refid="classwx_ribbon_tool_bar_event" prot="public" virt="non-virtual">wxRibbonToolBarEvent</derivedcompoundref>
+    <derivedcompoundref refid="classwx_sash_event" prot="public" virt="non-virtual">wxSashEvent</derivedcompoundref>
+    <derivedcompoundref refid="classwx_scroll_event" prot="public" virt="non-virtual">wxScrollEvent</derivedcompoundref>
+    <derivedcompoundref refid="classwx_styled_text_event" prot="public" virt="non-virtual">wxStyledTextEvent</derivedcompoundref>
+    <derivedcompoundref refid="classwx_text_url_event" prot="public" virt="non-virtual">wxTextUrlEvent</derivedcompoundref>
+    <derivedcompoundref refid="classwx_update_u_i_event" prot="public" virt="non-virtual">wxUpdateUIEvent</derivedcompoundref>
+    <derivedcompoundref refid="classwx_web_kit_before_load_event" prot="public" virt="non-virtual">wxWebKitBeforeLoadEvent</derivedcompoundref>
+    <derivedcompoundref refid="classwx_web_kit_new_window_event" prot="public" virt="non-virtual">wxWebKitNewWindowEvent</derivedcompoundref>
+    <derivedcompoundref refid="classwx_web_kit_state_changed_event" prot="public" virt="non-virtual">wxWebKitStateChangedEvent</derivedcompoundref>
+    <derivedcompoundref refid="classwx_window_create_event" prot="public" virt="non-virtual">wxWindowCreateEvent</derivedcompoundref>
+    <derivedcompoundref refid="classwx_window_destroy_event" prot="public" virt="non-virtual">wxWindowDestroyEvent</derivedcompoundref>
+    <derivedcompoundref refid="classwx_window_modal_dialog_event" prot="public" virt="non-virtual">wxWindowModalDialogEvent</derivedcompoundref>
+    <includes local="no">wx/event.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classwx_command_event_1aad941347872cd71fedcfc765fae7b2f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxCommandEvent::wxCommandEvent</definition>
+        <argsstring>(wxEventType commandEventType=wxEVT_NULL, int id=0)</argsstring>
+        <name>wxCommandEvent</name>
+        <param>
+          <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+          <declname>commandEventType</declname>
+          <defval><ref refid="group__group__funcmacro__events_1ga310bc3f7977ae79ac1198c7a287dbffe" kindref="member">wxEVT_NULL</ref></defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>Constructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/event.h" line="2018" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_command_event_1a85c77819c73081dab3a43bfd2fe02e6a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void *</type>
+        <definition>void* wxCommandEvent::GetClientData</definition>
+        <argsstring>() const</argsstring>
+        <name>GetClientData</name>
+        <briefdescription>
+<para>Returns client data pointer for a listbox or choice selection event (not valid for a deselection). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/event.h" line="2024" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_command_event_1adab474dc431edb70a05f470ba1b18b08" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_client_data" kindref="compound">wxClientData</ref> *</type>
+        <definition>wxClientData* wxCommandEvent::GetClientObject</definition>
+        <argsstring>() const</argsstring>
+        <name>GetClientObject</name>
+        <briefdescription>
+<para>Returns client object pointer for a listbox or choice selection event (not valid for a deselection). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/event.h" line="2030" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_command_event_1abdba7c3e93f0dbf99f5382e60e7a461a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>long</type>
+        <definition>long wxCommandEvent::GetExtraLong</definition>
+        <argsstring>() const</argsstring>
+        <name>GetExtraLong</name>
+        <briefdescription>
+<para>Returns extra information dependent on the event objects type. </para>        </briefdescription>
+        <detaileddescription>
+<para>If the event comes from a listbox selection, it is a boolean determining whether the event was a selection (true) or a deselection (false). A listbox deselection only occurs for multiple-selection boxes, and in this case the index and string values are indeterminate and the listbox must be examined by the application. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/event.h" line="2041" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_command_event_1a24ad2aab26646c762ca3092a7ffd5ccd" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int wxCommandEvent::GetInt</definition>
+        <argsstring>() const</argsstring>
+        <name>GetInt</name>
+        <briefdescription>
+<para>Returns the integer identifier corresponding to a listbox, choice or radiobox selection (only if the event was a selection, not a deselection), or a boolean value representing the value of a checkbox. </para>        </briefdescription>
+        <detaileddescription>
+<para>For a menu item, this method returns -1 if the item is not checkable or a boolean value (true or false) for checkable items indicating the new state of the item. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/event.h" line="2052" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_command_event_1a93609c04b8fd7001259efb5d65645fe6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int wxCommandEvent::GetSelection</definition>
+        <argsstring>() const</argsstring>
+        <name>GetSelection</name>
+        <briefdescription>
+<para>Returns item index for a listbox or choice selection event (not valid for a deselection). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/event.h" line="2058" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_command_event_1a6aef039e72e358840a7c20da6473e9ae" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_string" kindref="compound">wxString</ref></type>
+        <definition>wxString wxCommandEvent::GetString</definition>
+        <argsstring>() const</argsstring>
+        <name>GetString</name>
+        <briefdescription>
+<para>Returns item string for a listbox or choice selection event. </para>        </briefdescription>
+        <detaileddescription>
+<para>If one or several items have been deselected, returns the index of the first deselected item. If some items have been selected and others deselected at the same time, it will return the index of the first selected item. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/event.h" line="2066" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_command_event_1a3e5510a00ebb9fb5e7bf7dc5e89f3588" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxCommandEvent::IsChecked</definition>
+        <argsstring>() const</argsstring>
+        <name>IsChecked</name>
+        <briefdescription>
+<para>This method can be used with checkbox and menu events: for the checkboxes, the method returns true for a selection event and false for a deselection one. </para>        </briefdescription>
+        <detaileddescription>
+<para>For the menu events, this method indicates if the menu item just has become checked or unchecked (and thus only makes sense for checkable menu items).</para><para>Notice that this method cannot be used with <ref refid="classwx_check_list_box" kindref="compound">wxCheckListBox</ref> currently. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/event.h" line="2076" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_command_event_1a44f4144f027fcb7feadb4c23bcbfeb5f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxCommandEvent::IsSelection</definition>
+        <argsstring>() const</argsstring>
+        <name>IsSelection</name>
+        <briefdescription>
+<para>For a listbox or similar event, returns true if it is a selection, false if it is a deselection. </para>        </briefdescription>
+        <detaileddescription>
+<para>If some items have been selected and others deselected at the same time, it will return true. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/event.h" line="2083" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_command_event_1a1778d16766134e08cafcdb49b06855ce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxCommandEvent::SetClientData</definition>
+        <argsstring>(void *clientData)</argsstring>
+        <name>SetClientData</name>
+        <param>
+          <type>void *</type>
+          <declname>clientData</declname>
+        </param>
+        <briefdescription>
+<para>Sets the client data for this event. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/event.h" line="2088" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_command_event_1a752e5a0fb8992b062c4dec6866171586" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxCommandEvent::SetClientObject</definition>
+        <argsstring>(wxClientData *clientObject)</argsstring>
+        <name>SetClientObject</name>
+        <param>
+          <type><ref refid="classwx_client_data" kindref="compound">wxClientData</ref> *</type>
+          <declname>clientObject</declname>
+        </param>
+        <briefdescription>
+<para>Sets the client object for this event. </para>        </briefdescription>
+        <detaileddescription>
+<para>The client object is not owned by the event object and the event object will not delete the client object in its destructor.</para><para>The client object must be owned and deleted by another object (e.g. a control) that has longer life time than the event object. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/event.h" line="2097" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_command_event_1a13ac3c581b99d110bac2c6b74803d2df" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxCommandEvent::SetExtraLong</definition>
+        <argsstring>(long extraLong)</argsstring>
+        <name>SetExtraLong</name>
+        <param>
+          <type>long</type>
+          <declname>extraLong</declname>
+        </param>
+        <briefdescription>
+<para>Sets the <bold>m_extraLong</bold> member. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/event.h" line="2102" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_command_event_1aeaed91ffb1d02f07d7ea40f029f95a7c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxCommandEvent::SetInt</definition>
+        <argsstring>(int intCommand)</argsstring>
+        <name>SetInt</name>
+        <param>
+          <type>int</type>
+          <declname>intCommand</declname>
+        </param>
+        <briefdescription>
+<para>Sets the <bold>m_commandInt</bold> member. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/event.h" line="2107" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_command_event_1a06ca56ac6680fe3b3178d8abd913d450" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxCommandEvent::SetString</definition>
+        <argsstring>(const wxString &amp;string)</argsstring>
+        <name>SetString</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>string</declname>
+        </param>
+        <briefdescription>
+<para>Sets the <bold>m_commandString</bold> member. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/event.h" line="2112" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This event class contains information about command events, which originate from a variety of simple controls. </para>    </briefdescription>
+    <detaileddescription>
+<para>Note that wxCommandEvents and wxCommandEvent-derived event classes by default and unlike other wxEvent-derived classes propagate upward from the source window (the window which emits the event) up to the first parent which processes the event. Be sure to read <ref refid="overview_events_1overview_events_propagation" kindref="member">How Events Propagate Upwards</ref>.</para><para>More complex controls, such as <ref refid="classwx_tree_ctrl" kindref="compound">wxTreeCtrl</ref>, have separate command event classes.</para><para><linebreak/>
+<heading level="2">Events using this class</heading>
+</para><para>The following event handler macros redirect the events to member function handlers &apos;<bold>func</bold>&apos; with prototypes like: void<nonbreakablespace/>handlerFuncName(<ref refid="classwx_command_event" kindref="compound">wxCommandEvent</ref>&amp;<nonbreakablespace/>event)</para><para>Event macros: <itemizedlist>
+<listitem><para>EVT_COMMAND(id,  event,  func): Process a command, supplying the window identifier, command event identifier, and member function. </para></listitem>
+<listitem><para>EVT_COMMAND_RANGE(id1,  id2,  event,  func): Process a command for a range of window identifiers, supplying the minimum and maximum window identifiers, command event identifier, and member function. </para></listitem>
+<listitem><para>EVT_BUTTON(id,  func): Process a <computeroutput>wxEVT_BUTTON</computeroutput> command, which is generated by a <ref refid="classwx_button" kindref="compound">wxButton</ref> control. </para></listitem>
+<listitem><para>EVT_CHECKBOX(id,  func): Process a <computeroutput>wxEVT_CHECKBOX</computeroutput> command, which is generated by a <ref refid="classwx_check_box" kindref="compound">wxCheckBox</ref> control. </para></listitem>
+<listitem><para>EVT_CHOICE(id,  func): Process a <computeroutput>wxEVT_CHOICE</computeroutput> command, which is generated by a <ref refid="classwx_choice" kindref="compound">wxChoice</ref> control. </para></listitem>
+<listitem><para>EVT_COMBOBOX(id,  func): Process a <computeroutput>wxEVT_COMBOBOX</computeroutput> command, which is generated by a <ref refid="classwx_combo_box" kindref="compound">wxComboBox</ref> control. </para></listitem>
+<listitem><para>EVT_LISTBOX(id,  func): Process a <computeroutput>wxEVT_LISTBOX</computeroutput> command, which is generated by a <ref refid="classwx_list_box" kindref="compound">wxListBox</ref> control. </para></listitem>
+<listitem><para>EVT_LISTBOX_DCLICK(id,  func): Process a <computeroutput>wxEVT_LISTBOX_DCLICK</computeroutput> command, which is generated by a <ref refid="classwx_list_box" kindref="compound">wxListBox</ref> control. </para></listitem>
+<listitem><para>EVT_CHECKLISTBOX(id,  func): Process a <computeroutput>wxEVT_CHECKLISTBOX</computeroutput> command, which is generated by a <ref refid="classwx_check_list_box" kindref="compound">wxCheckListBox</ref> control. </para></listitem>
+<listitem><para>EVT_MENU(id,  func): Process a <computeroutput>wxEVT_MENU</computeroutput> command, which is generated by a menu item. </para></listitem>
+<listitem><para>EVT_MENU_RANGE(id1,  id2,  func): Process a <computeroutput>wxEVT_MENU</computeroutput> command, which is generated by a range of menu items. </para></listitem>
+<listitem><para>EVT_CONTEXT_MENU(func): Process the event generated when the user has requested a popup menu to appear by pressing a special keyboard key (under Windows) or by right clicking the mouse. </para></listitem>
+<listitem><para>EVT_RADIOBOX(id,  func): Process a <computeroutput>wxEVT_RADIOBOX</computeroutput> command, which is generated by a <ref refid="classwx_radio_box" kindref="compound">wxRadioBox</ref> control. </para></listitem>
+<listitem><para>EVT_RADIOBUTTON(id,  func): Process a <computeroutput>wxEVT_RADIOBUTTON</computeroutput> command, which is generated by a <ref refid="classwx_radio_button" kindref="compound">wxRadioButton</ref> control. </para></listitem>
+<listitem><para>EVT_SCROLLBAR(id,  func): Process a <computeroutput>wxEVT_SCROLLBAR</computeroutput> command, which is generated by a <ref refid="classwx_scroll_bar" kindref="compound">wxScrollBar</ref> control. This is provided for compatibility only; more specific scrollbar event macros should be used instead (see <ref refid="classwx_scroll_event" kindref="compound">wxScrollEvent</ref>). </para></listitem>
+<listitem><para>EVT_SLIDER(id,  func): Process a <computeroutput>wxEVT_SLIDER</computeroutput> command, which is generated by a <ref refid="classwx_slider" kindref="compound">wxSlider</ref> control. </para></listitem>
+<listitem><para>EVT_TEXT(id,  func): Process a <computeroutput>wxEVT_TEXT</computeroutput> command, which is generated by a <ref refid="classwx_text_ctrl" kindref="compound">wxTextCtrl</ref> control. </para></listitem>
+<listitem><para>EVT_TEXT_ENTER(id,  func): Process a <computeroutput>wxEVT_TEXT_ENTER</computeroutput> command, which is generated by a <ref refid="classwx_text_ctrl" kindref="compound">wxTextCtrl</ref> control. Note that you must use wxTE_PROCESS_ENTER flag when creating the control if you want it to generate such events. </para></listitem>
+<listitem><para>EVT_TEXT_MAXLEN(id,  func): Process a <computeroutput>wxEVT_TEXT_MAXLEN</computeroutput> command, which is generated by a <ref refid="classwx_text_ctrl" kindref="compound">wxTextCtrl</ref> control when the user tries to enter more characters into it than the limit previously set with SetMaxLength(). </para></listitem>
+<listitem><para>EVT_TOGGLEBUTTON(id,  func): Process a <computeroutput>wxEVT_TOGGLEBUTTON</computeroutput> event. </para></listitem>
+<listitem><para>EVT_TOOL(id,  func): Process a <computeroutput>wxEVT_TOOL</computeroutput> event (a synonym for <computeroutput>wxEVT_MENU</computeroutput>). Pass the id of the tool. </para></listitem>
+<listitem><para>EVT_TOOL_RANGE(id1,  id2,  func): Process a <computeroutput>wxEVT_TOOL</computeroutput> event for a range of identifiers. Pass the ids of the tools. </para></listitem>
+<listitem><para>EVT_TOOL_RCLICKED(id,  func): Process a <computeroutput>wxEVT_TOOL_RCLICKED</computeroutput> event. Pass the id of the tool. (Not available on wxOSX.) </para></listitem>
+<listitem><para>EVT_TOOL_RCLICKED_RANGE(id1,  id2,  func): Process a <computeroutput>wxEVT_TOOL_RCLICKED</computeroutput> event for a range of ids. Pass the ids of the tools. (Not available on wxOSX.) </para></listitem>
+<listitem><para>EVT_TOOL_ENTER(id,  func): Process a <computeroutput>wxEVT_TOOL_ENTER</computeroutput> event. Pass the id of the toolbar itself. The value of <ref refid="classwx_command_event_1a93609c04b8fd7001259efb5d65645fe6" kindref="member">wxCommandEvent::GetSelection()</ref> is the tool id, or -1 if the mouse cursor has moved off a tool. (Not available on wxOSX.) </para></listitem>
+<listitem><para>EVT_COMMAND_LEFT_CLICK(id,  func): Process a <computeroutput>wxEVT_COMMAND_LEFT_CLICK</computeroutput> command, which is generated by a control (wxMSW only). </para></listitem>
+<listitem><para>EVT_COMMAND_LEFT_DCLICK(id,  func): Process a <computeroutput>wxEVT_COMMAND_LEFT_DCLICK</computeroutput> command, which is generated by a control (wxMSW only). </para></listitem>
+<listitem><para>EVT_COMMAND_RIGHT_CLICK(id,  func): Process a <computeroutput>wxEVT_COMMAND_RIGHT_CLICK</computeroutput> command, which is generated by a control (wxMSW only). </para></listitem>
+<listitem><para>EVT_COMMAND_SET_FOCUS(id,  func): Process a <computeroutput>wxEVT_COMMAND_SET_FOCUS</computeroutput> command, which is generated by a control (wxMSW only). </para></listitem>
+<listitem><para>EVT_COMMAND_KILL_FOCUS(id,  func): Process a <computeroutput>wxEVT_COMMAND_KILL_FOCUS</computeroutput> command, which is generated by a control (wxMSW only). </para></listitem>
+<listitem><para>EVT_COMMAND_ENTER(id,  func): Process a <computeroutput>wxEVT_COMMAND_ENTER</computeroutput> command, which is generated by a control. <linebreak/>
+ <heading level="2"></heading>
+</para></listitem>
+</itemizedlist>
+Library:<nonbreakablespace/><nonbreakablespace/><ref refid="page_libs_1page_libs_wxcore" kindref="member">wxCore</ref> &lt;&gt;&lt; =&apos;&apos;&gt;:&lt;/&gt;&amp;;&amp;;&lt; =&apos;&apos;&gt;\ &lt;/&gt;&lt;/&gt; </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="1015">
+        <label>wxHtmlLinkEvent</label>
+        <link refid="classwx_html_link_event"/>
+        <childnode refid="997" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1002">
+        <label>wxClipboardTextEvent</label>
+        <link refid="classwx_clipboard_text_event"/>
+        <childnode refid="997" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1028">
+        <label>wxRibbonBarEvent</label>
+        <link refid="classwx_ribbon_bar_event"/>
+        <childnode refid="1017" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1038">
+        <label>wxRibbonButtonBarEvent</label>
+        <link refid="classwx_ribbon_button_bar_event"/>
+        <childnode refid="997" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1005">
+        <label>wxContextMenuEvent</label>
+        <link refid="classwx_context_menu_event"/>
+        <childnode refid="997" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="999">
+        <label>wxObject</label>
+        <link refid="classwx_object"/>
+      </node>
+      <node id="1014">
+        <label>wxHtmlCellEvent</label>
+        <link refid="classwx_html_cell_event"/>
+        <childnode refid="997" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1021">
+        <label>wxDataViewEvent</label>
+        <link refid="classwx_data_view_event"/>
+        <childnode refid="1017" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1043">
+        <label>wxScrollEvent</label>
+        <link refid="classwx_scroll_event"/>
+        <childnode refid="997" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1046">
+        <label>wxUpdateUIEvent</label>
+        <link refid="classwx_update_u_i_event"/>
+        <childnode refid="997" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="997">
+        <label>wxCommandEvent</label>
+        <link refid="classwx_command_event"/>
+        <childnode refid="998" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1009">
+        <label>wxFileDirPickerEvent</label>
+        <link refid="classwx_file_dir_picker_event"/>
+        <childnode refid="997" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1024">
+        <label>wxGridSizeEvent</label>
+        <link refid="classwx_grid_size_event"/>
+        <childnode refid="1017" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1016">
+        <label>wxHyperlinkEvent</label>
+        <link refid="classwx_hyperlink_event"/>
+        <childnode refid="997" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1041">
+        <label>wxRibbonToolBarEvent</label>
+        <link refid="classwx_ribbon_tool_bar_event"/>
+        <childnode refid="997" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1034">
+        <label>wxTreeListEvent</label>
+        <link refid="classwx_tree_list_event"/>
+        <childnode refid="1017" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1010">
+        <label>wxFindDialogEvent</label>
+        <link refid="classwx_find_dialog_event"/>
+        <childnode refid="997" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1052">
+        <label>wxWindowModalDialogEvent</label>
+        <link refid="classwx_window_modal_dialog_event"/>
+        <childnode refid="997" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1027">
+        <label>wxMediaEvent</label>
+        <link refid="classwx_media_event"/>
+        <childnode refid="1017" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1026">
+        <label>wxListEvent</label>
+        <link refid="classwx_list_event"/>
+        <childnode refid="1017" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1019">
+        <label>wxBookCtrlEvent</label>
+        <link refid="classwx_book_ctrl_event"/>
+        <childnode refid="1017" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1032">
+        <label>wxSplitterEvent</label>
+        <link refid="classwx_splitter_event"/>
+        <childnode refid="1017" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1000">
+        <label>wxActiveXEvent</label>
+        <link refid="classwx_active_x_event"/>
+        <childnode refid="997" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1040">
+        <label>wxRibbonPanelEvent</label>
+        <link refid="classwx_ribbon_panel_event"/>
+        <childnode refid="997" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1036">
+        <label>wxWizardEvent</label>
+        <link refid="classwx_wizard_event"/>
+        <childnode refid="1017" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1030">
+        <label>wxSpinDoubleEvent</label>
+        <link refid="classwx_spin_double_event"/>
+        <childnode refid="1017" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1006">
+        <label>wxDateEvent</label>
+        <link refid="classwx_date_event"/>
+        <childnode refid="997" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1011">
+        <label>wxFontPickerEvent</label>
+        <link refid="classwx_font_picker_event"/>
+        <childnode refid="997" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1012">
+        <label>wxGridEditorCreatedEvent</label>
+        <link refid="classwx_grid_editor_created_event"/>
+        <childnode refid="997" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1045">
+        <label>wxTextUrlEvent</label>
+        <link refid="classwx_text_url_event"/>
+        <childnode refid="997" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1004">
+        <label>wxColourPickerEvent</label>
+        <link refid="classwx_colour_picker_event"/>
+        <childnode refid="997" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1042">
+        <label>wxSashEvent</label>
+        <link refid="classwx_sash_event"/>
+        <childnode refid="997" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1022">
+        <label>wxGridEvent</label>
+        <link refid="classwx_grid_event"/>
+        <childnode refid="1017" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1035">
+        <label>wxWebViewEvent</label>
+        <link refid="classwx_web_view_event"/>
+        <childnode refid="1017" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1039">
+        <label>wxRibbonGalleryEvent</label>
+        <link refid="classwx_ribbon_gallery_event"/>
+        <childnode refid="997" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1017">
+        <label>wxNotifyEvent</label>
+        <link refid="classwx_notify_event"/>
+        <childnode refid="997" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1001">
+        <label>wxChildFocusEvent</label>
+        <link refid="classwx_child_focus_event"/>
+        <childnode refid="997" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1044">
+        <label>wxStyledTextEvent</label>
+        <link refid="classwx_styled_text_event"/>
+        <childnode refid="997" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1023">
+        <label>wxGridRangeSelectEvent</label>
+        <link refid="classwx_grid_range_select_event"/>
+        <childnode refid="1017" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1031">
+        <label>wxSpinEvent</label>
+        <link refid="classwx_spin_event"/>
+        <childnode refid="1017" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1007">
+        <label>wxCalendarEvent</label>
+        <link refid="classwx_calendar_event"/>
+        <childnode refid="1006" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1050">
+        <label>wxWindowCreateEvent</label>
+        <link refid="classwx_window_create_event"/>
+        <childnode refid="997" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1018">
+        <label>wxAuiToolBarEvent</label>
+        <link refid="classwx_aui_tool_bar_event"/>
+        <childnode refid="1017" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1048">
+        <label>wxWebKitNewWindowEvent</label>
+        <link refid="classwx_web_kit_new_window_event"/>
+        <childnode refid="997" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1049">
+        <label>wxWebKitStateChangedEvent</label>
+        <link refid="classwx_web_kit_state_changed_event"/>
+        <childnode refid="997" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1025">
+        <label>wxHeaderCtrlEvent</label>
+        <link refid="classwx_header_ctrl_event"/>
+        <childnode refid="1017" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1020">
+        <label>wxAuiNotebookEvent</label>
+        <link refid="classwx_aui_notebook_event"/>
+        <childnode refid="1019" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1037">
+        <label>wxPropertyGridEvent</label>
+        <link refid="classwx_property_grid_event"/>
+        <childnode refid="997" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1003">
+        <label>wxCollapsiblePaneEvent</label>
+        <link refid="classwx_collapsible_pane_event"/>
+        <childnode refid="997" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1029">
+        <label>wxRichTextEvent</label>
+        <link refid="classwx_rich_text_event"/>
+        <childnode refid="1017" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1033">
+        <label>wxTreeEvent</label>
+        <link refid="classwx_tree_event"/>
+        <childnode refid="1017" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="998">
+        <label>wxEvent</label>
+        <link refid="classwx_event"/>
+        <childnode refid="999" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1047">
+        <label>wxWebKitBeforeLoadEvent</label>
+        <link refid="classwx_web_kit_before_load_event"/>
+        <childnode refid="997" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1008">
+        <label>wxFileCtrlEvent</label>
+        <link refid="classwx_file_ctrl_event"/>
+        <childnode refid="997" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1013">
+        <label>wxHelpEvent</label>
+        <link refid="classwx_help_event"/>
+        <childnode refid="997" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1051">
+        <label>wxWindowDestroyEvent</label>
+        <link refid="classwx_window_destroy_event"/>
+        <childnode refid="997" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1055">
+        <label>wxObject</label>
+        <link refid="classwx_object"/>
+        <childnode refid="1056" relation="usage">
+          <edgelabel>m_refData</edgelabel>
+        </childnode>
+      </node>
+      <node id="1053">
+        <label>wxCommandEvent</label>
+        <link refid="classwx_command_event"/>
+        <childnode refid="1054" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1054">
+        <label>wxEvent</label>
+        <link refid="classwx_event"/>
+        <childnode refid="1055" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1056">
+        <label>wxObjectRefData</label>
+        <link refid="classwx_object_ref_data"/>
+      </node>
+    </collaborationgraph>
+    <location file="interface/wx/event.h" line="2013" column="1" bodyfile="interface/wx/event.h" bodystart="2012" bodyend="2113"/>
+    <listofallmembers>
+      <member refid="classwx_object_1a60204063f3cc3aa2fa1c7ff5bda9eb13" prot="protected" virt="non-virtual"><scope>wxCommandEvent</scope><name>AllocExclusive</name></member>
+      <member refid="classwx_event_1a26878097a702e8d0368da150125d4158" prot="public" virt="pure-virtual"><scope>wxCommandEvent</scope><name>Clone</name></member>
+      <member refid="classwx_object_1a436fc8fe68cf8a31000296d9cd3d2427" prot="protected" virt="virtual"><scope>wxCommandEvent</scope><name>CloneRefData</name></member>
+      <member refid="classwx_object_1a3f4f497c65cef611e121c41f21dd5ccc" prot="protected" virt="virtual"><scope>wxCommandEvent</scope><name>CreateRefData</name></member>
+      <member refid="classwx_object_1ae6d365f2556b26767ced8410c5e839d0" prot="public" virt="virtual"><scope>wxCommandEvent</scope><name>GetClassInfo</name></member>
+      <member refid="classwx_command_event_1a85c77819c73081dab3a43bfd2fe02e6a" prot="public" virt="non-virtual"><scope>wxCommandEvent</scope><name>GetClientData</name></member>
+      <member refid="classwx_command_event_1adab474dc431edb70a05f470ba1b18b08" prot="public" virt="non-virtual"><scope>wxCommandEvent</scope><name>GetClientObject</name></member>
+      <member refid="classwx_event_1ac4958ff6ec32b7f4b23066932d611131" prot="public" virt="virtual"><scope>wxCommandEvent</scope><name>GetEventCategory</name></member>
+      <member refid="classwx_event_1a424a4ffaaaf95164d8952ef9ab2ef444" prot="public" virt="non-virtual"><scope>wxCommandEvent</scope><name>GetEventObject</name></member>
+      <member refid="classwx_event_1a01c89719ef6241a6e612a313a259c1c2" prot="public" virt="non-virtual"><scope>wxCommandEvent</scope><name>GetEventType</name></member>
+      <member refid="classwx_event_1ae7d3e088f0f165ad0421717dd33e4460" prot="public" virt="non-virtual"><scope>wxCommandEvent</scope><name>GetEventUserData</name></member>
+      <member refid="classwx_command_event_1abdba7c3e93f0dbf99f5382e60e7a461a" prot="public" virt="non-virtual"><scope>wxCommandEvent</scope><name>GetExtraLong</name></member>
+      <member refid="classwx_event_1ac5fa5c10d4845d903e58026a42b403c7" prot="public" virt="non-virtual"><scope>wxCommandEvent</scope><name>GetId</name></member>
+      <member refid="classwx_command_event_1a24ad2aab26646c762ca3092a7ffd5ccd" prot="public" virt="non-virtual"><scope>wxCommandEvent</scope><name>GetInt</name></member>
+      <member refid="classwx_object_1af3c6c76a775864832f1536d3c0de3a2b" prot="public" virt="non-virtual"><scope>wxCommandEvent</scope><name>GetRefData</name></member>
+      <member refid="classwx_command_event_1a93609c04b8fd7001259efb5d65645fe6" prot="public" virt="non-virtual"><scope>wxCommandEvent</scope><name>GetSelection</name></member>
+      <member refid="classwx_event_1aa770dbcd0f1714ba097836af6534b4c5" prot="public" virt="non-virtual"><scope>wxCommandEvent</scope><name>GetSkipped</name></member>
+      <member refid="classwx_command_event_1a6aef039e72e358840a7c20da6473e9ae" prot="public" virt="non-virtual"><scope>wxCommandEvent</scope><name>GetString</name></member>
+      <member refid="classwx_event_1a48662230971127737d2500cef7be549d" prot="public" virt="non-virtual"><scope>wxCommandEvent</scope><name>GetTimestamp</name></member>
+      <member refid="classwx_command_event_1a3e5510a00ebb9fb5e7bf7dc5e89f3588" prot="public" virt="non-virtual"><scope>wxCommandEvent</scope><name>IsChecked</name></member>
+      <member refid="classwx_event_1a31f6a4377d6d36964b8eae4e56ec43e0" prot="public" virt="non-virtual"><scope>wxCommandEvent</scope><name>IsCommandEvent</name></member>
+      <member refid="classwx_object_1a3c7115ef4132dcee0c4fc34e84d7fced" prot="public" virt="non-virtual"><scope>wxCommandEvent</scope><name>IsKindOf</name></member>
+      <member refid="classwx_object_1a059373c494c2369d7db2a556efef8ecf" prot="public" virt="non-virtual"><scope>wxCommandEvent</scope><name>IsSameAs</name></member>
+      <member refid="classwx_command_event_1a44f4144f027fcb7feadb4c23bcbfeb5f" prot="public" virt="non-virtual"><scope>wxCommandEvent</scope><name>IsSelection</name></member>
+      <member refid="classwx_event_1ac81911194f1f59e1454c0397b87975d4" prot="protected" virt="non-virtual"><scope>wxCommandEvent</scope><name>m_propagationLevel</name></member>
+      <member refid="classwx_object_1a9e31954530a0abd54982effc443ed2b8" prot="protected" virt="non-virtual"><scope>wxCommandEvent</scope><name>m_refData</name></member>
+      <member refid="classwx_object_1a07b8f34f5afc5743195c5fed052f55d3" prot="public" virt="non-virtual"><scope>wxCommandEvent</scope><name>operator delete</name></member>
+      <member refid="classwx_object_1a96fa423a1dbc212c8227a5d83825971f" prot="public" virt="non-virtual"><scope>wxCommandEvent</scope><name>operator new</name></member>
+      <member refid="classwx_object_1a2f6f1aa51fe9fc2b1415ca4211a90e9e" prot="public" virt="non-virtual"><scope>wxCommandEvent</scope><name>Ref</name></member>
+      <member refid="classwx_event_1a0acb5c75f6e67b8822ad8ba3c5bdc4fe" prot="public" virt="non-virtual"><scope>wxCommandEvent</scope><name>ResumePropagation</name></member>
+      <member refid="classwx_command_event_1a1778d16766134e08cafcdb49b06855ce" prot="public" virt="non-virtual"><scope>wxCommandEvent</scope><name>SetClientData</name></member>
+      <member refid="classwx_command_event_1a752e5a0fb8992b062c4dec6866171586" prot="public" virt="non-virtual"><scope>wxCommandEvent</scope><name>SetClientObject</name></member>
+      <member refid="classwx_event_1a3460217d04c36393ab868ba453fde13d" prot="public" virt="non-virtual"><scope>wxCommandEvent</scope><name>SetEventObject</name></member>
+      <member refid="classwx_event_1aa29fb7459d64602e09837fea1e516d27" prot="public" virt="non-virtual"><scope>wxCommandEvent</scope><name>SetEventType</name></member>
+      <member refid="classwx_command_event_1a13ac3c581b99d110bac2c6b74803d2df" prot="public" virt="non-virtual"><scope>wxCommandEvent</scope><name>SetExtraLong</name></member>
+      <member refid="classwx_event_1ab9973f687bfa8a60318d8d9bd629d0d4" prot="public" virt="non-virtual"><scope>wxCommandEvent</scope><name>SetId</name></member>
+      <member refid="classwx_command_event_1aeaed91ffb1d02f07d7ea40f029f95a7c" prot="public" virt="non-virtual"><scope>wxCommandEvent</scope><name>SetInt</name></member>
+      <member refid="classwx_object_1afab780710f2adc1bb33310e27590140b" prot="public" virt="non-virtual"><scope>wxCommandEvent</scope><name>SetRefData</name></member>
+      <member refid="classwx_command_event_1a06ca56ac6680fe3b3178d8abd913d450" prot="public" virt="non-virtual"><scope>wxCommandEvent</scope><name>SetString</name></member>
+      <member refid="classwx_event_1ad4380dff3144a986cb960473051a1d8d" prot="public" virt="non-virtual"><scope>wxCommandEvent</scope><name>SetTimestamp</name></member>
+      <member refid="classwx_event_1ac7a178c3c781c80f1308945042f76e7f" prot="public" virt="non-virtual"><scope>wxCommandEvent</scope><name>ShouldPropagate</name></member>
+      <member refid="classwx_event_1a98eb20b76106f9a933c2eb3ee119f66c" prot="public" virt="non-virtual"><scope>wxCommandEvent</scope><name>Skip</name></member>
+      <member refid="classwx_event_1a060a7d222404daff4d3cef30cddeaae3" prot="public" virt="non-virtual"><scope>wxCommandEvent</scope><name>StopPropagation</name></member>
+      <member refid="classwx_object_1af51efc6b1ae632fc7f0cd7ebbce9fa36" prot="public" virt="non-virtual"><scope>wxCommandEvent</scope><name>UnRef</name></member>
+      <member refid="classwx_object_1a74b40e42d19a4b9e9bec0b57d62a5725" prot="public" virt="non-virtual"><scope>wxCommandEvent</scope><name>UnShare</name></member>
+      <member refid="classwx_command_event_1aad941347872cd71fedcfc765fae7b2f7" prot="public" virt="non-virtual"><scope>wxCommandEvent</scope><name>wxCommandEvent</name></member>
+      <member refid="classwx_event_1aaf2a5cf056d006859cea36689ba13d36" prot="public" virt="non-virtual"><scope>wxCommandEvent</scope><name>wxEvent</name></member>
+      <member refid="classwx_object_1acaa378363a28af421ab56ad7b46eadf0" prot="public" virt="non-virtual"><scope>wxCommandEvent</scope><name>wxObject</name></member>
+      <member refid="classwx_object_1a4721b4dc9b7aff0f30904ba2ea3954cf" prot="public" virt="non-virtual"><scope>wxCommandEvent</scope><name>wxObject</name></member>
+      <member refid="classwx_object_1a2a51aa8bfbab47ca2f051bcf84b3f35b" prot="public" virt="virtual"><scope>wxCommandEvent</scope><name>~wxObject</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -6,4 +6,9 @@ authors = ["K.R. Zentner <krzentner@gmail.com>"]
 [dependencies]
 
 [build-dependencies]
+cc = "1.0"
 bindgen = "0.37.4"
+failure = "0.1.1"
+
+[build-dependencies.wx_widgets_bindgen_helpers]
+path = "wx_widgets_bindgen_helpers"

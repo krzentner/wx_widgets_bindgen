@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="helpctrl_8h" kind="file" language="C++">
+    <compoundname>helpctrl.h</compoundname>
+    <innerclass refid="classwx_html_help_controller" prot="public">wxHtmlHelpController</innerclass>
+    <innerclass refid="classwx_html_modal_help" prot="public">wxHtmlModalHelp</innerclass>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="helpctrl_8h_1a0dfb6a54e33ded833a7e3c9176e78463" prot="public" static="no">
+        <name>wxID_HTML_HELPFRAME</name>
+        <initializer>(<ref refid="defs_8h_1ac66d0a09761e7d86b2ac0b2e0c6a8cbba4cab53e45bbd1920158769f1ddb2c309" kindref="member">wxID_HIGHEST</ref> + 1)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/html/helpctrl.h" line="8" column="9" bodyfile="interface/wx/html/helpctrl.h" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="helpctrl_8h_1a0303532d3da3d2e69c2632f73bca468f" prot="public" static="no">
+        <name>wxHF_EMBEDDED</name>
+        <initializer>0x00008000</initializer>
+        <briefdescription>
+<para>This style indicates that the window is embedded in the application and must not be destroyed by the help controller. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/html/helpctrl.h" line="13" column="9" bodyfile="interface/wx/html/helpctrl.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="helpctrl_8h_1a6c985db49bb5f9c9e85aabbce109d78e" prot="public" static="no">
+        <name>wxHF_DIALOG</name>
+        <initializer>0x00010000</initializer>
+        <briefdescription>
+<para>Create a dialog for the help window. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/html/helpctrl.h" line="16" column="9" bodyfile="interface/wx/html/helpctrl.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="helpctrl_8h_1a4fccd4a788014f0610243b9182523508" prot="public" static="no">
+        <name>wxHF_FRAME</name>
+        <initializer>0x00020000</initializer>
+        <briefdescription>
+<para>Create a frame for the help window. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/html/helpctrl.h" line="19" column="9" bodyfile="interface/wx/html/helpctrl.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="helpctrl_8h_1a611c2127a21a01f82552d1143921cc0d" prot="public" static="no">
+        <name>wxHF_MODAL</name>
+        <initializer>0x00040000</initializer>
+        <briefdescription>
+<para>Make the dialog modal when displaying help. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/html/helpctrl.h" line="22" column="9" bodyfile="interface/wx/html/helpctrl.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="interface/wx/html/helpctrl.h"/>
+  </compounddef>
+</doxygen>

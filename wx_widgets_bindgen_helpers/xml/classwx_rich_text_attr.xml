@@ -1,0 +1,503 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_rich_text_attr" kind="class" language="C++" prot="public">
+    <compoundname>wxRichTextAttr</compoundname>
+    <basecompoundref refid="classwx_text_attr" prot="public" virt="non-virtual">wxTextAttr</basecompoundref>
+    <includes local="no">wx/richtext/richtextbuffer.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classwx_rich_text_attr_1a896aa5ce4b7a2bbc3e149dac6d031ea1" prot="public" static="no" mutable="no">
+        <type><ref refid="classwx_text_box_attr" kindref="compound">wxTextBoxAttr</ref></type>
+        <definition>wxTextBoxAttr wxRichTextAttr::m_textBoxAttr</definition>
+        <argsstring></argsstring>
+        <name>m_textBoxAttr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="1437" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="1437" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classwx_rich_text_attr_1a86a560132144bb690b36436ee62ad8f0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>wxRichTextAttr::wxRichTextAttr</definition>
+        <argsstring>(const wxTextAttr &amp;attr)</argsstring>
+        <name>wxRichTextAttr</name>
+        <param>
+          <type>const <ref refid="classwx_text_attr" kindref="compound">wxTextAttr</ref> &amp;</type>
+          <declname>attr</declname>
+        </param>
+        <briefdescription>
+<para>Constructor taking a <ref refid="classwx_text_attr" kindref="compound">wxTextAttr</ref>. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="1363" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="1363" bodyend="1363"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_attr_1aeeed0bb7b56d827de20c6c23781255c6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>wxRichTextAttr::wxRichTextAttr</definition>
+        <argsstring>(const wxRichTextAttr &amp;attr)</argsstring>
+        <name>wxRichTextAttr</name>
+        <param>
+          <type>const <ref refid="classwx_rich_text_attr" kindref="compound">wxRichTextAttr</ref> &amp;</type>
+          <declname>attr</declname>
+        </param>
+        <briefdescription>
+<para>Copy constructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="1368" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="1368" bodyend="1368"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_attr_1ad949a4d42c858f41d702983c5dee2dd6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>wxRichTextAttr::wxRichTextAttr</definition>
+        <argsstring>()</argsstring>
+        <name>wxRichTextAttr</name>
+        <briefdescription>
+<para>Default constructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="1373" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="1373" bodyend="1373"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_attr_1a223faf6e57b3591c0932c2abf1839138" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxRichTextAttr::Copy</definition>
+        <argsstring>(const wxRichTextAttr &amp;attr)</argsstring>
+        <name>Copy</name>
+        <param>
+          <type>const <ref refid="classwx_rich_text_attr" kindref="compound">wxRichTextAttr</ref> &amp;</type>
+          <declname>attr</declname>
+        </param>
+        <briefdescription>
+<para>Copy function. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="1378" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_attr_1acf940f066b07408494cb45f9aaa53090" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxRichTextAttr::operator=</definition>
+        <argsstring>(const wxRichTextAttr &amp;attr)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="classwx_rich_text_attr" kindref="compound">wxRichTextAttr</ref> &amp;</type>
+          <declname>attr</declname>
+        </param>
+        <briefdescription>
+<para>Assignment operator. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="1383" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="1383" bodyend="1383"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_attr_1a4caef3bdecb3228d190a344dd6167f9d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxRichTextAttr::operator=</definition>
+        <argsstring>(const wxTextAttr &amp;attr)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="classwx_text_attr" kindref="compound">wxTextAttr</ref> &amp;</type>
+          <declname>attr</declname>
+        </param>
+        <briefdescription>
+<para>Assignment operator. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="1388" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="1388" bodyend="1388"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_attr_1a498ef52f6d691bb3f8b69139cd00cdc4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxRichTextAttr::operator==</definition>
+        <argsstring>(const wxRichTextAttr &amp;attr) const</argsstring>
+        <name>operator==</name>
+        <param>
+          <type>const <ref refid="classwx_rich_text_attr" kindref="compound">wxRichTextAttr</ref> &amp;</type>
+          <declname>attr</declname>
+        </param>
+        <briefdescription>
+<para>Equality test. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="1393" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_attr_1a55c7b11cb8b7cd3567a1461f9f702882" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxRichTextAttr::EqPartial</definition>
+        <argsstring>(const wxRichTextAttr &amp;attr, bool weakTest=true) const</argsstring>
+        <name>EqPartial</name>
+        <param>
+          <type>const <ref refid="classwx_rich_text_attr" kindref="compound">wxRichTextAttr</ref> &amp;</type>
+          <declname>attr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>weakTest</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+<para>Partial equality test. </para>        </briefdescription>
+        <detaileddescription>
+<para>If <emphasis>weakTest</emphasis> is true, attributes of this object do not have to be present if those attributes of <emphasis>attr</emphasis> are present. If <emphasis>weakTest</emphasis> is false, the function will fail if an attribute is present in <emphasis>attr</emphasis> but not in this object. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="1401" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_attr_1ae78a9b171d27bd67fee3f600307e65a9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxRichTextAttr::Apply</definition>
+        <argsstring>(const wxRichTextAttr &amp;style, const wxRichTextAttr *compareWith=NULL)</argsstring>
+        <name>Apply</name>
+        <param>
+          <type>const <ref refid="classwx_rich_text_attr" kindref="compound">wxRichTextAttr</ref> &amp;</type>
+          <declname>style</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_rich_text_attr" kindref="compound">wxRichTextAttr</ref> *</type>
+          <declname>compareWith</declname>
+          <defval>NULL</defval>
+        </param>
+        <briefdescription>
+<para>Merges the given attributes. </para>        </briefdescription>
+        <detaileddescription>
+<para>If <emphasis>compareWith</emphasis> is non-NULL, then it will be used to mask out those attributes that are the same in style and <emphasis>compareWith</emphasis>, for situations where we don&apos;t want to explicitly set inherited attributes. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="1408" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_attr_1a121d338a20a6c859fa6983427caa4612" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxRichTextAttr::CollectCommonAttributes</definition>
+        <argsstring>(const wxRichTextAttr &amp;attr, wxRichTextAttr &amp;clashingAttr, wxRichTextAttr &amp;absentAttr)</argsstring>
+        <name>CollectCommonAttributes</name>
+        <param>
+          <type>const <ref refid="classwx_rich_text_attr" kindref="compound">wxRichTextAttr</ref> &amp;</type>
+          <declname>attr</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_rich_text_attr" kindref="compound">wxRichTextAttr</ref> &amp;</type>
+          <declname>clashingAttr</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_rich_text_attr" kindref="compound">wxRichTextAttr</ref> &amp;</type>
+          <declname>absentAttr</declname>
+        </param>
+        <briefdescription>
+<para>Collects the attributes that are common to a range of content, building up a note of which attributes are absent in some objects and which clash in some objects. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="1414" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_attr_1a064de5d1410a4bf948b8e508f344541f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxRichTextAttr::RemoveStyle</definition>
+        <argsstring>(const wxRichTextAttr &amp;attr)</argsstring>
+        <name>RemoveStyle</name>
+        <param>
+          <type>const <ref refid="classwx_rich_text_attr" kindref="compound">wxRichTextAttr</ref> &amp;</type>
+          <declname>attr</declname>
+        </param>
+        <briefdescription>
+<para>Removes the specified attributes from this object. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="1419" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_attr_1a5e431eec2c1d349903ef4d04ab15b655" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classwx_text_box_attr" kindref="compound">wxTextBoxAttr</ref> &amp;</type>
+        <definition>wxTextBoxAttr&amp; wxRichTextAttr::GetTextBoxAttr</definition>
+        <argsstring>()</argsstring>
+        <name>GetTextBoxAttr</name>
+        <briefdescription>
+<para>Returns the text box attributes. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="1424" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="1424" bodyend="1424"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_attr_1ad53232ccd4ccdd5a6074e2091b6b750c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="classwx_text_box_attr" kindref="compound">wxTextBoxAttr</ref> &amp;</type>
+        <definition>const wxTextBoxAttr&amp; wxRichTextAttr::GetTextBoxAttr</definition>
+        <argsstring>() const</argsstring>
+        <name>GetTextBoxAttr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="1425" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="1425" bodyend="1425"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_attr_1a0580fa8935bbabd67ecf56d273344ce3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxRichTextAttr::SetTextBoxAttr</definition>
+        <argsstring>(const wxTextBoxAttr &amp;attr)</argsstring>
+        <name>SetTextBoxAttr</name>
+        <param>
+          <type>const <ref refid="classwx_text_box_attr" kindref="compound">wxTextBoxAttr</ref> &amp;</type>
+          <declname>attr</declname>
+        </param>
+        <briefdescription>
+<para>Set the text box attributes. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="1430" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="1430" bodyend="1430"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_attr_1aadc3962881f5d731e27630f3858ab3e7" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxRichTextAttr::IsDefault</definition>
+        <argsstring>() const</argsstring>
+        <name>IsDefault</name>
+        <briefdescription>
+<para>Returns true if no attributes are set. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="1435" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="1435" bodyend="1435"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>A class representing enhanced attributes for rich text objects. </para>    </briefdescription>
+    <detaileddescription>
+<para>This adds a <ref refid="classwx_text_box_attr" kindref="compound">wxTextBoxAttr</ref> member to the basic <ref refid="classwx_text_attr" kindref="compound">wxTextAttr</ref> class.</para><para><heading level="2"></heading>
+</para><para>Library:<nonbreakablespace/><nonbreakablespace/><ref refid="page_libs_1page_libs_wxrichtext" kindref="member">wxRichText</ref> &lt;&gt;&lt; =&apos;&apos;&gt;:&lt;/&gt;&amp;;&amp;;&lt; =&apos;&apos;&gt;\ &lt;/&gt;&lt;/&gt;</para><para><simplesect kind="see"><para><ref refid="classwx_text_attr" kindref="compound">wxTextAttr</ref>, <ref refid="classwx_text_box_attr" kindref="compound">wxTextBoxAttr</ref>, <ref refid="classwx_rich_text_ctrl" kindref="compound">wxRichTextCtrl</ref> </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="6197">
+        <label>wxTextAttr</label>
+        <link refid="classwx_text_attr"/>
+      </node>
+      <node id="6196">
+        <label>wxRichTextAttr</label>
+        <link refid="classwx_rich_text_attr"/>
+        <childnode refid="6197" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="6204">
+        <label>wxString</label>
+        <link refid="classwx_string"/>
+      </node>
+      <node id="6206">
+        <label>wxTextAttrBorder</label>
+        <link refid="classwx_text_attr_border"/>
+        <childnode refid="6202" relation="usage">
+          <edgelabel>m_borderWidth</edgelabel>
+        </childnode>
+      </node>
+      <node id="6199">
+        <label>wxTextAttr</label>
+        <link refid="classwx_text_attr"/>
+      </node>
+      <node id="6198">
+        <label>wxRichTextAttr</label>
+        <link refid="classwx_rich_text_attr"/>
+        <childnode refid="6199" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6200" relation="usage">
+          <edgelabel>m_textBoxAttr</edgelabel>
+        </childnode>
+      </node>
+      <node id="6200">
+        <label>wxTextBoxAttr</label>
+        <link refid="classwx_text_box_attr"/>
+        <childnode refid="6201" relation="usage">
+          <edgelabel>m_size</edgelabel>
+          <edgelabel>m_minSize</edgelabel>
+          <edgelabel>m_maxSize</edgelabel>
+        </childnode>
+        <childnode refid="6203" relation="usage">
+          <edgelabel>m_margins</edgelabel>
+          <edgelabel>m_padding</edgelabel>
+          <edgelabel>m_position</edgelabel>
+        </childnode>
+        <childnode refid="6204" relation="usage">
+          <edgelabel>m_boxStyleName</edgelabel>
+        </childnode>
+        <childnode refid="6205" relation="usage">
+          <edgelabel>m_border</edgelabel>
+          <edgelabel>m_outline</edgelabel>
+        </childnode>
+      </node>
+      <node id="6203">
+        <label>wxTextAttrDimensions</label>
+        <link refid="classwx_text_attr_dimensions"/>
+        <childnode refid="6202" relation="usage">
+          <edgelabel>m_left</edgelabel>
+          <edgelabel>m_bottom</edgelabel>
+          <edgelabel>m_top</edgelabel>
+          <edgelabel>m_right</edgelabel>
+        </childnode>
+      </node>
+      <node id="6201">
+        <label>wxTextAttrSize</label>
+        <link refid="classwx_text_attr_size"/>
+        <childnode refid="6202" relation="usage">
+          <edgelabel>m_width</edgelabel>
+          <edgelabel>m_height</edgelabel>
+        </childnode>
+      </node>
+      <node id="6202">
+        <label>wxTextAttrDimension</label>
+        <link refid="classwx_text_attr_dimension"/>
+      </node>
+      <node id="6205">
+        <label>wxTextAttrBorders</label>
+        <link refid="classwx_text_attr_borders"/>
+        <childnode refid="6206" relation="usage">
+          <edgelabel>m_left</edgelabel>
+          <edgelabel>m_bottom</edgelabel>
+          <edgelabel>m_top</edgelabel>
+          <edgelabel>m_right</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="interface/wx/richtext/richtextbuffer.h" line="1358" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="1357" bodyend="1438"/>
+    <listofallmembers>
+      <member refid="classwx_rich_text_attr_1ae78a9b171d27bd67fee3f600307e65a9" prot="public" virt="non-virtual"><scope>wxRichTextAttr</scope><name>Apply</name></member>
+      <member refid="classwx_text_attr_1a9601bfb3fb57a4595f122617c525d9fc" prot="public" virt="non-virtual" ambiguityscope="wxTextAttr::"><scope>wxRichTextAttr</scope><name>Apply</name></member>
+      <member refid="classwx_rich_text_attr_1a121d338a20a6c859fa6983427caa4612" prot="public" virt="non-virtual"><scope>wxRichTextAttr</scope><name>CollectCommonAttributes</name></member>
+      <member refid="classwx_rich_text_attr_1a223faf6e57b3591c0932c2abf1839138" prot="public" virt="non-virtual"><scope>wxRichTextAttr</scope><name>Copy</name></member>
+      <member refid="classwx_rich_text_attr_1a55c7b11cb8b7cd3567a1461f9f702882" prot="public" virt="non-virtual"><scope>wxRichTextAttr</scope><name>EqPartial</name></member>
+      <member refid="classwx_text_attr_1a7a479bbcae7149fc2aa69001d7f934ad" prot="public" virt="non-virtual" ambiguityscope="wxTextAttr::"><scope>wxRichTextAttr</scope><name>EqPartial</name></member>
+      <member refid="classwx_text_attr_1a0240f208e908187fef44d39c94480729" prot="public" virt="non-virtual"><scope>wxRichTextAttr</scope><name>GetAlignment</name></member>
+      <member refid="classwx_text_attr_1a13d2a8624abd1c6a8ca79c42306a73b6" prot="public" virt="non-virtual"><scope>wxRichTextAttr</scope><name>GetBackgroundColour</name></member>
+      <member refid="classwx_text_attr_1aad25a6a814cc360b0c172908da403606" prot="public" virt="non-virtual"><scope>wxRichTextAttr</scope><name>GetBulletFont</name></member>
+      <member refid="classwx_text_attr_1aeb6db78bf5913a2dd44f8b0902820810" prot="public" virt="non-virtual"><scope>wxRichTextAttr</scope><name>GetBulletName</name></member>
+      <member refid="classwx_text_attr_1a02eb1501badea0b1e87ea4c1532fa907" prot="public" virt="non-virtual"><scope>wxRichTextAttr</scope><name>GetBulletNumber</name></member>
+      <member refid="classwx_text_attr_1af01f5df0c258aae0e041c1008e0f9382" prot="public" virt="non-virtual"><scope>wxRichTextAttr</scope><name>GetBulletStyle</name></member>
+      <member refid="classwx_text_attr_1ac8ef60455ae82347b91a4447c9980b74" prot="public" virt="non-virtual"><scope>wxRichTextAttr</scope><name>GetBulletText</name></member>
+      <member refid="classwx_text_attr_1a9f862fcc7f936f1a146d188f6b8521b7" prot="public" virt="non-virtual"><scope>wxRichTextAttr</scope><name>GetCharacterStyleName</name></member>
+      <member refid="classwx_text_attr_1a5e80b19e60410e0c1d57ab76b103128c" prot="public" virt="non-virtual"><scope>wxRichTextAttr</scope><name>GetFlags</name></member>
+      <member refid="classwx_text_attr_1a77addc57112a3d7c474648771616d7a3" prot="public" virt="non-virtual"><scope>wxRichTextAttr</scope><name>GetFont</name></member>
+      <member refid="classwx_text_attr_1a1d7e71c2dbee4ceb320befbef52db965" prot="public" virt="non-virtual"><scope>wxRichTextAttr</scope><name>GetFontAttributes</name></member>
+      <member refid="classwx_text_attr_1a2212acbc2da9d3f06307086ba952e948" prot="public" virt="non-virtual"><scope>wxRichTextAttr</scope><name>GetFontEncoding</name></member>
+      <member refid="classwx_text_attr_1add51468fc30c8b2644b75a803ec06652" prot="public" virt="non-virtual"><scope>wxRichTextAttr</scope><name>GetFontFaceName</name></member>
+      <member refid="classwx_text_attr_1a9420321f2cfb46cafdcbd96428c6332a" prot="public" virt="non-virtual"><scope>wxRichTextAttr</scope><name>GetFontFamily</name></member>
+      <member refid="classwx_text_attr_1ae48b943d09e4df7b0d05258931e8ff8e" prot="public" virt="non-virtual"><scope>wxRichTextAttr</scope><name>GetFontSize</name></member>
+      <member refid="classwx_text_attr_1ad0c047b2fb7ce54f82230d30ef480ed3" prot="public" virt="non-virtual"><scope>wxRichTextAttr</scope><name>GetFontStyle</name></member>
+      <member refid="classwx_text_attr_1af3b3bc97137977c7c1e3858fe30aa49f" prot="public" virt="non-virtual"><scope>wxRichTextAttr</scope><name>GetFontUnderlined</name></member>
+      <member refid="classwx_text_attr_1ad5961c70b47c4f7c2fdf3583b651aecb" prot="public" virt="non-virtual"><scope>wxRichTextAttr</scope><name>GetFontWeight</name></member>
+      <member refid="classwx_text_attr_1a7ee8ef4eeea7c7c9d7f6c4351a78e61b" prot="public" virt="non-virtual"><scope>wxRichTextAttr</scope><name>GetLeftIndent</name></member>
+      <member refid="classwx_text_attr_1a4a9cd45f3aa6c2370f3b06ecc9b8e637" prot="public" virt="non-virtual"><scope>wxRichTextAttr</scope><name>GetLeftSubIndent</name></member>
+      <member refid="classwx_text_attr_1ac908a34938fa782acd2dafa6cc326e63" prot="public" virt="non-virtual"><scope>wxRichTextAttr</scope><name>GetLineSpacing</name></member>
+      <member refid="classwx_text_attr_1a7438f9d86c044d75de5646925db2e6d9" prot="public" virt="non-virtual"><scope>wxRichTextAttr</scope><name>GetListStyleName</name></member>
+      <member refid="classwx_text_attr_1a71c4d9cdc2281c783f6d14ee6f597127" prot="public" virt="non-virtual"><scope>wxRichTextAttr</scope><name>GetOutlineLevel</name></member>
+      <member refid="classwx_text_attr_1ab919f46fb92b00ce0d26233e65237250" prot="public" virt="non-virtual"><scope>wxRichTextAttr</scope><name>GetParagraphSpacingAfter</name></member>
+      <member refid="classwx_text_attr_1a14e7ac14917bc3353f875e1273ede195" prot="public" virt="non-virtual"><scope>wxRichTextAttr</scope><name>GetParagraphSpacingBefore</name></member>
+      <member refid="classwx_text_attr_1a725c0bf3a09a19f353b84340dfd12935" prot="public" virt="non-virtual"><scope>wxRichTextAttr</scope><name>GetParagraphStyleName</name></member>
+      <member refid="classwx_text_attr_1a231026bb23f90d0a52b56fdc32ab4cfe" prot="public" virt="non-virtual"><scope>wxRichTextAttr</scope><name>GetRightIndent</name></member>
+      <member refid="classwx_text_attr_1ac6d8a6b9b08150822a3f72bfaed216a2" prot="public" virt="non-virtual"><scope>wxRichTextAttr</scope><name>GetTabs</name></member>
+      <member refid="classwx_rich_text_attr_1a5e431eec2c1d349903ef4d04ab15b655" prot="public" virt="non-virtual"><scope>wxRichTextAttr</scope><name>GetTextBoxAttr</name></member>
+      <member refid="classwx_rich_text_attr_1ad53232ccd4ccdd5a6074e2091b6b750c" prot="public" virt="non-virtual"><scope>wxRichTextAttr</scope><name>GetTextBoxAttr</name></member>
+      <member refid="classwx_text_attr_1a26d54f2796ab6e62cef2d47684235310" prot="public" virt="non-virtual"><scope>wxRichTextAttr</scope><name>GetTextColour</name></member>
+      <member refid="classwx_text_attr_1ad111329eb3c7db34ec4727834f1c570a" prot="public" virt="non-virtual"><scope>wxRichTextAttr</scope><name>GetTextEffectFlags</name></member>
+      <member refid="classwx_text_attr_1a9d2638af4d70f9a9bd7ba740032bffa5" prot="public" virt="non-virtual"><scope>wxRichTextAttr</scope><name>GetTextEffects</name></member>
+      <member refid="classwx_text_attr_1ab34603796040ad25ee441e5f078368a8" prot="public" virt="non-virtual"><scope>wxRichTextAttr</scope><name>GetURL</name></member>
+      <member refid="classwx_text_attr_1a811af45f03c213b05884c3db0e99566d" prot="public" virt="non-virtual"><scope>wxRichTextAttr</scope><name>HasAlignment</name></member>
+      <member refid="classwx_text_attr_1a11906776a4ea17da2b7cdd7cfe666c19" prot="public" virt="non-virtual"><scope>wxRichTextAttr</scope><name>HasBackgroundColour</name></member>
+      <member refid="classwx_text_attr_1aecd64878adea5b06d70372d30d94952c" prot="public" virt="non-virtual"><scope>wxRichTextAttr</scope><name>HasBulletName</name></member>
+      <member refid="classwx_text_attr_1a9950fbc6c9dca6fdaf20e93579a3914b" prot="public" virt="non-virtual"><scope>wxRichTextAttr</scope><name>HasBulletNumber</name></member>
+      <member refid="classwx_text_attr_1a21c5629c4ad6af42b779266be2b7e772" prot="public" virt="non-virtual"><scope>wxRichTextAttr</scope><name>HasBulletStyle</name></member>
+      <member refid="classwx_text_attr_1a6d76728cbf4ca1f5a63a3ba2051882e2" prot="public" virt="non-virtual"><scope>wxRichTextAttr</scope><name>HasBulletText</name></member>
+      <member refid="classwx_text_attr_1a2642afa237a1f435b1b903456d420f61" prot="public" virt="non-virtual"><scope>wxRichTextAttr</scope><name>HasCharacterStyleName</name></member>
+      <member refid="classwx_text_attr_1a2a04e327ad7baa9541a5364f30f40ba3" prot="public" virt="non-virtual"><scope>wxRichTextAttr</scope><name>HasFlag</name></member>
+      <member refid="classwx_text_attr_1abd60e04738892bf95b19357267454d05" prot="public" virt="non-virtual"><scope>wxRichTextAttr</scope><name>HasFont</name></member>
+      <member refid="classwx_text_attr_1a592574138c768142684651257c2fe6fe" prot="public" virt="non-virtual"><scope>wxRichTextAttr</scope><name>HasFontEncoding</name></member>
+      <member refid="classwx_text_attr_1ad56a9936370c194bdb57aeaba3af0150" prot="public" virt="non-virtual"><scope>wxRichTextAttr</scope><name>HasFontFaceName</name></member>
+      <member refid="classwx_text_attr_1a6144fac535a5b2aefbe53cb903519ec6" prot="public" virt="non-virtual"><scope>wxRichTextAttr</scope><name>HasFontFamily</name></member>
+      <member refid="classwx_text_attr_1ace03c90a8d5260242ea5ca4ac33497ac" prot="public" virt="non-virtual"><scope>wxRichTextAttr</scope><name>HasFontItalic</name></member>
+      <member refid="classwx_text_attr_1aa8e274c8233e617c6dd9ae3714e33758" prot="public" virt="non-virtual"><scope>wxRichTextAttr</scope><name>HasFontPixelSize</name></member>
+      <member refid="classwx_text_attr_1ab0690abb3b671a2bbbd523e85668de90" prot="public" virt="non-virtual"><scope>wxRichTextAttr</scope><name>HasFontPointSize</name></member>
+      <member refid="classwx_text_attr_1a494331f1a74f3fad1b6dc73ffe0d3d23" prot="public" virt="non-virtual"><scope>wxRichTextAttr</scope><name>HasFontSize</name></member>
+      <member refid="classwx_text_attr_1ac5726748a70161324b89beb8f90ccfc9" prot="public" virt="non-virtual"><scope>wxRichTextAttr</scope><name>HasFontUnderlined</name></member>
+      <member refid="classwx_text_attr_1a67ad510446a330c251dd14741d6b4bdf" prot="public" virt="non-virtual"><scope>wxRichTextAttr</scope><name>HasFontWeight</name></member>
+      <member refid="classwx_text_attr_1aae2a52b53e6a7571e4f33edd3b997a52" prot="public" virt="non-virtual"><scope>wxRichTextAttr</scope><name>HasLeftIndent</name></member>
+      <member refid="classwx_text_attr_1a5ca224c927865add3af7a3e6d224e791" prot="public" virt="non-virtual"><scope>wxRichTextAttr</scope><name>HasLineSpacing</name></member>
+      <member refid="classwx_text_attr_1ac2307f68de4e58a8e66c3323b1615f0b" prot="public" virt="non-virtual"><scope>wxRichTextAttr</scope><name>HasListStyleName</name></member>
+      <member refid="classwx_text_attr_1a25d81120bdfed25f55f82eea2446b504" prot="public" virt="non-virtual"><scope>wxRichTextAttr</scope><name>HasOutlineLevel</name></member>
+      <member refid="classwx_text_attr_1ae9ee4ecc100fe8bc9506e3c8b10e86fe" prot="public" virt="non-virtual"><scope>wxRichTextAttr</scope><name>HasPageBreak</name></member>
+      <member refid="classwx_text_attr_1aa09f0c32acc98ff5db3256538782038c" prot="public" virt="non-virtual"><scope>wxRichTextAttr</scope><name>HasParagraphSpacingAfter</name></member>
+      <member refid="classwx_text_attr_1ae5e7d21ac5ff421c1432a9d03fe204c7" prot="public" virt="non-virtual"><scope>wxRichTextAttr</scope><name>HasParagraphSpacingBefore</name></member>
+      <member refid="classwx_text_attr_1a998e6f5c580a08773c397ecfa8afad62" prot="public" virt="non-virtual"><scope>wxRichTextAttr</scope><name>HasParagraphStyleName</name></member>
+      <member refid="classwx_text_attr_1ac351274da47a699500209d807d6d2e86" prot="public" virt="non-virtual"><scope>wxRichTextAttr</scope><name>HasRightIndent</name></member>
+      <member refid="classwx_text_attr_1aee1562b0ca9aac4f585fce2b3d3e01f1" prot="public" virt="non-virtual"><scope>wxRichTextAttr</scope><name>HasTabs</name></member>
+      <member refid="classwx_text_attr_1a271b460ea7a59eb33b16d454089a1888" prot="public" virt="non-virtual"><scope>wxRichTextAttr</scope><name>HasTextColour</name></member>
+      <member refid="classwx_text_attr_1a1c53ce88e7f9b693f096ca32488f89dd" prot="public" virt="non-virtual"><scope>wxRichTextAttr</scope><name>HasTextEffects</name></member>
+      <member refid="classwx_text_attr_1a4aa1da1de9259cd08afd259ba608b666" prot="public" virt="non-virtual"><scope>wxRichTextAttr</scope><name>HasURL</name></member>
+      <member refid="classwx_text_attr_1ac7ad29aaefb48ca5b157fc59e6a82279" prot="public" virt="non-virtual"><scope>wxRichTextAttr</scope><name>IsCharacterStyle</name></member>
+      <member refid="classwx_rich_text_attr_1aadc3962881f5d731e27630f3858ab3e7" prot="public" virt="non-virtual"><scope>wxRichTextAttr</scope><name>IsDefault</name></member>
+      <member refid="classwx_text_attr_1a59dd96564776775d6f9b8d77eb99b71b" prot="public" virt="non-virtual"><scope>wxRichTextAttr</scope><name>IsParagraphStyle</name></member>
+      <member refid="classwx_rich_text_attr_1a896aa5ce4b7a2bbc3e149dac6d031ea1" prot="public" virt="non-virtual"><scope>wxRichTextAttr</scope><name>m_textBoxAttr</name></member>
+      <member refid="classwx_text_attr_1a591d90d4a675dcbdcd57bbef5557669b" prot="public" virt="non-virtual"><scope>wxRichTextAttr</scope><name>Merge</name></member>
+      <member refid="classwx_text_attr_1ad51cefa334bbfa1bdcff33c05bf0c6ef" prot="public" virt="non-virtual"><scope>wxRichTextAttr</scope><name>Merge</name></member>
+      <member refid="classwx_rich_text_attr_1acf940f066b07408494cb45f9aaa53090" prot="public" virt="non-virtual"><scope>wxRichTextAttr</scope><name>operator=</name></member>
+      <member refid="classwx_rich_text_attr_1a4caef3bdecb3228d190a344dd6167f9d" prot="public" virt="non-virtual"><scope>wxRichTextAttr</scope><name>operator=</name></member>
+      <member refid="classwx_rich_text_attr_1a498ef52f6d691bb3f8b69139cd00cdc4" prot="public" virt="non-virtual"><scope>wxRichTextAttr</scope><name>operator==</name></member>
+      <member refid="classwx_rich_text_attr_1a064de5d1410a4bf948b8e508f344541f" prot="public" virt="non-virtual"><scope>wxRichTextAttr</scope><name>RemoveStyle</name></member>
+      <member refid="classwx_text_attr_1ad22769d681321bd8b7d51bff12c238c3" prot="public" virt="non-virtual"><scope>wxRichTextAttr</scope><name>SetAlignment</name></member>
+      <member refid="classwx_text_attr_1a3d904c5febccbd613c732715df6cd21a" prot="public" virt="non-virtual"><scope>wxRichTextAttr</scope><name>SetBackgroundColour</name></member>
+      <member refid="classwx_text_attr_1a274986a65fd546e4218fa6a44aae7598" prot="public" virt="non-virtual"><scope>wxRichTextAttr</scope><name>SetBulletFont</name></member>
+      <member refid="classwx_text_attr_1a3b8e03167ff4decd0191c5bff1772edd" prot="public" virt="non-virtual"><scope>wxRichTextAttr</scope><name>SetBulletName</name></member>
+      <member refid="classwx_text_attr_1ad6ac93c015e64cc539d319b69b8cc5da" prot="public" virt="non-virtual"><scope>wxRichTextAttr</scope><name>SetBulletNumber</name></member>
+      <member refid="classwx_text_attr_1a90b42b4243c71f3c9a7eb5a2bbdbbb3f" prot="public" virt="non-virtual"><scope>wxRichTextAttr</scope><name>SetBulletStyle</name></member>
+      <member refid="classwx_text_attr_1ab11b0110911a8fe9784da56080ae1da2" prot="public" virt="non-virtual"><scope>wxRichTextAttr</scope><name>SetBulletText</name></member>
+      <member refid="classwx_text_attr_1ac1bff41f48307ba58f2cc5713ca10bd3" prot="public" virt="non-virtual"><scope>wxRichTextAttr</scope><name>SetCharacterStyleName</name></member>
+      <member refid="classwx_text_attr_1a315ebbc5a41840a0777a7716fc19f5f0" prot="public" virt="non-virtual"><scope>wxRichTextAttr</scope><name>SetFlags</name></member>
+      <member refid="classwx_text_attr_1aafa9ced6fc22a506b827636be3cefd00" prot="public" virt="non-virtual"><scope>wxRichTextAttr</scope><name>SetFont</name></member>
+      <member refid="classwx_text_attr_1adf26b0a5f9b8afe389821bfddf661a01" prot="public" virt="non-virtual"><scope>wxRichTextAttr</scope><name>SetFontEncoding</name></member>
+      <member refid="classwx_text_attr_1a5465b67ad2924cbc4730a6c2343e6562" prot="public" virt="non-virtual"><scope>wxRichTextAttr</scope><name>SetFontFaceName</name></member>
+      <member refid="classwx_text_attr_1a41aaad6d92c1bda6e3494878616dc940" prot="public" virt="non-virtual"><scope>wxRichTextAttr</scope><name>SetFontFamily</name></member>
+      <member refid="classwx_text_attr_1aec4a709e538976888c5db8a43f2e1685" prot="public" virt="non-virtual"><scope>wxRichTextAttr</scope><name>SetFontPixelSize</name></member>
+      <member refid="classwx_text_attr_1ad184b2eef5ff569c7a4d95bd7ff994d6" prot="public" virt="non-virtual"><scope>wxRichTextAttr</scope><name>SetFontPointSize</name></member>
+      <member refid="classwx_text_attr_1a914d5bcb7725c7893d6fb938d9bf5e85" prot="public" virt="non-virtual"><scope>wxRichTextAttr</scope><name>SetFontSize</name></member>
+      <member refid="classwx_text_attr_1a9be42b1260cdfa3af4cea0a60a76b3d6" prot="public" virt="non-virtual"><scope>wxRichTextAttr</scope><name>SetFontStyle</name></member>
+      <member refid="classwx_text_attr_1a9bdb4ac861b4892d57069d976c552fdc" prot="public" virt="non-virtual"><scope>wxRichTextAttr</scope><name>SetFontUnderlined</name></member>
+      <member refid="classwx_text_attr_1ae26221f629f2ebc146ba1433a67d2b6b" prot="public" virt="non-virtual"><scope>wxRichTextAttr</scope><name>SetFontWeight</name></member>
+      <member refid="classwx_text_attr_1a090d97a13d48d9455d5d9e449f7a4072" prot="public" virt="non-virtual"><scope>wxRichTextAttr</scope><name>SetLeftIndent</name></member>
+      <member refid="classwx_text_attr_1a469fe33ac4acd9f83a00d621c2bd6cf6" prot="public" virt="non-virtual"><scope>wxRichTextAttr</scope><name>SetLineSpacing</name></member>
+      <member refid="classwx_text_attr_1a9b7939948ed563c3ab0c02aa832cc743" prot="public" virt="non-virtual"><scope>wxRichTextAttr</scope><name>SetListStyleName</name></member>
+      <member refid="classwx_text_attr_1a24d5f8a632dcd1a09eb3910207816963" prot="public" virt="non-virtual"><scope>wxRichTextAttr</scope><name>SetOutlineLevel</name></member>
+      <member refid="classwx_text_attr_1a47bf936ecf8d900eb6b5798cd45d8474" prot="public" virt="non-virtual"><scope>wxRichTextAttr</scope><name>SetPageBreak</name></member>
+      <member refid="classwx_text_attr_1aaf87a0f02c53ded0a2b8a34e6ff6ff1c" prot="public" virt="non-virtual"><scope>wxRichTextAttr</scope><name>SetParagraphSpacingAfter</name></member>
+      <member refid="classwx_text_attr_1a78f2cfaa80010b4470b42404d5fa7cb8" prot="public" virt="non-virtual"><scope>wxRichTextAttr</scope><name>SetParagraphSpacingBefore</name></member>
+      <member refid="classwx_text_attr_1adfa8e1c11e933576314546316d28e37d" prot="public" virt="non-virtual"><scope>wxRichTextAttr</scope><name>SetParagraphStyleName</name></member>
+      <member refid="classwx_text_attr_1a7fd4f5eb19852c6908ca173c4e350887" prot="public" virt="non-virtual"><scope>wxRichTextAttr</scope><name>SetRightIndent</name></member>
+      <member refid="classwx_text_attr_1ad21e66c498c5a60e3603d71938b8c772" prot="public" virt="non-virtual"><scope>wxRichTextAttr</scope><name>SetTabs</name></member>
+      <member refid="classwx_rich_text_attr_1a0580fa8935bbabd67ecf56d273344ce3" prot="public" virt="non-virtual"><scope>wxRichTextAttr</scope><name>SetTextBoxAttr</name></member>
+      <member refid="classwx_text_attr_1ae3d74ce2e7057146911eb0360d451082" prot="public" virt="non-virtual"><scope>wxRichTextAttr</scope><name>SetTextColour</name></member>
+      <member refid="classwx_text_attr_1aaa361390da3d932aaa6a1c67875aff02" prot="public" virt="non-virtual"><scope>wxRichTextAttr</scope><name>SetTextEffectFlags</name></member>
+      <member refid="classwx_text_attr_1a218521c1b968212fc97e474dd5a563ef" prot="public" virt="non-virtual"><scope>wxRichTextAttr</scope><name>SetTextEffects</name></member>
+      <member refid="classwx_text_attr_1aad62bd5f3d6f1b9ea78360f06947a8c5" prot="public" virt="non-virtual"><scope>wxRichTextAttr</scope><name>SetURL</name></member>
+      <member refid="classwx_rich_text_attr_1a86a560132144bb690b36436ee62ad8f0" prot="public" virt="non-virtual"><scope>wxRichTextAttr</scope><name>wxRichTextAttr</name></member>
+      <member refid="classwx_rich_text_attr_1aeeed0bb7b56d827de20c6c23781255c6" prot="public" virt="non-virtual"><scope>wxRichTextAttr</scope><name>wxRichTextAttr</name></member>
+      <member refid="classwx_rich_text_attr_1ad949a4d42c858f41d702983c5dee2dd6" prot="public" virt="non-virtual"><scope>wxRichTextAttr</scope><name>wxRichTextAttr</name></member>
+      <member refid="classwx_text_attr_1a7870ad57a4430b83a9478adeda20c6ec" prot="public" virt="non-virtual"><scope>wxRichTextAttr</scope><name>wxTextAttr</name></member>
+      <member refid="classwx_text_attr_1a5b170edc90897e56fcf2b0338b3c2d04" prot="public" virt="non-virtual"><scope>wxRichTextAttr</scope><name>wxTextAttr</name></member>
+      <member refid="classwx_text_attr_1a56e913249eb032aa4184f26ebdbca454" prot="public" virt="non-virtual"><scope>wxRichTextAttr</scope><name>wxTextAttr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,937 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_aui_default_dock_art" kind="class" language="C++" prot="public">
+    <compoundname>wxAuiDefaultDockArt</compoundname>
+    <basecompoundref refid="classwx_aui_dock_art" prot="public" virt="non-virtual">wxAuiDockArt</basecompoundref>
+    <includes local="no">wx/aui/dockart.h</includes>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classwx_aui_default_dock_art_1a6471004a8e4072df2934766a78cb6f9f" prot="protected" static="no" mutable="no">
+        <type><ref refid="classwx_pen" kindref="compound">wxPen</ref></type>
+        <definition>wxPen wxAuiDefaultDockArt::m_borderPen</definition>
+        <argsstring></argsstring>
+        <name>m_borderPen</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/dockart.h" line="352" column="1" bodyfile="interface/wx/aui/dockart.h" bodystart="352" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classwx_aui_default_dock_art_1aef386ae1d0719e320af9287b7a5fed1b" prot="protected" static="no" mutable="no">
+        <type><ref refid="classwx_brush" kindref="compound">wxBrush</ref></type>
+        <definition>wxBrush wxAuiDefaultDockArt::m_sashBrush</definition>
+        <argsstring></argsstring>
+        <name>m_sashBrush</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/dockart.h" line="353" column="1" bodyfile="interface/wx/aui/dockart.h" bodystart="353" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classwx_aui_default_dock_art_1a2343798507dbc240eaf80dfa65effb69" prot="protected" static="no" mutable="no">
+        <type><ref refid="classwx_brush" kindref="compound">wxBrush</ref></type>
+        <definition>wxBrush wxAuiDefaultDockArt::m_backgroundBrush</definition>
+        <argsstring></argsstring>
+        <name>m_backgroundBrush</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/dockart.h" line="354" column="1" bodyfile="interface/wx/aui/dockart.h" bodystart="354" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classwx_aui_default_dock_art_1aa4b3ac464b2c6d43893bcb45099814e3" prot="protected" static="no" mutable="no">
+        <type><ref refid="classwx_brush" kindref="compound">wxBrush</ref></type>
+        <definition>wxBrush wxAuiDefaultDockArt::m_gripperBrush</definition>
+        <argsstring></argsstring>
+        <name>m_gripperBrush</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/dockart.h" line="355" column="1" bodyfile="interface/wx/aui/dockart.h" bodystart="355" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classwx_aui_default_dock_art_1a19e6d49e0e9247fdd17eaca3a3f74455" prot="protected" static="no" mutable="no">
+        <type><ref refid="classwx_font" kindref="compound">wxFont</ref></type>
+        <definition>wxFont wxAuiDefaultDockArt::m_captionFont</definition>
+        <argsstring></argsstring>
+        <name>m_captionFont</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/dockart.h" line="356" column="1" bodyfile="interface/wx/aui/dockart.h" bodystart="356" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classwx_aui_default_dock_art_1a6d4293ce9d1e62ebfa69aaad9526b1c0" prot="protected" static="no" mutable="no">
+        <type><ref refid="classwx_bitmap" kindref="compound">wxBitmap</ref></type>
+        <definition>wxBitmap wxAuiDefaultDockArt::m_inactiveCloseBitmap</definition>
+        <argsstring></argsstring>
+        <name>m_inactiveCloseBitmap</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/dockart.h" line="357" column="1" bodyfile="interface/wx/aui/dockart.h" bodystart="357" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classwx_aui_default_dock_art_1ad96588207f417d94bf1b53ad55cc3ade" prot="protected" static="no" mutable="no">
+        <type><ref refid="classwx_bitmap" kindref="compound">wxBitmap</ref></type>
+        <definition>wxBitmap wxAuiDefaultDockArt::m_inactivePinBitmap</definition>
+        <argsstring></argsstring>
+        <name>m_inactivePinBitmap</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/dockart.h" line="358" column="1" bodyfile="interface/wx/aui/dockart.h" bodystart="358" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classwx_aui_default_dock_art_1ae5cf0239c725dd32c0945a0f47963ff9" prot="protected" static="no" mutable="no">
+        <type><ref refid="classwx_bitmap" kindref="compound">wxBitmap</ref></type>
+        <definition>wxBitmap wxAuiDefaultDockArt::m_inactiveMaximizeBitmap</definition>
+        <argsstring></argsstring>
+        <name>m_inactiveMaximizeBitmap</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/dockart.h" line="359" column="1" bodyfile="interface/wx/aui/dockart.h" bodystart="359" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classwx_aui_default_dock_art_1a7618c44525e862c3adeee3784ae9248d" prot="protected" static="no" mutable="no">
+        <type><ref refid="classwx_bitmap" kindref="compound">wxBitmap</ref></type>
+        <definition>wxBitmap wxAuiDefaultDockArt::m_inactiveRestoreBitmap</definition>
+        <argsstring></argsstring>
+        <name>m_inactiveRestoreBitmap</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/dockart.h" line="360" column="1" bodyfile="interface/wx/aui/dockart.h" bodystart="360" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classwx_aui_default_dock_art_1ab024c7e72443f274a5496e13489a10ec" prot="protected" static="no" mutable="no">
+        <type><ref refid="classwx_bitmap" kindref="compound">wxBitmap</ref></type>
+        <definition>wxBitmap wxAuiDefaultDockArt::m_activeCloseBitmap</definition>
+        <argsstring></argsstring>
+        <name>m_activeCloseBitmap</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/dockart.h" line="361" column="1" bodyfile="interface/wx/aui/dockart.h" bodystart="361" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classwx_aui_default_dock_art_1aae2cc265c27ebbbff098615cd9d3b483" prot="protected" static="no" mutable="no">
+        <type><ref refid="classwx_bitmap" kindref="compound">wxBitmap</ref></type>
+        <definition>wxBitmap wxAuiDefaultDockArt::m_activePinBitmap</definition>
+        <argsstring></argsstring>
+        <name>m_activePinBitmap</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/dockart.h" line="362" column="1" bodyfile="interface/wx/aui/dockart.h" bodystart="362" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classwx_aui_default_dock_art_1a792766bc6a7bf6eb0bcb592ef1b04926" prot="protected" static="no" mutable="no">
+        <type><ref refid="classwx_bitmap" kindref="compound">wxBitmap</ref></type>
+        <definition>wxBitmap wxAuiDefaultDockArt::m_activeMaximizeBitmap</definition>
+        <argsstring></argsstring>
+        <name>m_activeMaximizeBitmap</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/dockart.h" line="363" column="1" bodyfile="interface/wx/aui/dockart.h" bodystart="363" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classwx_aui_default_dock_art_1ac8cee836e990e5e046869495ab58e3cc" prot="protected" static="no" mutable="no">
+        <type><ref refid="classwx_bitmap" kindref="compound">wxBitmap</ref></type>
+        <definition>wxBitmap wxAuiDefaultDockArt::m_activeRestoreBitmap</definition>
+        <argsstring></argsstring>
+        <name>m_activeRestoreBitmap</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/dockart.h" line="364" column="1" bodyfile="interface/wx/aui/dockart.h" bodystart="364" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classwx_aui_default_dock_art_1a49df8d9dcd6bc9911bbfb4286540d080" prot="protected" static="no" mutable="no">
+        <type><ref refid="classwx_pen" kindref="compound">wxPen</ref></type>
+        <definition>wxPen wxAuiDefaultDockArt::m_gripperPen1</definition>
+        <argsstring></argsstring>
+        <name>m_gripperPen1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/dockart.h" line="365" column="1" bodyfile="interface/wx/aui/dockart.h" bodystart="365" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classwx_aui_default_dock_art_1a5f142447898cfd7f03345fb9aebdab00" prot="protected" static="no" mutable="no">
+        <type><ref refid="classwx_pen" kindref="compound">wxPen</ref></type>
+        <definition>wxPen wxAuiDefaultDockArt::m_gripperPen2</definition>
+        <argsstring></argsstring>
+        <name>m_gripperPen2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/dockart.h" line="366" column="1" bodyfile="interface/wx/aui/dockart.h" bodystart="366" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classwx_aui_default_dock_art_1a0b3018b4bf98b0af1a21aea51af83534" prot="protected" static="no" mutable="no">
+        <type><ref refid="classwx_pen" kindref="compound">wxPen</ref></type>
+        <definition>wxPen wxAuiDefaultDockArt::m_gripperPen3</definition>
+        <argsstring></argsstring>
+        <name>m_gripperPen3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/dockart.h" line="367" column="1" bodyfile="interface/wx/aui/dockart.h" bodystart="367" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classwx_aui_default_dock_art_1aaf94a04da4aff01ee6c34cf8de91bda9" prot="protected" static="no" mutable="no">
+        <type><ref refid="classwx_colour" kindref="compound">wxColour</ref></type>
+        <definition>wxColour wxAuiDefaultDockArt::m_baseColour</definition>
+        <argsstring></argsstring>
+        <name>m_baseColour</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/dockart.h" line="368" column="1" bodyfile="interface/wx/aui/dockart.h" bodystart="368" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classwx_aui_default_dock_art_1aa45e0dec398c9dd5f8f3cdffabf9a2a2" prot="protected" static="no" mutable="no">
+        <type><ref refid="classwx_colour" kindref="compound">wxColour</ref></type>
+        <definition>wxColour wxAuiDefaultDockArt::m_activeCaptionColour</definition>
+        <argsstring></argsstring>
+        <name>m_activeCaptionColour</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/dockart.h" line="369" column="1" bodyfile="interface/wx/aui/dockart.h" bodystart="369" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classwx_aui_default_dock_art_1a748e9220512e5ee5d1ef8ebef41fa116" prot="protected" static="no" mutable="no">
+        <type><ref refid="classwx_colour" kindref="compound">wxColour</ref></type>
+        <definition>wxColour wxAuiDefaultDockArt::m_activeCaptionGradientColour</definition>
+        <argsstring></argsstring>
+        <name>m_activeCaptionGradientColour</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/dockart.h" line="370" column="1" bodyfile="interface/wx/aui/dockart.h" bodystart="370" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classwx_aui_default_dock_art_1a72761299db924ec8cce594aa9a97d9c4" prot="protected" static="no" mutable="no">
+        <type><ref refid="classwx_colour" kindref="compound">wxColour</ref></type>
+        <definition>wxColour wxAuiDefaultDockArt::m_activeCaptionTextColour</definition>
+        <argsstring></argsstring>
+        <name>m_activeCaptionTextColour</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/dockart.h" line="371" column="1" bodyfile="interface/wx/aui/dockart.h" bodystart="371" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classwx_aui_default_dock_art_1a07f1eac60e94752a51a640315e4b2f1e" prot="protected" static="no" mutable="no">
+        <type><ref refid="classwx_colour" kindref="compound">wxColour</ref></type>
+        <definition>wxColour wxAuiDefaultDockArt::m_inactiveCaptionColour</definition>
+        <argsstring></argsstring>
+        <name>m_inactiveCaptionColour</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/dockart.h" line="372" column="1" bodyfile="interface/wx/aui/dockart.h" bodystart="372" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classwx_aui_default_dock_art_1a253f0543370db89d2984a0510ebea1bb" prot="protected" static="no" mutable="no">
+        <type><ref refid="classwx_colour" kindref="compound">wxColour</ref></type>
+        <definition>wxColour wxAuiDefaultDockArt::m_inactiveCaptionGradientColour</definition>
+        <argsstring></argsstring>
+        <name>m_inactiveCaptionGradientColour</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/dockart.h" line="373" column="1" bodyfile="interface/wx/aui/dockart.h" bodystart="373" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classwx_aui_default_dock_art_1aaf970ec9265b60479389752b9d5f74fc" prot="protected" static="no" mutable="no">
+        <type><ref refid="classwx_colour" kindref="compound">wxColour</ref></type>
+        <definition>wxColour wxAuiDefaultDockArt::m_inactiveCaptionTextColour</definition>
+        <argsstring></argsstring>
+        <name>m_inactiveCaptionTextColour</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/dockart.h" line="374" column="1" bodyfile="interface/wx/aui/dockart.h" bodystart="374" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classwx_aui_default_dock_art_1a8430e78628046a60441d918f6d69461e" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int wxAuiDefaultDockArt::m_borderSize</definition>
+        <argsstring></argsstring>
+        <name>m_borderSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/dockart.h" line="375" column="1" bodyfile="interface/wx/aui/dockart.h" bodystart="375" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classwx_aui_default_dock_art_1a34b45d391acc44d74ab7a0db30803d6f" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int wxAuiDefaultDockArt::m_captionSize</definition>
+        <argsstring></argsstring>
+        <name>m_captionSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/dockart.h" line="376" column="1" bodyfile="interface/wx/aui/dockart.h" bodystart="376" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classwx_aui_default_dock_art_1a1548e24349a0b9f2e2d647c4afe330da" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int wxAuiDefaultDockArt::m_sashSize</definition>
+        <argsstring></argsstring>
+        <name>m_sashSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/dockart.h" line="377" column="1" bodyfile="interface/wx/aui/dockart.h" bodystart="377" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classwx_aui_default_dock_art_1a77f7ac2b4844339a36098b6a31d67eba" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int wxAuiDefaultDockArt::m_buttonSize</definition>
+        <argsstring></argsstring>
+        <name>m_buttonSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/dockart.h" line="378" column="1" bodyfile="interface/wx/aui/dockart.h" bodystart="378" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classwx_aui_default_dock_art_1a73f65942b6a84cee3926ff1e467ddf4a" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int wxAuiDefaultDockArt::m_gripperSize</definition>
+        <argsstring></argsstring>
+        <name>m_gripperSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/dockart.h" line="379" column="1" bodyfile="interface/wx/aui/dockart.h" bodystart="379" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classwx_aui_default_dock_art_1ae7d948d958c34d1b67dc6cd6d09b5bf2" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int wxAuiDefaultDockArt::m_gradientType</definition>
+        <argsstring></argsstring>
+        <name>m_gradientType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/dockart.h" line="380" column="1" bodyfile="interface/wx/aui/dockart.h" bodystart="380" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classwx_aui_default_dock_art_1a9c6b6593ff7fac84ec5f62713b4ac48e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxAuiDefaultDockArt::wxAuiDefaultDockArt</definition>
+        <argsstring>()</argsstring>
+        <name>wxAuiDefaultDockArt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/dockart.h" line="298" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_aui_default_dock_art_1ac423d6efc91341a5fbb113642f70ec7e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>int</type>
+        <definition>int wxAuiDefaultDockArt::GetMetric</definition>
+        <argsstring>(int metricId)</argsstring>
+        <name>GetMetric</name>
+        <reimplements refid="classwx_aui_dock_art_1aea3a8a0b0eb98b9009e0b32e6cc7fd11">GetMetric</reimplements>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+<para>Get the value of a certain setting. </para>        </briefdescription>
+        <detaileddescription>
+<para><emphasis>id</emphasis> can be one of the size values of <bold>wxAuiPaneDockArtSetting</bold>. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/dockart.h" line="300" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_aui_default_dock_art_1a1f72371aca992e54b59edf8b843c58af" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void wxAuiDefaultDockArt::SetMetric</definition>
+        <argsstring>(int metricId, int newVal)</argsstring>
+        <name>SetMetric</name>
+        <reimplements refid="classwx_aui_dock_art_1a28e0bfc7853f098ba3bb551002e4ac03">SetMetric</reimplements>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>new_val</declname>
+        </param>
+        <briefdescription>
+<para>Set a certain setting with the value <emphasis>new_val</emphasis>. </para>        </briefdescription>
+        <detaileddescription>
+<para><emphasis>id</emphasis> can be one of the size values of <bold>wxAuiPaneDockArtSetting</bold>. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/dockart.h" line="301" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_aui_default_dock_art_1a2d82eb134e20294dd4c6dc5601bde19b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="classwx_colour" kindref="compound">wxColour</ref></type>
+        <definition>wxColour wxAuiDefaultDockArt::GetColour</definition>
+        <argsstring>(int id)</argsstring>
+        <name>GetColour</name>
+        <reimplements refid="classwx_aui_dock_art_1a210231fe31b1b0dafe6ea66bd4a28518">GetColour</reimplements>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+<para>Get the colour of a certain setting. </para>        </briefdescription>
+        <detaileddescription>
+<para><emphasis>id</emphasis> can be one of the colour values of <bold>wxAuiPaneDockArtSetting</bold>. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/dockart.h" line="302" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_aui_default_dock_art_1af1f9e609e6ac5057ead66f505fcb2d1b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void wxAuiDefaultDockArt::SetColour</definition>
+        <argsstring>(int id, const wxColour &amp;colour)</argsstring>
+        <name>SetColour</name>
+        <reimplements refid="classwx_aui_dock_art_1a906319d1191daf62148f3fa25b6d1fcc">SetColour</reimplements>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_colour" kindref="compound">wxColour</ref> &amp;</type>
+          <declname>colour</declname>
+        </param>
+        <briefdescription>
+<para>Set a certain setting with the value <emphasis>colour</emphasis>. </para>        </briefdescription>
+        <detaileddescription>
+<para><emphasis>id</emphasis> can be one of the colour values of <bold>wxAuiPaneDockArtSetting</bold>. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/dockart.h" line="303" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_aui_default_dock_art_1a2652db5c3db1f77a31498ec5c48ad556" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void wxAuiDefaultDockArt::SetFont</definition>
+        <argsstring>(int id, const wxFont &amp;font)</argsstring>
+        <name>SetFont</name>
+        <reimplements refid="classwx_aui_dock_art_1a66e1b9f358aa5ec62e1ecbb16a2225dc">SetFont</reimplements>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_font" kindref="compound">wxFont</ref> &amp;</type>
+          <declname>font</declname>
+        </param>
+        <briefdescription>
+<para>Set a font setting. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/dockart.h" line="304" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_aui_default_dock_art_1a1c549ffc279519f8acf69e78999265b6" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="classwx_font" kindref="compound">wxFont</ref></type>
+        <definition>wxFont wxAuiDefaultDockArt::GetFont</definition>
+        <argsstring>(int id)</argsstring>
+        <name>GetFont</name>
+        <reimplements refid="classwx_aui_dock_art_1ab3a4c743fc3168f054788e10e3100050">GetFont</reimplements>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+<para>Get a font setting. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/dockart.h" line="305" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_aui_default_dock_art_1a7e19b37da2256eac3d12b3a73407d998" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void wxAuiDefaultDockArt::DrawSash</definition>
+        <argsstring>(wxDC &amp;dc, wxWindow *window, int orientation, const wxRect &amp;rect)</argsstring>
+        <name>DrawSash</name>
+        <reimplements refid="classwx_aui_dock_art_1a412e8a03632e93ac7447a0083cd7d238">DrawSash</reimplements>
+        <param>
+          <type><ref refid="classwx_d_c" kindref="compound">wxDC</ref> &amp;</type>
+          <declname>dc</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_window" kindref="compound">wxWindow</ref> *</type>
+          <declname>window</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>orientation</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_rect" kindref="compound">wxRect</ref> &amp;</type>
+          <declname>rect</declname>
+        </param>
+        <briefdescription>
+<para>Draws a sash between two windows. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/dockart.h" line="307" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_aui_default_dock_art_1a61bf3b89f9d62e679d4437f627c5d402" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void wxAuiDefaultDockArt::DrawBackground</definition>
+        <argsstring>(wxDC &amp;dc, wxWindow *window, int orientation, const wxRect &amp;rect)</argsstring>
+        <name>DrawBackground</name>
+        <reimplements refid="classwx_aui_dock_art_1a9bac6e12be7cc862edfb71d115c6a022">DrawBackground</reimplements>
+        <param>
+          <type><ref refid="classwx_d_c" kindref="compound">wxDC</ref> &amp;</type>
+          <declname>dc</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_window" kindref="compound">wxWindow</ref> *</type>
+          <declname>window</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>orientation</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_rect" kindref="compound">wxRect</ref> &amp;</type>
+          <declname>rect</declname>
+        </param>
+        <briefdescription>
+<para>Draws a background. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/dockart.h" line="312" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_aui_default_dock_art_1a068c6d82184248c475fc06d334f66063" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void wxAuiDefaultDockArt::DrawCaption</definition>
+        <argsstring>(wxDC &amp;dc, wxWindow *window, const wxString &amp;text, const wxRect &amp;rect, wxAuiPaneInfo &amp;pane)</argsstring>
+        <name>DrawCaption</name>
+        <reimplements refid="classwx_aui_dock_art_1a2beeb9e8b4497cd0bd9120039969a73a">DrawCaption</reimplements>
+        <param>
+          <type><ref refid="classwx_d_c" kindref="compound">wxDC</ref> &amp;</type>
+          <declname>dc</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_window" kindref="compound">wxWindow</ref> *</type>
+          <declname>window</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>text</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_rect" kindref="compound">wxRect</ref> &amp;</type>
+          <declname>rect</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_aui_pane_info" kindref="compound">wxAuiPaneInfo</ref> &amp;</type>
+          <declname>pane</declname>
+        </param>
+        <briefdescription>
+<para>Draws a caption. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/dockart.h" line="317" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_aui_default_dock_art_1a3f40797d893f49030b018606b40dc8a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void wxAuiDefaultDockArt::DrawGripper</definition>
+        <argsstring>(wxDC &amp;dc, wxWindow *window, const wxRect &amp;rect, wxAuiPaneInfo &amp;pane)</argsstring>
+        <name>DrawGripper</name>
+        <reimplements refid="classwx_aui_dock_art_1a443759a14c9808739cfec4c4f92d0e8d">DrawGripper</reimplements>
+        <param>
+          <type><ref refid="classwx_d_c" kindref="compound">wxDC</ref> &amp;</type>
+          <declname>dc</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_window" kindref="compound">wxWindow</ref> *</type>
+          <declname>window</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_rect" kindref="compound">wxRect</ref> &amp;</type>
+          <declname>rect</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_aui_pane_info" kindref="compound">wxAuiPaneInfo</ref> &amp;</type>
+          <declname>pane</declname>
+        </param>
+        <briefdescription>
+<para>Draws a gripper. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/dockart.h" line="323" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_aui_default_dock_art_1adf76e82975b48a2ba0bc2286934c8211" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void wxAuiDefaultDockArt::DrawBorder</definition>
+        <argsstring>(wxDC &amp;dc, wxWindow *window, const wxRect &amp;rect, wxAuiPaneInfo &amp;pane)</argsstring>
+        <name>DrawBorder</name>
+        <reimplements refid="classwx_aui_dock_art_1ae889690f8f9ccc46a45fa3c11a2030b4">DrawBorder</reimplements>
+        <param>
+          <type><ref refid="classwx_d_c" kindref="compound">wxDC</ref> &amp;</type>
+          <declname>dc</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_window" kindref="compound">wxWindow</ref> *</type>
+          <declname>window</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_rect" kindref="compound">wxRect</ref> &amp;</type>
+          <declname>rect</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_aui_pane_info" kindref="compound">wxAuiPaneInfo</ref> &amp;</type>
+          <declname>pane</declname>
+        </param>
+        <briefdescription>
+<para>Draws a border. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/dockart.h" line="328" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_aui_default_dock_art_1ac98b01df537ebd2f856c0efb21b0ba58" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void wxAuiDefaultDockArt::DrawPaneButton</definition>
+        <argsstring>(wxDC &amp;dc, wxWindow *window, int button, int buttonState, const wxRect &amp;rect, wxAuiPaneInfo &amp;pane)</argsstring>
+        <name>DrawPaneButton</name>
+        <reimplements refid="classwx_aui_dock_art_1a63c5420456511a83b6646d44fc8c56ee">DrawPaneButton</reimplements>
+        <param>
+          <type><ref refid="classwx_d_c" kindref="compound">wxDC</ref> &amp;</type>
+          <declname>dc</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_window" kindref="compound">wxWindow</ref> *</type>
+          <declname>window</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>button</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>button_state</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_rect" kindref="compound">wxRect</ref> &amp;</type>
+          <declname>rect</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_aui_pane_info" kindref="compound">wxAuiPaneInfo</ref> &amp;</type>
+          <declname>pane</declname>
+        </param>
+        <briefdescription>
+<para>Draws a button in the pane&apos;s title bar. </para>        </briefdescription>
+        <detaileddescription>
+<para><emphasis>button</emphasis> can be one of the values of <bold>wxAuiButtonId</bold>. <emphasis>button_state</emphasis> can be one of the values of <bold>wxAuiPaneButtonState</bold>. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/dockart.h" line="333" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_aui_default_dock_art_1ab17edf41f4d8256fec45b0af53f8049c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxAuiDefaultDockArt::DrawIcon</definition>
+        <argsstring>(wxDC &amp;dc, const wxRect &amp;rect, wxAuiPaneInfo &amp;pane)</argsstring>
+        <name>DrawIcon</name>
+        <param>
+          <type><ref refid="classwx_d_c" kindref="compound">wxDC</ref> &amp;</type>
+          <declname>dc</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_rect" kindref="compound">wxRect</ref> &amp;</type>
+          <declname>rect</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_aui_pane_info" kindref="compound">wxAuiPaneInfo</ref> &amp;</type>
+          <declname>pane</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/dockart.h" line="340" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classwx_aui_default_dock_art_1a60ff09e0c66a310d329fdc0696d31653" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxAuiDefaultDockArt::DrawCaptionBackground</definition>
+        <argsstring>(wxDC &amp;dc, const wxRect &amp;rect, bool active)</argsstring>
+        <name>DrawCaptionBackground</name>
+        <param>
+          <type><ref refid="classwx_d_c" kindref="compound">wxDC</ref> &amp;</type>
+          <declname>dc</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_rect" kindref="compound">wxRect</ref> &amp;</type>
+          <declname>rect</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>active</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/dockart.h" line="346" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_aui_default_dock_art_1aaa1c528735b1950ba8670fc376867e4b" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxAuiDefaultDockArt::InitBitmaps</definition>
+        <argsstring>()</argsstring>
+        <name>InitBitmaps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/dockart.h" line="348" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This is the default art provider for <ref refid="classwx_aui_manager" kindref="compound">wxAuiManager</ref>. </para>    </briefdescription>
+    <detaileddescription>
+<para>Dock art can be customized by creating a class derived from this one, or replacing this class entirely. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="202">
+        <label>wxAuiDefaultDockArt</label>
+        <link refid="classwx_aui_default_dock_art"/>
+        <childnode refid="203" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="203">
+        <label>wxAuiDockArt</label>
+        <link refid="classwx_aui_dock_art"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="208">
+        <label>wxObject</label>
+        <link refid="classwx_object"/>
+        <childnode refid="209" relation="usage">
+          <edgelabel>m_refData</edgelabel>
+        </childnode>
+      </node>
+      <node id="210">
+        <label>wxColour</label>
+        <link refid="classwx_colour"/>
+        <childnode refid="208" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="204">
+        <label>wxAuiDefaultDockArt</label>
+        <link refid="classwx_aui_default_dock_art"/>
+        <childnode refid="205" relation="public-inheritance">
+        </childnode>
+        <childnode refid="206" relation="usage">
+          <edgelabel>m_gripperPen1</edgelabel>
+          <edgelabel>m_gripperPen2</edgelabel>
+          <edgelabel>m_gripperPen3</edgelabel>
+          <edgelabel>m_borderPen</edgelabel>
+        </childnode>
+        <childnode refid="210" relation="usage">
+          <edgelabel>m_inactiveCaptionTextColour</edgelabel>
+          <edgelabel>m_baseColour</edgelabel>
+          <edgelabel>m_inactiveCaptionColour</edgelabel>
+          <edgelabel>m_activeCaptionGradientColour</edgelabel>
+          <edgelabel>m_inactiveCaptionGradientColour</edgelabel>
+          <edgelabel>m_activeCaptionTextColour</edgelabel>
+          <edgelabel>m_activeCaptionColour</edgelabel>
+        </childnode>
+        <childnode refid="211" relation="usage">
+          <edgelabel>m_inactiveRestoreBitmap</edgelabel>
+          <edgelabel>m_activeCloseBitmap</edgelabel>
+          <edgelabel>m_activePinBitmap</edgelabel>
+          <edgelabel>m_inactivePinBitmap</edgelabel>
+          <edgelabel>m_inactiveCloseBitmap</edgelabel>
+          <edgelabel>m_activeRestoreBitmap</edgelabel>
+          <edgelabel>m_activeMaximizeBitmap</edgelabel>
+          <edgelabel>m_inactiveMaximizeBitmap</edgelabel>
+        </childnode>
+        <childnode refid="212" relation="usage">
+          <edgelabel>m_gripperBrush</edgelabel>
+          <edgelabel>m_backgroundBrush</edgelabel>
+          <edgelabel>m_sashBrush</edgelabel>
+        </childnode>
+        <childnode refid="213" relation="usage">
+          <edgelabel>m_captionFont</edgelabel>
+        </childnode>
+      </node>
+      <node id="206">
+        <label>wxPen</label>
+        <link refid="classwx_pen"/>
+        <childnode refid="207" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="205">
+        <label>wxAuiDockArt</label>
+        <link refid="classwx_aui_dock_art"/>
+      </node>
+      <node id="211">
+        <label>wxBitmap</label>
+        <link refid="classwx_bitmap"/>
+        <childnode refid="207" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="207">
+        <label>wxGDIObject</label>
+        <link refid="classwx_g_d_i_object"/>
+        <childnode refid="208" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="213">
+        <label>wxFont</label>
+        <link refid="classwx_font"/>
+        <childnode refid="207" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="209">
+        <label>wxObjectRefData</label>
+        <link refid="classwx_object_ref_data"/>
+      </node>
+      <node id="212">
+        <label>wxBrush</label>
+        <link refid="classwx_brush"/>
+        <childnode refid="207" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="interface/wx/aui/dockart.h" line="295" column="1" bodyfile="interface/wx/aui/dockart.h" bodystart="294" bodyend="381"/>
+    <listofallmembers>
+      <member refid="classwx_aui_default_dock_art_1a61bf3b89f9d62e679d4437f627c5d402" prot="public" virt="virtual"><scope>wxAuiDefaultDockArt</scope><name>DrawBackground</name></member>
+      <member refid="classwx_aui_default_dock_art_1adf76e82975b48a2ba0bc2286934c8211" prot="public" virt="virtual"><scope>wxAuiDefaultDockArt</scope><name>DrawBorder</name></member>
+      <member refid="classwx_aui_default_dock_art_1a068c6d82184248c475fc06d334f66063" prot="public" virt="virtual"><scope>wxAuiDefaultDockArt</scope><name>DrawCaption</name></member>
+      <member refid="classwx_aui_default_dock_art_1a60ff09e0c66a310d329fdc0696d31653" prot="protected" virt="non-virtual"><scope>wxAuiDefaultDockArt</scope><name>DrawCaptionBackground</name></member>
+      <member refid="classwx_aui_default_dock_art_1a3f40797d893f49030b018606b40dc8a3" prot="public" virt="virtual"><scope>wxAuiDefaultDockArt</scope><name>DrawGripper</name></member>
+      <member refid="classwx_aui_default_dock_art_1ab17edf41f4d8256fec45b0af53f8049c" prot="public" virt="non-virtual"><scope>wxAuiDefaultDockArt</scope><name>DrawIcon</name></member>
+      <member refid="classwx_aui_default_dock_art_1ac98b01df537ebd2f856c0efb21b0ba58" prot="public" virt="virtual"><scope>wxAuiDefaultDockArt</scope><name>DrawPaneButton</name></member>
+      <member refid="classwx_aui_default_dock_art_1a7e19b37da2256eac3d12b3a73407d998" prot="public" virt="virtual"><scope>wxAuiDefaultDockArt</scope><name>DrawSash</name></member>
+      <member refid="classwx_aui_default_dock_art_1a2d82eb134e20294dd4c6dc5601bde19b" prot="public" virt="virtual"><scope>wxAuiDefaultDockArt</scope><name>GetColour</name></member>
+      <member refid="classwx_aui_default_dock_art_1a1c549ffc279519f8acf69e78999265b6" prot="public" virt="virtual"><scope>wxAuiDefaultDockArt</scope><name>GetFont</name></member>
+      <member refid="classwx_aui_default_dock_art_1ac423d6efc91341a5fbb113642f70ec7e" prot="public" virt="virtual"><scope>wxAuiDefaultDockArt</scope><name>GetMetric</name></member>
+      <member refid="classwx_aui_default_dock_art_1aaa1c528735b1950ba8670fc376867e4b" prot="protected" virt="non-virtual"><scope>wxAuiDefaultDockArt</scope><name>InitBitmaps</name></member>
+      <member refid="classwx_aui_default_dock_art_1aa45e0dec398c9dd5f8f3cdffabf9a2a2" prot="protected" virt="non-virtual"><scope>wxAuiDefaultDockArt</scope><name>m_activeCaptionColour</name></member>
+      <member refid="classwx_aui_default_dock_art_1a748e9220512e5ee5d1ef8ebef41fa116" prot="protected" virt="non-virtual"><scope>wxAuiDefaultDockArt</scope><name>m_activeCaptionGradientColour</name></member>
+      <member refid="classwx_aui_default_dock_art_1a72761299db924ec8cce594aa9a97d9c4" prot="protected" virt="non-virtual"><scope>wxAuiDefaultDockArt</scope><name>m_activeCaptionTextColour</name></member>
+      <member refid="classwx_aui_default_dock_art_1ab024c7e72443f274a5496e13489a10ec" prot="protected" virt="non-virtual"><scope>wxAuiDefaultDockArt</scope><name>m_activeCloseBitmap</name></member>
+      <member refid="classwx_aui_default_dock_art_1a792766bc6a7bf6eb0bcb592ef1b04926" prot="protected" virt="non-virtual"><scope>wxAuiDefaultDockArt</scope><name>m_activeMaximizeBitmap</name></member>
+      <member refid="classwx_aui_default_dock_art_1aae2cc265c27ebbbff098615cd9d3b483" prot="protected" virt="non-virtual"><scope>wxAuiDefaultDockArt</scope><name>m_activePinBitmap</name></member>
+      <member refid="classwx_aui_default_dock_art_1ac8cee836e990e5e046869495ab58e3cc" prot="protected" virt="non-virtual"><scope>wxAuiDefaultDockArt</scope><name>m_activeRestoreBitmap</name></member>
+      <member refid="classwx_aui_default_dock_art_1a2343798507dbc240eaf80dfa65effb69" prot="protected" virt="non-virtual"><scope>wxAuiDefaultDockArt</scope><name>m_backgroundBrush</name></member>
+      <member refid="classwx_aui_default_dock_art_1aaf94a04da4aff01ee6c34cf8de91bda9" prot="protected" virt="non-virtual"><scope>wxAuiDefaultDockArt</scope><name>m_baseColour</name></member>
+      <member refid="classwx_aui_default_dock_art_1a6471004a8e4072df2934766a78cb6f9f" prot="protected" virt="non-virtual"><scope>wxAuiDefaultDockArt</scope><name>m_borderPen</name></member>
+      <member refid="classwx_aui_default_dock_art_1a8430e78628046a60441d918f6d69461e" prot="protected" virt="non-virtual"><scope>wxAuiDefaultDockArt</scope><name>m_borderSize</name></member>
+      <member refid="classwx_aui_default_dock_art_1a77f7ac2b4844339a36098b6a31d67eba" prot="protected" virt="non-virtual"><scope>wxAuiDefaultDockArt</scope><name>m_buttonSize</name></member>
+      <member refid="classwx_aui_default_dock_art_1a19e6d49e0e9247fdd17eaca3a3f74455" prot="protected" virt="non-virtual"><scope>wxAuiDefaultDockArt</scope><name>m_captionFont</name></member>
+      <member refid="classwx_aui_default_dock_art_1a34b45d391acc44d74ab7a0db30803d6f" prot="protected" virt="non-virtual"><scope>wxAuiDefaultDockArt</scope><name>m_captionSize</name></member>
+      <member refid="classwx_aui_default_dock_art_1ae7d948d958c34d1b67dc6cd6d09b5bf2" prot="protected" virt="non-virtual"><scope>wxAuiDefaultDockArt</scope><name>m_gradientType</name></member>
+      <member refid="classwx_aui_default_dock_art_1aa4b3ac464b2c6d43893bcb45099814e3" prot="protected" virt="non-virtual"><scope>wxAuiDefaultDockArt</scope><name>m_gripperBrush</name></member>
+      <member refid="classwx_aui_default_dock_art_1a49df8d9dcd6bc9911bbfb4286540d080" prot="protected" virt="non-virtual"><scope>wxAuiDefaultDockArt</scope><name>m_gripperPen1</name></member>
+      <member refid="classwx_aui_default_dock_art_1a5f142447898cfd7f03345fb9aebdab00" prot="protected" virt="non-virtual"><scope>wxAuiDefaultDockArt</scope><name>m_gripperPen2</name></member>
+      <member refid="classwx_aui_default_dock_art_1a0b3018b4bf98b0af1a21aea51af83534" prot="protected" virt="non-virtual"><scope>wxAuiDefaultDockArt</scope><name>m_gripperPen3</name></member>
+      <member refid="classwx_aui_default_dock_art_1a73f65942b6a84cee3926ff1e467ddf4a" prot="protected" virt="non-virtual"><scope>wxAuiDefaultDockArt</scope><name>m_gripperSize</name></member>
+      <member refid="classwx_aui_default_dock_art_1a07f1eac60e94752a51a640315e4b2f1e" prot="protected" virt="non-virtual"><scope>wxAuiDefaultDockArt</scope><name>m_inactiveCaptionColour</name></member>
+      <member refid="classwx_aui_default_dock_art_1a253f0543370db89d2984a0510ebea1bb" prot="protected" virt="non-virtual"><scope>wxAuiDefaultDockArt</scope><name>m_inactiveCaptionGradientColour</name></member>
+      <member refid="classwx_aui_default_dock_art_1aaf970ec9265b60479389752b9d5f74fc" prot="protected" virt="non-virtual"><scope>wxAuiDefaultDockArt</scope><name>m_inactiveCaptionTextColour</name></member>
+      <member refid="classwx_aui_default_dock_art_1a6d4293ce9d1e62ebfa69aaad9526b1c0" prot="protected" virt="non-virtual"><scope>wxAuiDefaultDockArt</scope><name>m_inactiveCloseBitmap</name></member>
+      <member refid="classwx_aui_default_dock_art_1ae5cf0239c725dd32c0945a0f47963ff9" prot="protected" virt="non-virtual"><scope>wxAuiDefaultDockArt</scope><name>m_inactiveMaximizeBitmap</name></member>
+      <member refid="classwx_aui_default_dock_art_1ad96588207f417d94bf1b53ad55cc3ade" prot="protected" virt="non-virtual"><scope>wxAuiDefaultDockArt</scope><name>m_inactivePinBitmap</name></member>
+      <member refid="classwx_aui_default_dock_art_1a7618c44525e862c3adeee3784ae9248d" prot="protected" virt="non-virtual"><scope>wxAuiDefaultDockArt</scope><name>m_inactiveRestoreBitmap</name></member>
+      <member refid="classwx_aui_default_dock_art_1aef386ae1d0719e320af9287b7a5fed1b" prot="protected" virt="non-virtual"><scope>wxAuiDefaultDockArt</scope><name>m_sashBrush</name></member>
+      <member refid="classwx_aui_default_dock_art_1a1548e24349a0b9f2e2d647c4afe330da" prot="protected" virt="non-virtual"><scope>wxAuiDefaultDockArt</scope><name>m_sashSize</name></member>
+      <member refid="classwx_aui_default_dock_art_1af1f9e609e6ac5057ead66f505fcb2d1b" prot="public" virt="virtual"><scope>wxAuiDefaultDockArt</scope><name>SetColour</name></member>
+      <member refid="classwx_aui_default_dock_art_1a2652db5c3db1f77a31498ec5c48ad556" prot="public" virt="virtual"><scope>wxAuiDefaultDockArt</scope><name>SetFont</name></member>
+      <member refid="classwx_aui_default_dock_art_1a1f72371aca992e54b59edf8b843c58af" prot="public" virt="virtual"><scope>wxAuiDefaultDockArt</scope><name>SetMetric</name></member>
+      <member refid="classwx_aui_default_dock_art_1a9c6b6593ff7fac84ec5f62713b4ac48e" prot="public" virt="non-virtual"><scope>wxAuiDefaultDockArt</scope><name>wxAuiDefaultDockArt</name></member>
+      <member refid="classwx_aui_dock_art_1a0d9ee21f95d11ff50b50e5a4e3d5e2c0" prot="public" virt="non-virtual"><scope>wxAuiDefaultDockArt</scope><name>wxAuiDockArt</name></member>
+      <member refid="classwx_aui_dock_art_1acbcfd4caba9681f99b80da29e1fa5809" prot="public" virt="virtual"><scope>wxAuiDefaultDockArt</scope><name>~wxAuiDockArt</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

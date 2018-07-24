@@ -1,0 +1,147 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_html_word_with_tabs_cell" kind="class" language="C++" prot="public">
+    <compoundname>wxHtmlWordWithTabsCell</compoundname>
+    <basecompoundref refid="classwx_html_word_cell" prot="public" virt="non-virtual">wxHtmlWordCell</basecompoundref>
+    <includes local="no">wx/html/htmlcell.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classwx_html_word_with_tabs_cell_1a9046f16581bb2bb43425e671c4b3a758" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxHtmlWordWithTabsCell::wxHtmlWordWithTabsCell</definition>
+        <argsstring>(const wxString &amp;word, const wxString &amp;wordOrig, size_t linepos, const wxDC &amp;dc)</argsstring>
+        <name>wxHtmlWordWithTabsCell</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>word</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>wordOrig</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>linepos</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_d_c" kindref="compound">wxDC</ref> &amp;</type>
+          <declname>dc</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/html/htmlcell.h" line="782" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="classwx_html_word_cell" kindref="compound">wxHtmlWordCell</ref> is a specialization for storing text fragments with embedded tab characters. </para>    </briefdescription>
+    <detaileddescription>
+<para><heading level="2"></heading>
+</para><para>Library:<nonbreakablespace/><nonbreakablespace/><ref refid="page_libs_1page_libs_wxhtml" kindref="member">wxHTML</ref> &lt;&gt;&lt; =&apos;&apos;&gt;:&lt;/&gt;&amp;;&amp;;&lt; =&apos;&apos;&gt;\ &lt;/&gt;&lt;/&gt; </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="3549">
+        <label>wxObject</label>
+        <link refid="classwx_object"/>
+      </node>
+      <node id="3546">
+        <label>wxHtmlWordWithTabsCell</label>
+        <link refid="classwx_html_word_with_tabs_cell"/>
+        <childnode refid="3547" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3548">
+        <label>wxHtmlCell</label>
+        <link refid="classwx_html_cell"/>
+        <childnode refid="3549" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3547">
+        <label>wxHtmlWordCell</label>
+        <link refid="classwx_html_word_cell"/>
+        <childnode refid="3548" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3553">
+        <label>wxObject</label>
+        <link refid="classwx_object"/>
+        <childnode refid="3554" relation="usage">
+          <edgelabel>m_refData</edgelabel>
+        </childnode>
+      </node>
+      <node id="3550">
+        <label>wxHtmlWordWithTabsCell</label>
+        <link refid="classwx_html_word_with_tabs_cell"/>
+        <childnode refid="3551" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3552">
+        <label>wxHtmlCell</label>
+        <link refid="classwx_html_cell"/>
+        <childnode refid="3553" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3551">
+        <label>wxHtmlWordCell</label>
+        <link refid="classwx_html_word_cell"/>
+        <childnode refid="3552" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3554">
+        <label>wxObjectRefData</label>
+        <link refid="classwx_object_ref_data"/>
+      </node>
+    </collaborationgraph>
+    <location file="interface/wx/html/htmlcell.h" line="780" column="1" bodyfile="interface/wx/html/htmlcell.h" bodystart="779" bodyend="786"/>
+    <listofallmembers>
+      <member refid="classwx_html_cell_1a94f81ca4df251bde5e8aab9937994d75" prot="public" virt="virtual"><scope>wxHtmlWordWithTabsCell</scope><name>AdjustPagebreak</name></member>
+      <member refid="classwx_object_1a60204063f3cc3aa2fa1c7ff5bda9eb13" prot="protected" virt="non-virtual"><scope>wxHtmlWordWithTabsCell</scope><name>AllocExclusive</name></member>
+      <member refid="classwx_object_1a436fc8fe68cf8a31000296d9cd3d2427" prot="protected" virt="virtual"><scope>wxHtmlWordWithTabsCell</scope><name>CloneRefData</name></member>
+      <member refid="classwx_html_cell_1a989cce1ced245ab50497dd607b9cc453" prot="public" virt="virtual"><scope>wxHtmlWordWithTabsCell</scope><name>ConvertToText</name></member>
+      <member refid="classwx_object_1a3f4f497c65cef611e121c41f21dd5ccc" prot="protected" virt="virtual"><scope>wxHtmlWordWithTabsCell</scope><name>CreateRefData</name></member>
+      <member refid="classwx_html_cell_1abebd247b545b1885e2a6406a1fc20d0a" prot="public" virt="virtual"><scope>wxHtmlWordWithTabsCell</scope><name>Draw</name></member>
+      <member refid="classwx_html_cell_1abe8d7bac1f334d039a55c25eb55626c0" prot="public" virt="virtual"><scope>wxHtmlWordWithTabsCell</scope><name>DrawInvisible</name></member>
+      <member refid="classwx_html_cell_1a5ecb6a36b54ce625426702dae012a71e" prot="public" virt="virtual"><scope>wxHtmlWordWithTabsCell</scope><name>Find</name></member>
+      <member refid="classwx_html_cell_1a4bf845019dfa051a2d1dea440fb506b0" prot="public" virt="virtual"><scope>wxHtmlWordWithTabsCell</scope><name>FindCellByPos</name></member>
+      <member refid="classwx_object_1ae6d365f2556b26767ced8410c5e839d0" prot="public" virt="virtual"><scope>wxHtmlWordWithTabsCell</scope><name>GetClassInfo</name></member>
+      <member refid="classwx_html_cell_1ada9db07a6be3d6748b38b725a4b4f675" prot="public" virt="non-virtual"><scope>wxHtmlWordWithTabsCell</scope><name>GetDescent</name></member>
+      <member refid="classwx_html_cell_1aa3ab6d40ca0046e028c754cb2d8d431b" prot="public" virt="virtual"><scope>wxHtmlWordWithTabsCell</scope><name>GetFirstChild</name></member>
+      <member refid="classwx_html_cell_1a136408eaa12cb7043eb3ea40f5956795" prot="public" virt="non-virtual"><scope>wxHtmlWordWithTabsCell</scope><name>GetHeight</name></member>
+      <member refid="classwx_html_cell_1a092dd79b58fcdb06dc0481e4dd435b74" prot="public" virt="non-virtual"><scope>wxHtmlWordWithTabsCell</scope><name>GetId</name></member>
+      <member refid="classwx_html_cell_1aa9a29457b0e21dbe408df3c7408c1bb3" prot="public" virt="virtual"><scope>wxHtmlWordWithTabsCell</scope><name>GetLink</name></member>
+      <member refid="classwx_html_cell_1af1c6dab0ebf88402f48503e0a750e10d" prot="public" virt="virtual"><scope>wxHtmlWordWithTabsCell</scope><name>GetMouseCursor</name></member>
+      <member refid="classwx_html_cell_1ae7b9e97f1ec3d854690e11ff7207b978" prot="public" virt="virtual"><scope>wxHtmlWordWithTabsCell</scope><name>GetMouseCursorAt</name></member>
+      <member refid="classwx_html_cell_1a19cb53e6042e397e4dd69f4e8d935b1c" prot="public" virt="non-virtual"><scope>wxHtmlWordWithTabsCell</scope><name>GetNext</name></member>
+      <member refid="classwx_html_cell_1ab7cf0fa2da29e8f74fe621ce5261a3e4" prot="public" virt="non-virtual"><scope>wxHtmlWordWithTabsCell</scope><name>GetParent</name></member>
+      <member refid="classwx_html_cell_1aca452bf6312605b63219abc946835a11" prot="public" virt="non-virtual"><scope>wxHtmlWordWithTabsCell</scope><name>GetPosX</name></member>
+      <member refid="classwx_html_cell_1add31c18ac4923efa195a867d9f6b2a17" prot="public" virt="non-virtual"><scope>wxHtmlWordWithTabsCell</scope><name>GetPosY</name></member>
+      <member refid="classwx_object_1af3c6c76a775864832f1536d3c0de3a2b" prot="public" virt="non-virtual"><scope>wxHtmlWordWithTabsCell</scope><name>GetRefData</name></member>
+      <member refid="classwx_html_cell_1aa5a6f7009eee2758b07d945b6abf9c6d" prot="public" virt="non-virtual"><scope>wxHtmlWordWithTabsCell</scope><name>GetWidth</name></member>
+      <member refid="classwx_object_1a3c7115ef4132dcee0c4fc34e84d7fced" prot="public" virt="non-virtual"><scope>wxHtmlWordWithTabsCell</scope><name>IsKindOf</name></member>
+      <member refid="classwx_object_1a059373c494c2369d7db2a556efef8ecf" prot="public" virt="non-virtual"><scope>wxHtmlWordWithTabsCell</scope><name>IsSameAs</name></member>
+      <member refid="classwx_html_cell_1ada68b93b129fafc7b251580408b67fd6" prot="public" virt="virtual"><scope>wxHtmlWordWithTabsCell</scope><name>Layout</name></member>
+      <member refid="classwx_object_1a9e31954530a0abd54982effc443ed2b8" prot="protected" virt="non-virtual"><scope>wxHtmlWordWithTabsCell</scope><name>m_refData</name></member>
+      <member refid="classwx_object_1a07b8f34f5afc5743195c5fed052f55d3" prot="public" virt="non-virtual"><scope>wxHtmlWordWithTabsCell</scope><name>operator delete</name></member>
+      <member refid="classwx_object_1a96fa423a1dbc212c8227a5d83825971f" prot="public" virt="non-virtual"><scope>wxHtmlWordWithTabsCell</scope><name>operator new</name></member>
+      <member refid="classwx_html_cell_1ae6ed35ebd27616ae32905461507fe8db" prot="public" virt="virtual"><scope>wxHtmlWordWithTabsCell</scope><name>ProcessMouseClick</name></member>
+      <member refid="classwx_object_1a2f6f1aa51fe9fc2b1415ca4211a90e9e" prot="public" virt="non-virtual"><scope>wxHtmlWordWithTabsCell</scope><name>Ref</name></member>
+      <member refid="classwx_html_cell_1ae70b6dde74d962102a80bbceef1ce372" prot="public" virt="non-virtual"><scope>wxHtmlWordWithTabsCell</scope><name>SetId</name></member>
+      <member refid="classwx_html_cell_1af85de831d0381ebe7b862ed3d147f306" prot="public" virt="non-virtual"><scope>wxHtmlWordWithTabsCell</scope><name>SetLink</name></member>
+      <member refid="classwx_html_cell_1af744488eb0f3fc67b15e89c88bf8e916" prot="public" virt="non-virtual"><scope>wxHtmlWordWithTabsCell</scope><name>SetNext</name></member>
+      <member refid="classwx_html_cell_1abd0726c3573d161c7db27f12705ec124" prot="public" virt="non-virtual"><scope>wxHtmlWordWithTabsCell</scope><name>SetParent</name></member>
+      <member refid="classwx_html_cell_1a6cba35376a5280f83450c3993f517851" prot="public" virt="virtual"><scope>wxHtmlWordWithTabsCell</scope><name>SetPos</name></member>
+      <member refid="classwx_object_1afab780710f2adc1bb33310e27590140b" prot="public" virt="non-virtual"><scope>wxHtmlWordWithTabsCell</scope><name>SetRefData</name></member>
+      <member refid="classwx_object_1af51efc6b1ae632fc7f0cd7ebbce9fa36" prot="public" virt="non-virtual"><scope>wxHtmlWordWithTabsCell</scope><name>UnRef</name></member>
+      <member refid="classwx_object_1a74b40e42d19a4b9e9bec0b57d62a5725" prot="public" virt="non-virtual"><scope>wxHtmlWordWithTabsCell</scope><name>UnShare</name></member>
+      <member refid="classwx_html_cell_1aac6636a52a073486383e0f278607534b" prot="public" virt="non-virtual"><scope>wxHtmlWordWithTabsCell</scope><name>wxHtmlCell</name></member>
+      <member refid="classwx_html_word_cell_1a2c04b3da938954bed170847162b15300" prot="public" virt="non-virtual"><scope>wxHtmlWordWithTabsCell</scope><name>wxHtmlWordCell</name></member>
+      <member refid="classwx_html_word_with_tabs_cell_1a9046f16581bb2bb43425e671c4b3a758" prot="public" virt="non-virtual"><scope>wxHtmlWordWithTabsCell</scope><name>wxHtmlWordWithTabsCell</name></member>
+      <member refid="classwx_object_1acaa378363a28af421ab56ad7b46eadf0" prot="public" virt="non-virtual"><scope>wxHtmlWordWithTabsCell</scope><name>wxObject</name></member>
+      <member refid="classwx_object_1a4721b4dc9b7aff0f30904ba2ea3954cf" prot="public" virt="non-virtual"><scope>wxHtmlWordWithTabsCell</scope><name>wxObject</name></member>
+      <member refid="classwx_object_1a2a51aa8bfbab47ca2f051bcf84b3f35b" prot="public" virt="virtual"><scope>wxHtmlWordWithTabsCell</scope><name>~wxObject</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

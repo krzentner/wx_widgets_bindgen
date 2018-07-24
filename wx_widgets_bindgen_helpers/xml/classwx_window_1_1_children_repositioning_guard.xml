@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_window_1_1_children_repositioning_guard" kind="class" language="C++" prot="public">
+    <compoundname>wxWindow::ChildrenRepositioningGuard</compoundname>
+    <includes local="no">wx/window.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classwx_window_1_1_children_repositioning_guard_1a535922e694563c783fd6b8be49ce6666" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxWindow::ChildrenRepositioningGuard::ChildrenRepositioningGuard</definition>
+        <argsstring>(wxWindow *win)</argsstring>
+        <name>ChildrenRepositioningGuard</name>
+        <param>
+          <type><ref refid="classwx_window" kindref="compound">wxWindow</ref> *</type>
+          <declname>win</declname>
+        </param>
+        <briefdescription>
+<para>Constructor calls <ref refid="classwx_window_1ab4cea6ace96193b5c4282e097a6fbfee" kindref="member">wxWindow::BeginRepositioningChildren()</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>win</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The window to call <ref refid="classwx_window_1ab4cea6ace96193b5c4282e097a6fbfee" kindref="member">BeginRepositioningChildren()</ref> on. If it is NULL, nothing is done. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/window.h" line="809" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_window_1_1_children_repositioning_guard_1a169e70ef1a888b263048e0f897b823b3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxWindow::ChildrenRepositioningGuard::~ChildrenRepositioningGuard</definition>
+        <argsstring>()</argsstring>
+        <name>~ChildrenRepositioningGuard</name>
+        <briefdescription>
+<para>Destructor calls <ref refid="classwx_window_1a1203fbd238d781253b44e0e459532301" kindref="member">wxWindow::EndRepositioningChildren()</ref> if necessary. </para>        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classwx_window_1a1203fbd238d781253b44e0e459532301" kindref="member">EndRepositioningChildren()</ref> is called only if a valid window was passed to the constructor and if <ref refid="classwx_window_1ab4cea6ace96193b5c4282e097a6fbfee" kindref="member">BeginRepositioningChildren()</ref> returned true. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/window.h" line="818" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Helper for ensuring <ref refid="classwx_window_1a1203fbd238d781253b44e0e459532301" kindref="member">EndRepositioningChildren()</ref> is called correctly. </para>    </briefdescription>
+    <detaileddescription>
+<para>This class wraps the calls to <ref refid="classwx_window_1ab4cea6ace96193b5c4282e097a6fbfee" kindref="member">BeginRepositioningChildren()</ref> and <ref refid="classwx_window_1a1203fbd238d781253b44e0e459532301" kindref="member">EndRepositioningChildren()</ref> by performing the former in its constructor and the latter in its destructor if, and only if, the first call returned true. This is the simplest way to call these methods and if this class is created as a local variable, it also ensures that <ref refid="classwx_window_1a1203fbd238d781253b44e0e459532301" kindref="member">EndRepositioningChildren()</ref> is correctly called (or not) on scope exit, so its use instead of calling these methods manually is highly recommended.</para><para><simplesect kind="since"><para>2.9.5 </para></simplesect>
+</para>    </detaileddescription>
+    <location file="interface/wx/window.h" line="801" column="1" bodyfile="interface/wx/window.h" bodystart="800" bodyend="819"/>
+    <listofallmembers>
+      <member refid="classwx_window_1_1_children_repositioning_guard_1a535922e694563c783fd6b8be49ce6666" prot="public" virt="non-virtual"><scope>wxWindow::ChildrenRepositioningGuard</scope><name>ChildrenRepositioningGuard</name></member>
+      <member refid="classwx_window_1_1_children_repositioning_guard_1a169e70ef1a888b263048e0f897b823b3" prot="public" virt="non-virtual"><scope>wxWindow::ChildrenRepositioningGuard</scope><name>~ChildrenRepositioningGuard</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

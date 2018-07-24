@@ -1,0 +1,238 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_ref_counter" kind="class" language="C++" prot="public">
+    <compoundname>wxRefCounter</compoundname>
+    <derivedcompoundref refid="classwx_data_view_model" prot="public" virt="non-virtual">wxDataViewModel</derivedcompoundref>
+    <derivedcompoundref refid="classwx_grid_cell_attr" prot="public" virt="non-virtual">wxGridCellAttr</derivedcompoundref>
+    <derivedcompoundref refid="classwx_grid_cell_editor" prot="public" virt="non-virtual">wxGridCellEditor</derivedcompoundref>
+    <derivedcompoundref refid="classwx_grid_cell_renderer" prot="public" virt="non-virtual">wxGridCellRenderer</derivedcompoundref>
+    <includes local="no">wx/object.h</includes>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classwx_ref_counter_1aeaa9aceda6421eaa0d693cc29795263a" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual wxRefCounter::~wxRefCounter</definition>
+        <argsstring>()</argsstring>
+        <name>~wxRefCounter</name>
+        <briefdescription>
+<para>Destructor. </para>        </briefdescription>
+        <detaileddescription>
+<para>It&apos;s declared <computeroutput>protected</computeroutput> so that <ref refid="classwx_ref_counter" kindref="compound">wxRefCounter</ref> instances will never be destroyed directly but only as result of a <ref refid="classwx_ref_counter_1a803eb5be907b1a342082ceb59c01d8c5" kindref="member">DecRef()</ref> call. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/object.h" line="171" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classwx_ref_counter_1aebcddb8241dfea7f60f8e4df6776a0e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxRefCounter::wxRefCounter</definition>
+        <argsstring>()</argsstring>
+        <name>wxRefCounter</name>
+        <briefdescription>
+<para>Default constructor. </para>        </briefdescription>
+        <detaileddescription>
+<para>Initialises the internal reference count to 1. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/object.h" line="177" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_ref_counter_1a803eb5be907b1a342082ceb59c01d8c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxRefCounter::DecRef</definition>
+        <argsstring>()</argsstring>
+        <name>DecRef</name>
+        <briefdescription>
+<para>Decrements the reference count associated with this shared data and, if it reaches zero, destroys this instance of <ref refid="classwx_ref_counter" kindref="compound">wxRefCounter</ref> releasing its memory. </para>        </briefdescription>
+        <detaileddescription>
+<para>Please note that after calling this function, the caller should absolutely avoid to use the pointer to this instance since it may not be valid anymore. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/object.h" line="188" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_ref_counter_1a98ca5fc3fa6219d993dd3654925c46aa" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int wxRefCounter::GetRefCount</definition>
+        <argsstring>() const</argsstring>
+        <name>GetRefCount</name>
+        <briefdescription>
+<para>Returns the reference count associated with this shared data. </para>        </briefdescription>
+        <detaileddescription>
+<para>When this goes to zero during a <ref refid="classwx_ref_counter_1a803eb5be907b1a342082ceb59c01d8c5" kindref="member">DecRef()</ref> call, the object will auto-free itself. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/object.h" line="195" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_ref_counter_1a9fec1fb6f778d9df7a8c046ad6a2d887" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxRefCounter::IncRef</definition>
+        <argsstring>()</argsstring>
+        <name>IncRef</name>
+        <briefdescription>
+<para>Increments the reference count associated with this shared data. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/object.h" line="200" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class is used to manage reference-counting providing a simple interface and a counter. </para>    </briefdescription>
+    <detaileddescription>
+<para><ref refid="classwx_ref_counter" kindref="compound">wxRefCounter</ref> can be easily used together with <ref refid="classwx_object_data_ptr_3_01_t_01_4" kindref="compound">wxObjectDataPtr&lt;T&gt;</ref> to ensure that no calls to <ref refid="classwx_ref_counter_1a803eb5be907b1a342082ceb59c01d8c5" kindref="member">wxRefCounter::DecRef()</ref> are missed - thus avoiding memory leaks.</para><para><ref refid="classwx_object_ref_data" kindref="compound">wxObjectRefData</ref> is a typedef to <ref refid="classwx_ref_counter" kindref="compound">wxRefCounter</ref> and is used as the built-in reference counted storage for wxObject-derived classes.</para><para><heading level="2"></heading>
+</para><para>Library:<nonbreakablespace/><nonbreakablespace/><ref refid="page_libs_1page_libs_wxbase" kindref="member">wxBase</ref> &lt;&gt;&lt; =&apos;&apos;&gt;:&lt;/&gt;&amp;;&amp;;&lt; =&apos;&apos;&gt;\ &lt;/&gt;&lt;/&gt;</para><para><simplesect kind="see"><para><ref refid="classwx_object" kindref="compound">wxObject</ref>, <ref refid="classwx_object_ref_data" kindref="compound">wxObjectRefData</ref>, <ref refid="classwx_object_data_ptr_3_01_t_01_4" kindref="compound">wxObjectDataPtr&lt;T&gt;</ref>, <ref refid="overview_refcount" kindref="compound">Reference Counting</ref> </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="5920">
+        <label>wxGridCellEnumEditor</label>
+        <link refid="classwx_grid_cell_enum_editor"/>
+        <childnode refid="5919" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5913">
+        <label>wxDataViewListStore</label>
+        <link refid="classwx_data_view_list_store"/>
+        <childnode refid="5912" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5909">
+        <label>wxRefCounter</label>
+        <link refid="classwx_ref_counter"/>
+      </node>
+      <node id="5924">
+        <label>wxGridCellNumberEditor</label>
+        <link refid="classwx_grid_cell_number_editor"/>
+        <childnode refid="5921" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5926">
+        <label>wxGridCellBoolRenderer</label>
+        <link refid="classwx_grid_cell_bool_renderer"/>
+        <childnode refid="5925" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5912">
+        <label>wxDataViewIndexListModel</label>
+        <link refid="classwx_data_view_index_list_model"/>
+        <childnode refid="5911" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5921">
+        <label>wxGridCellTextEditor</label>
+        <link refid="classwx_grid_cell_text_editor"/>
+        <childnode refid="5917" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5930">
+        <label>wxGridCellEnumRenderer</label>
+        <link refid="classwx_grid_cell_enum_renderer"/>
+        <childnode refid="5927" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5910">
+        <label>wxDataViewModel</label>
+        <link refid="classwx_data_view_model"/>
+        <childnode refid="5909" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5915">
+        <label>wxDataViewTreeStore</label>
+        <link refid="classwx_data_view_tree_store"/>
+        <childnode refid="5910" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5929">
+        <label>wxGridCellDateTimeRenderer</label>
+        <link refid="classwx_grid_cell_date_time_renderer"/>
+        <childnode refid="5927" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5914">
+        <label>wxDataViewVirtualListModel</label>
+        <link refid="classwx_data_view_virtual_list_model"/>
+        <childnode refid="5911" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5917">
+        <label>wxGridCellEditor</label>
+        <link refid="classwx_grid_cell_editor"/>
+        <childnode refid="5909" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5932">
+        <label>wxGridCellNumberRenderer</label>
+        <link refid="classwx_grid_cell_number_renderer"/>
+        <childnode refid="5927" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5928">
+        <label>wxGridCellAutoWrapStringRenderer</label>
+        <link refid="classwx_grid_cell_auto_wrap_string_renderer"/>
+        <childnode refid="5927" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5916">
+        <label>wxGridCellAttr</label>
+        <link refid="classwx_grid_cell_attr"/>
+        <childnode refid="5909" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5919">
+        <label>wxGridCellChoiceEditor</label>
+        <link refid="classwx_grid_cell_choice_editor"/>
+        <childnode refid="5917" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5922">
+        <label>wxGridCellAutoWrapStringEditor</label>
+        <link refid="classwx_grid_cell_auto_wrap_string_editor"/>
+        <childnode refid="5921" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5918">
+        <label>wxGridCellBoolEditor</label>
+        <link refid="classwx_grid_cell_bool_editor"/>
+        <childnode refid="5917" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5931">
+        <label>wxGridCellFloatRenderer</label>
+        <link refid="classwx_grid_cell_float_renderer"/>
+        <childnode refid="5927" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5925">
+        <label>wxGridCellRenderer</label>
+        <link refid="classwx_grid_cell_renderer"/>
+        <childnode refid="5909" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5911">
+        <label>wxDataViewListModel</label>
+        <link refid="classwx_data_view_list_model"/>
+        <childnode refid="5910" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5927">
+        <label>wxGridCellStringRenderer</label>
+        <link refid="classwx_grid_cell_string_renderer"/>
+        <childnode refid="5925" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5923">
+        <label>wxGridCellFloatEditor</label>
+        <link refid="classwx_grid_cell_float_editor"/>
+        <childnode refid="5921" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="interface/wx/object.h" line="163" column="1" bodyfile="interface/wx/object.h" bodystart="162" bodyend="201"/>
+    <listofallmembers>
+      <member refid="classwx_ref_counter_1a803eb5be907b1a342082ceb59c01d8c5" prot="public" virt="non-virtual"><scope>wxRefCounter</scope><name>DecRef</name></member>
+      <member refid="classwx_ref_counter_1a98ca5fc3fa6219d993dd3654925c46aa" prot="public" virt="non-virtual"><scope>wxRefCounter</scope><name>GetRefCount</name></member>
+      <member refid="classwx_ref_counter_1a9fec1fb6f778d9df7a8c046ad6a2d887" prot="public" virt="non-virtual"><scope>wxRefCounter</scope><name>IncRef</name></member>
+      <member refid="classwx_ref_counter_1aebcddb8241dfea7f60f8e4df6776a0e3" prot="public" virt="non-virtual"><scope>wxRefCounter</scope><name>wxRefCounter</name></member>
+      <member refid="classwx_ref_counter_1aeaa9aceda6421eaa0d693cc29795263a" prot="protected" virt="virtual"><scope>wxRefCounter</scope><name>~wxRefCounter</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="overview_i18n" kind="page">
+    <compoundname>overview_i18n</compoundname>
+    <title>Internationalization</title>
+    <tableofcontents/>
+    <briefdescription>
+<para><linebreak/>
+ Although internationalization of an application (i18n for short) involves far more than just translating its text messages to another message - date, time and currency formats need changing too, some languages are written left to right and others right to left, character encoding may differ and many other things may need changing too - it is a necessary first step. </para>    </briefdescription>
+    <detaileddescription>
+<para><linebreak/>
+ Although internationalization of an application (i18n for short) involves far more than just translating its text messages to another message - date, time and currency formats need changing too, some languages are written left to right and others right to left, character encoding may differ and many other things may need changing too - it is a necessary first step.</para><para>wxWidgets provides facilities for message translation with its <ref refid="classwx_locale" kindref="compound">wxLocale</ref> class and is itself fully translated into several languages. Please consult wxWidgets home page for the most up-to-date translations - and if you translate it into one of the languages not done yet, your translations would be gratefully accepted for inclusion into future versions of the library!</para><para>The wxWidgets approach to i18n closely follows the GNU gettext package. wxWidgets uses the message catalogs which are binary compatible with gettext catalogs and this allows to use all of the programs in this package to work with them as well as using any of the tools working with message catalogs in this format such as <ulink url="http://poedit.net/">Poedit</ulink>.</para><para>Because of this, you will need to use the gettext package to work with the translations during the program development. However no additional libraries are needed during run-time, so you have only the message catalogs to distribute and nothing else.</para><para>There are two kinds of message catalogs: source catalogs which are text files with extension .po and binary catalogs which are created from the source ones with <emphasis>msgfmt</emphasis> program (part of gettext package) and have the extension .mo. Only the binary files are needed during program execution.</para><para>Translating your application involves several steps:</para><para><itemizedlist>
+<listitem><para>Translating the strings in the program text using wxGetTranslation or equivalently the <computeroutput><ref refid="group__group__funcmacro__string_1ga8a02b8875a521df57263a9e6f090f2d0" kindref="member">_()</ref></computeroutput> macro. </para></listitem>
+<listitem><para>Extracting the strings to be translated from the program: this uses the work done in the previous step because <computeroutput>xgettext</computeroutput> program used for string extraction recognises the standard <computeroutput><ref refid="group__group__funcmacro__string_1ga8a02b8875a521df57263a9e6f090f2d0" kindref="member">_()</ref></computeroutput> as well as (using its <computeroutput>-k</computeroutput> option) our wxGetTranslation and extracts all strings inside the calls to these functions. Alternatively, you may use <computeroutput>-a</computeroutput> option to extract all the strings, but it will usually result in many strings being found which don&apos;t have to be translated at all. This will create a text message catalog - a .po file. </para></listitem>
+<listitem><para>Translating the strings extracted in the previous step to other language(s). It involves editing the .po file. </para></listitem>
+<listitem><para>Compiling the .po file into .mo file to be used by the program. </para></listitem>
+<listitem><para>Installing the .mo files with your application in the appropriate location for the target system (see <ref refid="overview_i18n_1overview_i18n_mofiles" kindref="member">Installing translation catalogs</ref>). </para></listitem>
+<listitem><para>Setting the appropriate locale in your program to use the strings for the given language: see <ref refid="classwx_locale" kindref="compound">wxLocale</ref>.</para></listitem>
+</itemizedlist>
+</para><sect1 id="overview_i18n_1overview_i18n_mofiles">
+<title>Installing translation catalogs</title>
+<para>The .mo files with compiled catalogs must be included with the application. By default, <ref refid="classwx_file_translations_loader" kindref="compound">wxFileTranslationsLoader</ref> is used to load them from files installed alongside the application (although you could use <ref refid="classwx_resource_translations_loader" kindref="compound">wxResourceTranslationsLoader</ref> or some custom loader too).</para><para>The files are expected to be in the resources directory (as returned by wxStandardPaths::GetLocalizedResourcesDir(wxStandardPaths::ResourceCat_Messages). If the message catalogs are not installed in this default location you may explicitly use <ref refid="classwx_file_translations_loader_1aef1c18a8e931eaff259e0d1b84e4bd94" kindref="member">wxFileTranslationsLoader::AddCatalogLookupPathPrefix()</ref> to still allow wxWidgets to find them, but it is recommended to use the default locations when possible.</para><para>Depending on the platform, the default location differs. On Windows, it is alongside the executable. On Unix, translations are expected to be in &quot;$prefix/share/locale&quot;. On OS X, application bundle&apos;s <emphasis>Resources</emphasis> subdirectory is used.</para><para>In all cases, translations are searched for in subdirectories named using the languages codes from ISO 639. The .mo file(s) should be located either directly in that directory or in LC_MESSAGES subdirectory. On OS X, &quot;.lproj&quot; extension is used for the per-languages Resources subdirectories.</para><para>Here&apos;s how an app would typically install the files on Unix: <programlisting><codeline><highlight class="normal">/usr/bin/myapp</highlight></codeline>
+<codeline><highlight class="normal">/usr/share/locale/de/LC_MESSAGES/myapp.mo</highlight></codeline>
+<codeline><highlight class="normal">/usr/share/locale/fr/LC_MESSAGES/myapp.mo</highlight></codeline>
+</programlisting> And on OS X: <programlisting><codeline><highlight class="normal">MyApp.app/Contents/MacOS/MyApp</highlight></codeline>
+<codeline><highlight class="normal">MyApp.app/Contents/Resources/de.lproj/myapp.mo</highlight></codeline>
+<codeline><highlight class="normal">MyApp.app/Contents/Resources/fr.lproj/myapp.mo</highlight></codeline>
+</programlisting> And on Windows: <programlisting><codeline><highlight class="normal">C:\Program<sp/>Files\MyApp\myapp.exe</highlight></codeline>
+<codeline><highlight class="normal">C:\Program<sp/>Files\MyApp\de\myapp.mo</highlight></codeline>
+<codeline><highlight class="normal">C:\Program<sp/>Files\MyApp\fr\myapp.mo</highlight></codeline>
+</programlisting> It is of course possible to use the Unix layout everywhere instead.</para></sect1>
+<sect1 id="overview_i18n_1overview_i18n_menuaccel">
+<title>Translating Menu Accelerators</title>
+<para>If you translate the accelerator modifier names (Ctrl, Alt and Shift) in your menu labels, you may find the accelerators no longer work. In your message catalogs, you need to provide individual translations of these modifiers from their lower case names (ctrl, alt, shift) so that the wxWidgets accelerator code can recognise them even when translated. wxWidgets does not provide translations for all of these currently. wxWidgets does not yet handle translated special key names such as Backspace, End, Insert, etc.</para><para><simplesect kind="see"><para><itemizedlist>
+<listitem><para>The gettext Manual: <ulink url="http://www.gnu.org/software/gettext/manual/gettext.html">http://www.gnu.org/software/gettext/manual/gettext.html</ulink> </para></listitem>
+<listitem><para><ref refid="overview_nonenglish" kindref="compound">Writing Non-English Applications</ref> - It focuses on handling charsets related problems. </para></listitem>
+<listitem><para><ref refid="page_samples_1page_samples_internat" kindref="member">Internationalization Sample</ref> - Shows you how all this looks in practice. </para></listitem>
+</itemizedlist>
+</para></simplesect>
+</para></sect1>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

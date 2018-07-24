@@ -1,0 +1,178 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_modal_dialog_hook" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>wxModalDialogHook</compoundname>
+    <includes local="no">wx/modalhook.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classwx_modal_dialog_hook_1a2eb90569818889b3f2963a1e9f026444" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxModalDialogHook::wxModalDialogHook</definition>
+        <argsstring>()</argsstring>
+        <name>wxModalDialogHook</name>
+        <briefdescription>
+<para>Default and trivial constructor. </para>        </briefdescription>
+        <detaileddescription>
+<para>The constructor doesn&apos;t do anything, call <ref refid="classwx_modal_dialog_hook_1a02fa64dfe62289002cd7667af46abc4c" kindref="member">Register()</ref> to make this hook active. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/modalhook.h" line="87" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_modal_dialog_hook_1a89c7988df3b7da3fbf8b1eeffe65295d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual wxModalDialogHook::~wxModalDialogHook</definition>
+        <argsstring>()</argsstring>
+        <name>~wxModalDialogHook</name>
+        <briefdescription>
+<para>Destructor unregisters the hook if it&apos;s currently active. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/modalhook.h" line="92" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_modal_dialog_hook_1a02fa64dfe62289002cd7667af46abc4c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxModalDialogHook::Register</definition>
+        <argsstring>()</argsstring>
+        <name>Register</name>
+        <briefdescription>
+<para>Register this hook as being active. </para>        </briefdescription>
+        <detaileddescription>
+<para>After registering the hook, its <ref refid="classwx_modal_dialog_hook_1a9f477ea46562af13c12f4fd39594e9e8" kindref="member">Enter()</ref> and <ref refid="classwx_modal_dialog_hook_1a038ee1611b0176902fe9d1295af083c2" kindref="member">Exit()</ref> methods will be called whenever a modal dialog is shown.</para><para>Notice that the order of registration matters: the last hook registered is called first, and if its <ref refid="classwx_modal_dialog_hook_1a9f477ea46562af13c12f4fd39594e9e8" kindref="member">Enter()</ref> returns a value different from <ref refid="defs_8h_1ac66d0a09761e7d86b2ac0b2e0c6a8cbbaa49202a202b229f4a4cc91f1b60ae31b" kindref="member">wxID_NONE</ref>, the subsequent hooks are skipped.</para><para>It is an error to register the same hook twice. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/modalhook.h" line="106" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_modal_dialog_hook_1a127e7215c35b1d6940e3628ef8463f58" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxModalDialogHook::Unregister</definition>
+        <argsstring>()</argsstring>
+        <name>Unregister</name>
+        <briefdescription>
+<para>Unregister this hook. </para>        </briefdescription>
+        <detaileddescription>
+<para>Notice that is done automatically from the destructor, so usually calling this method explicitly is unnecessary.</para><para>The hook must be currently registered. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/modalhook.h" line="116" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classwx_modal_dialog_hook_1a9f477ea46562af13c12f4fd39594e9e8" prot="protected" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>int</type>
+        <definition>virtual int wxModalDialogHook::Enter</definition>
+        <argsstring>(wxDialog *dialog)=0</argsstring>
+        <name>Enter</name>
+        <param>
+          <type><ref refid="classwx_dialog" kindref="compound">wxDialog</ref> *</type>
+          <declname>dialog</declname>
+        </param>
+        <briefdescription>
+<para>Called by wxWidgets before showing any modal dialogs. </para>        </briefdescription>
+        <detaileddescription>
+<para>Override this to be notified whenever a modal dialog is about to be shown.</para><para>If the return value of this method is <ref refid="defs_8h_1ac66d0a09761e7d86b2ac0b2e0c6a8cbbaa49202a202b229f4a4cc91f1b60ae31b" kindref="member">wxID_NONE</ref>, the dialog is shown as usual and <ref refid="classwx_modal_dialog_hook_1a038ee1611b0176902fe9d1295af083c2" kindref="member">Exit()</ref> will be called when it is dismissed. If the return value is anything else, the dialog is not shown at all and its <ref refid="classwx_dialog_1a6e078c3d0653f75ad3c34a37c0b54637" kindref="member">wxDialog::ShowModal()</ref> simply returns with the given result. In this case, <ref refid="classwx_modal_dialog_hook_1a038ee1611b0176902fe9d1295af083c2" kindref="member">Exit()</ref> won&apos;t be called neither.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dialog</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The dialog about to be shown, never NULL. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>wxID_NONE to continue with showing the dialog or anything else to skip showing the dialog and just return this value from its ShowModal(). </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/modalhook.h" line="136" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_modal_dialog_hook_1a038ee1611b0176902fe9d1295af083c2" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void wxModalDialogHook::Exit</definition>
+        <argsstring>(wxDialog *dialog)</argsstring>
+        <name>Exit</name>
+        <param>
+          <type><ref refid="classwx_dialog" kindref="compound">wxDialog</ref> *</type>
+          <declname>dialog</declname>
+        </param>
+        <briefdescription>
+<para>Called by wxWidgets after dismissing the modal dialog. </para>        </briefdescription>
+        <detaileddescription>
+<para>Notice that it won&apos;t be called if <ref refid="classwx_modal_dialog_hook_1a9f477ea46562af13c12f4fd39594e9e8" kindref="member">Enter()</ref> hadn&apos;t been called because another modal hook, registered after this one, intercepted the dialog or if our <ref refid="classwx_modal_dialog_hook_1a9f477ea46562af13c12f4fd39594e9e8" kindref="member">Enter()</ref> was called but returned a value different from <ref refid="defs_8h_1ac66d0a09761e7d86b2ac0b2e0c6a8cbbaa49202a202b229f4a4cc91f1b60ae31b" kindref="member">wxID_NONE</ref>.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dialog</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The dialog that was shown and dismissed, never NULL. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/modalhook.h" line="148" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Allows to intercept all modal dialog calls. </para>    </briefdescription>
+    <detaileddescription>
+<para>This class can be used to hook into normal modal dialog handling for some special needs. One of the most common use cases is for testing: as automatic tests can&apos;t continue if a modal dialog is shown while they run, this class can be used to avoid showing the modal dialogs during unattended execution. <ref refid="classwx_modal_dialog_hook" kindref="compound">wxModalDialogHook</ref> can also be used for disabling some background operation while a modal dialog is shown.</para><para>To install a modal dialog hook, you need to derive your own class from this one and implement its pure virtual <ref refid="classwx_modal_dialog_hook_1a9f477ea46562af13c12f4fd39594e9e8" kindref="member">Enter()</ref> method. Then simply create an object of your class and call <ref refid="classwx_modal_dialog_hook_1a02fa64dfe62289002cd7667af46abc4c" kindref="member">Register()</ref> on it to start receiving calls to your overridden <ref refid="classwx_modal_dialog_hook_1a9f477ea46562af13c12f4fd39594e9e8" kindref="member">Enter()</ref> (and possibly <ref refid="classwx_modal_dialog_hook_1a038ee1611b0176902fe9d1295af083c2" kindref="member">Exit()</ref>) methods: <programlisting><codeline><highlight class="normal">class<sp/>MyModalDialogHook<sp/>:<sp/>public<sp/>wxModalDialogHook</highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal">protected:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>virtual<sp/>int<sp/>Enter(wxDialog*<sp/>dialog)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>Just<sp/>for<sp/>demonstration<sp/>purposes,<sp/>intercept<sp/>all<sp/>uses<sp/>of</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>wxFileDialog.<sp/>Notice<sp/>that<sp/>this<sp/>doesn&apos;t<sp/>provide<sp/>any<sp/>real</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>sandboxing,<sp/>of<sp/>course,<sp/>the<sp/>program<sp/>can<sp/>still<sp/>read<sp/>and<sp/>write</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>files<sp/>by<sp/>not<sp/>using<sp/>wxFileDialog<sp/>to<sp/>ask<sp/>the<sp/>user<sp/>for<sp/>their</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>names.</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>if<sp/>(<sp/>wxDynamicCast(dialog,<sp/>wxFileDialog)<sp/>)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>wxLogError(&quot;Access<sp/>to<sp/>file<sp/>system<sp/>disallowed.&quot;);</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>Skip<sp/>showing<sp/>the<sp/>file<sp/>dialog<sp/>entirely.</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>return<sp/>wxID_CANCEL;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_lastEnter<sp/>=<sp/>wxDateTime::Now();</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>Allow<sp/>the<sp/>dialog<sp/>to<sp/>be<sp/>shown<sp/>as<sp/>usual.</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>return<sp/>wxID_NONE;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>virtual<sp/>void<sp/>Exit(wxDialog*<sp/>dialog)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>Again,<sp/>just<sp/>for<sp/>demonstration<sp/>purposes,<sp/>show<sp/>how<sp/>long<sp/>did</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>the<sp/>user<sp/>take<sp/>to<sp/>dismiss<sp/>the<sp/>dialog.<sp/>Notice<sp/>that<sp/>we</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>shouldn&apos;t<sp/>use<sp/>wxLogMessage()<sp/>here<sp/>as<sp/>this<sp/>would<sp/>result<sp/>in</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>another<sp/>modal<sp/>dialog<sp/>call<sp/>and<sp/>hence<sp/>infinite<sp/>recursion.<sp/>In</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>general,<sp/>the<sp/>hooks<sp/>should<sp/>be<sp/>as<sp/>unintrusive<sp/>as<sp/>possible.</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>wxLogDebug(&quot;%s<sp/>dialog<sp/>took<sp/>%s<sp/>to<sp/>be<sp/>dismissed&quot;,</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dialog-&gt;GetClassInfo()-&gt;GetClassName(),</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(wxDateTime::Now()<sp/>-<sp/>m_lastEnter).Format());</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline><highlight class="normal">};</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">class<sp/>MyApp<sp/>:<sp/>public<sp/>wxApp</highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal">public:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>virtual<sp/>bool<sp/>OnInit()</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>...</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_myHook.Register();</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>...</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">private:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>MyModalDialogHook<sp/>m_myHook;</highlight></codeline>
+<codeline><highlight class="normal">};</highlight></codeline>
+</programlisting></para><para><simplesect kind="since"><para>2.9.5 </para></simplesect>
+</para>    </detaileddescription>
+    <location file="interface/wx/modalhook.h" line="79" column="1" bodyfile="interface/wx/modalhook.h" bodystart="78" bodyend="149"/>
+    <listofallmembers>
+      <member refid="classwx_modal_dialog_hook_1a9f477ea46562af13c12f4fd39594e9e8" prot="protected" virt="pure-virtual"><scope>wxModalDialogHook</scope><name>Enter</name></member>
+      <member refid="classwx_modal_dialog_hook_1a038ee1611b0176902fe9d1295af083c2" prot="protected" virt="virtual"><scope>wxModalDialogHook</scope><name>Exit</name></member>
+      <member refid="classwx_modal_dialog_hook_1a02fa64dfe62289002cd7667af46abc4c" prot="public" virt="non-virtual"><scope>wxModalDialogHook</scope><name>Register</name></member>
+      <member refid="classwx_modal_dialog_hook_1a127e7215c35b1d6940e3628ef8463f58" prot="public" virt="non-virtual"><scope>wxModalDialogHook</scope><name>Unregister</name></member>
+      <member refid="classwx_modal_dialog_hook_1a2eb90569818889b3f2963a1e9f026444" prot="public" virt="non-virtual"><scope>wxModalDialogHook</scope><name>wxModalDialogHook</name></member>
+      <member refid="classwx_modal_dialog_hook_1a89c7988df3b7da3fbf8b1eeffe65295d" prot="public" virt="virtual"><scope>wxModalDialogHook</scope><name>~wxModalDialogHook</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

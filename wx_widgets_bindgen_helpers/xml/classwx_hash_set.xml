@@ -1,0 +1,375 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_hash_set" kind="class" language="C++" prot="public">
+    <compoundname>wxHashSet</compoundname>
+    <includes local="no">wx/hashset.h</includes>
+      <sectiondef kind="user-defined">
+      <memberdef kind="function" id="classwx_hash_set_1a4cf67f7a3ff7e5ebd0a4ae85660168eb" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const_iterator</type>
+        <definition>const_iterator wxHashSet::begin</definition>
+        <argsstring>() const</argsstring>
+        <name>begin</name>
+        <briefdescription>
+<para>Returns an iterator pointing at the first element of the hash set. </para>        </briefdescription>
+        <detaileddescription>
+<para>Please remember that hash sets do not guarantee ordering. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/hashset.h" line="159" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_hash_set_1a215be550553feb0f0dc2da770c3a5ff7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>iterator</type>
+        <definition>iterator wxHashSet::begin</definition>
+        <argsstring>()</argsstring>
+        <name>begin</name>
+        <briefdescription>
+<para>Returns an iterator pointing at the first element of the hash set. </para>        </briefdescription>
+        <detaileddescription>
+<para>Please remember that hash sets do not guarantee ordering. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/hashset.h" line="160" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="user-defined">
+      <memberdef kind="function" id="classwx_hash_set_1a2c6fd3e4bd8cafcb667006d0788f487b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const_iterator</type>
+        <definition>const_iterator wxHashSet::end</definition>
+        <argsstring>() const</argsstring>
+        <name>end</name>
+        <briefdescription>
+<para>Returns an iterator pointing at the one-after-the-last element of the hash set. </para>        </briefdescription>
+        <detaileddescription>
+<para>Please remember that hash sets do not guarantee ordering. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/hashset.h" line="184" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_hash_set_1a64e72e9f58a5f33fd24aa2e3ca3b3b00" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>iterator</type>
+        <definition>iterator wxHashSet::end</definition>
+        <argsstring>()</argsstring>
+        <name>end</name>
+        <briefdescription>
+<para>Returns an iterator pointing at the one-after-the-last element of the hash set. </para>        </briefdescription>
+        <detaileddescription>
+<para>Please remember that hash sets do not guarantee ordering. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/hashset.h" line="185" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="user-defined">
+      <memberdef kind="function" id="classwx_hash_set_1a0a2addc247305cffdc9bea89fe17ffb9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxHashSet::erase</definition>
+        <argsstring>(iterator it)</argsstring>
+        <name>erase</name>
+        <param>
+          <type>iterator</type>
+          <declname>it</declname>
+        </param>
+        <briefdescription>
+<para>Erases the element pointed to by the iterator. </para>        </briefdescription>
+        <detaileddescription>
+<para>After the deletion the iterator is no longer valid and must not be used. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/hashset.h" line="199" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_hash_set_1a2f289bb421d517896f400176ba539fe8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxHashSet::erase</definition>
+        <argsstring>(const_iterator it)</argsstring>
+        <name>erase</name>
+        <param>
+          <type>const_iterator</type>
+          <declname>it</declname>
+        </param>
+        <briefdescription>
+<para>Erases the element pointed to by the iterator. </para>        </briefdescription>
+        <detaileddescription>
+<para>After the deletion the iterator is no longer valid and must not be used. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/hashset.h" line="200" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="user-defined">
+      <memberdef kind="function" id="classwx_hash_set_1a8a4b16b5d7efc2c5ff74c8af19f8363c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>iterator</type>
+        <definition>iterator wxHashSet::find</definition>
+        <argsstring>(const key_type &amp;key) const</argsstring>
+        <name>find</name>
+        <param>
+          <type>const key_type &amp;</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+<para>If an element with the given key is present, the functions returns an iterator pointing at that element, otherwise an invalid iterator is returned. </para>        </briefdescription>
+        <detaileddescription>
+<para>i.e. <programlisting><codeline><highlight class="normal">hashset.find(<sp/>non_existent_key<sp/>)<sp/>==<sp/>hashset.end()</highlight></codeline>
+</programlisting> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/hashset.h" line="213" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_hash_set_1a86d206a22571e68eadadf5469bbba88a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const_iterator</type>
+        <definition>const_iterator wxHashSet::find</definition>
+        <argsstring>(const key_type &amp;key) const</argsstring>
+        <name>find</name>
+        <param>
+          <type>const key_type &amp;</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+<para>If an element with the given key is present, the functions returns an iterator pointing at that element, otherwise an invalid iterator is returned. </para>        </briefdescription>
+        <detaileddescription>
+<para>i.e. <programlisting><codeline><highlight class="normal">hashset.find(<sp/>non_existent_key<sp/>)<sp/>==<sp/>hashset.end()</highlight></codeline>
+</programlisting> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/hashset.h" line="214" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classwx_hash_set_1aac5dee2aa36123c56c88d8b40e52faca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxHashSet::wxHashSet</definition>
+        <argsstring>(size_type size=10)</argsstring>
+        <name>wxHashSet</name>
+        <param>
+          <type>size_type</type>
+          <declname>size</declname>
+          <defval>10</defval>
+        </param>
+        <briefdescription>
+<para>The size parameter is just a hint, the table will resize automatically to preserve performance. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/hashset.h" line="147" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_hash_set_1aa9819f9680e3450479cf7be1d832fd9e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxHashSet::wxHashSet</definition>
+        <argsstring>(const wxHashSet &amp;set)</argsstring>
+        <name>wxHashSet</name>
+        <param>
+          <type>const <ref refid="classwx_hash_set" kindref="compound">wxHashSet</ref> &amp;</type>
+          <declname>set</declname>
+        </param>
+        <briefdescription>
+<para>Copy constructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/hashset.h" line="152" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_hash_set_1a81dee12cfec562dcd8ebf14b77bbecf5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxHashSet::clear</definition>
+        <argsstring>()</argsstring>
+        <name>clear</name>
+        <briefdescription>
+<para>Removes all elements from the hash set. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/hashset.h" line="166" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_hash_set_1a9531e2db5a4cfd049c09a467956adec9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>size_type</type>
+        <definition>size_type wxHashSet::count</definition>
+        <argsstring>(const key_type &amp;key) const</argsstring>
+        <name>count</name>
+        <param>
+          <type>const key_type &amp;</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+<para>Counts the number of elements with the given key present in the set. </para>        </briefdescription>
+        <detaileddescription>
+<para>This function returns only 0 or 1. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/hashset.h" line="172" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_hash_set_1acf6873d11583d6c2441a2b9c7c936c83" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxHashSet::empty</definition>
+        <argsstring>() const</argsstring>
+        <name>empty</name>
+        <briefdescription>
+<para>Returns true if the hash set does not contain any elements, false otherwise. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/hashset.h" line="177" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_hash_set_1a1c54e60d26122a8eae9c3dfe12446e2f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>size_type</type>
+        <definition>size_type wxHashSet::erase</definition>
+        <argsstring>(const key_type &amp;key)</argsstring>
+        <name>erase</name>
+        <param>
+          <type>const key_type &amp;</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+<para>Erases the element with the given key, and returns the number of elements erased (either 0 or 1). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/hashset.h" line="192" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_hash_set_1ad8c4392cba0a4b1f903b9cfe788180da" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Insert_Result</type>
+        <definition>Insert_Result wxHashSet::insert</definition>
+        <argsstring>(const value_type &amp;v)</argsstring>
+        <name>insert</name>
+        <param>
+          <type>const value_type &amp;</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+<para>Inserts the given value in the hash set. </para>        </briefdescription>
+        <detaileddescription>
+<para>The return value is equivalent to a <programlisting><codeline><highlight class="normal">std::pair&lt;wxHashMap::iterator,<sp/>bool&gt;<sp/></highlight></codeline>
+</programlisting> The iterator points to the inserted element, the boolean value is true if <emphasis>v</emphasis> was actually inserted. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/hashset.h" line="224" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_hash_set_1a7c2c59a6c60b3375884c88e16b2a3c6a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>size_type</type>
+        <definition>size_type wxHashSet::size</definition>
+        <argsstring>() const</argsstring>
+        <name>size</name>
+        <briefdescription>
+<para>Returns the number of elements in the set. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/hashset.h" line="229" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This is a simple, type-safe, and reasonably efficient hash set class, whose interface is a subset of the interface of STL containers. </para>    </briefdescription>
+    <detaileddescription>
+<para>The interface is similar to std::tr1::hash_set or std::set classes but notice that, unlike std::set, the contents of a hash set is not sorted.</para><para>Example: <programlisting><codeline><highlight class="normal">class<sp/>MyClass<sp/>{<sp/>...<sp/>};</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">//<sp/>same,<sp/>with<sp/>MyClass*<sp/>keys<sp/>(only<sp/>uses<sp/>pointer<sp/>equality!)</highlight></codeline>
+<codeline><highlight class="normal">WX_DECLARE_HASH_SET(<sp/>MyClass*,<sp/>wxPointerHash,<sp/>wxPointerEqual,<sp/>MySet1<sp/>);</highlight></codeline>
+<codeline><highlight class="normal">//<sp/>same,<sp/>with<sp/>int<sp/>keys</highlight></codeline>
+<codeline><highlight class="normal">WX_DECLARE_HASH_SET(<sp/>int,<sp/>wxIntegerHash,<sp/>wxIntegerEqual,<sp/>MySet2<sp/>);</highlight></codeline>
+<codeline><highlight class="normal">//<sp/>declare<sp/>a<sp/>hash<sp/>set<sp/>with<sp/>string<sp/>keys</highlight></codeline>
+<codeline><highlight class="normal">WX_DECLARE_HASH_SET(<sp/>wxString,<sp/>wxStringHash,<sp/>wxStringEqual,<sp/>MySet3<sp/>);</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">MySet1<sp/>h1;</highlight></codeline>
+<codeline><highlight class="normal">MySet2<sp/>h1;</highlight></codeline>
+<codeline><highlight class="normal">MySet3<sp/>h3;</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">//<sp/>store<sp/>and<sp/>retrieve<sp/>values</highlight></codeline>
+<codeline><highlight class="normal">h1.insert(<sp/>new<sp/>MyClass(<sp/>1<sp/>)<sp/>);</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">h3.insert(<sp/>&quot;foo&quot;<sp/>);</highlight></codeline>
+<codeline><highlight class="normal">h3.insert(<sp/>&quot;bar&quot;<sp/>);</highlight></codeline>
+<codeline><highlight class="normal">h3.insert(<sp/>&quot;baz&quot;<sp/>);</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">int<sp/>size<sp/>=<sp/>h3.size();<sp/>//<sp/>now<sp/>is<sp/>three</highlight></codeline>
+<codeline><highlight class="normal">bool<sp/>has_foo<sp/>=<sp/>h3.find(<sp/>&quot;foo&quot;<sp/>)<sp/>!=<sp/>h3.end();</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">h3.insert(<sp/>&quot;bar&quot;<sp/>);<sp/>//<sp/>still<sp/>has<sp/>size<sp/>three</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">//<sp/>iterate<sp/>over<sp/>all<sp/>the<sp/>elements<sp/>in<sp/>the<sp/>class</highlight></codeline>
+<codeline><highlight class="normal">MySet3::iterator<sp/>it;</highlight></codeline>
+<codeline><highlight class="normal">for(<sp/>it<sp/>=<sp/>h3.begin();<sp/>it<sp/>!=<sp/>h3.end();<sp/>++it<sp/>)</highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>wxString<sp/>key<sp/>=<sp/>*it;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>//<sp/>do<sp/>something<sp/>useful<sp/>with<sp/>key</highlight></codeline>
+<codeline><highlight class="normal">}</highlight></codeline>
+</programlisting></para><sect1 id="classwx_hash_set_1hashset_declaringnew">
+<title>Declaring new hash set types</title>
+<para><programlisting><codeline><highlight class="normal">WX_DECLARE_HASH_SET(<sp/>KEY_T,<sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>type<sp/>of<sp/>the<sp/>keys</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>HASH_T,<sp/><sp/><sp/><sp/><sp/>//<sp/>hasher</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>KEY_EQ_T,<sp/><sp/><sp/>//<sp/>key<sp/>equality<sp/>predicate</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CLASSNAME);<sp/>//<sp/>name<sp/>of<sp/>the<sp/>class</highlight></codeline>
+</programlisting> The HASH_T and KEY_EQ_T are the types used for the hashing function and key comparison. wxWidgets provides three predefined hashing functions: wxIntegerHash for integer types ( int, long, short, and their unsigned counterparts ), wxStringHash for strings ( <ref refid="classwx_string" kindref="compound">wxString</ref>, wxChar*, char* ), and wxPointerHash for any kind of pointer. Similarly three equality predicates: wxIntegerEqual, wxStringEqual, wxPointerEqual are provided. Using this you could declare a hash set using int values like this:</para><para><programlisting><codeline><highlight class="normal">WX_DECLARE_HASH_SET(<sp/>int,</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>wxIntegerHash,</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>wxIntegerEqual,</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>MySet<sp/>);</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">//<sp/>using<sp/>an<sp/>user-defined<sp/>class<sp/>for<sp/>keys</highlight></codeline>
+<codeline><highlight class="normal">class<sp/>MyKey<sp/>{<sp/>...<sp/>};</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">//<sp/>hashing<sp/>function</highlight></codeline>
+<codeline><highlight class="normal">class<sp/>MyKeyHash</highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal">public:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>MyKeyHash()<sp/>{<sp/>}</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>unsigned<sp/>long<sp/>operator()(<sp/>const<sp/>MyKey&amp;<sp/>k<sp/>)<sp/>const</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>compute<sp/>the<sp/>hash</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>MyKeyHash&amp;<sp/>operator=(const<sp/>MyKeyHash&amp;)<sp/>{<sp/>return<sp/>*this;<sp/>}</highlight></codeline>
+<codeline><highlight class="normal">};</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">//<sp/>comparison<sp/>operator</highlight></codeline>
+<codeline><highlight class="normal">class<sp/>MyKeyEqual</highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal">public:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>MyKeyEqual()<sp/>{<sp/>}</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>bool<sp/>operator()(<sp/>const<sp/>MyKey&amp;<sp/>a,<sp/>const<sp/>MyKey&amp;<sp/>b<sp/>)<sp/>const</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>compare<sp/>for<sp/>equality</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>MyKeyEqual&amp;<sp/>operator=(const<sp/>MyKeyEqual&amp;)<sp/>{<sp/>return<sp/>*this;<sp/>}</highlight></codeline>
+<codeline><highlight class="normal">};</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">WX_DECLARE_HASH_SET(<sp/>MyKey,<sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>type<sp/>of<sp/>the<sp/>keys</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>MyKeyHash,<sp/><sp/>//<sp/>hasher</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>MyKeyEqual,<sp/>//<sp/>key<sp/>equality<sp/>predicate</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CLASSNAME);<sp/>//<sp/>name<sp/>of<sp/>the<sp/>class</highlight></codeline>
+</programlisting></para></sect1>
+<sect1 id="classwx_hash_set_1hashset_types">
+<title>Types</title>
+<para>In the documentation below you should replace <ref refid="classwx_hash_set" kindref="compound">wxHashSet</ref> with the name you used in the class declaration.</para><para><itemizedlist>
+<listitem><para>wxHashSet::key_type: Type of the hash keys</para></listitem><listitem><para>wxHashSet::mapped_type: Type of hash keys</para></listitem><listitem><para>wxHashSet::value_type: Type of hash keys</para></listitem><listitem><para>wxHashSet::iterator: Used to enumerate all the elements in a hash set; it is similar to a value_type*</para></listitem><listitem><para>wxHashSet::const_iterator: Used to enumerate all the elements in a constant hash set; it is similar to a const value_type*</para></listitem><listitem><para>wxHashSet::size_type: Used for sizes</para></listitem><listitem><para>wxHashSet::Insert_Result: The return value for <ref refid="classwx_hash_set_1ad8c4392cba0a4b1f903b9cfe788180da" kindref="member">insert()</ref></para></listitem></itemizedlist>
+</para></sect1>
+<sect1 id="classwx_hash_set_1hashset_iter">
+<title>Iterators</title>
+<para>An iterator is similar to a pointer, and so you can use the usual pointer operations: ++it ( and it++ ) to move to the next element, *it to access the element pointed to, *it to access the value of the element pointed to. Hash sets provide forward only iterators, this means that you can&apos;t use <ndash/>it, it + 3, it1 - it2.</para><para><heading level="2"></heading>
+</para><para>Library:<nonbreakablespace/><nonbreakablespace/><ref refid="page_libs_1page_libs_wxbase" kindref="member">wxBase</ref> &lt;&gt;&lt; =&apos;&apos;&gt;:&lt;/&gt;&amp;;&amp;;&lt; =&apos;&apos;&gt;\ &lt;/&gt;&lt;/&gt; </para></sect1>
+    </detaileddescription>
+    <location file="interface/wx/hashset.h" line="141" column="1" bodyfile="interface/wx/hashset.h" bodystart="140" bodyend="230"/>
+    <listofallmembers>
+      <member refid="classwx_hash_set_1a4cf67f7a3ff7e5ebd0a4ae85660168eb" prot="public" virt="non-virtual"><scope>wxHashSet</scope><name>begin</name></member>
+      <member refid="classwx_hash_set_1a215be550553feb0f0dc2da770c3a5ff7" prot="public" virt="non-virtual"><scope>wxHashSet</scope><name>begin</name></member>
+      <member refid="classwx_hash_set_1a81dee12cfec562dcd8ebf14b77bbecf5" prot="public" virt="non-virtual"><scope>wxHashSet</scope><name>clear</name></member>
+      <member refid="classwx_hash_set_1a9531e2db5a4cfd049c09a467956adec9" prot="public" virt="non-virtual"><scope>wxHashSet</scope><name>count</name></member>
+      <member refid="classwx_hash_set_1acf6873d11583d6c2441a2b9c7c936c83" prot="public" virt="non-virtual"><scope>wxHashSet</scope><name>empty</name></member>
+      <member refid="classwx_hash_set_1a2c6fd3e4bd8cafcb667006d0788f487b" prot="public" virt="non-virtual"><scope>wxHashSet</scope><name>end</name></member>
+      <member refid="classwx_hash_set_1a64e72e9f58a5f33fd24aa2e3ca3b3b00" prot="public" virt="non-virtual"><scope>wxHashSet</scope><name>end</name></member>
+      <member refid="classwx_hash_set_1a1c54e60d26122a8eae9c3dfe12446e2f" prot="public" virt="non-virtual"><scope>wxHashSet</scope><name>erase</name></member>
+      <member refid="classwx_hash_set_1a0a2addc247305cffdc9bea89fe17ffb9" prot="public" virt="non-virtual"><scope>wxHashSet</scope><name>erase</name></member>
+      <member refid="classwx_hash_set_1a2f289bb421d517896f400176ba539fe8" prot="public" virt="non-virtual"><scope>wxHashSet</scope><name>erase</name></member>
+      <member refid="classwx_hash_set_1a8a4b16b5d7efc2c5ff74c8af19f8363c" prot="public" virt="non-virtual"><scope>wxHashSet</scope><name>find</name></member>
+      <member refid="classwx_hash_set_1a86d206a22571e68eadadf5469bbba88a" prot="public" virt="non-virtual"><scope>wxHashSet</scope><name>find</name></member>
+      <member refid="classwx_hash_set_1ad8c4392cba0a4b1f903b9cfe788180da" prot="public" virt="non-virtual"><scope>wxHashSet</scope><name>insert</name></member>
+      <member refid="classwx_hash_set_1a7c2c59a6c60b3375884c88e16b2a3c6a" prot="public" virt="non-virtual"><scope>wxHashSet</scope><name>size</name></member>
+      <member refid="classwx_hash_set_1aac5dee2aa36123c56c88d8b40e52faca" prot="public" virt="non-virtual"><scope>wxHashSet</scope><name>wxHashSet</name></member>
+      <member refid="classwx_hash_set_1aa9819f9680e3450479cf7be1d832fd9e" prot="public" virt="non-virtual"><scope>wxHashSet</scope><name>wxHashSet</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

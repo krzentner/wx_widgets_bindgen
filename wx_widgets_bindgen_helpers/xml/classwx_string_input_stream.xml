@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_string_input_stream" kind="class" language="C++" prot="public">
+    <compoundname>wxStringInputStream</compoundname>
+    <basecompoundref refid="classwx_input_stream" prot="public" virt="non-virtual">wxInputStream</basecompoundref>
+    <includes local="no">wx/sstream.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classwx_string_input_stream_1ae9ebd526b5ea407bbbffa4abc7c876f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxStringInputStream::wxStringInputStream</definition>
+        <argsstring>(const wxString &amp;s)</argsstring>
+        <name>wxStringInputStream</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+<para>Creates a new read-only stream using the specified string. </para>        </briefdescription>
+        <detaileddescription>
+<para>Note that the string is copied by the stream so if the original string is modified after using this constructor, changes to it are not reflected when reading from stream. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/sstream.h" line="27" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class implements an input stream which reads data from a string. </para>    </briefdescription>
+    <detaileddescription>
+<para>It supports seeking.</para><para><heading level="2"></heading>
+</para><para>Library:<nonbreakablespace/><nonbreakablespace/><ref refid="page_libs_1page_libs_wxbase" kindref="member">wxBase</ref> &lt;&gt;&lt; =&apos;&apos;&gt;:&lt;/&gt;&amp;;&amp;;&lt; =&apos;&apos;&gt;\ &lt;/&gt;&lt;/&gt; </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="7652">
+        <label>wxInputStream</label>
+        <link refid="classwx_input_stream"/>
+        <childnode refid="7653" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7651">
+        <label>wxStringInputStream</label>
+        <link refid="classwx_string_input_stream"/>
+        <childnode refid="7652" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7653">
+        <label>wxStreamBase</label>
+        <link refid="classwx_stream_base"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="7655">
+        <label>wxInputStream</label>
+        <link refid="classwx_input_stream"/>
+        <childnode refid="7656" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7654">
+        <label>wxStringInputStream</label>
+        <link refid="classwx_string_input_stream"/>
+        <childnode refid="7655" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7656">
+        <label>wxStreamBase</label>
+        <link refid="classwx_stream_base"/>
+      </node>
+    </collaborationgraph>
+    <location file="interface/wx/sstream.h" line="18" column="1" bodyfile="interface/wx/sstream.h" bodystart="17" bodyend="28"/>
+    <listofallmembers>
+      <member refid="classwx_input_stream_1ab081191ca94cf4bc511850471cd090f1" prot="public" virt="virtual"><scope>wxStringInputStream</scope><name>CanRead</name></member>
+      <member refid="classwx_input_stream_1a632ef01c45abc66f6e39db9b25f5ebde" prot="public" virt="virtual"><scope>wxStringInputStream</scope><name>Eof</name></member>
+      <member refid="classwx_input_stream_1a98462fa7198b5c9dca1c71acf6148e0b" prot="public" virt="non-virtual"><scope>wxStringInputStream</scope><name>GetC</name></member>
+      <member refid="classwx_stream_base_1a33440c8ea3f8df382adecd7d188a1662" prot="public" virt="non-virtual"><scope>wxStringInputStream</scope><name>GetLastError</name></member>
+      <member refid="classwx_stream_base_1a052d67c85f63873fabb45ecd108ea615" prot="public" virt="virtual"><scope>wxStringInputStream</scope><name>GetLength</name></member>
+      <member refid="classwx_stream_base_1aae8094702c3aee35c38e3e06e052479c" prot="public" virt="virtual"><scope>wxStringInputStream</scope><name>GetSize</name></member>
+      <member refid="classwx_stream_base_1ad33abd694469e858fc3bbb0163a7fc4b" prot="public" virt="virtual"><scope>wxStringInputStream</scope><name>IsOk</name></member>
+      <member refid="classwx_stream_base_1a927368a32e940a11b96dbfb617d9afda" prot="public" virt="virtual"><scope>wxStringInputStream</scope><name>IsSeekable</name></member>
+      <member refid="classwx_input_stream_1aae3e3341d71b3441eb4b723f5a6a518f" prot="public" virt="virtual"><scope>wxStringInputStream</scope><name>LastRead</name></member>
+      <member refid="classwx_input_stream_1a8ebacd18964a4b169a62ad9190cab4d5" prot="protected" virt="pure-virtual"><scope>wxStringInputStream</scope><name>OnSysRead</name></member>
+      <member refid="classwx_stream_base_1ae38e82c374f82d39993909f0a5d3017e" prot="protected" virt="virtual"><scope>wxStringInputStream</scope><name>OnSysSeek</name></member>
+      <member refid="classwx_stream_base_1a7131a1f866ea911e90bb85bc1937d29b" prot="protected" virt="virtual"><scope>wxStringInputStream</scope><name>OnSysTell</name></member>
+      <member refid="classwx_stream_base_1a2559b4fcfc7f7173259d703b39cb0d33" prot="public" virt="non-virtual"><scope>wxStringInputStream</scope><name>operator!</name></member>
+      <member refid="classwx_input_stream_1a42dc4394276b726b9877faf2c71ae408" prot="public" virt="virtual"><scope>wxStringInputStream</scope><name>Peek</name></member>
+      <member refid="classwx_input_stream_1a72f24d0f50c7f07bb68dedf5e8690f4e" prot="public" virt="virtual"><scope>wxStringInputStream</scope><name>Read</name></member>
+      <member refid="classwx_input_stream_1a05cc7b25c9df86f00157a34ee9809bd5" prot="public" virt="non-virtual"><scope>wxStringInputStream</scope><name>Read</name></member>
+      <member refid="classwx_input_stream_1a80d84e864b277719a3034c15cdd5a017" prot="public" virt="non-virtual"><scope>wxStringInputStream</scope><name>ReadAll</name></member>
+      <member refid="classwx_stream_base_1a52353ac42f72538b2022a84f416e5fe2" prot="public" virt="non-virtual"><scope>wxStringInputStream</scope><name>Reset</name></member>
+      <member refid="classwx_input_stream_1a989ed0f85fe7340cc0996bbcee03822d" prot="public" virt="virtual"><scope>wxStringInputStream</scope><name>SeekI</name></member>
+      <member refid="classwx_input_stream_1abd1262a929619d476c255669a192bc2c" prot="public" virt="virtual"><scope>wxStringInputStream</scope><name>TellI</name></member>
+      <member refid="classwx_input_stream_1a503ff01720f51c4fb170aa78a296be9d" prot="public" virt="non-virtual"><scope>wxStringInputStream</scope><name>Ungetch</name></member>
+      <member refid="classwx_input_stream_1a7fe847c79f8d2e1b98bb129c23e549c7" prot="public" virt="non-virtual"><scope>wxStringInputStream</scope><name>Ungetch</name></member>
+      <member refid="classwx_input_stream_1aeb3e1146260cabcfbe631ff3493ee851" prot="public" virt="non-virtual"><scope>wxStringInputStream</scope><name>wxInputStream</name></member>
+      <member refid="classwx_stream_base_1a2bdb01f1ccd34d551d3cfc848054bf1e" prot="public" virt="non-virtual"><scope>wxStringInputStream</scope><name>wxStreamBase</name></member>
+      <member refid="classwx_string_input_stream_1ae9ebd526b5ea407bbbffa4abc7c876f6" prot="public" virt="non-virtual"><scope>wxStringInputStream</scope><name>wxStringInputStream</name></member>
+      <member refid="classwx_input_stream_1a30fea51e11bbf042f29bdf82bc052ab2" prot="public" virt="virtual"><scope>wxStringInputStream</scope><name>~wxInputStream</name></member>
+      <member refid="classwx_stream_base_1aebba32b4da79c60933fa997735a8bfe5" prot="public" virt="virtual"><scope>wxStringInputStream</scope><name>~wxStreamBase</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

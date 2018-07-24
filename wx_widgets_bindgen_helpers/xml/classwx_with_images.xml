@@ -1,0 +1,214 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_with_images" kind="class" language="C++" prot="public">
+    <compoundname>wxWithImages</compoundname>
+    <derivedcompoundref refid="classwx_book_ctrl_base" prot="public" virt="non-virtual">wxBookCtrlBase</derivedcompoundref>
+    <includes local="no">wx/withimages.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="classwx_with_images_1a7f6f8a527678898c8fcb8029ea527727" prot="public" static="no" strong="no">
+        <type></type>
+        <name>@57</name>
+        <enumvalue id="classwx_with_images_1a7f6f8a527678898c8fcb8029ea527727a9c691a3188f0e2d96e1aa83fa5182406" prot="public">
+          <name>NO_IMAGE</name>
+          <initializer>= -1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/withimages.h" line="14" column="1" bodyfile="interface/wx/withimages.h" bodystart="13" bodyend="16"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classwx_with_images_1ace26c8e42e40f25cdbcd05fc9a870484" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxWithImages::wxWithImages</definition>
+        <argsstring>()</argsstring>
+        <name>wxWithImages</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/withimages.h" line="18" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_with_images_1a931475b0ae296c7d577e76b6d67f01ba" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual wxWithImages::~wxWithImages</definition>
+        <argsstring>()</argsstring>
+        <name>~wxWithImages</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/withimages.h" line="19" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_with_images_1ab25ea07b6da88d532e224be8e037a816" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxWithImages::AssignImageList</definition>
+        <argsstring>(wxImageList *imageList)</argsstring>
+        <name>AssignImageList</name>
+        <param>
+          <type><ref refid="classwx_image_list" kindref="compound">wxImageList</ref> *</type>
+          <declname>imageList</declname>
+        </param>
+        <briefdescription>
+<para>Sets the image list for the page control and takes ownership of the list. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="see"><para><ref refid="classwx_image_list" kindref="compound">wxImageList</ref>, <ref refid="classwx_with_images_1a8436e7fdc49a5a23fdca2effebd319ef" kindref="member">SetImageList()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/withimages.h" line="26" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_with_images_1a8436e7fdc49a5a23fdca2effebd319ef" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void wxWithImages::SetImageList</definition>
+        <argsstring>(wxImageList *imageList)</argsstring>
+        <name>SetImageList</name>
+        <param>
+          <type><ref refid="classwx_image_list" kindref="compound">wxImageList</ref> *</type>
+          <declname>imageList</declname>
+        </param>
+        <briefdescription>
+<para>Sets the image list to use. </para>        </briefdescription>
+        <detaileddescription>
+<para>It does not take ownership of the image list, you must delete it yourself.</para><para><simplesect kind="see"><para><ref refid="classwx_image_list" kindref="compound">wxImageList</ref>, <ref refid="classwx_with_images_1ab25ea07b6da88d532e224be8e037a816" kindref="member">AssignImageList()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/withimages.h" line="34" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_with_images_1a95b0be9cae5f1e58e9870a7a354c3aef" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_image_list" kindref="compound">wxImageList</ref> *</type>
+        <definition>wxImageList* wxWithImages::GetImageList</definition>
+        <argsstring>() const</argsstring>
+        <name>GetImageList</name>
+        <briefdescription>
+<para>Returns the associated image list, may be NULL. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="see"><para><ref refid="classwx_image_list" kindref="compound">wxImageList</ref>, <ref refid="classwx_with_images_1a8436e7fdc49a5a23fdca2effebd319ef" kindref="member">SetImageList()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/withimages.h" line="41" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classwx_with_images_1ab92483dd2e58ae351ab8511d82fcbb80" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxWithImages::HasImageList</definition>
+        <argsstring>() const</argsstring>
+        <name>HasImageList</name>
+        <briefdescription>
+<para>Return true if we have a valid image list. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/withimages.h" line="47" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_with_images_1a9a54b57a1860ee7d845101b172a19a5a" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_icon" kindref="compound">wxIcon</ref></type>
+        <definition>wxIcon wxWithImages::GetImage</definition>
+        <argsstring>(int iconIndex) const</argsstring>
+        <name>GetImage</name>
+        <param>
+          <type>int</type>
+          <declname>iconIndex</declname>
+        </param>
+        <briefdescription>
+<para>Return the image with the given index from the image list. </para>        </briefdescription>
+        <detaileddescription>
+<para>If there is no image list or if index == NO_IMAGE, silently returns wxNullIcon. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/withimages.h" line="55" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>A mixin class to be used with other classes that use a <ref refid="classwx_image_list" kindref="compound">wxImageList</ref>. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="8875">
+        <label>wxAuiNotebook</label>
+        <link refid="classwx_aui_notebook"/>
+        <childnode refid="8874" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8874">
+        <label>wxBookCtrlBase</label>
+        <link refid="classwx_book_ctrl_base"/>
+        <childnode refid="8873" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8876">
+        <label>wxAuiMDIClientWindow</label>
+        <link refid="classwx_aui_m_d_i_client_window"/>
+        <childnode refid="8875" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8880">
+        <label>wxSimplebook</label>
+        <link refid="classwx_simplebook"/>
+        <childnode refid="8874" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8882">
+        <label>wxTreebook</label>
+        <link refid="classwx_treebook"/>
+        <childnode refid="8874" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8878">
+        <label>wxListbook</label>
+        <link refid="classwx_listbook"/>
+        <childnode refid="8874" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8881">
+        <label>wxToolbook</label>
+        <link refid="classwx_toolbook"/>
+        <childnode refid="8874" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8877">
+        <label>wxChoicebook</label>
+        <link refid="classwx_choicebook"/>
+        <childnode refid="8874" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8879">
+        <label>wxNotebook</label>
+        <link refid="classwx_notebook"/>
+        <childnode refid="8874" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8873">
+        <label>wxWithImages</label>
+        <link refid="classwx_with_images"/>
+      </node>
+    </inheritancegraph>
+    <location file="interface/wx/withimages.h" line="11" column="1" bodyfile="interface/wx/withimages.h" bodystart="10" bodyend="56"/>
+    <listofallmembers>
+      <member refid="classwx_with_images_1ab25ea07b6da88d532e224be8e037a816" prot="public" virt="non-virtual"><scope>wxWithImages</scope><name>AssignImageList</name></member>
+      <member refid="classwx_with_images_1a9a54b57a1860ee7d845101b172a19a5a" prot="protected" virt="non-virtual"><scope>wxWithImages</scope><name>GetImage</name></member>
+      <member refid="classwx_with_images_1a95b0be9cae5f1e58e9870a7a354c3aef" prot="public" virt="non-virtual"><scope>wxWithImages</scope><name>GetImageList</name></member>
+      <member refid="classwx_with_images_1ab92483dd2e58ae351ab8511d82fcbb80" prot="protected" virt="non-virtual"><scope>wxWithImages</scope><name>HasImageList</name></member>
+      <member refid="classwx_with_images_1a7f6f8a527678898c8fcb8029ea527727a9c691a3188f0e2d96e1aa83fa5182406" prot="public" virt="non-virtual"><scope>wxWithImages</scope><name>NO_IMAGE</name></member>
+      <member refid="classwx_with_images_1a8436e7fdc49a5a23fdca2effebd319ef" prot="public" virt="virtual"><scope>wxWithImages</scope><name>SetImageList</name></member>
+      <member refid="classwx_with_images_1ace26c8e42e40f25cdbcd05fc9a870484" prot="public" virt="non-virtual"><scope>wxWithImages</scope><name>wxWithImages</name></member>
+      <member refid="classwx_with_images_1a931475b0ae296c7d577e76b6d67f01ba" prot="public" virt="virtual"><scope>wxWithImages</scope><name>~wxWithImages</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

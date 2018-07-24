@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="toolbook_8h" kind="file" language="C++">
+    <compoundname>toolbook.h</compoundname>
+    <innerclass refid="classwx_toolbook" prot="public">wxToolbook</innerclass>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="toolbook_8h_1a6894a3c028749325bf65e7eeb3f4fb58" prot="public" static="no">
+        <name>wxTBK_BUTTONBAR</name>
+        <initializer>0x0100</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/toolbook.h" line="8" column="9" bodyfile="interface/wx/toolbook.h" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="toolbook_8h_1a6cf6144fd8d832256adf62ce4f665576" prot="public" static="no">
+        <name>wxTBK_HORZ_LAYOUT</name>
+        <initializer>0x8000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/toolbook.h" line="9" column="9" bodyfile="interface/wx/toolbook.h" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="toolbook_8h_1a73b35a0d1aec053ce856b70e66359fd5" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_TOOLBOOK_PAGE_CHANGED</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_TOOLBOOK_PAGE_CHANGED</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/toolbook.h" line="11" column="1" bodyfile="interface/wx/toolbook.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="toolbook_8h_1a7d0db6188513f3dde477bc2772439d01" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_TOOLBOOK_PAGE_CHANGING</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_TOOLBOOK_PAGE_CHANGING</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/toolbook.h" line="12" column="1" bodyfile="interface/wx/toolbook.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="interface/wx/toolbook.h"/>
+  </compounddef>
+</doxygen>

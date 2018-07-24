@@ -1,0 +1,198 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="wizard_8h" kind="file" language="C++">
+    <compoundname>wizard.h</compoundname>
+    <innerclass refid="classwx_wizard_page" prot="public">wxWizardPage</innerclass>
+    <innerclass refid="classwx_wizard_event" prot="public">wxWizardEvent</innerclass>
+    <innerclass refid="classwx_wizard_page_simple" prot="public">wxWizardPageSimple</innerclass>
+    <innerclass refid="classwx_wizard" prot="public">wxWizard</innerclass>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="wizard_8h_1a4b0e168e28cbc1ad4ccb2eb5f04fc658" prot="public" static="no">
+        <name>wxWIZARD_EX_HELPBUTTON</name>
+        <initializer>0x00000010</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/wizard.h" line="10" column="9" bodyfile="interface/wx/wizard.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="wizard_8h_1ab37cdbea92f4caee036cdd323b44c251" prot="public" static="no">
+        <name>wxWIZARD_VALIGN_TOP</name>
+        <initializer>0x01</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/wizard.h" line="13" column="9" bodyfile="interface/wx/wizard.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="wizard_8h_1a761910943b517832311c535f2c4d3a10" prot="public" static="no">
+        <name>wxWIZARD_VALIGN_CENTRE</name>
+        <initializer>0x02</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/wizard.h" line="14" column="9" bodyfile="interface/wx/wizard.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="wizard_8h_1a3a79a3880cea872aae702191373e11ad" prot="public" static="no">
+        <name>wxWIZARD_VALIGN_BOTTOM</name>
+        <initializer>0x04</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/wizard.h" line="15" column="9" bodyfile="interface/wx/wizard.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="wizard_8h_1ac93c6bf8e96ac4b06e5766b82596e7b3" prot="public" static="no">
+        <name>wxWIZARD_HALIGN_LEFT</name>
+        <initializer>0x08</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/wizard.h" line="16" column="9" bodyfile="interface/wx/wizard.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="wizard_8h_1aa74a3ff6591b135811c4200a89ea5b07" prot="public" static="no">
+        <name>wxWIZARD_HALIGN_CENTRE</name>
+        <initializer>0x10</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/wizard.h" line="17" column="9" bodyfile="interface/wx/wizard.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="wizard_8h_1ab0bf93419c238fc21d345bb88a6996e5" prot="public" static="no">
+        <name>wxWIZARD_HALIGN_RIGHT</name>
+        <initializer>0x20</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/wizard.h" line="18" column="9" bodyfile="interface/wx/wizard.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="wizard_8h_1aea717c0cf7bd3492dcb874d91beb3b84" prot="public" static="no">
+        <name>wxWIZARD_TILE</name>
+        <initializer>0x40</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/wizard.h" line="19" column="9" bodyfile="interface/wx/wizard.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="wizard_8h_1a7ab9316224278e3d2fa669ef5271942d" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_WIZARD_PAGE_CHANGED</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_WIZARD_PAGE_CHANGED</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/wizard.h" line="177" column="1" bodyfile="interface/wx/wizard.h" bodystart="177" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="wizard_8h_1a29f3943a5c1faad9345842804dcbf86a" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_WIZARD_PAGE_CHANGING</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_WIZARD_PAGE_CHANGING</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/wizard.h" line="178" column="1" bodyfile="interface/wx/wizard.h" bodystart="178" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="wizard_8h_1a5053325d097ce222760cfc43ac8c4db3" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_WIZARD_CANCEL</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_WIZARD_CANCEL</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/wizard.h" line="179" column="1" bodyfile="interface/wx/wizard.h" bodystart="179" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="wizard_8h_1af4da825078a3aadcb3252af4aa8b3815" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_WIZARD_HELP</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_WIZARD_HELP</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/wizard.h" line="180" column="1" bodyfile="interface/wx/wizard.h" bodystart="180" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="wizard_8h_1ae1b451e8d51d5d1ad4989c251b70e531" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_WIZARD_FINISHED</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_WIZARD_FINISHED</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/wizard.h" line="181" column="1" bodyfile="interface/wx/wizard.h" bodystart="181" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="wizard_8h_1a7598f29ba2db92e0a606f405ff6b890e" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_WIZARD_PAGE_SHOWN</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_WIZARD_PAGE_SHOWN</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/wizard.h" line="182" column="1" bodyfile="interface/wx/wizard.h" bodystart="182" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="wizard_8h_1a31a708fc19f97261dab477fca19889a7" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_WIZARD_BEFORE_PAGE_CHANGED</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_WIZARD_BEFORE_PAGE_CHANGED</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/wizard.h" line="183" column="1" bodyfile="interface/wx/wizard.h" bodystart="183" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="interface/wx/wizard.h"/>
+  </compounddef>
+</doxygen>

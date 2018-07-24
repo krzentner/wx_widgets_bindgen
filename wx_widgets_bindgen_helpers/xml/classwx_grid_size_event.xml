@@ -1,0 +1,293 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_grid_size_event" kind="class" language="C++" prot="public">
+    <compoundname>wxGridSizeEvent</compoundname>
+    <basecompoundref refid="classwx_notify_event" prot="public" virt="non-virtual">wxNotifyEvent</basecompoundref>
+    <includes local="no">wx/grid.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classwx_grid_size_event_1a183ad53c5c01f3c21b7c0b546845731d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxGridSizeEvent::wxGridSizeEvent</definition>
+        <argsstring>()</argsstring>
+        <name>wxGridSizeEvent</name>
+        <briefdescription>
+<para>Default constructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/grid.h" line="4854" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_grid_size_event_1ad935b56f49e477e327a2a2129ac7508d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxGridSizeEvent::wxGridSizeEvent</definition>
+        <argsstring>(int id, wxEventType type, wxObject *obj, int rowOrCol=-1, int x=-1, int y=-1, const wxKeyboardState &amp;kbd=wxKeyboardState())</argsstring>
+        <name>wxGridSizeEvent</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_object" kindref="compound">wxObject</ref> *</type>
+          <declname>obj</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>rowOrCol</declname>
+          <defval>-1</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+          <defval>-1</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+          <defval>-1</defval>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_keyboard_state" kindref="compound">wxKeyboardState</ref> &amp;</type>
+          <declname>kbd</declname>
+          <defval><ref refid="classwx_keyboard_state" kindref="compound">wxKeyboardState</ref>()</defval>
+        </param>
+        <briefdescription>
+<para>Constructor for initializing all event attributes. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/grid.h" line="4858" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_grid_size_event_1ad30cb54ba2dd9af68d6467447a3ded08" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxGridSizeEvent::AltDown</definition>
+        <argsstring>() const</argsstring>
+        <name>AltDown</name>
+        <briefdescription>
+<para>Returns true if the Alt key was down at the time of the event. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/grid.h" line="4865" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_grid_size_event_1ab25f0bf25c5ac498e53d56fcf5f1b46d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxGridSizeEvent::ControlDown</definition>
+        <argsstring>() const</argsstring>
+        <name>ControlDown</name>
+        <briefdescription>
+<para>Returns true if the Control key was down at the time of the event. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/grid.h" line="4870" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_grid_size_event_1ac75c50bd92ded22b27237216005de838" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_point" kindref="compound">wxPoint</ref></type>
+        <definition>wxPoint wxGridSizeEvent::GetPosition</definition>
+        <argsstring>()</argsstring>
+        <name>GetPosition</name>
+        <briefdescription>
+<para>Position in pixels at which the event occurred. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/grid.h" line="4875" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_grid_size_event_1a4b981029d1f2b5f3f29a5bd0593a4fbe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int wxGridSizeEvent::GetRowOrCol</definition>
+        <argsstring>()</argsstring>
+        <name>GetRowOrCol</name>
+        <briefdescription>
+<para>Row or column at that was resized. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/grid.h" line="4880" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_grid_size_event_1a658a6fbfd7e16af4f65c70588d9e3ec7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxGridSizeEvent::MetaDown</definition>
+        <argsstring>() const</argsstring>
+        <name>MetaDown</name>
+        <briefdescription>
+<para>Returns true if the Meta key was down at the time of the event. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/grid.h" line="4885" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_grid_size_event_1a249b50a1ce0f3f415b716251a034d309" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxGridSizeEvent::ShiftDown</definition>
+        <argsstring>() const</argsstring>
+        <name>ShiftDown</name>
+        <briefdescription>
+<para>Returns true if the Shift key was down at the time of the event. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/grid.h" line="4890" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This event class contains information about a row/column resize event. </para>    </briefdescription>
+    <detaileddescription>
+<para><linebreak/>
+<heading level="2">Events using this class</heading>
+</para><para>The following event handler macros redirect the events to member function handlers &apos;<bold>func</bold>&apos; with prototypes like: void<nonbreakablespace/>handlerFuncName(<ref refid="classwx_grid_size_event" kindref="compound">wxGridSizeEvent</ref>&amp;<nonbreakablespace/>event)</para><para>Event macros: <itemizedlist>
+<listitem><para>EVT_GRID_CMD_COL_SIZE(id,  func): The user resized a column, corresponds to <computeroutput>wxEVT_GRID_COL_SIZE</computeroutput> event type. </para></listitem>
+<listitem><para>EVT_GRID_CMD_ROW_SIZE(id,  func): The user resized a row, corresponds to <computeroutput>wxEVT_GRID_ROW_SIZE</computeroutput> event type. </para></listitem>
+<listitem><para>EVT_GRID_COL_SIZE(func): Same as EVT_GRID_CMD_COL_SIZE() but uses <computeroutput>wxID_ANY</computeroutput> id. </para></listitem>
+<listitem><para>EVT_GRID_COL_AUTO_SIZE(func): This event is sent when a column must be resized to its best size, e.g. when the user double clicks the column divider. The default implementation simply resizes the column to fit the column label (but not its contents as this could be too slow for big grids). This macro corresponds to <computeroutput>wxEVT_GRID_COL_AUTO_SIZE</computeroutput> event type and is new since wxWidgets 2.9.5. </para></listitem>
+<listitem><para>EVT_GRID_ROW_SIZE(func): Same as EVT_GRID_CMD_ROW_SIZE() but uses <computeroutput>wxID_ANY</computeroutput> id. <linebreak/>
+ <heading level="2"></heading>
+</para></listitem>
+</itemizedlist>
+Library:<nonbreakablespace/><nonbreakablespace/><ref refid="page_libs_1page_libs_wxadv" kindref="member">wxAdvanced</ref> &lt;&gt;&lt; =&apos;&apos;&gt;:&lt;/&gt;&amp;;&amp;;&lt; =&apos;&apos;&gt;\ , \ &lt;/&gt;&lt;/&gt; </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="3150">
+        <label>wxObject</label>
+        <link refid="classwx_object"/>
+      </node>
+      <node id="3148">
+        <label>wxCommandEvent</label>
+        <link refid="classwx_command_event"/>
+        <childnode refid="3149" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3146">
+        <label>wxGridSizeEvent</label>
+        <link refid="classwx_grid_size_event"/>
+        <childnode refid="3147" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3147">
+        <label>wxNotifyEvent</label>
+        <link refid="classwx_notify_event"/>
+        <childnode refid="3148" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3149">
+        <label>wxEvent</label>
+        <link refid="classwx_event"/>
+        <childnode refid="3150" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3155">
+        <label>wxObject</label>
+        <link refid="classwx_object"/>
+        <childnode refid="3156" relation="usage">
+          <edgelabel>m_refData</edgelabel>
+        </childnode>
+      </node>
+      <node id="3153">
+        <label>wxCommandEvent</label>
+        <link refid="classwx_command_event"/>
+        <childnode refid="3154" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3151">
+        <label>wxGridSizeEvent</label>
+        <link refid="classwx_grid_size_event"/>
+        <childnode refid="3152" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3152">
+        <label>wxNotifyEvent</label>
+        <link refid="classwx_notify_event"/>
+        <childnode refid="3153" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3154">
+        <label>wxEvent</label>
+        <link refid="classwx_event"/>
+        <childnode refid="3155" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3156">
+        <label>wxObjectRefData</label>
+        <link refid="classwx_object_ref_data"/>
+      </node>
+    </collaborationgraph>
+    <location file="interface/wx/grid.h" line="4849" column="1" bodyfile="interface/wx/grid.h" bodystart="4848" bodyend="4891"/>
+    <listofallmembers>
+      <member refid="classwx_object_1a60204063f3cc3aa2fa1c7ff5bda9eb13" prot="protected" virt="non-virtual"><scope>wxGridSizeEvent</scope><name>AllocExclusive</name></member>
+      <member refid="classwx_notify_event_1a7b23515f827b2ce1da1e6990d9aafe80" prot="public" virt="non-virtual"><scope>wxGridSizeEvent</scope><name>Allow</name></member>
+      <member refid="classwx_grid_size_event_1ad30cb54ba2dd9af68d6467447a3ded08" prot="public" virt="non-virtual"><scope>wxGridSizeEvent</scope><name>AltDown</name></member>
+      <member refid="classwx_event_1a26878097a702e8d0368da150125d4158" prot="public" virt="pure-virtual"><scope>wxGridSizeEvent</scope><name>Clone</name></member>
+      <member refid="classwx_object_1a436fc8fe68cf8a31000296d9cd3d2427" prot="protected" virt="virtual"><scope>wxGridSizeEvent</scope><name>CloneRefData</name></member>
+      <member refid="classwx_grid_size_event_1ab25f0bf25c5ac498e53d56fcf5f1b46d" prot="public" virt="non-virtual"><scope>wxGridSizeEvent</scope><name>ControlDown</name></member>
+      <member refid="classwx_object_1a3f4f497c65cef611e121c41f21dd5ccc" prot="protected" virt="virtual"><scope>wxGridSizeEvent</scope><name>CreateRefData</name></member>
+      <member refid="classwx_object_1ae6d365f2556b26767ced8410c5e839d0" prot="public" virt="virtual"><scope>wxGridSizeEvent</scope><name>GetClassInfo</name></member>
+      <member refid="classwx_command_event_1a85c77819c73081dab3a43bfd2fe02e6a" prot="public" virt="non-virtual"><scope>wxGridSizeEvent</scope><name>GetClientData</name></member>
+      <member refid="classwx_command_event_1adab474dc431edb70a05f470ba1b18b08" prot="public" virt="non-virtual"><scope>wxGridSizeEvent</scope><name>GetClientObject</name></member>
+      <member refid="classwx_event_1ac4958ff6ec32b7f4b23066932d611131" prot="public" virt="virtual"><scope>wxGridSizeEvent</scope><name>GetEventCategory</name></member>
+      <member refid="classwx_event_1a424a4ffaaaf95164d8952ef9ab2ef444" prot="public" virt="non-virtual"><scope>wxGridSizeEvent</scope><name>GetEventObject</name></member>
+      <member refid="classwx_event_1a01c89719ef6241a6e612a313a259c1c2" prot="public" virt="non-virtual"><scope>wxGridSizeEvent</scope><name>GetEventType</name></member>
+      <member refid="classwx_event_1ae7d3e088f0f165ad0421717dd33e4460" prot="public" virt="non-virtual"><scope>wxGridSizeEvent</scope><name>GetEventUserData</name></member>
+      <member refid="classwx_command_event_1abdba7c3e93f0dbf99f5382e60e7a461a" prot="public" virt="non-virtual"><scope>wxGridSizeEvent</scope><name>GetExtraLong</name></member>
+      <member refid="classwx_event_1ac5fa5c10d4845d903e58026a42b403c7" prot="public" virt="non-virtual"><scope>wxGridSizeEvent</scope><name>GetId</name></member>
+      <member refid="classwx_command_event_1a24ad2aab26646c762ca3092a7ffd5ccd" prot="public" virt="non-virtual"><scope>wxGridSizeEvent</scope><name>GetInt</name></member>
+      <member refid="classwx_grid_size_event_1ac75c50bd92ded22b27237216005de838" prot="public" virt="non-virtual"><scope>wxGridSizeEvent</scope><name>GetPosition</name></member>
+      <member refid="classwx_object_1af3c6c76a775864832f1536d3c0de3a2b" prot="public" virt="non-virtual"><scope>wxGridSizeEvent</scope><name>GetRefData</name></member>
+      <member refid="classwx_grid_size_event_1a4b981029d1f2b5f3f29a5bd0593a4fbe" prot="public" virt="non-virtual"><scope>wxGridSizeEvent</scope><name>GetRowOrCol</name></member>
+      <member refid="classwx_command_event_1a93609c04b8fd7001259efb5d65645fe6" prot="public" virt="non-virtual"><scope>wxGridSizeEvent</scope><name>GetSelection</name></member>
+      <member refid="classwx_event_1aa770dbcd0f1714ba097836af6534b4c5" prot="public" virt="non-virtual"><scope>wxGridSizeEvent</scope><name>GetSkipped</name></member>
+      <member refid="classwx_command_event_1a6aef039e72e358840a7c20da6473e9ae" prot="public" virt="non-virtual"><scope>wxGridSizeEvent</scope><name>GetString</name></member>
+      <member refid="classwx_event_1a48662230971127737d2500cef7be549d" prot="public" virt="non-virtual"><scope>wxGridSizeEvent</scope><name>GetTimestamp</name></member>
+      <member refid="classwx_notify_event_1a907334f4b322d93cf49304a939bba143" prot="public" virt="non-virtual"><scope>wxGridSizeEvent</scope><name>IsAllowed</name></member>
+      <member refid="classwx_command_event_1a3e5510a00ebb9fb5e7bf7dc5e89f3588" prot="public" virt="non-virtual"><scope>wxGridSizeEvent</scope><name>IsChecked</name></member>
+      <member refid="classwx_event_1a31f6a4377d6d36964b8eae4e56ec43e0" prot="public" virt="non-virtual"><scope>wxGridSizeEvent</scope><name>IsCommandEvent</name></member>
+      <member refid="classwx_object_1a3c7115ef4132dcee0c4fc34e84d7fced" prot="public" virt="non-virtual"><scope>wxGridSizeEvent</scope><name>IsKindOf</name></member>
+      <member refid="classwx_object_1a059373c494c2369d7db2a556efef8ecf" prot="public" virt="non-virtual"><scope>wxGridSizeEvent</scope><name>IsSameAs</name></member>
+      <member refid="classwx_command_event_1a44f4144f027fcb7feadb4c23bcbfeb5f" prot="public" virt="non-virtual"><scope>wxGridSizeEvent</scope><name>IsSelection</name></member>
+      <member refid="classwx_event_1ac81911194f1f59e1454c0397b87975d4" prot="protected" virt="non-virtual"><scope>wxGridSizeEvent</scope><name>m_propagationLevel</name></member>
+      <member refid="classwx_object_1a9e31954530a0abd54982effc443ed2b8" prot="protected" virt="non-virtual"><scope>wxGridSizeEvent</scope><name>m_refData</name></member>
+      <member refid="classwx_grid_size_event_1a658a6fbfd7e16af4f65c70588d9e3ec7" prot="public" virt="non-virtual"><scope>wxGridSizeEvent</scope><name>MetaDown</name></member>
+      <member refid="classwx_object_1a07b8f34f5afc5743195c5fed052f55d3" prot="public" virt="non-virtual"><scope>wxGridSizeEvent</scope><name>operator delete</name></member>
+      <member refid="classwx_object_1a96fa423a1dbc212c8227a5d83825971f" prot="public" virt="non-virtual"><scope>wxGridSizeEvent</scope><name>operator new</name></member>
+      <member refid="classwx_object_1a2f6f1aa51fe9fc2b1415ca4211a90e9e" prot="public" virt="non-virtual"><scope>wxGridSizeEvent</scope><name>Ref</name></member>
+      <member refid="classwx_event_1a0acb5c75f6e67b8822ad8ba3c5bdc4fe" prot="public" virt="non-virtual"><scope>wxGridSizeEvent</scope><name>ResumePropagation</name></member>
+      <member refid="classwx_command_event_1a1778d16766134e08cafcdb49b06855ce" prot="public" virt="non-virtual"><scope>wxGridSizeEvent</scope><name>SetClientData</name></member>
+      <member refid="classwx_command_event_1a752e5a0fb8992b062c4dec6866171586" prot="public" virt="non-virtual"><scope>wxGridSizeEvent</scope><name>SetClientObject</name></member>
+      <member refid="classwx_event_1a3460217d04c36393ab868ba453fde13d" prot="public" virt="non-virtual"><scope>wxGridSizeEvent</scope><name>SetEventObject</name></member>
+      <member refid="classwx_event_1aa29fb7459d64602e09837fea1e516d27" prot="public" virt="non-virtual"><scope>wxGridSizeEvent</scope><name>SetEventType</name></member>
+      <member refid="classwx_command_event_1a13ac3c581b99d110bac2c6b74803d2df" prot="public" virt="non-virtual"><scope>wxGridSizeEvent</scope><name>SetExtraLong</name></member>
+      <member refid="classwx_event_1ab9973f687bfa8a60318d8d9bd629d0d4" prot="public" virt="non-virtual"><scope>wxGridSizeEvent</scope><name>SetId</name></member>
+      <member refid="classwx_command_event_1aeaed91ffb1d02f07d7ea40f029f95a7c" prot="public" virt="non-virtual"><scope>wxGridSizeEvent</scope><name>SetInt</name></member>
+      <member refid="classwx_object_1afab780710f2adc1bb33310e27590140b" prot="public" virt="non-virtual"><scope>wxGridSizeEvent</scope><name>SetRefData</name></member>
+      <member refid="classwx_command_event_1a06ca56ac6680fe3b3178d8abd913d450" prot="public" virt="non-virtual"><scope>wxGridSizeEvent</scope><name>SetString</name></member>
+      <member refid="classwx_event_1ad4380dff3144a986cb960473051a1d8d" prot="public" virt="non-virtual"><scope>wxGridSizeEvent</scope><name>SetTimestamp</name></member>
+      <member refid="classwx_grid_size_event_1a249b50a1ce0f3f415b716251a034d309" prot="public" virt="non-virtual"><scope>wxGridSizeEvent</scope><name>ShiftDown</name></member>
+      <member refid="classwx_event_1ac7a178c3c781c80f1308945042f76e7f" prot="public" virt="non-virtual"><scope>wxGridSizeEvent</scope><name>ShouldPropagate</name></member>
+      <member refid="classwx_event_1a98eb20b76106f9a933c2eb3ee119f66c" prot="public" virt="non-virtual"><scope>wxGridSizeEvent</scope><name>Skip</name></member>
+      <member refid="classwx_event_1a060a7d222404daff4d3cef30cddeaae3" prot="public" virt="non-virtual"><scope>wxGridSizeEvent</scope><name>StopPropagation</name></member>
+      <member refid="classwx_object_1af51efc6b1ae632fc7f0cd7ebbce9fa36" prot="public" virt="non-virtual"><scope>wxGridSizeEvent</scope><name>UnRef</name></member>
+      <member refid="classwx_object_1a74b40e42d19a4b9e9bec0b57d62a5725" prot="public" virt="non-virtual"><scope>wxGridSizeEvent</scope><name>UnShare</name></member>
+      <member refid="classwx_notify_event_1a49e4502414a11e273f51a34a21d2acd3" prot="public" virt="non-virtual"><scope>wxGridSizeEvent</scope><name>Veto</name></member>
+      <member refid="classwx_command_event_1aad941347872cd71fedcfc765fae7b2f7" prot="public" virt="non-virtual"><scope>wxGridSizeEvent</scope><name>wxCommandEvent</name></member>
+      <member refid="classwx_event_1aaf2a5cf056d006859cea36689ba13d36" prot="public" virt="non-virtual"><scope>wxGridSizeEvent</scope><name>wxEvent</name></member>
+      <member refid="classwx_grid_size_event_1a183ad53c5c01f3c21b7c0b546845731d" prot="public" virt="non-virtual"><scope>wxGridSizeEvent</scope><name>wxGridSizeEvent</name></member>
+      <member refid="classwx_grid_size_event_1ad935b56f49e477e327a2a2129ac7508d" prot="public" virt="non-virtual"><scope>wxGridSizeEvent</scope><name>wxGridSizeEvent</name></member>
+      <member refid="classwx_notify_event_1a4c97324fca04afe13beaa8a8a307ec7b" prot="public" virt="non-virtual"><scope>wxGridSizeEvent</scope><name>wxNotifyEvent</name></member>
+      <member refid="classwx_object_1acaa378363a28af421ab56ad7b46eadf0" prot="public" virt="non-virtual"><scope>wxGridSizeEvent</scope><name>wxObject</name></member>
+      <member refid="classwx_object_1a4721b4dc9b7aff0f30904ba2ea3954cf" prot="public" virt="non-virtual"><scope>wxGridSizeEvent</scope><name>wxObject</name></member>
+      <member refid="classwx_object_1a2a51aa8bfbab47ca2f051bcf84b3f35b" prot="public" virt="virtual"><scope>wxGridSizeEvent</scope><name>~wxObject</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

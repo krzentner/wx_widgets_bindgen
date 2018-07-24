@@ -1,0 +1,201 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="helpwnd_8h" kind="file" language="C++">
+    <compoundname>helpwnd.h</compoundname>
+    <innerclass refid="classwx_html_help_window" prot="public">wxHtmlHelpWindow</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="helpwnd_8h_1ae4d5251432e1a9e6803c0240cc492e18" prot="public" static="no" strong="no">
+        <type></type>
+        <name>@25</name>
+        <enumvalue id="helpwnd_8h_1ae4d5251432e1a9e6803c0240cc492e18aa3a5d4981c7268dd4fb096acc312a6a5" prot="public">
+          <name>wxID_HTML_PANEL</name>
+          <initializer>= wxID_HIGHEST + 10</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="helpwnd_8h_1ae4d5251432e1a9e6803c0240cc492e18a6ba5656bd4e2e5ac7e42e3eb12af7f84" prot="public">
+          <name>wxID_HTML_BACK</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="helpwnd_8h_1ae4d5251432e1a9e6803c0240cc492e18ae9196b29a3051115c2351a76159d190f" prot="public">
+          <name>wxID_HTML_FORWARD</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="helpwnd_8h_1ae4d5251432e1a9e6803c0240cc492e18ac2841d920f758f4b56f6da642cb6768d" prot="public">
+          <name>wxID_HTML_UPNODE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="helpwnd_8h_1ae4d5251432e1a9e6803c0240cc492e18ac728b85be7d990f2ceb09a9d0cd5ff6a" prot="public">
+          <name>wxID_HTML_UP</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="helpwnd_8h_1ae4d5251432e1a9e6803c0240cc492e18ac2cc9d95a7469a37ddd570c4157914dc" prot="public">
+          <name>wxID_HTML_DOWN</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="helpwnd_8h_1ae4d5251432e1a9e6803c0240cc492e18a8a98c3e36526df6978fe1c557cee0b72" prot="public">
+          <name>wxID_HTML_PRINT</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="helpwnd_8h_1ae4d5251432e1a9e6803c0240cc492e18a8f2bf33283fbf7987fa6327d1e77e46c" prot="public">
+          <name>wxID_HTML_OPENFILE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="helpwnd_8h_1ae4d5251432e1a9e6803c0240cc492e18a2990f2201fb61bc255282d75df9dca18" prot="public">
+          <name>wxID_HTML_OPTIONS</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="helpwnd_8h_1ae4d5251432e1a9e6803c0240cc492e18a1e0055db4e951b2557ad2c13b57aa4eb" prot="public">
+          <name>wxID_HTML_BOOKMARKSLIST</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="helpwnd_8h_1ae4d5251432e1a9e6803c0240cc492e18a6be55028f7471919ddec89967debbd06" prot="public">
+          <name>wxID_HTML_BOOKMARKSADD</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="helpwnd_8h_1ae4d5251432e1a9e6803c0240cc492e18aabc79c211144085b02f3ccc7002fdef5" prot="public">
+          <name>wxID_HTML_BOOKMARKSREMOVE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="helpwnd_8h_1ae4d5251432e1a9e6803c0240cc492e18a5af1616030584fc35bf054c5559d9e45" prot="public">
+          <name>wxID_HTML_TREECTRL</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="helpwnd_8h_1ae4d5251432e1a9e6803c0240cc492e18a47e8dab96ae18929abef0fa260fd5c93" prot="public">
+          <name>wxID_HTML_INDEXPAGE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="helpwnd_8h_1ae4d5251432e1a9e6803c0240cc492e18a2cb90b1ada5488fa75c44ea51a964683" prot="public">
+          <name>wxID_HTML_INDEXLIST</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="helpwnd_8h_1ae4d5251432e1a9e6803c0240cc492e18ab05630a12185fb7d2506ed0a33480cac" prot="public">
+          <name>wxID_HTML_INDEXTEXT</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="helpwnd_8h_1ae4d5251432e1a9e6803c0240cc492e18a49f740ce12428c30896d5f4575ad46f5" prot="public">
+          <name>wxID_HTML_INDEXBUTTON</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="helpwnd_8h_1ae4d5251432e1a9e6803c0240cc492e18a791d49a5bde0c795f199d12df01390c0" prot="public">
+          <name>wxID_HTML_INDEXBUTTONALL</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="helpwnd_8h_1ae4d5251432e1a9e6803c0240cc492e18ad27e8edc5b76522b280dcfa26c59e89d" prot="public">
+          <name>wxID_HTML_NOTEBOOK</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="helpwnd_8h_1ae4d5251432e1a9e6803c0240cc492e18a08f601ed4cd091904770a71eb733e770" prot="public">
+          <name>wxID_HTML_SEARCHPAGE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="helpwnd_8h_1ae4d5251432e1a9e6803c0240cc492e18a320b26bf4090a9bb287b105a033156d6" prot="public">
+          <name>wxID_HTML_SEARCHTEXT</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="helpwnd_8h_1ae4d5251432e1a9e6803c0240cc492e18ab7b8007af525fdc80bcaa574025ca6a6" prot="public">
+          <name>wxID_HTML_SEARCHLIST</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="helpwnd_8h_1ae4d5251432e1a9e6803c0240cc492e18a6f86e7b3b7e15666dec5d0b8fb9fca90" prot="public">
+          <name>wxID_HTML_SEARCHBUTTON</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="helpwnd_8h_1ae4d5251432e1a9e6803c0240cc492e18a73746c957a8b47a6ab898dfac7f3f17f" prot="public">
+          <name>wxID_HTML_SEARCHCHOICE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="helpwnd_8h_1ae4d5251432e1a9e6803c0240cc492e18af9eac9925ddf52b55a79e7fa2209440e" prot="public">
+          <name>wxID_HTML_COUNTINFO</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Command IDs </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/html/helpwnd.h" line="12" column="1" bodyfile="interface/wx/html/helpwnd.h" bodystart="11" bodyend="39"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="interface/wx/html/helpwnd.h"/>
+  </compounddef>
+</doxygen>

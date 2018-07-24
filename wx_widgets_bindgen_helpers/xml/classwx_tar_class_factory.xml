@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_tar_class_factory" kind="class" language="C++" prot="public">
+    <compoundname>wxTarClassFactory</compoundname>
+    <basecompoundref refid="classwx_archive_class_factory" prot="public" virt="non-virtual">wxArchiveClassFactory</basecompoundref>
+    <includes local="no">wx/tarstrm.h</includes>
+    <briefdescription>
+<para>Class factory for the tar archive format. </para>    </briefdescription>
+    <detaileddescription>
+<para>See the base class for details.</para><para><heading level="2"></heading>
+</para><para>Library:<nonbreakablespace/><nonbreakablespace/><ref refid="page_libs_1page_libs_wxbase" kindref="member">wxBase</ref> &lt;&gt;&lt; =&apos;&apos;&gt;:&lt;/&gt;&amp;;&amp;;&lt; =&apos;&apos;&gt;\ , \ &lt;/&gt;&lt;/&gt;</para><para><simplesect kind="see"><para><ref refid="overview_archive" kindref="compound">Archive Formats</ref>, <ref refid="overview_archive_1overview_archive_generic" kindref="member">Generic Archive Programming</ref>, <ref refid="classwx_tar_entry" kindref="compound">wxTarEntry</ref>, <ref refid="classwx_tar_input_stream" kindref="compound">wxTarInputStream</ref>, <ref refid="classwx_tar_output_stream" kindref="compound">wxTarOutputStream</ref> </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="7749">
+        <label>wxObject</label>
+        <link refid="classwx_object"/>
+      </node>
+      <node id="7748">
+        <label>wxArchiveClassFactory</label>
+        <link refid="classwx_archive_class_factory"/>
+        <childnode refid="7749" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7747">
+        <label>wxTarClassFactory</label>
+        <link refid="classwx_tar_class_factory"/>
+        <childnode refid="7748" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="7752">
+        <label>wxObject</label>
+        <link refid="classwx_object"/>
+        <childnode refid="7753" relation="usage">
+          <edgelabel>m_refData</edgelabel>
+        </childnode>
+      </node>
+      <node id="7751">
+        <label>wxArchiveClassFactory</label>
+        <link refid="classwx_archive_class_factory"/>
+        <childnode refid="7752" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7750">
+        <label>wxTarClassFactory</label>
+        <link refid="classwx_tar_class_factory"/>
+        <childnode refid="7751" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7753">
+        <label>wxObjectRefData</label>
+        <link refid="classwx_object_ref_data"/>
+      </node>
+    </collaborationgraph>
+    <location file="interface/wx/tarstrm.h" line="111" column="1" bodyfile="interface/wx/tarstrm.h" bodystart="110" bodyend="114"/>
+    <listofallmembers>
+      <member refid="classwx_object_1a60204063f3cc3aa2fa1c7ff5bda9eb13" prot="protected" virt="non-virtual"><scope>wxTarClassFactory</scope><name>AllocExclusive</name></member>
+      <member refid="classwx_archive_class_factory_1a9c79bfa1c111f5016a8e536d66aab3e0" prot="public" virt="non-virtual"><scope>wxTarClassFactory</scope><name>CanHandle</name></member>
+      <member refid="classwx_object_1a436fc8fe68cf8a31000296d9cd3d2427" prot="protected" virt="virtual"><scope>wxTarClassFactory</scope><name>CloneRefData</name></member>
+      <member refid="classwx_object_1a3f4f497c65cef611e121c41f21dd5ccc" prot="protected" virt="virtual"><scope>wxTarClassFactory</scope><name>CreateRefData</name></member>
+      <member refid="classwx_archive_class_factory_1ad9f083561596ee377cea71a0125d3c3b" prot="public" virt="non-virtual"><scope>wxTarClassFactory</scope><name>Find</name></member>
+      <member refid="classwx_object_1ae6d365f2556b26767ced8410c5e839d0" prot="public" virt="virtual"><scope>wxTarClassFactory</scope><name>GetClassInfo</name></member>
+      <member refid="classwx_archive_class_factory_1a74421219d955202be3ae25699725d374" prot="public" virt="non-virtual"><scope>wxTarClassFactory</scope><name>GetConv</name></member>
+      <member refid="classwx_archive_class_factory_1a4550c0581291ca6255b7eb0cb917a8ce" prot="public" virt="non-virtual"><scope>wxTarClassFactory</scope><name>GetFirst</name></member>
+      <member refid="classwx_archive_class_factory_1ac83622385ff9b2525266d0c5c147f90c" prot="public" virt="pure-virtual"><scope>wxTarClassFactory</scope><name>GetInternalName</name></member>
+      <member refid="classwx_archive_class_factory_1afbf627fd9db36516553999cacaddf3b7" prot="public" virt="non-virtual"><scope>wxTarClassFactory</scope><name>GetNext</name></member>
+      <member refid="classwx_archive_class_factory_1a135eb8fa4ad950e25b5db824067d1231" prot="public" virt="non-virtual"><scope>wxTarClassFactory</scope><name>GetProtocol</name></member>
+      <member refid="classwx_archive_class_factory_1acab270a64690103ec5179aa17386fce4" prot="public" virt="pure-virtual"><scope>wxTarClassFactory</scope><name>GetProtocols</name></member>
+      <member refid="classwx_object_1af3c6c76a775864832f1536d3c0de3a2b" prot="public" virt="non-virtual"><scope>wxTarClassFactory</scope><name>GetRefData</name></member>
+      <member refid="classwx_object_1a3c7115ef4132dcee0c4fc34e84d7fced" prot="public" virt="non-virtual"><scope>wxTarClassFactory</scope><name>IsKindOf</name></member>
+      <member refid="classwx_object_1a059373c494c2369d7db2a556efef8ecf" prot="public" virt="non-virtual"><scope>wxTarClassFactory</scope><name>IsSameAs</name></member>
+      <member refid="classwx_object_1a9e31954530a0abd54982effc443ed2b8" prot="protected" virt="non-virtual"><scope>wxTarClassFactory</scope><name>m_refData</name></member>
+      <member refid="classwx_archive_class_factory_1af4338d9f02309004d1bd6ebb7a1addc8" prot="public" virt="non-virtual"><scope>wxTarClassFactory</scope><name>NewEntry</name></member>
+      <member refid="classwx_archive_class_factory_1adaee5b0575c3025085b07e59e52f37cf" prot="public" virt="non-virtual"><scope>wxTarClassFactory</scope><name>NewStream</name></member>
+      <member refid="classwx_archive_class_factory_1a54c0a6fa4700022dbf6269514676a0e4" prot="public" virt="non-virtual"><scope>wxTarClassFactory</scope><name>NewStream</name></member>
+      <member refid="classwx_archive_class_factory_1ae2adc99f94c9d9f1fbcbc2059a38690e" prot="public" virt="non-virtual"><scope>wxTarClassFactory</scope><name>NewStream</name></member>
+      <member refid="classwx_archive_class_factory_1a2b89a50e4599b0a7cb17c8a68b84d6d5" prot="public" virt="non-virtual"><scope>wxTarClassFactory</scope><name>NewStream</name></member>
+      <member refid="classwx_object_1a07b8f34f5afc5743195c5fed052f55d3" prot="public" virt="non-virtual"><scope>wxTarClassFactory</scope><name>operator delete</name></member>
+      <member refid="classwx_object_1a96fa423a1dbc212c8227a5d83825971f" prot="public" virt="non-virtual"><scope>wxTarClassFactory</scope><name>operator new</name></member>
+      <member refid="classwx_archive_class_factory_1a2ce9c0d68e825a8f2b61617f8b213ee2" prot="public" virt="non-virtual"><scope>wxTarClassFactory</scope><name>PushFront</name></member>
+      <member refid="classwx_object_1a2f6f1aa51fe9fc2b1415ca4211a90e9e" prot="public" virt="non-virtual"><scope>wxTarClassFactory</scope><name>Ref</name></member>
+      <member refid="classwx_archive_class_factory_1a541af2ac6ad3a33a103d0c557165751f" prot="public" virt="non-virtual"><scope>wxTarClassFactory</scope><name>Remove</name></member>
+      <member refid="classwx_archive_class_factory_1ae541f085aabc3531062e541c4bf42983" prot="public" virt="non-virtual"><scope>wxTarClassFactory</scope><name>SetConv</name></member>
+      <member refid="classwx_object_1afab780710f2adc1bb33310e27590140b" prot="public" virt="non-virtual"><scope>wxTarClassFactory</scope><name>SetRefData</name></member>
+      <member refid="classwx_object_1af51efc6b1ae632fc7f0cd7ebbce9fa36" prot="public" virt="non-virtual"><scope>wxTarClassFactory</scope><name>UnRef</name></member>
+      <member refid="classwx_object_1a74b40e42d19a4b9e9bec0b57d62a5725" prot="public" virt="non-virtual"><scope>wxTarClassFactory</scope><name>UnShare</name></member>
+      <member refid="classwx_object_1acaa378363a28af421ab56ad7b46eadf0" prot="public" virt="non-virtual"><scope>wxTarClassFactory</scope><name>wxObject</name></member>
+      <member refid="classwx_object_1a4721b4dc9b7aff0f30904ba2ea3954cf" prot="public" virt="non-virtual"><scope>wxTarClassFactory</scope><name>wxObject</name></member>
+      <member refid="classwx_object_1a2a51aa8bfbab47ca2f051bcf84b3f35b" prot="public" virt="virtual"><scope>wxTarClassFactory</scope><name>~wxObject</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

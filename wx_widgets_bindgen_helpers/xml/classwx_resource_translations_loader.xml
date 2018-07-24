@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_resource_translations_loader" kind="class" language="C++" prot="public">
+    <compoundname>wxResourceTranslationsLoader</compoundname>
+    <basecompoundref refid="classwx_translations_loader" prot="public" virt="non-virtual">wxTranslationsLoader</basecompoundref>
+    <includes local="no">wx/translation.h</includes>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classwx_resource_translations_loader_1a44e4fb5d9fcf70654423155b8826c58f" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="classwx_string" kindref="compound">wxString</ref></type>
+        <definition>virtual wxString wxResourceTranslationsLoader::GetResourceType</definition>
+        <argsstring>() const</argsstring>
+        <name>GetResourceType</name>
+        <briefdescription>
+<para>Returns resource type to use for translations. </para>        </briefdescription>
+        <detaileddescription>
+<para>Default type is &quot;MOFILE&quot;. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/translation.h" line="401" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_resource_translations_loader_1a456630db4ee19d4e83759ca218aae130" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>WXHINSTANCE</type>
+        <definition>virtual WXHINSTANCE wxResourceTranslationsLoader::GetModule</definition>
+        <argsstring>() const</argsstring>
+        <name>GetModule</name>
+        <briefdescription>
+<para>Returns handle of the module to load resources from. </para>        </briefdescription>
+        <detaileddescription>
+<para>By default, the main executable is used. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/translation.h" line="408" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This loader makes it possible to load translations from Windows resources. </para>    </briefdescription>
+    <detaileddescription>
+<para>If you wish to store translation MO files in resources, you have to enable this loader before calling <ref refid="classwx_translations_1a3074f9d91c92bd0ade9e6aea4affc652" kindref="member">wxTranslations::AddCatalog()</ref> or <ref refid="classwx_locale_1a1e9eb6387646a94c65d1493b5be7641c" kindref="member">wxLocale::AddCatalog()</ref>:</para><para><programlisting><codeline><highlight class="normal">wxTranslations::Get()-&gt;SetLoader(new<sp/>wxResourceTranslationsLoader);</highlight></codeline>
+</programlisting></para><para>Translations are stored in resources as compiled MO files, with type set to &quot;MOFILE&quot; (unless you override <ref refid="classwx_resource_translations_loader_1a44e4fb5d9fcf70654423155b8826c58f" kindref="member">GetResourceType()</ref>) and name consisting of the domain, followed by underscore, followed by language identification. For example, the relevant part of .rc file would look like this:</para><para><programlisting><codeline><highlight class="normal">myapp_de<sp/><sp/><sp/><sp/><sp/>MOFILE<sp/><sp/><sp/>&quot;catalogs/de/myapp.mo&quot;</highlight></codeline>
+<codeline><highlight class="normal">myapp_fr<sp/><sp/><sp/><sp/><sp/>MOFILE<sp/><sp/><sp/>&quot;catalogs/fr/myapp.mo&quot;</highlight></codeline>
+<codeline><highlight class="normal">myapp_en_GB<sp/><sp/>MOFILE<sp/><sp/><sp/>&quot;catalogs/en_GB/myapp.mo&quot;</highlight></codeline>
+</programlisting></para><para>This class is only available on Windows.</para><para><simplesect kind="since"><para>2.9.1 </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="5962">
+        <label>wxResourceTranslationsLoader</label>
+        <link refid="classwx_resource_translations_loader"/>
+        <childnode refid="5963" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5963">
+        <label>wxTranslationsLoader</label>
+        <link refid="classwx_translations_loader"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="5964">
+        <label>wxResourceTranslationsLoader</label>
+        <link refid="classwx_resource_translations_loader"/>
+        <childnode refid="5965" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5965">
+        <label>wxTranslationsLoader</label>
+        <link refid="classwx_translations_loader"/>
+      </node>
+    </collaborationgraph>
+    <location file="interface/wx/translation.h" line="394" column="1" bodyfile="interface/wx/translation.h" bodystart="393" bodyend="409"/>
+    <listofallmembers>
+      <member refid="classwx_translations_loader_1aa02efbe41b86a4b3b8bc551a323b42fb" prot="public" virt="pure-virtual"><scope>wxResourceTranslationsLoader</scope><name>GetAvailableTranslations</name></member>
+      <member refid="classwx_resource_translations_loader_1a456630db4ee19d4e83759ca218aae130" prot="protected" virt="virtual"><scope>wxResourceTranslationsLoader</scope><name>GetModule</name></member>
+      <member refid="classwx_resource_translations_loader_1a44e4fb5d9fcf70654423155b8826c58f" prot="protected" virt="virtual"><scope>wxResourceTranslationsLoader</scope><name>GetResourceType</name></member>
+      <member refid="classwx_translations_loader_1a7a7a55b049de7ecd7db63a613475a8ee" prot="public" virt="pure-virtual"><scope>wxResourceTranslationsLoader</scope><name>LoadCatalog</name></member>
+      <member refid="classwx_translations_loader_1ab5d87579eb5b0246a3290afdc288ef98" prot="public" virt="non-virtual"><scope>wxResourceTranslationsLoader</scope><name>wxTranslationsLoader</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

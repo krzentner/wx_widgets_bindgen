@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="srchctrl_8h" kind="file" language="C++">
+    <compoundname>srchctrl.h</compoundname>
+    <innerclass refid="classwx_search_ctrl" prot="public">wxSearchCtrl</innerclass>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="srchctrl_8h_1ae8c9869f15744f445add512f661ada0c" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_SEARCHCTRL_CANCEL_BTN</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_SEARCHCTRL_CANCEL_BTN</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/srchctrl.h" line="169" column="1" bodyfile="interface/wx/srchctrl.h" bodystart="169" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="srchctrl_8h_1a7b6591071568e8ffcdd4eb07346f493a" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_SEARCHCTRL_SEARCH_BTN</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_SEARCHCTRL_SEARCH_BTN</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/srchctrl.h" line="170" column="1" bodyfile="interface/wx/srchctrl.h" bodystart="170" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="interface/wx/srchctrl.h"/>
+  </compounddef>
+</doxygen>

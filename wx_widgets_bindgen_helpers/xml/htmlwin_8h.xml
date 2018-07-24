@@ -1,0 +1,136 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="htmlwin_8h" kind="file" language="C++">
+    <compoundname>htmlwin.h</compoundname>
+    <innerclass refid="classwx_html_window_interface" prot="public">wxHtmlWindowInterface</innerclass>
+    <innerclass refid="classwx_html_window" prot="public">wxHtmlWindow</innerclass>
+    <innerclass refid="classwx_html_link_event" prot="public">wxHtmlLinkEvent</innerclass>
+    <innerclass refid="classwx_html_cell_event" prot="public">wxHtmlCellEvent</innerclass>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="htmlwin_8h_1a810bc1111dcc725e7844614e74c2c96e" prot="public" static="no">
+        <name>wxHW_SCROLLBAR_NEVER</name>
+        <initializer>0x0002</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/html/htmlwin.h" line="9" column="9" bodyfile="interface/wx/html/htmlwin.h" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="htmlwin_8h_1a7d288652a8a084ab38e3a59350ebb8e3" prot="public" static="no">
+        <name>wxHW_SCROLLBAR_AUTO</name>
+        <initializer>0x0004</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/html/htmlwin.h" line="10" column="9" bodyfile="interface/wx/html/htmlwin.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="htmlwin_8h_1a0b85ba1d073fcd511090df86015e6041" prot="public" static="no">
+        <name>wxHW_NO_SELECTION</name>
+        <initializer>0x0008</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/html/htmlwin.h" line="11" column="9" bodyfile="interface/wx/html/htmlwin.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="htmlwin_8h_1ac34b9deb4e0066cc1eb08b88f2157a57" prot="public" static="no">
+        <name>wxHW_DEFAULT_STYLE</name>
+        <initializer><ref refid="htmlwin_8h_1a7d288652a8a084ab38e3a59350ebb8e3" kindref="member">wxHW_SCROLLBAR_AUTO</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/html/htmlwin.h" line="13" column="9" bodyfile="interface/wx/html/htmlwin.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="htmlwin_8h_1ac1d732c434321dadebd82289497348db" prot="public" static="no" strong="no">
+        <type></type>
+        <name>wxHtmlOpeningStatus</name>
+        <enumvalue id="htmlwin_8h_1ac1d732c434321dadebd82289497348dbae57788bd58a5df34febb1a6d96b78fa3" prot="public">
+          <name>wxHTML_OPEN</name>
+          <briefdescription>
+<para>Open the requested URL. </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="htmlwin_8h_1ac1d732c434321dadebd82289497348dba36785dc3c64ccfa1baa7120487a387d7" prot="public">
+          <name>wxHTML_BLOCK</name>
+          <briefdescription>
+<para>Do not open the URL. </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="htmlwin_8h_1ac1d732c434321dadebd82289497348dba9e8d546d343cc69ddb0e0248023188a2" prot="public">
+          <name>wxHTML_REDIRECT</name>
+          <briefdescription>
+<para>Redirect to another URL (returned from OnOpeningURL) </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Enum for <ref refid="classwx_html_window_1a0241ae36ec899c7de7935b3a1352c4b9" kindref="member">wxHtmlWindow::OnOpeningURL</ref> and wxHtmlWindowInterface::OnOpeningURL. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/html/htmlwin.h" line="18" column="1" bodyfile="interface/wx/html/htmlwin.h" bodystart="17" bodyend="25"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="htmlwin_8h_1aaf2ea7843d51e7f9a531660957c54215" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_HTML_CELL_CLICKED</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_HTML_CELL_CLICKED</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/html/htmlwin.h" line="518" column="1" bodyfile="interface/wx/html/htmlwin.h" bodystart="518" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="htmlwin_8h_1ae54a50ef2e3973a0aca9c9928fc854fa" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_HTML_CELL_HOVER</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_HTML_CELL_HOVER</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/html/htmlwin.h" line="519" column="1" bodyfile="interface/wx/html/htmlwin.h" bodystart="519" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="htmlwin_8h_1af30afb58053dca27edaae44541a05bd9" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_HTML_LINK_CLICKED</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_HTML_LINK_CLICKED</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/html/htmlwin.h" line="520" column="1" bodyfile="interface/wx/html/htmlwin.h" bodystart="520" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="interface/wx/html/htmlwin.h"/>
+  </compounddef>
+</doxygen>

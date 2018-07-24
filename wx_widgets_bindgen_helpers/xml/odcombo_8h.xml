@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="odcombo_8h" kind="file" language="C++">
+    <compoundname>odcombo.h</compoundname>
+    <innerclass refid="classwx_owner_drawn_combo_box" prot="public">wxOwnerDrawnComboBox</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="odcombo_8h_1a4110955cdcde4502d23d6e7dcbaa3430" prot="public" static="no" strong="no">
+        <type></type>
+        <name>wxOwnerDrawnComboBoxPaintingFlags</name>
+        <enumvalue id="odcombo_8h_1a4110955cdcde4502d23d6e7dcbaa3430a8fe926136fa00adea8ad4467964d5020" prot="public">
+          <name>wxODCB_PAINTING_CONTROL</name>
+          <initializer>= 0x0001</initializer>
+          <briefdescription>
+<para>Combo control is being painted, instead of a list item. </para>          </briefdescription>
+          <detaileddescription>
+<para>Argument item may be <computeroutput>wxNOT_FOUND</computeroutput> in this case. </para>          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="odcombo_8h_1a4110955cdcde4502d23d6e7dcbaa3430a1719dd9aa3e55d797707d68adaa65557" prot="public">
+          <name>wxODCB_PAINTING_SELECTED</name>
+          <initializer>= 0x0002</initializer>
+          <briefdescription>
+<para>An item with selection background is being painted. </para>          </briefdescription>
+          <detaileddescription>
+<para>DC text colour should already be correct. </para>          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/odcombo.h" line="10" column="1" bodyfile="interface/wx/odcombo.h" bodystart="9" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="enum" id="odcombo_8h_1a2970898e8a43ce21e1cc510d49f1b89d" prot="public" static="no" strong="no">
+        <type></type>
+        <name>@40</name>
+        <enumvalue id="odcombo_8h_1a2970898e8a43ce21e1cc510d49f1b89da6682bcd47dd115fa1a73b389df806db2" prot="public">
+          <name>wxODCB_DCLICK_CYCLES</name>
+          <initializer>= wxCC_SPECIAL_DCLICK</initializer>
+          <briefdescription>
+<para>Double-clicking cycles item if wxCB_READONLY is also used. </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="odcombo_8h_1a2970898e8a43ce21e1cc510d49f1b89daf8dc2b30f9338cf47f73a12e45ff84d6" prot="public">
+          <name>wxODCB_STD_CONTROL_PAINT</name>
+          <initializer>= 0x1000</initializer>
+          <briefdescription>
+<para>If used, control itself is not custom paint using callback. </para>          </briefdescription>
+          <detaileddescription>
+<para>Even if this is not used, writable combo is never custom paint until SetCustomPaintWidth is called </para>          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>New window styles for <ref refid="classwx_owner_drawn_combo_box" kindref="compound">wxOwnerDrawnComboBox</ref>. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/odcombo.h" line="29" column="1" bodyfile="interface/wx/odcombo.h" bodystart="28" bodyend="41"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="interface/wx/odcombo.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_std_input_stream_buffer" kind="class" language="C++" prot="public">
+    <compoundname>wxStdInputStreamBuffer</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">streambuf</basecompoundref>
+    <includes local="no">wx/stdstream.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classwx_std_input_stream_buffer_1a1d9b4db1edb694fe29c47d12570153e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxStdInputStreamBuffer::wxStdInputStreamBuffer</definition>
+        <argsstring>(wxInputStream &amp;stream)</argsstring>
+        <name>wxStdInputStreamBuffer</name>
+        <param>
+          <type><ref refid="classwx_input_stream" kindref="compound">wxInputStream</ref> &amp;</type>
+          <declname>stream</declname>
+        </param>
+        <briefdescription>
+<para>Creates a std::steambuf derived stream buffer which reads from a <ref refid="classwx_input_stream" kindref="compound">wxInputStream</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>stream</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Stream to read from. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/stdstream.h" line="51" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_std_input_stream_buffer_1a242ed0eb632cf28708259e2bf5d155c4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual wxStdInputStreamBuffer::~wxStdInputStreamBuffer</definition>
+        <argsstring>()</argsstring>
+        <name>~wxStdInputStreamBuffer</name>
+        <briefdescription>
+<para>Destructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/stdstream.h" line="56" column="1" bodyfile="interface/wx/stdstream.h" bodystart="56" bodyend="56"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="classwx_std_input_stream_buffer" kindref="compound">wxStdInputStreamBuffer</ref> is a std::streambuf derived stream buffer which reads from a <ref refid="classwx_input_stream" kindref="compound">wxInputStream</ref>. </para>    </briefdescription>
+    <detaileddescription>
+<para>Example: <programlisting><codeline><highlight class="normal">wxFFileInputStream<sp/>file(&quot;input.txt.gz&quot;);</highlight></codeline>
+<codeline><highlight class="normal">wxZlibInputStream<sp/>gzipInput(file,<sp/>wxZLIB_GZIP);</highlight></codeline>
+<codeline><highlight class="normal">wxStdInputStreamBuffer<sp/>gzipStreamBuffer(gzipInput);</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">//<sp/>redirect<sp/>std::cin<sp/>to<sp/>read<sp/>from<sp/>compressed<sp/>file</highlight></codeline>
+<codeline><highlight class="normal">std::streambuf*<sp/>streamBufferOld<sp/>=<sp/>std::cin.rdbuf(&amp;gzipStreamBuffer);</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">//<sp/>prompt<sp/>for<sp/>integer</highlight></codeline>
+<codeline><highlight class="normal">int<sp/>number;</highlight></codeline>
+<codeline><highlight class="normal">std::cout<sp/>&lt;&lt;<sp/>&quot;Enter<sp/>an<sp/>integer:<sp/>&quot;<sp/>&lt;&lt;<sp/>std::flush;</highlight></codeline>
+<codeline><highlight class="normal">std::cin<sp/>&gt;&gt;<sp/>number;</highlight></codeline>
+<codeline><highlight class="normal">std::cout<sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline><highlight class="normal">std::cout<sp/>&lt;&lt;<sp/>&quot;You<sp/>entered<sp/>the<sp/>integer<sp/>&quot;<sp/>&lt;&lt;<sp/>number<sp/>&lt;&lt;<sp/>&quot;.&quot;<sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">//<sp/>restore<sp/>std::cin</highlight></codeline>
+<codeline><highlight class="normal">std::cin.rdbuf(streamBufferOld);</highlight></codeline>
+</programlisting></para><para><heading level="2"></heading>
+</para><para>Library:<nonbreakablespace/><nonbreakablespace/><ref refid="page_libs_1page_libs_wxbase" kindref="member">wxBase</ref> &lt;&gt;&lt; =&apos;&apos;&gt;:&lt;/&gt;&amp;;&amp;;&lt; =&apos;&apos;&gt;\ &lt;/&gt;&lt;/&gt;</para><para><simplesect kind="see"><para><ref refid="classwx_input_stream" kindref="compound">wxInputStream</ref>, <ref refid="classwx_std_input_stream" kindref="compound">wxStdInputStream</ref> </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="7587">
+        <label>wxStdInputStreamBuffer</label>
+        <link refid="classwx_std_input_stream_buffer"/>
+        <childnode refid="7588" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7588">
+        <label>std::streambuf</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="7589">
+        <label>wxStdInputStreamBuffer</label>
+        <link refid="classwx_std_input_stream_buffer"/>
+        <childnode refid="7590" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7590">
+        <label>std::streambuf</label>
+      </node>
+    </collaborationgraph>
+    <location file="interface/wx/stdstream.h" line="42" column="1" bodyfile="interface/wx/stdstream.h" bodystart="41" bodyend="57"/>
+    <listofallmembers>
+      <member refid="classwx_std_input_stream_buffer_1a1d9b4db1edb694fe29c47d12570153e8" prot="public" virt="non-virtual"><scope>wxStdInputStreamBuffer</scope><name>wxStdInputStreamBuffer</name></member>
+      <member refid="classwx_std_input_stream_buffer_1a242ed0eb632cf28708259e2bf5d155c4" prot="public" virt="virtual"><scope>wxStdInputStreamBuffer</scope><name>~wxStdInputStreamBuffer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

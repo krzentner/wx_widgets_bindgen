@@ -1,0 +1,140 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_context_help" kind="class" language="C++" prot="public">
+    <compoundname>wxContextHelp</compoundname>
+    <basecompoundref refid="classwx_object" prot="public" virt="non-virtual">wxObject</basecompoundref>
+    <includes local="no">wx/cshelp.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classwx_context_help_1a1fc423b5fcbb8ff1d81f57841f1409d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxContextHelp::wxContextHelp</definition>
+        <argsstring>(wxWindow *window=NULL, bool doNow=true)</argsstring>
+        <name>wxContextHelp</name>
+        <param>
+          <type><ref refid="classwx_window" kindref="compound">wxWindow</ref> *</type>
+          <declname>window</declname>
+          <defval>NULL</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>doNow</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+<para>Constructs a context help object, calling <ref refid="classwx_context_help_1ab144c2a6389e24bdf11c3db382468b9e" kindref="member">BeginContextHelp()</ref> if <emphasis>doNow</emphasis> is true (the default). </para>        </briefdescription>
+        <detaileddescription>
+<para>If <emphasis>window</emphasis> is NULL, the top window is used. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/cshelp.h" line="202" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_context_help_1a31ea25f45e9b608257410bc249ec07c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual wxContextHelp::~wxContextHelp</definition>
+        <argsstring>()</argsstring>
+        <name>~wxContextHelp</name>
+        <briefdescription>
+<para>Destroys the context help object. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/cshelp.h" line="207" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_context_help_1ab144c2a6389e24bdf11c3db382468b9e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxContextHelp::BeginContextHelp</definition>
+        <argsstring>(wxWindow *window)</argsstring>
+        <name>BeginContextHelp</name>
+        <param>
+          <type><ref refid="classwx_window" kindref="compound">wxWindow</ref> *</type>
+          <declname>window</declname>
+        </param>
+        <briefdescription>
+<para>Puts the application into context-sensitive help mode. </para>        </briefdescription>
+        <detaileddescription>
+<para><emphasis>window</emphasis> is the window which will be used to catch events; if NULL, the top window will be used.</para><para>Returns true if the application was successfully put into context-sensitive help mode. This function only returns when the event loop has finished. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/cshelp.h" line="218" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_context_help_1a318135bcec88d5a25e31bb9353ea4f71" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxContextHelp::EndContextHelp</definition>
+        <argsstring>()</argsstring>
+        <name>EndContextHelp</name>
+        <briefdescription>
+<para>Ends context-sensitive help mode. </para>        </briefdescription>
+        <detaileddescription>
+<para>Not normally called by the application. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/cshelp.h" line="224" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class changes the cursor to a query and puts the application into a &apos;context-sensitive help mode&apos;. </para>    </briefdescription>
+    <detaileddescription>
+<para>When the user left-clicks on a window within the specified window, a <computeroutput>wxEVT_HELP</computeroutput> event is sent to that control, and the application may respond to it by popping up some help.</para><para>For example: <programlisting><codeline><highlight class="normal">wxContextHelp<sp/>contextHelp(myWindow);</highlight></codeline>
+</programlisting></para><para>There are a couple of ways to invoke this behaviour implicitly:</para><para><itemizedlist>
+<listitem><para>Use the wxDIALOG_EX_CONTEXTHELP style for a dialog (Windows only). This will put a question mark in the titlebar, and Windows will put the application into context-sensitive help mode automatically, with further programming.</para></listitem><listitem><para>Create a <ref refid="classwx_context_help_button" kindref="compound">wxContextHelpButton</ref>, whose predefined behaviour is to create a context help object. Normally you will write your application so that this button is only added to a dialog for non-Windows platforms (use wxDIALOG_EX_CONTEXTHELP on Windows).</para></listitem></itemizedlist>
+</para><para>Note that on Mac OS X, the cursor does not change when in context-sensitive help mode.</para><para><heading level="2"></heading>
+</para><para>Library:<nonbreakablespace/><nonbreakablespace/><ref refid="page_libs_1page_libs_wxcore" kindref="member">wxCore</ref> &lt;&gt;&lt; =&apos;&apos;&gt;:&lt;/&gt;&amp;;&amp;;&lt; =&apos;&apos;&gt;\ &lt;/&gt;&lt;/&gt;</para><para><simplesect kind="see"><para><ref refid="classwx_help_event" kindref="compound">wxHelpEvent</ref>, <ref refid="classwx_help_controller" kindref="compound">wxHelpController</ref>, <ref refid="classwx_context_help_button" kindref="compound">wxContextHelpButton</ref> </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="1102">
+        <label>wxObject</label>
+        <link refid="classwx_object"/>
+      </node>
+      <node id="1101">
+        <label>wxContextHelp</label>
+        <link refid="classwx_context_help"/>
+        <childnode refid="1102" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1104">
+        <label>wxObject</label>
+        <link refid="classwx_object"/>
+        <childnode refid="1105" relation="usage">
+          <edgelabel>m_refData</edgelabel>
+        </childnode>
+      </node>
+      <node id="1103">
+        <label>wxContextHelp</label>
+        <link refid="classwx_context_help"/>
+        <childnode refid="1104" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1105">
+        <label>wxObjectRefData</label>
+        <link refid="classwx_object_ref_data"/>
+      </node>
+    </collaborationgraph>
+    <location file="interface/wx/cshelp.h" line="194" column="1" bodyfile="interface/wx/cshelp.h" bodystart="193" bodyend="225"/>
+    <listofallmembers>
+      <member refid="classwx_object_1a60204063f3cc3aa2fa1c7ff5bda9eb13" prot="protected" virt="non-virtual"><scope>wxContextHelp</scope><name>AllocExclusive</name></member>
+      <member refid="classwx_context_help_1ab144c2a6389e24bdf11c3db382468b9e" prot="public" virt="non-virtual"><scope>wxContextHelp</scope><name>BeginContextHelp</name></member>
+      <member refid="classwx_object_1a436fc8fe68cf8a31000296d9cd3d2427" prot="protected" virt="virtual"><scope>wxContextHelp</scope><name>CloneRefData</name></member>
+      <member refid="classwx_object_1a3f4f497c65cef611e121c41f21dd5ccc" prot="protected" virt="virtual"><scope>wxContextHelp</scope><name>CreateRefData</name></member>
+      <member refid="classwx_context_help_1a318135bcec88d5a25e31bb9353ea4f71" prot="public" virt="non-virtual"><scope>wxContextHelp</scope><name>EndContextHelp</name></member>
+      <member refid="classwx_object_1ae6d365f2556b26767ced8410c5e839d0" prot="public" virt="virtual"><scope>wxContextHelp</scope><name>GetClassInfo</name></member>
+      <member refid="classwx_object_1af3c6c76a775864832f1536d3c0de3a2b" prot="public" virt="non-virtual"><scope>wxContextHelp</scope><name>GetRefData</name></member>
+      <member refid="classwx_object_1a3c7115ef4132dcee0c4fc34e84d7fced" prot="public" virt="non-virtual"><scope>wxContextHelp</scope><name>IsKindOf</name></member>
+      <member refid="classwx_object_1a059373c494c2369d7db2a556efef8ecf" prot="public" virt="non-virtual"><scope>wxContextHelp</scope><name>IsSameAs</name></member>
+      <member refid="classwx_object_1a9e31954530a0abd54982effc443ed2b8" prot="protected" virt="non-virtual"><scope>wxContextHelp</scope><name>m_refData</name></member>
+      <member refid="classwx_object_1a07b8f34f5afc5743195c5fed052f55d3" prot="public" virt="non-virtual"><scope>wxContextHelp</scope><name>operator delete</name></member>
+      <member refid="classwx_object_1a96fa423a1dbc212c8227a5d83825971f" prot="public" virt="non-virtual"><scope>wxContextHelp</scope><name>operator new</name></member>
+      <member refid="classwx_object_1a2f6f1aa51fe9fc2b1415ca4211a90e9e" prot="public" virt="non-virtual"><scope>wxContextHelp</scope><name>Ref</name></member>
+      <member refid="classwx_object_1afab780710f2adc1bb33310e27590140b" prot="public" virt="non-virtual"><scope>wxContextHelp</scope><name>SetRefData</name></member>
+      <member refid="classwx_object_1af51efc6b1ae632fc7f0cd7ebbce9fa36" prot="public" virt="non-virtual"><scope>wxContextHelp</scope><name>UnRef</name></member>
+      <member refid="classwx_object_1a74b40e42d19a4b9e9bec0b57d62a5725" prot="public" virt="non-virtual"><scope>wxContextHelp</scope><name>UnShare</name></member>
+      <member refid="classwx_context_help_1a1fc423b5fcbb8ff1d81f57841f1409d8" prot="public" virt="non-virtual"><scope>wxContextHelp</scope><name>wxContextHelp</name></member>
+      <member refid="classwx_object_1acaa378363a28af421ab56ad7b46eadf0" prot="public" virt="non-virtual"><scope>wxContextHelp</scope><name>wxObject</name></member>
+      <member refid="classwx_object_1a4721b4dc9b7aff0f30904ba2ea3954cf" prot="public" virt="non-virtual"><scope>wxContextHelp</scope><name>wxObject</name></member>
+      <member refid="classwx_context_help_1a31ea25f45e9b608257410bc249ec07c1" prot="public" virt="virtual"><scope>wxContextHelp</scope><name>~wxContextHelp</name></member>
+      <member refid="classwx_object_1a2a51aa8bfbab47ca2f051bcf84b3f35b" prot="public" virt="virtual"><scope>wxContextHelp</scope><name>~wxObject</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

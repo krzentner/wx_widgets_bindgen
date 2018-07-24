@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_property_grid_hit_test_result" kind="class" language="C++" prot="public">
+    <compoundname>wxPropertyGridHitTestResult</compoundname>
+    <includes local="no">wx/propgrid/propgridpagestate.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classwx_property_grid_hit_test_result_1aa700a5b79ca7bcb246994d17dd581206" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxPropertyGridHitTestResult::wxPropertyGridHitTestResult</definition>
+        <argsstring>()</argsstring>
+        <name>wxPropertyGridHitTestResult</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/propgridpagestate.h" line="18" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_property_grid_hit_test_result_1ad77ee69887a8f419d1f6e712bfde3481" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxPropertyGridHitTestResult::~wxPropertyGridHitTestResult</definition>
+        <argsstring>()</argsstring>
+        <name>~wxPropertyGridHitTestResult</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/propgridpagestate.h" line="19" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_property_grid_hit_test_result_1a5f280a749394c172fa40e76384fb406c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int wxPropertyGridHitTestResult::GetColumn</definition>
+        <argsstring>() const</argsstring>
+        <name>GetColumn</name>
+        <briefdescription>
+<para>Returns column hit. </para>        </briefdescription>
+        <detaileddescription>
+<para>-1 for margin. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/propgridpagestate.h" line="24" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_property_grid_hit_test_result_1af8dfb5bc799cea2ecfdfd44777cbd105" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_p_g_property" kindref="compound">wxPGProperty</ref> *</type>
+        <definition>wxPGProperty* wxPropertyGridHitTestResult::GetProperty</definition>
+        <argsstring>() const</argsstring>
+        <name>GetProperty</name>
+        <briefdescription>
+<para>Returns property hit. </para>        </briefdescription>
+        <detaileddescription>
+<para>NULL if empty space below properties was hit instead. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/propgridpagestate.h" line="30" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_property_grid_hit_test_result_1a79c8ed3a66e5648649e1cdd7dcf4f05f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int wxPropertyGridHitTestResult::GetSplitter</definition>
+        <argsstring>() const</argsstring>
+        <name>GetSplitter</name>
+        <briefdescription>
+<para>Returns index of splitter hit, -1 for none. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/propgridpagestate.h" line="35" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_property_grid_hit_test_result_1acbcb4d58a2701416fe979a16627c545f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int wxPropertyGridHitTestResult::GetSplitterHitOffset</definition>
+        <argsstring>() const</argsstring>
+        <name>GetSplitterHitOffset</name>
+        <briefdescription>
+<para>If splitter hit, then this member function returns offset to the exact splitter position. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/propgridpagestate.h" line="41" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<sect1 id="classwx_property_grid_hit_test_result_1propgrid_hittestresult">
+<title>wxPropertyGridHitTestResult</title>
+<para>A return value from <ref refid="classwx_property_grid_1a6cacc3dafaea1c09aa46dc6937896a31" kindref="member">wxPropertyGrid::HitTest()</ref>, contains all you need to know about an arbitrary location on the grid. </para></sect1>
+    </detaileddescription>
+    <location file="interface/wx/propgrid/propgridpagestate.h" line="16" column="1" bodyfile="interface/wx/propgrid/propgridpagestate.h" bodystart="15" bodyend="43"/>
+    <listofallmembers>
+      <member refid="classwx_property_grid_hit_test_result_1a5f280a749394c172fa40e76384fb406c" prot="public" virt="non-virtual"><scope>wxPropertyGridHitTestResult</scope><name>GetColumn</name></member>
+      <member refid="classwx_property_grid_hit_test_result_1af8dfb5bc799cea2ecfdfd44777cbd105" prot="public" virt="non-virtual"><scope>wxPropertyGridHitTestResult</scope><name>GetProperty</name></member>
+      <member refid="classwx_property_grid_hit_test_result_1a79c8ed3a66e5648649e1cdd7dcf4f05f" prot="public" virt="non-virtual"><scope>wxPropertyGridHitTestResult</scope><name>GetSplitter</name></member>
+      <member refid="classwx_property_grid_hit_test_result_1acbcb4d58a2701416fe979a16627c545f" prot="public" virt="non-virtual"><scope>wxPropertyGridHitTestResult</scope><name>GetSplitterHitOffset</name></member>
+      <member refid="classwx_property_grid_hit_test_result_1aa700a5b79ca7bcb246994d17dd581206" prot="public" virt="non-virtual"><scope>wxPropertyGridHitTestResult</scope><name>wxPropertyGridHitTestResult</name></member>
+      <member refid="classwx_property_grid_hit_test_result_1ad77ee69887a8f419d1f6e712bfde3481" prot="public" virt="non-virtual"><scope>wxPropertyGridHitTestResult</scope><name>~wxPropertyGridHitTestResult</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

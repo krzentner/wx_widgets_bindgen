@@ -1,0 +1,250 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_any_value_type" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>wxAnyValueType</compoundname>
+    <includes local="no">wx/any.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classwx_any_value_type_1aaeceab8d8c9217bff50a4b11578f10a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxAnyValueType::wxAnyValueType</definition>
+        <argsstring>()</argsstring>
+        <name>wxAnyValueType</name>
+        <briefdescription>
+<para>Default constructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/any.h" line="390" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_any_value_type_1a03ae86758586c33175fd58dca32aba32" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual wxAnyValueType::~wxAnyValueType</definition>
+        <argsstring>()</argsstring>
+        <name>~wxAnyValueType</name>
+        <briefdescription>
+<para>Destructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/any.h" line="395" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_any_value_type_1ad9d5dc1dbca91f4e3e21c17887335ce7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool wxAnyValueType::CheckType</definition>
+        <argsstring>() const</argsstring>
+        <name>CheckType</name>
+        <briefdescription>
+<para>Use this template function for checking if <ref refid="classwx_any_value_type" kindref="compound">wxAnyValueType</ref> represents a specific C++ data type. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="remark"><para>This template function does not work on some older compilers (such as Visual C++ 6.0). For full compiler compatibility please use <ref refid="any_8h_1af5fdc39b8200735c9254845d07ba2e0b" kindref="member">wxANY_VALUE_TYPE_CHECK_TYPE(valueTypePtr, T)</ref> macro instead.</para></simplesect>
+<simplesect kind="see"><para><ref refid="classwx_any_1a585f010487f849adb845dc50b0005030" kindref="member">wxAny::CheckType()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/any.h" line="409" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_any_value_type_1a0aa33e5dfa58375708463324522c8e52" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>bool</type>
+        <definition>virtual bool wxAnyValueType::ConvertValue</definition>
+        <argsstring>(const wxAnyValueBuffer &amp;src, wxAnyValueType *dstType, wxAnyValueBuffer &amp;dst) const =0</argsstring>
+        <name>ConvertValue</name>
+        <param>
+          <type>const <ref refid="unionwx_any_value_buffer" kindref="compound">wxAnyValueBuffer</ref> &amp;</type>
+          <declname>src</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_any_value_type" kindref="compound">wxAnyValueType</ref> *</type>
+          <declname>dstType</declname>
+        </param>
+        <param>
+          <type><ref refid="unionwx_any_value_buffer" kindref="compound">wxAnyValueBuffer</ref> &amp;</type>
+          <declname>dst</declname>
+        </param>
+        <briefdescription>
+<para>Convert value into buffer of different type. </para>        </briefdescription>
+        <detaileddescription>
+<para>Return false if not possible. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/any.h" line="415" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_any_value_type_1aedaa82a9aa980ea2089b782a7b0bb4ca" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void wxAnyValueType::CopyBuffer</definition>
+        <argsstring>(const wxAnyValueBuffer &amp;src, wxAnyValueBuffer &amp;dst) const =0</argsstring>
+        <name>CopyBuffer</name>
+        <param>
+          <type>const <ref refid="unionwx_any_value_buffer" kindref="compound">wxAnyValueBuffer</ref> &amp;</type>
+          <declname>src</declname>
+        </param>
+        <param>
+          <type><ref refid="unionwx_any_value_buffer" kindref="compound">wxAnyValueBuffer</ref> &amp;</type>
+          <declname>dst</declname>
+        </param>
+        <briefdescription>
+<para>Implement this for buffer-to-buffer copy. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>src</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>This is the source data buffer.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dst</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>This is the destination data buffer that is in either uninitialized or freed state. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/any.h" line="429" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_any_value_type_1a741e7fbb974ecf907e97b65880d845fd" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void wxAnyValueType::DeleteValue</definition>
+        <argsstring>(wxAnyValueBuffer &amp;buf) const =0</argsstring>
+        <name>DeleteValue</name>
+        <param>
+          <type><ref refid="unionwx_any_value_buffer" kindref="compound">wxAnyValueBuffer</ref> &amp;</type>
+          <declname>buf</declname>
+        </param>
+        <briefdescription>
+<para>This function is called every time the data in <ref refid="classwx_any" kindref="compound">wxAny</ref> buffer needs to be freed. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/any.h" line="436" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_any_value_type_1a6ec0721b66863a9eaded2cf834f865e4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>bool</type>
+        <definition>virtual bool wxAnyValueType::IsSameType</definition>
+        <argsstring>(const wxAnyValueType *otherType) const =0</argsstring>
+        <name>IsSameType</name>
+        <param>
+          <type>const <ref refid="classwx_any_value_type" kindref="compound">wxAnyValueType</ref> *</type>
+          <declname>otherType</declname>
+        </param>
+        <briefdescription>
+<para>This function is used for internal type matching. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/any.h" line="441" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="classwx_any_value_type" kindref="compound">wxAnyValueType</ref> is base class for value type functionality for C++ data types used with <ref refid="classwx_any" kindref="compound">wxAny</ref>. </para>    </briefdescription>
+    <detaileddescription>
+<para>Usually the default template will create a satisfactory <ref refid="classwx_any_value_type" kindref="compound">wxAnyValueType</ref> implementation for a data type, but sometimes you may need to add some customization. To do this you will need to add specialized template of wxAnyValueTypeImpl&lt;&gt;. Often your only need may be to add dynamic type conversion which would be done like this:</para><para><programlisting><codeline><highlight class="normal">template&lt;&gt;</highlight></codeline>
+<codeline><highlight class="normal">class<sp/>wxAnyValueTypeImpl&lt;MyClass&gt;<sp/>:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>public<sp/>wxAnyValueTypeImplBase&lt;MyClass&gt;</highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>WX_DECLARE_ANY_VALUE_TYPE(wxAnyValueTypeImpl&lt;MyClass&gt;)</highlight></codeline>
+<codeline><highlight class="normal">public:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>wxAnyValueTypeImpl()<sp/>:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>wxAnyValueTypeImplBase&lt;MyClass&gt;()<sp/>{<sp/>}</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>virtual<sp/>~wxAnyValueTypeImpl()<sp/>{<sp/>}</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>virtual<sp/>bool<sp/>ConvertValue(const<sp/>wxAnyValueBuffer&amp;<sp/>src,</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>wxAnyValueType*<sp/>dstType,</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>wxAnyValueBuffer&amp;<sp/>dst)<sp/>const</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>GetValue()<sp/>is<sp/>a<sp/>static<sp/>member<sp/>function<sp/>implemented</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>in<sp/>wxAnyValueTypeImplBase&lt;&gt;.</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>MyClass<sp/>value<sp/>=<sp/>GetValue(src);</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>TODO:<sp/>Convert<sp/>value<sp/>from<sp/>src<sp/>buffer<sp/>to<sp/>destination</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/><sp/><sp/><sp/><sp/><sp/><sp/>type<sp/>and<sp/>buffer.<sp/>If<sp/>cannot<sp/>be<sp/>done,<sp/>return</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/><sp/><sp/><sp/><sp/><sp/><sp/>false.<sp/>This<sp/>is<sp/>a<sp/>simple<sp/>sample.</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>if<sp/>(<sp/>dstType-&gt;CheckType&lt;wxString&gt;()<sp/>)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>wxString<sp/>s<sp/>=<sp/>value.ToString();</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>wxAnyValueTypeImpl&lt;wxString&gt;::SetValue(s,<sp/>dst);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>else</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>return<sp/>false;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline><highlight class="normal">};</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">//</highlight></codeline>
+<codeline><highlight class="normal">//<sp/>Following<sp/>must<sp/>be<sp/>placed<sp/>somewhere<sp/>in<sp/>your<sp/>source<sp/>code</highlight></codeline>
+<codeline><highlight class="normal">WX_IMPLEMENT_ANY_VALUE_TYPE(wxAnyValueTypeImpl&lt;MyClass&gt;)</highlight></codeline>
+</programlisting></para><para>wxAnyValueTypeImplBase&lt;&gt; template, from which we inherit in the above example, contains the bulk of the default wxAnyValueTypeImpl&lt;&gt; template implementation, and as such allows you to easily add some minor customization.</para><para>If you need a have complete control over the type interpretation, you will need to derive a class directly from <ref refid="classwx_any_value_type" kindref="compound">wxAnyValueType</ref>, like this:</para><para><programlisting><codeline><highlight class="normal">template<sp/>&lt;&gt;</highlight></codeline>
+<codeline><highlight class="normal">class<sp/>wxAnyValueTypeImpl&lt;MyClass&gt;<sp/>:<sp/>public<sp/>wxAnyValueType</highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>WX_DECLARE_ANY_VALUE_TYPE(wxAnyValueTypeImpl&lt;MyClass&gt;)</highlight></codeline>
+<codeline><highlight class="normal">public:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>virtual<sp/>void<sp/>DeleteValue(wxAnyValueBuffer&amp;<sp/>buf)<sp/>const</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>TODO:<sp/>Free<sp/>the<sp/>data<sp/>in<sp/>buffer</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>It<sp/>is<sp/>important<sp/>to<sp/>clear<sp/>the<sp/>buffer<sp/>like<sp/>this</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>at<sp/>the<sp/>end<sp/>of<sp/>DeleteValue().</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>buf.m_ptr<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>virtual<sp/>void<sp/>CopyBuffer(const<sp/>wxAnyValueBuffer&amp;<sp/>src,</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>wxAnyValueBuffer&amp;<sp/>dst)<sp/>const</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>TODO:<sp/>Copy<sp/>value<sp/>from<sp/>one<sp/>buffer<sp/>to<sp/>another.</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/><sp/><sp/><sp/><sp/><sp/><sp/>dst<sp/>is<sp/>already<sp/>uninitialized<sp/>and<sp/>does<sp/>not</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/><sp/><sp/><sp/><sp/><sp/><sp/>need<sp/>to<sp/>be<sp/>freed.</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>virtual<sp/>bool<sp/>ConvertValue(const<sp/>wxAnyValueBuffer&amp;<sp/>src,</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>wxAnyValueType*<sp/>dstType,</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>wxAnyValueBuffer&amp;<sp/>dst)<sp/>const</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>TODO:<sp/>Convert<sp/>value<sp/>from<sp/>src<sp/>buffer<sp/>to<sp/>destination</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/><sp/><sp/><sp/><sp/><sp/><sp/>type<sp/>and<sp/>buffer.</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>//</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>//<sp/>Following<sp/>static<sp/>functions<sp/>must<sp/>be<sp/>implemented</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>//</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>static<sp/>void<sp/>SetValue(const<sp/>T&amp;<sp/>value,</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>wxAnyValueBuffer&amp;<sp/>buf)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>TODO:<sp/>Store<sp/>value<sp/>into<sp/>buf.</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>static<sp/>const<sp/>T&amp;<sp/>GetValue(const<sp/>wxAnyValueBuffer&amp;<sp/>buf)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>TODO:<sp/>Return<sp/>reference<sp/>to<sp/>value<sp/>stored<sp/>in<sp/>buffer.</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline><highlight class="normal">};</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">//</highlight></codeline>
+<codeline><highlight class="normal">//<sp/>Following<sp/>must<sp/>be<sp/>placed<sp/>somewhere<sp/>in<sp/>your<sp/>source<sp/>code</highlight></codeline>
+<codeline><highlight class="normal">WX_IMPLEMENT_ANY_VALUE_TYPE(wxAnyValueTypeImpl&lt;MyClass&gt;)</highlight></codeline>
+</programlisting></para><para><heading level="2"></heading>
+</para><para>Library:<nonbreakablespace/><nonbreakablespace/><ref refid="page_libs_1page_libs_wxbase" kindref="member">wxBase</ref> &lt;&gt;&lt; =&apos;&apos;&gt;:&lt;/&gt;&amp;;&amp;;&lt; =&apos;&apos;&gt;\ &lt;/&gt;&lt;/&gt;</para><para><simplesect kind="see"><para><ref refid="classwx_any" kindref="compound">wxAny</ref> </para></simplesect>
+</para>    </detaileddescription>
+    <location file="interface/wx/any.h" line="385" column="1" bodyfile="interface/wx/any.h" bodystart="384" bodyend="442"/>
+    <listofallmembers>
+      <member refid="classwx_any_value_type_1ad9d5dc1dbca91f4e3e21c17887335ce7" prot="public" virt="non-virtual"><scope>wxAnyValueType</scope><name>CheckType</name></member>
+      <member refid="classwx_any_value_type_1a0aa33e5dfa58375708463324522c8e52" prot="public" virt="pure-virtual"><scope>wxAnyValueType</scope><name>ConvertValue</name></member>
+      <member refid="classwx_any_value_type_1aedaa82a9aa980ea2089b782a7b0bb4ca" prot="public" virt="pure-virtual"><scope>wxAnyValueType</scope><name>CopyBuffer</name></member>
+      <member refid="classwx_any_value_type_1a741e7fbb974ecf907e97b65880d845fd" prot="public" virt="pure-virtual"><scope>wxAnyValueType</scope><name>DeleteValue</name></member>
+      <member refid="classwx_any_value_type_1a6ec0721b66863a9eaded2cf834f865e4" prot="public" virt="pure-virtual"><scope>wxAnyValueType</scope><name>IsSameType</name></member>
+      <member refid="classwx_any_value_type_1aaeceab8d8c9217bff50a4b11578f10a6" prot="public" virt="non-virtual"><scope>wxAnyValueType</scope><name>wxAnyValueType</name></member>
+      <member refid="classwx_any_value_type_1a03ae86758586c33175fd58dca32aba32" prot="public" virt="virtual"><scope>wxAnyValueType</scope><name>~wxAnyValueType</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

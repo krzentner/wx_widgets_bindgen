@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="imaggif_8h" kind="file" language="C++">
+    <compoundname>imaggif.h</compoundname>
+    <innerclass refid="classwx_g_i_f_handler" prot="public">wxGIFHandler</innerclass>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="imaggif_8h_1a3e04a1bad67e02e580c09a518ae9c84e" prot="public" static="no">
+        <name>wxIMAGE_OPTION_GIF_COMMENT</name>
+        <initializer><ref refid="group__group__funcmacro__string_1ga437ea6ba615b75dac8603e96ec864160" kindref="member">wxT</ref>(&quot;GifComment&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/imaggif.h" line="8" column="9" bodyfile="interface/wx/imaggif.h" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="interface/wx/imaggif.h"/>
+  </compounddef>
+</doxygen>

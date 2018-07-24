@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="dcbuffer_8h" kind="file" language="C++">
+    <compoundname>dcbuffer.h</compoundname>
+    <innerclass refid="classwx_buffered_d_c" prot="public">wxBufferedDC</innerclass>
+    <innerclass refid="classwx_auto_buffered_paint_d_c" prot="public">wxAutoBufferedPaintDC</innerclass>
+    <innerclass refid="classwx_buffered_paint_d_c" prot="public">wxBufferedPaintDC</innerclass>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="dcbuffer_8h_1a77b1f0eace0d1b9891ada834c5ebc565" prot="public" static="no">
+        <name>wxBUFFER_VIRTUAL_AREA</name>
+        <initializer>0x01</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/dcbuffer.h" line="10" column="9" bodyfile="interface/wx/dcbuffer.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="dcbuffer_8h_1a0dc9c886c1dc44b8f064c266618766ab" prot="public" static="no">
+        <name>wxBUFFER_CLIENT_AREA</name>
+        <initializer>0x02</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/dcbuffer.h" line="14" column="9" bodyfile="interface/wx/dcbuffer.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="dcbuffer_8h_1ab99fa8fe7169e87f5b6946a746dd0455" prot="public" static="no">
+        <name>wxBUFFER_USES_SHARED_BUFFER</name>
+        <initializer>0x04</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/dcbuffer.h" line="18" column="9" bodyfile="interface/wx/dcbuffer.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="dcbuffer_8h_1a37149b44f5a17dc7a81d81fed326ee07" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_d_c" kindref="compound">wxDC</ref> *</type>
+        <definition>wxDC* wxAutoBufferedPaintDCFactory</definition>
+        <argsstring>(wxWindow *window)</argsstring>
+        <name>wxAutoBufferedPaintDCFactory</name>
+        <param>
+          <type><ref refid="classwx_window" kindref="compound">wxWindow</ref> *</type>
+          <declname>window</declname>
+        </param>
+        <briefdescription>
+<para>Check if the window is natively double buffered and will return a <ref refid="classwx_paint_d_c" kindref="compound">wxPaintDC</ref> if it is, a <ref refid="classwx_buffered_paint_d_c" kindref="compound">wxBufferedPaintDC</ref> otherwise. </para>        </briefdescription>
+        <detaileddescription>
+<para>It is the caller&apos;s responsibility to delete the <ref refid="classwx_d_c" kindref="compound">wxDC</ref> pointer when finished with it. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/dcbuffer.h" line="182" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="interface/wx/dcbuffer.h"/>
+  </compounddef>
+</doxygen>

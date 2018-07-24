@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="gauge_8h" kind="file" language="C++">
+    <compoundname>gauge.h</compoundname>
+    <innerclass refid="classwx_gauge" prot="public">wxGauge</innerclass>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="gauge_8h_1a5f4827d465c7cc1c915d1ebe0feafe29" prot="public" static="no">
+        <name>wxGA_HORIZONTAL</name>
+        <initializer><ref refid="defs_8h_1a1e6994f40bd9cb140e292afb165af971ab96154c324ed87cc17e9b227f9248c77" kindref="member">wxHORIZONTAL</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/gauge.h" line="13" column="9" bodyfile="interface/wx/gauge.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="gauge_8h_1a7ed5da226d03ce3eb48848cd2faf771d" prot="public" static="no">
+        <name>wxGA_VERTICAL</name>
+        <initializer><ref refid="defs_8h_1a1e6994f40bd9cb140e292afb165af971a2134d1cb8cf605532880c118190695b5" kindref="member">wxVERTICAL</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/gauge.h" line="14" column="9" bodyfile="interface/wx/gauge.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="gauge_8h_1aa5aed56c3229955d046cad676292566a" prot="public" static="no">
+        <name>wxGA_SMOOTH</name>
+        <initializer>0x0020</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/gauge.h" line="17" column="9" bodyfile="interface/wx/gauge.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="interface/wx/gauge.h"/>
+  </compounddef>
+</doxygen>

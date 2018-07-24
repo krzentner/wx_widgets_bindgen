@@ -1,0 +1,299 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_thread_helper" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>wxThreadHelper</compoundname>
+    <includes local="no">wx/thread.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classwx_thread_helper_1ace38e9960ed62f8cafdfc8f7008815ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxThreadHelper::wxThreadHelper</definition>
+        <argsstring>(wxThreadKind kind=wxTHREAD_JOINABLE)</argsstring>
+        <name>wxThreadHelper</name>
+        <param>
+          <type><ref refid="interface_2wx_2thread_8h_1a0dc9a167e8d084946512da99b37b5fd0" kindref="member">wxThreadKind</ref></type>
+          <declname>kind</declname>
+          <defval><ref refid="interface_2wx_2thread_8h_1a0dc9a167e8d084946512da99b37b5fd0ab5246cc8dc6eeb20bc69e4790e7b00a4" kindref="member">wxTHREAD_JOINABLE</ref></defval>
+        </param>
+        <briefdescription>
+<para>This constructor simply initializes internal member variables and tells <ref refid="classwx_thread_helper" kindref="compound">wxThreadHelper</ref> which type the thread internally managed should be. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/thread.h" line="435" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_thread_helper_1affe96946d9bceaba028209f4fd90ddf8" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual wxThreadHelper::~wxThreadHelper</definition>
+        <argsstring>()</argsstring>
+        <name>~wxThreadHelper</name>
+        <briefdescription>
+<para>The destructor frees the resources associated with the thread, forcing it to terminate (it uses <ref refid="classwx_thread_1a2cbff8b3b0a93ab82f212c02f38a1ef4" kindref="member">wxThread::Kill</ref> function). </para>        </briefdescription>
+        <detaileddescription>
+<para>Because of the <ref refid="classwx_thread_1a2cbff8b3b0a93ab82f212c02f38a1ef4" kindref="member">wxThread::Kill</ref> unsafety, you should always wait (with <ref refid="classwx_thread_1a62ee778033013d3a4754b71b8cf2902e" kindref="member">wxThread::Wait</ref>) for joinable threads to end or call <ref refid="classwx_thread_1a40ef94232664185b4f1f8693eebeba86" kindref="member">wxThread::Delete</ref> on detached threads, instead of relying on this destructor for stopping the thread. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/thread.h" line="446" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_thread_helper_1a7f3e0f028fb1b295bc61064ad4d4bc1b" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>ExitCode</type>
+        <definition>virtual ExitCode wxThreadHelper::Entry</definition>
+        <argsstring>()=0</argsstring>
+        <name>Entry</name>
+        <briefdescription>
+<para>This is the entry point of the thread. </para>        </briefdescription>
+        <detaileddescription>
+<para>This function is pure virtual and must be implemented by any derived class. The thread execution will start here.</para><para>You&apos;ll typically want your <ref refid="classwx_thread_helper_1a7f3e0f028fb1b295bc61064ad4d4bc1b" kindref="member">Entry()</ref> to look like: <programlisting><codeline><highlight class="normal">wxThread::ExitCode<sp/>Entry()</highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>while<sp/>(!GetThread()-&gt;TestDestroy())</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>...<sp/>do<sp/>some<sp/>work<sp/>...</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>if<sp/>(IsWorkCompleted)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>break;</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>if<sp/>(HappenedStoppingError)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>return<sp/>(wxThread::ExitCode)1;<sp/><sp/><sp/>//<sp/>failure</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>return<sp/>(wxThread::ExitCode)0;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>success</highlight></codeline>
+<codeline><highlight class="normal">}</highlight></codeline>
+</programlisting></para><para>The returned value is the thread exit code which is only useful for joinable threads and is the value returned by <computeroutput>&quot;GetThread()-&gt;Wait()&quot;</computeroutput>.</para><para>This function is called by wxWidgets itself and should never be called directly. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/thread.h" line="479" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_thread_helper_1ad6275bdfa1590d13f4890a433ee3e1c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void wxThreadHelper::OnDelete</definition>
+        <argsstring>()</argsstring>
+        <name>OnDelete</name>
+        <briefdescription>
+<para>Callback called by Delete() before actually deleting the thread. </para>        </briefdescription>
+        <detaileddescription>
+<para>This function can be overridden by the derived class to perform some specific task when the thread is gracefully destroyed. Notice that it will be executed in the context of the thread that called Delete() and <bold>not</bold> in this thread&apos;s context.</para><para>TestDestroy() will be true for the thread before <ref refid="classwx_thread_helper_1ad6275bdfa1590d13f4890a433ee3e1c2" kindref="member">OnDelete()</ref> gets executed.</para><para><simplesect kind="since"><para>2.9.2</para></simplesect>
+<simplesect kind="see"><para><ref refid="classwx_thread_helper_1aafc07894e382cbd964c3e9900b2b780b" kindref="member">OnKill()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/thread.h" line="496" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_thread_helper_1aafc07894e382cbd964c3e9900b2b780b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void wxThreadHelper::OnKill</definition>
+        <argsstring>()</argsstring>
+        <name>OnKill</name>
+        <briefdescription>
+<para>Callback called by Kill() before actually killing the thread. </para>        </briefdescription>
+        <detaileddescription>
+<para>This function can be overridden by the derived class to perform some specific task when the thread is terminated. Notice that it will be executed in the context of the thread that called Kill() and <bold>not</bold> in this thread&apos;s context.</para><para><simplesect kind="since"><para>2.9.2</para></simplesect>
+<simplesect kind="see"><para><ref refid="classwx_thread_helper_1ad6275bdfa1590d13f4890a433ee3e1c2" kindref="member">OnDelete()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/thread.h" line="510" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_thread_helper_1ae9f65014cb9c8ef1d27f22d6259c0fc2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="interface_2wx_2thread_8h_1a9e4ba0577f752fee0ba2133035f75ac2" kindref="member">wxThreadError</ref></type>
+        <definition>wxThreadError wxThreadHelper::Create</definition>
+        <argsstring>(unsigned int stackSize=0)</argsstring>
+        <name>Create</name>
+        <param>
+          <type>unsigned int</type>
+          <declname>stackSize</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><xrefsect id="deprecated_1_deprecated000054"><xreftitle>Deprecated</xreftitle><xrefdescription><para>Use <ref refid="classwx_thread_helper_1a3682b1b5a08741335aa8acc7feb0ece5" kindref="member">CreateThread()</ref> instead.</para></xrefdescription></xrefsect></para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/thread.h" line="516" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_thread_helper_1a3682b1b5a08741335aa8acc7feb0ece5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="interface_2wx_2thread_8h_1a9e4ba0577f752fee0ba2133035f75ac2" kindref="member">wxThreadError</ref></type>
+        <definition>wxThreadError wxThreadHelper::CreateThread</definition>
+        <argsstring>(wxThreadKind kind=wxTHREAD_JOINABLE, unsigned int stackSize=0)</argsstring>
+        <name>CreateThread</name>
+        <param>
+          <type><ref refid="interface_2wx_2thread_8h_1a0dc9a167e8d084946512da99b37b5fd0" kindref="member">wxThreadKind</ref></type>
+          <declname>kind</declname>
+          <defval><ref refid="interface_2wx_2thread_8h_1a0dc9a167e8d084946512da99b37b5fd0ab5246cc8dc6eeb20bc69e4790e7b00a4" kindref="member">wxTHREAD_JOINABLE</ref></defval>
+        </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>stackSize</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>Creates a new thread of the given <emphasis>kind</emphasis>. </para>        </briefdescription>
+        <detaileddescription>
+<para>The thread object is created in the suspended state, and you should call <ref refid="classwx_thread_1a5d894750ffaac8fc42ee85aeff8bb4c0" kindref="member">GetThread()-&gt;Run()</ref> to start running it.</para><para>You may optionally specify the stack size to be allocated to it (ignored on platforms that don&apos;t support setting it explicitly, e.g. Unix).</para><para><simplesect kind="return"><para>One of the <ref refid="interface_2wx_2thread_8h_1a9e4ba0577f752fee0ba2133035f75ac2" kindref="member">wxThreadError</ref> enum values. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/thread.h" line="529" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_thread_helper_1a5d2601e8a0164ae7e6ac4bb821822d1f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_thread" kindref="compound">wxThread</ref> *</type>
+        <definition>wxThread* wxThreadHelper::GetThread</definition>
+        <argsstring>() const</argsstring>
+        <name>GetThread</name>
+        <briefdescription>
+<para>This is a public function that returns the <ref refid="classwx_thread" kindref="compound">wxThread</ref> object associated with the thread. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/thread.h" line="536" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_thread_helper_1a74629eef568b4369fd0d698e2b823165" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="interface_2wx_2thread_8h_1a0dc9a167e8d084946512da99b37b5fd0" kindref="member">wxThreadKind</ref></type>
+        <definition>wxThreadKind wxThreadHelper::GetThreadKind</definition>
+        <argsstring>() const</argsstring>
+        <name>GetThreadKind</name>
+        <briefdescription>
+<para>Returns the last type of thread given to the <ref refid="classwx_thread_helper_1a3682b1b5a08741335aa8acc7feb0ece5" kindref="member">CreateThread()</ref> function or to the constructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/thread.h" line="542" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>The <ref refid="classwx_thread_helper" kindref="compound">wxThreadHelper</ref> class is a mix-in class that manages a single background thread, either detached or joinable (see <ref refid="classwx_thread" kindref="compound">wxThread</ref> for the differences). </para>    </briefdescription>
+    <detaileddescription>
+<para>By deriving from <ref refid="classwx_thread_helper" kindref="compound">wxThreadHelper</ref>, a class can implement the thread code in its own <ref refid="classwx_thread_helper_1a7f3e0f028fb1b295bc61064ad4d4bc1b" kindref="member">wxThreadHelper::Entry()</ref> method and easily share data and synchronization objects between the main thread and the worker thread.</para><para>Doing this prevents the awkward passing of pointers that is needed when the original object in the main thread needs to synchronize with its worker thread in its own <ref refid="classwx_thread" kindref="compound">wxThread</ref> derived object.</para><para>For example, <ref refid="classwx_frame" kindref="compound">wxFrame</ref> may need to make some calculations in a background thread and then display the results of those calculations in the main window.</para><para>Ordinarily, a <ref refid="classwx_thread" kindref="compound">wxThread</ref> derived object would be created with the calculation code implemented in <ref refid="classwx_thread_1af50fa7d3ac55002e367e79989b9cbc5d" kindref="member">wxThread::Entry</ref>. To access the inputs to the calculation, the frame object would often need to pass a pointer to itself to the thread object. Similarly, the frame object would hold a pointer to the thread object.</para><para>Shared data and synchronization objects could be stored in either object though the object without the data would have to access the data through a pointer. However with <ref refid="classwx_thread_helper" kindref="compound">wxThreadHelper</ref> the frame object and the thread object are treated as the same object. Shared data and synchronization variables are stored in the single object, eliminating a layer of indirection and the associated pointers.</para><para>Example: <programlisting><codeline><highlight class="normal">wxDECLARE_EVENT(myEVT_THREAD_UPDATE,<sp/>wxThreadEvent);</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">class<sp/>MyFrame<sp/>:<sp/>public<sp/>wxFrame,<sp/>public<sp/>wxThreadHelper</highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal">public:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>MyFrame(...)<sp/>{<sp/>...<sp/>}</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>~MyFrame()</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>it&apos;s<sp/>better<sp/>to<sp/>do<sp/>any<sp/>thread<sp/>cleanup<sp/>in<sp/>the<sp/>OnClose()</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>event<sp/>handler,<sp/>rather<sp/>than<sp/>in<sp/>the<sp/>destructor.</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>This<sp/>is<sp/>because<sp/>the<sp/>event<sp/>loop<sp/>for<sp/>a<sp/>top-level<sp/>window<sp/>is<sp/>not</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>active<sp/>anymore<sp/>when<sp/>its<sp/>destructor<sp/>is<sp/>called<sp/>and<sp/>if<sp/>the<sp/>thread</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>sends<sp/>events<sp/>when<sp/>ending,<sp/>they<sp/>won&apos;t<sp/>be<sp/>processed<sp/>unless</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>you<sp/>ended<sp/>the<sp/>thread<sp/>from<sp/>OnClose.</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>See<sp/>@ref<sp/>overview_windowdeletion<sp/>for<sp/>more<sp/>info.</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>...</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>void<sp/>DoStartALongTask();</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>void<sp/>OnThreadUpdate(wxThreadEvent&amp;<sp/>evt);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>void<sp/>OnClose(wxCloseEvent&amp;<sp/>evt);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>...</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">protected:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>virtual<sp/>wxThread::ExitCode<sp/>Entry();</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>//<sp/>the<sp/>output<sp/>data<sp/>of<sp/>the<sp/>Entry()<sp/>routine:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>char<sp/>m_data[1024];</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>wxCriticalSection<sp/>m_dataCS;<sp/>//<sp/>protects<sp/>field<sp/>above</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>wxDECLARE_EVENT_TABLE();</highlight></codeline>
+<codeline><highlight class="normal">};</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">wxDEFINE_EVENT(myEVT_THREAD_UPDATE,<sp/>wxThreadEvent)</highlight></codeline>
+<codeline><highlight class="normal">wxBEGIN_EVENT_TABLE(MyFrame,<sp/>wxFrame)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EVT_THREAD(wxID_ANY,<sp/>myEVT_THREAD_UPDATE,<sp/>MyFrame::OnThreadUpdate)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EVT_CLOSE(MyFrame::OnClose)</highlight></codeline>
+<codeline><highlight class="normal">wxEND_EVENT_TABLE()</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">void<sp/>MyFrame::DoStartALongTask()</highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>//<sp/>we<sp/>want<sp/>to<sp/>start<sp/>a<sp/>long<sp/>task,<sp/>but<sp/>we<sp/>don&apos;t<sp/>want<sp/>our<sp/>GUI<sp/>to<sp/>block</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>//<sp/>while<sp/>it&apos;s<sp/>executed,<sp/>so<sp/>we<sp/>use<sp/>a<sp/>thread<sp/>to<sp/>do<sp/>it.</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>if<sp/>(CreateThread(wxTHREAD_JOINABLE)<sp/>!=<sp/>wxTHREAD_NO_ERROR)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>wxLogError(&quot;Could<sp/>not<sp/>create<sp/>the<sp/>worker<sp/>thread!&quot;);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>return;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>//<sp/>go!</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>if<sp/>(GetThread()-&gt;Run()<sp/>!=<sp/>wxTHREAD_NO_ERROR)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>wxLogError(&quot;Could<sp/>not<sp/>run<sp/>the<sp/>worker<sp/>thread!&quot;);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>return;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline><highlight class="normal">}</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">wxThread::ExitCode<sp/>MyFrame::Entry()</highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>//<sp/>IMPORTANT:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>//<sp/>this<sp/>function<sp/>gets<sp/>executed<sp/>in<sp/>the<sp/>secondary<sp/>thread<sp/>context!</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>int<sp/>offset<sp/>=<sp/>0;</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>//<sp/>here<sp/>we<sp/>do<sp/>our<sp/>long<sp/>task,<sp/>periodically<sp/>calling<sp/>TestDestroy():</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>while<sp/>(!GetThread()-&gt;TestDestroy())</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>since<sp/>this<sp/>Entry()<sp/>is<sp/>implemented<sp/>in<sp/>MyFrame<sp/>context<sp/>we<sp/>don&apos;t</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>need<sp/>any<sp/>pointer<sp/>to<sp/>access<sp/>the<sp/>m_data,<sp/>m_processedData,<sp/>m_dataCS</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>variables...<sp/>very<sp/>nice!</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>this<sp/>is<sp/>an<sp/>example<sp/>of<sp/>the<sp/>generic<sp/>structure<sp/>of<sp/>a<sp/>download<sp/>thread:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>char<sp/>buffer[1024];</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>download_chunk(buffer,<sp/>1024);<sp/><sp/><sp/><sp/><sp/>//<sp/>this<sp/>takes<sp/>time...</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>ensure<sp/>no<sp/>one<sp/>reads<sp/>m_data<sp/>while<sp/>we<sp/>write<sp/>it</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>wxCriticalSectionLocker<sp/>lock(m_dataCS);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>memcpy(m_data+offset,<sp/>buffer,<sp/>1024);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>offset<sp/>+=<sp/>1024;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>VERY<sp/>IMPORTANT:<sp/>do<sp/>not<sp/>call<sp/>any<sp/>GUI<sp/>function<sp/>inside<sp/>this</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>function;<sp/>rather<sp/>use<sp/>wxQueueEvent():</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>wxQueueEvent(this,<sp/>new<sp/>wxThreadEvent(wxEVT_COMMAND_MYTHREAD_UPDATE));</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>we<sp/>used<sp/>pointer<sp/>&apos;this&apos;<sp/>assuming<sp/>it&apos;s<sp/>safe;<sp/>see<sp/>OnClose()</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>//<sp/>TestDestroy()<sp/>returned<sp/>true<sp/>(which<sp/>means<sp/>the<sp/>main<sp/>thread<sp/>asked<sp/>us</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>//<sp/>to<sp/>terminate<sp/>as<sp/>soon<sp/>as<sp/>possible)<sp/>or<sp/>we<sp/>ended<sp/>the<sp/>long<sp/>task...</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>return<sp/>(wxThread::ExitCode)0;</highlight></codeline>
+<codeline><highlight class="normal">}</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">void<sp/>MyFrame::OnClose(wxCloseEvent&amp;)</highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>//<sp/>important:<sp/>before<sp/>terminating,<sp/>we<sp/>_must_<sp/>wait<sp/>for<sp/>our<sp/>joinable</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>//<sp/>thread<sp/>to<sp/>end,<sp/>if<sp/>it&apos;s<sp/>running;<sp/>in<sp/>fact<sp/>it<sp/>uses<sp/>variables<sp/>of<sp/>this</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>//<sp/>instance<sp/>and<sp/>posts<sp/>events<sp/>to<sp/>*this<sp/>event<sp/>handler</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>if<sp/>(GetThread()<sp/>&amp;&amp;<sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>DoStartALongTask()<sp/>may<sp/>have<sp/>not<sp/>been<sp/>called</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>GetThread()-&gt;IsRunning())</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>GetThread()-&gt;Wait();</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>Destroy();</highlight></codeline>
+<codeline><highlight class="normal">}</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">void<sp/>MyFrame::OnThreadUpdate(wxThreadEvent&amp;<sp/>evt)</highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>//<sp/>...do<sp/>something...<sp/>e.g.<sp/>m_pGauge-&gt;Pulse();</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>//<sp/>read<sp/>some<sp/>parts<sp/>of<sp/>m_data<sp/>just<sp/>for<sp/>fun:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>wxCriticalSectionLocker<sp/>lock(m_dataCS);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>wxPrintf(&quot;%c&quot;,<sp/>m_data[100]);</highlight></codeline>
+<codeline><highlight class="normal">}</highlight></codeline>
+</programlisting></para><para><heading level="2"></heading>
+</para><para>Library:<nonbreakablespace/><nonbreakablespace/><ref refid="page_libs_1page_libs_wxbase" kindref="member">wxBase</ref> &lt;&gt;&lt; =&apos;&apos;&gt;:&lt;/&gt;&amp;;&amp;;&lt; =&apos;&apos;&gt;\ &lt;/&gt;&lt;/&gt;</para><para><simplesect kind="see"><para><ref refid="classwx_thread" kindref="compound">wxThread</ref>, <ref refid="classwx_thread_event" kindref="compound">wxThreadEvent</ref> </para></simplesect>
+</para>    </detaileddescription>
+    <location file="interface/wx/thread.h" line="429" column="1" bodyfile="interface/wx/thread.h" bodystart="428" bodyend="543"/>
+    <listofallmembers>
+      <member refid="classwx_thread_helper_1ae9f65014cb9c8ef1d27f22d6259c0fc2" prot="public" virt="non-virtual"><scope>wxThreadHelper</scope><name>Create</name></member>
+      <member refid="classwx_thread_helper_1a3682b1b5a08741335aa8acc7feb0ece5" prot="public" virt="non-virtual"><scope>wxThreadHelper</scope><name>CreateThread</name></member>
+      <member refid="classwx_thread_helper_1a7f3e0f028fb1b295bc61064ad4d4bc1b" prot="public" virt="pure-virtual"><scope>wxThreadHelper</scope><name>Entry</name></member>
+      <member refid="classwx_thread_helper_1a5d2601e8a0164ae7e6ac4bb821822d1f" prot="public" virt="non-virtual"><scope>wxThreadHelper</scope><name>GetThread</name></member>
+      <member refid="classwx_thread_helper_1a74629eef568b4369fd0d698e2b823165" prot="public" virt="non-virtual"><scope>wxThreadHelper</scope><name>GetThreadKind</name></member>
+      <member refid="classwx_thread_helper_1ad6275bdfa1590d13f4890a433ee3e1c2" prot="public" virt="virtual"><scope>wxThreadHelper</scope><name>OnDelete</name></member>
+      <member refid="classwx_thread_helper_1aafc07894e382cbd964c3e9900b2b780b" prot="public" virt="virtual"><scope>wxThreadHelper</scope><name>OnKill</name></member>
+      <member refid="classwx_thread_helper_1ace38e9960ed62f8cafdfc8f7008815ae" prot="public" virt="non-virtual"><scope>wxThreadHelper</scope><name>wxThreadHelper</name></member>
+      <member refid="classwx_thread_helper_1affe96946d9bceaba028209f4fd90ddf8" prot="public" virt="virtual"><scope>wxThreadHelper</scope><name>~wxThreadHelper</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

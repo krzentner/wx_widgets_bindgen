@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_html_rendering_style" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>wxHtmlRenderingStyle</compoundname>
+    <includes local="no">wx/html/htmlcell.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classwx_html_rendering_style_1ab0709339a84297ec87a8c768bea70475" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type><ref refid="classwx_colour" kindref="compound">wxColour</ref></type>
+        <definition>virtual wxColour wxHtmlRenderingStyle::GetSelectedTextColour</definition>
+        <argsstring>(const wxColour &amp;clr)=0</argsstring>
+        <name>GetSelectedTextColour</name>
+        <param>
+          <type>const <ref refid="classwx_colour" kindref="compound">wxColour</ref> &amp;</type>
+          <declname>clr</declname>
+        </param>
+        <briefdescription>
+<para>Returns the colour to use for the selected text. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/html/htmlcell.h" line="102" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_html_rendering_style_1ac0b0f3518cb5cdd51dc66bcab8963416" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type><ref refid="classwx_colour" kindref="compound">wxColour</ref></type>
+        <definition>virtual wxColour wxHtmlRenderingStyle::GetSelectedTextBgColour</definition>
+        <argsstring>(const wxColour &amp;clr)=0</argsstring>
+        <name>GetSelectedTextBgColour</name>
+        <param>
+          <type>const <ref refid="classwx_colour" kindref="compound">wxColour</ref> &amp;</type>
+          <declname>clr</declname>
+        </param>
+        <briefdescription>
+<para>Returns the colour to use for the selected text&apos;s background. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/html/htmlcell.h" line="107" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="classwx_html_selection" kindref="compound">wxHtmlSelection</ref> is data holder with information about text selection. </para>    </briefdescription>
+    <detaileddescription>
+<para>Allows HTML rendering customizations.</para><para>Selection is defined by two positions (beginning and end of the selection) and two leaf(!) cells at these positions.</para><para><heading level="2"></heading>
+</para><para>Library:<nonbreakablespace/><nonbreakablespace/><ref refid="page_libs_1page_libs_wxhtml" kindref="member">wxHTML</ref> &lt;&gt;&lt; =&apos;&apos;&gt;:&lt;/&gt;&amp;;&amp;;&lt; =&apos;&apos;&gt;\ &lt;/&gt;&lt;/&gt;</para><para>This class is used when rendering wxHtmlCells as a callback.</para><para><heading level="2"></heading>
+</para><para>Library:<nonbreakablespace/><nonbreakablespace/><ref refid="page_libs_1page_libs_wxhtml" kindref="member">wxHTML</ref> &lt;&gt;&lt; =&apos;&apos;&gt;:&lt;/&gt;&amp;;&amp;;&lt; =&apos;&apos;&gt;\ &lt;/&gt;&lt;/&gt;</para><para><simplesect kind="see"><para><ref refid="classwx_html_rendering_info" kindref="compound">wxHtmlRenderingInfo</ref> </para></simplesect>
+</para>    </detaileddescription>
+    <location file="interface/wx/html/htmlcell.h" line="97" column="1" bodyfile="interface/wx/html/htmlcell.h" bodystart="96" bodyend="108"/>
+    <listofallmembers>
+      <member refid="classwx_html_rendering_style_1ac0b0f3518cb5cdd51dc66bcab8963416" prot="public" virt="pure-virtual"><scope>wxHtmlRenderingStyle</scope><name>GetSelectedTextBgColour</name></member>
+      <member refid="classwx_html_rendering_style_1ab0709339a84297ec87a8c768bea70475" prot="public" virt="pure-virtual"><scope>wxHtmlRenderingStyle</scope><name>GetSelectedTextColour</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

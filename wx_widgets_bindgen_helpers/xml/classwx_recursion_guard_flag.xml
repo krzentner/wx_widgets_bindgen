@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_recursion_guard_flag" kind="class" language="C++" prot="public">
+    <compoundname>wxRecursionGuardFlag</compoundname>
+    <includes local="no">wx/recguard.h</includes>
+    <briefdescription>
+<para>This is a completely opaque class which exists only to be used with <ref refid="classwx_recursion_guard" kindref="compound">wxRecursionGuard</ref>, please see the example in that class&apos; documentation. </para>    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="remark"><para></para></simplesect>
+<ref refid="classwx_recursion_guard_flag" kindref="compound">wxRecursionGuardFlag</ref> object must be declared <computeroutput>static</computeroutput> or the recursion would never be detected.</para><para><heading level="2"></heading>
+</para><para>Library:<nonbreakablespace/><nonbreakablespace/><ref refid="page_libs_1page_libs_wxbase" kindref="member">wxBase</ref> &lt;&gt;&lt; =&apos;&apos;&gt;:&lt;/&gt;&amp;;&amp;;&lt; =&apos;&apos;&gt;\ &lt;/&gt;&lt;/&gt; </para>    </detaileddescription>
+    <location file="interface/wx/recguard.h" line="23" column="1" bodyfile="interface/wx/recguard.h" bodystart="22" bodyend="26"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

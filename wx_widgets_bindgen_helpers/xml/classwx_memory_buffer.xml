@@ -1,0 +1,340 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_memory_buffer" kind="class" language="C++" prot="public">
+    <compoundname>wxMemoryBuffer</compoundname>
+    <includes local="no">wx/buffer.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classwx_memory_buffer_1a8272b5a9de53293c1edbf0a62ab81e2f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxMemoryBuffer::wxMemoryBuffer</definition>
+        <argsstring>(const wxMemoryBuffer &amp;src)</argsstring>
+        <name>wxMemoryBuffer</name>
+        <param>
+          <type>const <ref refid="classwx_memory_buffer" kindref="compound">wxMemoryBuffer</ref> &amp;</type>
+          <declname>src</declname>
+        </param>
+        <briefdescription>
+<para>Copy constructor, refcounting is used for performance, but <ref refid="classwx_memory_buffer" kindref="compound">wxMemoryBuffer</ref> is not a copy-on-write structure so changes made to one buffer effect all copies made from it. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="see"><para><ref refid="overview_refcount" kindref="compound">Reference Counting</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/buffer.h" line="283" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_memory_buffer_1a60b99492a70a991287ef587eabda324f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxMemoryBuffer::wxMemoryBuffer</definition>
+        <argsstring>(size_t size=1024)</argsstring>
+        <name>wxMemoryBuffer</name>
+        <param>
+          <type>size_t</type>
+          <declname>size</declname>
+          <defval>1024</defval>
+        </param>
+        <briefdescription>
+<para>Create a new buffer. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>size</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>size of the new buffer, 1KiB by default. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/buffer.h" line="291" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_memory_buffer_1a98673da88270eff09bb09b1f9d001177" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxMemoryBuffer::AppendByte</definition>
+        <argsstring>(char data)</argsstring>
+        <name>AppendByte</name>
+        <param>
+          <type>char</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+<para>Append a single byte to the buffer. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New byte to append to the buffer. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/buffer.h" line="299" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_memory_buffer_1aa6030db293bc18c8bf041df2f371b5b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxMemoryBuffer::AppendData</definition>
+        <argsstring>(const void *data, size_t len)</argsstring>
+        <name>AppendData</name>
+        <param>
+          <type>const void *</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>len</declname>
+        </param>
+        <briefdescription>
+<para>Single call to append a data block to the buffer. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Pointer to block to append to the buffer. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>len</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Length of data to append. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/buffer.h" line="309" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_memory_buffer_1a25a1be146612e646bfdffa1b4f9901e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxMemoryBuffer::Clear</definition>
+        <argsstring>()</argsstring>
+        <name>Clear</name>
+        <briefdescription>
+<para>Clear the buffer contents. </para>        </briefdescription>
+        <detaileddescription>
+<para>The buffer won&apos;t contain any data after this method is called.</para><para><simplesect kind="see"><para><ref refid="classwx_memory_buffer_1a41781a9a1d41ed199afb50ec04388ca9" kindref="member">IsEmpty()</ref></para></simplesect>
+<simplesect kind="since"><para>2.9.4 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/buffer.h" line="320" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_memory_buffer_1a562fe87a27b5e372ba0b27ec9178e645" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void *</type>
+        <definition>void* wxMemoryBuffer::GetAppendBuf</definition>
+        <argsstring>(size_t sizeNeeded)</argsstring>
+        <name>GetAppendBuf</name>
+        <param>
+          <type>size_t</type>
+          <declname>sizeNeeded</declname>
+        </param>
+        <briefdescription>
+<para>Ensure that the buffer is big enough and return a pointer to the start of the empty space in the buffer. </para>        </briefdescription>
+        <detaileddescription>
+<para>This pointer can be used to directly write data into the buffer, this new data will be appended to the existing data.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sizeNeeded</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Amount of extra space required in the buffer for the append operation </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/buffer.h" line="332" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_memory_buffer_1ac8e805b98813d8636ca3edaf75048d61" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t wxMemoryBuffer::GetBufSize</definition>
+        <argsstring>() const</argsstring>
+        <name>GetBufSize</name>
+        <briefdescription>
+<para>Returns the size of the buffer. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/buffer.h" line="337" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_memory_buffer_1a810f75f94cb6729b56fdeeadea3610cd" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void *</type>
+        <definition>void* wxMemoryBuffer::GetData</definition>
+        <argsstring>() const</argsstring>
+        <name>GetData</name>
+        <briefdescription>
+<para>Return a pointer to the data in the buffer. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/buffer.h" line="342" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_memory_buffer_1ada3de4b000e6780c50f1dca676fd112c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t wxMemoryBuffer::GetDataLen</definition>
+        <argsstring>() const</argsstring>
+        <name>GetDataLen</name>
+        <briefdescription>
+<para>Returns the length of the valid data in the buffer. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/buffer.h" line="347" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_memory_buffer_1acd11911e10cbe857fffd5e7480e76f6b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void *</type>
+        <definition>void* wxMemoryBuffer::GetWriteBuf</definition>
+        <argsstring>(size_t sizeNeeded)</argsstring>
+        <name>GetWriteBuf</name>
+        <param>
+          <type>size_t</type>
+          <declname>sizeNeeded</declname>
+        </param>
+        <briefdescription>
+<para>Ensure the buffer is big enough and return a pointer to the buffer which can be used to directly write into the buffer up to <emphasis>sizeNeeded</emphasis> bytes. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/buffer.h" line="354" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_memory_buffer_1a41781a9a1d41ed199afb50ec04388ca9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxMemoryBuffer::IsEmpty</definition>
+        <argsstring>() const</argsstring>
+        <name>IsEmpty</name>
+        <briefdescription>
+<para>Returns true if the buffer contains no data. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="see"><para><ref refid="classwx_memory_buffer_1a25a1be146612e646bfdffa1b4f9901e5" kindref="member">Clear()</ref></para></simplesect>
+<simplesect kind="since"><para>2.9.4 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/buffer.h" line="363" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_memory_buffer_1acb3dc059abd84ca5f33ed6af1cc18010" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxMemoryBuffer::SetBufSize</definition>
+        <argsstring>(size_t size)</argsstring>
+        <name>SetBufSize</name>
+        <param>
+          <type>size_t</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+<para>Ensures the buffer has at least <emphasis>size</emphasis> bytes available. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/buffer.h" line="368" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_memory_buffer_1a933c6ee0caa2362358a1e63eecedee9c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxMemoryBuffer::SetDataLen</definition>
+        <argsstring>(size_t size)</argsstring>
+        <name>SetDataLen</name>
+        <param>
+          <type>size_t</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+<para>Sets the length of the data stored in the buffer. </para>        </briefdescription>
+        <detaileddescription>
+<para>Mainly useful for truncating existing data.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>size</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New length of the valid data in the buffer. This is distinct from the allocated size </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/buffer.h" line="378" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_memory_buffer_1a215c28520788d72b9a536c5a22d53aaa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxMemoryBuffer::UngetAppendBuf</definition>
+        <argsstring>(size_t sizeUsed)</argsstring>
+        <name>UngetAppendBuf</name>
+        <param>
+          <type>size_t</type>
+          <declname>sizeUsed</declname>
+        </param>
+        <briefdescription>
+<para>Update the length after completing a direct append, which you must have used <ref refid="classwx_memory_buffer_1a562fe87a27b5e372ba0b27ec9178e645" kindref="member">GetAppendBuf()</ref> to initialise. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sizeUsed</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>This is the amount of new data that has been appended. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/buffer.h" line="388" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_memory_buffer_1abc64d7315750cd8c6a37b3ae5f978aaa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxMemoryBuffer::UngetWriteBuf</definition>
+        <argsstring>(size_t sizeUsed)</argsstring>
+        <name>UngetWriteBuf</name>
+        <param>
+          <type>size_t</type>
+          <declname>sizeUsed</declname>
+        </param>
+        <briefdescription>
+<para>Update the buffer after completing a direct write, which you must have used <ref refid="classwx_memory_buffer_1acd11911e10cbe857fffd5e7480e76f6b" kindref="member">GetWriteBuf()</ref> to initialise. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sizeUsed</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The amount of data written in to buffer by the direct write </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/buffer.h" line="398" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>A <bold><ref refid="classwx_memory_buffer" kindref="compound">wxMemoryBuffer</ref></bold> is a useful data structure for storing arbitrary sized blocks of memory. </para>    </briefdescription>
+    <detaileddescription>
+<para><ref refid="classwx_memory_buffer" kindref="compound">wxMemoryBuffer</ref> guarantees deletion of the memory block when the object is destroyed.</para><para><heading level="2"></heading>
+</para><para>Library:<nonbreakablespace/><nonbreakablespace/><ref refid="page_libs_1page_libs_wxbase" kindref="member">wxBase</ref> &lt;&gt;&lt; =&apos;&apos;&gt;:&lt;/&gt;&amp;;&amp;;&lt; =&apos;&apos;&gt;\ &lt;/&gt;&lt;/&gt; </para>    </detaileddescription>
+    <location file="interface/wx/buffer.h" line="274" column="1" bodyfile="interface/wx/buffer.h" bodystart="273" bodyend="399"/>
+    <listofallmembers>
+      <member refid="classwx_memory_buffer_1a98673da88270eff09bb09b1f9d001177" prot="public" virt="non-virtual"><scope>wxMemoryBuffer</scope><name>AppendByte</name></member>
+      <member refid="classwx_memory_buffer_1aa6030db293bc18c8bf041df2f371b5b7" prot="public" virt="non-virtual"><scope>wxMemoryBuffer</scope><name>AppendData</name></member>
+      <member refid="classwx_memory_buffer_1a25a1be146612e646bfdffa1b4f9901e5" prot="public" virt="non-virtual"><scope>wxMemoryBuffer</scope><name>Clear</name></member>
+      <member refid="classwx_memory_buffer_1a562fe87a27b5e372ba0b27ec9178e645" prot="public" virt="non-virtual"><scope>wxMemoryBuffer</scope><name>GetAppendBuf</name></member>
+      <member refid="classwx_memory_buffer_1ac8e805b98813d8636ca3edaf75048d61" prot="public" virt="non-virtual"><scope>wxMemoryBuffer</scope><name>GetBufSize</name></member>
+      <member refid="classwx_memory_buffer_1a810f75f94cb6729b56fdeeadea3610cd" prot="public" virt="non-virtual"><scope>wxMemoryBuffer</scope><name>GetData</name></member>
+      <member refid="classwx_memory_buffer_1ada3de4b000e6780c50f1dca676fd112c" prot="public" virt="non-virtual"><scope>wxMemoryBuffer</scope><name>GetDataLen</name></member>
+      <member refid="classwx_memory_buffer_1acd11911e10cbe857fffd5e7480e76f6b" prot="public" virt="non-virtual"><scope>wxMemoryBuffer</scope><name>GetWriteBuf</name></member>
+      <member refid="classwx_memory_buffer_1a41781a9a1d41ed199afb50ec04388ca9" prot="public" virt="non-virtual"><scope>wxMemoryBuffer</scope><name>IsEmpty</name></member>
+      <member refid="classwx_memory_buffer_1acb3dc059abd84ca5f33ed6af1cc18010" prot="public" virt="non-virtual"><scope>wxMemoryBuffer</scope><name>SetBufSize</name></member>
+      <member refid="classwx_memory_buffer_1a933c6ee0caa2362358a1e63eecedee9c" prot="public" virt="non-virtual"><scope>wxMemoryBuffer</scope><name>SetDataLen</name></member>
+      <member refid="classwx_memory_buffer_1a215c28520788d72b9a536c5a22d53aaa" prot="public" virt="non-virtual"><scope>wxMemoryBuffer</scope><name>UngetAppendBuf</name></member>
+      <member refid="classwx_memory_buffer_1abc64d7315750cd8c6a37b3ae5f978aaa" prot="public" virt="non-virtual"><scope>wxMemoryBuffer</scope><name>UngetWriteBuf</name></member>
+      <member refid="classwx_memory_buffer_1a8272b5a9de53293c1edbf0a62ab81e2f" prot="public" virt="non-virtual"><scope>wxMemoryBuffer</scope><name>wxMemoryBuffer</name></member>
+      <member refid="classwx_memory_buffer_1a60b99492a70a991287ef587eabda324f" prot="public" virt="non-virtual"><scope>wxMemoryBuffer</scope><name>wxMemoryBuffer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,1482 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_config_base" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>wxConfigBase</compoundname>
+    <basecompoundref refid="classwx_object" prot="public" virt="non-virtual">wxObject</basecompoundref>
+    <derivedcompoundref refid="classwx_file_config" prot="public" virt="non-virtual">wxFileConfig</derivedcompoundref>
+    <derivedcompoundref refid="classwx_reg_config" prot="public" virt="non-virtual">wxRegConfig</derivedcompoundref>
+    <includes local="no">wx/config.h</includes>
+      <sectiondef kind="user-defined">
+      <header>Path Management</header>
+      <description><para>See <ref refid="classwx_config_base_1configbase_paths" kindref="member">Path Management</ref> </para></description>
+      <memberdef kind="function" id="classwx_config_base_1a2c76e8a110cecc4d89d3af1565044e15" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+        <definition>virtual const wxString&amp; wxConfigBase::GetPath</definition>
+        <argsstring>() const =0</argsstring>
+        <name>GetPath</name>
+        <reimplementedby refid="classwx_file_config_1afe8acd9e1156f1398f308f77284352e2">GetPath</reimplementedby>
+        <briefdescription>
+<para>Retrieve the current path (always as absolute path). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/config.h" line="350" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_config_base_1ad290d3fe7fad4f39a4bb2959db89b379" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void wxConfigBase::SetPath</definition>
+        <argsstring>(const wxString &amp;strPath)=0</argsstring>
+        <name>SetPath</name>
+        <reimplementedby refid="classwx_file_config_1ac2b05e8f651d7390e3c340e5c7feea0e">SetPath</reimplementedby>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>strPath</declname>
+        </param>
+        <briefdescription>
+<para>Set current path: if the first character is &apos;/&apos;, it is the absolute path, otherwise it is a relative path. </para>        </briefdescription>
+        <detaileddescription>
+<para>&apos;..&apos; is supported. If <emphasis>strPath</emphasis> doesn&apos;t exist, it is created.</para><para><simplesect kind="see"><para><ref refid="classwx_config_path_changer" kindref="compound">wxConfigPathChanger</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/config.h" line="359" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="user-defined">
+      <header>Enumeration</header>
+      <description><para>See <ref refid="classwx_config_base_1configbase_enumeration" kindref="member">Enumeration</ref> </para></description>
+      <memberdef kind="function" id="classwx_config_base_1a1f8338dd47972d196c6475e7e1140ae7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>bool</type>
+        <definition>virtual bool wxConfigBase::GetFirstEntry</definition>
+        <argsstring>(wxString &amp;str, long &amp;index) const =0</argsstring>
+        <name>GetFirstEntry</name>
+        <reimplementedby refid="classwx_file_config_1a731918aafd6b8f2552900aa79c60b48b">GetFirstEntry</reimplementedby>
+        <param>
+          <type><ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>str</declname>
+        </param>
+        <param>
+          <type>long &amp;</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+<para>Gets the first entry. </para>        </briefdescription>
+        <detaileddescription>
+<para><bold>wxPerl Note:</bold> In wxPerl this method takes no parameters and returns a 3-element list (continue_flag, string, index_for_getnextentry). </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/config.h" line="379" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_config_base_1af111cb376665bd1b7fc77ae20d985a6d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>bool</type>
+        <definition>virtual bool wxConfigBase::GetFirstGroup</definition>
+        <argsstring>(wxString &amp;str, long &amp;index) const =0</argsstring>
+        <name>GetFirstGroup</name>
+        <reimplementedby refid="classwx_file_config_1aa0a82bdc1a523b9324a2233a8ac42c86">GetFirstGroup</reimplementedby>
+        <param>
+          <type><ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>str</declname>
+        </param>
+        <param>
+          <type>long &amp;</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+<para>Gets the first group. </para>        </briefdescription>
+        <detaileddescription>
+<para><bold>wxPerl Note:</bold> In wxPerl this method takes no parameters and returns a 3-element list (continue_flag, string, index_for_getnextentry). </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/config.h" line="389" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_config_base_1a0c99d5eb83f8ebad82e1a13d1295f644" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>bool</type>
+        <definition>virtual bool wxConfigBase::GetNextEntry</definition>
+        <argsstring>(wxString &amp;str, long &amp;index) const =0</argsstring>
+        <name>GetNextEntry</name>
+        <reimplementedby refid="classwx_file_config_1a2e28f5f742466f9f6a77cd8c8e4f5d62">GetNextEntry</reimplementedby>
+        <param>
+          <type><ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>str</declname>
+        </param>
+        <param>
+          <type>long &amp;</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+<para>Gets the next entry. </para>        </briefdescription>
+        <detaileddescription>
+<para><bold>wxPerl Note:</bold> In wxPerl this method only takes the <emphasis>index</emphasis> parameter and returns a 3-element list (continue_flag, string, index_for_getnextentry). </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/config.h" line="400" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_config_base_1a491e0d51c86d4facd8184969ea6d341c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>bool</type>
+        <definition>virtual bool wxConfigBase::GetNextGroup</definition>
+        <argsstring>(wxString &amp;str, long &amp;index) const =0</argsstring>
+        <name>GetNextGroup</name>
+        <reimplementedby refid="classwx_file_config_1a1f8fd10b6f7ad744da343ee0af5b603a">GetNextGroup</reimplementedby>
+        <param>
+          <type><ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>str</declname>
+        </param>
+        <param>
+          <type>long &amp;</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+<para>Gets the next group. </para>        </briefdescription>
+        <detaileddescription>
+<para><bold>wxPerl Note:</bold> In wxPerl this method only takes the <emphasis>index</emphasis> parameter and returns a 3-element list (continue_flag, string, index_for_getnextentry). </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/config.h" line="411" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_config_base_1a993bdb14c4115ddc1458fb8bdc9de604" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>size_t</type>
+        <definition>virtual size_t wxConfigBase::GetNumberOfEntries</definition>
+        <argsstring>(bool bRecursive=false) const =0</argsstring>
+        <name>GetNumberOfEntries</name>
+        <reimplementedby refid="classwx_file_config_1a11c6187c8a07a6e722dbb4b135d7eb51">GetNumberOfEntries</reimplementedby>
+        <param>
+          <type>bool</type>
+          <declname>bRecursive</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+<para>Get number of entries in the current group. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/config.h" line="416" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_config_base_1ad695ef5dd7dee1b24c7813aa08599eb9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>size_t</type>
+        <definition>virtual size_t wxConfigBase::GetNumberOfGroups</definition>
+        <argsstring>(bool bRecursive=false) const =0</argsstring>
+        <name>GetNumberOfGroups</name>
+        <reimplementedby refid="classwx_file_config_1a132f34eca0d959b05e00477e983a045c">GetNumberOfGroups</reimplementedby>
+        <param>
+          <type>bool</type>
+          <declname>bRecursive</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+<para>Get number of entries/subgroups in the current group, with or without its subgroups. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/config.h" line="422" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="user-defined">
+      <header>Tests of Existence</header>
+      <memberdef kind="function" id="classwx_config_base_1adf827c37b0872f16ccc286c8678718b6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxConfigBase::Exists</definition>
+        <argsstring>(const wxString &amp;strName) const</argsstring>
+        <name>Exists</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>strName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>true if either a group or an entry with a given name exists. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/config.h" line="444" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_config_base_1a2fd2205a9bbcd9fe248dc43174117d59" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="classwx_config_base_1a499282208b4b9e90cbfe60de25745bc4" kindref="member">wxConfigBase::EntryType</ref></type>
+        <definition>virtual wxConfigBase::EntryType wxConfigBase::GetEntryType</definition>
+        <argsstring>(const wxString &amp;name) const</argsstring>
+        <name>GetEntryType</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+<para>Returns the type of the given entry or <emphasis>Unknown</emphasis> if the entry doesn&apos;t exist. </para>        </briefdescription>
+        <detaileddescription>
+<para>This function should be used to decide which version of <ref refid="classwx_config_base_1a0fe9238f38e565f3218563c674e66161" kindref="member">Read()</ref> should be used because some of wxConfig implementations will complain about type mismatch otherwise: e.g., an attempt to read a string value from an integer key with <ref refid="classwx_reg_config" kindref="compound">wxRegConfig</ref> will fail. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/config.h" line="453" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_config_base_1aaca0748de0e2e2841aaec85f63403d3b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>bool</type>
+        <definition>virtual bool wxConfigBase::HasEntry</definition>
+        <argsstring>(const wxString &amp;strName) const =0</argsstring>
+        <name>HasEntry</name>
+        <reimplementedby refid="classwx_file_config_1a58afc69f93a1e7fa440a0b7fbdd2ad46">HasEntry</reimplementedby>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>strName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>true if the entry by this name exists. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/config.h" line="458" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_config_base_1a27472b872af09e73597735d0938b007d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>bool</type>
+        <definition>virtual bool wxConfigBase::HasGroup</definition>
+        <argsstring>(const wxString &amp;strName) const =0</argsstring>
+        <name>HasGroup</name>
+        <reimplementedby refid="classwx_file_config_1a0d3f43185ea086a7d17be0be2135efbb">HasGroup</reimplementedby>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>strName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>true if the group by this name exists. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/config.h" line="463" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="user-defined">
+      <header>Miscellaneous Functions</header>
+      <memberdef kind="function" id="classwx_config_base_1ac5b951ebb367a4bbc2ccebc045cb1591" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_string" kindref="compound">wxString</ref></type>
+        <definition>wxString wxConfigBase::GetAppName</definition>
+        <argsstring>() const</argsstring>
+        <name>GetAppName</name>
+        <briefdescription>
+<para>Returns the application name. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/config.h" line="476" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_config_base_1affb49e611d184a7c0d4a2ccde9452026" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_string" kindref="compound">wxString</ref></type>
+        <definition>wxString wxConfigBase::GetVendorName</definition>
+        <argsstring>() const</argsstring>
+        <name>GetVendorName</name>
+        <briefdescription>
+<para>Returns the vendor name. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/config.h" line="481" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="user-defined">
+      <header>Key Access</header>
+      <description><para>See <ref refid="classwx_config_base_1configbase_keyaccess" kindref="member">Key Access</ref> </para></description>
+      <memberdef kind="function" id="classwx_config_base_1a0b8cfc81de4d2534e8ab980b0fc6b9b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>bool</type>
+        <definition>virtual bool wxConfigBase::Flush</definition>
+        <argsstring>(bool bCurrentOnly=false)=0</argsstring>
+        <name>Flush</name>
+        <reimplementedby refid="classwx_file_config_1a237986fb7e05f7e5404dec1941da308d">Flush</reimplementedby>
+        <param>
+          <type>bool</type>
+          <declname>bCurrentOnly</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+<para>Permanently writes all changes (otherwise, they&apos;re only written from object&apos;s destructor). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/config.h" line="497" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_config_base_1a0fe9238f38e565f3218563c674e66161" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxConfigBase::Read</definition>
+        <argsstring>(const wxString &amp;key, wxString *str) const</argsstring>
+        <name>Read</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_string" kindref="compound">wxString</ref> *</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+<para>Read a string from the key, returning true if the value was read. </para>        </briefdescription>
+        <detaileddescription>
+<para>If the key was not found, <emphasis>str</emphasis> is not changed.</para><para><bold>wxPerl Note:</bold> Not supported by wxPerl. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/config.h" line="507" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_config_base_1aa664f00931a8cbf4990c3aa4b6b1098c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxConfigBase::Read</definition>
+        <argsstring>(const wxString &amp;key, wxString *str, const wxString &amp;defaultVal) const</argsstring>
+        <name>Read</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_string" kindref="compound">wxString</ref> *</type>
+          <declname>str</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>defaultVal</declname>
+        </param>
+        <briefdescription>
+<para>Read a string from the key. </para>        </briefdescription>
+        <detaileddescription>
+<para>The default value is returned if the key was not found.</para><para><simplesect kind="return"><para>true if value was really read, false if the default was used.</para></simplesect>
+<bold>wxPerl Note:</bold> Not supported by wxPerl. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/config.h" line="518" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_config_base_1a1a593fc959d10854daa9dba04b6747ba" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="classwx_string" kindref="compound">wxString</ref></type>
+        <definition>const wxString wxConfigBase::Read</definition>
+        <argsstring>(const wxString &amp;key, const wxString &amp;defaultVal) const</argsstring>
+        <name>Read</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>defaultVal</declname>
+        </param>
+        <briefdescription>
+<para>Another version of <ref refid="classwx_config_base_1a0fe9238f38e565f3218563c674e66161" kindref="member">Read()</ref>, returning the string value directly. </para>        </briefdescription>
+        <detaileddescription>
+<para><bold>wxPerl Note:</bold> In wxPerl, this can be called as:<itemizedlist>
+<listitem><para>Read(key): returns the empty string if no key is found</para></listitem><listitem><para>Read(key, default): returns the default value if no key is found </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/config.h" line="529" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_config_base_1a8655c70b311edf7d808e5babb565ab77" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxConfigBase::Read</definition>
+        <argsstring>(const wxString &amp;key, long *l) const</argsstring>
+        <name>Read</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>long *</type>
+          <declname>l</declname>
+        </param>
+        <briefdescription>
+<para>Reads a long value, returning true if the value was found. </para>        </briefdescription>
+        <detaileddescription>
+<para>If the value was not found, <emphasis>l</emphasis> is not changed.</para><para><bold>wxPerl Note:</bold> Not supported by wxPerl. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/config.h" line="539" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_config_base_1a06fafffd5e7ac33927ba38cec18e30f0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxConfigBase::Read</definition>
+        <argsstring>(const wxString &amp;key, long *l, long defaultVal) const</argsstring>
+        <name>Read</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>long *</type>
+          <declname>l</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>defaultVal</declname>
+        </param>
+        <briefdescription>
+<para>Reads a long value, returning true if the value was found. </para>        </briefdescription>
+        <detaileddescription>
+<para>If the value was not found, <emphasis>defaultVal</emphasis> is used instead.</para><para><bold>wxPerl Note:</bold> In wxPerl, this can be called as:<itemizedlist>
+<listitem><para>ReadInt(key): returns the 0 if no key is found</para></listitem><listitem><para>ReadInt(key, default): returns the default value if no key is found </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/config.h" line="550" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_config_base_1a09e29da759fd763f159334bd19bffd3d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxConfigBase::Read</definition>
+        <argsstring>(const wxString &amp;key, double *d) const</argsstring>
+        <name>Read</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>d</declname>
+        </param>
+        <briefdescription>
+<para>Reads a double value, returning true if the value was found. </para>        </briefdescription>
+        <detaileddescription>
+<para>If the value was not found, <emphasis>d</emphasis> is not changed.</para><para><bold>wxPerl Note:</bold> Not supported by wxPerl. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/config.h" line="560" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_config_base_1a8441c70cfe5e56d40e84283c081e4073" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxConfigBase::Read</definition>
+        <argsstring>(const wxString &amp;key, double *d, double defaultVal) const</argsstring>
+        <name>Read</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>d</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>defaultVal</declname>
+        </param>
+        <briefdescription>
+<para>Reads a double value, returning true if the value was found. </para>        </briefdescription>
+        <detaileddescription>
+<para>If the value was not found, <emphasis>defaultVal</emphasis> is used instead.</para><para><bold>wxPerl Note:</bold> In wxPerl, this can be called as:<itemizedlist>
+<listitem><para>ReadFloat(key): returns the 0.0 if no key is found</para></listitem><listitem><para>ReadFloat(key, default): returns the default value if no key is found </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/config.h" line="571" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_config_base_1a39c887dcf0861245e88ac9892faf23cf" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxConfigBase::Read</definition>
+        <argsstring>(const wxString &amp;key, float *f) const</argsstring>
+        <name>Read</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>float *</type>
+          <declname>f</declname>
+        </param>
+        <briefdescription>
+<para>Reads a float value, returning true if the value was found. </para>        </briefdescription>
+        <detaileddescription>
+<para>If the value was not found, <emphasis>f</emphasis> is not changed.</para><para>Notice that the value is read as a double but must be in a valid range for floats for the function to return true.</para><para><simplesect kind="since"><para>2.9.1</para></simplesect>
+<bold>wxPerl Note:</bold> Not supported by wxPerl. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/config.h" line="588" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_config_base_1a3e1ae84c1e9d076fcbcf78bf9ea9ee63" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxConfigBase::Read</definition>
+        <argsstring>(const wxString &amp;key, float *f, float defaultVal) const</argsstring>
+        <name>Read</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>float *</type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>defaultVal</declname>
+        </param>
+        <briefdescription>
+<para>Reads a float value, returning true if the value was found. </para>        </briefdescription>
+        <detaileddescription>
+<para>If the value was not found, <emphasis>defaultVal</emphasis> is used instead.</para><para>Notice that the value is read as a double but must be in a valid range for floats for the function to return true.</para><para><simplesect kind="since"><para>2.9.1</para></simplesect>
+<bold>wxPerl Note:</bold> Not supported by wxPerl. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/config.h" line="603" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_config_base_1abd35ea62d3335d3ada07fe8c132839e6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxConfigBase::Read</definition>
+        <argsstring>(const wxString &amp;key, bool *b) const</argsstring>
+        <name>Read</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>bool *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Reads a boolean value, returning true if the value was found. </para>        </briefdescription>
+        <detaileddescription>
+<para>If the value was not found, <emphasis>b</emphasis> is not changed.</para><para><simplesect kind="since"><para>2.9.1</para></simplesect>
+<bold>wxPerl Note:</bold> Not supported by wxPerl. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/config.h" line="615" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_config_base_1af202773331d956a89eb2e8e725369b9e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxConfigBase::Read</definition>
+        <argsstring>(const wxString &amp;key, bool *d, bool defaultVal) const</argsstring>
+        <name>Read</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>bool *</type>
+          <declname>d</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>defaultVal</declname>
+        </param>
+        <briefdescription>
+<para>Reads a boolean value, returning true if the value was found. </para>        </briefdescription>
+        <detaileddescription>
+<para>If the value was not found, <emphasis>defaultVal</emphasis> is used instead.</para><para><bold>wxPerl Note:</bold> In wxPerl, this can be called as:<itemizedlist>
+<listitem><para>ReadBool(key): returns false if no key is found</para></listitem><listitem><para>ReadBool(key, default): returns the default value if no key is found </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/config.h" line="626" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_config_base_1a1bf0a08978ce2762903c9f2a65ee6e18" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxConfigBase::Read</definition>
+        <argsstring>(const wxString &amp;key, wxMemoryBuffer *buf) const</argsstring>
+        <name>Read</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_memory_buffer" kindref="compound">wxMemoryBuffer</ref> *</type>
+          <declname>buf</declname>
+        </param>
+        <briefdescription>
+<para>Reads a binary block, returning true if the value was found. </para>        </briefdescription>
+        <detaileddescription>
+<para>If the value was not found, <emphasis>buf</emphasis> is not changed. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/config.h" line="632" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_config_base_1ae158d4ec48abb69e06c1e64c0a39218b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxConfigBase::Read</definition>
+        <argsstring>(const wxString &amp;key, T *value) const</argsstring>
+        <name>Read</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>T *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Reads a value of type T, for which function <ref refid="group__group__funcmacro__misc_1ga598ae7504c6436af325490b41f4b5e90" kindref="member">wxFromString()</ref> is defined, returning true if the value was found. </para>        </briefdescription>
+        <detaileddescription>
+<para>If the value was not found, <emphasis>value</emphasis> is not changed. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/config.h" line="638" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_config_base_1ace056b62faa3197aaa9b4210c25954fb" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxConfigBase::Read</definition>
+        <argsstring>(const wxString &amp;key, T *value, const T &amp;defaultVal) const</argsstring>
+        <name>Read</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>T *</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>const T &amp;</type>
+          <declname>defaultVal</declname>
+        </param>
+        <briefdescription>
+<para>Reads a value of type T, for which function <ref refid="group__group__funcmacro__misc_1ga598ae7504c6436af325490b41f4b5e90" kindref="member">wxFromString()</ref> is defined, returning true if the value was found. </para>        </briefdescription>
+        <detaileddescription>
+<para>If the value was not found, <emphasis>defaultVal</emphasis> is used instead. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/config.h" line="644" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_config_base_1ad74920f9fe36e57497bda2fe9b8fd879" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxConfigBase::ReadBool</definition>
+        <argsstring>(const wxString &amp;key, bool defaultVal) const</argsstring>
+        <name>ReadBool</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>defaultVal</declname>
+        </param>
+        <briefdescription>
+<para>Reads a bool value from the key and returns it. </para>        </briefdescription>
+        <detaileddescription>
+<para><emphasis>defaultVal</emphasis> is returned if the key is not found. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/config.h" line="651" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_config_base_1a5c2236796c64ff86d7e2aafa41de6dcc" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double wxConfigBase::ReadDouble</definition>
+        <argsstring>(const wxString &amp;key, double defaultVal) const</argsstring>
+        <name>ReadDouble</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>defaultVal</declname>
+        </param>
+        <briefdescription>
+<para>Reads a double value from the key and returns it. </para>        </briefdescription>
+        <detaileddescription>
+<para><emphasis>defaultVal</emphasis> is returned if the key is not found. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/config.h" line="657" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_config_base_1abc1db67d6a39e3e14624f38d2878d79b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>long</type>
+        <definition>long wxConfigBase::ReadLong</definition>
+        <argsstring>(const wxString &amp;key, long defaultVal) const</argsstring>
+        <name>ReadLong</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>defaultVal</declname>
+        </param>
+        <briefdescription>
+<para>Reads a long value from the key and returns it. </para>        </briefdescription>
+        <detaileddescription>
+<para><emphasis>defaultVal</emphasis> is returned if the key is not found. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/config.h" line="663" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_config_base_1ab4ecd16e102f04f125b9f0f943488933" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>T</type>
+        <definition>T wxConfigBase::ReadObject</definition>
+        <argsstring>(const wxString &amp;key, T const &amp;defaultVal) const</argsstring>
+        <name>ReadObject</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>T const &amp;</type>
+          <declname>defaultVal</declname>
+        </param>
+        <briefdescription>
+<para>Reads a value of type T (for which the function <ref refid="group__group__funcmacro__misc_1ga598ae7504c6436af325490b41f4b5e90" kindref="member">wxFromString()</ref> must be defined) from the key and returns it. </para>        </briefdescription>
+        <detaileddescription>
+<para><emphasis>defaultVal</emphasis> is returned if the key is not found. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/config.h" line="670" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_config_base_1ace24f1478e71ac309ecf1d9273f19ce3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxConfigBase::Write</definition>
+        <argsstring>(const wxString &amp;key, const wxString &amp;value)</argsstring>
+        <name>Write</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Writes the <ref refid="classwx_string" kindref="compound">wxString</ref> value to the config file and returns true on success. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/config.h" line="676" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_config_base_1a052e7e5df90589f8094f860a9bdfd8a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxConfigBase::Write</definition>
+        <argsstring>(const wxString &amp;key, long value)</argsstring>
+        <name>Write</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Writes the long value to the config file and returns true on success. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/config.h" line="680" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_config_base_1a108d7427200466a240f8ea835e74db7b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxConfigBase::Write</definition>
+        <argsstring>(const wxString &amp;key, double value)</argsstring>
+        <name>Write</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Writes the double value to the config file and returns true on success. </para>        </briefdescription>
+        <detaileddescription>
+<para>Notice that if floating point numbers are saved as strings (as is the case with the configuration files used by <ref refid="classwx_file_config" kindref="compound">wxFileConfig</ref>), this function uses the C locale for writing out the number, i.e. it will always use a period as the decimal separator, irrespectively of the current locale. This behaviour is new since wxWidgets 2.9.1 as the current locale was used before, but the change should be transparent because both C and current locales are tried when reading the numbers back. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/config.h" line="693" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_config_base_1a97465083477038dc7d01e363c511f6cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxConfigBase::Write</definition>
+        <argsstring>(const wxString &amp;key, bool value)</argsstring>
+        <name>Write</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Writes the bool value to the config file and returns true on success. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/config.h" line="697" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_config_base_1a83efe80538c9f3e4056ae6d44d362f49" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxConfigBase::Write</definition>
+        <argsstring>(const wxString &amp;key, const wxMemoryBuffer &amp;buf)</argsstring>
+        <name>Write</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_memory_buffer" kindref="compound">wxMemoryBuffer</ref> &amp;</type>
+          <declname>buf</declname>
+        </param>
+        <briefdescription>
+<para>Writes the <ref refid="classwx_memory_buffer" kindref="compound">wxMemoryBuffer</ref> value to the config file and returns true on success. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/config.h" line="702" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_config_base_1a9ac693bd370a81d7fd0cad255869a041" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxConfigBase::Write</definition>
+        <argsstring>(const wxString &amp;key, T const &amp;buf)</argsstring>
+        <name>Write</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>T const &amp;</type>
+          <declname>buf</declname>
+        </param>
+        <briefdescription>
+<para>Writes the specified value to the config file and returns true on success. </para>        </briefdescription>
+        <detaileddescription>
+<para>The function <ref refid="group__group__funcmacro__misc_1ga0adf8026ea8ed126420a2e7ef9edc678" kindref="member">wxToString()</ref> must be defined for type <emphasis>T</emphasis>. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/config.h" line="707" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="user-defined">
+      <header>Rename Entries/Groups</header>
+      <description><para>These functions allow renaming entries or subgroups of the current group.</para><para>They will return false on error, typically because either the entry/group with the original name doesn&apos;t exist, because the entry/group with the new name already exists or because the function is not supported in this wxConfig implementation. </para></description>
+      <memberdef kind="function" id="classwx_config_base_1a1871d5f0aec990c1552242203c5ed0c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>bool</type>
+        <definition>virtual bool wxConfigBase::RenameEntry</definition>
+        <argsstring>(const wxString &amp;oldName, const wxString &amp;newName)=0</argsstring>
+        <name>RenameEntry</name>
+        <reimplementedby refid="classwx_file_config_1a562a1b81e23d70c1921c2139dcf5580d">RenameEntry</reimplementedby>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>oldName</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>newName</declname>
+        </param>
+        <briefdescription>
+<para>Renames an entry in the current group. </para>        </briefdescription>
+        <detaileddescription>
+<para>The entries names (both the old and the new one) shouldn&apos;t contain backslashes, i.e. only simple names and not arbitrary paths are accepted by this function.</para><para><simplesect kind="return"><para>false if <emphasis>oldName</emphasis> doesn&apos;t exist or if <emphasis>newName</emphasis> already exists. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/config.h" line="731" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_config_base_1a4f85e2947979146ccc77b42c15409834" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>bool</type>
+        <definition>virtual bool wxConfigBase::RenameGroup</definition>
+        <argsstring>(const wxString &amp;oldName, const wxString &amp;newName)=0</argsstring>
+        <name>RenameGroup</name>
+        <reimplementedby refid="classwx_file_config_1a3827f9711a31782a2d4f1ea61e1ea592">RenameGroup</reimplementedby>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>oldName</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>newName</declname>
+        </param>
+        <briefdescription>
+<para>Renames a subgroup of the current group. </para>        </briefdescription>
+        <detaileddescription>
+<para>The subgroup names (both the old and the new one) shouldn&apos;t contain backslashes, i.e. only simple names and not arbitrary paths are accepted by this function.</para><para><simplesect kind="return"><para>false if <emphasis>oldName</emphasis> doesn&apos;t exist or if <emphasis>newName</emphasis> already exists. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/config.h" line="742" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="user-defined">
+      <header>Delete Entries/Groups</header>
+      <description><para>These functions delete entries and/or groups of entries from the config file.</para><para><ref refid="classwx_config_base_1af2dd5ec6b56f89decf0e96b057c4846f" kindref="member">DeleteAll()</ref> is especially useful if you want to erase all traces of your program presence: for example, when you uninstall it. </para></description>
+      <memberdef kind="function" id="classwx_config_base_1af2dd5ec6b56f89decf0e96b057c4846f" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>bool</type>
+        <definition>virtual bool wxConfigBase::DeleteAll</definition>
+        <argsstring>()=0</argsstring>
+        <name>DeleteAll</name>
+        <reimplementedby refid="classwx_file_config_1aeb7cd89ccb242ed30506e63fd79ed82f">DeleteAll</reimplementedby>
+        <briefdescription>
+<para>Delete the whole underlying object (disk file, registry key, ...). </para>        </briefdescription>
+        <detaileddescription>
+<para>Primarily for use by uninstallation routine. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/config.h" line="761" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_config_base_1a4032a0432b4a7f956ec30dfc4f4b8593" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>bool</type>
+        <definition>virtual bool wxConfigBase::DeleteEntry</definition>
+        <argsstring>(const wxString &amp;key, bool bDeleteGroupIfEmpty=true)=0</argsstring>
+        <name>DeleteEntry</name>
+        <reimplementedby refid="classwx_file_config_1a120130d8a59bbdadf510b658b4d45952">DeleteEntry</reimplementedby>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>bDeleteGroupIfEmpty</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+<para>Deletes the specified entry and the group it belongs to if it was the last key in it and the second parameter is true. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/config.h" line="767" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_config_base_1ac66bcb140f09c8cb522d3117aa1aa0e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>bool</type>
+        <definition>virtual bool wxConfigBase::DeleteGroup</definition>
+        <argsstring>(const wxString &amp;key)=0</argsstring>
+        <name>DeleteGroup</name>
+        <reimplementedby refid="classwx_file_config_1aed9b867b366bb656ddd3fdf3108e726d">DeleteGroup</reimplementedby>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+<para>Delete the group (with all subgroups). </para>        </briefdescription>
+        <detaileddescription>
+<para>If the current path is under the group being deleted it is changed to its deepest still existing component. E.g. if the current path is <computeroutput>&quot;/A/B/C/D&quot;</computeroutput> and the group <computeroutput>C</computeroutput> is deleted, the path becomes <computeroutput>&quot;/A/B&quot;</computeroutput>. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/config.h" line="776" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="user-defined">
+      <header>Options</header>
+      <description><para>Some aspects of <ref refid="classwx_config_base" kindref="compound">wxConfigBase</ref> behaviour can be changed during run-time.</para><para>The first of them is the expansion of environment variables in the string values read from the config file: for example, if you have the following in your config file:</para><para><programlisting><codeline><highlight class="normal">#<sp/>config<sp/>file<sp/>for<sp/>my<sp/>program</highlight></codeline>
+<codeline><highlight class="normal">UserData<sp/>=<sp/>$HOME/data</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">#<sp/>the<sp/>following<sp/>syntax<sp/>is<sp/>valid<sp/>only<sp/>under<sp/>Windows</highlight></codeline>
+<codeline><highlight class="normal">UserData<sp/>=<sp/>%windir%\\data.dat</highlight></codeline>
+</programlisting></para><para>The call to Read(&quot;UserData&quot;) will return something like <computeroutput>&quot;/home/zeitlin/data&quot;</computeroutput> on linux for example.</para><para>Although this feature is very useful, it may be annoying if you read a value which contains &apos;$&apos; or &apos;&apos; symbols (% is used for environment variables expansion under Windows) which are not used for environment variable expansion. In this situation you may call SetExpandEnvVars(false) just before reading this value and SetExpandEnvVars(true) just after. Another solution would be to prefix the offending symbols with a backslash. </para></description>
+      <memberdef kind="function" id="classwx_config_base_1aab9d00f613c88574093082c394fb706d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxConfigBase::IsExpandingEnvVars</definition>
+        <argsstring>() const</argsstring>
+        <name>IsExpandingEnvVars</name>
+        <briefdescription>
+<para>Returns true if we are expanding environment variables in key values. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/config.h" line="813" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_config_base_1aba4b4badd839e0af4a5b0c15692351a5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxConfigBase::IsRecordingDefaults</definition>
+        <argsstring>() const</argsstring>
+        <name>IsRecordingDefaults</name>
+        <briefdescription>
+<para>Returns true if we are writing defaults back to the config file. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/config.h" line="818" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_config_base_1a3a8c651d2bdde14e6248b0cd85062476" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxConfigBase::SetExpandEnvVars</definition>
+        <argsstring>(bool bDoIt=true)</argsstring>
+        <name>SetExpandEnvVars</name>
+        <param>
+          <type>bool</type>
+          <declname>bDoIt</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+<para>Determine whether we wish to expand environment variables in key values. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/config.h" line="824" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_config_base_1a80bff71cc742251419ba499ce7b4da3c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxConfigBase::SetRecordDefaults</definition>
+        <argsstring>(bool bDoIt=true)</argsstring>
+        <name>SetRecordDefaults</name>
+        <param>
+          <type>bool</type>
+          <declname>bDoIt</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+<para>Sets whether defaults are recorded to the config file whenever an attempt to read the value which is not present in it is done. </para>        </briefdescription>
+        <detaileddescription>
+<para>If on (default is off) all default values for the settings used by the program are written back to the config file. This allows the user to see what config options may be changed and is probably useful only for <ref refid="classwx_file_config" kindref="compound">wxFileConfig</ref>. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/config.h" line="835" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="classwx_config_base_1a499282208b4b9e90cbfe60de25745bc4" prot="public" static="no" strong="no">
+        <type></type>
+        <name>EntryType</name>
+        <enumvalue id="classwx_config_base_1a499282208b4b9e90cbfe60de25745bc4a186e69ade61db5ba7e5fc2366d2388fc" prot="public">
+          <name>Type_Unknown</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classwx_config_base_1a499282208b4b9e90cbfe60de25745bc4afeb4cd8ae582520fd2d45ec35b316d0a" prot="public">
+          <name>Type_String</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classwx_config_base_1a499282208b4b9e90cbfe60de25745bc4a5338e90a8c51020109928f3177c06caf" prot="public">
+          <name>Type_Boolean</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classwx_config_base_1a499282208b4b9e90cbfe60de25745bc4abf7985582695bbed6da7d2de5b22b6e8" prot="public">
+          <name>Type_Integer</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classwx_config_base_1a499282208b4b9e90cbfe60de25745bc4af1cafe0a03c8c929511258c31ea138cb" prot="public">
+          <name>Type_Float</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/config.h" line="428" column="1" bodyfile="interface/wx/config.h" bodystart="427" bodyend="434"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classwx_config_base_1a7c3ce1f79df2837bc532c0ff551e7bac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxConfigBase::wxConfigBase</definition>
+        <argsstring>(const wxString &amp;appName=wxEmptyString, const wxString &amp;vendorName=wxEmptyString, const wxString &amp;localFilename=wxEmptyString, const wxString &amp;globalFilename=wxEmptyString, long style=0, const wxMBConv &amp;conv=wxConvAuto())</argsstring>
+        <name>wxConfigBase</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>appName</declname>
+          <defval><ref refid="interface_2wx_2string_8h_1a9a321d587166a30017b608dd2d234033" kindref="member">wxEmptyString</ref></defval>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>vendorName</declname>
+          <defval><ref refid="interface_2wx_2string_8h_1a9a321d587166a30017b608dd2d234033" kindref="member">wxEmptyString</ref></defval>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>localFilename</declname>
+          <defval><ref refid="interface_2wx_2string_8h_1a9a321d587166a30017b608dd2d234033" kindref="member">wxEmptyString</ref></defval>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>globalFilename</declname>
+          <defval><ref refid="interface_2wx_2string_8h_1a9a321d587166a30017b608dd2d234033" kindref="member">wxEmptyString</ref></defval>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>style</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_m_b_conv" kindref="compound">wxMBConv</ref> &amp;</type>
+          <declname>conv</declname>
+          <defval><ref refid="classwx_conv_auto" kindref="compound">wxConvAuto</ref>()</defval>
+        </param>
+        <briefdescription>
+<para>This is the default and only constructor of the <ref refid="classwx_config_base" kindref="compound">wxConfigBase</ref> class, and derived classes. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>appName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The application name. If this is empty, the class will normally use <ref refid="classwx_app_console_1a228d7699a00845219744c08e8c78b889" kindref="member">wxApp::GetAppName()</ref> to set it. The application name is used in the registry key on Windows, and can be used to deduce the local filename parameter if that is missing. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>vendorName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The vendor name. If this is empty, it is assumed that no vendor name is wanted, if this is optional for the current config class. The vendor name is appended to the application name for <ref refid="classwx_reg_config" kindref="compound">wxRegConfig</ref>. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>localFilename</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Some config classes require a local filename. If this is not present, but required, the application name will be used instead. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>globalFilename</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Some config classes require a global filename. If this is not present, but required, the application name will be used instead. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>style</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Can be one of <computeroutput>wxCONFIG_USE_LOCAL_FILE</computeroutput> and <computeroutput>wxCONFIG_USE_GLOBAL_FILE</computeroutput>. <linebreak/>
+ The style interpretation depends on the config class and is ignored by some implementations. For <ref refid="classwx_file_config" kindref="compound">wxFileConfig</ref>, these styles determine whether a local or global config file is created or used: if <computeroutput>wxCONFIG_USE_GLOBAL_FILE</computeroutput> is used, then settings are read from the global config file and if <computeroutput>wxCONFIG_USE_LOCAL_FILE</computeroutput> is used, settings are read from and written to local config file (if they are both set, global file is read first, then local file, overwriting global settings). If the flag is present but the parameter is empty, the parameter will be set to a default. If the parameter is present but the style flag not, the relevant flag will be added to the style. For <ref refid="classwx_reg_config" kindref="compound">wxRegConfig</ref>, the GLOBAL flag refers to the <computeroutput>HKLM</computeroutput> key while LOCAL one is for the usual <computeroutput>HKCU</computeroutput> one. <linebreak/>
+ For <ref refid="classwx_file_config" kindref="compound">wxFileConfig</ref> you can also add <computeroutput>wxCONFIG_USE_RELATIVE_PATH</computeroutput> by logically or&apos;ing it to either of the _FILE options to tell <ref refid="classwx_file_config" kindref="compound">wxFileConfig</ref> to use relative instead of absolute paths. <linebreak/>
+ On non-VMS Unix systems, the default local configuration file is &quot;~/.appname&quot;. However, this path may be also used as user data directory (see <ref refid="classwx_standard_paths_1a5b9d1b1addc3e4ce30ccb3817cbbe19b" kindref="member">wxStandardPaths::GetUserDataDir()</ref>) if the application has several data files. In this case <computeroutput>wxCONFIG_USE_SUBDIR</computeroutput> flag, which changes the default local configuration file to &quot;~/.appname/appname&quot; should be used. Notice that this flag is ignored if <emphasis>localFilename</emphasis> is provided. <computeroutput>wxCONFIG_USE_SUBDIR</computeroutput> is new since wxWidgets version 2.8.2. <linebreak/>
+ For <ref refid="classwx_file_config" kindref="compound">wxFileConfig</ref>, you can also add <computeroutput>wxCONFIG_USE_NO_ESCAPE_CHARACTERS</computeroutput> which will turn off character escaping for the values of entries stored in the config file: for example a foo key with some backslash characters will be stored as &quot;foo=C:\mydir&quot; instead of the usual storage of &quot;foo=C:\\mydir&quot;. <linebreak/>
+ The <computeroutput>wxCONFIG_USE_NO_ESCAPE_CHARACTERS</computeroutput> style can be helpful if your config file must be read or written to by a non-wxWidgets program (which might not understand the escape characters). Note, however, that if <computeroutput>wxCONFIG_USE_NO_ESCAPE_CHARACTERS</computeroutput> style is used, it is now your application&apos;s responsibility to ensure that there is no newline or other illegal characters in a value, before writing that value to the file. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>conv</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>This parameter is only used by <ref refid="classwx_file_config" kindref="compound">wxFileConfig</ref> when compiled in Unicode mode. It specifies the encoding in which the configuration file is written.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="remark"><para>By default, environment variable expansion is on and recording defaults is off. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/config.h" line="327" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_config_base_1a43a12ede8b28e1a62820101105f380d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual wxConfigBase::~wxConfigBase</definition>
+        <argsstring>()</argsstring>
+        <name>~wxConfigBase</name>
+        <briefdescription>
+<para>Empty but ensures that dtor of all derived classes is virtual. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/config.h" line="337" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classwx_config_base_1aa7d633935adabe1bf11b5a028f8b3355" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_config_base" kindref="compound">wxConfigBase</ref> *</type>
+        <definition>static wxConfigBase* wxConfigBase::Create</definition>
+        <argsstring>()</argsstring>
+        <name>Create</name>
+        <briefdescription>
+<para>Create a new config object and sets it as the current one. </para>        </briefdescription>
+        <detaileddescription>
+<para>This function will create the most appropriate implementation of wxConfig available for the current platform. By default this means that the system registry will be used for storing the configuration information under MSW and a file under the user home directory (see <ref refid="classwx_standard_paths_1a0561d70f7da648e10b25bf9679309da3" kindref="member">wxStandardPaths::GetUserConfigDir()</ref>) elsewhere.</para><para>If you prefer to use the configuration files everywhere, you can define <computeroutput>wxUSE_CONFIG_NATIVE</computeroutput> to 0 when compiling wxWidgets. Or you can simply always create <ref refid="classwx_file_config" kindref="compound">wxFileConfig</ref> explicitly.</para><para>Finally, if you want to create a custom wxConfig subclass you may change this function behaviour by overriding <ref refid="classwx_app_traits_1a548e252e1b2feec51a0e6f32cb69c8cd" kindref="member">wxAppTraits::CreateConfig()</ref> to create it. An example when this could be useful could be an application which could be installed either normally (in which case the default behaviour of using <ref refid="classwx_reg_config" kindref="compound">wxRegConfig</ref> is appropriate) or in a &quot;portable&quot; way in which case a <ref refid="classwx_file_config" kindref="compound">wxFileConfig</ref> with a file in the program directory would be used and the choice would be done in CreateConfig() at run-time. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/config.h" line="862" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_config_base_1a0e8ad0cb0c5b374a99b99ea6212e496b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void wxConfigBase::DontCreateOnDemand</definition>
+        <argsstring>()</argsstring>
+        <name>DontCreateOnDemand</name>
+        <briefdescription>
+<para>Calling this function will prevent <emphasis><ref refid="classwx_config_base_1a61bfb04c1c133190b3e851b252ed1c60" kindref="member">Get()</ref></emphasis> from automatically creating a new config object if the current one is NULL. </para>        </briefdescription>
+        <detaileddescription>
+<para>It might be useful to call it near the program end to prevent &quot;accidental&quot; creation of a new config object. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/config.h" line="870" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_config_base_1a61bfb04c1c133190b3e851b252ed1c60" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_config_base" kindref="compound">wxConfigBase</ref> *</type>
+        <definition>static wxConfigBase* wxConfigBase::Get</definition>
+        <argsstring>(bool CreateOnDemand=true)</argsstring>
+        <name>Get</name>
+        <param>
+          <type>bool</type>
+          <declname>CreateOnDemand</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+<para>Get the current config object. </para>        </briefdescription>
+        <detaileddescription>
+<para>If there is no current object and <emphasis>CreateOnDemand</emphasis> is true, this creates one (using <ref refid="classwx_config_base_1aa7d633935adabe1bf11b5a028f8b3355" kindref="member">Create()</ref>) unless <ref refid="classwx_config_base_1a0e8ad0cb0c5b374a99b99ea6212e496b" kindref="member">DontCreateOnDemand()</ref> was called previously. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/config.h" line="877" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_config_base_1a8e2ca739326f32379d6816522a5d1907" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_config_base" kindref="compound">wxConfigBase</ref> *</type>
+        <definition>static wxConfigBase* wxConfigBase::Set</definition>
+        <argsstring>(wxConfigBase *pConfig)</argsstring>
+        <name>Set</name>
+        <param>
+          <type><ref refid="classwx_config_base" kindref="compound">wxConfigBase</ref> *</type>
+          <declname>pConfig</declname>
+        </param>
+        <briefdescription>
+<para>Sets the config object as the current one, returns the pointer to the previous current object (both the parameter and returned value may be NULL). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/config.h" line="884" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="classwx_config_base" kindref="compound">wxConfigBase</ref> defines the basic interface of all config classes. </para>    </briefdescription>
+    <detaileddescription>
+<para>It cannot be used by itself (it is an abstract base class) and you will always use one of its derivations: <ref refid="classwx_file_config" kindref="compound">wxFileConfig</ref>, <ref refid="classwx_reg_config" kindref="compound">wxRegConfig</ref> or any other.</para><para>However, usually you don&apos;t even need to know the precise nature of the class you&apos;re working with but you would just use the <ref refid="classwx_config_base" kindref="compound">wxConfigBase</ref> methods. This allows you to write the same code regardless of whether you&apos;re working with the registry under Windows or text-based config files under Unix. To make writing the portable code even easier, wxWidgets provides a typedef wxConfig which is mapped onto the native <ref refid="classwx_config_base" kindref="compound">wxConfigBase</ref> implementation on the given platform: i.e. <ref refid="classwx_reg_config" kindref="compound">wxRegConfig</ref> under Windows and <ref refid="classwx_file_config" kindref="compound">wxFileConfig</ref> otherwise.</para><para>See <ref refid="overview_config" kindref="compound">wxConfig Overview</ref> for a description of all features of this class.</para><para>It is highly recommended to use static functions <ref refid="classwx_config_base_1a61bfb04c1c133190b3e851b252ed1c60" kindref="member">Get()</ref> and/or <ref refid="classwx_config_base_1a8e2ca739326f32379d6816522a5d1907" kindref="member">Set()</ref>, so please have a look at them.</para><para>Related Include Files:</para><para><itemizedlist>
+<listitem><para><computeroutput>&lt;<ref refid="interface_2wx_2config_8h" kindref="compound">wx/config.h</ref>&gt;</computeroutput> - Let wxWidgets choose a wxConfig class for your platform. </para></listitem>
+<listitem><para><computeroutput>&lt;wx/confbase.h&gt;</computeroutput> - Base config class. </para></listitem>
+<listitem><para><computeroutput>&lt;<ref refid="fileconf_8h" kindref="compound">wx/fileconf.h</ref>&gt;</computeroutput> - <ref refid="classwx_file_config" kindref="compound">wxFileConfig</ref> class. </para></listitem>
+<listitem><para><computeroutput>&lt;<ref refid="regconf_8h" kindref="compound">wx/msw/regconf.h</ref>&gt;</computeroutput> - <ref refid="classwx_reg_config" kindref="compound">wxRegConfig</ref> class, see also <ref refid="classwx_reg_key" kindref="compound">wxRegKey</ref>.</para></listitem>
+</itemizedlist>
+</para><sect1 id="classwx_config_base_1configbase_example">
+<title>Example</title>
+<para>Here is how you would typically use this class:</para><para><programlisting><codeline><highlight class="normal">//<sp/>using<sp/>wxConfig<sp/>instead<sp/>of<sp/>writing<sp/>wxFileConfig<sp/>or<sp/>wxRegConfig<sp/>enhances</highlight></codeline>
+<codeline><highlight class="normal">//<sp/>portability<sp/>of<sp/>the<sp/>code</highlight></codeline>
+<codeline><highlight class="normal">wxConfig<sp/>*config<sp/>=<sp/>new<sp/>wxConfig(&quot;MyAppName&quot;);</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">wxString<sp/>str;</highlight></codeline>
+<codeline><highlight class="normal">if<sp/>(<sp/>config-&gt;Read(&quot;LastPrompt&quot;,<sp/>&amp;str)<sp/>)<sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>//<sp/>last<sp/>prompt<sp/>was<sp/>found<sp/>in<sp/>the<sp/>config<sp/>file/registry<sp/>and<sp/>its<sp/>value<sp/>is</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>//<sp/>now<sp/>in<sp/>str</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>//<sp/>...</highlight></codeline>
+<codeline><highlight class="normal">}</highlight></codeline>
+<codeline><highlight class="normal">else<sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>//<sp/>no<sp/>last<sp/>prompt...</highlight></codeline>
+<codeline><highlight class="normal">}</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">//<sp/>another<sp/>example:<sp/>using<sp/>default<sp/>values<sp/>and<sp/>the<sp/>full<sp/>path<sp/>instead<sp/>of<sp/>just</highlight></codeline>
+<codeline><highlight class="normal">//<sp/>key<sp/>name:<sp/>if<sp/>the<sp/>key<sp/>is<sp/>not<sp/>found<sp/>,<sp/>the<sp/>value<sp/>17<sp/>is<sp/>returned</highlight></codeline>
+<codeline><highlight class="normal">long<sp/>value<sp/>=<sp/>config-&gt;ReadLong(&quot;/LastRun/CalculatedValues/MaxValue&quot;,<sp/>17);</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">//<sp/>at<sp/>the<sp/>end<sp/>of<sp/>the<sp/>program<sp/>we<sp/>would<sp/>save<sp/>everything<sp/>back</highlight></codeline>
+<codeline><highlight class="normal">config-&gt;Write(&quot;LastPrompt&quot;,<sp/>str);</highlight></codeline>
+<codeline><highlight class="normal">config-&gt;Write(&quot;/LastRun/CalculatedValues/MaxValue&quot;,<sp/>value);</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">//<sp/>the<sp/>changes<sp/>will<sp/>be<sp/>written<sp/>back<sp/>automatically</highlight></codeline>
+<codeline><highlight class="normal">delete<sp/>config;</highlight></codeline>
+</programlisting></para><para>This basic example, of course, doesn&apos;t show all wxConfig features, such as enumerating, testing for existence and deleting the entries and groups of entries in the config file, its abilities to automatically store the default values or expand the environment variables on the fly. However, the main idea is that using this class is easy and that it should normally do what you expect it to.</para><para><simplesect kind="note"><para>In the documentation of this class, the words &quot;config file&quot; also mean &quot;registry hive&quot; for <ref refid="classwx_reg_config" kindref="compound">wxRegConfig</ref> and, generally speaking, might mean any physical storage where a wxConfigBase-derived class stores its data.</para></simplesect>
+</para></sect1>
+<sect1 id="classwx_config_base_1configbase_static">
+<title>Static Functions</title>
+<para>The static functions provided deal with the &quot;default&quot; config object. Although its usage is not at all mandatory it may be convenient to use a global config object instead of creating and deleting the local config objects each time you need one (especially because creating a <ref refid="classwx_file_config" kindref="compound">wxFileConfig</ref> object might be a time consuming operation). In this case, you may create this global config object in the very start of the program and <ref refid="classwx_config_base_1a8e2ca739326f32379d6816522a5d1907" kindref="member">Set()</ref> it as the default. Then, from anywhere in your program, you may access it using the <ref refid="classwx_config_base_1a61bfb04c1c133190b3e851b252ed1c60" kindref="member">Get()</ref> function. This global wxConfig object will be deleted by wxWidgets automatically if it exists. Note that this implies that if you do delete this object yourself (usually in <ref refid="classwx_app_console_1a5ee60051c92b0b2933258799626a0485" kindref="member">wxApp::OnExit()</ref>) you must use Set(NULL) to prevent wxWidgets from deleting it the second time.</para><para>As it happens, you may even further simplify the procedure described above: you may forget about calling <ref refid="classwx_config_base_1a8e2ca739326f32379d6816522a5d1907" kindref="member">Set()</ref>. When <ref refid="classwx_config_base_1a61bfb04c1c133190b3e851b252ed1c60" kindref="member">Get()</ref> is called and there is no current object, it will create one using <ref refid="classwx_config_base_1aa7d633935adabe1bf11b5a028f8b3355" kindref="member">Create()</ref> function. To disable this behaviour <ref refid="classwx_config_base_1a0e8ad0cb0c5b374a99b99ea6212e496b" kindref="member">DontCreateOnDemand()</ref> is provided.</para><para><simplesect kind="note"><para>You should use either <ref refid="classwx_config_base_1a8e2ca739326f32379d6816522a5d1907" kindref="member">Set()</ref> or <ref refid="classwx_config_base_1a61bfb04c1c133190b3e851b252ed1c60" kindref="member">Get()</ref> because wxWidgets library itself would take advantage of it and could save various information in it. For example <ref refid="classwx_font_mapper" kindref="compound">wxFontMapper</ref> or Unix version of <ref refid="classwx_file_dialog" kindref="compound">wxFileDialog</ref> have the ability to use wxConfig class.</para></simplesect>
+</para></sect1>
+<sect1 id="classwx_config_base_1configbase_paths">
+<title>Path Management</title>
+<para>As explained in the <ref refid="overview_config" kindref="compound">config overview</ref>, the config classes support a file system-like hierarchy of keys (files) and groups (directories). As in the file system case, to specify a key in the config class you must use a path to it. Config classes also support the notion of the current group, which makes it possible to use the relative paths. To clarify all this, here is an example (it is only for the sake of demonstration, it doesn&apos;t do anything sensible!):</para><para><programlisting><codeline><highlight class="normal">wxConfig<sp/>*config<sp/>=<sp/>new<sp/>wxConfig(&quot;FooBarApp&quot;);</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">//<sp/>right<sp/>now<sp/>the<sp/>current<sp/>path<sp/>is<sp/>&apos;/&apos;</highlight></codeline>
+<codeline><highlight class="normal">conf-&gt;Write(&quot;RootEntry&quot;,<sp/>1);</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">//<sp/>go<sp/>to<sp/>some<sp/>other<sp/>place:<sp/>if<sp/>the<sp/>group(s)<sp/>don&apos;t<sp/>exist,<sp/>they<sp/>will<sp/>be<sp/>created</highlight></codeline>
+<codeline><highlight class="normal">conf-&gt;SetPath(&quot;/Group/Subgroup&quot;);</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">//<sp/>create<sp/>an<sp/>entry<sp/>in<sp/>subgroup</highlight></codeline>
+<codeline><highlight class="normal">conf-&gt;Write(&quot;SubgroupEntry&quot;,<sp/>3);</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">//<sp/>&apos;..&apos;<sp/>is<sp/>understood</highlight></codeline>
+<codeline><highlight class="normal">conf-&gt;Write(&quot;../GroupEntry&quot;,<sp/>2);</highlight></codeline>
+<codeline><highlight class="normal">conf-&gt;SetPath(&quot;..&quot;);</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">wxASSERT(<sp/>conf-&gt;ReadLong(&quot;Subgroup/SubgroupEntry&quot;,<sp/>0)<sp/>==<sp/>3<sp/>);</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">//<sp/>use<sp/>absolute<sp/>path:<sp/>it<sp/>is<sp/>allowed,<sp/>too</highlight></codeline>
+<codeline><highlight class="normal">wxASSERT(<sp/>conf-&gt;ReadLong(&quot;/RootEntry&quot;,<sp/>0)<sp/>==<sp/>1<sp/>);</highlight></codeline>
+</programlisting></para><para>It is highly recommended that you restore the path to its old value on function exit:</para><para><programlisting><codeline><highlight class="normal">void<sp/>foo(wxConfigBase<sp/>*config)</highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>wxString<sp/>strOldPath<sp/>=<sp/>config-&gt;GetPath();</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>config-&gt;SetPath(&quot;/Foo/Data&quot;);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>//<sp/>...</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>config-&gt;SetPath(strOldPath);</highlight></codeline>
+<codeline><highlight class="normal">}</highlight></codeline>
+</programlisting></para><para>Otherwise the assert in the following example will surely fail (we suppose here that the foo() function is the same as above except that it doesn’t save and restore the path):</para><para><programlisting><codeline><highlight class="normal">void<sp/>bar(wxConfigBase<sp/>*config)</highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>config-&gt;Write(&quot;Test&quot;,<sp/>17);</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>foo(config);</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>//<sp/>we&apos;re<sp/>reading<sp/>&quot;/Foo/Data/Test&quot;<sp/>here!<sp/>-1<sp/>will<sp/>probably<sp/>be<sp/>returned...</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>wxASSERT(<sp/>config-&gt;ReadLong(&quot;Test&quot;,<sp/>-1)<sp/>==<sp/>17<sp/>);</highlight></codeline>
+<codeline><highlight class="normal">}</highlight></codeline>
+</programlisting></para><para>Finally, the path separator in <ref refid="classwx_config_base" kindref="compound">wxConfigBase</ref> and derived classes is always &quot;/&quot;, regardless of the platform (i.e. it is not &quot;\\&quot; under Windows).</para></sect1>
+<sect1 id="classwx_config_base_1configbase_enumeration">
+<title>Enumeration</title>
+<para>The enumeration functions allow you to enumerate all entries and groups in the config file. All functions here return false when there are no more items.</para><para>You must pass the same index to GetNext() and GetFirst() (don&apos;t modify it). Please note that it is not the index of the current item (you will have some great surprises with <ref refid="classwx_reg_config" kindref="compound">wxRegConfig</ref> if you assume this) and you shouldn&apos;t even look at it: it is just a &quot;cookie&quot; which stores the state of the enumeration. It can&apos;t be stored inside the class because it would prevent you from running several enumerations simultaneously, that&apos;s why you must pass it explicitly.</para><para>Having said all this, enumerating the config entries/groups is very simple:</para><para><programlisting><codeline><highlight class="normal">wxConfigBase<sp/>*config<sp/>=<sp/>...;</highlight></codeline>
+<codeline><highlight class="normal">wxArrayString<sp/>aNames;</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">//<sp/>enumeration<sp/>variables</highlight></codeline>
+<codeline><highlight class="normal">wxString<sp/>str;</highlight></codeline>
+<codeline><highlight class="normal">long<sp/>dummy;</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">//<sp/>first<sp/>enum<sp/>all<sp/>entries</highlight></codeline>
+<codeline><highlight class="normal">bool<sp/>bCont<sp/>=<sp/>config-&gt;GetFirstEntry(str,<sp/>dummy);</highlight></codeline>
+<codeline><highlight class="normal">while<sp/>(<sp/>bCont<sp/>)<sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>aNames.Add(str);</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>bCont<sp/>=<sp/>GetConfig()-&gt;GetNextEntry(str,<sp/>dummy);</highlight></codeline>
+<codeline><highlight class="normal">}</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">//<sp/>...<sp/>we<sp/>have<sp/>all<sp/>entry<sp/>names<sp/>in<sp/>aNames...</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">//<sp/>now<sp/>all<sp/>groups...</highlight></codeline>
+<codeline><highlight class="normal">bCont<sp/>=<sp/>GetConfig()-&gt;GetFirstGroup(str,<sp/>dummy);</highlight></codeline>
+<codeline><highlight class="normal">while<sp/>(<sp/>bCont<sp/>)<sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>aNames.Add(str);</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>bCont<sp/>=<sp/>GetConfig()-&gt;GetNextGroup(str,<sp/>dummy);</highlight></codeline>
+<codeline><highlight class="normal">}</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">//<sp/>...<sp/>we<sp/>have<sp/>all<sp/>group<sp/>(and<sp/>entry)<sp/>names<sp/>in<sp/>aNames...</highlight></codeline>
+</programlisting></para><para>There are also functions to get the number of entries/subgroups without actually enumerating them, but you will probably never need them.</para></sect1>
+<sect1 id="classwx_config_base_1configbase_keyaccess">
+<title>Key Access</title>
+<para>The key access functions are the core of <ref refid="classwx_config_base" kindref="compound">wxConfigBase</ref> class: they allow you to read and write config file data. All <ref refid="classwx_config_base_1a0fe9238f38e565f3218563c674e66161" kindref="member">Read()</ref> functions take a default value which will be returned if the specified key is not found in the config file.</para><para>Currently, supported types of data are: <ref refid="classwx_string" kindref="compound">wxString</ref>, <computeroutput>long</computeroutput>, <computeroutput>double</computeroutput>, <computeroutput>bool</computeroutput>, <ref refid="classwx_colour" kindref="compound">wxColour</ref> and any other types for which the functions <ref refid="group__group__funcmacro__misc_1ga0adf8026ea8ed126420a2e7ef9edc678" kindref="member">wxToString()</ref> and <ref refid="group__group__funcmacro__misc_1ga598ae7504c6436af325490b41f4b5e90" kindref="member">wxFromString()</ref> are defined.</para><para>Try not to read long values into string variables and vice versa: although it just might work with <ref refid="classwx_file_config" kindref="compound">wxFileConfig</ref>, you will get a system error with <ref refid="classwx_reg_config" kindref="compound">wxRegConfig</ref> because in the Windows registry the different types of entries are indeed used.</para><para>Final remark: the <emphasis>szKey</emphasis> parameter for all these functions can contain an arbitrary path (either relative or absolute), not just the key name.</para><para><heading level="2"></heading>
+</para><para>Library:<nonbreakablespace/><nonbreakablespace/><ref refid="page_libs_1page_libs_wxbase" kindref="member">wxBase</ref> &lt;&gt;&lt; =&apos;&apos;&gt;:&lt;/&gt;&amp;;&amp;;&lt; =&apos;&apos;&gt;\ &lt;/&gt;&lt;/&gt;</para><para><simplesect kind="see"><para><ref refid="classwx_config_path_changer" kindref="compound">wxConfigPathChanger</ref> </para></simplesect>
+</para></sect1>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1081">
+        <label>wxConfigBase</label>
+        <link refid="classwx_config_base"/>
+        <childnode refid="1082" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1083">
+        <label>wxFileConfig</label>
+        <link refid="classwx_file_config"/>
+        <childnode refid="1081" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1082">
+        <label>wxObject</label>
+        <link refid="classwx_object"/>
+      </node>
+      <node id="1084">
+        <label>wxRegConfig</label>
+        <link refid="classwx_reg_config"/>
+        <childnode refid="1081" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1085">
+        <label>wxConfigBase</label>
+        <link refid="classwx_config_base"/>
+        <childnode refid="1086" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1086">
+        <label>wxObject</label>
+        <link refid="classwx_object"/>
+        <childnode refid="1087" relation="usage">
+          <edgelabel>m_refData</edgelabel>
+        </childnode>
+      </node>
+      <node id="1087">
+        <label>wxObjectRefData</label>
+        <link refid="classwx_object_ref_data"/>
+      </node>
+    </collaborationgraph>
+    <location file="interface/wx/config.h" line="260" column="1" bodyfile="interface/wx/config.h" bodystart="259" bodyend="885"/>
+    <listofallmembers>
+      <member refid="classwx_object_1a60204063f3cc3aa2fa1c7ff5bda9eb13" prot="protected" virt="non-virtual"><scope>wxConfigBase</scope><name>AllocExclusive</name></member>
+      <member refid="classwx_object_1a436fc8fe68cf8a31000296d9cd3d2427" prot="protected" virt="virtual"><scope>wxConfigBase</scope><name>CloneRefData</name></member>
+      <member refid="classwx_config_base_1aa7d633935adabe1bf11b5a028f8b3355" prot="public" virt="non-virtual"><scope>wxConfigBase</scope><name>Create</name></member>
+      <member refid="classwx_object_1a3f4f497c65cef611e121c41f21dd5ccc" prot="protected" virt="virtual"><scope>wxConfigBase</scope><name>CreateRefData</name></member>
+      <member refid="classwx_config_base_1af2dd5ec6b56f89decf0e96b057c4846f" prot="public" virt="pure-virtual"><scope>wxConfigBase</scope><name>DeleteAll</name></member>
+      <member refid="classwx_config_base_1a4032a0432b4a7f956ec30dfc4f4b8593" prot="public" virt="pure-virtual"><scope>wxConfigBase</scope><name>DeleteEntry</name></member>
+      <member refid="classwx_config_base_1ac66bcb140f09c8cb522d3117aa1aa0e7" prot="public" virt="pure-virtual"><scope>wxConfigBase</scope><name>DeleteGroup</name></member>
+      <member refid="classwx_config_base_1a0e8ad0cb0c5b374a99b99ea6212e496b" prot="public" virt="non-virtual"><scope>wxConfigBase</scope><name>DontCreateOnDemand</name></member>
+      <member refid="classwx_config_base_1a499282208b4b9e90cbfe60de25745bc4" prot="public" virt="non-virtual"><scope>wxConfigBase</scope><name>EntryType</name></member>
+      <member refid="classwx_config_base_1adf827c37b0872f16ccc286c8678718b6" prot="public" virt="non-virtual"><scope>wxConfigBase</scope><name>Exists</name></member>
+      <member refid="classwx_config_base_1a0b8cfc81de4d2534e8ab980b0fc6b9b8" prot="public" virt="pure-virtual"><scope>wxConfigBase</scope><name>Flush</name></member>
+      <member refid="classwx_config_base_1a61bfb04c1c133190b3e851b252ed1c60" prot="public" virt="non-virtual"><scope>wxConfigBase</scope><name>Get</name></member>
+      <member refid="classwx_config_base_1ac5b951ebb367a4bbc2ccebc045cb1591" prot="public" virt="non-virtual"><scope>wxConfigBase</scope><name>GetAppName</name></member>
+      <member refid="classwx_object_1ae6d365f2556b26767ced8410c5e839d0" prot="public" virt="virtual"><scope>wxConfigBase</scope><name>GetClassInfo</name></member>
+      <member refid="classwx_config_base_1a2fd2205a9bbcd9fe248dc43174117d59" prot="public" virt="virtual"><scope>wxConfigBase</scope><name>GetEntryType</name></member>
+      <member refid="classwx_config_base_1a1f8338dd47972d196c6475e7e1140ae7" prot="public" virt="pure-virtual"><scope>wxConfigBase</scope><name>GetFirstEntry</name></member>
+      <member refid="classwx_config_base_1af111cb376665bd1b7fc77ae20d985a6d" prot="public" virt="pure-virtual"><scope>wxConfigBase</scope><name>GetFirstGroup</name></member>
+      <member refid="classwx_config_base_1a0c99d5eb83f8ebad82e1a13d1295f644" prot="public" virt="pure-virtual"><scope>wxConfigBase</scope><name>GetNextEntry</name></member>
+      <member refid="classwx_config_base_1a491e0d51c86d4facd8184969ea6d341c" prot="public" virt="pure-virtual"><scope>wxConfigBase</scope><name>GetNextGroup</name></member>
+      <member refid="classwx_config_base_1a993bdb14c4115ddc1458fb8bdc9de604" prot="public" virt="pure-virtual"><scope>wxConfigBase</scope><name>GetNumberOfEntries</name></member>
+      <member refid="classwx_config_base_1ad695ef5dd7dee1b24c7813aa08599eb9" prot="public" virt="pure-virtual"><scope>wxConfigBase</scope><name>GetNumberOfGroups</name></member>
+      <member refid="classwx_config_base_1a2c76e8a110cecc4d89d3af1565044e15" prot="public" virt="pure-virtual"><scope>wxConfigBase</scope><name>GetPath</name></member>
+      <member refid="classwx_object_1af3c6c76a775864832f1536d3c0de3a2b" prot="public" virt="non-virtual"><scope>wxConfigBase</scope><name>GetRefData</name></member>
+      <member refid="classwx_config_base_1affb49e611d184a7c0d4a2ccde9452026" prot="public" virt="non-virtual"><scope>wxConfigBase</scope><name>GetVendorName</name></member>
+      <member refid="classwx_config_base_1aaca0748de0e2e2841aaec85f63403d3b" prot="public" virt="pure-virtual"><scope>wxConfigBase</scope><name>HasEntry</name></member>
+      <member refid="classwx_config_base_1a27472b872af09e73597735d0938b007d" prot="public" virt="pure-virtual"><scope>wxConfigBase</scope><name>HasGroup</name></member>
+      <member refid="classwx_config_base_1aab9d00f613c88574093082c394fb706d" prot="public" virt="non-virtual"><scope>wxConfigBase</scope><name>IsExpandingEnvVars</name></member>
+      <member refid="classwx_object_1a3c7115ef4132dcee0c4fc34e84d7fced" prot="public" virt="non-virtual"><scope>wxConfigBase</scope><name>IsKindOf</name></member>
+      <member refid="classwx_config_base_1aba4b4badd839e0af4a5b0c15692351a5" prot="public" virt="non-virtual"><scope>wxConfigBase</scope><name>IsRecordingDefaults</name></member>
+      <member refid="classwx_object_1a059373c494c2369d7db2a556efef8ecf" prot="public" virt="non-virtual"><scope>wxConfigBase</scope><name>IsSameAs</name></member>
+      <member refid="classwx_object_1a9e31954530a0abd54982effc443ed2b8" prot="protected" virt="non-virtual"><scope>wxConfigBase</scope><name>m_refData</name></member>
+      <member refid="classwx_object_1a07b8f34f5afc5743195c5fed052f55d3" prot="public" virt="non-virtual"><scope>wxConfigBase</scope><name>operator delete</name></member>
+      <member refid="classwx_object_1a96fa423a1dbc212c8227a5d83825971f" prot="public" virt="non-virtual"><scope>wxConfigBase</scope><name>operator new</name></member>
+      <member refid="classwx_config_base_1a0fe9238f38e565f3218563c674e66161" prot="public" virt="non-virtual"><scope>wxConfigBase</scope><name>Read</name></member>
+      <member refid="classwx_config_base_1aa664f00931a8cbf4990c3aa4b6b1098c" prot="public" virt="non-virtual"><scope>wxConfigBase</scope><name>Read</name></member>
+      <member refid="classwx_config_base_1a1a593fc959d10854daa9dba04b6747ba" prot="public" virt="non-virtual"><scope>wxConfigBase</scope><name>Read</name></member>
+      <member refid="classwx_config_base_1a8655c70b311edf7d808e5babb565ab77" prot="public" virt="non-virtual"><scope>wxConfigBase</scope><name>Read</name></member>
+      <member refid="classwx_config_base_1a06fafffd5e7ac33927ba38cec18e30f0" prot="public" virt="non-virtual"><scope>wxConfigBase</scope><name>Read</name></member>
+      <member refid="classwx_config_base_1a09e29da759fd763f159334bd19bffd3d" prot="public" virt="non-virtual"><scope>wxConfigBase</scope><name>Read</name></member>
+      <member refid="classwx_config_base_1a8441c70cfe5e56d40e84283c081e4073" prot="public" virt="non-virtual"><scope>wxConfigBase</scope><name>Read</name></member>
+      <member refid="classwx_config_base_1a39c887dcf0861245e88ac9892faf23cf" prot="public" virt="non-virtual"><scope>wxConfigBase</scope><name>Read</name></member>
+      <member refid="classwx_config_base_1a3e1ae84c1e9d076fcbcf78bf9ea9ee63" prot="public" virt="non-virtual"><scope>wxConfigBase</scope><name>Read</name></member>
+      <member refid="classwx_config_base_1abd35ea62d3335d3ada07fe8c132839e6" prot="public" virt="non-virtual"><scope>wxConfigBase</scope><name>Read</name></member>
+      <member refid="classwx_config_base_1af202773331d956a89eb2e8e725369b9e" prot="public" virt="non-virtual"><scope>wxConfigBase</scope><name>Read</name></member>
+      <member refid="classwx_config_base_1a1bf0a08978ce2762903c9f2a65ee6e18" prot="public" virt="non-virtual"><scope>wxConfigBase</scope><name>Read</name></member>
+      <member refid="classwx_config_base_1ae158d4ec48abb69e06c1e64c0a39218b" prot="public" virt="non-virtual"><scope>wxConfigBase</scope><name>Read</name></member>
+      <member refid="classwx_config_base_1ace056b62faa3197aaa9b4210c25954fb" prot="public" virt="non-virtual"><scope>wxConfigBase</scope><name>Read</name></member>
+      <member refid="classwx_config_base_1ad74920f9fe36e57497bda2fe9b8fd879" prot="public" virt="non-virtual"><scope>wxConfigBase</scope><name>ReadBool</name></member>
+      <member refid="classwx_config_base_1a5c2236796c64ff86d7e2aafa41de6dcc" prot="public" virt="non-virtual"><scope>wxConfigBase</scope><name>ReadDouble</name></member>
+      <member refid="classwx_config_base_1abc1db67d6a39e3e14624f38d2878d79b" prot="public" virt="non-virtual"><scope>wxConfigBase</scope><name>ReadLong</name></member>
+      <member refid="classwx_config_base_1ab4ecd16e102f04f125b9f0f943488933" prot="public" virt="non-virtual"><scope>wxConfigBase</scope><name>ReadObject</name></member>
+      <member refid="classwx_object_1a2f6f1aa51fe9fc2b1415ca4211a90e9e" prot="public" virt="non-virtual"><scope>wxConfigBase</scope><name>Ref</name></member>
+      <member refid="classwx_config_base_1a1871d5f0aec990c1552242203c5ed0c4" prot="public" virt="pure-virtual"><scope>wxConfigBase</scope><name>RenameEntry</name></member>
+      <member refid="classwx_config_base_1a4f85e2947979146ccc77b42c15409834" prot="public" virt="pure-virtual"><scope>wxConfigBase</scope><name>RenameGroup</name></member>
+      <member refid="classwx_config_base_1a8e2ca739326f32379d6816522a5d1907" prot="public" virt="non-virtual"><scope>wxConfigBase</scope><name>Set</name></member>
+      <member refid="classwx_config_base_1a3a8c651d2bdde14e6248b0cd85062476" prot="public" virt="non-virtual"><scope>wxConfigBase</scope><name>SetExpandEnvVars</name></member>
+      <member refid="classwx_config_base_1ad290d3fe7fad4f39a4bb2959db89b379" prot="public" virt="pure-virtual"><scope>wxConfigBase</scope><name>SetPath</name></member>
+      <member refid="classwx_config_base_1a80bff71cc742251419ba499ce7b4da3c" prot="public" virt="non-virtual"><scope>wxConfigBase</scope><name>SetRecordDefaults</name></member>
+      <member refid="classwx_object_1afab780710f2adc1bb33310e27590140b" prot="public" virt="non-virtual"><scope>wxConfigBase</scope><name>SetRefData</name></member>
+      <member refid="classwx_config_base_1a499282208b4b9e90cbfe60de25745bc4a5338e90a8c51020109928f3177c06caf" prot="public" virt="non-virtual"><scope>wxConfigBase</scope><name>Type_Boolean</name></member>
+      <member refid="classwx_config_base_1a499282208b4b9e90cbfe60de25745bc4af1cafe0a03c8c929511258c31ea138cb" prot="public" virt="non-virtual"><scope>wxConfigBase</scope><name>Type_Float</name></member>
+      <member refid="classwx_config_base_1a499282208b4b9e90cbfe60de25745bc4abf7985582695bbed6da7d2de5b22b6e8" prot="public" virt="non-virtual"><scope>wxConfigBase</scope><name>Type_Integer</name></member>
+      <member refid="classwx_config_base_1a499282208b4b9e90cbfe60de25745bc4afeb4cd8ae582520fd2d45ec35b316d0a" prot="public" virt="non-virtual"><scope>wxConfigBase</scope><name>Type_String</name></member>
+      <member refid="classwx_config_base_1a499282208b4b9e90cbfe60de25745bc4a186e69ade61db5ba7e5fc2366d2388fc" prot="public" virt="non-virtual"><scope>wxConfigBase</scope><name>Type_Unknown</name></member>
+      <member refid="classwx_object_1af51efc6b1ae632fc7f0cd7ebbce9fa36" prot="public" virt="non-virtual"><scope>wxConfigBase</scope><name>UnRef</name></member>
+      <member refid="classwx_object_1a74b40e42d19a4b9e9bec0b57d62a5725" prot="public" virt="non-virtual"><scope>wxConfigBase</scope><name>UnShare</name></member>
+      <member refid="classwx_config_base_1ace24f1478e71ac309ecf1d9273f19ce3" prot="public" virt="non-virtual"><scope>wxConfigBase</scope><name>Write</name></member>
+      <member refid="classwx_config_base_1a052e7e5df90589f8094f860a9bdfd8a8" prot="public" virt="non-virtual"><scope>wxConfigBase</scope><name>Write</name></member>
+      <member refid="classwx_config_base_1a108d7427200466a240f8ea835e74db7b" prot="public" virt="non-virtual"><scope>wxConfigBase</scope><name>Write</name></member>
+      <member refid="classwx_config_base_1a97465083477038dc7d01e363c511f6cd" prot="public" virt="non-virtual"><scope>wxConfigBase</scope><name>Write</name></member>
+      <member refid="classwx_config_base_1a83efe80538c9f3e4056ae6d44d362f49" prot="public" virt="non-virtual"><scope>wxConfigBase</scope><name>Write</name></member>
+      <member refid="classwx_config_base_1a9ac693bd370a81d7fd0cad255869a041" prot="public" virt="non-virtual"><scope>wxConfigBase</scope><name>Write</name></member>
+      <member refid="classwx_config_base_1a7c3ce1f79df2837bc532c0ff551e7bac" prot="public" virt="non-virtual"><scope>wxConfigBase</scope><name>wxConfigBase</name></member>
+      <member refid="classwx_object_1acaa378363a28af421ab56ad7b46eadf0" prot="public" virt="non-virtual"><scope>wxConfigBase</scope><name>wxObject</name></member>
+      <member refid="classwx_object_1a4721b4dc9b7aff0f30904ba2ea3954cf" prot="public" virt="non-virtual"><scope>wxConfigBase</scope><name>wxObject</name></member>
+      <member refid="classwx_config_base_1a43a12ede8b28e1a62820101105f380d0" prot="public" virt="virtual"><scope>wxConfigBase</scope><name>~wxConfigBase</name></member>
+      <member refid="classwx_object_1a2a51aa8bfbab47ca2f051bcf84b3f35b" prot="public" virt="virtual"><scope>wxConfigBase</scope><name>~wxObject</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

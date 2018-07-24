@@ -1,0 +1,312 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_shared_ptr_3_01_t_01_4" kind="class" language="C++" prot="public">
+    <compoundname>wxSharedPtr&lt; T &gt;</compoundname>
+    <derivedcompoundref refid="classwx_window_ptr_3_01_t_01_4" prot="public" virt="non-virtual">wxWindowPtr&lt; T &gt;</derivedcompoundref>
+    <includes local="no">wx/sharedptr.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classwx_shared_ptr_3_01_t_01_4_1ab9a0d5e0d4ae27b41b0e59727a9fd2d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__group__funcmacro__misc_1ga8d9d8ac2fab72355f168e80b00d15908" kindref="member">wxEXPLICIT</ref></type>
+        <definition>wxEXPLICIT wxSharedPtr&lt; T &gt;::wxSharedPtr</definition>
+        <argsstring>(T *ptr=NULL)</argsstring>
+        <name>wxSharedPtr</name>
+        <param>
+          <type>T *</type>
+          <declname>ptr</declname>
+          <defval>NULL</defval>
+        </param>
+        <briefdescription>
+<para>Constructor. </para>        </briefdescription>
+        <detaileddescription>
+<para>Creates shared pointer from the raw pointer <emphasis>ptr</emphasis> and takes ownership of it. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/sharedptr.h" line="29" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_shared_ptr_3_01_t_01_4_1a54dbe86d9b90d2330c4b364736acf6d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Deleter</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="group__group__funcmacro__misc_1ga8d9d8ac2fab72355f168e80b00d15908" kindref="member">wxEXPLICIT</ref></type>
+        <definition>wxEXPLICIT wxSharedPtr&lt; T &gt;::wxSharedPtr</definition>
+        <argsstring>(T *ptr, Deleter d)</argsstring>
+        <name>wxSharedPtr</name>
+        <param>
+          <type>T *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>Deleter</type>
+          <declname>d</declname>
+        </param>
+        <briefdescription>
+<para>Constructor. </para>        </briefdescription>
+        <detaileddescription>
+<para>Creates shared pointer from the raw pointer <emphasis>ptr</emphasis> and deleter <emphasis>d</emphasis> and takes ownership of it.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ptr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The raw pointer. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>d</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Deleter - a functor that is called instead of delete to free the <emphasis>ptr</emphasis> raw pointer when its reference count drops to zero.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="since"><para>3.0 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/sharedptr.h" line="45" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_shared_ptr_3_01_t_01_4_1a78b7860f505470d2d954d33d76bf2372" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxSharedPtr&lt; T &gt;::wxSharedPtr</definition>
+        <argsstring>(const wxSharedPtr&lt; T &gt; &amp;tocopy)</argsstring>
+        <name>wxSharedPtr</name>
+        <param>
+          <type>const wxSharedPtr&lt; T &gt; &amp;</type>
+          <declname>tocopy</declname>
+        </param>
+        <briefdescription>
+<para>Copy constructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/sharedptr.h" line="50" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_shared_ptr_3_01_t_01_4_1a0b5939721f372f5f8f80113b81006a7e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxSharedPtr&lt; T &gt;::~wxSharedPtr</definition>
+        <argsstring>()</argsstring>
+        <name>~wxSharedPtr</name>
+        <briefdescription>
+<para>Destructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/sharedptr.h" line="55" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_shared_ptr_3_01_t_01_4_1a7c58d9a509c0395fe8f7cd695b88c95f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>T *</type>
+        <definition>T* wxSharedPtr&lt; T &gt;::get</definition>
+        <argsstring>() const</argsstring>
+        <name>get</name>
+        <briefdescription>
+<para>Returns pointer to its object or NULL. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/sharedptr.h" line="60" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_shared_ptr_3_01_t_01_4_1a632c2a5470709400a583d8234348219e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxSharedPtr&lt; T &gt;::operator unspecified_bool_type</definition>
+        <argsstring>() const</argsstring>
+        <name>operator unspecified_bool_type</name>
+        <briefdescription>
+<para>Conversion to a boolean expression (in a variant which is not convertible to anything but a boolean expression). </para>        </briefdescription>
+        <detaileddescription>
+<para>If this class contains a valid pointer it will return true, if it contains a NULL pointer it will return false. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/sharedptr.h" line="69" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_shared_ptr_3_01_t_01_4_1acf67c3c567e828fd2e346e94d0a56a8c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>T</type>
+        <definition>T wxSharedPtr&lt; T &gt;::operator*</definition>
+        <argsstring>() const</argsstring>
+        <name>operator*</name>
+        <briefdescription>
+<para>Returns a reference to the object. </para>        </briefdescription>
+        <detaileddescription>
+<para>If the internal pointer is NULL this method will cause an assert in debug mode. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/sharedptr.h" line="76" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_shared_ptr_3_01_t_01_4_1afa603f1e7cfe0ba156c915f7b4c47dcb" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>T *</type>
+        <definition>T* wxSharedPtr&lt; T &gt;::operator-&gt;</definition>
+        <argsstring>() const</argsstring>
+        <name>operator-&gt;</name>
+        <briefdescription>
+<para>Smart pointer member access. </para>        </briefdescription>
+        <detaileddescription>
+<para>Returns pointer to its object.</para><para>If the internal pointer is NULL this method will cause an assert in debug mode. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/sharedptr.h" line="83" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_shared_ptr_3_01_t_01_4_1ae02306a82285661c58e809ac32492e46" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_shared_ptr_3_01_t_01_4_1ab9a0d5e0d4ae27b41b0e59727a9fd2d0" kindref="member">wxSharedPtr</ref>&lt; T &gt; &amp;</type>
+        <definition>wxSharedPtr&lt;T&gt;&amp; wxSharedPtr&lt; T &gt;::operator=</definition>
+        <argsstring>(T *ptr)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>T *</type>
+          <declname>ptr</declname>
+        </param>
+        <briefdescription>
+<para>Assignment operator. </para>        </briefdescription>
+        <detaileddescription>
+<para>Releases any previously held pointer and creates a reference to <emphasis>ptr</emphasis>. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/sharedptr.h" line="90" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_shared_ptr_3_01_t_01_4_1a2843bd42c7d37447d1d27f0507030ef7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_shared_ptr_3_01_t_01_4_1ab9a0d5e0d4ae27b41b0e59727a9fd2d0" kindref="member">wxSharedPtr</ref>&lt; T &gt; &amp;</type>
+        <definition>wxSharedPtr&lt;T&gt;&amp; wxSharedPtr&lt; T &gt;::operator=</definition>
+        <argsstring>(const wxSharedPtr&lt; T &gt; &amp;tocopy)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="classwx_shared_ptr_3_01_t_01_4_1ab9a0d5e0d4ae27b41b0e59727a9fd2d0" kindref="member">wxSharedPtr</ref>&lt; T &gt; &amp;</type>
+          <declname>tocopy</declname>
+        </param>
+        <briefdescription>
+<para>Assignment operator. </para>        </briefdescription>
+        <detaileddescription>
+<para>Releases any previously held pointer and creates a reference to the same object as <emphasis>topcopy</emphasis>. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/sharedptr.h" line="98" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_shared_ptr_3_01_t_01_4_1a0487e5fffe75675432cdbc286c7c70c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxSharedPtr&lt; T &gt;::reset</definition>
+        <argsstring>(T *ptr=NULL)</argsstring>
+        <name>reset</name>
+        <param>
+          <type>T *</type>
+          <declname>ptr</declname>
+          <defval>NULL</defval>
+        </param>
+        <briefdescription>
+<para>Reset pointer to <emphasis>ptr</emphasis>. </para>        </briefdescription>
+        <detaileddescription>
+<para>If the reference count of the previously owned pointer was 1 it will be deleted. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/sharedptr.h" line="105" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_shared_ptr_3_01_t_01_4_1a0df7cfc42b669c556abc5e13b0e1268c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Deleter</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void wxSharedPtr&lt; T &gt;::reset</definition>
+        <argsstring>(T *ptr, Deleter d)</argsstring>
+        <name>reset</name>
+        <param>
+          <type>T *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>Deleter</type>
+          <declname>d</declname>
+        </param>
+        <briefdescription>
+<para>Reset pointer to <emphasis>ptr</emphasis>. </para>        </briefdescription>
+        <detaileddescription>
+<para>If the reference count of the previously owned pointer was 1 it will be deleted.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ptr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The new raw pointer. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>d</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Deleter - a functor that is called instead of delete to free the <emphasis>ptr</emphasis> raw pointer when its reference count drops to zero.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="since"><para>3.0 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/sharedptr.h" line="120" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_shared_ptr_3_01_t_01_4_1af5c2de1ffb3c185c824634ccc4b234ea" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxSharedPtr&lt; T &gt;::unique</definition>
+        <argsstring>() const</argsstring>
+        <name>unique</name>
+        <briefdescription>
+<para>Returns true if this is the only pointer pointing to its object. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/sharedptr.h" line="125" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_shared_ptr_3_01_t_01_4_1ad00ad44cfa237d03d922584ac56cba6e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>long</type>
+        <definition>long wxSharedPtr&lt; T &gt;::use_count</definition>
+        <argsstring>() const</argsstring>
+        <name>use_count</name>
+        <briefdescription>
+<para>Returns the number of pointers pointing to its object. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/sharedptr.h" line="130" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>A smart pointer with non-intrusive reference counting. </para>    </briefdescription>
+    <detaileddescription>
+<para>It is modelled after <computeroutput>boost::shared_ptr&lt;&gt;</computeroutput> and can be used with STL containers and <ref refid="classwx_vector_3_01_t_01_4" kindref="compound">wxVector&lt;T&gt;</ref> unlike <computeroutput>std::auto_ptr&lt;&gt;</computeroutput> and <ref refid="classwx_scoped_ptr_3_01_t_01_4" kindref="compound">wxScopedPtr&lt;T&gt;</ref>.</para><para><heading level="2"></heading>
+</para><para>Library:<nonbreakablespace/><nonbreakablespace/><ref refid="page_libs_1page_libs_wxbase" kindref="member">wxBase</ref> &lt;&gt;&lt; =&apos;&apos;&gt;:&lt;/&gt;&amp;;&amp;;&lt; =&apos;&apos;&gt;\ &lt;/&gt;&lt;/&gt;</para><para><simplesect kind="see"><para><ref refid="classwx_scoped_ptr_3_01_t_01_4" kindref="compound">wxScopedPtr&lt;T&gt;</ref>, <ref refid="classwx_weak_ref_3_01_t_01_4" kindref="compound">wxWeakRef&lt;T&gt;</ref>, <ref refid="classwx_object_data_ptr_3_01_t_01_4" kindref="compound">wxObjectDataPtr&lt;T&gt;</ref> </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="7199">
+        <label>wxWindowPtr&lt; T &gt;</label>
+        <link refid="classwx_window_ptr_3_01_t_01_4"/>
+        <childnode refid="7198" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7198">
+        <label>wxSharedPtr&lt; T &gt;</label>
+        <link refid="classwx_shared_ptr_3_01_t_01_4"/>
+      </node>
+    </inheritancegraph>
+    <location file="interface/wx/sharedptr.h" line="21" column="1" bodyfile="interface/wx/sharedptr.h" bodystart="20" bodyend="131"/>
+    <listofallmembers>
+      <member refid="classwx_shared_ptr_3_01_t_01_4_1a7c58d9a509c0395fe8f7cd695b88c95f" prot="public" virt="non-virtual"><scope>wxSharedPtr&lt; T &gt;</scope><name>get</name></member>
+      <member refid="classwx_shared_ptr_3_01_t_01_4_1a632c2a5470709400a583d8234348219e" prot="public" virt="non-virtual"><scope>wxSharedPtr&lt; T &gt;</scope><name>operator unspecified_bool_type</name></member>
+      <member refid="classwx_shared_ptr_3_01_t_01_4_1acf67c3c567e828fd2e346e94d0a56a8c" prot="public" virt="non-virtual"><scope>wxSharedPtr&lt; T &gt;</scope><name>operator*</name></member>
+      <member refid="classwx_shared_ptr_3_01_t_01_4_1afa603f1e7cfe0ba156c915f7b4c47dcb" prot="public" virt="non-virtual"><scope>wxSharedPtr&lt; T &gt;</scope><name>operator-&gt;</name></member>
+      <member refid="classwx_shared_ptr_3_01_t_01_4_1ae02306a82285661c58e809ac32492e46" prot="public" virt="non-virtual"><scope>wxSharedPtr&lt; T &gt;</scope><name>operator=</name></member>
+      <member refid="classwx_shared_ptr_3_01_t_01_4_1a2843bd42c7d37447d1d27f0507030ef7" prot="public" virt="non-virtual"><scope>wxSharedPtr&lt; T &gt;</scope><name>operator=</name></member>
+      <member refid="classwx_shared_ptr_3_01_t_01_4_1a0487e5fffe75675432cdbc286c7c70c3" prot="public" virt="non-virtual"><scope>wxSharedPtr&lt; T &gt;</scope><name>reset</name></member>
+      <member refid="classwx_shared_ptr_3_01_t_01_4_1a0df7cfc42b669c556abc5e13b0e1268c" prot="public" virt="non-virtual"><scope>wxSharedPtr&lt; T &gt;</scope><name>reset</name></member>
+      <member refid="classwx_shared_ptr_3_01_t_01_4_1af5c2de1ffb3c185c824634ccc4b234ea" prot="public" virt="non-virtual"><scope>wxSharedPtr&lt; T &gt;</scope><name>unique</name></member>
+      <member refid="classwx_shared_ptr_3_01_t_01_4_1ad00ad44cfa237d03d922584ac56cba6e" prot="public" virt="non-virtual"><scope>wxSharedPtr&lt; T &gt;</scope><name>use_count</name></member>
+      <member refid="classwx_shared_ptr_3_01_t_01_4_1ab9a0d5e0d4ae27b41b0e59727a9fd2d0" prot="public" virt="non-virtual"><scope>wxSharedPtr&lt; T &gt;</scope><name>wxSharedPtr</name></member>
+      <member refid="classwx_shared_ptr_3_01_t_01_4_1a54dbe86d9b90d2330c4b364736acf6d8" prot="public" virt="non-virtual"><scope>wxSharedPtr&lt; T &gt;</scope><name>wxSharedPtr</name></member>
+      <member refid="classwx_shared_ptr_3_01_t_01_4_1a78b7860f505470d2d954d33d76bf2372" prot="public" virt="non-virtual"><scope>wxSharedPtr&lt; T &gt;</scope><name>wxSharedPtr</name></member>
+      <member refid="classwx_shared_ptr_3_01_t_01_4_1a0b5939721f372f5f8f80113b81006a7e" prot="public" virt="non-virtual"><scope>wxSharedPtr&lt; T &gt;</scope><name>~wxSharedPtr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

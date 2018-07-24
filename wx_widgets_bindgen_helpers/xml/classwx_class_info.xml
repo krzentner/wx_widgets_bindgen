@@ -1,0 +1,175 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_class_info" kind="class" language="C++" prot="public">
+    <compoundname>wxClassInfo</compoundname>
+    <includes local="no">wx/object.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classwx_class_info_1a89612fc727626594ba7d325f52c7fa71" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxClassInfo::wxClassInfo</definition>
+        <argsstring>(const wxChar *className, const wxClassInfo *baseClass1, const wxClassInfo *baseClass2, int size, wxObjectConstructorFn fn)</argsstring>
+        <name>wxClassInfo</name>
+        <param>
+          <type>const <ref refid="group__group__funcmacro__string_1gad42f64d8c82f1ce4ae58773a89b2d6a7" kindref="member">wxChar</ref> *</type>
+          <declname>className</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_class_info" kindref="compound">wxClassInfo</ref> *</type>
+          <declname>baseClass1</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_class_info" kindref="compound">wxClassInfo</ref> *</type>
+          <declname>baseClass2</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>wxObjectConstructorFn</type>
+          <declname>fn</declname>
+        </param>
+        <briefdescription>
+<para>Constructs a <ref refid="classwx_class_info" kindref="compound">wxClassInfo</ref> object. </para>        </briefdescription>
+        <detaileddescription>
+<para>The supplied macros implicitly construct objects of this class, so there is no need to create such objects explicitly in an application. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/object.h" line="431" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_class_info_1a9f4ba34bf31b5c6dc288e454b6fb8f2a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_object" kindref="compound">wxObject</ref> *</type>
+        <definition>wxObject* wxClassInfo::CreateObject</definition>
+        <argsstring>() const</argsstring>
+        <name>CreateObject</name>
+        <briefdescription>
+<para>Creates an object of the appropriate kind. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>NULL if the class has not been declared dynamically creatable (typically, this happens for abstract classes). </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/object.h" line="442" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_class_info_1ae1e1fe0c3a4becd9e27942ec9d17b957" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="group__group__funcmacro__string_1gad42f64d8c82f1ce4ae58773a89b2d6a7" kindref="member">wxChar</ref> *</type>
+        <definition>const wxChar* wxClassInfo::GetBaseClassName1</definition>
+        <argsstring>() const</argsstring>
+        <name>GetBaseClassName1</name>
+        <briefdescription>
+<para>Returns the name of the first base class (NULL if none). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/object.h" line="452" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_class_info_1a44fbaf69d9a92523aba6ed533265ffe6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="group__group__funcmacro__string_1gad42f64d8c82f1ce4ae58773a89b2d6a7" kindref="member">wxChar</ref> *</type>
+        <definition>const wxChar* wxClassInfo::GetBaseClassName2</definition>
+        <argsstring>() const</argsstring>
+        <name>GetBaseClassName2</name>
+        <briefdescription>
+<para>Returns the name of the second base class (NULL if none). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/object.h" line="457" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_class_info_1ae1c76d29610707c7408aebf9f444b73d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="group__group__funcmacro__string_1gad42f64d8c82f1ce4ae58773a89b2d6a7" kindref="member">wxChar</ref> *</type>
+        <definition>const wxChar* wxClassInfo::GetClassName</definition>
+        <argsstring>() const</argsstring>
+        <name>GetClassName</name>
+        <briefdescription>
+<para>Returns the string form of the class name. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/object.h" line="462" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_class_info_1aa88c7e3bfebf06787d9d4e3bb457bca6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int wxClassInfo::GetSize</definition>
+        <argsstring>() const</argsstring>
+        <name>GetSize</name>
+        <briefdescription>
+<para>Returns the size of the class. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/object.h" line="467" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_class_info_1affa753a570e48b53243944974f9014e7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxClassInfo::IsDynamic</definition>
+        <argsstring>() const</argsstring>
+        <name>IsDynamic</name>
+        <briefdescription>
+<para>Returns true if this class info can create objects of the associated class. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/object.h" line="472" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_class_info_1a13f3f381e570e04b31f574e425c6f446" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxClassInfo::IsKindOf</definition>
+        <argsstring>(const wxClassInfo *info) const</argsstring>
+        <name>IsKindOf</name>
+        <param>
+          <type>const <ref refid="classwx_class_info" kindref="compound">wxClassInfo</ref> *</type>
+          <declname>info</declname>
+        </param>
+        <briefdescription>
+<para>Returns true if this class is a kind of (inherits from) the given class. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/object.h" line="477" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classwx_class_info_1abca46fc5067f0dffa3e801a104b89818" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_class_info" kindref="compound">wxClassInfo</ref> *</type>
+        <definition>static wxClassInfo* wxClassInfo::FindClass</definition>
+        <argsstring>(const wxString &amp;className)</argsstring>
+        <name>FindClass</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>className</declname>
+        </param>
+        <briefdescription>
+<para>Finds the <ref refid="classwx_class_info" kindref="compound">wxClassInfo</ref> object for a class with the given <emphasis>name</emphasis>. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/object.h" line="447" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class stores meta-information about classes. </para>    </briefdescription>
+    <detaileddescription>
+<para>Instances of this class are not generally defined directly by an application, but indirectly through use of macros such as <ref refid="group__group__funcmacro__rtti_1ga9c252d076397bec5ac241272a7a60747" kindref="member">wxDECLARE_DYNAMIC_CLASS</ref> and <ref refid="group__group__funcmacro__rtti_1ga4cbf0c21eb5986eb489dc67450eab1d1" kindref="member">wxIMPLEMENT_DYNAMIC_CLASS</ref>.</para><para><heading level="2"></heading>
+</para><para>Library:<nonbreakablespace/><nonbreakablespace/><ref refid="page_libs_1page_libs_wxbase" kindref="member">wxBase</ref> &lt;&gt;&lt; =&apos;&apos;&gt;:&lt;/&gt;&amp;;&amp;;&lt; =&apos;&apos;&gt;\ &lt;/&gt;&lt;/&gt;</para><para><simplesect kind="see"><para><ref refid="overview_rtti_1overview_rtti_classinfo" kindref="member">wxClassInfo</ref>, <ref refid="classwx_object" kindref="compound">wxObject</ref> </para></simplesect>
+</para>    </detaileddescription>
+    <location file="interface/wx/object.h" line="423" column="1" bodyfile="interface/wx/object.h" bodystart="422" bodyend="478"/>
+    <listofallmembers>
+      <member refid="classwx_class_info_1a9f4ba34bf31b5c6dc288e454b6fb8f2a" prot="public" virt="non-virtual"><scope>wxClassInfo</scope><name>CreateObject</name></member>
+      <member refid="classwx_class_info_1abca46fc5067f0dffa3e801a104b89818" prot="public" virt="non-virtual"><scope>wxClassInfo</scope><name>FindClass</name></member>
+      <member refid="classwx_class_info_1ae1e1fe0c3a4becd9e27942ec9d17b957" prot="public" virt="non-virtual"><scope>wxClassInfo</scope><name>GetBaseClassName1</name></member>
+      <member refid="classwx_class_info_1a44fbaf69d9a92523aba6ed533265ffe6" prot="public" virt="non-virtual"><scope>wxClassInfo</scope><name>GetBaseClassName2</name></member>
+      <member refid="classwx_class_info_1ae1c76d29610707c7408aebf9f444b73d" prot="public" virt="non-virtual"><scope>wxClassInfo</scope><name>GetClassName</name></member>
+      <member refid="classwx_class_info_1aa88c7e3bfebf06787d9d4e3bb457bca6" prot="public" virt="non-virtual"><scope>wxClassInfo</scope><name>GetSize</name></member>
+      <member refid="classwx_class_info_1affa753a570e48b53243944974f9014e7" prot="public" virt="non-virtual"><scope>wxClassInfo</scope><name>IsDynamic</name></member>
+      <member refid="classwx_class_info_1a13f3f381e570e04b31f574e425c6f446" prot="public" virt="non-virtual"><scope>wxClassInfo</scope><name>IsKindOf</name></member>
+      <member refid="classwx_class_info_1a89612fc727626594ba7d325f52c7fa71" prot="public" virt="non-virtual"><scope>wxClassInfo</scope><name>wxClassInfo</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

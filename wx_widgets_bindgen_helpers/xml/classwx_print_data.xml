@@ -1,0 +1,502 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_print_data" kind="class" language="C++" prot="public">
+    <compoundname>wxPrintData</compoundname>
+    <basecompoundref refid="classwx_object" prot="public" virt="non-virtual">wxObject</basecompoundref>
+    <includes local="no">wx/cmndata.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classwx_print_data_1a4f6a2f51161dc3dda6640f3f05430702" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxPrintData::wxPrintData</definition>
+        <argsstring>()</argsstring>
+        <name>wxPrintData</name>
+        <briefdescription>
+<para>Default constructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/cmndata.h" line="270" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_print_data_1a9aedb9333974e45376f3049954779510" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxPrintData::wxPrintData</definition>
+        <argsstring>(const wxPrintData &amp;data)</argsstring>
+        <name>wxPrintData</name>
+        <param>
+          <type>const <ref refid="classwx_print_data" kindref="compound">wxPrintData</ref> &amp;</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+<para>Copy constructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/cmndata.h" line="275" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_print_data_1a8a101a3b25cda8ec865345a1309e04a5" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual wxPrintData::~wxPrintData</definition>
+        <argsstring>()</argsstring>
+        <name>~wxPrintData</name>
+        <briefdescription>
+<para>Destructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/cmndata.h" line="280" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_print_data_1a990debc33fca76210918506a197910ae" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="cmndata_8h_1ac5a8648f833a003ac36596a82e8361b9" kindref="member">wxPrintBin</ref></type>
+        <definition>wxPrintBin wxPrintData::GetBin</definition>
+        <argsstring>() const</argsstring>
+        <name>GetBin</name>
+        <briefdescription>
+<para>Returns the current bin (papersource). </para>        </briefdescription>
+        <detaileddescription>
+<para>By default, the system is left to select the bin (<computeroutput>wxPRINTBIN_DEFAULT</computeroutput> is returned).</para><para>See <ref refid="classwx_print_data_1af129c5539a9bfa1dbf0d93b6fd6caf3a" kindref="member">SetBin()</ref> for the full list of bin values. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/cmndata.h" line="288" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_print_data_1a32cfb43c052f3554112183e3cee5b612" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxPrintData::GetCollate</definition>
+        <argsstring>() const</argsstring>
+        <name>GetCollate</name>
+        <briefdescription>
+<para>Returns true if collation is on. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/cmndata.h" line="293" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_print_data_1af54ef1da6d8cf6da32d0171d12c81c3a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxPrintData::GetColour</definition>
+        <argsstring>() const</argsstring>
+        <name>GetColour</name>
+        <briefdescription>
+<para>Returns true if colour printing is on. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/cmndata.h" line="298" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_print_data_1ab3cfb13efb72ebcc56afbb6957388f34" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="defs_8h_1a0f2596c210e8f39fb074cd2fb312ccf2" kindref="member">wxDuplexMode</ref></type>
+        <definition>wxDuplexMode wxPrintData::GetDuplex</definition>
+        <argsstring>() const</argsstring>
+        <name>GetDuplex</name>
+        <briefdescription>
+<para>Returns the duplex mode. </para>        </briefdescription>
+        <detaileddescription>
+<para>One of wxDUPLEX_SIMPLEX, wxDUPLEX_HORIZONTAL, wxDUPLEX_VERTICAL. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/cmndata.h" line="304" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_print_data_1adc268be6a9b8c78eaf7cdf62a54cafa9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int wxPrintData::GetNoCopies</definition>
+        <argsstring>() const</argsstring>
+        <name>GetNoCopies</name>
+        <briefdescription>
+<para>Returns the number of copies requested by the user. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/cmndata.h" line="309" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_print_data_1a1d2411d13eff1642542eec6861c80e95" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="defs_8h_1a128bbdf96d08a0414f9ac6c762ee5b8f" kindref="member">wxPrintOrientation</ref></type>
+        <definition>wxPrintOrientation wxPrintData::GetOrientation</definition>
+        <argsstring>() const</argsstring>
+        <name>GetOrientation</name>
+        <briefdescription>
+<para>Gets the orientation. </para>        </briefdescription>
+        <detaileddescription>
+<para>This can be wxLANDSCAPE or wxPORTRAIT. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/cmndata.h" line="314" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_print_data_1aa77e84fe168008290141e789491de8ca" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="defs_8h_1a2f01b8ae721520dff55dee68a882629a" kindref="member">wxPaperSize</ref></type>
+        <definition>wxPaperSize wxPrintData::GetPaperId</definition>
+        <argsstring>() const</argsstring>
+        <name>GetPaperId</name>
+        <briefdescription>
+<para>Returns the paper size id. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="see"><para><ref refid="classwx_print_data_1a463e3d74092b1067495bb4e687fd2c1a" kindref="member">SetPaperId()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/cmndata.h" line="321" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_print_data_1a64e53952ce9ca38ba7eacdaa2744bce2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+        <definition>const wxString&amp; wxPrintData::GetPrinterName</definition>
+        <argsstring>() const</argsstring>
+        <name>GetPrinterName</name>
+        <briefdescription>
+<para>Returns the printer name. </para>        </briefdescription>
+        <detaileddescription>
+<para>If the printer name is the empty string, it indicates that the default printer should be used. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/cmndata.h" line="327" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_print_data_1a608bc24d62b9430cb01dc7c04426d40a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="defs_8h_1aa032c3ba9e7b8f969fcf14136fde8b16" kindref="member">wxPrintQuality</ref></type>
+        <definition>wxPrintQuality wxPrintData::GetQuality</definition>
+        <argsstring>() const</argsstring>
+        <name>GetQuality</name>
+        <briefdescription>
+<para>Returns the current print quality. </para>        </briefdescription>
+        <detaileddescription>
+<para>This can be a positive integer, denoting the number of dots per inch, or one of the following identifiers:</para><para><itemizedlist>
+<listitem><para>wxPRINT_QUALITY_HIGH</para></listitem><listitem><para>wxPRINT_QUALITY_MEDIUM</para></listitem><listitem><para>wxPRINT_QUALITY_LOW</para></listitem><listitem><para>wxPRINT_QUALITY_DRAFT</para></listitem></itemizedlist>
+</para><para>On input you should pass one of these identifiers, but on return you may get back a positive integer indicating the current resolution setting. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/cmndata.h" line="343" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_print_data_1a76be37953523dd256681fcbcac13131e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxPrintData::IsOk</definition>
+        <argsstring>() const</argsstring>
+        <name>IsOk</name>
+        <briefdescription>
+<para>Returns true if the print data is valid for using in print dialogs. </para>        </briefdescription>
+        <detaileddescription>
+<para>This can return false on Windows if the current printer is not set, for example. On all other platforms, it returns true. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/cmndata.h" line="350" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_print_data_1af129c5539a9bfa1dbf0d93b6fd6caf3a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxPrintData::SetBin</definition>
+        <argsstring>(wxPrintBin flag)</argsstring>
+        <name>SetBin</name>
+        <param>
+          <type><ref refid="cmndata_8h_1ac5a8648f833a003ac36596a82e8361b9" kindref="member">wxPrintBin</ref></type>
+          <declname>flag</declname>
+        </param>
+        <briefdescription>
+<para>Sets the current bin. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/cmndata.h" line="355" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_print_data_1ace51b342d6fd9e1678c0cbb11a953dbe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxPrintData::SetCollate</definition>
+        <argsstring>(bool flag)</argsstring>
+        <name>SetCollate</name>
+        <param>
+          <type>bool</type>
+          <declname>flag</declname>
+        </param>
+        <briefdescription>
+<para>Sets collation to on or off. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/cmndata.h" line="360" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_print_data_1a829ec71e97680b579eec74bc8b0d207e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxPrintData::SetColour</definition>
+        <argsstring>(bool flag)</argsstring>
+        <name>SetColour</name>
+        <param>
+          <type>bool</type>
+          <declname>flag</declname>
+        </param>
+        <briefdescription>
+<para>Sets colour printing on or off. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/cmndata.h" line="365" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_print_data_1a9ccfb142c2503c6b3530645f401bafc7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxPrintData::SetDuplex</definition>
+        <argsstring>(wxDuplexMode mode)</argsstring>
+        <name>SetDuplex</name>
+        <param>
+          <type><ref refid="defs_8h_1a0f2596c210e8f39fb074cd2fb312ccf2" kindref="member">wxDuplexMode</ref></type>
+          <declname>mode</declname>
+        </param>
+        <briefdescription>
+<para>Returns the duplex mode. </para>        </briefdescription>
+        <detaileddescription>
+<para>One of wxDUPLEX_SIMPLEX, wxDUPLEX_HORIZONTAL, wxDUPLEX_VERTICAL. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/cmndata.h" line="371" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_print_data_1a2fed432d70b7292d50ae704ca20e5bd7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxPrintData::SetNoCopies</definition>
+        <argsstring>(int n)</argsstring>
+        <name>SetNoCopies</name>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+<para>Sets the default number of copies to be printed out. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/cmndata.h" line="376" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_print_data_1afa9d7f64655a71497199e0ef2070d377" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxPrintData::SetOrientation</definition>
+        <argsstring>(wxPrintOrientation orientation)</argsstring>
+        <name>SetOrientation</name>
+        <param>
+          <type><ref refid="defs_8h_1a128bbdf96d08a0414f9ac6c762ee5b8f" kindref="member">wxPrintOrientation</ref></type>
+          <declname>orientation</declname>
+        </param>
+        <briefdescription>
+<para>Sets the orientation. </para>        </briefdescription>
+        <detaileddescription>
+<para>This can be wxLANDSCAPE or wxPORTRAIT. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/cmndata.h" line="381" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_print_data_1a463e3d74092b1067495bb4e687fd2c1a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxPrintData::SetPaperId</definition>
+        <argsstring>(wxPaperSize paperId)</argsstring>
+        <name>SetPaperId</name>
+        <param>
+          <type><ref refid="defs_8h_1a2f01b8ae721520dff55dee68a882629a" kindref="member">wxPaperSize</ref></type>
+          <declname>paperId</declname>
+        </param>
+        <briefdescription>
+<para>Sets the paper id. </para>        </briefdescription>
+        <detaileddescription>
+<para>This indicates the type of paper to be used. For a mapping between paper id, paper size and string name, see wxPrintPaperDatabase in <computeroutput>&quot;paper.h&quot;</computeroutput> (not yet documented). </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/cmndata.h" line="388" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_print_data_1a75fd42487b1bf58af1b1a1171f85d163" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxPrintData::SetPrinterName</definition>
+        <argsstring>(const wxString &amp;printerName)</argsstring>
+        <name>SetPrinterName</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>printerName</declname>
+        </param>
+        <briefdescription>
+<para>Sets the printer name. </para>        </briefdescription>
+        <detaileddescription>
+<para>This can be the empty string to indicate that the default printer should be used. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/cmndata.h" line="394" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_print_data_1a1c4cec6c3b058bc0cb697a8602fd2694" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxPrintData::SetQuality</definition>
+        <argsstring>(wxPrintQuality quality)</argsstring>
+        <name>SetQuality</name>
+        <param>
+          <type><ref refid="defs_8h_1aa032c3ba9e7b8f969fcf14136fde8b16" kindref="member">wxPrintQuality</ref></type>
+          <declname>quality</declname>
+        </param>
+        <briefdescription>
+<para>Sets the desired print quality. </para>        </briefdescription>
+        <detaileddescription>
+<para>This can be a positive integer, denoting the number of dots per inch, or one of the following identifiers:</para><para><itemizedlist>
+<listitem><para>wxPRINT_QUALITY_HIGH</para></listitem><listitem><para>wxPRINT_QUALITY_MEDIUM</para></listitem><listitem><para>wxPRINT_QUALITY_LOW</para></listitem><listitem><para>wxPRINT_QUALITY_DRAFT</para></listitem></itemizedlist>
+</para><para>On input you should pass one of these identifiers, but on return you may get back a positive integer indicating the current resolution setting. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/cmndata.h" line="410" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_print_data_1a1d60489dbeeff0943fba8e33cb241aa4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_print_data" kindref="compound">wxPrintData</ref> &amp;</type>
+        <definition>wxPrintData&amp; wxPrintData::operator=</definition>
+        <argsstring>(const wxPrintData &amp;data)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="classwx_print_data" kindref="compound">wxPrintData</ref> &amp;</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+<para>Assigns print data to this object. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/cmndata.h" line="415" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_print_data_1a941b59fad89cd26f0b243953a69774b9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_string" kindref="compound">wxString</ref></type>
+        <definition>wxString wxPrintData::GetFilename</definition>
+        <argsstring>() const</argsstring>
+        <name>GetFilename</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/cmndata.h" line="418" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_print_data_1ae186dfe49ba6a9d276c7128114dd4df5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxPrintData::SetFilename</definition>
+        <argsstring>(const wxString &amp;filename)</argsstring>
+        <name>SetFilename</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>filename</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/cmndata.h" line="419" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_print_data_1a01374c323ad798fb43583fa1734cd0ec" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="defs_8h_1a3cf8d66263026e614130c9da8d19179d" kindref="member">wxPrintMode</ref></type>
+        <definition>wxPrintMode wxPrintData::GetPrintMode</definition>
+        <argsstring>() const</argsstring>
+        <name>GetPrintMode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/cmndata.h" line="421" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_print_data_1aaa1ac4d884249efe1986fda0cc8f3d38" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxPrintData::SetPrintMode</definition>
+        <argsstring>(wxPrintMode printMode)</argsstring>
+        <name>SetPrintMode</name>
+        <param>
+          <type><ref refid="defs_8h_1a3cf8d66263026e614130c9da8d19179d" kindref="member">wxPrintMode</ref></type>
+          <declname>printMode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/cmndata.h" line="422" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class holds a variety of information related to printers and printer device contexts. </para>    </briefdescription>
+    <detaileddescription>
+<para>This class is used to create a <ref refid="classwx_printer_d_c" kindref="compound">wxPrinterDC</ref> and a <ref refid="classwx_post_script_d_c" kindref="compound">wxPostScriptDC</ref>. It is also used as a data member of <ref refid="classwx_print_dialog_data" kindref="compound">wxPrintDialogData</ref> and <ref refid="classwx_page_setup_dialog_data" kindref="compound">wxPageSetupDialogData</ref>, as part of the mechanism for transferring data between the print dialogs and the application.</para><para><heading level="2"></heading>
+</para><para>Library:<nonbreakablespace/><nonbreakablespace/><ref refid="page_libs_1page_libs_wxcore" kindref="member">wxCore</ref> &lt;&gt;&lt; =&apos;&apos;&gt;:&lt;/&gt;&amp;;&amp;;&lt; =&apos;&apos;&gt;\ , \ &lt;/&gt;&lt;/&gt;</para><para><simplesect kind="see"><para><ref refid="overview_printing" kindref="compound">Printing Framework Overview</ref>, <ref refid="classwx_print_dialog" kindref="compound">wxPrintDialog</ref>, <ref refid="classwx_page_setup_dialog" kindref="compound">wxPageSetupDialog</ref>, <ref refid="classwx_print_dialog_data" kindref="compound">wxPrintDialogData</ref>, <ref refid="classwx_page_setup_dialog_data" kindref="compound">wxPageSetupDialogData</ref>, <ref refid="overview_cmndlg_1overview_cmndlg_print" kindref="member">wxPrintDialog Overview</ref>, <ref refid="classwx_printer_d_c" kindref="compound">wxPrinterDC</ref>, <ref refid="classwx_post_script_d_c" kindref="compound">wxPostScriptDC</ref> </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="5608">
+        <label>wxObject</label>
+        <link refid="classwx_object"/>
+      </node>
+      <node id="5607">
+        <label>wxPrintData</label>
+        <link refid="classwx_print_data"/>
+        <childnode refid="5608" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="5610">
+        <label>wxObject</label>
+        <link refid="classwx_object"/>
+        <childnode refid="5611" relation="usage">
+          <edgelabel>m_refData</edgelabel>
+        </childnode>
+      </node>
+      <node id="5609">
+        <label>wxPrintData</label>
+        <link refid="classwx_print_data"/>
+        <childnode refid="5610" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5611">
+        <label>wxObjectRefData</label>
+        <link refid="classwx_object_ref_data"/>
+      </node>
+    </collaborationgraph>
+    <location file="interface/wx/cmndata.h" line="265" column="1" bodyfile="interface/wx/cmndata.h" bodystart="264" bodyend="423"/>
+    <listofallmembers>
+      <member refid="classwx_object_1a60204063f3cc3aa2fa1c7ff5bda9eb13" prot="protected" virt="non-virtual"><scope>wxPrintData</scope><name>AllocExclusive</name></member>
+      <member refid="classwx_object_1a436fc8fe68cf8a31000296d9cd3d2427" prot="protected" virt="virtual"><scope>wxPrintData</scope><name>CloneRefData</name></member>
+      <member refid="classwx_object_1a3f4f497c65cef611e121c41f21dd5ccc" prot="protected" virt="virtual"><scope>wxPrintData</scope><name>CreateRefData</name></member>
+      <member refid="classwx_print_data_1a990debc33fca76210918506a197910ae" prot="public" virt="non-virtual"><scope>wxPrintData</scope><name>GetBin</name></member>
+      <member refid="classwx_object_1ae6d365f2556b26767ced8410c5e839d0" prot="public" virt="virtual"><scope>wxPrintData</scope><name>GetClassInfo</name></member>
+      <member refid="classwx_print_data_1a32cfb43c052f3554112183e3cee5b612" prot="public" virt="non-virtual"><scope>wxPrintData</scope><name>GetCollate</name></member>
+      <member refid="classwx_print_data_1af54ef1da6d8cf6da32d0171d12c81c3a" prot="public" virt="non-virtual"><scope>wxPrintData</scope><name>GetColour</name></member>
+      <member refid="classwx_print_data_1ab3cfb13efb72ebcc56afbb6957388f34" prot="public" virt="non-virtual"><scope>wxPrintData</scope><name>GetDuplex</name></member>
+      <member refid="classwx_print_data_1a941b59fad89cd26f0b243953a69774b9" prot="public" virt="non-virtual"><scope>wxPrintData</scope><name>GetFilename</name></member>
+      <member refid="classwx_print_data_1adc268be6a9b8c78eaf7cdf62a54cafa9" prot="public" virt="non-virtual"><scope>wxPrintData</scope><name>GetNoCopies</name></member>
+      <member refid="classwx_print_data_1a1d2411d13eff1642542eec6861c80e95" prot="public" virt="non-virtual"><scope>wxPrintData</scope><name>GetOrientation</name></member>
+      <member refid="classwx_print_data_1aa77e84fe168008290141e789491de8ca" prot="public" virt="non-virtual"><scope>wxPrintData</scope><name>GetPaperId</name></member>
+      <member refid="classwx_print_data_1a64e53952ce9ca38ba7eacdaa2744bce2" prot="public" virt="non-virtual"><scope>wxPrintData</scope><name>GetPrinterName</name></member>
+      <member refid="classwx_print_data_1a01374c323ad798fb43583fa1734cd0ec" prot="public" virt="non-virtual"><scope>wxPrintData</scope><name>GetPrintMode</name></member>
+      <member refid="classwx_print_data_1a608bc24d62b9430cb01dc7c04426d40a" prot="public" virt="non-virtual"><scope>wxPrintData</scope><name>GetQuality</name></member>
+      <member refid="classwx_object_1af3c6c76a775864832f1536d3c0de3a2b" prot="public" virt="non-virtual"><scope>wxPrintData</scope><name>GetRefData</name></member>
+      <member refid="classwx_object_1a3c7115ef4132dcee0c4fc34e84d7fced" prot="public" virt="non-virtual"><scope>wxPrintData</scope><name>IsKindOf</name></member>
+      <member refid="classwx_print_data_1a76be37953523dd256681fcbcac13131e" prot="public" virt="non-virtual"><scope>wxPrintData</scope><name>IsOk</name></member>
+      <member refid="classwx_object_1a059373c494c2369d7db2a556efef8ecf" prot="public" virt="non-virtual"><scope>wxPrintData</scope><name>IsSameAs</name></member>
+      <member refid="classwx_object_1a9e31954530a0abd54982effc443ed2b8" prot="protected" virt="non-virtual"><scope>wxPrintData</scope><name>m_refData</name></member>
+      <member refid="classwx_object_1a07b8f34f5afc5743195c5fed052f55d3" prot="public" virt="non-virtual"><scope>wxPrintData</scope><name>operator delete</name></member>
+      <member refid="classwx_object_1a96fa423a1dbc212c8227a5d83825971f" prot="public" virt="non-virtual"><scope>wxPrintData</scope><name>operator new</name></member>
+      <member refid="classwx_print_data_1a1d60489dbeeff0943fba8e33cb241aa4" prot="public" virt="non-virtual"><scope>wxPrintData</scope><name>operator=</name></member>
+      <member refid="classwx_object_1a2f6f1aa51fe9fc2b1415ca4211a90e9e" prot="public" virt="non-virtual"><scope>wxPrintData</scope><name>Ref</name></member>
+      <member refid="classwx_print_data_1af129c5539a9bfa1dbf0d93b6fd6caf3a" prot="public" virt="non-virtual"><scope>wxPrintData</scope><name>SetBin</name></member>
+      <member refid="classwx_print_data_1ace51b342d6fd9e1678c0cbb11a953dbe" prot="public" virt="non-virtual"><scope>wxPrintData</scope><name>SetCollate</name></member>
+      <member refid="classwx_print_data_1a829ec71e97680b579eec74bc8b0d207e" prot="public" virt="non-virtual"><scope>wxPrintData</scope><name>SetColour</name></member>
+      <member refid="classwx_print_data_1a9ccfb142c2503c6b3530645f401bafc7" prot="public" virt="non-virtual"><scope>wxPrintData</scope><name>SetDuplex</name></member>
+      <member refid="classwx_print_data_1ae186dfe49ba6a9d276c7128114dd4df5" prot="public" virt="non-virtual"><scope>wxPrintData</scope><name>SetFilename</name></member>
+      <member refid="classwx_print_data_1a2fed432d70b7292d50ae704ca20e5bd7" prot="public" virt="non-virtual"><scope>wxPrintData</scope><name>SetNoCopies</name></member>
+      <member refid="classwx_print_data_1afa9d7f64655a71497199e0ef2070d377" prot="public" virt="non-virtual"><scope>wxPrintData</scope><name>SetOrientation</name></member>
+      <member refid="classwx_print_data_1a463e3d74092b1067495bb4e687fd2c1a" prot="public" virt="non-virtual"><scope>wxPrintData</scope><name>SetPaperId</name></member>
+      <member refid="classwx_print_data_1a75fd42487b1bf58af1b1a1171f85d163" prot="public" virt="non-virtual"><scope>wxPrintData</scope><name>SetPrinterName</name></member>
+      <member refid="classwx_print_data_1aaa1ac4d884249efe1986fda0cc8f3d38" prot="public" virt="non-virtual"><scope>wxPrintData</scope><name>SetPrintMode</name></member>
+      <member refid="classwx_print_data_1a1c4cec6c3b058bc0cb697a8602fd2694" prot="public" virt="non-virtual"><scope>wxPrintData</scope><name>SetQuality</name></member>
+      <member refid="classwx_object_1afab780710f2adc1bb33310e27590140b" prot="public" virt="non-virtual"><scope>wxPrintData</scope><name>SetRefData</name></member>
+      <member refid="classwx_object_1af51efc6b1ae632fc7f0cd7ebbce9fa36" prot="public" virt="non-virtual"><scope>wxPrintData</scope><name>UnRef</name></member>
+      <member refid="classwx_object_1a74b40e42d19a4b9e9bec0b57d62a5725" prot="public" virt="non-virtual"><scope>wxPrintData</scope><name>UnShare</name></member>
+      <member refid="classwx_object_1acaa378363a28af421ab56ad7b46eadf0" prot="public" virt="non-virtual"><scope>wxPrintData</scope><name>wxObject</name></member>
+      <member refid="classwx_object_1a4721b4dc9b7aff0f30904ba2ea3954cf" prot="public" virt="non-virtual"><scope>wxPrintData</scope><name>wxObject</name></member>
+      <member refid="classwx_print_data_1a4f6a2f51161dc3dda6640f3f05430702" prot="public" virt="non-virtual"><scope>wxPrintData</scope><name>wxPrintData</name></member>
+      <member refid="classwx_print_data_1a9aedb9333974e45376f3049954779510" prot="public" virt="non-virtual"><scope>wxPrintData</scope><name>wxPrintData</name></member>
+      <member refid="classwx_object_1a2a51aa8bfbab47ca2f051bcf84b3f35b" prot="public" virt="virtual"><scope>wxPrintData</scope><name>~wxObject</name></member>
+      <member refid="classwx_print_data_1a8a101a3b25cda8ec865345a1309e04a5" prot="public" virt="virtual"><scope>wxPrintData</scope><name>~wxPrintData</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

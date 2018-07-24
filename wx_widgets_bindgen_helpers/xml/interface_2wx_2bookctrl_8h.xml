@@ -1,0 +1,145 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="interface_2wx_2bookctrl_8h" kind="file" language="C++">
+    <compoundname>bookctrl.h</compoundname>
+    <innerclass refid="classwx_book_ctrl_base" prot="public">wxBookCtrlBase</innerclass>
+    <innerclass refid="classwx_book_ctrl_event" prot="public">wxBookCtrlEvent</innerclass>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="interface_2wx_2bookctrl_8h_1a7e388df7b1f655029adefef1faa6544d" prot="public" static="no">
+        <name>wxBK_DEFAULT</name>
+        <initializer>0x0000</initializer>
+        <briefdescription>
+<para>wxBookCtrl flags (common for <ref refid="classwx_notebook" kindref="compound">wxNotebook</ref>, <ref refid="classwx_listbook" kindref="compound">wxListbook</ref>, <ref refid="classwx_choicebook" kindref="compound">wxChoicebook</ref>, <ref refid="classwx_treebook" kindref="compound">wxTreebook</ref>) </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/bookctrl.h" line="36" column="9" bodyfile="interface/wx/bookctrl.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="interface_2wx_2bookctrl_8h_1ad36f889d557af729966b28a9e53f0230" prot="public" static="no">
+        <name>wxBK_TOP</name>
+        <initializer>0x0010</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/bookctrl.h" line="37" column="9" bodyfile="interface/wx/bookctrl.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="interface_2wx_2bookctrl_8h_1ae5e1e857ef24fe84d9ca7d6720e31cc2" prot="public" static="no">
+        <name>wxBK_BOTTOM</name>
+        <initializer>0x0020</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/bookctrl.h" line="38" column="9" bodyfile="interface/wx/bookctrl.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="interface_2wx_2bookctrl_8h_1a241a12974cb60b7175e06ddb0df3ac80" prot="public" static="no">
+        <name>wxBK_LEFT</name>
+        <initializer>0x0040</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/bookctrl.h" line="39" column="9" bodyfile="interface/wx/bookctrl.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="interface_2wx_2bookctrl_8h_1ad61e5dcc5cbb913956437899963fab2a" prot="public" static="no">
+        <name>wxBK_RIGHT</name>
+        <initializer>0x0080</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/bookctrl.h" line="40" column="9" bodyfile="interface/wx/bookctrl.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="interface_2wx_2bookctrl_8h_1aa9e49fb51efb4c643c46362c43aee118" prot="public" static="no">
+        <name>wxBK_ALIGN_MASK</name>
+        <initializer>(<ref refid="interface_2wx_2bookctrl_8h_1ad36f889d557af729966b28a9e53f0230" kindref="member">wxBK_TOP</ref> | <ref refid="interface_2wx_2bookctrl_8h_1ae5e1e857ef24fe84d9ca7d6720e31cc2" kindref="member">wxBK_BOTTOM</ref> | <ref refid="interface_2wx_2bookctrl_8h_1a241a12974cb60b7175e06ddb0df3ac80" kindref="member">wxBK_LEFT</ref> | <ref refid="interface_2wx_2bookctrl_8h_1ad61e5dcc5cbb913956437899963fab2a" kindref="member">wxBK_RIGHT</ref>)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/bookctrl.h" line="41" column="9" bodyfile="interface/wx/bookctrl.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="interface_2wx_2bookctrl_8h_1ab367c06ea9df73f0d3bf3c464afdb7d6" prot="public" static="no">
+        <name>wxBookCtrl</name>
+        <initializer>TheBestBookCtrlForTheCurrentPlatform</initializer>
+        <briefdescription>
+<para>wxBookCtrl is defined to one of the &apos;real&apos; book controls. </para>        </briefdescription>
+        <detaileddescription>
+<para>See <ref refid="overview_bookctrl" kindref="compound">wxBookCtrl Overview</ref> for more info. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/bookctrl.h" line="368" column="9" bodyfile="interface/wx/bookctrl.h" bodystart="368" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="interface_2wx_2bookctrl_8h_1a99fb83031ce9923c84392b4e92f956b5" prot="public" static="no" strong="no">
+        <type></type>
+        <name>@2</name>
+        <enumvalue id="interface_2wx_2bookctrl_8h_1a99fb83031ce9923c84392b4e92f956b5a3e48b6b7c03fba7f24c09551020ae030" prot="public">
+          <name>wxBK_HITTEST_NOWHERE</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+<para>No tab at the specified point. </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="interface_2wx_2bookctrl_8h_1a99fb83031ce9923c84392b4e92f956b5a03e1d99ee2a49925940b72e0b6f9995a" prot="public">
+          <name>wxBK_HITTEST_ONICON</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+<para>The point is over an icon. </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="interface_2wx_2bookctrl_8h_1a99fb83031ce9923c84392b4e92f956b5a74e40362eb6c9706ff1d616a71d6bf6f" prot="public">
+          <name>wxBK_HITTEST_ONLABEL</name>
+          <initializer>= 4</initializer>
+          <briefdescription>
+<para>The point is over a tab label. </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="interface_2wx_2bookctrl_8h_1a99fb83031ce9923c84392b4e92f956b5a66b7d6ce07520e46b0a42d6ae873934c" prot="public">
+          <name>wxBK_HITTEST_ONITEM</name>
+          <initializer>= wxBK_HITTEST_ONICON | wxBK_HITTEST_ONLABEL</initializer>
+          <briefdescription>
+<para>The point if over a tab item but not over its icon or label. </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="interface_2wx_2bookctrl_8h_1a99fb83031ce9923c84392b4e92f956b5a41bfeb3416bce38bcdffbcc7421eb58f" prot="public">
+          <name>wxBK_HITTEST_ONPAGE</name>
+          <initializer>= 8</initializer>
+          <briefdescription>
+<para>The point is over the page area. </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Bit flags returned by wxBookCtrl::HitTest(). </para>        </briefdescription>
+        <detaileddescription>
+<para>Notice that wxOSX currently only returns wxBK_HITTEST_ONLABEL or wxBK_HITTEST_NOWHERE and never the other values, so you should only test for these two in the code that should be portable under OS X. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/bookctrl.h" line="16" column="1" bodyfile="interface/wx/bookctrl.h" bodystart="15" bodyend="31"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="interface/wx/bookctrl.h"/>
+  </compounddef>
+</doxygen>

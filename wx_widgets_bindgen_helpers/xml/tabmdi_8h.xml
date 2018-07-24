@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="tabmdi_8h" kind="file" language="C++">
+    <compoundname>tabmdi.h</compoundname>
+    <innerclass refid="classwx_aui_m_d_i_parent_frame" prot="public">wxAuiMDIParentFrame</innerclass>
+    <innerclass refid="classwx_aui_m_d_i_child_frame" prot="public">wxAuiMDIChildFrame</innerclass>
+    <innerclass refid="classwx_aui_m_d_i_client_window" prot="public">wxAuiMDIClientWindow</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="interface/wx/aui/tabmdi.h"/>
+  </compounddef>
+</doxygen>

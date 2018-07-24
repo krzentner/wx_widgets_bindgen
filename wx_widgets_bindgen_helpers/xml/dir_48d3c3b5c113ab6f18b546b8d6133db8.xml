@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="dir_48d3c3b5c113ab6f18b546b8d6133db8" kind="dir">
+    <compoundname>interface/wx/xml</compoundname>
+    <innerfile refid="xml_8h">xml.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="interface/wx/xml/"/>
+  </compounddef>
+</doxygen>

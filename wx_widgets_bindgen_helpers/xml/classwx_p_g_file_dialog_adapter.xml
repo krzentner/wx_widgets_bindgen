@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_p_g_file_dialog_adapter" kind="class" language="C++" prot="public">
+    <compoundname>wxPGFileDialogAdapter</compoundname>
+    <basecompoundref refid="classwx_p_g_editor_dialog_adapter" prot="public" virt="non-virtual">wxPGEditorDialogAdapter</basecompoundref>
+    <includes local="no">wx/propgrid/props.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classwx_p_g_file_dialog_adapter_1a2a4b531f53522e1e71d986463974d04c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool wxPGFileDialogAdapter::DoShowDialog</definition>
+        <argsstring>(wxPropertyGrid *propGrid, wxPGProperty *property)</argsstring>
+        <name>DoShowDialog</name>
+        <reimplements refid="classwx_p_g_editor_dialog_adapter_1aee70a00bcfd338f23ba1480ce31ab910">DoShowDialog</reimplements>
+        <param>
+          <type><ref refid="classwx_property_grid" kindref="compound">wxPropertyGrid</ref> *</type>
+          <declname>propGrid</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_p_g_property" kindref="compound">wxPGProperty</ref> *</type>
+          <declname>property</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/props.h" line="499" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="5360">
+        <label>wxObject</label>
+        <link refid="classwx_object"/>
+      </node>
+      <node id="5358">
+        <label>wxPGFileDialogAdapter</label>
+        <link refid="classwx_p_g_file_dialog_adapter"/>
+        <childnode refid="5359" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5359">
+        <label>wxPGEditorDialogAdapter</label>
+        <link refid="classwx_p_g_editor_dialog_adapter"/>
+        <childnode refid="5360" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="5363">
+        <label>wxObject</label>
+        <link refid="classwx_object"/>
+        <childnode refid="5364" relation="usage">
+          <edgelabel>m_refData</edgelabel>
+        </childnode>
+      </node>
+      <node id="5361">
+        <label>wxPGFileDialogAdapter</label>
+        <link refid="classwx_p_g_file_dialog_adapter"/>
+        <childnode refid="5362" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5362">
+        <label>wxPGEditorDialogAdapter</label>
+        <link refid="classwx_p_g_editor_dialog_adapter"/>
+        <childnode refid="5363" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5364">
+        <label>wxObjectRefData</label>
+        <link refid="classwx_object_ref_data"/>
+      </node>
+    </collaborationgraph>
+    <location file="interface/wx/propgrid/props.h" line="497" column="1" bodyfile="interface/wx/propgrid/props.h" bodystart="496" bodyend="501"/>
+    <listofallmembers>
+      <member refid="classwx_object_1a60204063f3cc3aa2fa1c7ff5bda9eb13" prot="protected" virt="non-virtual"><scope>wxPGFileDialogAdapter</scope><name>AllocExclusive</name></member>
+      <member refid="classwx_object_1a436fc8fe68cf8a31000296d9cd3d2427" prot="protected" virt="virtual"><scope>wxPGFileDialogAdapter</scope><name>CloneRefData</name></member>
+      <member refid="classwx_object_1a3f4f497c65cef611e121c41f21dd5ccc" prot="protected" virt="virtual"><scope>wxPGFileDialogAdapter</scope><name>CreateRefData</name></member>
+      <member refid="classwx_p_g_file_dialog_adapter_1a2a4b531f53522e1e71d986463974d04c" prot="public" virt="virtual"><scope>wxPGFileDialogAdapter</scope><name>DoShowDialog</name></member>
+      <member refid="classwx_object_1ae6d365f2556b26767ced8410c5e839d0" prot="public" virt="virtual"><scope>wxPGFileDialogAdapter</scope><name>GetClassInfo</name></member>
+      <member refid="classwx_object_1af3c6c76a775864832f1536d3c0de3a2b" prot="public" virt="non-virtual"><scope>wxPGFileDialogAdapter</scope><name>GetRefData</name></member>
+      <member refid="classwx_p_g_editor_dialog_adapter_1a8936fd9b83979f4520701647134a33f3" prot="public" virt="non-virtual"><scope>wxPGFileDialogAdapter</scope><name>GetValue</name></member>
+      <member refid="classwx_object_1a3c7115ef4132dcee0c4fc34e84d7fced" prot="public" virt="non-virtual"><scope>wxPGFileDialogAdapter</scope><name>IsKindOf</name></member>
+      <member refid="classwx_object_1a059373c494c2369d7db2a556efef8ecf" prot="public" virt="non-virtual"><scope>wxPGFileDialogAdapter</scope><name>IsSameAs</name></member>
+      <member refid="classwx_p_g_editor_dialog_adapter_1aa33c72af16bc3db80829230f3bd9deea" prot="public" virt="non-virtual"><scope>wxPGFileDialogAdapter</scope><name>m_clientData</name></member>
+      <member refid="classwx_object_1a9e31954530a0abd54982effc443ed2b8" prot="protected" virt="non-virtual"><scope>wxPGFileDialogAdapter</scope><name>m_refData</name></member>
+      <member refid="classwx_object_1a07b8f34f5afc5743195c5fed052f55d3" prot="public" virt="non-virtual"><scope>wxPGFileDialogAdapter</scope><name>operator delete</name></member>
+      <member refid="classwx_object_1a96fa423a1dbc212c8227a5d83825971f" prot="public" virt="non-virtual"><scope>wxPGFileDialogAdapter</scope><name>operator new</name></member>
+      <member refid="classwx_object_1a2f6f1aa51fe9fc2b1415ca4211a90e9e" prot="public" virt="non-virtual"><scope>wxPGFileDialogAdapter</scope><name>Ref</name></member>
+      <member refid="classwx_object_1afab780710f2adc1bb33310e27590140b" prot="public" virt="non-virtual"><scope>wxPGFileDialogAdapter</scope><name>SetRefData</name></member>
+      <member refid="classwx_p_g_editor_dialog_adapter_1ae39cab029d845be43feea94ce8d4a31d" prot="public" virt="non-virtual"><scope>wxPGFileDialogAdapter</scope><name>SetValue</name></member>
+      <member refid="classwx_p_g_editor_dialog_adapter_1ad01b285285efd0f1c533b4c096bf27cf" prot="public" virt="non-virtual"><scope>wxPGFileDialogAdapter</scope><name>ShowDialog</name></member>
+      <member refid="classwx_object_1af51efc6b1ae632fc7f0cd7ebbce9fa36" prot="public" virt="non-virtual"><scope>wxPGFileDialogAdapter</scope><name>UnRef</name></member>
+      <member refid="classwx_object_1a74b40e42d19a4b9e9bec0b57d62a5725" prot="public" virt="non-virtual"><scope>wxPGFileDialogAdapter</scope><name>UnShare</name></member>
+      <member refid="classwx_object_1acaa378363a28af421ab56ad7b46eadf0" prot="public" virt="non-virtual"><scope>wxPGFileDialogAdapter</scope><name>wxObject</name></member>
+      <member refid="classwx_object_1a4721b4dc9b7aff0f30904ba2ea3954cf" prot="public" virt="non-virtual"><scope>wxPGFileDialogAdapter</scope><name>wxObject</name></member>
+      <member refid="classwx_p_g_editor_dialog_adapter_1a09015955870f4c7782fe44c17a2a53e3" prot="public" virt="non-virtual"><scope>wxPGFileDialogAdapter</scope><name>wxPGEditorDialogAdapter</name></member>
+      <member refid="classwx_object_1a2a51aa8bfbab47ca2f051bcf84b3f35b" prot="public" virt="virtual"><scope>wxPGFileDialogAdapter</scope><name>~wxObject</name></member>
+      <member refid="classwx_p_g_editor_dialog_adapter_1ab3a15d45e072f1a98c3924405245db77" prot="public" virt="virtual"><scope>wxPGFileDialogAdapter</scope><name>~wxPGEditorDialogAdapter</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

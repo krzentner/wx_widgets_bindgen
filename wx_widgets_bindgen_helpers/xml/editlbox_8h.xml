@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="editlbox_8h" kind="file" language="C++">
+    <compoundname>editlbox.h</compoundname>
+    <innerclass refid="classwx_editable_list_box" prot="public">wxEditableListBox</innerclass>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="editlbox_8h_1a6fdbb575138db9cc8d3b46b6437ce899" prot="public" static="no">
+        <name>wxEL_ALLOW_NEW</name>
+        <initializer>0x0100</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/editlbox.h" line="8" column="9" bodyfile="interface/wx/editlbox.h" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="editlbox_8h_1ac35a1a9cabac663964f35f900d6638fc" prot="public" static="no">
+        <name>wxEL_ALLOW_EDIT</name>
+        <initializer>0x0200</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/editlbox.h" line="9" column="9" bodyfile="interface/wx/editlbox.h" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="editlbox_8h_1a2142fed3c4c0a33e23b7fc8e9bab88fb" prot="public" static="no">
+        <name>wxEL_ALLOW_DELETE</name>
+        <initializer>0x0400</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/editlbox.h" line="10" column="9" bodyfile="interface/wx/editlbox.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="editlbox_8h_1a67c1e52e140b7f8fa897049c2cf73745" prot="public" static="no">
+        <name>wxEL_NO_REORDER</name>
+        <initializer>0x0800</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/editlbox.h" line="11" column="9" bodyfile="interface/wx/editlbox.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="editlbox_8h_1a8b79956e7e6c158108880d845396ca6c" prot="public" static="no">
+        <name>wxEL_DEFAULT_STYLE</name>
+        <initializer>(<ref refid="editlbox_8h_1a6fdbb575138db9cc8d3b46b6437ce899" kindref="member">wxEL_ALLOW_NEW</ref> | <ref refid="editlbox_8h_1ac35a1a9cabac663964f35f900d6638fc" kindref="member">wxEL_ALLOW_EDIT</ref> | <ref refid="editlbox_8h_1a2142fed3c4c0a33e23b7fc8e9bab88fb" kindref="member">wxEL_ALLOW_DELETE</ref>)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/editlbox.h" line="12" column="9" bodyfile="interface/wx/editlbox.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="interface/wx/editlbox.h"/>
+  </compounddef>
+</doxygen>

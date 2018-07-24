@@ -1,0 +1,194 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_html_help_data" kind="class" language="C++" prot="public">
+    <compoundname>wxHtmlHelpData</compoundname>
+    <basecompoundref refid="classwx_object" prot="public" virt="non-virtual">wxObject</basecompoundref>
+    <includes local="no">wx/html/helpdata.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classwx_html_help_data_1aa523f992d8d72c6f4ee9de9718e69921" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxHtmlHelpData::wxHtmlHelpData</definition>
+        <argsstring>()</argsstring>
+        <name>wxHtmlHelpData</name>
+        <briefdescription>
+<para>Constructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/html/helpdata.h" line="89" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_html_help_data_1a7eeeffc18bab6842306823537ed33f3e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxHtmlHelpData::AddBook</definition>
+        <argsstring>(const wxString &amp;book_url)</argsstring>
+        <name>AddBook</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>book_url</declname>
+        </param>
+        <briefdescription>
+<para>Adds new book. </para>        </briefdescription>
+        <detaileddescription>
+<para><emphasis>book_url</emphasis> is URL (not filename!) of HTML help project (hhp) or ZIP file that contains arbitrary number of .hhp projects (this zip file can have either .zip or .htb extension, htb stands for &quot;html book&quot;).</para><para>Returns success. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/html/helpdata.h" line="100" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_html_help_data_1a11ab7616ff863656fab1c67e71ccf5e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_string" kindref="compound">wxString</ref></type>
+        <definition>wxString wxHtmlHelpData::FindPageById</definition>
+        <argsstring>(int id)</argsstring>
+        <name>FindPageById</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+<para>Returns page&apos;s URL based on integer ID stored in project. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/html/helpdata.h" line="105" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_html_help_data_1ab16f4705bab7f552b0108c50fb86a91b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_string" kindref="compound">wxString</ref></type>
+        <definition>wxString wxHtmlHelpData::FindPageByName</definition>
+        <argsstring>(const wxString &amp;page)</argsstring>
+        <name>FindPageByName</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>page</declname>
+        </param>
+        <briefdescription>
+<para>Returns page&apos;s URL based on its (file)name. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/html/helpdata.h" line="110" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_html_help_data_1ae532f7ee8712426770b0b9fac8f1043b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const wxHtmlBookRecArray &amp;</type>
+        <definition>const wxHtmlBookRecArray&amp; wxHtmlHelpData::GetBookRecArray</definition>
+        <argsstring>() const</argsstring>
+        <name>GetBookRecArray</name>
+        <briefdescription>
+<para>Returns array with help books info. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/html/helpdata.h" line="115" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_html_help_data_1a09b73cd46cfac49b689be1237713e490" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const wxHtmlHelpDataItems &amp;</type>
+        <definition>const wxHtmlHelpDataItems&amp; wxHtmlHelpData::GetContentsArray</definition>
+        <argsstring>() const</argsstring>
+        <name>GetContentsArray</name>
+        <briefdescription>
+<para>Returns reference to array with contents entries. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/html/helpdata.h" line="120" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_html_help_data_1a237ab9cf555179731e652bb68831821f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const wxHtmlHelpDataItems &amp;</type>
+        <definition>const wxHtmlHelpDataItems&amp; wxHtmlHelpData::GetIndexArray</definition>
+        <argsstring>() const</argsstring>
+        <name>GetIndexArray</name>
+        <briefdescription>
+<para>Returns reference to array with index entries. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/html/helpdata.h" line="125" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_html_help_data_1a257f2986e455be6972518cf8ffd0bcf5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxHtmlHelpData::SetTempDir</definition>
+        <argsstring>(const wxString &amp;path)</argsstring>
+        <name>SetTempDir</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+<para>Sets the temporary directory where binary cached versions of MS HTML Workshop files will be stored. </para>        </briefdescription>
+        <detaileddescription>
+<para>(This is turned off by default and you can enable this feature by setting non-empty temp dir.) </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/html/helpdata.h" line="132" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class is used by <ref refid="classwx_html_help_controller" kindref="compound">wxHtmlHelpController</ref> and <ref refid="classwx_html_help_frame" kindref="compound">wxHtmlHelpFrame</ref> to access HTML help items. </para>    </briefdescription>
+    <detaileddescription>
+<para>It is internal class and should not be used directly - except for the case you&apos;re writing your own HTML help controller.</para><para><heading level="2"></heading>
+</para><para>Library:<nonbreakablespace/><nonbreakablespace/><ref refid="page_libs_1page_libs_wxhtml" kindref="member">wxHTML</ref> &lt;&gt;&lt; =&apos;&apos;&gt;:&lt;/&gt;&amp;;&amp;;&lt; =&apos;&apos;&gt;\ , \ &lt;/&gt;&lt;/&gt; </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="3381">
+        <label>wxObject</label>
+        <link refid="classwx_object"/>
+      </node>
+      <node id="3380">
+        <label>wxHtmlHelpData</label>
+        <link refid="classwx_html_help_data"/>
+        <childnode refid="3381" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3383">
+        <label>wxObject</label>
+        <link refid="classwx_object"/>
+        <childnode refid="3384" relation="usage">
+          <edgelabel>m_refData</edgelabel>
+        </childnode>
+      </node>
+      <node id="3382">
+        <label>wxHtmlHelpData</label>
+        <link refid="classwx_html_help_data"/>
+        <childnode refid="3383" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3384">
+        <label>wxObjectRefData</label>
+        <link refid="classwx_object_ref_data"/>
+      </node>
+    </collaborationgraph>
+    <location file="interface/wx/html/helpdata.h" line="84" column="1" bodyfile="interface/wx/html/helpdata.h" bodystart="83" bodyend="133"/>
+    <listofallmembers>
+      <member refid="classwx_html_help_data_1a7eeeffc18bab6842306823537ed33f3e" prot="public" virt="non-virtual"><scope>wxHtmlHelpData</scope><name>AddBook</name></member>
+      <member refid="classwx_object_1a60204063f3cc3aa2fa1c7ff5bda9eb13" prot="protected" virt="non-virtual"><scope>wxHtmlHelpData</scope><name>AllocExclusive</name></member>
+      <member refid="classwx_object_1a436fc8fe68cf8a31000296d9cd3d2427" prot="protected" virt="virtual"><scope>wxHtmlHelpData</scope><name>CloneRefData</name></member>
+      <member refid="classwx_object_1a3f4f497c65cef611e121c41f21dd5ccc" prot="protected" virt="virtual"><scope>wxHtmlHelpData</scope><name>CreateRefData</name></member>
+      <member refid="classwx_html_help_data_1a11ab7616ff863656fab1c67e71ccf5e4" prot="public" virt="non-virtual"><scope>wxHtmlHelpData</scope><name>FindPageById</name></member>
+      <member refid="classwx_html_help_data_1ab16f4705bab7f552b0108c50fb86a91b" prot="public" virt="non-virtual"><scope>wxHtmlHelpData</scope><name>FindPageByName</name></member>
+      <member refid="classwx_html_help_data_1ae532f7ee8712426770b0b9fac8f1043b" prot="public" virt="non-virtual"><scope>wxHtmlHelpData</scope><name>GetBookRecArray</name></member>
+      <member refid="classwx_object_1ae6d365f2556b26767ced8410c5e839d0" prot="public" virt="virtual"><scope>wxHtmlHelpData</scope><name>GetClassInfo</name></member>
+      <member refid="classwx_html_help_data_1a09b73cd46cfac49b689be1237713e490" prot="public" virt="non-virtual"><scope>wxHtmlHelpData</scope><name>GetContentsArray</name></member>
+      <member refid="classwx_html_help_data_1a237ab9cf555179731e652bb68831821f" prot="public" virt="non-virtual"><scope>wxHtmlHelpData</scope><name>GetIndexArray</name></member>
+      <member refid="classwx_object_1af3c6c76a775864832f1536d3c0de3a2b" prot="public" virt="non-virtual"><scope>wxHtmlHelpData</scope><name>GetRefData</name></member>
+      <member refid="classwx_object_1a3c7115ef4132dcee0c4fc34e84d7fced" prot="public" virt="non-virtual"><scope>wxHtmlHelpData</scope><name>IsKindOf</name></member>
+      <member refid="classwx_object_1a059373c494c2369d7db2a556efef8ecf" prot="public" virt="non-virtual"><scope>wxHtmlHelpData</scope><name>IsSameAs</name></member>
+      <member refid="classwx_object_1a9e31954530a0abd54982effc443ed2b8" prot="protected" virt="non-virtual"><scope>wxHtmlHelpData</scope><name>m_refData</name></member>
+      <member refid="classwx_object_1a07b8f34f5afc5743195c5fed052f55d3" prot="public" virt="non-virtual"><scope>wxHtmlHelpData</scope><name>operator delete</name></member>
+      <member refid="classwx_object_1a96fa423a1dbc212c8227a5d83825971f" prot="public" virt="non-virtual"><scope>wxHtmlHelpData</scope><name>operator new</name></member>
+      <member refid="classwx_object_1a2f6f1aa51fe9fc2b1415ca4211a90e9e" prot="public" virt="non-virtual"><scope>wxHtmlHelpData</scope><name>Ref</name></member>
+      <member refid="classwx_object_1afab780710f2adc1bb33310e27590140b" prot="public" virt="non-virtual"><scope>wxHtmlHelpData</scope><name>SetRefData</name></member>
+      <member refid="classwx_html_help_data_1a257f2986e455be6972518cf8ffd0bcf5" prot="public" virt="non-virtual"><scope>wxHtmlHelpData</scope><name>SetTempDir</name></member>
+      <member refid="classwx_object_1af51efc6b1ae632fc7f0cd7ebbce9fa36" prot="public" virt="non-virtual"><scope>wxHtmlHelpData</scope><name>UnRef</name></member>
+      <member refid="classwx_object_1a74b40e42d19a4b9e9bec0b57d62a5725" prot="public" virt="non-virtual"><scope>wxHtmlHelpData</scope><name>UnShare</name></member>
+      <member refid="classwx_html_help_data_1aa523f992d8d72c6f4ee9de9718e69921" prot="public" virt="non-virtual"><scope>wxHtmlHelpData</scope><name>wxHtmlHelpData</name></member>
+      <member refid="classwx_object_1acaa378363a28af421ab56ad7b46eadf0" prot="public" virt="non-virtual"><scope>wxHtmlHelpData</scope><name>wxObject</name></member>
+      <member refid="classwx_object_1a4721b4dc9b7aff0f30904ba2ea3954cf" prot="public" virt="non-virtual"><scope>wxHtmlHelpData</scope><name>wxObject</name></member>
+      <member refid="classwx_object_1a2a51aa8bfbab47ca2f051bcf84b3f35b" prot="public" virt="virtual"><scope>wxHtmlHelpData</scope><name>~wxObject</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

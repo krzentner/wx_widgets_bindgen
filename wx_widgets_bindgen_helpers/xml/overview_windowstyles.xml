@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="overview_windowstyles" kind="page">
+    <compoundname>overview_windowstyles</compoundname>
+    <title>Window Styles</title>
+    <tableofcontents/>
+    <briefdescription>
+<para><linebreak/>
+ Window styles are used to specify alternative behaviour and appearances for windows, when they are created. </para>    </briefdescription>
+    <detaileddescription>
+<para><linebreak/>
+ Window styles are used to specify alternative behaviour and appearances for windows, when they are created.</para><para>The symbols are defined in such a way that they can be combined in a &apos;bit-list&apos; using the C++ <emphasis>bitwise-or</emphasis> operator.</para><para>For example:</para><para><programlisting><codeline><highlight class="normal">wxCAPTION<sp/>|<sp/>wxMINIMIZE_BOX<sp/>|<sp/>wxMAXIMIZE_BOX<sp/>|<sp/>wxRESIZE_BORDER</highlight></codeline>
+</programlisting></para><para>For the window styles specific to each window class, please see the documentation for the window.</para><para>Most windows can use the generic styles listed for <ref refid="classwx_window" kindref="compound">wxWindow</ref> in addition to their own styles. </para>    </detaileddescription>
+  </compounddef>
+</doxygen>

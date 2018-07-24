@@ -1,0 +1,245 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="treelist_8h" kind="file" language="C++">
+    <compoundname>treelist.h</compoundname>
+    <innerclass refid="classwx_tree_list_item" prot="public">wxTreeListItem</innerclass>
+    <innerclass refid="classwx_tree_list_item_comparator" prot="public">wxTreeListItemComparator</innerclass>
+    <innerclass refid="classwx_tree_list_ctrl" prot="public">wxTreeListCtrl</innerclass>
+    <innerclass refid="classwx_tree_list_event" prot="public">wxTreeListEvent</innerclass>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="treelist_8h_1a06d2ffb0b138c92333f7532bb0d8ca06" prot="public" static="no">
+        <name>wxTreeListEventHandler</name>
+        <param><defname>func</defname></param>
+        <initializer><ref refid="group__group__funcmacro__events_1gaca944d76c68b31cf44fb62f25642ad00" kindref="member">wxEVENT_HANDLER_CAST</ref>(wxTreeListEventFunction, func)</initializer>
+        <briefdescription>
+<para>Type of <ref refid="classwx_tree_list_event" kindref="compound">wxTreeListEvent</ref> event handlers. </para>        </briefdescription>
+        <detaileddescription>
+<para>This macro should be used with <ref refid="classwx_evt_handler_1a78719e8b82c9f9c6e4056b3449df1943" kindref="member">wxEvtHandler::Connect()</ref> when connecting to <ref refid="classwx_tree_list_ctrl" kindref="compound">wxTreeListCtrl</ref> events. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/treelist.h" line="937" column="9" bodyfile="interface/wx/treelist.h" bodystart="937" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="treelist_8h_1aedcf2109f459315e1a7f2af73ec9b603" prot="public" static="no" strong="no">
+        <type></type>
+        <name>@53</name>
+        <enumvalue id="treelist_8h_1aedcf2109f459315e1a7f2af73ec9b603a12893e3d82057df52bb5cc45be105836" prot="public">
+          <name>wxTL_SINGLE</name>
+          <initializer>= 0x0000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="treelist_8h_1aedcf2109f459315e1a7f2af73ec9b603a0fb14bfc7eb43892e88a4dac45a8cd99" prot="public">
+          <name>wxTL_MULTIPLE</name>
+          <initializer>= 0x0001</initializer>
+          <briefdescription>
+<para>This is the default anyhow. </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="treelist_8h_1aedcf2109f459315e1a7f2af73ec9b603a3c04cff1362b1743a2216d109946c781" prot="public">
+          <name>wxTL_CHECKBOX</name>
+          <initializer>= 0x0002</initializer>
+          <briefdescription>
+<para>Allow multiple selection. </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="treelist_8h_1aedcf2109f459315e1a7f2af73ec9b603a27dac254dbaba7f794fc1cba069ead01" prot="public">
+          <name>wxTL_3STATE</name>
+          <initializer>= 0x0004</initializer>
+          <briefdescription>
+<para>Show checkboxes in the first column. </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="treelist_8h_1aedcf2109f459315e1a7f2af73ec9b603a429f75a2aa1c268dcdb3f6e80548780b" prot="public">
+          <name>wxTL_USER_3STATE</name>
+          <initializer>= 0x0008</initializer>
+          <briefdescription>
+<para>Allow 3rd state in checkboxes. </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="treelist_8h_1aedcf2109f459315e1a7f2af73ec9b603a21b614dc4bbc75612decf259b5d4c20f" prot="public">
+          <name>wxTL_NO_HEADER</name>
+          <initializer>= 0x0010</initializer>
+          <briefdescription>
+<para>Allow user to set 3rd state. </para>          </briefdescription>
+          <detaileddescription>
+<para>Don&apos;t show the column headers.</para><para>By default this control shows the column headers, using this class allows to avoid this and show only the data.</para><para><simplesect kind="since"><para>2.9.5 </para></simplesect>
+</para>          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="treelist_8h_1aedcf2109f459315e1a7f2af73ec9b603a44844120c42f721d7360761ff9423c95" prot="public">
+          <name>wxTL_DEFAULT_STYLE</name>
+          <initializer>= wxTL_SINGLE</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="treelist_8h_1aedcf2109f459315e1a7f2af73ec9b603a08de0db7a1bcfc8e5f7d7c1df80e41db" prot="public">
+          <name>wxTL_STYLE_MASK</name>
+          <initializer>= wxTL_SINGLE |
+                          wxTL_MULTIPLE |
+                          wxTL_CHECKBOX |
+                          wxTL_3STATE |
+                          wxTL_USER_3STATE</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para><ref refid="classwx_tree_list_ctrl" kindref="compound">wxTreeListCtrl</ref> styles. </para>        </briefdescription>
+        <detaileddescription>
+<para>Notice that using wxTL_USER_3STATE implies wxTL_3STATE and wxTL_3STATE in turn implies wxTL_CHECKBOX. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/treelist.h" line="17" column="1" bodyfile="interface/wx/treelist.h" bodystart="16" bodyend="39"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="treelist_8h_1a3ec04606155771774c62679b681e7991" prot="public" static="no">
+        <type>wxVector&lt; <ref refid="classwx_tree_list_item" kindref="compound">wxTreeListItem</ref> &gt;</type>
+        <definition>typedef wxVector&lt;wxTreeListItem&gt; wxTreeListItems</definition>
+        <argsstring></argsstring>
+        <name>wxTreeListItems</name>
+        <briefdescription>
+<para>Container of multiple items. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/treelist.h" line="139" column="1" bodyfile="interface/wx/treelist.h" bodystart="139" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="treelist_8h_1a6640742fd6b9302dc3444439ad9431cb" prot="public" static="no" mutable="no">
+        <type>const <ref refid="classwx_tree_list_item" kindref="compound">wxTreeListItem</ref></type>
+        <definition>const wxTreeListItem wxTLI_FIRST</definition>
+        <argsstring></argsstring>
+        <name>wxTLI_FIRST</name>
+        <briefdescription>
+<para>Special <ref refid="classwx_tree_list_item" kindref="compound">wxTreeListItem</ref> value meaning &quot;insert before the first item&quot;. </para>        </briefdescription>
+        <detaileddescription>
+<para>This value can be passed to <ref refid="classwx_tree_list_ctrl_1afbb4d0ca4e914ecaa96ce26bfa083018" kindref="member">wxTreeListCtrl::InsertItem()</ref> to achieve the same effect as calling <ref refid="classwx_tree_list_ctrl_1ac8e5e8796c0c7cf2233919578b49add5" kindref="member">wxTreeListCtrl::PrependItem()</ref>. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/treelist.h" line="148" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="treelist_8h_1a1f8c673140e9ab5e4325275846993d9d" prot="public" static="no" mutable="no">
+        <type>const <ref refid="classwx_tree_list_item" kindref="compound">wxTreeListItem</ref></type>
+        <definition>const wxTreeListItem wxTLI_LAST</definition>
+        <argsstring></argsstring>
+        <name>wxTLI_LAST</name>
+        <briefdescription>
+<para>Special <ref refid="classwx_tree_list_item" kindref="compound">wxTreeListItem</ref> value meaning &quot;insert after the last item&quot;. </para>        </briefdescription>
+        <detaileddescription>
+<para>This value can be passed to <ref refid="classwx_tree_list_ctrl_1afbb4d0ca4e914ecaa96ce26bfa083018" kindref="member">wxTreeListCtrl::InsertItem()</ref> to achieve the same effect as calling <ref refid="classwx_tree_list_ctrl_1a35b2d82789812c71ac0a724396ef21ee" kindref="member">wxTreeListCtrl::AppendItem()</ref>. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/treelist.h" line="157" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="treelist_8h_1a6da190dc40f2936905b49c0c3df4fee5" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_TREELIST_SELECTION_CHANGED</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_TREELIST_SELECTION_CHANGED</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/treelist.h" line="941" column="1" bodyfile="interface/wx/treelist.h" bodystart="941" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="treelist_8h_1ac7f3682f4a1432f87349d5a0fdf9e8c1" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_TREELIST_ITEM_EXPANDING</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_TREELIST_ITEM_EXPANDING</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/treelist.h" line="942" column="1" bodyfile="interface/wx/treelist.h" bodystart="942" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="treelist_8h_1a69a1fccaabe34ef9a736c19dc4322388" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_TREELIST_ITEM_EXPANDED</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_TREELIST_ITEM_EXPANDED</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/treelist.h" line="943" column="1" bodyfile="interface/wx/treelist.h" bodystart="943" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="treelist_8h_1acac4e610f2cfba6b0ed6289c09d0fa29" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_TREELIST_ITEM_CHECKED</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_TREELIST_ITEM_CHECKED</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/treelist.h" line="944" column="1" bodyfile="interface/wx/treelist.h" bodystart="944" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="treelist_8h_1a5d9a22db063b59fab43e2bea5f2629ce" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_TREELIST_ITEM_ACTIVATED</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_TREELIST_ITEM_ACTIVATED</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/treelist.h" line="945" column="1" bodyfile="interface/wx/treelist.h" bodystart="945" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="treelist_8h_1a5701d6462fd8f6cfd7676ded0c1b55d7" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_TREELIST_ITEM_CONTEXT_MENU</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_TREELIST_ITEM_CONTEXT_MENU</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/treelist.h" line="946" column="1" bodyfile="interface/wx/treelist.h" bodystart="946" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="treelist_8h_1ac364cdbbb5d3f0d5c6590a32f7d33598" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_TREELIST_COLUMN_SORTED</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_TREELIST_COLUMN_SORTED</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/treelist.h" line="947" column="1" bodyfile="interface/wx/treelist.h" bodystart="947" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="interface/wx/treelist.h"/>
+  </compounddef>
+</doxygen>

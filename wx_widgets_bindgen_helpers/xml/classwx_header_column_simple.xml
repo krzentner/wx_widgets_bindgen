@@ -1,0 +1,396 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_header_column_simple" kind="class" language="C++" prot="public">
+    <compoundname>wxHeaderColumnSimple</compoundname>
+    <basecompoundref refid="classwx_settable_header_column" prot="public" virt="non-virtual">wxSettableHeaderColumn</basecompoundref>
+    <includes local="no">wx/headercol.h</includes>
+      <sectiondef kind="user-defined">
+      <memberdef kind="function" id="classwx_header_column_simple_1a219431d463c61334f8de7ac45ebb16f0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxHeaderColumnSimple::wxHeaderColumnSimple</definition>
+        <argsstring>(const wxString &amp;title, int width=wxCOL_WIDTH_DEFAULT, wxAlignment align=wxALIGN_NOT, int flags=wxCOL_DEFAULT_FLAGS)</argsstring>
+        <name>wxHeaderColumnSimple</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>title</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>width</declname>
+          <defval><ref refid="headercol_8h_1a39fca1837c5ce7715cbf571669660c13a6acf8d7a72546a0a964b7848720d2beb" kindref="member">wxCOL_WIDTH_DEFAULT</ref></defval>
+        </param>
+        <param>
+          <type><ref refid="defs_8h_1a543dd017a172dc316253a8a1f351dde9" kindref="member">wxAlignment</ref></type>
+          <declname>align</declname>
+          <defval><ref refid="defs_8h_1a543dd017a172dc316253a8a1f351dde9a5e0bbb65574703f4d7f9b11734a3af0f" kindref="member">wxALIGN_NOT</ref></defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>flags</declname>
+          <defval><ref refid="headercol_8h_1aaf8fd5f0e57d456151c951e0f3715fc4a97ab7816d6f779705b917a5b430479fa" kindref="member">wxCOL_DEFAULT_FLAGS</ref></defval>
+        </param>
+        <briefdescription>
+<para>Constructor for a column header. </para>        </briefdescription>
+        <detaileddescription>
+<para>The first constructor creates a header showing the given text <emphasis>title</emphasis> while the second one creates one showing the specified <emphasis>bitmap</emphasis> image. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/headercol.h" line="407" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_header_column_simple_1a53e76673786f47e27e8f9bce2e9d3d1e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxHeaderColumnSimple::wxHeaderColumnSimple</definition>
+        <argsstring>(const wxBitmap &amp;bitmap, int width=wxCOL_WIDTH_DEFAULT, wxAlignment align=wxALIGN_CENTER, int flags=wxCOL_DEFAULT_FLAGS)</argsstring>
+        <name>wxHeaderColumnSimple</name>
+        <param>
+          <type>const <ref refid="classwx_bitmap" kindref="compound">wxBitmap</ref> &amp;</type>
+          <declname>bitmap</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>width</declname>
+          <defval><ref refid="headercol_8h_1a39fca1837c5ce7715cbf571669660c13a6acf8d7a72546a0a964b7848720d2beb" kindref="member">wxCOL_WIDTH_DEFAULT</ref></defval>
+        </param>
+        <param>
+          <type><ref refid="defs_8h_1a543dd017a172dc316253a8a1f351dde9" kindref="member">wxAlignment</ref></type>
+          <declname>align</declname>
+          <defval><ref refid="defs_8h_1a543dd017a172dc316253a8a1f351dde9aea58cfe429cf1512d3b026dea8c1b044" kindref="member">wxALIGN_CENTER</ref></defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>flags</declname>
+          <defval><ref refid="headercol_8h_1aaf8fd5f0e57d456151c951e0f3715fc4a97ab7816d6f779705b917a5b430479fa" kindref="member">wxCOL_DEFAULT_FLAGS</ref></defval>
+        </param>
+        <briefdescription>
+<para>Constructor for a column header. </para>        </briefdescription>
+        <detaileddescription>
+<para>The first constructor creates a header showing the given text <emphasis>title</emphasis> while the second one creates one showing the specified <emphasis>bitmap</emphasis> image. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/headercol.h" line="412" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="user-defined">
+      <memberdef kind="function" id="classwx_header_column_simple_1abd3ff067a6cd780281671a4a17453203" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void wxHeaderColumnSimple::SetTitle</definition>
+        <argsstring>(const wxString &amp;title)</argsstring>
+        <name>SetTitle</name>
+        <reimplements refid="classwx_settable_header_column_1aa660fcc904edf557aaf68937aba1589f">SetTitle</reimplements>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>title</declname>
+        </param>
+        <briefdescription>
+<para>Trivial implementations of the base class pure virtual functions. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/headercol.h" line="422" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_header_column_simple_1a519c2f39257becbbada59945ba6ebd7d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="classwx_string" kindref="compound">wxString</ref></type>
+        <definition>virtual wxString wxHeaderColumnSimple::GetTitle</definition>
+        <argsstring>() const</argsstring>
+        <name>GetTitle</name>
+        <reimplements refid="classwx_header_column_1a47d57c9babac44df16e1f5581156a3ce">GetTitle</reimplements>
+        <briefdescription>
+<para>Trivial implementations of the base class pure virtual functions. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/headercol.h" line="423" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_header_column_simple_1a249250483e2b2855c66451fb6b60aea4" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void wxHeaderColumnSimple::SetBitmap</definition>
+        <argsstring>(const wxBitmap &amp;bitmap)</argsstring>
+        <name>SetBitmap</name>
+        <reimplements refid="classwx_settable_header_column_1a8cf3f4e113b8192fce88f06b44ad5728">SetBitmap</reimplements>
+        <param>
+          <type>const <ref refid="classwx_bitmap" kindref="compound">wxBitmap</ref> &amp;</type>
+          <declname>bitmap</declname>
+        </param>
+        <briefdescription>
+<para>Trivial implementations of the base class pure virtual functions. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/headercol.h" line="424" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_header_column_simple_1a96c3ac6e090960c81ec1cd86109be2f9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="classwx_bitmap" kindref="compound">wxBitmap</ref></type>
+        <definition>virtual wxBitmap wxHeaderColumnSimple::GetBitmap</definition>
+        <argsstring>() const</argsstring>
+        <name>GetBitmap</name>
+        <reimplements refid="classwx_header_column_1aca4d183177667dd1f6f20a61127109af">GetBitmap</reimplements>
+        <briefdescription>
+<para>Trivial implementations of the base class pure virtual functions. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/headercol.h" line="425" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_header_column_simple_1ab7fe07a7131383d838693d189c4219c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void wxHeaderColumnSimple::SetWidth</definition>
+        <argsstring>(int width)</argsstring>
+        <name>SetWidth</name>
+        <reimplements refid="classwx_settable_header_column_1aac89bf5d893ccf57c3e50e3d1acbebea">SetWidth</reimplements>
+        <param>
+          <type>int</type>
+          <declname>width</declname>
+        </param>
+        <briefdescription>
+<para>Trivial implementations of the base class pure virtual functions. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/headercol.h" line="426" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_header_column_simple_1a40dcac8b24c0cb4f5b3fa019da170f66" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>int</type>
+        <definition>virtual int wxHeaderColumnSimple::GetWidth</definition>
+        <argsstring>() const</argsstring>
+        <name>GetWidth</name>
+        <reimplements refid="classwx_header_column_1a992a31984563a35b0222adf5a06b0a77">GetWidth</reimplements>
+        <briefdescription>
+<para>Trivial implementations of the base class pure virtual functions. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/headercol.h" line="427" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_header_column_simple_1a2170a87a0e410c9f4ba6568ebc138c4c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void wxHeaderColumnSimple::SetMinWidth</definition>
+        <argsstring>(int minWidth)</argsstring>
+        <name>SetMinWidth</name>
+        <reimplements refid="classwx_settable_header_column_1a83af483273d0a5263377a83800a3dad3">SetMinWidth</reimplements>
+        <param>
+          <type>int</type>
+          <declname>minWidth</declname>
+        </param>
+        <briefdescription>
+<para>Trivial implementations of the base class pure virtual functions. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/headercol.h" line="428" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_header_column_simple_1a9c1c8f2f8ffe5bce036286b44e066717" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>int</type>
+        <definition>virtual int wxHeaderColumnSimple::GetMinWidth</definition>
+        <argsstring>() const</argsstring>
+        <name>GetMinWidth</name>
+        <reimplements refid="classwx_header_column_1a8a7c17e7f634570246b734cf2eb63fbb">GetMinWidth</reimplements>
+        <briefdescription>
+<para>Trivial implementations of the base class pure virtual functions. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/headercol.h" line="429" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_header_column_simple_1a14670c0e4a9a7f53f4800cabaf119934" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void wxHeaderColumnSimple::SetAlignment</definition>
+        <argsstring>(wxAlignment align)</argsstring>
+        <name>SetAlignment</name>
+        <reimplements refid="classwx_settable_header_column_1a6b516a1b80ebe8d336ea31e29d9ded00">SetAlignment</reimplements>
+        <param>
+          <type><ref refid="defs_8h_1a543dd017a172dc316253a8a1f351dde9" kindref="member">wxAlignment</ref></type>
+          <declname>align</declname>
+        </param>
+        <briefdescription>
+<para>Trivial implementations of the base class pure virtual functions. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/headercol.h" line="430" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_header_column_simple_1a740be480d844d56d5ce7876a920f299f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="defs_8h_1a543dd017a172dc316253a8a1f351dde9" kindref="member">wxAlignment</ref></type>
+        <definition>virtual wxAlignment wxHeaderColumnSimple::GetAlignment</definition>
+        <argsstring>() const</argsstring>
+        <name>GetAlignment</name>
+        <reimplements refid="classwx_header_column_1afc7728e0def849ecb6a2b074f2ea0eb8">GetAlignment</reimplements>
+        <briefdescription>
+<para>Trivial implementations of the base class pure virtual functions. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/headercol.h" line="431" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_header_column_simple_1aaa4db67648cde4557ea2c222c659e3c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void wxHeaderColumnSimple::SetFlags</definition>
+        <argsstring>(int flags)</argsstring>
+        <name>SetFlags</name>
+        <reimplements refid="classwx_settable_header_column_1aaeebec7c145f5b36914694fa231df528">SetFlags</reimplements>
+        <param>
+          <type>int</type>
+          <declname>flags</declname>
+        </param>
+        <briefdescription>
+<para>Trivial implementations of the base class pure virtual functions. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/headercol.h" line="432" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_header_column_simple_1a22943c29f9ca58e5499dda29636ef4eb" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>int</type>
+        <definition>virtual int wxHeaderColumnSimple::GetFlags</definition>
+        <argsstring>() const</argsstring>
+        <name>GetFlags</name>
+        <reimplements refid="classwx_header_column_1a5026f8cf3dde67ab2003da8ec8a892ab">GetFlags</reimplements>
+        <briefdescription>
+<para>Trivial implementations of the base class pure virtual functions. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/headercol.h" line="433" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_header_column_simple_1ade591ab263b9d890cc61da48ddc8171c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool wxHeaderColumnSimple::IsSortKey</definition>
+        <argsstring>() const</argsstring>
+        <name>IsSortKey</name>
+        <reimplements refid="classwx_header_column_1a95645523fc113008d66d626bc06c7dd1">IsSortKey</reimplements>
+        <briefdescription>
+<para>Trivial implementations of the base class pure virtual functions. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/headercol.h" line="434" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_header_column_simple_1a0435ddb5c9945974193997e1ffd05954" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void wxHeaderColumnSimple::SetSortOrder</definition>
+        <argsstring>(bool ascending)</argsstring>
+        <name>SetSortOrder</name>
+        <reimplements refid="classwx_settable_header_column_1a360deabbdb9ede8c9e616d460f276124">SetSortOrder</reimplements>
+        <param>
+          <type>bool</type>
+          <declname>ascending</declname>
+        </param>
+        <briefdescription>
+<para>Trivial implementations of the base class pure virtual functions. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/headercol.h" line="435" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_header_column_simple_1ab6efe003f23318e06a8174d52305fc4f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool wxHeaderColumnSimple::IsSortOrderAscending</definition>
+        <argsstring>() const</argsstring>
+        <name>IsSortOrderAscending</name>
+        <reimplements refid="classwx_header_column_1a30e41f28c017812c4f53e4b66c62cd4c">IsSortOrderAscending</reimplements>
+        <briefdescription>
+<para>Trivial implementations of the base class pure virtual functions. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/headercol.h" line="436" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Simple container for the information about the column. </para>    </briefdescription>
+    <detaileddescription>
+<para>This is a concrete class implementing all <ref refid="classwx_settable_header_column" kindref="compound">wxSettableHeaderColumn</ref> class methods in a trivial way, i.e. by just storing the information in the object itself. It is used by and with <ref refid="classwx_header_ctrl_simple" kindref="compound">wxHeaderCtrlSimple</ref>, e.g. <programlisting><codeline><highlight class="normal">wxHeaderCtrlSimple<sp/>*<sp/>header<sp/>=<sp/>new<sp/>wxHeaderCtrlSimple(...);</highlight></codeline>
+<codeline><highlight class="normal">wxHeaderColumnSimple<sp/>col(&quot;Title&quot;);</highlight></codeline>
+<codeline><highlight class="normal">col.SetWidth(100);</highlight></codeline>
+<codeline><highlight class="normal">col.SetSortable(100);</highlight></codeline>
+<codeline><highlight class="normal">header-&gt;AppendColumn(col);</highlight></codeline>
+</programlisting></para><para><heading level="2"></heading>
+</para><para>Library:<nonbreakablespace/><nonbreakablespace/><ref refid="page_libs_1page_libs_wxcore" kindref="member">wxCore</ref> &lt;&gt;&lt; =&apos;&apos;&gt;:&lt;/&gt;&amp;;&amp;;&lt; =&apos;&apos;&gt;\ &lt;/&gt;&lt;/&gt; </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="3213">
+        <label>wxSettableHeaderColumn</label>
+        <link refid="classwx_settable_header_column"/>
+        <childnode refid="3214" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3214">
+        <label>wxHeaderColumn</label>
+        <link refid="classwx_header_column"/>
+      </node>
+      <node id="3212">
+        <label>wxHeaderColumnSimple</label>
+        <link refid="classwx_header_column_simple"/>
+        <childnode refid="3213" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3216">
+        <label>wxSettableHeaderColumn</label>
+        <link refid="classwx_settable_header_column"/>
+        <childnode refid="3217" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3217">
+        <label>wxHeaderColumn</label>
+        <link refid="classwx_header_column"/>
+      </node>
+      <node id="3215">
+        <label>wxHeaderColumnSimple</label>
+        <link refid="classwx_header_column_simple"/>
+        <childnode refid="3216" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="interface/wx/headercol.h" line="398" column="1" bodyfile="interface/wx/headercol.h" bodystart="397" bodyend="439"/>
+    <listofallmembers>
+      <member refid="classwx_settable_header_column_1ae4c0570355a3c4b712352457c925a7dd" prot="public" virt="non-virtual"><scope>wxHeaderColumnSimple</scope><name>ChangeFlag</name></member>
+      <member refid="classwx_settable_header_column_1afb2fa0ed8e8e729d16ff9fefe9e41a26" prot="public" virt="non-virtual"><scope>wxHeaderColumnSimple</scope><name>ClearFlag</name></member>
+      <member refid="classwx_header_column_simple_1a740be480d844d56d5ce7876a920f299f" prot="public" virt="virtual"><scope>wxHeaderColumnSimple</scope><name>GetAlignment</name></member>
+      <member refid="classwx_header_column_simple_1a96c3ac6e090960c81ec1cd86109be2f9" prot="public" virt="virtual"><scope>wxHeaderColumnSimple</scope><name>GetBitmap</name></member>
+      <member refid="classwx_header_column_simple_1a22943c29f9ca58e5499dda29636ef4eb" prot="public" virt="virtual"><scope>wxHeaderColumnSimple</scope><name>GetFlags</name></member>
+      <member refid="classwx_header_column_simple_1a9c1c8f2f8ffe5bce036286b44e066717" prot="public" virt="virtual"><scope>wxHeaderColumnSimple</scope><name>GetMinWidth</name></member>
+      <member refid="classwx_header_column_simple_1a519c2f39257becbbada59945ba6ebd7d" prot="public" virt="virtual"><scope>wxHeaderColumnSimple</scope><name>GetTitle</name></member>
+      <member refid="classwx_header_column_simple_1a40dcac8b24c0cb4f5b3fa019da170f66" prot="public" virt="virtual"><scope>wxHeaderColumnSimple</scope><name>GetWidth</name></member>
+      <member refid="classwx_header_column_1ad9ca1aaba092ae89b0e4efcacc243b12" prot="public" virt="non-virtual"><scope>wxHeaderColumnSimple</scope><name>HasFlag</name></member>
+      <member refid="classwx_header_column_1a010ab3ccff0b3c58a1e19b93b0eb09ac" prot="public" virt="virtual"><scope>wxHeaderColumnSimple</scope><name>IsHidden</name></member>
+      <member refid="classwx_header_column_1a40f94597100d0d1852b61124d32ab871" prot="public" virt="virtual"><scope>wxHeaderColumnSimple</scope><name>IsReorderable</name></member>
+      <member refid="classwx_header_column_1a5d5bade6f1ade844355fe2a4ee680471" prot="public" virt="virtual"><scope>wxHeaderColumnSimple</scope><name>IsResizeable</name></member>
+      <member refid="classwx_header_column_1a14d520b2b990069ea2df289cc346ba44" prot="public" virt="non-virtual"><scope>wxHeaderColumnSimple</scope><name>IsShown</name></member>
+      <member refid="classwx_header_column_1a48e7b0b4c63cfc778b9fc87f0074fb62" prot="public" virt="virtual"><scope>wxHeaderColumnSimple</scope><name>IsSortable</name></member>
+      <member refid="classwx_header_column_simple_1ade591ab263b9d890cc61da48ddc8171c" prot="public" virt="virtual"><scope>wxHeaderColumnSimple</scope><name>IsSortKey</name></member>
+      <member refid="classwx_header_column_simple_1ab6efe003f23318e06a8174d52305fc4f" prot="public" virt="virtual"><scope>wxHeaderColumnSimple</scope><name>IsSortOrderAscending</name></member>
+      <member refid="classwx_header_column_simple_1a14670c0e4a9a7f53f4800cabaf119934" prot="public" virt="virtual"><scope>wxHeaderColumnSimple</scope><name>SetAlignment</name></member>
+      <member refid="classwx_header_column_simple_1a249250483e2b2855c66451fb6b60aea4" prot="public" virt="virtual"><scope>wxHeaderColumnSimple</scope><name>SetBitmap</name></member>
+      <member refid="classwx_settable_header_column_1a71eddf8ebeb18d55d10fd40cc457aa97" prot="public" virt="non-virtual"><scope>wxHeaderColumnSimple</scope><name>SetFlag</name></member>
+      <member refid="classwx_header_column_simple_1aaa4db67648cde4557ea2c222c659e3c0" prot="public" virt="virtual"><scope>wxHeaderColumnSimple</scope><name>SetFlags</name></member>
+      <member refid="classwx_settable_header_column_1a92740fb99132c52fd91f333d703b0410" prot="public" virt="virtual"><scope>wxHeaderColumnSimple</scope><name>SetHidden</name></member>
+      <member refid="classwx_header_column_simple_1a2170a87a0e410c9f4ba6568ebc138c4c" prot="public" virt="virtual"><scope>wxHeaderColumnSimple</scope><name>SetMinWidth</name></member>
+      <member refid="classwx_settable_header_column_1a954858d4987d17a2f8fa30ef84ad2445" prot="public" virt="virtual"><scope>wxHeaderColumnSimple</scope><name>SetReorderable</name></member>
+      <member refid="classwx_settable_header_column_1ac8996814e5625c634ed71d932071c6c1" prot="public" virt="virtual"><scope>wxHeaderColumnSimple</scope><name>SetResizeable</name></member>
+      <member refid="classwx_settable_header_column_1afa46b4fd0a56898b3e2d5cc8e4401757" prot="public" virt="virtual"><scope>wxHeaderColumnSimple</scope><name>SetSortable</name></member>
+      <member refid="classwx_header_column_simple_1a0435ddb5c9945974193997e1ffd05954" prot="public" virt="virtual"><scope>wxHeaderColumnSimple</scope><name>SetSortOrder</name></member>
+      <member refid="classwx_header_column_simple_1abd3ff067a6cd780281671a4a17453203" prot="public" virt="virtual"><scope>wxHeaderColumnSimple</scope><name>SetTitle</name></member>
+      <member refid="classwx_header_column_simple_1ab7fe07a7131383d838693d189c4219c2" prot="public" virt="virtual"><scope>wxHeaderColumnSimple</scope><name>SetWidth</name></member>
+      <member refid="classwx_settable_header_column_1a4734d269e6b4454aae75eb3641f4b023" prot="public" virt="non-virtual"><scope>wxHeaderColumnSimple</scope><name>ToggleFlag</name></member>
+      <member refid="classwx_settable_header_column_1a85f9c3278526a0f60b79fd32607d31bb" prot="public" virt="non-virtual"><scope>wxHeaderColumnSimple</scope><name>ToggleSortOrder</name></member>
+      <member refid="classwx_settable_header_column_1a9f045a0c1f080d10600c8680b6e7a5b6" prot="public" virt="non-virtual"><scope>wxHeaderColumnSimple</scope><name>UnsetAsSortKey</name></member>
+      <member refid="classwx_header_column_simple_1a219431d463c61334f8de7ac45ebb16f0" prot="public" virt="non-virtual"><scope>wxHeaderColumnSimple</scope><name>wxHeaderColumnSimple</name></member>
+      <member refid="classwx_header_column_simple_1a53e76673786f47e27e8f9bce2e9d3d1e" prot="public" virt="non-virtual"><scope>wxHeaderColumnSimple</scope><name>wxHeaderColumnSimple</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

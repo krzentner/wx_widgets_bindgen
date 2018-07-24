@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="htmllbox_8h" kind="file" language="C++">
+    <compoundname>htmllbox.h</compoundname>
+    <innerclass refid="classwx_html_list_box" prot="public">wxHtmlListBox</innerclass>
+    <innerclass refid="classwx_simple_html_list_box" prot="public">wxSimpleHtmlListBox</innerclass>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="htmllbox_8h_1ad7a6b9965b38138b635b20e321c19317" prot="public" static="no">
+        <name>wxHLB_DEFAULT_STYLE</name>
+        <initializer><ref refid="defs_8h_1af63c94dff4e3f25a3c5e9d2874456edfac4a87595a588e0c737619551ca4fbfe4" kindref="member">wxBORDER_SUNKEN</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/htmllbox.h" line="203" column="9" bodyfile="interface/wx/htmllbox.h" bodystart="203" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="htmllbox_8h_1a2d4d006df12ab32b18408b419f32a96c" prot="public" static="no">
+        <name>wxHLB_MULTIPLE</name>
+        <initializer><ref refid="defs_8h_1aba915d35b950be41054027fd165421b2" kindref="member">wxLB_MULTIPLE</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/htmllbox.h" line="204" column="9" bodyfile="interface/wx/htmllbox.h" bodystart="204" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="interface/wx/htmllbox.h"/>
+  </compounddef>
+</doxygen>

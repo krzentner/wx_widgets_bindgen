@@ -1,0 +1,202 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_p_g_editor_dialog_adapter" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>wxPGEditorDialogAdapter</compoundname>
+    <basecompoundref refid="classwx_object" prot="public" virt="non-virtual">wxObject</basecompoundref>
+    <derivedcompoundref refid="classwx_p_g_file_dialog_adapter" prot="public" virt="non-virtual">wxPGFileDialogAdapter</derivedcompoundref>
+    <derivedcompoundref refid="classwx_p_g_long_string_dialog_adapter" prot="public" virt="non-virtual">wxPGLongStringDialogAdapter</derivedcompoundref>
+    <includes local="no">wx/propgrid/editors.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classwx_p_g_editor_dialog_adapter_1aa33c72af16bc3db80829230f3bd9deea" prot="public" static="no" mutable="no">
+        <type>void *</type>
+        <definition>void* wxPGEditorDialogAdapter::m_clientData</definition>
+        <argsstring></argsstring>
+        <name>m_clientData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/editors.h" line="409" column="1" bodyfile="interface/wx/propgrid/editors.h" bodystart="409" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classwx_p_g_editor_dialog_adapter_1a09015955870f4c7782fe44c17a2a53e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxPGEditorDialogAdapter::wxPGEditorDialogAdapter</definition>
+        <argsstring>()</argsstring>
+        <name>wxPGEditorDialogAdapter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/editors.h" line="390" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_p_g_editor_dialog_adapter_1ab3a15d45e072f1a98c3924405245db77" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual wxPGEditorDialogAdapter::~wxPGEditorDialogAdapter</definition>
+        <argsstring>()</argsstring>
+        <name>~wxPGEditorDialogAdapter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/editors.h" line="391" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_p_g_editor_dialog_adapter_1ad01b285285efd0f1c533b4c096bf27cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxPGEditorDialogAdapter::ShowDialog</definition>
+        <argsstring>(wxPropertyGrid *propGrid, wxPGProperty *property)</argsstring>
+        <name>ShowDialog</name>
+        <param>
+          <type><ref refid="classwx_property_grid" kindref="compound">wxPropertyGrid</ref> *</type>
+          <declname>propGrid</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_p_g_property" kindref="compound">wxPGProperty</ref> *</type>
+          <declname>property</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/editors.h" line="393" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_p_g_editor_dialog_adapter_1aee70a00bcfd338f23ba1480ce31ab910" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>bool</type>
+        <definition>virtual bool wxPGEditorDialogAdapter::DoShowDialog</definition>
+        <argsstring>(wxPropertyGrid *propGrid, wxPGProperty *property)=0</argsstring>
+        <name>DoShowDialog</name>
+        <reimplementedby refid="classwx_p_g_file_dialog_adapter_1a2a4b531f53522e1e71d986463974d04c">DoShowDialog</reimplementedby>
+        <reimplementedby refid="classwx_p_g_long_string_dialog_adapter_1a5c19dac2424b9b2fedebfac6cf56c5c9">DoShowDialog</reimplementedby>
+        <param>
+          <type><ref refid="classwx_property_grid" kindref="compound">wxPropertyGrid</ref> *</type>
+          <declname>propGrid</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_p_g_property" kindref="compound">wxPGProperty</ref> *</type>
+          <declname>property</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/editors.h" line="395" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_p_g_editor_dialog_adapter_1ae39cab029d845be43feea94ce8d4a31d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxPGEditorDialogAdapter::SetValue</definition>
+        <argsstring>(wxVariant value)</argsstring>
+        <name>SetValue</name>
+        <param>
+          <type><ref refid="classwx_variant" kindref="compound">wxVariant</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/editors.h" line="398" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_p_g_editor_dialog_adapter_1a8936fd9b83979f4520701647134a33f3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classwx_variant" kindref="compound">wxVariant</ref> &amp;</type>
+        <definition>wxVariant&amp; wxPGEditorDialogAdapter::GetValue</definition>
+        <argsstring>()</argsstring>
+        <name>GetValue</name>
+        <briefdescription>
+<para>This method is typically only used if deriving class from existing adapter with value conversion purposes. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/editors.h" line="404" column="1" bodyfile="interface/wx/propgrid/editors.h" bodystart="404" bodyend="404"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Derive a class from this to adapt an existing editor dialog or function to be used when editor button of a property is pushed. </para>    </briefdescription>
+    <detaileddescription>
+<para>You only need to derive class and implement <ref refid="classwx_p_g_editor_dialog_adapter_1aee70a00bcfd338f23ba1480ce31ab910" kindref="member">DoShowDialog()</ref> to create and show the dialog, and finally submit the value returned by the dialog via <ref refid="classwx_p_g_editor_dialog_adapter_1ae39cab029d845be43feea94ce8d4a31d" kindref="member">SetValue()</ref>.</para><para><heading level="2"></heading>
+</para><para>Library:<nonbreakablespace/><nonbreakablespace/><ref refid="page_libs_1page_libs_wxpropgrid" kindref="member">wxPropertyGrid</ref> &lt;&gt;&lt; =&apos;&apos;&gt;:&lt;/&gt;&amp;;&amp;;&lt; =&apos;&apos;&gt;\ &lt;/&gt;&lt;/&gt; </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="5352">
+        <label>wxObject</label>
+        <link refid="classwx_object"/>
+      </node>
+      <node id="5353">
+        <label>wxPGFileDialogAdapter</label>
+        <link refid="classwx_p_g_file_dialog_adapter"/>
+        <childnode refid="5351" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5354">
+        <label>wxPGLongStringDialogAdapter</label>
+        <link refid="classwx_p_g_long_string_dialog_adapter"/>
+        <childnode refid="5351" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5351">
+        <label>wxPGEditorDialogAdapter</label>
+        <link refid="classwx_p_g_editor_dialog_adapter"/>
+        <childnode refid="5352" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="5356">
+        <label>wxObject</label>
+        <link refid="classwx_object"/>
+        <childnode refid="5357" relation="usage">
+          <edgelabel>m_refData</edgelabel>
+        </childnode>
+      </node>
+      <node id="5355">
+        <label>wxPGEditorDialogAdapter</label>
+        <link refid="classwx_p_g_editor_dialog_adapter"/>
+        <childnode refid="5356" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5357">
+        <label>wxObjectRefData</label>
+        <link refid="classwx_object_ref_data"/>
+      </node>
+    </collaborationgraph>
+    <location file="interface/wx/propgrid/editors.h" line="388" column="1" bodyfile="interface/wx/propgrid/editors.h" bodystart="387" bodyend="410"/>
+    <listofallmembers>
+      <member refid="classwx_object_1a60204063f3cc3aa2fa1c7ff5bda9eb13" prot="protected" virt="non-virtual"><scope>wxPGEditorDialogAdapter</scope><name>AllocExclusive</name></member>
+      <member refid="classwx_object_1a436fc8fe68cf8a31000296d9cd3d2427" prot="protected" virt="virtual"><scope>wxPGEditorDialogAdapter</scope><name>CloneRefData</name></member>
+      <member refid="classwx_object_1a3f4f497c65cef611e121c41f21dd5ccc" prot="protected" virt="virtual"><scope>wxPGEditorDialogAdapter</scope><name>CreateRefData</name></member>
+      <member refid="classwx_p_g_editor_dialog_adapter_1aee70a00bcfd338f23ba1480ce31ab910" prot="public" virt="pure-virtual"><scope>wxPGEditorDialogAdapter</scope><name>DoShowDialog</name></member>
+      <member refid="classwx_object_1ae6d365f2556b26767ced8410c5e839d0" prot="public" virt="virtual"><scope>wxPGEditorDialogAdapter</scope><name>GetClassInfo</name></member>
+      <member refid="classwx_object_1af3c6c76a775864832f1536d3c0de3a2b" prot="public" virt="non-virtual"><scope>wxPGEditorDialogAdapter</scope><name>GetRefData</name></member>
+      <member refid="classwx_p_g_editor_dialog_adapter_1a8936fd9b83979f4520701647134a33f3" prot="public" virt="non-virtual"><scope>wxPGEditorDialogAdapter</scope><name>GetValue</name></member>
+      <member refid="classwx_object_1a3c7115ef4132dcee0c4fc34e84d7fced" prot="public" virt="non-virtual"><scope>wxPGEditorDialogAdapter</scope><name>IsKindOf</name></member>
+      <member refid="classwx_object_1a059373c494c2369d7db2a556efef8ecf" prot="public" virt="non-virtual"><scope>wxPGEditorDialogAdapter</scope><name>IsSameAs</name></member>
+      <member refid="classwx_p_g_editor_dialog_adapter_1aa33c72af16bc3db80829230f3bd9deea" prot="public" virt="non-virtual"><scope>wxPGEditorDialogAdapter</scope><name>m_clientData</name></member>
+      <member refid="classwx_object_1a9e31954530a0abd54982effc443ed2b8" prot="protected" virt="non-virtual"><scope>wxPGEditorDialogAdapter</scope><name>m_refData</name></member>
+      <member refid="classwx_object_1a07b8f34f5afc5743195c5fed052f55d3" prot="public" virt="non-virtual"><scope>wxPGEditorDialogAdapter</scope><name>operator delete</name></member>
+      <member refid="classwx_object_1a96fa423a1dbc212c8227a5d83825971f" prot="public" virt="non-virtual"><scope>wxPGEditorDialogAdapter</scope><name>operator new</name></member>
+      <member refid="classwx_object_1a2f6f1aa51fe9fc2b1415ca4211a90e9e" prot="public" virt="non-virtual"><scope>wxPGEditorDialogAdapter</scope><name>Ref</name></member>
+      <member refid="classwx_object_1afab780710f2adc1bb33310e27590140b" prot="public" virt="non-virtual"><scope>wxPGEditorDialogAdapter</scope><name>SetRefData</name></member>
+      <member refid="classwx_p_g_editor_dialog_adapter_1ae39cab029d845be43feea94ce8d4a31d" prot="public" virt="non-virtual"><scope>wxPGEditorDialogAdapter</scope><name>SetValue</name></member>
+      <member refid="classwx_p_g_editor_dialog_adapter_1ad01b285285efd0f1c533b4c096bf27cf" prot="public" virt="non-virtual"><scope>wxPGEditorDialogAdapter</scope><name>ShowDialog</name></member>
+      <member refid="classwx_object_1af51efc6b1ae632fc7f0cd7ebbce9fa36" prot="public" virt="non-virtual"><scope>wxPGEditorDialogAdapter</scope><name>UnRef</name></member>
+      <member refid="classwx_object_1a74b40e42d19a4b9e9bec0b57d62a5725" prot="public" virt="non-virtual"><scope>wxPGEditorDialogAdapter</scope><name>UnShare</name></member>
+      <member refid="classwx_object_1acaa378363a28af421ab56ad7b46eadf0" prot="public" virt="non-virtual"><scope>wxPGEditorDialogAdapter</scope><name>wxObject</name></member>
+      <member refid="classwx_object_1a4721b4dc9b7aff0f30904ba2ea3954cf" prot="public" virt="non-virtual"><scope>wxPGEditorDialogAdapter</scope><name>wxObject</name></member>
+      <member refid="classwx_p_g_editor_dialog_adapter_1a09015955870f4c7782fe44c17a2a53e3" prot="public" virt="non-virtual"><scope>wxPGEditorDialogAdapter</scope><name>wxPGEditorDialogAdapter</name></member>
+      <member refid="classwx_object_1a2a51aa8bfbab47ca2f051bcf84b3f35b" prot="public" virt="virtual"><scope>wxPGEditorDialogAdapter</scope><name>~wxObject</name></member>
+      <member refid="classwx_p_g_editor_dialog_adapter_1ab3a15d45e072f1a98c3924405245db77" prot="public" virt="virtual"><scope>wxPGEditorDialogAdapter</scope><name>~wxPGEditorDialogAdapter</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

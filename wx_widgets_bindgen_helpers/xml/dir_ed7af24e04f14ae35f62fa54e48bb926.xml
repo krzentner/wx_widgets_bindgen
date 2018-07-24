@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="dir_ed7af24e04f14ae35f62fa54e48bb926" kind="dir">
+    <compoundname>interface/wx/stc</compoundname>
+    <innerfile refid="stc_8h">stc.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="interface/wx/stc/"/>
+  </compounddef>
+</doxygen>

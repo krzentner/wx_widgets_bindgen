@@ -1,0 +1,420 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_rich_text_range" kind="class" language="C++" prot="public">
+    <compoundname>wxRichTextRange</compoundname>
+    <includes local="no">wx/richtext/richtextbuffer.h</includes>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classwx_rich_text_range_1aebaf934b74efba349086cb359c2b7036" prot="protected" static="no" mutable="no">
+        <type>long</type>
+        <definition>long wxRichTextRange::m_start</definition>
+        <argsstring></argsstring>
+        <name>m_start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="1811" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="1811" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classwx_rich_text_range_1a72533d974af4c3a82edec75f0d119aa7" prot="protected" static="no" mutable="no">
+        <type>long</type>
+        <definition>long wxRichTextRange::m_end</definition>
+        <argsstring></argsstring>
+        <name>m_end</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="1812" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="1812" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classwx_rich_text_range_1a2559f408e55df9c2202dd9c710ab74dd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>wxRichTextRange::wxRichTextRange</definition>
+        <argsstring>()</argsstring>
+        <name>wxRichTextRange</name>
+        <briefdescription>
+<para>Default constructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="1701" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="1701" bodyend="1701"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_range_1a03d647c7e6eb5256d394e802aa4be8e3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>wxRichTextRange::wxRichTextRange</definition>
+        <argsstring>(long start, long end)</argsstring>
+        <name>wxRichTextRange</name>
+        <param>
+          <type>long</type>
+          <declname>start</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>end</declname>
+        </param>
+        <briefdescription>
+<para>Constructor taking start and end positions. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="1706" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="1706" bodyend="1706"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_range_1a28816b69591222142566b160c5972034" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>wxRichTextRange::wxRichTextRange</definition>
+        <argsstring>(const wxRichTextRange &amp;range)</argsstring>
+        <name>wxRichTextRange</name>
+        <param>
+          <type>const <ref refid="classwx_rich_text_range" kindref="compound">wxRichTextRange</ref> &amp;</type>
+          <declname>range</declname>
+        </param>
+        <briefdescription>
+<para>Copy constructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="1711" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="1711" bodyend="1711"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_range_1a1786f840e74b5fcba8b9e8e02737545b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>wxRichTextRange::~wxRichTextRange</definition>
+        <argsstring>()</argsstring>
+        <name>~wxRichTextRange</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="1712" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="1712" bodyend="1712"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_range_1ac4ea96e235b431ef0e0233868c1c69af" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxRichTextRange::operator=</definition>
+        <argsstring>(const wxRichTextRange &amp;range)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="classwx_rich_text_range" kindref="compound">wxRichTextRange</ref> &amp;</type>
+          <declname>range</declname>
+        </param>
+        <briefdescription>
+<para>Assigns <emphasis>range</emphasis> to this range. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="1717" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="1717" bodyend="1717"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_range_1a64dbb9445355f6b07e3115c846f7753e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxRichTextRange::operator==</definition>
+        <argsstring>(const wxRichTextRange &amp;range) const</argsstring>
+        <name>operator==</name>
+        <param>
+          <type>const <ref refid="classwx_rich_text_range" kindref="compound">wxRichTextRange</ref> &amp;</type>
+          <declname>range</declname>
+        </param>
+        <briefdescription>
+<para>Equality operator. </para>        </briefdescription>
+        <detaileddescription>
+<para>Returns true if <emphasis>range</emphasis> is the same as this range. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="1722" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="1722" bodyend="1722"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_range_1a26e4d23c1c181ef243d5e05981e5e9ae" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxRichTextRange::operator!=</definition>
+        <argsstring>(const wxRichTextRange &amp;range) const</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type>const <ref refid="classwx_rich_text_range" kindref="compound">wxRichTextRange</ref> &amp;</type>
+          <declname>range</declname>
+        </param>
+        <briefdescription>
+<para>Inequality operator. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="1727" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="1727" bodyend="1727"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_range_1a384ee633e20d5e0cb6400f4c3f9f56fb" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classwx_rich_text_range" kindref="compound">wxRichTextRange</ref></type>
+        <definition>wxRichTextRange wxRichTextRange::operator-</definition>
+        <argsstring>(const wxRichTextRange &amp;range) const</argsstring>
+        <name>operator-</name>
+        <param>
+          <type>const <ref refid="classwx_rich_text_range" kindref="compound">wxRichTextRange</ref> &amp;</type>
+          <declname>range</declname>
+        </param>
+        <briefdescription>
+<para>Subtracts a range from this range. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="1732" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="1732" bodyend="1732"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_range_1a2494780805839e86b45012a60398750d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classwx_rich_text_range" kindref="compound">wxRichTextRange</ref></type>
+        <definition>wxRichTextRange wxRichTextRange::operator+</definition>
+        <argsstring>(const wxRichTextRange &amp;range) const</argsstring>
+        <name>operator+</name>
+        <param>
+          <type>const <ref refid="classwx_rich_text_range" kindref="compound">wxRichTextRange</ref> &amp;</type>
+          <declname>range</declname>
+        </param>
+        <briefdescription>
+<para>Adds a range to this range. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="1737" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="1737" bodyend="1737"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_range_1aca28357d0383d6ecf7df7310219a613b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxRichTextRange::SetRange</definition>
+        <argsstring>(long start, long end)</argsstring>
+        <name>SetRange</name>
+        <param>
+          <type>long</type>
+          <declname>start</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>end</declname>
+        </param>
+        <briefdescription>
+<para>Sets the range start and end positions. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="1742" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="1742" bodyend="1742"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_range_1a66e240ddb04654355368b4db0ea663a4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxRichTextRange::SetStart</definition>
+        <argsstring>(long start)</argsstring>
+        <name>SetStart</name>
+        <param>
+          <type>long</type>
+          <declname>start</declname>
+        </param>
+        <briefdescription>
+<para>Sets the start position. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="1747" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="1747" bodyend="1747"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_range_1a163a6865e597ae4bef386828a0b085de" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>long</type>
+        <definition>long wxRichTextRange::GetStart</definition>
+        <argsstring>() const</argsstring>
+        <name>GetStart</name>
+        <briefdescription>
+<para>Returns the start position. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="1752" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="1752" bodyend="1752"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_range_1a39c1d4b58fd4c8982c0d0d3a68203f31" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxRichTextRange::SetEnd</definition>
+        <argsstring>(long end)</argsstring>
+        <name>SetEnd</name>
+        <param>
+          <type>long</type>
+          <declname>end</declname>
+        </param>
+        <briefdescription>
+<para>Sets the end position. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="1757" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="1757" bodyend="1757"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_range_1a48929b4e36891ae3a0db8cf128a12271" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>long</type>
+        <definition>long wxRichTextRange::GetEnd</definition>
+        <argsstring>() const</argsstring>
+        <name>GetEnd</name>
+        <briefdescription>
+<para>Gets the end position. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="1762" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="1762" bodyend="1762"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_range_1a73e97b5174a6595d1bdc7652ac77c936" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxRichTextRange::IsOutside</definition>
+        <argsstring>(const wxRichTextRange &amp;range) const</argsstring>
+        <name>IsOutside</name>
+        <param>
+          <type>const <ref refid="classwx_rich_text_range" kindref="compound">wxRichTextRange</ref> &amp;</type>
+          <declname>range</declname>
+        </param>
+        <briefdescription>
+<para>Returns true if this range is completely outside <emphasis>range</emphasis>. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="1767" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="1767" bodyend="1767"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_range_1ac49e3af536b833d023a746eed6028c3b" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxRichTextRange::IsWithin</definition>
+        <argsstring>(const wxRichTextRange &amp;range) const</argsstring>
+        <name>IsWithin</name>
+        <param>
+          <type>const <ref refid="classwx_rich_text_range" kindref="compound">wxRichTextRange</ref> &amp;</type>
+          <declname>range</declname>
+        </param>
+        <briefdescription>
+<para>Returns true if this range is completely within <emphasis>range</emphasis>. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="1772" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="1772" bodyend="1772"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_range_1a886329ed47bf99bd6c390e653f8b19db" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxRichTextRange::Contains</definition>
+        <argsstring>(long pos) const</argsstring>
+        <name>Contains</name>
+        <param>
+          <type>long</type>
+          <declname>pos</declname>
+        </param>
+        <briefdescription>
+<para>Returns true if <emphasis>pos</emphasis> was within the range. </para>        </briefdescription>
+        <detaileddescription>
+<para>Does not match if the range is empty. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="1777" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="1777" bodyend="1777"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_range_1a38159cf0e7a809d3d6e51306dbf75ade" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxRichTextRange::LimitTo</definition>
+        <argsstring>(const wxRichTextRange &amp;range)</argsstring>
+        <name>LimitTo</name>
+        <param>
+          <type>const <ref refid="classwx_rich_text_range" kindref="compound">wxRichTextRange</ref> &amp;</type>
+          <declname>range</declname>
+        </param>
+        <briefdescription>
+<para>Limit this range to be within <emphasis>range</emphasis>. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="1782" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_range_1ac0158d1fc3a58e6852f730f28724000b" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>long</type>
+        <definition>long wxRichTextRange::GetLength</definition>
+        <argsstring>() const</argsstring>
+        <name>GetLength</name>
+        <briefdescription>
+<para>Gets the length of the range. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="1787" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="1787" bodyend="1787"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_range_1acbf6c258c79b1a2c2f56437bce7bed8b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxRichTextRange::Swap</definition>
+        <argsstring>()</argsstring>
+        <name>Swap</name>
+        <briefdescription>
+<para>Swaps the start and end. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="1792" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="1792" bodyend="1792"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_range_1a25d10f8c0a317ab38038ed8be0ec385a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classwx_rich_text_range" kindref="compound">wxRichTextRange</ref></type>
+        <definition>wxRichTextRange wxRichTextRange::ToInternal</definition>
+        <argsstring>() const</argsstring>
+        <name>ToInternal</name>
+        <briefdescription>
+<para>Converts the API-standard range, whose end is one past the last character in the range, to the internal form, which uses the first and last character positions of the range. </para>        </briefdescription>
+        <detaileddescription>
+<para>In other words, one is subtracted from the end position. (n, n) is the range of a single character. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="1800" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="1800" bodyend="1800"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_range_1ae68286e6b9a0504d15046af47365ab9e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classwx_rich_text_range" kindref="compound">wxRichTextRange</ref></type>
+        <definition>wxRichTextRange wxRichTextRange::FromInternal</definition>
+        <argsstring>() const</argsstring>
+        <name>FromInternal</name>
+        <briefdescription>
+<para>Converts the internal range, which uses the first and last character positions of the range, to the API-standard range, whose end is one past the last character in the range. </para>        </briefdescription>
+        <detaileddescription>
+<para>In other words, one is added to the end position. (n, n+1) is the range of a single character. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="1808" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="1808" bodyend="1808"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This stores beginning and end positions for a range of data. </para>    </briefdescription>
+    <detaileddescription>
+<para><heading level="2"></heading>
+</para><para>Library:<nonbreakablespace/><nonbreakablespace/><ref refid="page_libs_1page_libs_wxrichtext" kindref="member">wxRichText</ref> &lt;&gt;&lt; =&apos;&apos;&gt;:&lt;/&gt;&amp;;&amp;;&lt; =&apos;&apos;&gt;\ &lt;/&gt;&lt;/&gt;</para><para><simplesect kind="see"><para><ref refid="classwx_rich_text_buffer" kindref="compound">wxRichTextBuffer</ref>, <ref refid="classwx_rich_text_ctrl" kindref="compound">wxRichTextCtrl</ref> </para></simplesect>
+</para>    </detaileddescription>
+    <location file="interface/wx/richtext/richtextbuffer.h" line="1694" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="1693" bodyend="1813"/>
+    <listofallmembers>
+      <member refid="classwx_rich_text_range_1a886329ed47bf99bd6c390e653f8b19db" prot="public" virt="non-virtual"><scope>wxRichTextRange</scope><name>Contains</name></member>
+      <member refid="classwx_rich_text_range_1ae68286e6b9a0504d15046af47365ab9e" prot="public" virt="non-virtual"><scope>wxRichTextRange</scope><name>FromInternal</name></member>
+      <member refid="classwx_rich_text_range_1a48929b4e36891ae3a0db8cf128a12271" prot="public" virt="non-virtual"><scope>wxRichTextRange</scope><name>GetEnd</name></member>
+      <member refid="classwx_rich_text_range_1ac0158d1fc3a58e6852f730f28724000b" prot="public" virt="non-virtual"><scope>wxRichTextRange</scope><name>GetLength</name></member>
+      <member refid="classwx_rich_text_range_1a163a6865e597ae4bef386828a0b085de" prot="public" virt="non-virtual"><scope>wxRichTextRange</scope><name>GetStart</name></member>
+      <member refid="classwx_rich_text_range_1a73e97b5174a6595d1bdc7652ac77c936" prot="public" virt="non-virtual"><scope>wxRichTextRange</scope><name>IsOutside</name></member>
+      <member refid="classwx_rich_text_range_1ac49e3af536b833d023a746eed6028c3b" prot="public" virt="non-virtual"><scope>wxRichTextRange</scope><name>IsWithin</name></member>
+      <member refid="classwx_rich_text_range_1a38159cf0e7a809d3d6e51306dbf75ade" prot="public" virt="non-virtual"><scope>wxRichTextRange</scope><name>LimitTo</name></member>
+      <member refid="classwx_rich_text_range_1a72533d974af4c3a82edec75f0d119aa7" prot="protected" virt="non-virtual"><scope>wxRichTextRange</scope><name>m_end</name></member>
+      <member refid="classwx_rich_text_range_1aebaf934b74efba349086cb359c2b7036" prot="protected" virt="non-virtual"><scope>wxRichTextRange</scope><name>m_start</name></member>
+      <member refid="classwx_rich_text_range_1a26e4d23c1c181ef243d5e05981e5e9ae" prot="public" virt="non-virtual"><scope>wxRichTextRange</scope><name>operator!=</name></member>
+      <member refid="classwx_rich_text_range_1a2494780805839e86b45012a60398750d" prot="public" virt="non-virtual"><scope>wxRichTextRange</scope><name>operator+</name></member>
+      <member refid="classwx_rich_text_range_1a384ee633e20d5e0cb6400f4c3f9f56fb" prot="public" virt="non-virtual"><scope>wxRichTextRange</scope><name>operator-</name></member>
+      <member refid="classwx_rich_text_range_1ac4ea96e235b431ef0e0233868c1c69af" prot="public" virt="non-virtual"><scope>wxRichTextRange</scope><name>operator=</name></member>
+      <member refid="classwx_rich_text_range_1a64dbb9445355f6b07e3115c846f7753e" prot="public" virt="non-virtual"><scope>wxRichTextRange</scope><name>operator==</name></member>
+      <member refid="classwx_rich_text_range_1a39c1d4b58fd4c8982c0d0d3a68203f31" prot="public" virt="non-virtual"><scope>wxRichTextRange</scope><name>SetEnd</name></member>
+      <member refid="classwx_rich_text_range_1aca28357d0383d6ecf7df7310219a613b" prot="public" virt="non-virtual"><scope>wxRichTextRange</scope><name>SetRange</name></member>
+      <member refid="classwx_rich_text_range_1a66e240ddb04654355368b4db0ea663a4" prot="public" virt="non-virtual"><scope>wxRichTextRange</scope><name>SetStart</name></member>
+      <member refid="classwx_rich_text_range_1acbf6c258c79b1a2c2f56437bce7bed8b" prot="public" virt="non-virtual"><scope>wxRichTextRange</scope><name>Swap</name></member>
+      <member refid="classwx_rich_text_range_1a25d10f8c0a317ab38038ed8be0ec385a" prot="public" virt="non-virtual"><scope>wxRichTextRange</scope><name>ToInternal</name></member>
+      <member refid="classwx_rich_text_range_1a2559f408e55df9c2202dd9c710ab74dd" prot="public" virt="non-virtual"><scope>wxRichTextRange</scope><name>wxRichTextRange</name></member>
+      <member refid="classwx_rich_text_range_1a03d647c7e6eb5256d394e802aa4be8e3" prot="public" virt="non-virtual"><scope>wxRichTextRange</scope><name>wxRichTextRange</name></member>
+      <member refid="classwx_rich_text_range_1a28816b69591222142566b160c5972034" prot="public" virt="non-virtual"><scope>wxRichTextRange</scope><name>wxRichTextRange</name></member>
+      <member refid="classwx_rich_text_range_1a1786f840e74b5fcba8b9e8e02737545b" prot="public" virt="non-virtual"><scope>wxRichTextRange</scope><name>~wxRichTextRange</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

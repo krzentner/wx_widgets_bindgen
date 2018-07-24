@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_p_g_in_dialog_validator" kind="class" language="C++" prot="public">
+    <compoundname>wxPGInDialogValidator</compoundname>
+    <includes local="no">wx/propgrid/props.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classwx_p_g_in_dialog_validator_1a8c77e4ea492b78158ebf0913ff0fd07b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxPGInDialogValidator::wxPGInDialogValidator</definition>
+        <argsstring>()</argsstring>
+        <name>wxPGInDialogValidator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/props.h" line="18" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_p_g_in_dialog_validator_1ac35b256180ccf552f87b5bcaff504136" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxPGInDialogValidator::~wxPGInDialogValidator</definition>
+        <argsstring>()</argsstring>
+        <name>~wxPGInDialogValidator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/props.h" line="19" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_p_g_in_dialog_validator_1a0741821aa9563f4e8113756e2ae32170" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxPGInDialogValidator::DoValidate</definition>
+        <argsstring>(wxPropertyGrid *propGrid, wxValidator *validator, const wxString &amp;value)</argsstring>
+        <name>DoValidate</name>
+        <param>
+          <type><ref refid="classwx_property_grid" kindref="compound">wxPropertyGrid</ref> *</type>
+          <declname>propGrid</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_validator" kindref="compound">wxValidator</ref> *</type>
+          <declname>validator</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/props.h" line="21" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Creates and manages a temporary <ref refid="classwx_text_ctrl" kindref="compound">wxTextCtrl</ref> for validation purposes. </para>    </briefdescription>
+    <detaileddescription>
+<para>Uses <ref refid="classwx_property_grid" kindref="compound">wxPropertyGrid</ref>&apos;s current editor, if available. </para>    </detaileddescription>
+    <location file="interface/wx/propgrid/props.h" line="16" column="1" bodyfile="interface/wx/propgrid/props.h" bodystart="15" bodyend="24"/>
+    <listofallmembers>
+      <member refid="classwx_p_g_in_dialog_validator_1a0741821aa9563f4e8113756e2ae32170" prot="public" virt="non-virtual"><scope>wxPGInDialogValidator</scope><name>DoValidate</name></member>
+      <member refid="classwx_p_g_in_dialog_validator_1a8c77e4ea492b78158ebf0913ff0fd07b" prot="public" virt="non-virtual"><scope>wxPGInDialogValidator</scope><name>wxPGInDialogValidator</name></member>
+      <member refid="classwx_p_g_in_dialog_validator_1ac35b256180ccf552f87b5bcaff504136" prot="public" virt="non-virtual"><scope>wxPGInDialogValidator</scope><name>~wxPGInDialogValidator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

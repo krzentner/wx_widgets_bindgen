@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="sound_8h" kind="file" language="C++">
+    <compoundname>sound.h</compoundname>
+    <innerclass refid="classwx_sound" prot="public">wxSound</innerclass>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="sound_8h_1ac8b927c0f0b1098ac6e6552c0ae485be" prot="public" static="no">
+        <name>wxSOUND_SYNC</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/sound.h" line="9" column="9" bodyfile="interface/wx/sound.h" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sound_8h_1af7464cabf15d9511bdf0afe57cf2beba" prot="public" static="no">
+        <name>wxSOUND_ASYNC</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/sound.h" line="10" column="9" bodyfile="interface/wx/sound.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="sound_8h_1ab1fdb319c8137c259136e74bf6bcc66b" prot="public" static="no">
+        <name>wxSOUND_LOOP</name>
+        <initializer>2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/sound.h" line="11" column="9" bodyfile="interface/wx/sound.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="interface/wx/sound.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_d_c_overlay" kind="class" language="C++" prot="public">
+    <compoundname>wxDCOverlay</compoundname>
+    <includes local="no">wx/overlay.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classwx_d_c_overlay_1aeffcb68537d705a07c00adeb008aa64e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxDCOverlay::wxDCOverlay</definition>
+        <argsstring>(wxOverlay &amp;overlay, wxDC *dc, int x, int y, int width, int height)</argsstring>
+        <name>wxDCOverlay</name>
+        <param>
+          <type><ref refid="classwx_overlay" kindref="compound">wxOverlay</ref> &amp;</type>
+          <declname>overlay</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_d_c" kindref="compound">wxDC</ref> *</type>
+          <declname>dc</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>height</declname>
+        </param>
+        <briefdescription>
+<para>Connects this overlay to the corresponding drawing dc, if the overlay is not initialized yet this call will do so. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/overlay.h" line="51" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_d_c_overlay_1a45d692f25022296a11389480c651e13b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxDCOverlay::wxDCOverlay</definition>
+        <argsstring>(wxOverlay &amp;overlay, wxDC *dc)</argsstring>
+        <name>wxDCOverlay</name>
+        <param>
+          <type><ref refid="classwx_overlay" kindref="compound">wxOverlay</ref> &amp;</type>
+          <declname>overlay</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_d_c" kindref="compound">wxDC</ref> *</type>
+          <declname>dc</declname>
+        </param>
+        <briefdescription>
+<para>Convenience wrapper that behaves the same using the entire area of the dc. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/overlay.h" line="56" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_d_c_overlay_1acbc9b8d81854625288e5c290f25f636d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual wxDCOverlay::~wxDCOverlay</definition>
+        <argsstring>()</argsstring>
+        <name>~wxDCOverlay</name>
+        <briefdescription>
+<para>Removes the connection between the overlay and the dc. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/overlay.h" line="61" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_d_c_overlay_1a2e74433df21a5f6f9f3ba2a6509d2450" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxDCOverlay::Clear</definition>
+        <argsstring>()</argsstring>
+        <name>Clear</name>
+        <briefdescription>
+<para>Clears the layer, restoring the state at the last init. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/overlay.h" line="66" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Connects an overlay with a drawing DC. </para>    </briefdescription>
+    <detaileddescription>
+<para><heading level="2"></heading>
+</para><para>Library:<nonbreakablespace/><nonbreakablespace/><ref refid="page_libs_1page_libs_wxcore" kindref="member">wxCore</ref></para><para><simplesect kind="see"><para><ref refid="classwx_overlay" kindref="compound">wxOverlay</ref>, <ref refid="classwx_d_c" kindref="compound">wxDC</ref> </para></simplesect>
+</para>    </detaileddescription>
+    <location file="interface/wx/overlay.h" line="45" column="1" bodyfile="interface/wx/overlay.h" bodystart="44" bodyend="67"/>
+    <listofallmembers>
+      <member refid="classwx_d_c_overlay_1a2e74433df21a5f6f9f3ba2a6509d2450" prot="public" virt="non-virtual"><scope>wxDCOverlay</scope><name>Clear</name></member>
+      <member refid="classwx_d_c_overlay_1aeffcb68537d705a07c00adeb008aa64e" prot="public" virt="non-virtual"><scope>wxDCOverlay</scope><name>wxDCOverlay</name></member>
+      <member refid="classwx_d_c_overlay_1a45d692f25022296a11389480c651e13b" prot="public" virt="non-virtual"><scope>wxDCOverlay</scope><name>wxDCOverlay</name></member>
+      <member refid="classwx_d_c_overlay_1acbc9b8d81854625288e5c290f25f636d" prot="public" virt="virtual"><scope>wxDCOverlay</scope><name>~wxDCOverlay</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

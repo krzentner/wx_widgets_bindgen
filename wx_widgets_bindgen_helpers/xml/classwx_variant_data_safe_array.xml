@@ -1,0 +1,248 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_variant_data_safe_array" kind="class" language="C++" prot="public">
+    <compoundname>wxVariantDataSafeArray</compoundname>
+    <basecompoundref refid="classwx_variant_data" prot="public" virt="non-virtual">wxVariantData</basecompoundref>
+    <includes local="no">wx/msw/ole/automtn.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classwx_variant_data_safe_array_1a5a37af571e21aa373885a80ea7ce512c" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxVariantDataSafeArray::wxVariantDataSafeArray</definition>
+        <argsstring>(SAFEARRAY *value=NULL)</argsstring>
+        <name>wxVariantDataSafeArray</name>
+        <param>
+          <type>SAFEARRAY *</type>
+          <declname>value</declname>
+          <defval>NULL</defval>
+        </param>
+        <briefdescription>
+<para>Constructor initializes the object to <emphasis>value</emphasis>. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/msw/ole/automtn.h" line="331" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_variant_data_safe_array_1a7acf88d75ba69aa68ae0c7d6552ff515" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>SAFEARRAY *</type>
+        <definition>SAFEARRAY* wxVariantDataSafeArray::GetValue</definition>
+        <argsstring>() const</argsstring>
+        <name>GetValue</name>
+        <briefdescription>
+<para>Returns the stored array. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/msw/ole/automtn.h" line="336" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_variant_data_safe_array_1ae6857c97e708a18b6e9c482dfacd46dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxVariantDataSafeArray::SetValue</definition>
+        <argsstring>(SAFEARRAY *value)</argsstring>
+        <name>SetValue</name>
+        <param>
+          <type>SAFEARRAY *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Set the stored array. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/msw/ole/automtn.h" line="341" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_variant_data_safe_array_1a84c652350cff475b4d4827064ff8a36e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool wxVariantDataSafeArray::Eq</definition>
+        <argsstring>(wxVariantData &amp;data) const</argsstring>
+        <name>Eq</name>
+        <reimplements refid="classwx_variant_data_1a528c7c86af3dd554e5b72d2e5fdead6f">Eq</reimplements>
+        <param>
+          <type><ref refid="classwx_variant_data" kindref="compound">wxVariantData</ref> &amp;</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+<para>Returns true if <emphasis>data</emphasis> is of <ref refid="classwx_variant_data_safe_array" kindref="compound">wxVariantDataSafeArray</ref> type and contains the same SAFEARRAY* value. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/msw/ole/automtn.h" line="347" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_variant_data_safe_array_1aefdb19e804fefdcdbb9d2b1f34137598" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool wxVariantDataSafeArray::Write</definition>
+        <argsstring>(wxString &amp;str) const</argsstring>
+        <name>Write</name>
+        <reimplements refid="classwx_variant_data_1a9d208924d7b652fb85db4ff6cb0b5d08">Write</reimplements>
+        <param>
+          <type><ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+<para>Fills the provided string with the textual representation of this object. </para>        </briefdescription>
+        <detaileddescription>
+<para>Only the address of SAFEARRAY pointer is output. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/msw/ole/automtn.h" line="355" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_variant_data_safe_array_1ab797fe6a00d7ff6826b8337e31a9ed55" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="classwx_variant_data" kindref="compound">wxVariantData</ref> *</type>
+        <definition>wxVariantData* wxVariantDataSafeArray::Clone</definition>
+        <argsstring>() const</argsstring>
+        <name>Clone</name>
+        <reimplements refid="classwx_variant_data_1aa30a7411a549e67e6fe8f4518151dc3a">Clone</reimplements>
+        <briefdescription>
+<para>Returns a copy of itself. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/msw/ole/automtn.h" line="360" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_variant_data_safe_array_1a18ea4f9ca1b455ab76f702b61476abec" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="classwx_string" kindref="compound">wxString</ref></type>
+        <definition>virtual wxString wxVariantDataSafeArray::GetType</definition>
+        <argsstring>() const</argsstring>
+        <name>GetType</name>
+        <reimplements refid="classwx_variant_data_1a56789ab40ed58d058e655576ec1e81bc">GetType</reimplements>
+        <briefdescription>
+<para>Returns &quot;safearray&quot;. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/msw/ole/automtn.h" line="365" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_variant_data_safe_array_1a810ff585ad88a965f288bb079d3ceb31" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool wxVariantDataSafeArray::GetAsAny</definition>
+        <argsstring>(wxAny *any) const</argsstring>
+        <name>GetAsAny</name>
+        <param>
+          <type><ref refid="classwx_any" kindref="compound">wxAny</ref> *</type>
+          <declname>any</declname>
+        </param>
+        <briefdescription>
+<para>Converts the value of this object to <ref refid="classwx_any" kindref="compound">wxAny</ref>. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/msw/ole/automtn.h" line="370" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class represents a thin wrapper for Microsoft Windows SAFEARRAY type. </para>    </briefdescription>
+    <detaileddescription>
+<para>It is used for converting between <ref refid="classwx_variant" kindref="compound">wxVariant</ref> and OLE VARIANT with type set to VT_ARRAY, which has more than one dimension. When <ref refid="classwx_variant" kindref="compound">wxVariant</ref> stores <ref refid="classwx_variant_data_safe_array" kindref="compound">wxVariantDataSafeArray</ref>, it returns &quot;safearray&quot; as its type.</para><para><ref refid="classwx_variant_data_safe_array" kindref="compound">wxVariantDataSafeArray</ref> does NOT manage the SAFEARRAY it points to. If you want to pass it to a <ref refid="classwx_automation_object" kindref="compound">wxAutomationObject</ref> as a parameter:<orderedlist>
+<listitem><para>Assign a SAFEARRAY pointer to it and store it in a <ref refid="classwx_variant" kindref="compound">wxVariant</ref>.</para></listitem><listitem><para>Call the <ref refid="classwx_automation_object" kindref="compound">wxAutomationObject</ref> method (CallMethod(), SetProperty() or Invoke())</para></listitem><listitem><para><ref refid="classwx_automation_object" kindref="compound">wxAutomationObject</ref> will destroy the array after the approapriate automation call.</para></listitem></orderedlist>
+</para><para>An example of creating a 2-dimensional SAFEARRAY containing VARIANTs and storing it in a <ref refid="classwx_variant" kindref="compound">wxVariant</ref> <programlisting><codeline><highlight class="normal">SAFEARRAYBOUND<sp/>bounds[2];<sp/>//<sp/>2<sp/>dimensions</highlight></codeline>
+<codeline><highlight class="normal">wxSafeArray&lt;VT_VARIANT&gt;<sp/>safeArray;</highlight></codeline>
+<codeline><highlight class="normal">unsigned<sp/>rowCount<sp/>=<sp/>1000;</highlight></codeline>
+<codeline><highlight class="normal">unsigned<sp/>colCount<sp/>=<sp/>20;</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">bounds[0].lLbound<sp/>=<sp/>0;<sp/>//<sp/>elements<sp/>start<sp/>at<sp/>0</highlight></codeline>
+<codeline><highlight class="normal">bounds[0].cElements<sp/>=<sp/>rowCount;</highlight></codeline>
+<codeline><highlight class="normal">bounds[1].lLbound<sp/>=<sp/>0;<sp/>//<sp/>elements<sp/>start<sp/>at<sp/>0</highlight></codeline>
+<codeline><highlight class="normal">bounds[1].cElements<sp/>=<sp/>colCount;</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">if<sp/>(<sp/>!safeArray.Create(bounds,<sp/>2)<sp/>)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>return<sp/>false;</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">long<sp/>indices[2];</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">for<sp/>(<sp/>unsigned<sp/>row<sp/>=<sp/>0;<sp/>row<sp/>&lt;<sp/>rowCount;<sp/>row++<sp/>)</highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>indices[0]<sp/>=<sp/>row;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>for<sp/>(<sp/>unsigned<sp/>col<sp/>=<sp/>0;<sp/>col<sp/>&lt;<sp/>colCount;<sp/>col++<sp/>)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>indices[1]<sp/>=<sp/>col;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>if<sp/>(<sp/>!safeArray.SetElement(indices,<sp/>wxString::Format(&quot;R%u<sp/>C%u&quot;,<sp/>row+1,<sp/>col+1))<sp/>)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>return<sp/>false;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline><highlight class="normal">}</highlight></codeline>
+<codeline><highlight class="normal">range.PutProperty(&quot;Value&quot;,<sp/>wxVariant(new<sp/>wxVariantDataSafeArray(sa.Detach())));</highlight></codeline>
+</programlisting></para><para>If you you received <ref refid="classwx_variant_data_safe_array" kindref="compound">wxVariantDataSafeArray</ref> as a result of <ref refid="classwx_automation_object" kindref="compound">wxAutomationObject</ref> method call: (1) Get the data out of the array. (2) Destroy the array. <programlisting><codeline><highlight class="normal">wxVariant<sp/>result;</highlight></codeline>
+<codeline><highlight class="normal">result<sp/>=<sp/>range.GetProperty(&quot;Value&quot;);</highlight></codeline>
+<codeline><highlight class="normal">if<sp/>(<sp/>result.GetType()<sp/>==<sp/>&quot;safearray&quot;<sp/>)</highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>wxSafeArray&lt;VT_VARIANT&gt;<sp/>safeArray;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>wxVariantDataSafeArray*<sp/>const</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sa<sp/>=<sp/>wxStaticCastVariantData(variant.GetData(),<sp/>wxVariantDataSafeArray);</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>if<sp/>(<sp/>!safeArray.Attach(sa.GetValue()<sp/>)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>if<sp/>(<sp/>!safeArray.HasArray()<sp/>)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SafeArrayDestroy(sa.GetValue());<sp/>//<sp/>we<sp/>have<sp/>to<sp/>dispose<sp/>the<sp/>SAFEARRAY<sp/>ourselves</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>return<sp/>false;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>//<sp/>get<sp/>the<sp/>data<sp/>from<sp/>the<sp/>SAFEARRAY<sp/>using<sp/>wxSafeArray::GetElement()</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>//<sp/>SAFEARRAY<sp/>will<sp/>be<sp/>disposed<sp/>by<sp/>safeArray&apos;s<sp/>dtor</highlight></codeline>
+<codeline><highlight class="normal">}</highlight></codeline>
+</programlisting></para><para>Availability:<nonbreakablespace/><nonbreakablespace/>only available for the <ref refid="page_port_1page_port_wxmsw" kindref="member">wxMSW</ref> port. <onlyfor>wxmsw</onlyfor>  <simplesect kind="since"><para>2.9.5</para></simplesect>
+<heading level="2"></heading>
+</para><para>Library:<nonbreakablespace/><nonbreakablespace/><ref refid="page_libs_1page_libs_wxcore" kindref="member">wxCore</ref> &lt;&gt;&lt; =&apos;&apos;&gt;:&lt;/&gt;&amp;;&amp;;&lt; =&apos;&apos;&gt;\ &lt;/&gt;&lt;/&gt;</para><para><simplesect kind="see"><para><ref refid="classwx_automation_object" kindref="compound">wxAutomationObject</ref>, <ref refid="classwx_variant" kindref="compound">wxVariant</ref>, <ref refid="classwx_variant_data" kindref="compound">wxVariantData</ref>, <ref refid="classwx_variant_data_error_code" kindref="compound">wxVariantDataErrorCode</ref></para></simplesect>
+Include file:<linebreak/>
+ <verbatim>#include &lt;wx/msw/ole/oleutils.h&gt; </verbatim> </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="8474">
+        <label>wxVariantDataSafeArray</label>
+        <link refid="classwx_variant_data_safe_array"/>
+        <childnode refid="8475" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8475">
+        <label>wxVariantData</label>
+        <link refid="classwx_variant_data"/>
+        <childnode refid="8476" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8476">
+        <label>wxObjectRefData</label>
+        <link refid="classwx_object_ref_data"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="8477">
+        <label>wxVariantDataSafeArray</label>
+        <link refid="classwx_variant_data_safe_array"/>
+        <childnode refid="8478" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8478">
+        <label>wxVariantData</label>
+        <link refid="classwx_variant_data"/>
+        <childnode refid="8479" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8479">
+        <label>wxObjectRefData</label>
+        <link refid="classwx_object_ref_data"/>
+      </node>
+    </collaborationgraph>
+    <location file="interface/wx/msw/ole/automtn.h" line="326" column="1" bodyfile="interface/wx/msw/ole/automtn.h" bodystart="325" bodyend="371"/>
+    <listofallmembers>
+      <member refid="classwx_variant_data_safe_array_1ab797fe6a00d7ff6826b8337e31a9ed55" prot="public" virt="virtual"><scope>wxVariantDataSafeArray</scope><name>Clone</name></member>
+      <member refid="classwx_variant_data_1a5c90358b8b5d3bc99c0c3410cf565010" prot="public" virt="non-virtual"><scope>wxVariantDataSafeArray</scope><name>DecRef</name></member>
+      <member refid="classwx_variant_data_safe_array_1a84c652350cff475b4d4827064ff8a36e" prot="public" virt="virtual"><scope>wxVariantDataSafeArray</scope><name>Eq</name></member>
+      <member refid="classwx_variant_data_1a423d43c0ac02ce4c0c044332afa41201" prot="public" virt="virtual"><scope>wxVariantDataSafeArray</scope><name>GetAny</name></member>
+      <member refid="classwx_variant_data_safe_array_1a810ff585ad88a965f288bb079d3ceb31" prot="public" virt="virtual"><scope>wxVariantDataSafeArray</scope><name>GetAsAny</name></member>
+      <member refid="classwx_variant_data_safe_array_1a18ea4f9ca1b455ab76f702b61476abec" prot="public" virt="virtual"><scope>wxVariantDataSafeArray</scope><name>GetType</name></member>
+      <member refid="classwx_variant_data_safe_array_1a7acf88d75ba69aa68ae0c7d6552ff515" prot="public" virt="non-virtual"><scope>wxVariantDataSafeArray</scope><name>GetValue</name></member>
+      <member refid="classwx_variant_data_1a00e53db157b5eef10b07b648f2f1e623" prot="public" virt="virtual"><scope>wxVariantDataSafeArray</scope><name>GetValueClassInfo</name></member>
+      <member refid="classwx_variant_data_1ae25c62e3451463ed287367a7b709e51d" prot="public" virt="non-virtual"><scope>wxVariantDataSafeArray</scope><name>IncRef</name></member>
+      <member refid="classwx_variant_data_1a1007dbb33d60c210caab567d2d12feae" prot="public" virt="virtual"><scope>wxVariantDataSafeArray</scope><name>Read</name></member>
+      <member refid="classwx_variant_data_1a478c208420802aade488e57de371d27b" prot="public" virt="virtual"><scope>wxVariantDataSafeArray</scope><name>Read</name></member>
+      <member refid="classwx_variant_data_safe_array_1ae6857c97e708a18b6e9c482dfacd46dc" prot="public" virt="non-virtual"><scope>wxVariantDataSafeArray</scope><name>SetValue</name></member>
+      <member refid="classwx_variant_data_safe_array_1aefdb19e804fefdcdbb9d2b1f34137598" prot="public" virt="virtual"><scope>wxVariantDataSafeArray</scope><name>Write</name></member>
+      <member refid="classwx_variant_data_1aa8c8235c54ddea7002980514ec63caae" prot="public" virt="virtual" ambiguityscope="wxVariantData::"><scope>wxVariantDataSafeArray</scope><name>Write</name></member>
+      <member refid="classwx_variant_data_1ac6f6a975c310013dca16b71ce891f39e" prot="public" virt="non-virtual"><scope>wxVariantDataSafeArray</scope><name>wxVariantData</name></member>
+      <member refid="classwx_variant_data_safe_array_1a5a37af571e21aa373885a80ea7ce512c" prot="public" virt="non-virtual"><scope>wxVariantDataSafeArray</scope><name>wxVariantDataSafeArray</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

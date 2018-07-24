@@ -1,0 +1,173 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="mediactrl_8h" kind="file" language="C++">
+    <compoundname>mediactrl.h</compoundname>
+    <innerclass refid="classwx_media_event" prot="public">wxMediaEvent</innerclass>
+    <innerclass refid="classwx_media_ctrl" prot="public">wxMediaCtrl</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="mediactrl_8h_1ac7df488b9671015b6432e037f51dab60" prot="public" static="no" strong="no">
+        <type></type>
+        <name>wxMediaState</name>
+        <enumvalue id="mediactrl_8h_1ac7df488b9671015b6432e037f51dab60ad6b14224254130320ba20c5e9d85fe88" prot="public">
+          <name>wxMEDIASTATE_STOPPED</name>
+          <briefdescription>
+<para>No media is being currently played. </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="mediactrl_8h_1ac7df488b9671015b6432e037f51dab60a98745ea3bebea70f009be18d059c9c0f" prot="public">
+          <name>wxMEDIASTATE_PAUSED</name>
+          <briefdescription>
+<para>Current media is paused. </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="mediactrl_8h_1ac7df488b9671015b6432e037f51dab60a8345d910c632fec44b74e835adc9500b" prot="public">
+          <name>wxMEDIASTATE_PLAYING</name>
+          <briefdescription>
+<para>There is media currently playing. </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Describes the current state of the media. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="see"><para><ref refid="classwx_media_ctrl_1aae4ee6ebab0bb0c00730f34565ab8dd5" kindref="member">wxMediaCtrl::GetState()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/mediactrl.h" line="14" column="1" bodyfile="interface/wx/mediactrl.h" bodystart="13" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="enum" id="mediactrl_8h_1a5a30300b432bd386c9b9bf04106e847d" prot="public" static="no" strong="no">
+        <type></type>
+        <name>wxMediaCtrlPlayerControls</name>
+        <enumvalue id="mediactrl_8h_1a5a30300b432bd386c9b9bf04106e847da44818deb871cdafcc77befc2f6610c79" prot="public">
+          <name>wxMEDIACTRLPLAYERCONTROLS_NONE</name>
+          <initializer>=   0</initializer>
+          <briefdescription>
+<para>No controls. </para>          </briefdescription>
+          <detaileddescription>
+<para>return <ref refid="classwx_media_ctrl" kindref="compound">wxMediaCtrl</ref> to its default state. </para>          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="mediactrl_8h_1a5a30300b432bd386c9b9bf04106e847dafc7d071a9215f73ce5f8d985c072ca7c" prot="public">
+          <name>wxMEDIACTRLPLAYERCONTROLS_STEP</name>
+          <initializer>=   1 &lt;&lt; 0</initializer>
+          <briefdescription>
+<para>Step controls like fastforward, step one frame etc. </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="mediactrl_8h_1a5a30300b432bd386c9b9bf04106e847da662632bbe2d4079daeb28df48d298b8e" prot="public">
+          <name>wxMEDIACTRLPLAYERCONTROLS_VOLUME</name>
+          <initializer>=   1 &lt;&lt; 1</initializer>
+          <briefdescription>
+<para>Volume controls like the speaker icon, volume slider, etc. </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="mediactrl_8h_1a5a30300b432bd386c9b9bf04106e847dac1698351f756c3fbe4c6f064c066a950" prot="public">
+          <name>wxMEDIACTRLPLAYERCONTROLS_DEFAULT</name>
+          <initializer>=
+                    wxMEDIACTRLPLAYERCONTROLS_STEP |
+                    wxMEDIACTRLPLAYERCONTROLS_VOLUME</initializer>
+          <briefdescription>
+<para>Default controls for the toolkit. </para>          </briefdescription>
+          <detaileddescription>
+<para>Currently a combination for <computeroutput>wxMEDIACTRLPLAYERCONTROLS_STEP</computeroutput> and <computeroutput>wxMEDIACTRLPLAYERCONTROLS_VOLUME</computeroutput>. </para>          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/mediactrl.h" line="26" column="1" bodyfile="interface/wx/mediactrl.h" bodystart="25" bodyend="41"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="mediactrl_8h_1a4a3a1662c445de5882835b0ae528ec62" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_MEDIA_LOADED</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_MEDIA_LOADED</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/mediactrl.h" line="451" column="1" bodyfile="interface/wx/mediactrl.h" bodystart="451" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="mediactrl_8h_1abd560da0da99c41c04ea5084dcb7bcec" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_MEDIA_STOP</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_MEDIA_STOP</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/mediactrl.h" line="452" column="1" bodyfile="interface/wx/mediactrl.h" bodystart="452" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="mediactrl_8h_1a9251713a81570611b90b3a9ec5ee43bf" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_MEDIA_FINISHED</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_MEDIA_FINISHED</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/mediactrl.h" line="453" column="1" bodyfile="interface/wx/mediactrl.h" bodystart="453" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="mediactrl_8h_1a27eff6369bea3f6101eab945a6f32f24" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_MEDIA_STATECHANGED</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_MEDIA_STATECHANGED</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/mediactrl.h" line="454" column="1" bodyfile="interface/wx/mediactrl.h" bodystart="454" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="mediactrl_8h_1a2e1ad62ca08e16ba492105d1b631a9f5" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_MEDIA_PLAY</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_MEDIA_PLAY</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/mediactrl.h" line="455" column="1" bodyfile="interface/wx/mediactrl.h" bodystart="455" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="mediactrl_8h_1a46832bfb6905d560b5271c86baac4583" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_MEDIA_PAUSE</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_MEDIA_PAUSE</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/mediactrl.h" line="456" column="1" bodyfile="interface/wx/mediactrl.h" bodystart="456" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="interface/wx/mediactrl.h"/>
+  </compounddef>
+</doxygen>

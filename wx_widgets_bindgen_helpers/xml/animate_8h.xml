@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="animate_8h" kind="file" language="C++">
+    <compoundname>animate.h</compoundname>
+    <innerclass refid="classwx_animation_ctrl" prot="public">wxAnimationCtrl</innerclass>
+    <innerclass refid="classwx_animation" prot="public">wxAnimation</innerclass>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="animate_8h_1a48459ef65ff2a84ad5512690a7b485ec" prot="public" static="no">
+        <name>wxAC_NO_AUTORESIZE</name>
+        <initializer>(0x0010)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/animate.h" line="26" column="9" bodyfile="interface/wx/animate.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="animate_8h_1a6e477870bbd5af6fc4589e3659d1962e" prot="public" static="no">
+        <name>wxAC_DEFAULT_STYLE</name>
+        <initializer>(<ref refid="defs_8h_1af63c94dff4e3f25a3c5e9d2874456edfaefc06a089c4d7317026613fd8bdf3e22" kindref="member">wxBORDER_NONE</ref>)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/animate.h" line="27" column="9" bodyfile="interface/wx/animate.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="animate_8h_1a35e82d083076c53b78824576ee4e1717" prot="public" static="no" strong="no">
+        <type></type>
+        <name>wxAnimationType</name>
+        <enumvalue id="animate_8h_1a35e82d083076c53b78824576ee4e1717a36aca46a8c26b451bcec1e146fb99b54" prot="public">
+          <name>wxANIMATION_TYPE_INVALID</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="animate_8h_1a35e82d083076c53b78824576ee4e1717ab9c42ab7ef3aa3758c633697cda128f9" prot="public">
+          <name>wxANIMATION_TYPE_GIF</name>
+          <briefdescription>
+<para>represents an animated GIF file. </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="animate_8h_1a35e82d083076c53b78824576ee4e1717aac06fa48ec2160c2541e4c74884ed316" prot="public">
+          <name>wxANIMATION_TYPE_ANI</name>
+          <briefdescription>
+<para>represents an ANI file. </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="animate_8h_1a35e82d083076c53b78824576ee4e1717ae772ee7c4175f5c6b00c3d1f39857e56" prot="public">
+          <name>wxANIMATION_TYPE_ANY</name>
+          <briefdescription>
+<para>autodetect the filetype. </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Supported animation types. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/animate.h" line="12" column="1" bodyfile="interface/wx/animate.h" bodystart="11" bodyend="23"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="animate_8h_1a511afb5aaf468a90108facf18c255ae4" prot="public" static="no" mutable="no">
+        <type><ref refid="classwx_animation" kindref="compound">wxAnimation</ref></type>
+        <definition>wxAnimation wxNullAnimation</definition>
+        <argsstring></argsstring>
+        <name>wxNullAnimation</name>
+        <briefdescription>
+<para>An empty animation object. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/animate.h" line="307" column="1" bodyfile="interface/wx/animate.h" bodystart="307" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="interface/wx/animate.h"/>
+  </compounddef>
+</doxygen>

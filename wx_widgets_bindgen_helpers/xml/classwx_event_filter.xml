@@ -1,0 +1,169 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_event_filter" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>wxEventFilter</compoundname>
+    <derivedcompoundref refid="classwx_app_console" prot="public" virt="non-virtual">wxAppConsole</derivedcompoundref>
+    <includes local="no">wx/eventfilter.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="classwx_event_filter_1a0ad85a56a253e3882553085f4bfead65" prot="public" static="no" strong="no">
+        <type></type>
+        <name>@15</name>
+        <enumvalue id="classwx_event_filter_1a0ad85a56a253e3882553085f4bfead65ae3620010ea8dc45c4547052a75fe51da" prot="public">
+          <name>Event_Skip</name>
+          <initializer>= -1</initializer>
+          <briefdescription>
+<para>Process event as usual. </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classwx_event_filter_1a0ad85a56a253e3882553085f4bfead65aa2b35768d0be474ac339b9162c0db85a" prot="public">
+          <name>Event_Ignore</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+<para>Don&apos;t process the event normally at all. </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classwx_event_filter_1a0ad85a56a253e3882553085f4bfead65a6d508074572ecf366e3c3b537bcba776" prot="public">
+          <name>Event_Processed</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+<para>Event was already handled, don&apos;t process it normally. </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Possible return values for <ref refid="classwx_event_filter_1ae9aee87e6c6c7ff3df84e46a2e3b2c6a" kindref="member">FilterEvent()</ref>. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/eventfilter.h" line="87" column="1" bodyfile="interface/wx/eventfilter.h" bodystart="86" bodyend="96"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classwx_event_filter_1a1bd4a99149877bdac06ec5e20c1b997c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxEventFilter::wxEventFilter</definition>
+        <argsstring>()</argsstring>
+        <name>wxEventFilter</name>
+        <briefdescription>
+<para>Default constructor. </para>        </briefdescription>
+        <detaileddescription>
+<para>Constructor does not register this filter using <ref refid="classwx_evt_handler_1a7dc3c701781f4044372049de5004137e" kindref="member">wxEvtHandler::AddFilter()</ref>, it&apos;s your responsibility to do it when necessary.</para><para>Notice that the objects of this class can&apos;t be copied. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/eventfilter.h" line="107" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_event_filter_1a30dd4950835241d658ee6cc5d99b4abc" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual wxEventFilter::~wxEventFilter</definition>
+        <argsstring>()</argsstring>
+        <name>~wxEventFilter</name>
+        <briefdescription>
+<para>Destructor. </para>        </briefdescription>
+        <detaileddescription>
+<para>You must call <ref refid="classwx_evt_handler_1a67a57b759c447b121bf70a7c9804c8f2" kindref="member">wxEvtHandler::RemoveFilter()</ref> before destroying this object (possibly from the derived class destructor), failure to do this is indicated by an assert unless assertions are disabled. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/eventfilter.h" line="116" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_event_filter_1ae9aee87e6c6c7ff3df84e46a2e3b2c6a" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>int</type>
+        <definition>virtual int wxEventFilter::FilterEvent</definition>
+        <argsstring>(wxEvent &amp;event)=0</argsstring>
+        <name>FilterEvent</name>
+        <reimplementedby refid="classwx_app_console_1ada7ab606e014a10d46e4b3c6f602e20c">FilterEvent</reimplementedby>
+        <param>
+          <type><ref refid="classwx_event" kindref="compound">wxEvent</ref> &amp;</type>
+          <declname>event</declname>
+        </param>
+        <briefdescription>
+<para>Override this method to implement event pre-processing. </para>        </briefdescription>
+        <detaileddescription>
+<para>This method allows to filter all the events processed by the program, so you should try to return quickly from it to avoid slowing down the program to a crawl.</para><para>Although the return type of this method is <computeroutput>int</computeroutput>, this is only due to backwards compatibility concerns and the actual return value must be one of the <computeroutput>Event_XXX</computeroutput> constants defined above:<itemizedlist>
+<listitem><para>Event_Skip to continue processing the event normally (this should be used in most cases).</para></listitem><listitem><para>Event_Ignore to not process this event at all (this can be used to suppress some events).</para></listitem><listitem><para>Event_Processed to not process this event normally but indicate that it was already processed by the event filter and so no default processing should take place neither (this should only be used if the filter really did process the event). </para></listitem></itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/eventfilter.h" line="137" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>A global event filter for pre-processing all the events generated in the program. </para>    </briefdescription>
+    <detaileddescription>
+<para>This is a very simple class which just provides <ref refid="classwx_event_filter_1ae9aee87e6c6c7ff3df84e46a2e3b2c6a" kindref="member">FilterEvent()</ref> virtual method to be called by <ref refid="classwx_evt_handler" kindref="compound">wxEvtHandler</ref> before starting process of any event. Thus, inheriting from this class and overriding <ref refid="classwx_event_filter_1ae9aee87e6c6c7ff3df84e46a2e3b2c6a" kindref="member">FilterEvent()</ref> allows to capture and possibly handle or ignore all the events happening in the program. Of course, having event filters adds additional overhead to every event processing and so should not be used lightly and your <ref refid="classwx_event_filter_1ae9aee87e6c6c7ff3df84e46a2e3b2c6a" kindref="member">FilterEvent()</ref> code should try to return as quickly as possible, especially for the events it is not interested in.</para><para>An example of using this class: <programlisting><codeline><highlight class="normal">//<sp/>This<sp/>class<sp/>allows<sp/>to<sp/>determine<sp/>the<sp/>last<sp/>time<sp/>the<sp/>user<sp/>has<sp/>worked<sp/>with</highlight></codeline>
+<codeline><highlight class="normal">//<sp/>this<sp/>application:</highlight></codeline>
+<codeline><highlight class="normal">class<sp/>LastActivityTimeDetector<sp/>:<sp/>public<sp/>wxEventFilter</highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal">public:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>LastActivityTimeDetector()</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>wxEvtHandler::AddFilter(this);</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_last<sp/>=<sp/>wxDateTime::Now();</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>virtual<sp/>~LastActivityTimeDetector()</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>wxEvtHandler::RemoveFilter(this);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>virtual<sp/>int<sp/>FilterEvent(wxEvent&amp;<sp/>event)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>Update<sp/>the<sp/>last<sp/>user<sp/>activity</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>const<sp/>wxEventType<sp/>t<sp/>=<sp/>event.GetEventType();</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>if<sp/>(<sp/>t<sp/>==<sp/>wxEVT_KEY_DOWN<sp/>||<sp/>t<sp/>==<sp/>wxEVT_MOTION<sp/>||</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>t<sp/>==<sp/>wxEVT_LEFT_DOWN<sp/>||</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>t<sp/>==<sp/>wxEVT_RIGHT_DOWN<sp/>||</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>t<sp/>==<sp/>wxEVT_MIDDLE_DOWN<sp/>)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_last<sp/>=<sp/>wxDateTime::Now();</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>Continue<sp/>processing<sp/>the<sp/>event<sp/>normally<sp/>as<sp/>well.</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>return<sp/>Event_Skip;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>//<sp/>This<sp/>function<sp/>could<sp/>be<sp/>called<sp/>periodically<sp/>from<sp/>some<sp/>timer<sp/>to</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>//<sp/>do<sp/>something<sp/>(e.g.<sp/>hide<sp/>sensitive<sp/>data<sp/>or<sp/>log<sp/>out<sp/>from<sp/>remote</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>//<sp/>server)<sp/>if<sp/>the<sp/>user<sp/>has<sp/>been<sp/>inactive<sp/>for<sp/>some<sp/>time<sp/>period.</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>bool<sp/>IsInactiveFor(const<sp/>wxTimeSpan&amp;<sp/>diff)<sp/>const</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>return<sp/>wxDateTime::Now()<sp/>-<sp/>diff<sp/>&gt;<sp/>m_last;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">private:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>wxDateTime<sp/>m_last;</highlight></codeline>
+<codeline><highlight class="normal">};</highlight></codeline>
+</programlisting></para><para>Notice that <ref refid="classwx_app" kindref="compound">wxApp</ref> derives from <ref refid="classwx_event_filter" kindref="compound">wxEventFilter</ref> and is registered as an event filter during its creation so you may also override <ref refid="classwx_event_filter_1ae9aee87e6c6c7ff3df84e46a2e3b2c6a" kindref="member">FilterEvent()</ref> method in your wxApp-derived class and, in fact, this is often the most convenient way to do it. However creating a new class deriving directly from <ref refid="classwx_event_filter" kindref="compound">wxEventFilter</ref> allows to isolate the event filtering code in its own separate class and also to have several independent filters, if necessary.</para><para>&lt;&gt;&lt; =&apos;&apos;&gt;:&lt;/&gt;&amp;;&amp;;&lt; =&apos;&apos;&gt;\ &lt;/&gt;&lt;/&gt;</para><para><simplesect kind="since"><para>2.9.3 </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="2068">
+        <label>wxApp</label>
+        <link refid="classwx_app"/>
+        <childnode refid="2067" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2067">
+        <label>wxAppConsole</label>
+        <link refid="classwx_app_console"/>
+        <childnode refid="2066" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2066">
+        <label>wxEventFilter</label>
+        <link refid="classwx_event_filter"/>
+      </node>
+    </inheritancegraph>
+    <location file="interface/wx/eventfilter.h" line="83" column="1" bodyfile="interface/wx/eventfilter.h" bodystart="82" bodyend="138"/>
+    <listofallmembers>
+      <member refid="classwx_event_filter_1a0ad85a56a253e3882553085f4bfead65aa2b35768d0be474ac339b9162c0db85a" prot="public" virt="non-virtual"><scope>wxEventFilter</scope><name>Event_Ignore</name></member>
+      <member refid="classwx_event_filter_1a0ad85a56a253e3882553085f4bfead65a6d508074572ecf366e3c3b537bcba776" prot="public" virt="non-virtual"><scope>wxEventFilter</scope><name>Event_Processed</name></member>
+      <member refid="classwx_event_filter_1a0ad85a56a253e3882553085f4bfead65ae3620010ea8dc45c4547052a75fe51da" prot="public" virt="non-virtual"><scope>wxEventFilter</scope><name>Event_Skip</name></member>
+      <member refid="classwx_event_filter_1ae9aee87e6c6c7ff3df84e46a2e3b2c6a" prot="public" virt="pure-virtual"><scope>wxEventFilter</scope><name>FilterEvent</name></member>
+      <member refid="classwx_event_filter_1a1bd4a99149877bdac06ec5e20c1b997c" prot="public" virt="non-virtual"><scope>wxEventFilter</scope><name>wxEventFilter</name></member>
+      <member refid="classwx_event_filter_1a30dd4950835241d658ee6cc5d99b4abc" prot="public" virt="virtual"><scope>wxEventFilter</scope><name>~wxEventFilter</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="imagpng_8h" kind="file" language="C++">
+    <compoundname>imagpng.h</compoundname>
+    <innerclass refid="classwx_p_n_g_handler" prot="public">wxPNGHandler</innerclass>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="imagpng_8h_1ac9aa6287dfd8aefebf45a45bad52ba0b" prot="public" static="no">
+        <name>wxIMAGE_OPTION_PNG_FORMAT</name>
+        <initializer><ref refid="group__group__funcmacro__string_1ga437ea6ba615b75dac8603e96ec864160" kindref="member">wxT</ref>(&quot;PngFormat&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/imagpng.h" line="8" column="9" bodyfile="interface/wx/imagpng.h" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="imagpng_8h_1a3def7cda2a1f43a9a6d1391e35e6bbd4" prot="public" static="no">
+        <name>wxIMAGE_OPTION_PNG_BITDEPTH</name>
+        <initializer><ref refid="group__group__funcmacro__string_1ga437ea6ba615b75dac8603e96ec864160" kindref="member">wxT</ref>(&quot;PngBitDepth&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/imagpng.h" line="9" column="9" bodyfile="interface/wx/imagpng.h" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="imagpng_8h_1a74d9095918d6d4b322fdc958e523b3e3" prot="public" static="no">
+        <name>wxIMAGE_OPTION_PNG_FILTER</name>
+        <initializer><ref refid="group__group__funcmacro__string_1ga437ea6ba615b75dac8603e96ec864160" kindref="member">wxT</ref>(&quot;PngF&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/imagpng.h" line="10" column="9" bodyfile="interface/wx/imagpng.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="imagpng_8h_1a87c051057ecbfb2652f25be62494cca5" prot="public" static="no">
+        <name>wxIMAGE_OPTION_PNG_COMPRESSION_LEVEL</name>
+        <initializer><ref refid="group__group__funcmacro__string_1ga437ea6ba615b75dac8603e96ec864160" kindref="member">wxT</ref>(&quot;PngZL&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/imagpng.h" line="11" column="9" bodyfile="interface/wx/imagpng.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="imagpng_8h_1ad0b554161e047f278782d44f0f7c3792" prot="public" static="no">
+        <name>wxIMAGE_OPTION_PNG_COMPRESSION_MEM_LEVEL</name>
+        <initializer><ref refid="group__group__funcmacro__string_1ga437ea6ba615b75dac8603e96ec864160" kindref="member">wxT</ref>(&quot;PngZM&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/imagpng.h" line="12" column="9" bodyfile="interface/wx/imagpng.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="imagpng_8h_1a67014abe83e20e1364cbfe6410a607ea" prot="public" static="no">
+        <name>wxIMAGE_OPTION_PNG_COMPRESSION_STRATEGY</name>
+        <initializer><ref refid="group__group__funcmacro__string_1ga437ea6ba615b75dac8603e96ec864160" kindref="member">wxT</ref>(&quot;PngZS&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/imagpng.h" line="13" column="9" bodyfile="interface/wx/imagpng.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="imagpng_8h_1ad6fe95ce152fe1d2f1c5a00d781dfacc" prot="public" static="no">
+        <name>wxIMAGE_OPTION_PNG_COMPRESSION_BUFFER_SIZE</name>
+        <initializer><ref refid="group__group__funcmacro__string_1ga437ea6ba615b75dac8603e96ec864160" kindref="member">wxT</ref>(&quot;PngZB&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/imagpng.h" line="14" column="9" bodyfile="interface/wx/imagpng.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="interface/wx/imagpng.h"/>
+  </compounddef>
+</doxygen>

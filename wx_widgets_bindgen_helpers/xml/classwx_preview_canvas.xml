@@ -1,0 +1,164 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_preview_canvas" kind="class" language="C++" prot="public">
+    <compoundname>wxPreviewCanvas</compoundname>
+    <basecompoundref refid="classwx_scrolled" prot="public" virt="non-virtual">wxScrolled&lt; wxPanel &gt;</basecompoundref>
+    <includes local="no">wx/print.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classwx_preview_canvas_1a52612312b04baab533a1acd093fb72eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxPreviewCanvas::wxPreviewCanvas</definition>
+        <argsstring>(wxPrintPreview *preview, wxWindow *parent, const wxPoint &amp;pos=wxDefaultPosition, const wxSize &amp;size=wxDefaultSize, long style=0, const wxString &amp;name=&quot;canvas&quot;)</argsstring>
+        <name>wxPreviewCanvas</name>
+        <param>
+          <type><ref refid="classwx_print_preview" kindref="compound">wxPrintPreview</ref> *</type>
+          <declname>preview</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_window" kindref="compound">wxWindow</ref> *</type>
+          <declname>parent</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_point" kindref="compound">wxPoint</ref> &amp;</type>
+          <declname>pos</declname>
+          <defval><ref refid="gdicmn_8h_1af5a90c753eaf3d3e3e5068a19ec3c1d0" kindref="member">wxDefaultPosition</ref></defval>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_size" kindref="compound">wxSize</ref> &amp;</type>
+          <declname>size</declname>
+          <defval><ref refid="gdicmn_8h_1a33a012cdb075e9f78c93f63bec2dc27b" kindref="member">wxDefaultSize</ref></defval>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>style</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>name</declname>
+          <defval>&quot;canvas&quot;</defval>
+        </param>
+        <briefdescription>
+<para>Constructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/print.h" line="133" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_preview_canvas_1aa7dbd0d549b0939e9b22c89e39719158" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual wxPreviewCanvas::~wxPreviewCanvas</definition>
+        <argsstring>()</argsstring>
+        <name>~wxPreviewCanvas</name>
+        <briefdescription>
+<para>Destructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/print.h" line="142" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_preview_canvas_1a6a60bca8f2035f2d76ea239e3d5a4fd4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxPreviewCanvas::OnPaint</definition>
+        <argsstring>(wxPaintEvent &amp;event)</argsstring>
+        <name>OnPaint</name>
+        <param>
+          <type><ref refid="classwx_paint_event" kindref="compound">wxPaintEvent</ref> &amp;</type>
+          <declname>event</declname>
+        </param>
+        <briefdescription>
+<para>Calls <ref refid="classwx_print_preview_1a4d889f1a13a1b4cd4a3c0f699ddcccf8" kindref="member">wxPrintPreview::PaintPage()</ref> to refresh the canvas. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/print.h" line="147" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>A preview canvas is the default canvas used by the print preview system to display the preview. </para>    </briefdescription>
+    <detaileddescription>
+<para><heading level="2"></heading>
+</para><para>Library:<nonbreakablespace/><nonbreakablespace/><ref refid="page_libs_1page_libs_wxcore" kindref="member">wxCore</ref> &lt;&gt;&lt; =&apos;&apos;&gt;:&lt;/&gt;&amp;;&amp;;&lt; =&apos;&apos;&gt;\ &lt;/&gt;&lt;/&gt;</para><para><simplesect kind="see"><para><ref refid="classwx_preview_frame" kindref="compound">wxPreviewFrame</ref>, <ref refid="classwx_preview_control_bar" kindref="compound">wxPreviewControlBar</ref>, <ref refid="classwx_print_preview" kindref="compound">wxPrintPreview</ref> </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="5556">
+        <label>T</label>
+      </node>
+      <node id="5555">
+        <label>wxScrolledWindow</label>
+        <link refid="classwx_scrolled"/>
+        <childnode refid="5556" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5554">
+        <label>wxPreviewCanvas</label>
+        <link refid="classwx_preview_canvas"/>
+        <childnode refid="5555" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="5559">
+        <label>T</label>
+      </node>
+      <node id="5558">
+        <label>wxScrolledWindow</label>
+        <link refid="classwx_scrolled"/>
+        <childnode refid="5559" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5557">
+        <label>wxPreviewCanvas</label>
+        <link refid="classwx_preview_canvas"/>
+        <childnode refid="5558" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="interface/wx/print.h" line="128" column="1" bodyfile="interface/wx/print.h" bodystart="127" bodyend="148"/>
+    <listofallmembers>
+      <member refid="classwx_scrolled_1a5b5e335677055e4107903f7d5dad042f" prot="public" virt="virtual"><scope>wxPreviewCanvas</scope><name>AdjustScrollbars</name></member>
+      <member refid="classwx_scrolled_1a5beb86afd7eec414740ac5be2e80da33" prot="public" virt="non-virtual"><scope>wxPreviewCanvas</scope><name>CalcScrolledPosition</name></member>
+      <member refid="classwx_scrolled_1a86022a8d18b370380754e0ff0a101003" prot="public" virt="non-virtual"><scope>wxPreviewCanvas</scope><name>CalcScrolledPosition</name></member>
+      <member refid="classwx_scrolled_1addb96196c8bc441934fb96c2b4e56a51" prot="public" virt="non-virtual"><scope>wxPreviewCanvas</scope><name>CalcUnscrolledPosition</name></member>
+      <member refid="classwx_scrolled_1a538b168f093df93ced48d297b5599291" prot="public" virt="non-virtual"><scope>wxPreviewCanvas</scope><name>CalcUnscrolledPosition</name></member>
+      <member refid="classwx_scrolled_1a9f03bd3bcbb96c84f90c2482f58f075a" prot="public" virt="non-virtual"><scope>wxPreviewCanvas</scope><name>Create</name></member>
+      <member refid="classwx_scrolled_1a294b1585caef1c22f5ea1ac6a6787164" prot="public" virt="non-virtual"><scope>wxPreviewCanvas</scope><name>DisableKeyboardScrolling</name></member>
+      <member refid="classwx_scrolled_1a96a2b41d3bcd07e28491de5f39f9c5cb" prot="public" virt="non-virtual"><scope>wxPreviewCanvas</scope><name>DoPrepareDC</name></member>
+      <member refid="classwx_scrolled_1ac5a023517721a5ad5b891527b437dd61" prot="public" virt="non-virtual"><scope>wxPreviewCanvas</scope><name>EnableScrolling</name></member>
+      <member refid="classwx_scrolled_1a89bb0a54dc59ec7af02e1d08b2c8ce83" prot="public" virt="non-virtual"><scope>wxPreviewCanvas</scope><name>GetScaleX</name></member>
+      <member refid="classwx_scrolled_1a359410c6a60604225d03a5a490cc357e" prot="public" virt="non-virtual"><scope>wxPreviewCanvas</scope><name>GetScaleY</name></member>
+      <member refid="classwx_scrolled_1a981d158543584d2c4721d9f86587ccc6" prot="public" virt="non-virtual"><scope>wxPreviewCanvas</scope><name>GetScrollLines</name></member>
+      <member refid="classwx_scrolled_1ad41334fc7b0dcee5a53c97da4902d82a" prot="public" virt="non-virtual"><scope>wxPreviewCanvas</scope><name>GetScrollPageSize</name></member>
+      <member refid="classwx_scrolled_1ae57f966af767e2f99f486a3c45485370" prot="public" virt="non-virtual"><scope>wxPreviewCanvas</scope><name>GetScrollPixelsPerUnit</name></member>
+      <member refid="classwx_scrolled_1a81800886d1d5f094caeee683e707de12" prot="protected" virt="virtual"><scope>wxPreviewCanvas</scope><name>GetSizeAvailableForScrollTarget</name></member>
+      <member refid="classwx_scrolled_1aa43a5283b564da82368b532b22971410" prot="public" virt="non-virtual"><scope>wxPreviewCanvas</scope><name>GetTargetRect</name></member>
+      <member refid="classwx_scrolled_1aa48e3a4731d7e4dea26e89e9015e295d" prot="public" virt="non-virtual"><scope>wxPreviewCanvas</scope><name>GetTargetWindow</name></member>
+      <member refid="classwx_scrolled_1a01d57d0b9b81537dc011e3e8b3f4b43d" prot="public" virt="non-virtual"><scope>wxPreviewCanvas</scope><name>GetViewStart</name></member>
+      <member refid="classwx_scrolled_1a3ced29907b1e914f841f979f272277c8" prot="public" virt="non-virtual"><scope>wxPreviewCanvas</scope><name>GetViewStart</name></member>
+      <member refid="classwx_scrolled_1a9e993dd807f71f622765ccc68c60082b" prot="public" virt="non-virtual"><scope>wxPreviewCanvas</scope><name>GetVirtualSize</name></member>
+      <member refid="classwx_scrolled_1a9d76b612e041e10462a16a3648d09008" prot="public" virt="non-virtual"><scope>wxPreviewCanvas</scope><name>IsAutoScrolling</name></member>
+      <member refid="classwx_scrolled_1a7047e92206a6e62675560fc394d9f4f8" prot="public" virt="non-virtual"><scope>wxPreviewCanvas</scope><name>IsRetained</name></member>
+      <member refid="classwx_scrolled_1a52284d06a6160fb42b0899aedce2c880" prot="public" virt="virtual"><scope>wxPreviewCanvas</scope><name>OnDraw</name></member>
+      <member refid="classwx_preview_canvas_1a6a60bca8f2035f2d76ea239e3d5a4fd4" prot="public" virt="non-virtual"><scope>wxPreviewCanvas</scope><name>OnPaint</name></member>
+      <member refid="classwx_scrolled_1ab33dbfe88be5ede4b04de4dcec4830f0" prot="public" virt="non-virtual"><scope>wxPreviewCanvas</scope><name>PrepareDC</name></member>
+      <member refid="classwx_scrolled_1a601bcac37185a2d4a24164d065907f69" prot="public" virt="non-virtual"><scope>wxPreviewCanvas</scope><name>Scroll</name></member>
+      <member refid="classwx_scrolled_1affb3c1be4945c27b589439a1d47fbbb8" prot="public" virt="non-virtual"><scope>wxPreviewCanvas</scope><name>Scroll</name></member>
+      <member refid="classwx_scrolled_1a2d44af932b964f1522d1c78d86cd4a27" prot="public" virt="virtual"><scope>wxPreviewCanvas</scope><name>SendAutoScrollEvents</name></member>
+      <member refid="classwx_scrolled_1a5c8829d39d00ce53901a8b1a67d5d780" prot="public" virt="non-virtual"><scope>wxPreviewCanvas</scope><name>SetScale</name></member>
+      <member refid="classwx_scrolled_1af5d940f364bb5097f20fee4a8e1210bb" prot="public" virt="non-virtual"><scope>wxPreviewCanvas</scope><name>SetScrollbars</name></member>
+      <member refid="classwx_scrolled_1aa160351f31a0080784a00023947a06f6" prot="public" virt="non-virtual"><scope>wxPreviewCanvas</scope><name>SetScrollPageSize</name></member>
+      <member refid="classwx_scrolled_1a76286e2efa55d0ba85d37106a44a9401" prot="public" virt="non-virtual"><scope>wxPreviewCanvas</scope><name>SetScrollRate</name></member>
+      <member refid="classwx_scrolled_1aee90a87e1b3f7f0f70a89e085c0d9928" prot="public" virt="non-virtual"><scope>wxPreviewCanvas</scope><name>SetTargetRect</name></member>
+      <member refid="classwx_scrolled_1a117dc8edabb3e1250199eab089e4fa5b" prot="public" virt="non-virtual"><scope>wxPreviewCanvas</scope><name>SetTargetWindow</name></member>
+      <member refid="classwx_scrolled_1a8590337dc643a64437c56031cf5f2e71" prot="public" virt="non-virtual"><scope>wxPreviewCanvas</scope><name>ShowScrollbars</name></member>
+      <member refid="classwx_scrolled_1a33c3daf5feb84c357357012e1b0e7a0a" prot="public" virt="non-virtual"><scope>wxPreviewCanvas</scope><name>StopAutoScrolling</name></member>
+      <member refid="classwx_preview_canvas_1a52612312b04baab533a1acd093fb72eb" prot="public" virt="non-virtual"><scope>wxPreviewCanvas</scope><name>wxPreviewCanvas</name></member>
+      <member refid="classwx_scrolled_1a01d0ecb5daa59ebb7a0806f16b7ac267" prot="public" virt="non-virtual"><scope>wxPreviewCanvas</scope><name>wxScrolled</name></member>
+      <member refid="classwx_scrolled_1ae68b98d2386b81f413e08cd5410401fc" prot="public" virt="non-virtual"><scope>wxPreviewCanvas</scope><name>wxScrolled</name></member>
+      <member refid="classwx_preview_canvas_1aa7dbd0d549b0939e9b22c89e39719158" prot="public" virt="virtual"><scope>wxPreviewCanvas</scope><name>~wxPreviewCanvas</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

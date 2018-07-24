@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_data_view_toggle_renderer" kind="class" language="C++" prot="public">
+    <compoundname>wxDataViewToggleRenderer</compoundname>
+    <basecompoundref refid="classwx_data_view_renderer" prot="public" virt="non-virtual">wxDataViewRenderer</basecompoundref>
+    <includes local="no">wx/dataview.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classwx_data_view_toggle_renderer_1a25e012d90961cd9c448987429a2e3ae9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxDataViewToggleRenderer::wxDataViewToggleRenderer</definition>
+        <argsstring>(const wxString &amp;varianttype=&quot;bool&quot;, wxDataViewCellMode mode=wxDATAVIEW_CELL_INERT, int align=wxDVR_DEFAULT_ALIGNMENT)</argsstring>
+        <name>wxDataViewToggleRenderer</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>varianttype</declname>
+          <defval>&quot;bool&quot;</defval>
+        </param>
+        <param>
+          <type><ref refid="dataview_8h_1a82ea89fa957cf47b29e59799429bda7e" kindref="member">wxDataViewCellMode</ref></type>
+          <declname>mode</declname>
+          <defval><ref refid="dataview_8h_1a82ea89fa957cf47b29e59799429bda7eade831fcdedc84d6ed5a03f8548f777e9" kindref="member">wxDATAVIEW_CELL_INERT</ref></defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>align</declname>
+          <defval><ref refid="dataview_8h_1a77ad20c54ebb9682cd3cbd1f7c90affe" kindref="member">wxDVR_DEFAULT_ALIGNMENT</ref></defval>
+        </param>
+        <briefdescription>
+<para>The ctor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/dataview.h" line="1938" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class is used by <ref refid="classwx_data_view_ctrl" kindref="compound">wxDataViewCtrl</ref> to render toggle controls. </para>    </briefdescription>
+    <detaileddescription>
+<para><heading level="2"></heading>
+</para><para>Library:<nonbreakablespace/><nonbreakablespace/><ref refid="page_libs_1page_libs_wxadv" kindref="member">wxAdvanced</ref> &lt;&gt;&lt; =&apos;&apos;&gt;:&lt;/&gt;&amp;;&amp;;&lt; =&apos;&apos;&gt;\ &lt;/&gt;&lt;/&gt; </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="1507">
+        <label>wxDataViewRenderer</label>
+        <link refid="classwx_data_view_renderer"/>
+        <childnode refid="1508" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1508">
+        <label>wxObject</label>
+        <link refid="classwx_object"/>
+      </node>
+      <node id="1506">
+        <label>wxDataViewToggleRenderer</label>
+        <link refid="classwx_data_view_toggle_renderer"/>
+        <childnode refid="1507" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1510">
+        <label>wxDataViewRenderer</label>
+        <link refid="classwx_data_view_renderer"/>
+        <childnode refid="1511" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1511">
+        <label>wxObject</label>
+        <link refid="classwx_object"/>
+        <childnode refid="1512" relation="usage">
+          <edgelabel>m_refData</edgelabel>
+        </childnode>
+      </node>
+      <node id="1509">
+        <label>wxDataViewToggleRenderer</label>
+        <link refid="classwx_data_view_toggle_renderer"/>
+        <childnode refid="1510" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1512">
+        <label>wxObjectRefData</label>
+        <link refid="classwx_object_ref_data"/>
+      </node>
+    </collaborationgraph>
+    <location file="interface/wx/dataview.h" line="1933" column="1" bodyfile="interface/wx/dataview.h" bodystart="1932" bodyend="1941"/>
+    <listofallmembers>
+      <member refid="classwx_object_1a60204063f3cc3aa2fa1c7ff5bda9eb13" prot="protected" virt="non-virtual"><scope>wxDataViewToggleRenderer</scope><name>AllocExclusive</name></member>
+      <member refid="classwx_data_view_renderer_1a179780588351469d8c21a66bc2bc2b3d" prot="public" virt="virtual"><scope>wxDataViewToggleRenderer</scope><name>CancelEditing</name></member>
+      <member refid="classwx_object_1a436fc8fe68cf8a31000296d9cd3d2427" prot="protected" virt="virtual"><scope>wxDataViewToggleRenderer</scope><name>CloneRefData</name></member>
+      <member refid="classwx_data_view_renderer_1a0f6205f90480c653ba7aab0ddfb2bc56" prot="public" virt="virtual"><scope>wxDataViewToggleRenderer</scope><name>CreateEditorCtrl</name></member>
+      <member refid="classwx_object_1a3f4f497c65cef611e121c41f21dd5ccc" prot="protected" virt="virtual"><scope>wxDataViewToggleRenderer</scope><name>CreateRefData</name></member>
+      <member refid="classwx_data_view_renderer_1ad88c4e7dcf842d1ac56544ca85e72f9a" prot="public" virt="non-virtual"><scope>wxDataViewToggleRenderer</scope><name>DisableEllipsize</name></member>
+      <member refid="classwx_data_view_renderer_1aeea4804c641149896b8e213bba672e64" prot="public" virt="non-virtual"><scope>wxDataViewToggleRenderer</scope><name>EnableEllipsize</name></member>
+      <member refid="classwx_data_view_renderer_1adad0f7c140a4ad6fc2c0935435631beb" prot="public" virt="virtual"><scope>wxDataViewToggleRenderer</scope><name>FinishEditing</name></member>
+      <member refid="classwx_data_view_renderer_1a0137573f0ab266e4b05fe8237f830870" prot="public" virt="virtual"><scope>wxDataViewToggleRenderer</scope><name>GetAlignment</name></member>
+      <member refid="classwx_object_1ae6d365f2556b26767ced8410c5e839d0" prot="public" virt="virtual"><scope>wxDataViewToggleRenderer</scope><name>GetClassInfo</name></member>
+      <member refid="classwx_data_view_renderer_1ad11a68862c7e95d5f39d99217db219db" prot="public" virt="non-virtual"><scope>wxDataViewToggleRenderer</scope><name>GetEditorCtrl</name></member>
+      <member refid="classwx_data_view_renderer_1a452740b38d2d9ca5eb2fdb84ff50526f" prot="public" virt="non-virtual"><scope>wxDataViewToggleRenderer</scope><name>GetEllipsizeMode</name></member>
+      <member refid="classwx_data_view_renderer_1a17ce11df4e93b5a50bfa435cb9f93b35" prot="public" virt="virtual"><scope>wxDataViewToggleRenderer</scope><name>GetMode</name></member>
+      <member refid="classwx_data_view_renderer_1a975ddc3e4af86eced9428c31c1973e25" prot="public" virt="non-virtual"><scope>wxDataViewToggleRenderer</scope><name>GetOwner</name></member>
+      <member refid="classwx_object_1af3c6c76a775864832f1536d3c0de3a2b" prot="public" virt="non-virtual"><scope>wxDataViewToggleRenderer</scope><name>GetRefData</name></member>
+      <member refid="classwx_data_view_renderer_1ad7c52082d76074cae4ceaf94e55cf604" prot="public" virt="pure-virtual"><scope>wxDataViewToggleRenderer</scope><name>GetValue</name></member>
+      <member refid="classwx_data_view_renderer_1a6d35e275733f4da63414bf98855278f7" prot="public" virt="virtual"><scope>wxDataViewToggleRenderer</scope><name>GetValueFromEditorCtrl</name></member>
+      <member refid="classwx_data_view_renderer_1aaa95f8d49da1b296df8bedd1f76ecc28" prot="public" virt="non-virtual"><scope>wxDataViewToggleRenderer</scope><name>GetVariantType</name></member>
+      <member refid="classwx_data_view_renderer_1a3cfb366dc5fb88c89fba42807c663294" prot="protected" virt="non-virtual"><scope>wxDataViewToggleRenderer</scope><name>GetView</name></member>
+      <member refid="classwx_data_view_renderer_1a71ba6f4bc0c54b83540660cdf40a64d0" prot="public" virt="virtual"><scope>wxDataViewToggleRenderer</scope><name>HasEditorCtrl</name></member>
+      <member refid="classwx_object_1a3c7115ef4132dcee0c4fc34e84d7fced" prot="public" virt="non-virtual"><scope>wxDataViewToggleRenderer</scope><name>IsKindOf</name></member>
+      <member refid="classwx_object_1a059373c494c2369d7db2a556efef8ecf" prot="public" virt="non-virtual"><scope>wxDataViewToggleRenderer</scope><name>IsSameAs</name></member>
+      <member refid="classwx_object_1a9e31954530a0abd54982effc443ed2b8" prot="protected" virt="non-virtual"><scope>wxDataViewToggleRenderer</scope><name>m_refData</name></member>
+      <member refid="classwx_object_1a07b8f34f5afc5743195c5fed052f55d3" prot="public" virt="non-virtual"><scope>wxDataViewToggleRenderer</scope><name>operator delete</name></member>
+      <member refid="classwx_object_1a96fa423a1dbc212c8227a5d83825971f" prot="public" virt="non-virtual"><scope>wxDataViewToggleRenderer</scope><name>operator new</name></member>
+      <member refid="classwx_object_1a2f6f1aa51fe9fc2b1415ca4211a90e9e" prot="public" virt="non-virtual"><scope>wxDataViewToggleRenderer</scope><name>Ref</name></member>
+      <member refid="classwx_data_view_renderer_1a2c67ceb437b6c2d2280ca651712dec1c" prot="public" virt="virtual"><scope>wxDataViewToggleRenderer</scope><name>SetAlignment</name></member>
+      <member refid="classwx_data_view_renderer_1a388da7afbbf86971c1e945255344666c" prot="public" virt="non-virtual"><scope>wxDataViewToggleRenderer</scope><name>SetOwner</name></member>
+      <member refid="classwx_object_1afab780710f2adc1bb33310e27590140b" prot="public" virt="non-virtual"><scope>wxDataViewToggleRenderer</scope><name>SetRefData</name></member>
+      <member refid="classwx_data_view_renderer_1ac4494f39d056c1b0976481647b24117f" prot="public" virt="pure-virtual"><scope>wxDataViewToggleRenderer</scope><name>SetValue</name></member>
+      <member refid="classwx_data_view_renderer_1a2d5d351f5dff1194d0db45d5feb38a90" prot="public" virt="virtual"><scope>wxDataViewToggleRenderer</scope><name>StartEditing</name></member>
+      <member refid="classwx_object_1af51efc6b1ae632fc7f0cd7ebbce9fa36" prot="public" virt="non-virtual"><scope>wxDataViewToggleRenderer</scope><name>UnRef</name></member>
+      <member refid="classwx_object_1a74b40e42d19a4b9e9bec0b57d62a5725" prot="public" virt="non-virtual"><scope>wxDataViewToggleRenderer</scope><name>UnShare</name></member>
+      <member refid="classwx_data_view_renderer_1a64c9df3410623498956ce5ed7524a9cf" prot="public" virt="virtual"><scope>wxDataViewToggleRenderer</scope><name>Validate</name></member>
+      <member refid="classwx_data_view_renderer_1ada4b068514a9732e32e03aae8b4581e6" prot="public" virt="non-virtual"><scope>wxDataViewToggleRenderer</scope><name>wxDataViewRenderer</name></member>
+      <member refid="classwx_data_view_toggle_renderer_1a25e012d90961cd9c448987429a2e3ae9" prot="public" virt="non-virtual"><scope>wxDataViewToggleRenderer</scope><name>wxDataViewToggleRenderer</name></member>
+      <member refid="classwx_object_1acaa378363a28af421ab56ad7b46eadf0" prot="public" virt="non-virtual"><scope>wxDataViewToggleRenderer</scope><name>wxObject</name></member>
+      <member refid="classwx_object_1a4721b4dc9b7aff0f30904ba2ea3954cf" prot="public" virt="non-virtual"><scope>wxDataViewToggleRenderer</scope><name>wxObject</name></member>
+      <member refid="classwx_object_1a2a51aa8bfbab47ca2f051bcf84b3f35b" prot="public" virt="virtual"><scope>wxDataViewToggleRenderer</scope><name>~wxObject</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

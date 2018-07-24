@@ -1,0 +1,159 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_html_rendering_state" kind="class" language="C++" prot="public">
+    <compoundname>wxHtmlRenderingState</compoundname>
+    <includes local="no">wx/html/htmlcell.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classwx_html_rendering_state_1ac3306bca772ced861f5aaf73685594e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxHtmlRenderingState::wxHtmlRenderingState</definition>
+        <argsstring>()</argsstring>
+        <name>wxHtmlRenderingState</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/html/htmlcell.h" line="70" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_html_rendering_state_1a8d391aa6fb82a58a3f55e86337372763" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxHtmlRenderingState::SetSelectionState</definition>
+        <argsstring>(wxHtmlSelectionState s)</argsstring>
+        <name>SetSelectionState</name>
+        <param>
+          <type><ref refid="htmlcell_8h_1a6bb8a0bb08a0c01b45ae995b175331f4" kindref="member">wxHtmlSelectionState</ref></type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/html/htmlcell.h" line="72" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_html_rendering_state_1a34872231e52a027e99d724140c747092" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="htmlcell_8h_1a6bb8a0bb08a0c01b45ae995b175331f4" kindref="member">wxHtmlSelectionState</ref></type>
+        <definition>wxHtmlSelectionState wxHtmlRenderingState::GetSelectionState</definition>
+        <argsstring>() const</argsstring>
+        <name>GetSelectionState</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/html/htmlcell.h" line="73" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_html_rendering_state_1ad549fa2a32c159207657e6eaa208a801" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxHtmlRenderingState::SetFgColour</definition>
+        <argsstring>(const wxColour &amp;c)</argsstring>
+        <name>SetFgColour</name>
+        <param>
+          <type>const <ref refid="classwx_colour" kindref="compound">wxColour</ref> &amp;</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/html/htmlcell.h" line="75" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_html_rendering_state_1ade79cc06740227dee7eec78f29f9115f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="classwx_colour" kindref="compound">wxColour</ref> &amp;</type>
+        <definition>const wxColour&amp; wxHtmlRenderingState::GetFgColour</definition>
+        <argsstring>() const</argsstring>
+        <name>GetFgColour</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/html/htmlcell.h" line="76" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_html_rendering_state_1a5522242576f0de61fca04f8292b6524d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxHtmlRenderingState::SetBgColour</definition>
+        <argsstring>(const wxColour &amp;c)</argsstring>
+        <name>SetBgColour</name>
+        <param>
+          <type>const <ref refid="classwx_colour" kindref="compound">wxColour</ref> &amp;</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/html/htmlcell.h" line="77" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_html_rendering_state_1afec74daa1ec34ec3fa1c806da07cb50f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="classwx_colour" kindref="compound">wxColour</ref> &amp;</type>
+        <definition>const wxColour&amp; wxHtmlRenderingState::GetBgColour</definition>
+        <argsstring>() const</argsstring>
+        <name>GetBgColour</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/html/htmlcell.h" line="78" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_html_rendering_state_1a0bb14d156e6bfd01c2f287091646c303" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxHtmlRenderingState::SetBgMode</definition>
+        <argsstring>(int m)</argsstring>
+        <name>SetBgMode</name>
+        <param>
+          <type>int</type>
+          <declname>m</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/html/htmlcell.h" line="79" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_html_rendering_state_1ae930efd038917e1c4893e9b889ba65ed" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int wxHtmlRenderingState::GetBgMode</definition>
+        <argsstring>() const</argsstring>
+        <name>GetBgMode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/html/htmlcell.h" line="80" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Selection state is passed to <ref refid="classwx_html_cell_1abebd247b545b1885e2a6406a1fc20d0a" kindref="member">wxHtmlCell::Draw</ref> so that it can render itself differently e.g. </para>    </briefdescription>
+    <detaileddescription>
+<para>when inside text selection or outside it.</para><para><heading level="2"></heading>
+</para><para>Library:<nonbreakablespace/><nonbreakablespace/><ref refid="page_libs_1page_libs_wxhtml" kindref="member">wxHTML</ref> &lt;&gt;&lt; =&apos;&apos;&gt;:&lt;/&gt;&amp;;&amp;;&lt; =&apos;&apos;&gt;\ &lt;/&gt;&lt;/&gt; </para>    </detaileddescription>
+    <location file="interface/wx/html/htmlcell.h" line="68" column="1" bodyfile="interface/wx/html/htmlcell.h" bodystart="67" bodyend="81"/>
+    <listofallmembers>
+      <member refid="classwx_html_rendering_state_1afec74daa1ec34ec3fa1c806da07cb50f" prot="public" virt="non-virtual"><scope>wxHtmlRenderingState</scope><name>GetBgColour</name></member>
+      <member refid="classwx_html_rendering_state_1ae930efd038917e1c4893e9b889ba65ed" prot="public" virt="non-virtual"><scope>wxHtmlRenderingState</scope><name>GetBgMode</name></member>
+      <member refid="classwx_html_rendering_state_1ade79cc06740227dee7eec78f29f9115f" prot="public" virt="non-virtual"><scope>wxHtmlRenderingState</scope><name>GetFgColour</name></member>
+      <member refid="classwx_html_rendering_state_1a34872231e52a027e99d724140c747092" prot="public" virt="non-virtual"><scope>wxHtmlRenderingState</scope><name>GetSelectionState</name></member>
+      <member refid="classwx_html_rendering_state_1a5522242576f0de61fca04f8292b6524d" prot="public" virt="non-virtual"><scope>wxHtmlRenderingState</scope><name>SetBgColour</name></member>
+      <member refid="classwx_html_rendering_state_1a0bb14d156e6bfd01c2f287091646c303" prot="public" virt="non-virtual"><scope>wxHtmlRenderingState</scope><name>SetBgMode</name></member>
+      <member refid="classwx_html_rendering_state_1ad549fa2a32c159207657e6eaa208a801" prot="public" virt="non-virtual"><scope>wxHtmlRenderingState</scope><name>SetFgColour</name></member>
+      <member refid="classwx_html_rendering_state_1a8d391aa6fb82a58a3f55e86337372763" prot="public" virt="non-virtual"><scope>wxHtmlRenderingState</scope><name>SetSelectionState</name></member>
+      <member refid="classwx_html_rendering_state_1ac3306bca772ced861f5aaf73685594e3" prot="public" virt="non-virtual"><scope>wxHtmlRenderingState</scope><name>wxHtmlRenderingState</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

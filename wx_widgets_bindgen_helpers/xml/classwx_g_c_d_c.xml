@@ -1,0 +1,359 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_g_c_d_c" kind="class" language="C++" prot="public">
+    <compoundname>wxGCDC</compoundname>
+    <basecompoundref refid="classwx_d_c" prot="public" virt="non-virtual">wxDC</basecompoundref>
+    <includes local="no">wx/dcgraph.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classwx_g_c_d_c_1ab7f82c4acbe2deba41375cce01bcaba3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxGCDC::wxGCDC</definition>
+        <argsstring>(const wxWindowDC &amp;windowDC)</argsstring>
+        <name>wxGCDC</name>
+        <param>
+          <type>const <ref refid="classwx_window_d_c" kindref="compound">wxWindowDC</ref> &amp;</type>
+          <declname>windowDC</declname>
+        </param>
+        <briefdescription>
+<para>Constructs a <ref refid="classwx_g_c_d_c" kindref="compound">wxGCDC</ref> from a <ref refid="classwx_window_d_c" kindref="compound">wxWindowDC</ref>. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/dcgraph.h" line="25" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_g_c_d_c_1a8bfc3aa5028e38bc5e63b797fef63669" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxGCDC::wxGCDC</definition>
+        <argsstring>(const wxMemoryDC &amp;memoryDC)</argsstring>
+        <name>wxGCDC</name>
+        <param>
+          <type>const <ref refid="classwx_memory_d_c" kindref="compound">wxMemoryDC</ref> &amp;</type>
+          <declname>memoryDC</declname>
+        </param>
+        <briefdescription>
+<para>Constructs a <ref refid="classwx_g_c_d_c" kindref="compound">wxGCDC</ref> from a <ref refid="classwx_memory_d_c" kindref="compound">wxMemoryDC</ref>. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/dcgraph.h" line="30" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_g_c_d_c_1a4e65ea4c23e1dc9adb22840282fa8894" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxGCDC::wxGCDC</definition>
+        <argsstring>(const wxPrinterDC &amp;printerDC)</argsstring>
+        <name>wxGCDC</name>
+        <param>
+          <type>const <ref refid="classwx_printer_d_c" kindref="compound">wxPrinterDC</ref> &amp;</type>
+          <declname>printerDC</declname>
+        </param>
+        <briefdescription>
+<para>Constructs a <ref refid="classwx_g_c_d_c" kindref="compound">wxGCDC</ref> from a <ref refid="classwx_printer_d_c" kindref="compound">wxPrinterDC</ref>. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/dcgraph.h" line="35" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_g_c_d_c_1a44937b71c3e256a1e2c2187caab904f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxGCDC::wxGCDC</definition>
+        <argsstring>(wxGraphicsContext *context)</argsstring>
+        <name>wxGCDC</name>
+        <param>
+          <type><ref refid="classwx_graphics_context" kindref="compound">wxGraphicsContext</ref> *</type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+<para>Construct a <ref refid="classwx_g_c_d_c" kindref="compound">wxGCDC</ref> from an existing graphics context. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/dcgraph.h" line="40" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_g_c_d_c_1a96469646f16d67d838fc49500b7af158" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxGCDC::wxGCDC</definition>
+        <argsstring>(const wxEnhMetaFileDC &amp;emfDC)</argsstring>
+        <name>wxGCDC</name>
+        <param>
+          <type>const wxEnhMetaFileDC &amp;</type>
+          <declname>emfDC</declname>
+        </param>
+        <briefdescription>
+<para>Constructs a <ref refid="classwx_g_c_d_c" kindref="compound">wxGCDC</ref> from a wxEnhMetaFileDC. </para>        </briefdescription>
+        <detaileddescription>
+<para>This constructor is only available in wxMSW port and when <computeroutput>wxUSE_ENH_METAFILE</computeroutput> build option is enabled, i.e. when wxEnhMetaFileDC class itself is available.</para><para><simplesect kind="since"><para>2.9.3 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/dcgraph.h" line="51" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_g_c_d_c_1a655c7b2351ba8ee71cec659030a0fb59" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxGCDC::wxGCDC</definition>
+        <argsstring>()</argsstring>
+        <name>wxGCDC</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/dcgraph.h" line="53" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_g_c_d_c_1adb896ea5b3bceb3ac4048b8fc8ecc77d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual wxGCDC::~wxGCDC</definition>
+        <argsstring>()</argsstring>
+        <name>~wxGCDC</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/dcgraph.h" line="54" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_g_c_d_c_1a14eb87552d1f774314b0982625536b0d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_graphics_context" kindref="compound">wxGraphicsContext</ref> *</type>
+        <definition>wxGraphicsContext* wxGCDC::GetGraphicsContext</definition>
+        <argsstring>() const</argsstring>
+        <name>GetGraphicsContext</name>
+        <briefdescription>
+<para>Retrieves associated <ref refid="classwx_graphics_context" kindref="compound">wxGraphicsContext</ref>. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/dcgraph.h" line="59" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_g_c_d_c_1a2b2b5d5ee3e8982b9bbf06cfe2a026f1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxGCDC::SetGraphicsContext</definition>
+        <argsstring>(wxGraphicsContext *ctx)</argsstring>
+        <name>SetGraphicsContext</name>
+        <param>
+          <type><ref refid="classwx_graphics_context" kindref="compound">wxGraphicsContext</ref> *</type>
+          <declname>ctx</declname>
+        </param>
+        <briefdescription>
+<para>Set the graphics context to be used for this <ref refid="classwx_g_c_d_c" kindref="compound">wxGCDC</ref>. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/dcgraph.h" line="64" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="classwx_g_c_d_c" kindref="compound">wxGCDC</ref> is a device context that draws on a <ref refid="classwx_graphics_context" kindref="compound">wxGraphicsContext</ref>. </para>    </briefdescription>
+    <detaileddescription>
+<para><heading level="2"></heading>
+</para><para>Library:<nonbreakablespace/><nonbreakablespace/><ref refid="page_libs_1page_libs_wxcore" kindref="member">wxCore</ref> &lt;&gt;&lt; =&apos;&apos;&gt;:&lt;/&gt;&amp;;&amp;;&lt; =&apos;&apos;&gt;\ &lt;/&gt;&lt;/&gt;</para><para><simplesect kind="see"><para><ref refid="classwx_d_c" kindref="compound">wxDC</ref>, <ref refid="classwx_graphics_context" kindref="compound">wxGraphicsContext</ref> </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="2713">
+        <label>wxGCDC</label>
+        <link refid="classwx_g_c_d_c"/>
+        <childnode refid="2714" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2715">
+        <label>wxObject</label>
+        <link refid="classwx_object"/>
+      </node>
+      <node id="2714">
+        <label>wxDC</label>
+        <link refid="classwx_d_c"/>
+        <childnode refid="2715" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2716">
+        <label>wxGCDC</label>
+        <link refid="classwx_g_c_d_c"/>
+        <childnode refid="2717" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2718">
+        <label>wxObject</label>
+        <link refid="classwx_object"/>
+        <childnode refid="2719" relation="usage">
+          <edgelabel>m_refData</edgelabel>
+        </childnode>
+      </node>
+      <node id="2717">
+        <label>wxDC</label>
+        <link refid="classwx_d_c"/>
+        <childnode refid="2718" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2719">
+        <label>wxObjectRefData</label>
+        <link refid="classwx_object_ref_data"/>
+      </node>
+    </collaborationgraph>
+    <location file="interface/wx/dcgraph.h" line="20" column="1" bodyfile="interface/wx/dcgraph.h" bodystart="19" bodyend="66"/>
+    <listofallmembers>
+      <member refid="classwx_object_1a60204063f3cc3aa2fa1c7ff5bda9eb13" prot="protected" virt="non-virtual"><scope>wxGCDC</scope><name>AllocExclusive</name></member>
+      <member refid="classwx_d_c_1a12bed94a15136b9080683f4151042a34" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>Blit</name></member>
+      <member refid="classwx_d_c_1a850699d4fdc9006421b085d2d37fa0c0" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>CalcBoundingBox</name></member>
+      <member refid="classwx_d_c_1a1effb5b9e03fe331515137145bf22e18" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>CanDrawBitmap</name></member>
+      <member refid="classwx_d_c_1aa933c630eb41e2e9d78324a95f4118b5" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>CanGetTextExtent</name></member>
+      <member refid="classwx_d_c_1a02b3bde61bfa924e984a9381c69698c1" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>CanUseTransformMatrix</name></member>
+      <member refid="classwx_d_c_1acf301dfd75b0f31d969ecb9daec21e85" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>Clear</name></member>
+      <member refid="classwx_object_1a436fc8fe68cf8a31000296d9cd3d2427" prot="protected" virt="virtual"><scope>wxGCDC</scope><name>CloneRefData</name></member>
+      <member refid="classwx_d_c_1ad1258b299c3a92344f1bdedbb7fc3acc" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>CopyAttributes</name></member>
+      <member refid="classwx_object_1a3f4f497c65cef611e121c41f21dd5ccc" prot="protected" virt="virtual"><scope>wxGCDC</scope><name>CreateRefData</name></member>
+      <member refid="classwx_d_c_1af8bab4cd7ffc3050974236a32afa1e1d" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>CrossHair</name></member>
+      <member refid="classwx_d_c_1ad5ad1b17105668a9cba6f4f6cc902a02" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>CrossHair</name></member>
+      <member refid="classwx_d_c_1ae0b0fc593c4559b9ac70e121bd28e3b4" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>DestroyClippingRegion</name></member>
+      <member refid="classwx_d_c_1a17971d3a2e3834f5b261aedd493ae08e" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>DeviceToLogicalX</name></member>
+      <member refid="classwx_d_c_1a173351b84f5c8ef0952d39e49021a84e" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>DeviceToLogicalXRel</name></member>
+      <member refid="classwx_d_c_1af669c71c68fb759927ec2e5721a6793e" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>DeviceToLogicalY</name></member>
+      <member refid="classwx_d_c_1a13fe5057e20314f2d383907719b278b8" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>DeviceToLogicalYRel</name></member>
+      <member refid="classwx_d_c_1a348f8cd1ba0ffcf62b8145628b0a5492" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>DrawArc</name></member>
+      <member refid="classwx_d_c_1abe49b852e96ff500ef6333bfc044890f" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>DrawArc</name></member>
+      <member refid="classwx_d_c_1af982eb2d3b10c5617ef3559d51a1defc" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>DrawBitmap</name></member>
+      <member refid="classwx_d_c_1a9449053951eceeb7984125cd4a694fd8" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>DrawBitmap</name></member>
+      <member refid="classwx_d_c_1a8ad34eda4c0b75ca905d466c6328fe91" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>DrawCheckMark</name></member>
+      <member refid="classwx_d_c_1a14fe0d838374721e98d6254cdd1484a6" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>DrawCheckMark</name></member>
+      <member refid="classwx_d_c_1a62fd1c810d532e53a25e3b2e6fd621f7" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>DrawCircle</name></member>
+      <member refid="classwx_d_c_1a560192c6dcb33c5bde404f3647234657" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>DrawCircle</name></member>
+      <member refid="classwx_d_c_1a340697f08f5fd08d9db383ffcef642c2" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>DrawEllipse</name></member>
+      <member refid="classwx_d_c_1a8a7a8478797c599e91125168669a5f36" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>DrawEllipse</name></member>
+      <member refid="classwx_d_c_1a637167c299d7e58832cf9c71f6f64fd5" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>DrawEllipse</name></member>
+      <member refid="classwx_d_c_1a821e0b82707ca0379273cca67913da06" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>DrawEllipticArc</name></member>
+      <member refid="classwx_d_c_1a5f18a7aee18b69c8721aec67ea0a3532" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>DrawEllipticArc</name></member>
+      <member refid="classwx_d_c_1a890d011a03308a28039d4940dd04264e" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>DrawIcon</name></member>
+      <member refid="classwx_d_c_1a5719d8c36a03d1679828c5d89d33dd67" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>DrawIcon</name></member>
+      <member refid="classwx_d_c_1ae28d7aa2e17a850f4ca15c042a870152" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>DrawLabel</name></member>
+      <member refid="classwx_d_c_1a9e4ddef5a10fdcee96ff9ef2fded9ee3" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>DrawLabel</name></member>
+      <member refid="classwx_d_c_1a12f2c236d4d320acec0bc6fe20e8399d" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>DrawLine</name></member>
+      <member refid="classwx_d_c_1a34f84b8b73cf782e6d9ab0f629598b6f" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>DrawLine</name></member>
+      <member refid="classwx_d_c_1abae438499fdfdc102e7be7629e8f8c46" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>DrawLines</name></member>
+      <member refid="classwx_d_c_1a23cbb356e46890c99fcb5304d077f888" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>DrawLines</name></member>
+      <member refid="classwx_d_c_1a8380aab866e8f3947e0898cf08969d9f" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>DrawPoint</name></member>
+      <member refid="classwx_d_c_1a9b75ad987adc0c01d13c34db101b3539" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>DrawPoint</name></member>
+      <member refid="classwx_d_c_1a86e50a20fa6b634b9ce590ce8a900e1c" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>DrawPolygon</name></member>
+      <member refid="classwx_d_c_1a6e5808ba5b740f0d4df5da02b05ce5ca" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>DrawPolygon</name></member>
+      <member refid="classwx_d_c_1ae760da96008debe42e18195d8ac8df3d" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>DrawPolyPolygon</name></member>
+      <member refid="classwx_d_c_1a918b9ae3447a2fc13f4c38c628a45c01" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>DrawRectangle</name></member>
+      <member refid="classwx_d_c_1a5499c7359d84871343e4875902c06a69" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>DrawRectangle</name></member>
+      <member refid="classwx_d_c_1ae0a8c6fe2eb45f6f03339b049db6b2b8" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>DrawRectangle</name></member>
+      <member refid="classwx_d_c_1aae5aff11939d5c55ab5c50987e4f2521" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>DrawRotatedText</name></member>
+      <member refid="classwx_d_c_1a791bc8502da484f1d3163e360cf91e8a" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>DrawRotatedText</name></member>
+      <member refid="classwx_d_c_1a94db29e2a40a16dc19ac852d05cd65b0" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>DrawRoundedRectangle</name></member>
+      <member refid="classwx_d_c_1a9e4b8ab031042016d434606eb7744c9c" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>DrawRoundedRectangle</name></member>
+      <member refid="classwx_d_c_1a926fb2251b9185e58f15c41f680aaf2a" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>DrawRoundedRectangle</name></member>
+      <member refid="classwx_d_c_1ad72d38c75ac6b3f80c1f957dd94089fa" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>DrawSpline</name></member>
+      <member refid="classwx_d_c_1aacfb4bab651f9eb572e42cd2870c40c6" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>DrawSpline</name></member>
+      <member refid="classwx_d_c_1a60c358ff3cfbf2b6f6d1918b527de98a" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>DrawSpline</name></member>
+      <member refid="classwx_d_c_1a11d35ce34fccb57b0efc7dc91168660b" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>DrawText</name></member>
+      <member refid="classwx_d_c_1a17f5674c449449b730c63f773534d721" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>DrawText</name></member>
+      <member refid="classwx_d_c_1a95a506a0153d24dc352577161d45081c" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>EndDoc</name></member>
+      <member refid="classwx_d_c_1a3867f84557ecaf68bfeacffea74e8902" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>EndPage</name></member>
+      <member refid="classwx_d_c_1af510e22ffc274d3d3b29659941f2b5a9" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>FloodFill</name></member>
+      <member refid="classwx_d_c_1aa3ad38fdcd0e731af94bd9c3189e72e9" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>FloodFill</name></member>
+      <member refid="classwx_d_c_1ad29258b841e124462aa74a5581526e9e" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>GetAsBitmap</name></member>
+      <member refid="classwx_d_c_1a7322eb1e64eb276f5cca9aa21d3cefe4" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>GetBackground</name></member>
+      <member refid="classwx_d_c_1ae4f34b8c09b8f7af5c848906ead10e64" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>GetBackgroundMode</name></member>
+      <member refid="classwx_d_c_1a9bf13abd52b398ddf3096b2bd65824d3" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>GetBrush</name></member>
+      <member refid="classwx_d_c_1a426166f27052b98dffcee07b6d743098" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>GetCharHeight</name></member>
+      <member refid="classwx_d_c_1a3079e3786b0d9160462e15cfe61422c4" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>GetCharWidth</name></member>
+      <member refid="classwx_object_1ae6d365f2556b26767ced8410c5e839d0" prot="public" virt="virtual"><scope>wxGCDC</scope><name>GetClassInfo</name></member>
+      <member refid="classwx_d_c_1aa157370fdda0890acfb41ec85eb4a227" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>GetClippingBox</name></member>
+      <member refid="classwx_d_c_1a798700d907980c88c717e86a4a06e924" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>GetDepth</name></member>
+      <member refid="classwx_d_c_1a1ce47e2939c15b7290540a4ca1736eb5" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>GetDeviceOrigin</name></member>
+      <member refid="classwx_d_c_1aa2a9561d0783d2891fab3f34fd1e3021" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>GetFont</name></member>
+      <member refid="classwx_d_c_1ae55ab5ce3194add52406f0f15009920c" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>GetFontMetrics</name></member>
+      <member refid="classwx_g_c_d_c_1a14eb87552d1f774314b0982625536b0d" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>GetGraphicsContext</name></member>
+      <member refid="classwx_d_c_1ad7be3a69e1266da242827d40b88c72a5" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>GetHandle</name></member>
+      <member refid="classwx_d_c_1a69139fe0c3b10e077a5ad4e9a8860b7f" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>GetLayoutDirection</name></member>
+      <member refid="classwx_d_c_1af0a85cc17b43c8db59a3172ded90cb79" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>GetLogicalFunction</name></member>
+      <member refid="classwx_d_c_1a4acfbc9623a3c441e22f5257f9516fc0" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>GetLogicalOrigin</name></member>
+      <member refid="classwx_d_c_1aebaa077e6b083daf17dfdb35dbe87823" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>GetLogicalOrigin</name></member>
+      <member refid="classwx_d_c_1ab6a2a41a573b659dc2331c387bab4d16" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>GetLogicalScale</name></member>
+      <member refid="classwx_d_c_1a42171f00a80eff7e88204f92c36f1f6f" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>GetMapMode</name></member>
+      <member refid="classwx_d_c_1a3f59fa4cc99e7f8c84b945373d986a45" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>GetMultiLineTextExtent</name></member>
+      <member refid="classwx_d_c_1a827892cc43071baaad813cbddbba021b" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>GetMultiLineTextExtent</name></member>
+      <member refid="classwx_d_c_1a9caf42966be72457715b3188fe285220" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>GetPartialTextExtents</name></member>
+      <member refid="classwx_d_c_1a04592fedab03caa91cabc34d22451b5f" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>GetPen</name></member>
+      <member refid="classwx_d_c_1abe0f8a22ec58783bd728f01e493040d1" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>GetPixel</name></member>
+      <member refid="classwx_d_c_1a5e5a7832177ceceee0b5c35d146a1d6a" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>GetPPI</name></member>
+      <member refid="classwx_object_1af3c6c76a775864832f1536d3c0de3a2b" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>GetRefData</name></member>
+      <member refid="classwx_d_c_1aee6d97d655f20039745b5f6fb43a2d51" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>GetSize</name></member>
+      <member refid="classwx_d_c_1a27377e56df8a908085a3f8f5ef772303" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>GetSize</name></member>
+      <member refid="classwx_d_c_1a33e35c892ed21eb3d512598753c080e2" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>GetSizeMM</name></member>
+      <member refid="classwx_d_c_1adb021c4bd833267efc58956487262082" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>GetSizeMM</name></member>
+      <member refid="classwx_d_c_1a7d0015e6e8e62e1e207bb38873b0e0b7" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>GetTextBackground</name></member>
+      <member refid="classwx_d_c_1a8ad68582fbd5373b4af6bad906defeb4" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>GetTextExtent</name></member>
+      <member refid="classwx_d_c_1a1f9b9b72ba8c88c1217b6210af4c22c6" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>GetTextExtent</name></member>
+      <member refid="classwx_d_c_1aa36f1f4cd4594c9735ca91638f42fe28" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>GetTextForeground</name></member>
+      <member refid="classwx_d_c_1ac50798a205d501ac7124bcdd9f67c760" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>GetTransformMatrix</name></member>
+      <member refid="classwx_d_c_1a711601938dff67d42ec45b61b4d13db3" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>GetUserScale</name></member>
+      <member refid="classwx_d_c_1a323802ed579056fce98220f5d1778076" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>GradientFillConcentric</name></member>
+      <member refid="classwx_d_c_1a2f0cd1850aefeda55b25cf56d55ac495" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>GradientFillConcentric</name></member>
+      <member refid="classwx_d_c_1a9cfbde2fcde06ffacf323f3a9dd1b020" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>GradientFillLinear</name></member>
+      <member refid="classwx_object_1a3c7115ef4132dcee0c4fc34e84d7fced" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>IsKindOf</name></member>
+      <member refid="classwx_d_c_1af00c59870ef918f0647b53f52bc29d6a" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>IsOk</name></member>
+      <member refid="classwx_object_1a059373c494c2369d7db2a556efef8ecf" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>IsSameAs</name></member>
+      <member refid="classwx_d_c_1ace891d047e6f95d8f4d3a83475ab228e" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>LogicalToDeviceX</name></member>
+      <member refid="classwx_d_c_1a68bac9e6f4bb21a3a38250c977bf2e5e" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>LogicalToDeviceXRel</name></member>
+      <member refid="classwx_d_c_1a373fbecf8b5fe2391d858150f94f8154" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>LogicalToDeviceY</name></member>
+      <member refid="classwx_d_c_1af9d891f58f39682fdd49c5aa5fc57ff2" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>LogicalToDeviceYRel</name></member>
+      <member refid="classwx_object_1a9e31954530a0abd54982effc443ed2b8" prot="protected" virt="non-virtual"><scope>wxGCDC</scope><name>m_refData</name></member>
+      <member refid="classwx_d_c_1a0021372eada83e1fa73a5364100377fc" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>MaxX</name></member>
+      <member refid="classwx_d_c_1a6484caea9b032fc399f900e46deb6be3" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>MaxY</name></member>
+      <member refid="classwx_d_c_1a8f205424c5badc4f76b77aa71887f5ff" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>MinX</name></member>
+      <member refid="classwx_d_c_1a74abb8dd4308d7594e8d7a234d19e04f" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>MinY</name></member>
+      <member refid="classwx_object_1a07b8f34f5afc5743195c5fed052f55d3" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>operator delete</name></member>
+      <member refid="classwx_object_1a96fa423a1dbc212c8227a5d83825971f" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>operator new</name></member>
+      <member refid="classwx_object_1a2f6f1aa51fe9fc2b1415ca4211a90e9e" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>Ref</name></member>
+      <member refid="classwx_d_c_1a35ed8c0c64315ec85588142d44f83af8" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>ResetBoundingBox</name></member>
+      <member refid="classwx_d_c_1a41a9a4f616da21afdcad0fe1585ca066" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>ResetTransformMatrix</name></member>
+      <member refid="classwx_d_c_1a1ada4defde484280fb24c4c47d24e0e8" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>SetAxisOrientation</name></member>
+      <member refid="classwx_d_c_1ad0139f6542f619244b80d4db7f685f86" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>SetBackground</name></member>
+      <member refid="classwx_d_c_1a86c405ae265e6fdb4e393c4c9ada73c0" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>SetBackgroundMode</name></member>
+      <member refid="classwx_d_c_1a13978b2624116987a59ff729c4f81a96" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>SetBrush</name></member>
+      <member refid="classwx_d_c_1a21ce8b27db0da5d68b8571d0ff39114b" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>SetClippingRegion</name></member>
+      <member refid="classwx_d_c_1a800f7ca2a4a7588ff68d808eb06191e1" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>SetClippingRegion</name></member>
+      <member refid="classwx_d_c_1a9a397f713db57f7999b5851a5b25dd84" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>SetClippingRegion</name></member>
+      <member refid="classwx_d_c_1a382a46c105ebad94e848e74e9cc0b4b1" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>SetDeviceClippingRegion</name></member>
+      <member refid="classwx_d_c_1a0a1c7d7d07d1faf3f7b89698bde769f3" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>SetDeviceOrigin</name></member>
+      <member refid="classwx_d_c_1afab18239d707cd403235b36a987171a8" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>SetFont</name></member>
+      <member refid="classwx_g_c_d_c_1a2b2b5d5ee3e8982b9bbf06cfe2a026f1" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>SetGraphicsContext</name></member>
+      <member refid="classwx_d_c_1a16196571f402cabf506619e8bf9f1586" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>SetLayoutDirection</name></member>
+      <member refid="classwx_d_c_1aae8adce8cf260bf703b8e76784bd577d" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>SetLogicalFunction</name></member>
+      <member refid="classwx_d_c_1a4ce7dda4ff2f3ece524b8d538b346b6f" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>SetLogicalOrigin</name></member>
+      <member refid="classwx_d_c_1aae1c728cdd2f43601f876b7d67067a39" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>SetLogicalScale</name></member>
+      <member refid="classwx_d_c_1aa07ef94e2f3af5b64345c3f94333e86e" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>SetMapMode</name></member>
+      <member refid="classwx_d_c_1afc58b0f4653159e713377d38c84a120f" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>SetPalette</name></member>
+      <member refid="classwx_d_c_1a0d229733fbc83c7e4c483c0714d090b2" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>SetPen</name></member>
+      <member refid="classwx_object_1afab780710f2adc1bb33310e27590140b" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>SetRefData</name></member>
+      <member refid="classwx_d_c_1a3ed22bd0a0b835d4d085261bb022766b" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>SetTextBackground</name></member>
+      <member refid="classwx_d_c_1aeac811df9a1688ce875117f3049849d6" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>SetTextForeground</name></member>
+      <member refid="classwx_d_c_1a6e3243fcb5d194ef5637f4bda11a49c3" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>SetTransformMatrix</name></member>
+      <member refid="classwx_d_c_1a190e43cf66ef402aa67f759d20f22eb0" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>SetUserScale</name></member>
+      <member refid="classwx_d_c_1ad6572581c9d31dc349b6a7462426856c" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>StartDoc</name></member>
+      <member refid="classwx_d_c_1a94c855ceb9f2fd5dcd1cf61396c13576" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>StartPage</name></member>
+      <member refid="classwx_d_c_1a82801167a35e747218c49aa2161ae4bf" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>StretchBlit</name></member>
+      <member refid="classwx_object_1af51efc6b1ae632fc7f0cd7ebbce9fa36" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>UnRef</name></member>
+      <member refid="classwx_object_1a74b40e42d19a4b9e9bec0b57d62a5725" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>UnShare</name></member>
+      <member refid="classwx_g_c_d_c_1ab7f82c4acbe2deba41375cce01bcaba3" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>wxGCDC</name></member>
+      <member refid="classwx_g_c_d_c_1a8bfc3aa5028e38bc5e63b797fef63669" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>wxGCDC</name></member>
+      <member refid="classwx_g_c_d_c_1a4e65ea4c23e1dc9adb22840282fa8894" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>wxGCDC</name></member>
+      <member refid="classwx_g_c_d_c_1a44937b71c3e256a1e2c2187caab904f8" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>wxGCDC</name></member>
+      <member refid="classwx_g_c_d_c_1a96469646f16d67d838fc49500b7af158" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>wxGCDC</name></member>
+      <member refid="classwx_g_c_d_c_1a655c7b2351ba8ee71cec659030a0fb59" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>wxGCDC</name></member>
+      <member refid="classwx_object_1acaa378363a28af421ab56ad7b46eadf0" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>wxObject</name></member>
+      <member refid="classwx_object_1a4721b4dc9b7aff0f30904ba2ea3954cf" prot="public" virt="non-virtual"><scope>wxGCDC</scope><name>wxObject</name></member>
+      <member refid="classwx_g_c_d_c_1adb896ea5b3bceb3ac4048b8fc8ecc77d" prot="public" virt="virtual"><scope>wxGCDC</scope><name>~wxGCDC</name></member>
+      <member refid="classwx_object_1a2a51aa8bfbab47ca2f051bcf84b3f35b" prot="public" virt="virtual"><scope>wxGCDC</scope><name>~wxObject</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,214 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_p_g_choice_entry" kind="class" language="C++" prot="public">
+    <compoundname>wxPGChoiceEntry</compoundname>
+    <basecompoundref refid="classwx_p_g_cell" prot="public" virt="non-virtual">wxPGCell</basecompoundref>
+    <includes local="no">wx/propgrid/property.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classwx_p_g_choice_entry_1a4301f5a21a03846ff013e5188ffe8ef1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxPGChoiceEntry::wxPGChoiceEntry</definition>
+        <argsstring>()</argsstring>
+        <name>wxPGChoiceEntry</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/property.h" line="2094" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_p_g_choice_entry_1aed5e3338f7250de868d2de4610d5f77f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxPGChoiceEntry::wxPGChoiceEntry</definition>
+        <argsstring>(const wxPGChoiceEntry &amp;other)</argsstring>
+        <name>wxPGChoiceEntry</name>
+        <param>
+          <type>const <ref refid="classwx_p_g_choice_entry" kindref="compound">wxPGChoiceEntry</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/property.h" line="2095" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_p_g_choice_entry_1a62f293392ffaf38555d50ea5d9f79e7e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxPGChoiceEntry::wxPGChoiceEntry</definition>
+        <argsstring>(const wxString &amp;label, int value=wxPG_INVALID_VALUE)</argsstring>
+        <name>wxPGChoiceEntry</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>label</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+          <defval><ref refid="propgriddefs_8h_1a35567004c2b7c2fbf73ba2a8d3dfa6ab" kindref="member">wxPG_INVALID_VALUE</ref></defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/property.h" line="2096" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_p_g_choice_entry_1a5b29d3d86379d83e38eae68045f94dfa" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual wxPGChoiceEntry::~wxPGChoiceEntry</definition>
+        <argsstring>()</argsstring>
+        <name>~wxPGChoiceEntry</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/property.h" line="2099" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_p_g_choice_entry_1a47618702c129c5e3214020e5b16644f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxPGChoiceEntry::SetValue</definition>
+        <argsstring>(int value)</argsstring>
+        <name>SetValue</name>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/property.h" line="2101" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_p_g_choice_entry_1aba1ebdb229eaba04fdd69a64ad8f0086" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int wxPGChoiceEntry::GetValue</definition>
+        <argsstring>() const</argsstring>
+        <name>GetValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/property.h" line="2102" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_p_g_choice_entry_1a966bf300f8ab2678b3e06a355e61ed8f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_p_g_choice_entry" kindref="compound">wxPGChoiceEntry</ref> &amp;</type>
+        <definition>wxPGChoiceEntry&amp; wxPGChoiceEntry::operator=</definition>
+        <argsstring>(const wxPGChoiceEntry &amp;other)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="classwx_p_g_choice_entry" kindref="compound">wxPGChoiceEntry</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/property.h" line="2104" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Data of a single <ref refid="classwx_p_g_choices" kindref="compound">wxPGChoices</ref> choice. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="5313">
+        <label>wxObject</label>
+        <link refid="classwx_object"/>
+      </node>
+      <node id="5311">
+        <label>wxPGChoiceEntry</label>
+        <link refid="classwx_p_g_choice_entry"/>
+        <childnode refid="5312" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5312">
+        <label>wxPGCell</label>
+        <link refid="classwx_p_g_cell"/>
+        <childnode refid="5313" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="5316">
+        <label>wxObject</label>
+        <link refid="classwx_object"/>
+        <childnode refid="5317" relation="usage">
+          <edgelabel>m_refData</edgelabel>
+        </childnode>
+      </node>
+      <node id="5314">
+        <label>wxPGChoiceEntry</label>
+        <link refid="classwx_p_g_choice_entry"/>
+        <childnode refid="5315" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5315">
+        <label>wxPGCell</label>
+        <link refid="classwx_p_g_cell"/>
+        <childnode refid="5316" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5317">
+        <label>wxObjectRefData</label>
+        <link refid="classwx_object_ref_data"/>
+      </node>
+    </collaborationgraph>
+    <location file="interface/wx/propgrid/property.h" line="2092" column="1" bodyfile="interface/wx/propgrid/property.h" bodystart="2091" bodyend="2105"/>
+    <listofallmembers>
+      <member refid="classwx_object_1a60204063f3cc3aa2fa1c7ff5bda9eb13" prot="protected" virt="non-virtual"><scope>wxPGChoiceEntry</scope><name>AllocExclusive</name></member>
+      <member refid="classwx_object_1a436fc8fe68cf8a31000296d9cd3d2427" prot="protected" virt="virtual"><scope>wxPGChoiceEntry</scope><name>CloneRefData</name></member>
+      <member refid="classwx_object_1a3f4f497c65cef611e121c41f21dd5ccc" prot="protected" virt="virtual"><scope>wxPGChoiceEntry</scope><name>CreateRefData</name></member>
+      <member refid="classwx_p_g_cell_1ab92090caf84df0eb5874b02577e8055c" prot="public" virt="non-virtual"><scope>wxPGChoiceEntry</scope><name>GetBgCol</name></member>
+      <member refid="classwx_p_g_cell_1aa7674114f2deea122e54c3ef5d70e614" prot="public" virt="non-virtual"><scope>wxPGChoiceEntry</scope><name>GetBitmap</name></member>
+      <member refid="classwx_object_1ae6d365f2556b26767ced8410c5e839d0" prot="public" virt="virtual"><scope>wxPGChoiceEntry</scope><name>GetClassInfo</name></member>
+      <member refid="classwx_p_g_cell_1aeb5f06380495083f0b6d9326b41a0608" prot="public" virt="non-virtual"><scope>wxPGChoiceEntry</scope><name>GetData</name></member>
+      <member refid="classwx_p_g_cell_1aaf1cbd2df32496864cd86e308b89c140" prot="public" virt="non-virtual"><scope>wxPGChoiceEntry</scope><name>GetFgCol</name></member>
+      <member refid="classwx_p_g_cell_1a94c8cbd11e024749ba9e21337d28fdc2" prot="public" virt="non-virtual"><scope>wxPGChoiceEntry</scope><name>GetFont</name></member>
+      <member refid="classwx_object_1af3c6c76a775864832f1536d3c0de3a2b" prot="public" virt="non-virtual"><scope>wxPGChoiceEntry</scope><name>GetRefData</name></member>
+      <member refid="classwx_p_g_cell_1a609b8a67f76906589f688cd98efc773f" prot="public" virt="non-virtual"><scope>wxPGChoiceEntry</scope><name>GetText</name></member>
+      <member refid="classwx_p_g_choice_entry_1aba1ebdb229eaba04fdd69a64ad8f0086" prot="public" virt="non-virtual"><scope>wxPGChoiceEntry</scope><name>GetValue</name></member>
+      <member refid="classwx_p_g_cell_1acf7028bffd098337dbdc67073a5530fa" prot="public" virt="non-virtual"><scope>wxPGChoiceEntry</scope><name>HasText</name></member>
+      <member refid="classwx_object_1a3c7115ef4132dcee0c4fc34e84d7fced" prot="public" virt="non-virtual"><scope>wxPGChoiceEntry</scope><name>IsKindOf</name></member>
+      <member refid="classwx_object_1a059373c494c2369d7db2a556efef8ecf" prot="public" virt="non-virtual"><scope>wxPGChoiceEntry</scope><name>IsSameAs</name></member>
+      <member refid="classwx_object_1a9e31954530a0abd54982effc443ed2b8" prot="protected" virt="non-virtual"><scope>wxPGChoiceEntry</scope><name>m_refData</name></member>
+      <member refid="classwx_p_g_cell_1aea2453886dc54ec6ac6144acf4d95597" prot="public" virt="non-virtual"><scope>wxPGChoiceEntry</scope><name>MergeFrom</name></member>
+      <member refid="classwx_object_1a07b8f34f5afc5743195c5fed052f55d3" prot="public" virt="non-virtual"><scope>wxPGChoiceEntry</scope><name>operator delete</name></member>
+      <member refid="classwx_object_1a96fa423a1dbc212c8227a5d83825971f" prot="public" virt="non-virtual"><scope>wxPGChoiceEntry</scope><name>operator new</name></member>
+      <member refid="classwx_p_g_choice_entry_1a966bf300f8ab2678b3e06a355e61ed8f" prot="public" virt="non-virtual"><scope>wxPGChoiceEntry</scope><name>operator=</name></member>
+      <member refid="classwx_p_g_cell_1a57259e40708d402bec61c65211649511" prot="public" virt="non-virtual" ambiguityscope="wxPGCell::"><scope>wxPGChoiceEntry</scope><name>operator=</name></member>
+      <member refid="classwx_object_1a2f6f1aa51fe9fc2b1415ca4211a90e9e" prot="public" virt="non-virtual"><scope>wxPGChoiceEntry</scope><name>Ref</name></member>
+      <member refid="classwx_p_g_cell_1abcd054fbe2d8ce6802e23a574c67f244" prot="public" virt="non-virtual"><scope>wxPGChoiceEntry</scope><name>SetBgCol</name></member>
+      <member refid="classwx_p_g_cell_1ad6a147bc54129eb5f86cb523f66ef7cb" prot="public" virt="non-virtual"><scope>wxPGChoiceEntry</scope><name>SetBitmap</name></member>
+      <member refid="classwx_p_g_cell_1a8e7610d45bb42625d8571389f10666b9" prot="public" virt="non-virtual"><scope>wxPGChoiceEntry</scope><name>SetFgCol</name></member>
+      <member refid="classwx_p_g_cell_1aa45a537e70c9471541d8d8663bed6c66" prot="public" virt="non-virtual"><scope>wxPGChoiceEntry</scope><name>SetFont</name></member>
+      <member refid="classwx_object_1afab780710f2adc1bb33310e27590140b" prot="public" virt="non-virtual"><scope>wxPGChoiceEntry</scope><name>SetRefData</name></member>
+      <member refid="classwx_p_g_cell_1a31e284841d67f24055f75a8685ff1f54" prot="public" virt="non-virtual"><scope>wxPGChoiceEntry</scope><name>SetText</name></member>
+      <member refid="classwx_p_g_choice_entry_1a47618702c129c5e3214020e5b16644f5" prot="public" virt="non-virtual"><scope>wxPGChoiceEntry</scope><name>SetValue</name></member>
+      <member refid="classwx_object_1af51efc6b1ae632fc7f0cd7ebbce9fa36" prot="public" virt="non-virtual"><scope>wxPGChoiceEntry</scope><name>UnRef</name></member>
+      <member refid="classwx_object_1a74b40e42d19a4b9e9bec0b57d62a5725" prot="public" virt="non-virtual"><scope>wxPGChoiceEntry</scope><name>UnShare</name></member>
+      <member refid="classwx_object_1acaa378363a28af421ab56ad7b46eadf0" prot="public" virt="non-virtual"><scope>wxPGChoiceEntry</scope><name>wxObject</name></member>
+      <member refid="classwx_object_1a4721b4dc9b7aff0f30904ba2ea3954cf" prot="public" virt="non-virtual"><scope>wxPGChoiceEntry</scope><name>wxObject</name></member>
+      <member refid="classwx_p_g_cell_1a4cdca6eb4da29db51ac79f4547a267f6" prot="public" virt="non-virtual"><scope>wxPGChoiceEntry</scope><name>wxPGCell</name></member>
+      <member refid="classwx_p_g_cell_1aac7bd708cc2b371daf6c309ec91ca725" prot="public" virt="non-virtual"><scope>wxPGChoiceEntry</scope><name>wxPGCell</name></member>
+      <member refid="classwx_p_g_cell_1adaad4da8080dfdc8ba69dcc9f0ea63f2" prot="public" virt="non-virtual"><scope>wxPGChoiceEntry</scope><name>wxPGCell</name></member>
+      <member refid="classwx_p_g_choice_entry_1a4301f5a21a03846ff013e5188ffe8ef1" prot="public" virt="non-virtual"><scope>wxPGChoiceEntry</scope><name>wxPGChoiceEntry</name></member>
+      <member refid="classwx_p_g_choice_entry_1aed5e3338f7250de868d2de4610d5f77f" prot="public" virt="non-virtual"><scope>wxPGChoiceEntry</scope><name>wxPGChoiceEntry</name></member>
+      <member refid="classwx_p_g_choice_entry_1a62f293392ffaf38555d50ea5d9f79e7e" prot="public" virt="non-virtual"><scope>wxPGChoiceEntry</scope><name>wxPGChoiceEntry</name></member>
+      <member refid="classwx_object_1a2a51aa8bfbab47ca2f051bcf84b3f35b" prot="public" virt="virtual"><scope>wxPGChoiceEntry</scope><name>~wxObject</name></member>
+      <member refid="classwx_p_g_cell_1a25c7d5b4d4798dfc0046a385becbc30e" prot="public" virt="virtual"><scope>wxPGChoiceEntry</scope><name>~wxPGCell</name></member>
+      <member refid="classwx_p_g_choice_entry_1a5b29d3d86379d83e38eae68045f94dfa" prot="public" virt="virtual"><scope>wxPGChoiceEntry</scope><name>~wxPGChoiceEntry</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

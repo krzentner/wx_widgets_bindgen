@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_grid_corner_header_renderer_default" kind="class" language="C++" prot="public">
+    <compoundname>wxGridCornerHeaderRendererDefault</compoundname>
+    <basecompoundref refid="classwx_grid_corner_header_renderer" prot="public" virt="non-virtual">wxGridCornerHeaderRenderer</basecompoundref>
+    <includes local="no">wx/grid.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classwx_grid_corner_header_renderer_default_1ae66310b740d2ee151f72b68cd20d6d10" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void wxGridCornerHeaderRendererDefault::DrawBorder</definition>
+        <argsstring>(const wxGrid &amp;grid, wxDC &amp;dc, wxRect &amp;rect) const</argsstring>
+        <name>DrawBorder</name>
+        <reimplements refid="classwx_grid_corner_header_renderer_1ae645864cfd4fe4be47522b2151ee2e45">DrawBorder</reimplements>
+        <param>
+          <type>const <ref refid="classwx_grid" kindref="compound">wxGrid</ref> &amp;</type>
+          <declname>grid</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_d_c" kindref="compound">wxDC</ref> &amp;</type>
+          <declname>dc</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_rect" kindref="compound">wxRect</ref> &amp;</type>
+          <declname>rect</declname>
+        </param>
+        <briefdescription>
+<para>Implement border drawing for the corner window. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/grid.h" line="1135" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Default corner window renderer. </para>    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="see"><para><ref refid="classwx_grid_column_header_renderer_default" kindref="compound">wxGridColumnHeaderRendererDefault</ref>, <ref refid="classwx_grid_row_header_renderer_default" kindref="compound">wxGridRowHeaderRendererDefault</ref></para></simplesect>
+<simplesect kind="since"><para>2.9.1 </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="3089">
+        <label>wxGridCornerHeaderRenderer</label>
+        <link refid="classwx_grid_corner_header_renderer"/>
+      </node>
+      <node id="3088">
+        <label>wxGridCornerHeaderRendererDefault</label>
+        <link refid="classwx_grid_corner_header_renderer_default"/>
+        <childnode refid="3089" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3091">
+        <label>wxGridCornerHeaderRenderer</label>
+        <link refid="classwx_grid_corner_header_renderer"/>
+      </node>
+      <node id="3090">
+        <label>wxGridCornerHeaderRendererDefault</label>
+        <link refid="classwx_grid_corner_header_renderer_default"/>
+        <childnode refid="3091" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="interface/wx/grid.h" line="1132" column="1" bodyfile="interface/wx/grid.h" bodystart="1131" bodyend="1138"/>
+    <listofallmembers>
+      <member refid="classwx_grid_corner_header_renderer_default_1ae66310b740d2ee151f72b68cd20d6d10" prot="public" virt="virtual"><scope>wxGridCornerHeaderRendererDefault</scope><name>DrawBorder</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

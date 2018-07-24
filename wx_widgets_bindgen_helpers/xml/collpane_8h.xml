@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="collpane_8h" kind="file" language="C++">
+    <compoundname>collpane.h</compoundname>
+    <innerclass refid="classwx_collapsible_pane_event" prot="public">wxCollapsiblePaneEvent</innerclass>
+    <innerclass refid="classwx_collapsible_pane" prot="public">wxCollapsiblePane</innerclass>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="collpane_8h_1a97360a9ecef06f622c2822dc28c607b2" prot="public" static="no">
+        <name>wxCP_DEFAULT_STYLE</name>
+        <initializer>(<ref refid="defs_8h_1a80617961a7712edd27988dffbe0e8cca" kindref="member">wxTAB_TRAVERSAL</ref> | <ref refid="defs_8h_1ae3923cd2fff30ecb5d43ab425d8ab1a3" kindref="member">wxNO_BORDER</ref>)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/collpane.h" line="8" column="9" bodyfile="interface/wx/collpane.h" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="collpane_8h_1a08532c3a20049c554f78b9d891726550" prot="public" static="no">
+        <name>wxCP_NO_TLW_RESIZE</name>
+        <initializer>(0x0002)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/collpane.h" line="9" column="9" bodyfile="interface/wx/collpane.h" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="collpane_8h_1a78ac82d684e63a8cc259b1215d58a03c" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_COLLAPSIBLEPANE_CHANGED</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_COLLAPSIBLEPANE_CHANGED</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/collpane.h" line="46" column="1" bodyfile="interface/wx/collpane.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="interface/wx/collpane.h"/>
+  </compounddef>
+</doxygen>

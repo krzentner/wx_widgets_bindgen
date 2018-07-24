@@ -1,0 +1,202 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_variant_data_error_code" kind="class" language="C++" prot="public">
+    <compoundname>wxVariantDataErrorCode</compoundname>
+    <basecompoundref refid="classwx_variant_data" prot="public" virt="non-virtual">wxVariantData</basecompoundref>
+    <includes local="no">wx/msw/ole/automtn.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classwx_variant_data_error_code_1a93506247d1078f8acb9cfcfa58ed0384" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxVariantDataErrorCode::wxVariantDataErrorCode</definition>
+        <argsstring>(SCODE value=S_OK)</argsstring>
+        <name>wxVariantDataErrorCode</name>
+        <param>
+          <type>SCODE</type>
+          <declname>value</declname>
+          <defval>S_OK</defval>
+        </param>
+        <briefdescription>
+<para>Constructor initializes the object to <emphasis>value</emphasis> or S_OK if no value was passed. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/msw/ole/automtn.h" line="203" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_variant_data_error_code_1aaeef8545af94468264906e72ead4c98c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>SCODE</type>
+        <definition>SCODE wxVariantDataErrorCode::GetValue</definition>
+        <argsstring>() const</argsstring>
+        <name>GetValue</name>
+        <briefdescription>
+<para>Returns the stored SCODE value. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/msw/ole/automtn.h" line="208" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_variant_data_error_code_1a15158d606e9289e1da2d6a1094aed64f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxVariantDataErrorCode::SetValue</definition>
+        <argsstring>(SCODE value)</argsstring>
+        <name>SetValue</name>
+        <param>
+          <type>SCODE</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Set the stored value to <emphasis>value</emphasis>. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/msw/ole/automtn.h" line="213" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_variant_data_error_code_1a63b84d1c44f1b8fa3789bfe1c9533e8c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool wxVariantDataErrorCode::Eq</definition>
+        <argsstring>(wxVariantData &amp;data) const</argsstring>
+        <name>Eq</name>
+        <reimplements refid="classwx_variant_data_1a528c7c86af3dd554e5b72d2e5fdead6f">Eq</reimplements>
+        <param>
+          <type><ref refid="classwx_variant_data" kindref="compound">wxVariantData</ref> &amp;</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+<para>Returns true if <emphasis>data</emphasis> is of <ref refid="classwx_variant_data_error_code" kindref="compound">wxVariantDataErrorCode</ref> type and contains the same SCODE value. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/msw/ole/automtn.h" line="219" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_variant_data_error_code_1a9b24d60d03f0ebeb8c4871456c2a22ae" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool wxVariantDataErrorCode::Write</definition>
+        <argsstring>(wxString &amp;str) const</argsstring>
+        <name>Write</name>
+        <reimplements refid="classwx_variant_data_1a9d208924d7b652fb85db4ff6cb0b5d08">Write</reimplements>
+        <param>
+          <type><ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+<para>Fills the provided string with the textual representation of this object. </para>        </briefdescription>
+        <detaileddescription>
+<para>The error code is just a number, so it&apos;s output as such. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/msw/ole/automtn.h" line="227" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_variant_data_error_code_1a2c2628d7a5da1424109d4365acc63f71" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="classwx_variant_data" kindref="compound">wxVariantData</ref> *</type>
+        <definition>wxVariantData* wxVariantDataErrorCode::Clone</definition>
+        <argsstring>() const</argsstring>
+        <name>Clone</name>
+        <reimplements refid="classwx_variant_data_1aa30a7411a549e67e6fe8f4518151dc3a">Clone</reimplements>
+        <briefdescription>
+<para>Returns a copy of itself. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/msw/ole/automtn.h" line="232" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_variant_data_error_code_1a555744c2b47e468ad615bb5bd87f2786" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="classwx_string" kindref="compound">wxString</ref></type>
+        <definition>virtual wxString wxVariantDataErrorCode::GetType</definition>
+        <argsstring>() const</argsstring>
+        <name>GetType</name>
+        <reimplements refid="classwx_variant_data_1a56789ab40ed58d058e655576ec1e81bc">GetType</reimplements>
+        <briefdescription>
+<para>Returns &quot;errorcode&quot;. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/msw/ole/automtn.h" line="237" column="1" bodyfile="interface/wx/msw/ole/automtn.h" bodystart="237" bodyend="237"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_variant_data_error_code_1a9ae354313af63627e4db556944e21ef7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool wxVariantDataErrorCode::GetAsAny</definition>
+        <argsstring>(wxAny *any) const</argsstring>
+        <name>GetAsAny</name>
+        <param>
+          <type><ref refid="classwx_any" kindref="compound">wxAny</ref> *</type>
+          <declname>any</declname>
+        </param>
+        <briefdescription>
+<para>Converts the value of this object to <ref refid="classwx_any" kindref="compound">wxAny</ref>. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/msw/ole/automtn.h" line="242" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class represents a thin wrapper for Microsoft Windows SCODE type (which is the same as HRESULT). </para>    </briefdescription>
+    <detaileddescription>
+<para>It is used for converting between a <ref refid="classwx_variant" kindref="compound">wxVariant</ref> and OLE VARIANT with type set to VT_ERROR. When <ref refid="classwx_variant" kindref="compound">wxVariant</ref> stores <ref refid="classwx_variant_data_error_code" kindref="compound">wxVariantDataErrorCode</ref>, it returns &quot;errorcode&quot; as its type. This class can be used for returning error codes of automation calls or exchanging values with other applications: e.g. Microsoft Excel returns VARIANTs with VT_ERROR type for cell values with errors (one of XlCVError constants, displayed as e.g. &quot;#DIV/0!&quot; or &quot;#REF!&quot; there) etc. See <ref refid="classwx_variant_data_currency" kindref="compound">wxVariantDataCurrency</ref> for an example of how to exchange values between <ref refid="classwx_variant" kindref="compound">wxVariant</ref> and a native type not directly supported by it.</para><para>Availability:<nonbreakablespace/><nonbreakablespace/>only available for the <ref refid="page_port_1page_port_wxmsw" kindref="member">wxMSW</ref> port. <onlyfor>wxmsw</onlyfor>  <simplesect kind="since"><para>2.9.5</para></simplesect>
+<heading level="2"></heading>
+</para><para>Library:<nonbreakablespace/><nonbreakablespace/><ref refid="page_libs_1page_libs_wxcore" kindref="member">wxCore</ref> &lt;&gt;&lt; =&apos;&apos;&gt;:&lt;/&gt;&amp;;&amp;;&lt; =&apos;&apos;&gt;\ &lt;/&gt;&lt;/&gt;</para><para><simplesect kind="see"><para><ref refid="classwx_automation_object" kindref="compound">wxAutomationObject</ref>, <ref refid="classwx_variant" kindref="compound">wxVariant</ref>, <ref refid="classwx_variant_data" kindref="compound">wxVariantData</ref>, <ref refid="classwx_variant_data_currency" kindref="compound">wxVariantDataCurrency</ref></para></simplesect>
+Include file:<linebreak/>
+ <verbatim>#include &lt;wx/msw/ole/oleutils.h&gt; </verbatim> </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="8468">
+        <label>wxVariantDataErrorCode</label>
+        <link refid="classwx_variant_data_error_code"/>
+        <childnode refid="8469" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8469">
+        <label>wxVariantData</label>
+        <link refid="classwx_variant_data"/>
+        <childnode refid="8470" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8470">
+        <label>wxObjectRefData</label>
+        <link refid="classwx_object_ref_data"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="8471">
+        <label>wxVariantDataErrorCode</label>
+        <link refid="classwx_variant_data_error_code"/>
+        <childnode refid="8472" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8472">
+        <label>wxVariantData</label>
+        <link refid="classwx_variant_data"/>
+        <childnode refid="8473" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8473">
+        <label>wxObjectRefData</label>
+        <link refid="classwx_object_ref_data"/>
+      </node>
+    </collaborationgraph>
+    <location file="interface/wx/msw/ole/automtn.h" line="197" column="1" bodyfile="interface/wx/msw/ole/automtn.h" bodystart="196" bodyend="243"/>
+    <listofallmembers>
+      <member refid="classwx_variant_data_error_code_1a2c2628d7a5da1424109d4365acc63f71" prot="public" virt="virtual"><scope>wxVariantDataErrorCode</scope><name>Clone</name></member>
+      <member refid="classwx_variant_data_1a5c90358b8b5d3bc99c0c3410cf565010" prot="public" virt="non-virtual"><scope>wxVariantDataErrorCode</scope><name>DecRef</name></member>
+      <member refid="classwx_variant_data_error_code_1a63b84d1c44f1b8fa3789bfe1c9533e8c" prot="public" virt="virtual"><scope>wxVariantDataErrorCode</scope><name>Eq</name></member>
+      <member refid="classwx_variant_data_1a423d43c0ac02ce4c0c044332afa41201" prot="public" virt="virtual"><scope>wxVariantDataErrorCode</scope><name>GetAny</name></member>
+      <member refid="classwx_variant_data_error_code_1a9ae354313af63627e4db556944e21ef7" prot="public" virt="virtual"><scope>wxVariantDataErrorCode</scope><name>GetAsAny</name></member>
+      <member refid="classwx_variant_data_error_code_1a555744c2b47e468ad615bb5bd87f2786" prot="public" virt="virtual"><scope>wxVariantDataErrorCode</scope><name>GetType</name></member>
+      <member refid="classwx_variant_data_error_code_1aaeef8545af94468264906e72ead4c98c" prot="public" virt="non-virtual"><scope>wxVariantDataErrorCode</scope><name>GetValue</name></member>
+      <member refid="classwx_variant_data_1a00e53db157b5eef10b07b648f2f1e623" prot="public" virt="virtual"><scope>wxVariantDataErrorCode</scope><name>GetValueClassInfo</name></member>
+      <member refid="classwx_variant_data_1ae25c62e3451463ed287367a7b709e51d" prot="public" virt="non-virtual"><scope>wxVariantDataErrorCode</scope><name>IncRef</name></member>
+      <member refid="classwx_variant_data_1a1007dbb33d60c210caab567d2d12feae" prot="public" virt="virtual"><scope>wxVariantDataErrorCode</scope><name>Read</name></member>
+      <member refid="classwx_variant_data_1a478c208420802aade488e57de371d27b" prot="public" virt="virtual"><scope>wxVariantDataErrorCode</scope><name>Read</name></member>
+      <member refid="classwx_variant_data_error_code_1a15158d606e9289e1da2d6a1094aed64f" prot="public" virt="non-virtual"><scope>wxVariantDataErrorCode</scope><name>SetValue</name></member>
+      <member refid="classwx_variant_data_error_code_1a9b24d60d03f0ebeb8c4871456c2a22ae" prot="public" virt="virtual"><scope>wxVariantDataErrorCode</scope><name>Write</name></member>
+      <member refid="classwx_variant_data_1aa8c8235c54ddea7002980514ec63caae" prot="public" virt="virtual" ambiguityscope="wxVariantData::"><scope>wxVariantDataErrorCode</scope><name>Write</name></member>
+      <member refid="classwx_variant_data_1ac6f6a975c310013dca16b71ce891f39e" prot="public" virt="non-virtual"><scope>wxVariantDataErrorCode</scope><name>wxVariantData</name></member>
+      <member refid="classwx_variant_data_error_code_1a93506247d1078f8acb9cfcfa58ed0384" prot="public" virt="non-virtual"><scope>wxVariantDataErrorCode</scope><name>wxVariantDataErrorCode</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="choicebk_8h" kind="file" language="C++">
+    <compoundname>choicebk.h</compoundname>
+    <innerclass refid="classwx_choicebook" prot="public">wxChoicebook</innerclass>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="choicebk_8h_1a6885ae883fde9c97908efcc3a2ba8e11" prot="public" static="no">
+        <name>wxCHB_DEFAULT</name>
+        <initializer><ref refid="interface_2wx_2bookctrl_8h_1a7e388df7b1f655029adefef1faa6544d" kindref="member">wxBK_DEFAULT</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/choicebk.h" line="10" column="9" bodyfile="interface/wx/choicebk.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="choicebk_8h_1a2f787d8a7f520f2046c0dc59b2492d06" prot="public" static="no">
+        <name>wxCHB_TOP</name>
+        <initializer><ref refid="interface_2wx_2bookctrl_8h_1ad36f889d557af729966b28a9e53f0230" kindref="member">wxBK_TOP</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/choicebk.h" line="11" column="9" bodyfile="interface/wx/choicebk.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="choicebk_8h_1a0c93e3764c7d4ce176a35064043ec9f6" prot="public" static="no">
+        <name>wxCHB_BOTTOM</name>
+        <initializer><ref refid="interface_2wx_2bookctrl_8h_1ae5e1e857ef24fe84d9ca7d6720e31cc2" kindref="member">wxBK_BOTTOM</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/choicebk.h" line="12" column="9" bodyfile="interface/wx/choicebk.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="choicebk_8h_1ae6ab733e463de8fdc4d42e2e0a276a72" prot="public" static="no">
+        <name>wxCHB_LEFT</name>
+        <initializer><ref refid="interface_2wx_2bookctrl_8h_1a241a12974cb60b7175e06ddb0df3ac80" kindref="member">wxBK_LEFT</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/choicebk.h" line="13" column="9" bodyfile="interface/wx/choicebk.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="choicebk_8h_1a912ad7f0af414ccd34bf6f2a90669ed1" prot="public" static="no">
+        <name>wxCHB_RIGHT</name>
+        <initializer><ref refid="interface_2wx_2bookctrl_8h_1ad61e5dcc5cbb913956437899963fab2a" kindref="member">wxBK_RIGHT</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/choicebk.h" line="14" column="9" bodyfile="interface/wx/choicebk.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="choicebk_8h_1a7fbf89de91744195907b71925fffc3f2" prot="public" static="no">
+        <name>wxCHB_ALIGN_MASK</name>
+        <initializer><ref refid="interface_2wx_2bookctrl_8h_1aa9e49fb51efb4c643c46362c43aee118" kindref="member">wxBK_ALIGN_MASK</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/choicebk.h" line="15" column="9" bodyfile="interface/wx/choicebk.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="choicebk_8h_1a7312fad96b095e4508669a269bea2738" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_CHOICEBOOK_PAGE_CHANGED</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_CHOICEBOOK_PAGE_CHANGED</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/choicebk.h" line="17" column="1" bodyfile="interface/wx/choicebk.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="choicebk_8h_1a915e7874f9c00f331674524f218d659e" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_CHOICEBOOK_PAGE_CHANGING</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_CHOICEBOOK_PAGE_CHANGING</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/choicebk.h" line="18" column="1" bodyfile="interface/wx/choicebk.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="interface/wx/choicebk.h"/>
+  </compounddef>
+</doxygen>

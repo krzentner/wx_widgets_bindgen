@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="imagpnm_8h" kind="file" language="C++">
+    <compoundname>imagpnm.h</compoundname>
+    <innerclass refid="classwx_p_n_m_handler" prot="public">wxPNMHandler</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="interface/wx/imagpnm.h"/>
+  </compounddef>
+</doxygen>

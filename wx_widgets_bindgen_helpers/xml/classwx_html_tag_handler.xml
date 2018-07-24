@@ -1,0 +1,224 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_html_tag_handler" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>wxHtmlTagHandler</compoundname>
+    <basecompoundref refid="classwx_object" prot="public" virt="non-virtual">wxObject</basecompoundref>
+    <derivedcompoundref refid="classwx_html_win_tag_handler" prot="public" virt="non-virtual">wxHtmlWinTagHandler</derivedcompoundref>
+    <includes local="no">wx/html/htmlpars.h</includes>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classwx_html_tag_handler_1af2187ad34f9cfaf9d4fe18b7ef7fe4b3" prot="protected" static="no" mutable="no">
+        <type><ref refid="classwx_html_parser" kindref="compound">wxHtmlParser</ref> *</type>
+        <definition>wxHtmlParser* wxHtmlTagHandler::m_Parser</definition>
+        <argsstring></argsstring>
+        <name>m_Parser</name>
+        <briefdescription>
+<para>This attribute is used to access parent parser. </para>        </briefdescription>
+        <detaileddescription>
+<para>It is protected so that it can&apos;t be accessed by user but can be accessed from derived classes. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/html/htmlpars.h" line="106" column="1" bodyfile="interface/wx/html/htmlpars.h" bodystart="106" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classwx_html_tag_handler_1a6459ecc39737a66d20cd7f737611b742" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxHtmlTagHandler::wxHtmlTagHandler</definition>
+        <argsstring>()</argsstring>
+        <name>wxHtmlTagHandler</name>
+        <briefdescription>
+<para>Constructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/html/htmlpars.h" line="33" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_html_tag_handler_1a4659531bcbb3cbcafea31d31a227f747" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type><ref refid="classwx_string" kindref="compound">wxString</ref></type>
+        <definition>virtual wxString wxHtmlTagHandler::GetSupportedTags</definition>
+        <argsstring>()=0</argsstring>
+        <name>GetSupportedTags</name>
+        <briefdescription>
+<para>Returns list of supported tags. </para>        </briefdescription>
+        <detaileddescription>
+<para>The list is in uppercase and tags are delimited by &apos;,&apos;. Example: <computeroutput>&quot;I,B,FONT,P&quot;</computeroutput> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/html/htmlpars.h" line="40" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_html_tag_handler_1a9b619fe66c49e8756f8ff5db04c5e69e" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>bool</type>
+        <definition>virtual bool wxHtmlTagHandler::HandleTag</definition>
+        <argsstring>(const wxHtmlTag &amp;tag)=0</argsstring>
+        <name>HandleTag</name>
+        <param>
+          <type>const <ref refid="classwx_html_tag" kindref="compound">wxHtmlTag</ref> &amp;</type>
+          <declname>tag</declname>
+        </param>
+        <briefdescription>
+<para>This is the core method of each handler. </para>        </briefdescription>
+        <detaileddescription>
+<para>It is called each time one of supported tags is detected. <emphasis>tag</emphasis> contains all necessary info (see <ref refid="classwx_html_tag" kindref="compound">wxHtmlTag</ref> for details).</para><para>Example:</para><para><programlisting><codeline><highlight class="normal">bool<sp/>MyHandler::HandleTag(const<sp/>wxHtmlTag&amp;<sp/>tag)</highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>...</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>//<sp/>change<sp/>state<sp/>of<sp/>parser<sp/>(e.g.<sp/>set<sp/>bold<sp/>face)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>ParseInner(tag);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>...</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>//<sp/>restore<sp/>original<sp/>state<sp/>of<sp/>parser</highlight></codeline>
+<codeline><highlight class="normal">}</highlight></codeline>
+</programlisting></para><para>You shouldn&apos;t call <ref refid="classwx_html_tag_handler_1a77d60c69e8dabcf9810d201b79404cd3" kindref="member">ParseInner()</ref> if the tag is not paired with an ending one.</para><para><simplesect kind="return"><para>true if <ref refid="classwx_html_tag_handler_1a77d60c69e8dabcf9810d201b79404cd3" kindref="member">ParseInner()</ref> was called, false otherwise. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/html/htmlpars.h" line="64" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_html_tag_handler_1ae48361d91332da5c86b2e5490f00cf2c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void wxHtmlTagHandler::SetParser</definition>
+        <argsstring>(wxHtmlParser *parser)</argsstring>
+        <name>SetParser</name>
+        <param>
+          <type><ref refid="classwx_html_parser" kindref="compound">wxHtmlParser</ref> *</type>
+          <declname>parser</declname>
+        </param>
+        <briefdescription>
+<para>Assigns <emphasis>parser</emphasis> to this handler. </para>        </briefdescription>
+        <detaileddescription>
+<para>Each <bold>instance</bold> of handler is guaranteed to be called only from the one parser. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/html/htmlpars.h" line="70" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_html_tag_handler_1a84b80699604ef26ec12c504c216b127d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_html_parser" kindref="compound">wxHtmlParser</ref> *</type>
+        <definition>wxHtmlParser* wxHtmlTagHandler::GetParser</definition>
+        <argsstring>() const</argsstring>
+        <name>GetParser</name>
+        <briefdescription>
+<para>Returns the parser associated with this tag handler. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="since"><para>2.9.5 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/html/htmlpars.h" line="77" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classwx_html_tag_handler_1a77d60c69e8dabcf9810d201b79404cd3" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxHtmlTagHandler::ParseInner</definition>
+        <argsstring>(const wxHtmlTag &amp;tag)</argsstring>
+        <name>ParseInner</name>
+        <param>
+          <type>const <ref refid="classwx_html_tag" kindref="compound">wxHtmlTag</ref> &amp;</type>
+          <declname>tag</declname>
+        </param>
+        <briefdescription>
+<para>This method calls parser&apos;s <ref refid="classwx_html_parser_1ac04230b82e6de6dde10757cbe6149980" kindref="member">wxHtmlParser::DoParsing</ref> method for the string between this tag and the paired ending tag: </para>        </briefdescription>
+        <detaileddescription>
+<para><programlisting><codeline><highlight class="normal">...&lt;A<sp/>HREF=&quot;x.htm&quot;&gt;Hello,<sp/>world!&lt;/A&gt;...</highlight></codeline>
+</programlisting></para><para>In this example, a call to <ref refid="classwx_html_tag_handler_1a77d60c69e8dabcf9810d201b79404cd3" kindref="member">ParseInner()</ref> (with <emphasis>tag</emphasis> pointing to A tag) will parse &apos;Hello, world!&apos;. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/html/htmlpars.h" line="92" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_html_tag_handler_1a35554c30d51e0afa4ec3d85425bf1619" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxHtmlTagHandler::ParseInnerSource</definition>
+        <argsstring>(const wxString &amp;source)</argsstring>
+        <name>ParseInnerSource</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>source</declname>
+        </param>
+        <briefdescription>
+<para>Parses given source as if it was tag&apos;s inner code (see wxHtmlParser::GetInnerSource). </para>        </briefdescription>
+        <detaileddescription>
+<para>Unlike <ref refid="classwx_html_tag_handler_1a77d60c69e8dabcf9810d201b79404cd3" kindref="member">ParseInner()</ref>, this method lets you specify the source code to parse. This is useful when you need to modify the inner text before parsing. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/html/htmlpars.h" line="100" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><xrefsect id="todo_1_todo000023"><xreftitle>Todo</xreftitle><xrefdescription><para>describe me</para></xrefdescription></xrefsect></para><para><heading level="2"></heading>
+</para><para>Library:<nonbreakablespace/><nonbreakablespace/><ref refid="page_libs_1page_libs_wxhtml" kindref="member">wxHTML</ref> &lt;&gt;&lt; =&apos;&apos;&gt;:&lt;/&gt;&amp;;&amp;;&lt; =&apos;&apos;&gt;\ &lt;/&gt;&lt;/&gt;</para><para><simplesect kind="see"><para><ref refid="overview_html_1overview_html_handlers" kindref="member">Tag Handlers</ref>, <ref refid="classwx_html_tag" kindref="compound">wxHtmlTag</ref> </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="3494">
+        <label>wxObject</label>
+        <link refid="classwx_object"/>
+      </node>
+      <node id="3495">
+        <label>wxHtmlWinTagHandler</label>
+        <link refid="classwx_html_win_tag_handler"/>
+        <childnode refid="3493" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3493">
+        <label>wxHtmlTagHandler</label>
+        <link refid="classwx_html_tag_handler"/>
+        <childnode refid="3494" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3497">
+        <label>wxObject</label>
+        <link refid="classwx_object"/>
+        <childnode refid="3498" relation="usage">
+          <edgelabel>m_refData</edgelabel>
+        </childnode>
+      </node>
+      <node id="3496">
+        <label>wxHtmlTagHandler</label>
+        <link refid="classwx_html_tag_handler"/>
+        <childnode refid="3497" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3499" relation="usage">
+          <edgelabel>m_Parser</edgelabel>
+        </childnode>
+      </node>
+      <node id="3498">
+        <label>wxObjectRefData</label>
+        <link refid="classwx_object_ref_data"/>
+      </node>
+      <node id="3499">
+        <label>wxHtmlParser</label>
+        <link refid="classwx_html_parser"/>
+      </node>
+    </collaborationgraph>
+    <location file="interface/wx/html/htmlpars.h" line="28" column="1" bodyfile="interface/wx/html/htmlpars.h" bodystart="27" bodyend="107"/>
+    <listofallmembers>
+      <member refid="classwx_object_1a60204063f3cc3aa2fa1c7ff5bda9eb13" prot="protected" virt="non-virtual"><scope>wxHtmlTagHandler</scope><name>AllocExclusive</name></member>
+      <member refid="classwx_object_1a436fc8fe68cf8a31000296d9cd3d2427" prot="protected" virt="virtual"><scope>wxHtmlTagHandler</scope><name>CloneRefData</name></member>
+      <member refid="classwx_object_1a3f4f497c65cef611e121c41f21dd5ccc" prot="protected" virt="virtual"><scope>wxHtmlTagHandler</scope><name>CreateRefData</name></member>
+      <member refid="classwx_object_1ae6d365f2556b26767ced8410c5e839d0" prot="public" virt="virtual"><scope>wxHtmlTagHandler</scope><name>GetClassInfo</name></member>
+      <member refid="classwx_html_tag_handler_1a84b80699604ef26ec12c504c216b127d" prot="public" virt="non-virtual"><scope>wxHtmlTagHandler</scope><name>GetParser</name></member>
+      <member refid="classwx_object_1af3c6c76a775864832f1536d3c0de3a2b" prot="public" virt="non-virtual"><scope>wxHtmlTagHandler</scope><name>GetRefData</name></member>
+      <member refid="classwx_html_tag_handler_1a4659531bcbb3cbcafea31d31a227f747" prot="public" virt="pure-virtual"><scope>wxHtmlTagHandler</scope><name>GetSupportedTags</name></member>
+      <member refid="classwx_html_tag_handler_1a9b619fe66c49e8756f8ff5db04c5e69e" prot="public" virt="pure-virtual"><scope>wxHtmlTagHandler</scope><name>HandleTag</name></member>
+      <member refid="classwx_object_1a3c7115ef4132dcee0c4fc34e84d7fced" prot="public" virt="non-virtual"><scope>wxHtmlTagHandler</scope><name>IsKindOf</name></member>
+      <member refid="classwx_object_1a059373c494c2369d7db2a556efef8ecf" prot="public" virt="non-virtual"><scope>wxHtmlTagHandler</scope><name>IsSameAs</name></member>
+      <member refid="classwx_html_tag_handler_1af2187ad34f9cfaf9d4fe18b7ef7fe4b3" prot="protected" virt="non-virtual"><scope>wxHtmlTagHandler</scope><name>m_Parser</name></member>
+      <member refid="classwx_object_1a9e31954530a0abd54982effc443ed2b8" prot="protected" virt="non-virtual"><scope>wxHtmlTagHandler</scope><name>m_refData</name></member>
+      <member refid="classwx_object_1a07b8f34f5afc5743195c5fed052f55d3" prot="public" virt="non-virtual"><scope>wxHtmlTagHandler</scope><name>operator delete</name></member>
+      <member refid="classwx_object_1a96fa423a1dbc212c8227a5d83825971f" prot="public" virt="non-virtual"><scope>wxHtmlTagHandler</scope><name>operator new</name></member>
+      <member refid="classwx_html_tag_handler_1a77d60c69e8dabcf9810d201b79404cd3" prot="protected" virt="non-virtual"><scope>wxHtmlTagHandler</scope><name>ParseInner</name></member>
+      <member refid="classwx_html_tag_handler_1a35554c30d51e0afa4ec3d85425bf1619" prot="protected" virt="non-virtual"><scope>wxHtmlTagHandler</scope><name>ParseInnerSource</name></member>
+      <member refid="classwx_object_1a2f6f1aa51fe9fc2b1415ca4211a90e9e" prot="public" virt="non-virtual"><scope>wxHtmlTagHandler</scope><name>Ref</name></member>
+      <member refid="classwx_html_tag_handler_1ae48361d91332da5c86b2e5490f00cf2c" prot="public" virt="virtual"><scope>wxHtmlTagHandler</scope><name>SetParser</name></member>
+      <member refid="classwx_object_1afab780710f2adc1bb33310e27590140b" prot="public" virt="non-virtual"><scope>wxHtmlTagHandler</scope><name>SetRefData</name></member>
+      <member refid="classwx_object_1af51efc6b1ae632fc7f0cd7ebbce9fa36" prot="public" virt="non-virtual"><scope>wxHtmlTagHandler</scope><name>UnRef</name></member>
+      <member refid="classwx_object_1a74b40e42d19a4b9e9bec0b57d62a5725" prot="public" virt="non-virtual"><scope>wxHtmlTagHandler</scope><name>UnShare</name></member>
+      <member refid="classwx_html_tag_handler_1a6459ecc39737a66d20cd7f737611b742" prot="public" virt="non-virtual"><scope>wxHtmlTagHandler</scope><name>wxHtmlTagHandler</name></member>
+      <member refid="classwx_object_1acaa378363a28af421ab56ad7b46eadf0" prot="public" virt="non-virtual"><scope>wxHtmlTagHandler</scope><name>wxObject</name></member>
+      <member refid="classwx_object_1a4721b4dc9b7aff0f30904ba2ea3954cf" prot="public" virt="non-virtual"><scope>wxHtmlTagHandler</scope><name>wxObject</name></member>
+      <member refid="classwx_object_1a2a51aa8bfbab47ca2f051bcf84b3f35b" prot="public" virt="virtual"><scope>wxHtmlTagHandler</scope><name>~wxObject</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

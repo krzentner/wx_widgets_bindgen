@@ -1,0 +1,179 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="richtextstyledlg_8h" kind="file" language="C++">
+    <compoundname>richtextstyledlg.h</compoundname>
+    <innerclass refid="classwx_rich_text_style_organiser_dialog" prot="public">wxRichTextStyleOrganiserDialog</innerclass>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="richtextstyledlg_8h_1ac33ca472f8fbf3aff4cf4258923cf8f8" prot="public" static="no">
+        <name>wxRICHTEXT_ORGANISER_DELETE_STYLES</name>
+        <initializer>0x0001</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Flags for specifying permitted operations </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextstyledlg.h" line="13" column="9" bodyfile="interface/wx/richtext/richtextstyledlg.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="richtextstyledlg_8h_1aff8864e344b5120e7f8adebc8ca03997" prot="public" static="no">
+        <name>wxRICHTEXT_ORGANISER_CREATE_STYLES</name>
+        <initializer>0x0002</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextstyledlg.h" line="14" column="9" bodyfile="interface/wx/richtext/richtextstyledlg.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="richtextstyledlg_8h_1a80c6662d26f36ec3ba83718c2e01d5b7" prot="public" static="no">
+        <name>wxRICHTEXT_ORGANISER_APPLY_STYLES</name>
+        <initializer>0x0004</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextstyledlg.h" line="15" column="9" bodyfile="interface/wx/richtext/richtextstyledlg.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="richtextstyledlg_8h_1aaeacba735f566370b76f16c85145d8ee" prot="public" static="no">
+        <name>wxRICHTEXT_ORGANISER_EDIT_STYLES</name>
+        <initializer>0x0008</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextstyledlg.h" line="16" column="9" bodyfile="interface/wx/richtext/richtextstyledlg.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="richtextstyledlg_8h_1ab3103fae3d20a96299da0b81acfe2989" prot="public" static="no">
+        <name>wxRICHTEXT_ORGANISER_RENAME_STYLES</name>
+        <initializer>0x0010</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextstyledlg.h" line="17" column="9" bodyfile="interface/wx/richtext/richtextstyledlg.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="richtextstyledlg_8h_1a0bc306bfc36ba18107f681b788ad11f7" prot="public" static="no">
+        <name>wxRICHTEXT_ORGANISER_OK_CANCEL</name>
+        <initializer>0x0020</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextstyledlg.h" line="18" column="9" bodyfile="interface/wx/richtext/richtextstyledlg.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="richtextstyledlg_8h_1a51dac994d0766256db451c5d67d94487" prot="public" static="no">
+        <name>wxRICHTEXT_ORGANISER_RENUMBER</name>
+        <initializer>0x0040</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextstyledlg.h" line="19" column="9" bodyfile="interface/wx/richtext/richtextstyledlg.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="richtextstyledlg_8h_1a3edc22d9fb7ef69dccd562ecdb56677c" prot="public" static="no">
+        <name>wxRICHTEXT_ORGANISER_SHOW_CHARACTER</name>
+        <initializer>0x0100</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextstyledlg.h" line="22" column="9" bodyfile="interface/wx/richtext/richtextstyledlg.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="richtextstyledlg_8h_1a88ca2ab8a52b7d921b7a032590f8a046" prot="public" static="no">
+        <name>wxRICHTEXT_ORGANISER_SHOW_PARAGRAPH</name>
+        <initializer>0x0200</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextstyledlg.h" line="23" column="9" bodyfile="interface/wx/richtext/richtextstyledlg.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="richtextstyledlg_8h_1aefee1f4001dd38b2b1a4c0b350d04915" prot="public" static="no">
+        <name>wxRICHTEXT_ORGANISER_SHOW_LIST</name>
+        <initializer>0x0400</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextstyledlg.h" line="24" column="9" bodyfile="interface/wx/richtext/richtextstyledlg.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="richtextstyledlg_8h_1adc75ea04a544a1563981dec2f7e3f798" prot="public" static="no">
+        <name>wxRICHTEXT_ORGANISER_SHOW_BOX</name>
+        <initializer>0x0800</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextstyledlg.h" line="25" column="9" bodyfile="interface/wx/richtext/richtextstyledlg.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="richtextstyledlg_8h_1a25c9cf51c98e0fb0d2dc33c2b36e0e1d" prot="public" static="no">
+        <name>wxRICHTEXT_ORGANISER_SHOW_ALL</name>
+        <initializer>0x1000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextstyledlg.h" line="26" column="9" bodyfile="interface/wx/richtext/richtextstyledlg.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="richtextstyledlg_8h_1a3bd33e59c69c7660dc97859a3a8d961c" prot="public" static="no">
+        <name>wxRICHTEXT_ORGANISER_ORGANISE</name>
+        <initializer>(<ref refid="richtextstyledlg_8h_1a25c9cf51c98e0fb0d2dc33c2b36e0e1d" kindref="member">wxRICHTEXT_ORGANISER_SHOW_ALL</ref>|<ref refid="richtextstyledlg_8h_1ac33ca472f8fbf3aff4cf4258923cf8f8" kindref="member">wxRICHTEXT_ORGANISER_DELETE_STYLES</ref>|<ref refid="richtextstyledlg_8h_1aff8864e344b5120e7f8adebc8ca03997" kindref="member">wxRICHTEXT_ORGANISER_CREATE_STYLES</ref>|<ref refid="richtextstyledlg_8h_1a80c6662d26f36ec3ba83718c2e01d5b7" kindref="member">wxRICHTEXT_ORGANISER_APPLY_STYLES</ref>|<ref refid="richtextstyledlg_8h_1aaeacba735f566370b76f16c85145d8ee" kindref="member">wxRICHTEXT_ORGANISER_EDIT_STYLES</ref>|<ref refid="richtextstyledlg_8h_1ab3103fae3d20a96299da0b81acfe2989" kindref="member">wxRICHTEXT_ORGANISER_RENAME_STYLES</ref>)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextstyledlg.h" line="29" column="9" bodyfile="interface/wx/richtext/richtextstyledlg.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="richtextstyledlg_8h_1a6cfadbeaa967f7c0b20e89963d15429f" prot="public" static="no">
+        <name>wxRICHTEXT_ORGANISER_BROWSE</name>
+        <initializer>(<ref refid="richtextstyledlg_8h_1a25c9cf51c98e0fb0d2dc33c2b36e0e1d" kindref="member">wxRICHTEXT_ORGANISER_SHOW_ALL</ref>|<ref refid="richtextstyledlg_8h_1a0bc306bfc36ba18107f681b788ad11f7" kindref="member">wxRICHTEXT_ORGANISER_OK_CANCEL</ref>)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextstyledlg.h" line="30" column="9" bodyfile="interface/wx/richtext/richtextstyledlg.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="richtextstyledlg_8h_1a8d955208537864531d34d883200f226a" prot="public" static="no">
+        <name>wxRICHTEXT_ORGANISER_BROWSE_NUMBERING</name>
+        <initializer>(<ref refid="richtextstyledlg_8h_1aefee1f4001dd38b2b1a4c0b350d04915" kindref="member">wxRICHTEXT_ORGANISER_SHOW_LIST</ref>|<ref refid="richtextstyledlg_8h_1a0bc306bfc36ba18107f681b788ad11f7" kindref="member">wxRICHTEXT_ORGANISER_OK_CANCEL</ref>|<ref refid="richtextstyledlg_8h_1a51dac994d0766256db451c5d67d94487" kindref="member">wxRICHTEXT_ORGANISER_RENUMBER</ref>)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextstyledlg.h" line="31" column="9" bodyfile="interface/wx/richtext/richtextstyledlg.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="interface/wx/richtext/richtextstyledlg.h"/>
+  </compounddef>
+</doxygen>

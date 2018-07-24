@@ -1,0 +1,698 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_tool_bar_tool_base" kind="class" language="C++" prot="public">
+    <compoundname>wxToolBarToolBase</compoundname>
+    <basecompoundref refid="classwx_object" prot="public" virt="non-virtual">wxObject</basecompoundref>
+    <includes local="no">wx/toolbar.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classwx_tool_bar_tool_base_1a7d94db8c8864c824d0e8ae3481e4b98a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxToolBarToolBase::wxToolBarToolBase</definition>
+        <argsstring>(wxToolBarBase *tbar=NULL, int toolid=wxID_SEPARATOR, const wxString &amp;label=wxEmptyString, const wxBitmap &amp;bmpNormal=wxNullBitmap, const wxBitmap &amp;bmpDisabled=wxNullBitmap, wxItemKind kind=wxITEM_NORMAL, wxObject *clientData=NULL, const wxString &amp;shortHelpString=wxEmptyString, const wxString &amp;longHelpString=wxEmptyString)</argsstring>
+        <name>wxToolBarToolBase</name>
+        <param>
+          <type>wxToolBarBase *</type>
+          <declname>tbar</declname>
+          <defval>NULL</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>toolid</declname>
+          <defval><ref refid="defs_8h_1ac66d0a09761e7d86b2ac0b2e0c6a8cbba39011729a3d6167afc8007513f21bcd5" kindref="member">wxID_SEPARATOR</ref></defval>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>label</declname>
+          <defval><ref refid="interface_2wx_2string_8h_1a9a321d587166a30017b608dd2d234033" kindref="member">wxEmptyString</ref></defval>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_bitmap" kindref="compound">wxBitmap</ref> &amp;</type>
+          <declname>bmpNormal</declname>
+          <defval><ref refid="interface_2wx_2bitmap_8h_1a2947690e84b8fdb2e37b79a4af8f8a21" kindref="member">wxNullBitmap</ref></defval>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_bitmap" kindref="compound">wxBitmap</ref> &amp;</type>
+          <declname>bmpDisabled</declname>
+          <defval><ref refid="interface_2wx_2bitmap_8h_1a2947690e84b8fdb2e37b79a4af8f8a21" kindref="member">wxNullBitmap</ref></defval>
+        </param>
+        <param>
+          <type><ref refid="defs_8h_1abd0c640814a55e4adda3bce698646d2d" kindref="member">wxItemKind</ref></type>
+          <declname>kind</declname>
+          <defval><ref refid="defs_8h_1abd0c640814a55e4adda3bce698646d2da5281887c1cd68cdd6d4f6a98efc88509" kindref="member">wxITEM_NORMAL</ref></defval>
+        </param>
+        <param>
+          <type><ref refid="classwx_object" kindref="compound">wxObject</ref> *</type>
+          <declname>clientData</declname>
+          <defval>NULL</defval>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>shortHelpString</declname>
+          <defval><ref refid="interface_2wx_2string_8h_1a9a321d587166a30017b608dd2d234033" kindref="member">wxEmptyString</ref></defval>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>longHelpString</declname>
+          <defval><ref refid="interface_2wx_2string_8h_1a9a321d587166a30017b608dd2d234033" kindref="member">wxEmptyString</ref></defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/toolbar.h" line="82" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_tool_bar_tool_base_1ab6010a43ad764d8ea2a67ffbbe9610ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxToolBarToolBase::wxToolBarToolBase</definition>
+        <argsstring>(wxToolBarBase *tbar, wxControl *control, const wxString &amp;label)</argsstring>
+        <name>wxToolBarToolBase</name>
+        <param>
+          <type>wxToolBarBase *</type>
+          <declname>tbar</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_control" kindref="compound">wxControl</ref> *</type>
+          <declname>control</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>label</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/toolbar.h" line="92" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_tool_bar_tool_base_1ab3e1ee367f05174cb688bf6798c879d2" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual wxToolBarToolBase::~wxToolBarToolBase</definition>
+        <argsstring>()</argsstring>
+        <name>~wxToolBarToolBase</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/toolbar.h" line="96" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_tool_bar_tool_base_1a2f2cd920bad55f8cd4d721370dfe57d6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int wxToolBarToolBase::GetId</definition>
+        <argsstring>() const</argsstring>
+        <name>GetId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/toolbar.h" line="98" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_tool_bar_tool_base_1a471064417d15cf16874037a631fae412" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_control" kindref="compound">wxControl</ref> *</type>
+        <definition>wxControl* wxToolBarToolBase::GetControl</definition>
+        <argsstring>() const</argsstring>
+        <name>GetControl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/toolbar.h" line="100" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_tool_bar_tool_base_1ad0db84e2fd1ef1f42a026b601802b765" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>wxToolBarBase *</type>
+        <definition>wxToolBarBase* wxToolBarToolBase::GetToolBar</definition>
+        <argsstring>() const</argsstring>
+        <name>GetToolBar</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/toolbar.h" line="101" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_tool_bar_tool_base_1aec2137a14ab1865e11e9d1a3af2552ae" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxToolBarToolBase::IsStretchable</definition>
+        <argsstring>() const</argsstring>
+        <name>IsStretchable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/toolbar.h" line="103" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_tool_bar_tool_base_1a0c7ed2406a3c9d335a16a668dec83ded" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxToolBarToolBase::IsButton</definition>
+        <argsstring>() const</argsstring>
+        <name>IsButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/toolbar.h" line="104" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_tool_bar_tool_base_1a1c53bec557c768b0c6baeb8d756fefad" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxToolBarToolBase::IsControl</definition>
+        <argsstring>() const</argsstring>
+        <name>IsControl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/toolbar.h" line="105" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_tool_bar_tool_base_1afad43ff1b373273d1d4dde908c190e59" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxToolBarToolBase::IsSeparator</definition>
+        <argsstring>() const</argsstring>
+        <name>IsSeparator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/toolbar.h" line="106" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_tool_bar_tool_base_1a42fae1a10ef9372ddc25cc0149baad4a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxToolBarToolBase::IsStretchableSpace</definition>
+        <argsstring>() const</argsstring>
+        <name>IsStretchableSpace</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/toolbar.h" line="107" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_tool_bar_tool_base_1af50787c3d04f8466cf6e255fb461ccf1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int wxToolBarToolBase::GetStyle</definition>
+        <argsstring>() const</argsstring>
+        <name>GetStyle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/toolbar.h" line="108" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_tool_bar_tool_base_1a27eb17873281a2757f3462a07625ab25" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="defs_8h_1abd0c640814a55e4adda3bce698646d2d" kindref="member">wxItemKind</ref></type>
+        <definition>wxItemKind wxToolBarToolBase::GetKind</definition>
+        <argsstring>() const</argsstring>
+        <name>GetKind</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/toolbar.h" line="109" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_tool_bar_tool_base_1aa8d7cc442a447a96788bc91fbb892836" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxToolBarToolBase::MakeStretchable</definition>
+        <argsstring>()</argsstring>
+        <name>MakeStretchable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/toolbar.h" line="110" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_tool_bar_tool_base_1a1a40fe417347d9b25e063238ed871784" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxToolBarToolBase::IsEnabled</definition>
+        <argsstring>() const</argsstring>
+        <name>IsEnabled</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/toolbar.h" line="112" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_tool_bar_tool_base_1a15a4abfb8345e298ef7a2b5877577a85" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxToolBarToolBase::IsToggled</definition>
+        <argsstring>() const</argsstring>
+        <name>IsToggled</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/toolbar.h" line="113" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_tool_bar_tool_base_1a95d22ca05a0b2ccd30f7d55a8d2c1152" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxToolBarToolBase::CanBeToggled</definition>
+        <argsstring>() const</argsstring>
+        <name>CanBeToggled</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/toolbar.h" line="114" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_tool_bar_tool_base_1a413e3416c094f49e11d6f641fd2556e4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="classwx_bitmap" kindref="compound">wxBitmap</ref> &amp;</type>
+        <definition>const wxBitmap&amp; wxToolBarToolBase::GetNormalBitmap</definition>
+        <argsstring>() const</argsstring>
+        <name>GetNormalBitmap</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/toolbar.h" line="116" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_tool_bar_tool_base_1a95124cf0fc48be290ff642796ce37ad9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="classwx_bitmap" kindref="compound">wxBitmap</ref> &amp;</type>
+        <definition>const wxBitmap&amp; wxToolBarToolBase::GetDisabledBitmap</definition>
+        <argsstring>() const</argsstring>
+        <name>GetDisabledBitmap</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/toolbar.h" line="117" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_tool_bar_tool_base_1a985ef359ad26ad2b48f253a57e4db112" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="classwx_bitmap" kindref="compound">wxBitmap</ref> &amp;</type>
+        <definition>const wxBitmap&amp; wxToolBarToolBase::GetBitmap</definition>
+        <argsstring>() const</argsstring>
+        <name>GetBitmap</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/toolbar.h" line="119" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_tool_bar_tool_base_1ac0d4d01cca296ddfeb66628291e2f3c1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+        <definition>const wxString&amp; wxToolBarToolBase::GetLabel</definition>
+        <argsstring>() const</argsstring>
+        <name>GetLabel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/toolbar.h" line="120" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_tool_bar_tool_base_1aacdfe114308957696cd29acd036db795" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+        <definition>const wxString&amp; wxToolBarToolBase::GetShortHelp</definition>
+        <argsstring>() const</argsstring>
+        <name>GetShortHelp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/toolbar.h" line="122" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_tool_bar_tool_base_1a0a2b78786d6837f21a9bd9d66aec376f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+        <definition>const wxString&amp; wxToolBarToolBase::GetLongHelp</definition>
+        <argsstring>() const</argsstring>
+        <name>GetLongHelp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/toolbar.h" line="123" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_tool_bar_tool_base_1ae23cffb2c570ccea407f09748e8d4344" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_object" kindref="compound">wxObject</ref> *</type>
+        <definition>wxObject* wxToolBarToolBase::GetClientData</definition>
+        <argsstring>() const</argsstring>
+        <name>GetClientData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/toolbar.h" line="125" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_tool_bar_tool_base_1a2c5bb82748ff5b69eeaa13d085330839" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool wxToolBarToolBase::Enable</definition>
+        <argsstring>(bool enable)</argsstring>
+        <name>Enable</name>
+        <param>
+          <type>bool</type>
+          <declname>enable</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/toolbar.h" line="127" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_tool_bar_tool_base_1ac55ffb6ad5680a65221d3ccbbb1271f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool wxToolBarToolBase::Toggle</definition>
+        <argsstring>(bool toggle)</argsstring>
+        <name>Toggle</name>
+        <param>
+          <type>bool</type>
+          <declname>toggle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/toolbar.h" line="128" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_tool_bar_tool_base_1a95d5eb35b365d04be58b0c19969b8519" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool wxToolBarToolBase::SetToggle</definition>
+        <argsstring>(bool toggle)</argsstring>
+        <name>SetToggle</name>
+        <param>
+          <type>bool</type>
+          <declname>toggle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/toolbar.h" line="129" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_tool_bar_tool_base_1ab339deac95ac2b3eabef013211783910" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool wxToolBarToolBase::SetShortHelp</definition>
+        <argsstring>(const wxString &amp;help)</argsstring>
+        <name>SetShortHelp</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>help</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/toolbar.h" line="130" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_tool_bar_tool_base_1ab7a145c86b858bacbd61ed230e7c340f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool wxToolBarToolBase::SetLongHelp</definition>
+        <argsstring>(const wxString &amp;help)</argsstring>
+        <name>SetLongHelp</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>help</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/toolbar.h" line="131" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_tool_bar_tool_base_1ad1cd74a3720137b0db632164bb046ddc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxToolBarToolBase::Toggle</definition>
+        <argsstring>()</argsstring>
+        <name>Toggle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/toolbar.h" line="132" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_tool_bar_tool_base_1ae9c2c032eb1ae1d1ff80ce8904c0aecb" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void wxToolBarToolBase::SetNormalBitmap</definition>
+        <argsstring>(const wxBitmap &amp;bmp)</argsstring>
+        <name>SetNormalBitmap</name>
+        <param>
+          <type>const <ref refid="classwx_bitmap" kindref="compound">wxBitmap</ref> &amp;</type>
+          <declname>bmp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/toolbar.h" line="133" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_tool_bar_tool_base_1a781d2be2d0c8f251692700f17d0b44c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void wxToolBarToolBase::SetDisabledBitmap</definition>
+        <argsstring>(const wxBitmap &amp;bmp)</argsstring>
+        <name>SetDisabledBitmap</name>
+        <param>
+          <type>const <ref refid="classwx_bitmap" kindref="compound">wxBitmap</ref> &amp;</type>
+          <declname>bmp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/toolbar.h" line="134" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_tool_bar_tool_base_1a1d320bf152883812d7dc48e6abdb8dd5" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void wxToolBarToolBase::SetLabel</definition>
+        <argsstring>(const wxString &amp;label)</argsstring>
+        <name>SetLabel</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>label</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/toolbar.h" line="135" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_tool_bar_tool_base_1ac56317203c6fa9fa0a9c186b2585c298" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxToolBarToolBase::SetClientData</definition>
+        <argsstring>(wxObject *clientData)</argsstring>
+        <name>SetClientData</name>
+        <param>
+          <type><ref refid="classwx_object" kindref="compound">wxObject</ref> *</type>
+          <declname>clientData</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/toolbar.h" line="136" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_tool_bar_tool_base_1aa16407d77787adbcb3825d7a7320b183" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void wxToolBarToolBase::Detach</definition>
+        <argsstring>()</argsstring>
+        <name>Detach</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/toolbar.h" line="138" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_tool_bar_tool_base_1a7cc69723e1c0aeb213f80c9d3df5f69c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void wxToolBarToolBase::Attach</definition>
+        <argsstring>(wxToolBarBase *tbar)</argsstring>
+        <name>Attach</name>
+        <param>
+          <type>wxToolBarBase *</type>
+          <declname>tbar</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/toolbar.h" line="139" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_tool_bar_tool_base_1ade4dae05194ad934facda5690a0c3df6" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void wxToolBarToolBase::SetDropdownMenu</definition>
+        <argsstring>(wxMenu *menu)</argsstring>
+        <name>SetDropdownMenu</name>
+        <param>
+          <type><ref refid="classwx_menu" kindref="compound">wxMenu</ref> *</type>
+          <declname>menu</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/toolbar.h" line="141" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_tool_bar_tool_base_1a29bc9246203ffce245a978b6d5c41d95" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_menu" kindref="compound">wxMenu</ref> *</type>
+        <definition>wxMenu* wxToolBarToolBase::GetDropdownMenu</definition>
+        <argsstring>() const</argsstring>
+        <name>GetDropdownMenu</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/toolbar.h" line="142" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>A toolbar tool represents one item on the toolbar. </para>    </briefdescription>
+    <detaileddescription>
+<para>It has a unique id (except for the separators), the style (telling whether it is a normal button, separator or a control), the state (toggled or not, enabled or not) and short and long help strings. The default implementations use the short help string for the tooltip text which is popped up when the mouse pointer enters the tool and the long help string for the applications status bar. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="8041">
+        <label>wxObject</label>
+        <link refid="classwx_object"/>
+      </node>
+      <node id="8040">
+        <label>wxToolBarToolBase</label>
+        <link refid="classwx_tool_bar_tool_base"/>
+        <childnode refid="8041" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="8043">
+        <label>wxObject</label>
+        <link refid="classwx_object"/>
+        <childnode refid="8044" relation="usage">
+          <edgelabel>m_refData</edgelabel>
+        </childnode>
+      </node>
+      <node id="8042">
+        <label>wxToolBarToolBase</label>
+        <link refid="classwx_tool_bar_tool_base"/>
+        <childnode refid="8043" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8044">
+        <label>wxObjectRefData</label>
+        <link refid="classwx_object_ref_data"/>
+      </node>
+    </collaborationgraph>
+    <location file="interface/wx/toolbar.h" line="80" column="1" bodyfile="interface/wx/toolbar.h" bodystart="79" bodyend="143"/>
+    <listofallmembers>
+      <member refid="classwx_object_1a60204063f3cc3aa2fa1c7ff5bda9eb13" prot="protected" virt="non-virtual"><scope>wxToolBarToolBase</scope><name>AllocExclusive</name></member>
+      <member refid="classwx_tool_bar_tool_base_1a7cc69723e1c0aeb213f80c9d3df5f69c" prot="public" virt="virtual"><scope>wxToolBarToolBase</scope><name>Attach</name></member>
+      <member refid="classwx_tool_bar_tool_base_1a95d22ca05a0b2ccd30f7d55a8d2c1152" prot="public" virt="non-virtual"><scope>wxToolBarToolBase</scope><name>CanBeToggled</name></member>
+      <member refid="classwx_object_1a436fc8fe68cf8a31000296d9cd3d2427" prot="protected" virt="virtual"><scope>wxToolBarToolBase</scope><name>CloneRefData</name></member>
+      <member refid="classwx_object_1a3f4f497c65cef611e121c41f21dd5ccc" prot="protected" virt="virtual"><scope>wxToolBarToolBase</scope><name>CreateRefData</name></member>
+      <member refid="classwx_tool_bar_tool_base_1aa16407d77787adbcb3825d7a7320b183" prot="public" virt="virtual"><scope>wxToolBarToolBase</scope><name>Detach</name></member>
+      <member refid="classwx_tool_bar_tool_base_1a2c5bb82748ff5b69eeaa13d085330839" prot="public" virt="virtual"><scope>wxToolBarToolBase</scope><name>Enable</name></member>
+      <member refid="classwx_tool_bar_tool_base_1a985ef359ad26ad2b48f253a57e4db112" prot="public" virt="non-virtual"><scope>wxToolBarToolBase</scope><name>GetBitmap</name></member>
+      <member refid="classwx_object_1ae6d365f2556b26767ced8410c5e839d0" prot="public" virt="virtual"><scope>wxToolBarToolBase</scope><name>GetClassInfo</name></member>
+      <member refid="classwx_tool_bar_tool_base_1ae23cffb2c570ccea407f09748e8d4344" prot="public" virt="non-virtual"><scope>wxToolBarToolBase</scope><name>GetClientData</name></member>
+      <member refid="classwx_tool_bar_tool_base_1a471064417d15cf16874037a631fae412" prot="public" virt="non-virtual"><scope>wxToolBarToolBase</scope><name>GetControl</name></member>
+      <member refid="classwx_tool_bar_tool_base_1a95124cf0fc48be290ff642796ce37ad9" prot="public" virt="non-virtual"><scope>wxToolBarToolBase</scope><name>GetDisabledBitmap</name></member>
+      <member refid="classwx_tool_bar_tool_base_1a29bc9246203ffce245a978b6d5c41d95" prot="public" virt="non-virtual"><scope>wxToolBarToolBase</scope><name>GetDropdownMenu</name></member>
+      <member refid="classwx_tool_bar_tool_base_1a2f2cd920bad55f8cd4d721370dfe57d6" prot="public" virt="non-virtual"><scope>wxToolBarToolBase</scope><name>GetId</name></member>
+      <member refid="classwx_tool_bar_tool_base_1a27eb17873281a2757f3462a07625ab25" prot="public" virt="non-virtual"><scope>wxToolBarToolBase</scope><name>GetKind</name></member>
+      <member refid="classwx_tool_bar_tool_base_1ac0d4d01cca296ddfeb66628291e2f3c1" prot="public" virt="non-virtual"><scope>wxToolBarToolBase</scope><name>GetLabel</name></member>
+      <member refid="classwx_tool_bar_tool_base_1a0a2b78786d6837f21a9bd9d66aec376f" prot="public" virt="non-virtual"><scope>wxToolBarToolBase</scope><name>GetLongHelp</name></member>
+      <member refid="classwx_tool_bar_tool_base_1a413e3416c094f49e11d6f641fd2556e4" prot="public" virt="non-virtual"><scope>wxToolBarToolBase</scope><name>GetNormalBitmap</name></member>
+      <member refid="classwx_object_1af3c6c76a775864832f1536d3c0de3a2b" prot="public" virt="non-virtual"><scope>wxToolBarToolBase</scope><name>GetRefData</name></member>
+      <member refid="classwx_tool_bar_tool_base_1aacdfe114308957696cd29acd036db795" prot="public" virt="non-virtual"><scope>wxToolBarToolBase</scope><name>GetShortHelp</name></member>
+      <member refid="classwx_tool_bar_tool_base_1af50787c3d04f8466cf6e255fb461ccf1" prot="public" virt="non-virtual"><scope>wxToolBarToolBase</scope><name>GetStyle</name></member>
+      <member refid="classwx_tool_bar_tool_base_1ad0db84e2fd1ef1f42a026b601802b765" prot="public" virt="non-virtual"><scope>wxToolBarToolBase</scope><name>GetToolBar</name></member>
+      <member refid="classwx_tool_bar_tool_base_1a0c7ed2406a3c9d335a16a668dec83ded" prot="public" virt="non-virtual"><scope>wxToolBarToolBase</scope><name>IsButton</name></member>
+      <member refid="classwx_tool_bar_tool_base_1a1c53bec557c768b0c6baeb8d756fefad" prot="public" virt="non-virtual"><scope>wxToolBarToolBase</scope><name>IsControl</name></member>
+      <member refid="classwx_tool_bar_tool_base_1a1a40fe417347d9b25e063238ed871784" prot="public" virt="non-virtual"><scope>wxToolBarToolBase</scope><name>IsEnabled</name></member>
+      <member refid="classwx_object_1a3c7115ef4132dcee0c4fc34e84d7fced" prot="public" virt="non-virtual"><scope>wxToolBarToolBase</scope><name>IsKindOf</name></member>
+      <member refid="classwx_object_1a059373c494c2369d7db2a556efef8ecf" prot="public" virt="non-virtual"><scope>wxToolBarToolBase</scope><name>IsSameAs</name></member>
+      <member refid="classwx_tool_bar_tool_base_1afad43ff1b373273d1d4dde908c190e59" prot="public" virt="non-virtual"><scope>wxToolBarToolBase</scope><name>IsSeparator</name></member>
+      <member refid="classwx_tool_bar_tool_base_1aec2137a14ab1865e11e9d1a3af2552ae" prot="public" virt="non-virtual"><scope>wxToolBarToolBase</scope><name>IsStretchable</name></member>
+      <member refid="classwx_tool_bar_tool_base_1a42fae1a10ef9372ddc25cc0149baad4a" prot="public" virt="non-virtual"><scope>wxToolBarToolBase</scope><name>IsStretchableSpace</name></member>
+      <member refid="classwx_tool_bar_tool_base_1a15a4abfb8345e298ef7a2b5877577a85" prot="public" virt="non-virtual"><scope>wxToolBarToolBase</scope><name>IsToggled</name></member>
+      <member refid="classwx_object_1a9e31954530a0abd54982effc443ed2b8" prot="protected" virt="non-virtual"><scope>wxToolBarToolBase</scope><name>m_refData</name></member>
+      <member refid="classwx_tool_bar_tool_base_1aa8d7cc442a447a96788bc91fbb892836" prot="public" virt="non-virtual"><scope>wxToolBarToolBase</scope><name>MakeStretchable</name></member>
+      <member refid="classwx_object_1a07b8f34f5afc5743195c5fed052f55d3" prot="public" virt="non-virtual"><scope>wxToolBarToolBase</scope><name>operator delete</name></member>
+      <member refid="classwx_object_1a96fa423a1dbc212c8227a5d83825971f" prot="public" virt="non-virtual"><scope>wxToolBarToolBase</scope><name>operator new</name></member>
+      <member refid="classwx_object_1a2f6f1aa51fe9fc2b1415ca4211a90e9e" prot="public" virt="non-virtual"><scope>wxToolBarToolBase</scope><name>Ref</name></member>
+      <member refid="classwx_tool_bar_tool_base_1ac56317203c6fa9fa0a9c186b2585c298" prot="public" virt="non-virtual"><scope>wxToolBarToolBase</scope><name>SetClientData</name></member>
+      <member refid="classwx_tool_bar_tool_base_1a781d2be2d0c8f251692700f17d0b44c2" prot="public" virt="virtual"><scope>wxToolBarToolBase</scope><name>SetDisabledBitmap</name></member>
+      <member refid="classwx_tool_bar_tool_base_1ade4dae05194ad934facda5690a0c3df6" prot="public" virt="virtual"><scope>wxToolBarToolBase</scope><name>SetDropdownMenu</name></member>
+      <member refid="classwx_tool_bar_tool_base_1a1d320bf152883812d7dc48e6abdb8dd5" prot="public" virt="virtual"><scope>wxToolBarToolBase</scope><name>SetLabel</name></member>
+      <member refid="classwx_tool_bar_tool_base_1ab7a145c86b858bacbd61ed230e7c340f" prot="public" virt="virtual"><scope>wxToolBarToolBase</scope><name>SetLongHelp</name></member>
+      <member refid="classwx_tool_bar_tool_base_1ae9c2c032eb1ae1d1ff80ce8904c0aecb" prot="public" virt="virtual"><scope>wxToolBarToolBase</scope><name>SetNormalBitmap</name></member>
+      <member refid="classwx_object_1afab780710f2adc1bb33310e27590140b" prot="public" virt="non-virtual"><scope>wxToolBarToolBase</scope><name>SetRefData</name></member>
+      <member refid="classwx_tool_bar_tool_base_1ab339deac95ac2b3eabef013211783910" prot="public" virt="virtual"><scope>wxToolBarToolBase</scope><name>SetShortHelp</name></member>
+      <member refid="classwx_tool_bar_tool_base_1a95d5eb35b365d04be58b0c19969b8519" prot="public" virt="virtual"><scope>wxToolBarToolBase</scope><name>SetToggle</name></member>
+      <member refid="classwx_tool_bar_tool_base_1ac55ffb6ad5680a65221d3ccbbb1271f9" prot="public" virt="virtual"><scope>wxToolBarToolBase</scope><name>Toggle</name></member>
+      <member refid="classwx_tool_bar_tool_base_1ad1cd74a3720137b0db632164bb046ddc" prot="public" virt="non-virtual"><scope>wxToolBarToolBase</scope><name>Toggle</name></member>
+      <member refid="classwx_object_1af51efc6b1ae632fc7f0cd7ebbce9fa36" prot="public" virt="non-virtual"><scope>wxToolBarToolBase</scope><name>UnRef</name></member>
+      <member refid="classwx_object_1a74b40e42d19a4b9e9bec0b57d62a5725" prot="public" virt="non-virtual"><scope>wxToolBarToolBase</scope><name>UnShare</name></member>
+      <member refid="classwx_object_1acaa378363a28af421ab56ad7b46eadf0" prot="public" virt="non-virtual"><scope>wxToolBarToolBase</scope><name>wxObject</name></member>
+      <member refid="classwx_object_1a4721b4dc9b7aff0f30904ba2ea3954cf" prot="public" virt="non-virtual"><scope>wxToolBarToolBase</scope><name>wxObject</name></member>
+      <member refid="classwx_tool_bar_tool_base_1a7d94db8c8864c824d0e8ae3481e4b98a" prot="public" virt="non-virtual"><scope>wxToolBarToolBase</scope><name>wxToolBarToolBase</name></member>
+      <member refid="classwx_tool_bar_tool_base_1ab6010a43ad764d8ea2a67ffbbe9610ac" prot="public" virt="non-virtual"><scope>wxToolBarToolBase</scope><name>wxToolBarToolBase</name></member>
+      <member refid="classwx_object_1a2a51aa8bfbab47ca2f051bcf84b3f35b" prot="public" virt="virtual"><scope>wxToolBarToolBase</scope><name>~wxObject</name></member>
+      <member refid="classwx_tool_bar_tool_base_1ab3e1ee367f05174cb688bf6798c879d2" prot="public" virt="virtual"><scope>wxToolBarToolBase</scope><name>~wxToolBarToolBase</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="interface_2wx_2config_8h" kind="file" language="C++">
+    <compoundname>config.h</compoundname>
+    <innerclass refid="classwx_config_base" prot="public">wxConfigBase</innerclass>
+    <innerclass refid="classwx_config_path_changer" prot="public">wxConfigPathChanger</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="interface_2wx_2config_8h_1ab04a0655cd1e3bcac5e8f48c18df1a57" prot="public" static="no" strong="no">
+        <type></type>
+        <name>@9</name>
+        <enumvalue id="interface_2wx_2config_8h_1ab04a0655cd1e3bcac5e8f48c18df1a57a2a23b2ec7fd6b2169ae2536cbce3ff64" prot="public">
+          <name>wxCONFIG_USE_LOCAL_FILE</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="interface_2wx_2config_8h_1ab04a0655cd1e3bcac5e8f48c18df1a57a85c4768e6a0c1989e9251c7405c546bc" prot="public">
+          <name>wxCONFIG_USE_GLOBAL_FILE</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="interface_2wx_2config_8h_1ab04a0655cd1e3bcac5e8f48c18df1a57a687cc074a439d4ebeb237977da62c5c5" prot="public">
+          <name>wxCONFIG_USE_RELATIVE_PATH</name>
+          <initializer>= 4</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="interface_2wx_2config_8h_1ab04a0655cd1e3bcac5e8f48c18df1a57aefa973cd9cb0f831dba1d96fe71fb604" prot="public">
+          <name>wxCONFIG_USE_NO_ESCAPE_CHARACTERS</name>
+          <initializer>= 8</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="interface_2wx_2config_8h_1ab04a0655cd1e3bcac5e8f48c18df1a57a3f3ec29ab2297a6248d99374a3a18aca" prot="public">
+          <name>wxCONFIG_USE_SUBDIR</name>
+          <initializer>= 16</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/config.h" line="11" column="1" bodyfile="interface/wx/config.h" bodystart="10" bodyend="17"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="interface/wx/config.h"/>
+  </compounddef>
+</doxygen>

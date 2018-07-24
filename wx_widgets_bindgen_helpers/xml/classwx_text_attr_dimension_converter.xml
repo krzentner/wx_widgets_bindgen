@@ -1,0 +1,208 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_text_attr_dimension_converter" kind="class" language="C++" prot="public">
+    <compoundname>wxTextAttrDimensionConverter</compoundname>
+    <includes local="no">wx/richtext/richtextbuffer.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classwx_text_attr_dimension_converter_1a51053378b002a6f2b6130ddbad9217cf" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int wxTextAttrDimensionConverter::m_ppi</definition>
+        <argsstring></argsstring>
+        <name>m_ppi</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="592" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="592" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classwx_text_attr_dimension_converter_1ad45ef3e2007d25cb851112941409d66d" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double wxTextAttrDimensionConverter::m_scale</definition>
+        <argsstring></argsstring>
+        <name>m_scale</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="593" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="593" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classwx_text_attr_dimension_converter_1af72fbeac15dc73f42111c47b9e4f09fb" prot="public" static="no" mutable="no">
+        <type><ref refid="classwx_size" kindref="compound">wxSize</ref></type>
+        <definition>wxSize wxTextAttrDimensionConverter::m_parentSize</definition>
+        <argsstring></argsstring>
+        <name>m_parentSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="594" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="594" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classwx_text_attr_dimension_converter_1a1062faba88f4ae24465fdc7f048d1d8c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxTextAttrDimensionConverter::wxTextAttrDimensionConverter</definition>
+        <argsstring>(wxDC &amp;dc, double scale=1.0, const wxSize &amp;parentSize=wxDefaultSize)</argsstring>
+        <name>wxTextAttrDimensionConverter</name>
+        <param>
+          <type><ref refid="classwx_d_c" kindref="compound">wxDC</ref> &amp;</type>
+          <declname>dc</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>scale</declname>
+          <defval>1.0</defval>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_size" kindref="compound">wxSize</ref> &amp;</type>
+          <declname>parentSize</declname>
+          <defval><ref refid="gdicmn_8h_1a33a012cdb075e9f78c93f63bec2dc27b" kindref="member">wxDefaultSize</ref></defval>
+        </param>
+        <briefdescription>
+<para>Constructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="568" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_text_attr_dimension_converter_1a84c26d4ef4a9c36086b139bcac2303be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxTextAttrDimensionConverter::wxTextAttrDimensionConverter</definition>
+        <argsstring>(int ppi, double scale=1.0, const wxSize &amp;parentSize=wxDefaultSize)</argsstring>
+        <name>wxTextAttrDimensionConverter</name>
+        <param>
+          <type>int</type>
+          <declname>ppi</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>scale</declname>
+          <defval>1.0</defval>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_size" kindref="compound">wxSize</ref> &amp;</type>
+          <declname>parentSize</declname>
+          <defval><ref refid="gdicmn_8h_1a33a012cdb075e9f78c93f63bec2dc27b" kindref="member">wxDefaultSize</ref></defval>
+        </param>
+        <briefdescription>
+<para>Constructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="572" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_text_attr_dimension_converter_1a1ae5424bfec56267758635b9800a1441" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int wxTextAttrDimensionConverter::GetPixels</definition>
+        <argsstring>(const wxTextAttrDimension &amp;dim, int direction=wxHORIZONTAL) const</argsstring>
+        <name>GetPixels</name>
+        <param>
+          <type>const <ref refid="classwx_text_attr_dimension" kindref="compound">wxTextAttrDimension</ref> &amp;</type>
+          <declname>dim</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>direction</declname>
+          <defval><ref refid="defs_8h_1a1e6994f40bd9cb140e292afb165af971ab96154c324ed87cc17e9b227f9248c77" kindref="member">wxHORIZONTAL</ref></defval>
+        </param>
+        <briefdescription>
+<para>Gets the pixel size for the given dimension. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="577" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_text_attr_dimension_converter_1afc016618174086b892f4d43eba509327" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int wxTextAttrDimensionConverter::GetTenthsMM</definition>
+        <argsstring>(const wxTextAttrDimension &amp;dim) const</argsstring>
+        <name>GetTenthsMM</name>
+        <param>
+          <type>const <ref refid="classwx_text_attr_dimension" kindref="compound">wxTextAttrDimension</ref> &amp;</type>
+          <declname>dim</declname>
+        </param>
+        <briefdescription>
+<para>Gets the mm size for the given dimension. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="581" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_text_attr_dimension_converter_1a02f52c45d9ffa99df918e22f24b46b23" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int wxTextAttrDimensionConverter::ConvertTenthsMMToPixels</definition>
+        <argsstring>(int units) const</argsstring>
+        <name>ConvertTenthsMMToPixels</name>
+        <param>
+          <type>int</type>
+          <declname>units</declname>
+        </param>
+        <briefdescription>
+<para>Converts tenths of a mm to pixels. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="586" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_text_attr_dimension_converter_1a6554aab583b08c29ed3762a5f9d7f374" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int wxTextAttrDimensionConverter::ConvertPixelsToTenthsMM</definition>
+        <argsstring>(int pixels) const</argsstring>
+        <name>ConvertPixelsToTenthsMM</name>
+        <param>
+          <type>int</type>
+          <declname>pixels</declname>
+        </param>
+        <briefdescription>
+<para>Converts pixels to tenths of a mm. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="590" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>A class to make it easier to convert dimensions. </para>    </briefdescription>
+    <detaileddescription>
+<para><heading level="2"></heading>
+</para><para>Library:<nonbreakablespace/><nonbreakablespace/><ref refid="page_libs_1page_libs_wxrichtext" kindref="member">wxRichText</ref> &lt;&gt;&lt; =&apos;&apos;&gt;:&lt;/&gt;&amp;;&amp;;&lt; =&apos;&apos;&gt;\ &lt;/&gt;&lt;/&gt;</para><para><simplesect kind="see"><para><ref refid="classwx_rich_text_attr" kindref="compound">wxRichTextAttr</ref>, <ref refid="classwx_rich_text_ctrl" kindref="compound">wxRichTextCtrl</ref>, <ref refid="classwx_text_attr_dimension" kindref="compound">wxTextAttrDimension</ref> </para></simplesect>
+</para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="7833">
+        <label>wxTextAttrDimensionConverter</label>
+        <link refid="classwx_text_attr_dimension_converter"/>
+        <childnode refid="7834" relation="usage">
+          <edgelabel>m_parentSize</edgelabel>
+        </childnode>
+      </node>
+      <node id="7834">
+        <label>wxSize</label>
+        <link refid="classwx_size"/>
+      </node>
+    </collaborationgraph>
+    <location file="interface/wx/richtext/richtextbuffer.h" line="563" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="562" bodyend="595"/>
+    <listofallmembers>
+      <member refid="classwx_text_attr_dimension_converter_1a6554aab583b08c29ed3762a5f9d7f374" prot="public" virt="non-virtual"><scope>wxTextAttrDimensionConverter</scope><name>ConvertPixelsToTenthsMM</name></member>
+      <member refid="classwx_text_attr_dimension_converter_1a02f52c45d9ffa99df918e22f24b46b23" prot="public" virt="non-virtual"><scope>wxTextAttrDimensionConverter</scope><name>ConvertTenthsMMToPixels</name></member>
+      <member refid="classwx_text_attr_dimension_converter_1a1ae5424bfec56267758635b9800a1441" prot="public" virt="non-virtual"><scope>wxTextAttrDimensionConverter</scope><name>GetPixels</name></member>
+      <member refid="classwx_text_attr_dimension_converter_1afc016618174086b892f4d43eba509327" prot="public" virt="non-virtual"><scope>wxTextAttrDimensionConverter</scope><name>GetTenthsMM</name></member>
+      <member refid="classwx_text_attr_dimension_converter_1af72fbeac15dc73f42111c47b9e4f09fb" prot="public" virt="non-virtual"><scope>wxTextAttrDimensionConverter</scope><name>m_parentSize</name></member>
+      <member refid="classwx_text_attr_dimension_converter_1a51053378b002a6f2b6130ddbad9217cf" prot="public" virt="non-virtual"><scope>wxTextAttrDimensionConverter</scope><name>m_ppi</name></member>
+      <member refid="classwx_text_attr_dimension_converter_1ad45ef3e2007d25cb851112941409d66d" prot="public" virt="non-virtual"><scope>wxTextAttrDimensionConverter</scope><name>m_scale</name></member>
+      <member refid="classwx_text_attr_dimension_converter_1a1062faba88f4ae24465fdc7f048d1d8c" prot="public" virt="non-virtual"><scope>wxTextAttrDimensionConverter</scope><name>wxTextAttrDimensionConverter</name></member>
+      <member refid="classwx_text_attr_dimension_converter_1a84c26d4ef4a9c36086b139bcac2303be" prot="public" virt="non-virtual"><scope>wxTextAttrDimensionConverter</scope><name>wxTextAttrDimensionConverter</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

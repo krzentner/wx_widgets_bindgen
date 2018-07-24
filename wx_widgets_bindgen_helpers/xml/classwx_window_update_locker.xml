@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_window_update_locker" kind="class" language="C++" prot="public">
+    <compoundname>wxWindowUpdateLocker</compoundname>
+    <includes local="no">wx/wupdlock.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classwx_window_update_locker_1aedd1a05d69846272cc4cc271ce8b91cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxWindowUpdateLocker::wxWindowUpdateLocker</definition>
+        <argsstring>(wxWindow *win)</argsstring>
+        <name>wxWindowUpdateLocker</name>
+        <param>
+          <type><ref refid="classwx_window" kindref="compound">wxWindow</ref> *</type>
+          <declname>win</declname>
+        </param>
+        <briefdescription>
+<para>Creates an object preventing the updates of the specified <emphasis>win</emphasis>. </para>        </briefdescription>
+        <detaileddescription>
+<para>The parameter must be non-NULL and the window must exist for longer than <ref refid="classwx_window_update_locker" kindref="compound">wxWindowUpdateLocker</ref> object itself. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/wupdlock.h" line="43" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_window_update_locker_1a08f911aacf4214fafc3953729f9763f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxWindowUpdateLocker::~wxWindowUpdateLocker</definition>
+        <argsstring>()</argsstring>
+        <name>~wxWindowUpdateLocker</name>
+        <briefdescription>
+<para>Destructor reenables updates for the window this object is associated with. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/wupdlock.h" line="48" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This tiny class prevents redrawing of a <ref refid="classwx_window" kindref="compound">wxWindow</ref> during its lifetime by using <ref refid="classwx_window_1a15c678314cfc1d807196bc298b713ed3" kindref="member">wxWindow::Freeze()</ref> and <ref refid="classwx_window_1a279a532124073261b28131b6afb59a1e" kindref="member">wxWindow::Thaw()</ref> methods. </para>    </briefdescription>
+    <detaileddescription>
+<para>It is typically used for creating automatic objects to temporarily suppress window updates before a batch of operations is performed:</para><para><programlisting><codeline><highlight class="normal">void<sp/>MyFrame::Foo()</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_text<sp/>=<sp/>new<sp/>wxTextCtrl(this,<sp/>...);</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>wxWindowUpdateLocker<sp/>noUpdates(m_text);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_text-AppendText();</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>...<sp/>many<sp/>other<sp/>operations<sp/>with<sp/>m_text...</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_text-WriteText();</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+</programlisting></para><para>Using this class is easier and safer than calling <ref refid="classwx_window_1a15c678314cfc1d807196bc298b713ed3" kindref="member">wxWindow::Freeze()</ref> and <ref refid="classwx_window_1a279a532124073261b28131b6afb59a1e" kindref="member">wxWindow::Thaw()</ref> because you don&apos;t risk to forget calling the latter.</para><para><heading level="2"></heading>
+</para><para>Library:<nonbreakablespace/><nonbreakablespace/><ref refid="page_libs_1page_libs_wxbase" kindref="member">wxBase</ref> &lt;&gt;&lt; =&apos;&apos;&gt;:&lt;/&gt;&amp;;&amp;;&lt; =&apos;&apos;&gt;\ &lt;/&gt;&lt;/&gt; </para>    </detaileddescription>
+    <location file="interface/wx/wupdlock.h" line="36" column="1" bodyfile="interface/wx/wupdlock.h" bodystart="35" bodyend="49"/>
+    <listofallmembers>
+      <member refid="classwx_window_update_locker_1aedd1a05d69846272cc4cc271ce8b91cc" prot="public" virt="non-virtual"><scope>wxWindowUpdateLocker</scope><name>wxWindowUpdateLocker</name></member>
+      <member refid="classwx_window_update_locker_1a08f911aacf4214fafc3953729f9763f3" prot="public" virt="non-virtual"><scope>wxWindowUpdateLocker</scope><name>~wxWindowUpdateLocker</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

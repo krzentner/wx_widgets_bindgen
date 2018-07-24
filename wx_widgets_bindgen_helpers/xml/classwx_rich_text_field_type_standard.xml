@@ -1,0 +1,1083 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_rich_text_field_type_standard" kind="class" language="C++" prot="public">
+    <compoundname>wxRichTextFieldTypeStandard</compoundname>
+    <basecompoundref refid="classwx_rich_text_field_type" prot="public" virt="non-virtual">wxRichTextFieldType</basecompoundref>
+    <includes local="no">wx/richtext/richtextbuffer.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="classwx_rich_text_field_type_standard_1a08318d2e9f8e911974ca47133407c848" prot="public" static="no" strong="no">
+        <type></type>
+        <name>@45</name>
+        <enumvalue id="classwx_rich_text_field_type_standard_1a08318d2e9f8e911974ca47133407c848a2a9f776db9001cd1cb9a47aa497d1dab" prot="public">
+          <name>wxRICHTEXT_FIELD_STYLE_COMPOSITE</name>
+          <initializer>= 0x01</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classwx_rich_text_field_type_standard_1a08318d2e9f8e911974ca47133407c848aa2744f0e4fb2a40d1de128033e5bc725" prot="public">
+          <name>wxRICHTEXT_FIELD_STYLE_RECTANGLE</name>
+          <initializer>= 0x02</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classwx_rich_text_field_type_standard_1a08318d2e9f8e911974ca47133407c848abea5d718c131acf43bb926da959ca289" prot="public">
+          <name>wxRICHTEXT_FIELD_STYLE_NO_BORDER</name>
+          <initializer>= 0x04</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classwx_rich_text_field_type_standard_1a08318d2e9f8e911974ca47133407c848a2d7097b5c8e59e7ca97f7d44aeaed056" prot="public">
+          <name>wxRICHTEXT_FIELD_STYLE_START_TAG</name>
+          <initializer>= 0x08</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classwx_rich_text_field_type_standard_1a08318d2e9f8e911974ca47133407c848a651330e2b0f66e9ddb54a91a5301d116" prot="public">
+          <name>wxRICHTEXT_FIELD_STYLE_END_TAG</name>
+          <initializer>= 0x10</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="3678" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="3678" bodyend="3683"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classwx_rich_text_field_type_standard_1a1fdba8c45ee95e31f28749e581e26a5e" prot="protected" static="no" mutable="no">
+        <type><ref refid="classwx_string" kindref="compound">wxString</ref></type>
+        <definition>wxString wxRichTextFieldTypeStandard::m_label</definition>
+        <argsstring></argsstring>
+        <name>m_label</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="3886" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="3886" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classwx_rich_text_field_type_standard_1a3a0e923fde245f367a6ebe1f6192fbc2" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int wxRichTextFieldTypeStandard::m_displayStyle</definition>
+        <argsstring></argsstring>
+        <name>m_displayStyle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="3887" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="3887" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classwx_rich_text_field_type_standard_1a6dc2439d51f15d322b8db010e8c1f21b" prot="protected" static="no" mutable="no">
+        <type><ref refid="classwx_font" kindref="compound">wxFont</ref></type>
+        <definition>wxFont wxRichTextFieldTypeStandard::m_font</definition>
+        <argsstring></argsstring>
+        <name>m_font</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="3888" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="3888" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classwx_rich_text_field_type_standard_1ac84527079d73cbfe166328d7d8ed57f7" prot="protected" static="no" mutable="no">
+        <type><ref refid="classwx_colour" kindref="compound">wxColour</ref></type>
+        <definition>wxColour wxRichTextFieldTypeStandard::m_textColour</definition>
+        <argsstring></argsstring>
+        <name>m_textColour</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="3889" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="3889" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classwx_rich_text_field_type_standard_1af539099782e061da84a300f46f88dd88" prot="protected" static="no" mutable="no">
+        <type><ref refid="classwx_colour" kindref="compound">wxColour</ref></type>
+        <definition>wxColour wxRichTextFieldTypeStandard::m_borderColour</definition>
+        <argsstring></argsstring>
+        <name>m_borderColour</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="3890" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="3890" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classwx_rich_text_field_type_standard_1a7f249742d51d9485a69e88872c9069a6" prot="protected" static="no" mutable="no">
+        <type><ref refid="classwx_colour" kindref="compound">wxColour</ref></type>
+        <definition>wxColour wxRichTextFieldTypeStandard::m_backgroundColour</definition>
+        <argsstring></argsstring>
+        <name>m_backgroundColour</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="3891" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="3891" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classwx_rich_text_field_type_standard_1a0431a40933aab2b7039c66074f27b880" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int wxRichTextFieldTypeStandard::m_verticalPadding</definition>
+        <argsstring></argsstring>
+        <name>m_verticalPadding</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="3892" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="3892" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classwx_rich_text_field_type_standard_1a4dc3f6622834e459e93e969cad0115e5" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int wxRichTextFieldTypeStandard::m_horizontalPadding</definition>
+        <argsstring></argsstring>
+        <name>m_horizontalPadding</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="3893" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="3893" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classwx_rich_text_field_type_standard_1a1ccd50c19cdb0fd68e7c0cec317b6f0a" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int wxRichTextFieldTypeStandard::m_horizontalMargin</definition>
+        <argsstring></argsstring>
+        <name>m_horizontalMargin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="3894" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="3894" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classwx_rich_text_field_type_standard_1a02775c1e65e0b143999543c1a7b15d20" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int wxRichTextFieldTypeStandard::m_verticalMargin</definition>
+        <argsstring></argsstring>
+        <name>m_verticalMargin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="3895" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="3895" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classwx_rich_text_field_type_standard_1a6fcaf8627af27aafacd338935a217f02" prot="protected" static="no" mutable="no">
+        <type><ref refid="classwx_bitmap" kindref="compound">wxBitmap</ref></type>
+        <definition>wxBitmap wxRichTextFieldTypeStandard::m_bitmap</definition>
+        <argsstring></argsstring>
+        <name>m_bitmap</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="3896" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="3896" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classwx_rich_text_field_type_standard_1a4f1355b5e03cbec183514932ec292cb6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxRichTextFieldTypeStandard::wxRichTextFieldTypeStandard</definition>
+        <argsstring>(const wxString &amp;name, const wxString &amp;label, int displayStyle=wxRICHTEXT_FIELD_STYLE_RECTANGLE)</argsstring>
+        <name>wxRichTextFieldTypeStandard</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>label</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>displayStyle</declname>
+          <defval><ref refid="classwx_rich_text_field_type_standard_1a08318d2e9f8e911974ca47133407c848aa2744f0e4fb2a40d1de128033e5bc725" kindref="member">wxRICHTEXT_FIELD_STYLE_RECTANGLE</ref></defval>
+        </param>
+        <briefdescription>
+<para>Constructor, creating a field type definition with a text label. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the type definition. This must be unique, and is the type name used when adding a field to a control. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>label</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The text label to be shown on the field. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>displayStyle</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The display style: one of wxRICHTEXT_FIELD_STYLE_RECTANGLE, wxRICHTEXT_FIELD_STYLE_NO_BORDER, wxRICHTEXT_FIELD_STYLE_START_TAG, wxRICHTEXT_FIELD_STYLE_END_TAG. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="3699" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_field_type_standard_1a97612ea4d91efb7bc5136b9ef4539d9d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxRichTextFieldTypeStandard::wxRichTextFieldTypeStandard</definition>
+        <argsstring>(const wxString &amp;name, const wxBitmap &amp;bitmap, int displayStyle=wxRICHTEXT_FIELD_STYLE_NO_BORDER)</argsstring>
+        <name>wxRichTextFieldTypeStandard</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_bitmap" kindref="compound">wxBitmap</ref> &amp;</type>
+          <declname>bitmap</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>displayStyle</declname>
+          <defval><ref refid="classwx_rich_text_field_type_standard_1a08318d2e9f8e911974ca47133407c848abea5d718c131acf43bb926da959ca289" kindref="member">wxRICHTEXT_FIELD_STYLE_NO_BORDER</ref></defval>
+        </param>
+        <briefdescription>
+<para>Constructor, creating a field type definition with a bitmap label. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the type definition. This must be unique, and is the type name used when adding a field to a control. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>bitmap</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The bitmap label to be shown on the field. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>displayStyle</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The display style: one of wxRICHTEXT_FIELD_STYLE_RECTANGLE, wxRICHTEXT_FIELD_STYLE_NO_BORDER, wxRICHTEXT_FIELD_STYLE_START_TAG, wxRICHTEXT_FIELD_STYLE_END_TAG. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="3715" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_field_type_standard_1acbdc1c3314a5fd003307205d651b2938" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>wxRichTextFieldTypeStandard::wxRichTextFieldTypeStandard</definition>
+        <argsstring>()</argsstring>
+        <name>wxRichTextFieldTypeStandard</name>
+        <briefdescription>
+<para>The default constructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="3721" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="3721" bodyend="3721"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_field_type_standard_1a96d22907026e53cc24b10aecd9c10079" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>wxRichTextFieldTypeStandard::wxRichTextFieldTypeStandard</definition>
+        <argsstring>(const wxRichTextFieldTypeStandard &amp;field)</argsstring>
+        <name>wxRichTextFieldTypeStandard</name>
+        <param>
+          <type>const <ref refid="classwx_rich_text_field_type_standard" kindref="compound">wxRichTextFieldTypeStandard</ref> &amp;</type>
+          <declname>field</declname>
+        </param>
+        <briefdescription>
+<para>The copy constructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="3727" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="3727" bodyend="3727"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_field_type_standard_1ae62337bb14adae88c0e2dd2f4074947f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxRichTextFieldTypeStandard::Init</definition>
+        <argsstring>()</argsstring>
+        <name>Init</name>
+        <briefdescription>
+<para>Initialises the object. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="3732" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_field_type_standard_1a4c24b014402571ddbd215b1ab7289cf2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxRichTextFieldTypeStandard::Copy</definition>
+        <argsstring>(const wxRichTextFieldTypeStandard &amp;field)</argsstring>
+        <name>Copy</name>
+        <param>
+          <type>const <ref refid="classwx_rich_text_field_type_standard" kindref="compound">wxRichTextFieldTypeStandard</ref> &amp;</type>
+          <declname>field</declname>
+        </param>
+        <briefdescription>
+<para>Copies the object. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="3737" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_field_type_standard_1a096331f8f7add7927bdd3939fcf32e57" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxRichTextFieldTypeStandard::operator=</definition>
+        <argsstring>(const wxRichTextFieldTypeStandard &amp;field)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="classwx_rich_text_field_type_standard" kindref="compound">wxRichTextFieldTypeStandard</ref> &amp;</type>
+          <declname>field</declname>
+        </param>
+        <briefdescription>
+<para>The assignment operator. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="3742" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="3742" bodyend="3742"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_field_type_standard_1ae3335c358bd5039df21d37b034fad5f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool wxRichTextFieldTypeStandard::Draw</definition>
+        <argsstring>(wxRichTextField *obj, wxDC &amp;dc, wxRichTextDrawingContext &amp;context, const wxRichTextRange &amp;range, const wxRichTextSelection &amp;selection, const wxRect &amp;rect, int descent, int style)</argsstring>
+        <name>Draw</name>
+        <reimplements refid="classwx_rich_text_field_type_1a7394e955a5acf24d9c8125488662a55c">Draw</reimplements>
+        <param>
+          <type><ref refid="classwx_rich_text_field" kindref="compound">wxRichTextField</ref> *</type>
+          <declname>obj</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_d_c" kindref="compound">wxDC</ref> &amp;</type>
+          <declname>dc</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_rich_text_drawing_context" kindref="compound">wxRichTextDrawingContext</ref> &amp;</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_rich_text_range" kindref="compound">wxRichTextRange</ref> &amp;</type>
+          <declname>range</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_rich_text_selection" kindref="compound">wxRichTextSelection</ref> &amp;</type>
+          <declname>selection</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_rect" kindref="compound">wxRect</ref> &amp;</type>
+          <declname>rect</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>descent</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>style</declname>
+        </param>
+        <briefdescription>
+<para>Draw the item, within the given range. </para>        </briefdescription>
+        <detaileddescription>
+<para>Some objects may ignore the range (for example paragraphs) while others must obey it (lines, to implement wrapping) </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="3748" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_field_type_standard_1a95e373a021bb9481f5f38fbaa6588a85" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool wxRichTextFieldTypeStandard::Layout</definition>
+        <argsstring>(wxRichTextField *obj, wxDC &amp;dc, wxRichTextDrawingContext &amp;context, const wxRect &amp;rect, const wxRect &amp;parentRect, int style)</argsstring>
+        <name>Layout</name>
+        <reimplements refid="classwx_rich_text_field_type_1ab1db4fac2471ab82398021e248aa11a3">Layout</reimplements>
+        <param>
+          <type><ref refid="classwx_rich_text_field" kindref="compound">wxRichTextField</ref> *</type>
+          <declname>obj</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_d_c" kindref="compound">wxDC</ref> &amp;</type>
+          <declname>dc</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_rich_text_drawing_context" kindref="compound">wxRichTextDrawingContext</ref> &amp;</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_rect" kindref="compound">wxRect</ref> &amp;</type>
+          <declname>rect</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_rect" kindref="compound">wxRect</ref> &amp;</type>
+          <declname>parentRect</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>style</declname>
+        </param>
+        <briefdescription>
+<para>Lay the item out at the specified position with the given size constraint. </para>        </briefdescription>
+        <detaileddescription>
+<para>Layout must set the cached size. <emphasis>rect</emphasis> is the available space for the object, and <emphasis>parentRect</emphasis> is the container that is used to determine a relative size or position (for example if a text box must be 50% of the parent text box). </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="3756" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_field_type_standard_1ac3e5c94503910db055011a3a673dbbdf" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool wxRichTextFieldTypeStandard::GetRangeSize</definition>
+        <argsstring>(wxRichTextField *obj, const wxRichTextRange &amp;range, wxSize &amp;size, int &amp;descent, wxDC &amp;dc, wxRichTextDrawingContext &amp;context, int flags, const wxPoint &amp;position=wxPoint(0, 0), const wxSize &amp;parentSize=wxDefaultSize, wxArrayInt *partialExtents=NULL) const</argsstring>
+        <name>GetRangeSize</name>
+        <reimplements refid="classwx_rich_text_field_type_1a2c9d8a4c8de66d7caaf2801812202e64">GetRangeSize</reimplements>
+        <param>
+          <type><ref refid="classwx_rich_text_field" kindref="compound">wxRichTextField</ref> *</type>
+          <declname>obj</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_rich_text_range" kindref="compound">wxRichTextRange</ref> &amp;</type>
+          <declname>range</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_size" kindref="compound">wxSize</ref> &amp;</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>int &amp;</type>
+          <declname>descent</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_d_c" kindref="compound">wxDC</ref> &amp;</type>
+          <declname>dc</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_rich_text_drawing_context" kindref="compound">wxRichTextDrawingContext</ref> &amp;</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>flags</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_point" kindref="compound">wxPoint</ref> &amp;</type>
+          <declname>position</declname>
+          <defval><ref refid="classwx_point" kindref="compound">wxPoint</ref>(0, 0)</defval>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_size" kindref="compound">wxSize</ref> &amp;</type>
+          <declname>parentSize</declname>
+          <defval><ref refid="gdicmn_8h_1a33a012cdb075e9f78c93f63bec2dc27b" kindref="member">wxDefaultSize</ref></defval>
+        </param>
+        <param>
+          <type><ref refid="dynarray_8h_1add87f199292e36ee87efd6d7f0d4ee66" kindref="member">wxArrayInt</ref> *</type>
+          <declname>partialExtents</declname>
+          <defval>NULL</defval>
+        </param>
+        <briefdescription>
+<para>Returns the object size for the given range. </para>        </briefdescription>
+        <detaileddescription>
+<para>Returns false if the range is invalid for this object. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="3762" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_field_type_standard_1a751fff1a19f99e3c76019ff89d14e425" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_size" kindref="compound">wxSize</ref></type>
+        <definition>wxSize wxRichTextFieldTypeStandard::GetSize</definition>
+        <argsstring>(wxRichTextField *obj, wxDC &amp;dc, wxRichTextDrawingContext &amp;context, int style) const</argsstring>
+        <name>GetSize</name>
+        <param>
+          <type><ref refid="classwx_rich_text_field" kindref="compound">wxRichTextField</ref> *</type>
+          <declname>obj</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_d_c" kindref="compound">wxDC</ref> &amp;</type>
+          <declname>dc</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_rich_text_drawing_context" kindref="compound">wxRichTextDrawingContext</ref> &amp;</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>style</declname>
+        </param>
+        <briefdescription>
+<para>Get the size of the field, given the label, font size, and so on. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="3767" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_field_type_standard_1aac8d65c98be57fcd42f862ec3d01e8ff" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool wxRichTextFieldTypeStandard::IsTopLevel</definition>
+        <argsstring>(wxRichTextField *obj) const</argsstring>
+        <name>IsTopLevel</name>
+        <reimplements refid="classwx_rich_text_field_type_1aef25534c3aec8b10eb53c6321f5da299">IsTopLevel</reimplements>
+        <param>
+          <type><ref refid="classwx_rich_text_field" kindref="compound">wxRichTextField</ref> *</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+<para>Returns true if the display type is wxRICHTEXT_FIELD_STYLE_COMPOSITE, false otherwise. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="3772" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="3772" bodyend="3772"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_field_type_standard_1a845f739a35d6fe9e4f0988f33498aad1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxRichTextFieldTypeStandard::SetLabel</definition>
+        <argsstring>(const wxString &amp;label)</argsstring>
+        <name>SetLabel</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>label</declname>
+        </param>
+        <briefdescription>
+<para>Sets the text label for fields of this type. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="3777" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="3777" bodyend="3777"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_field_type_standard_1ae8a4176526e7f77b2836933613be2069" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+        <definition>const wxString&amp; wxRichTextFieldTypeStandard::GetLabel</definition>
+        <argsstring>() const</argsstring>
+        <name>GetLabel</name>
+        <briefdescription>
+<para>Returns the text label for fields of this type. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="3782" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="3782" bodyend="3782"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_field_type_standard_1a87c185c1a0cc7c194ccfe987da491be8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxRichTextFieldTypeStandard::SetBitmap</definition>
+        <argsstring>(const wxBitmap &amp;bitmap)</argsstring>
+        <name>SetBitmap</name>
+        <param>
+          <type>const <ref refid="classwx_bitmap" kindref="compound">wxBitmap</ref> &amp;</type>
+          <declname>bitmap</declname>
+        </param>
+        <briefdescription>
+<para>Sets the bitmap label for fields of this type. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="3787" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="3787" bodyend="3787"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_field_type_standard_1a61f1ea8f14e464a23456657a7bae544d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="classwx_bitmap" kindref="compound">wxBitmap</ref> &amp;</type>
+        <definition>const wxBitmap&amp; wxRichTextFieldTypeStandard::GetBitmap</definition>
+        <argsstring>() const</argsstring>
+        <name>GetBitmap</name>
+        <briefdescription>
+<para>Gets the bitmap label for fields of this type. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="3792" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="3792" bodyend="3792"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_field_type_standard_1aa2f03dc46f3a7972f44ff28776db27f6" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int wxRichTextFieldTypeStandard::GetDisplayStyle</definition>
+        <argsstring>() const</argsstring>
+        <name>GetDisplayStyle</name>
+        <briefdescription>
+<para>Gets the display style for fields of this type. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="3797" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="3797" bodyend="3797"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_field_type_standard_1a762975d841a8054f55253f4a040b5959" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxRichTextFieldTypeStandard::SetDisplayStyle</definition>
+        <argsstring>(int displayStyle)</argsstring>
+        <name>SetDisplayStyle</name>
+        <param>
+          <type>int</type>
+          <declname>displayStyle</declname>
+        </param>
+        <briefdescription>
+<para>Sets the display style for fields of this type. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="3802" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="3802" bodyend="3802"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_field_type_standard_1a66254a95398a875dfbd9c6ff56205975" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="classwx_font" kindref="compound">wxFont</ref> &amp;</type>
+        <definition>const wxFont&amp; wxRichTextFieldTypeStandard::GetFont</definition>
+        <argsstring>() const</argsstring>
+        <name>GetFont</name>
+        <briefdescription>
+<para>Gets the font used for drawing the text label. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="3807" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="3807" bodyend="3807"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_field_type_standard_1a74f2afcb9426b0ae4e296e2e0dd25b61" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxRichTextFieldTypeStandard::SetFont</definition>
+        <argsstring>(const wxFont &amp;font)</argsstring>
+        <name>SetFont</name>
+        <param>
+          <type>const <ref refid="classwx_font" kindref="compound">wxFont</ref> &amp;</type>
+          <declname>font</declname>
+        </param>
+        <briefdescription>
+<para>Sets the font used for drawing the text label. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="3812" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="3812" bodyend="3812"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_field_type_standard_1a49edabe313a0e513d4454bf3625d9b87" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="classwx_colour" kindref="compound">wxColour</ref> &amp;</type>
+        <definition>const wxColour&amp; wxRichTextFieldTypeStandard::GetTextColour</definition>
+        <argsstring>() const</argsstring>
+        <name>GetTextColour</name>
+        <briefdescription>
+<para>Gets the colour used for drawing the text label. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="3817" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="3817" bodyend="3817"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_field_type_standard_1ac9534c9aa9e9686a7694dfc5078fc05b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxRichTextFieldTypeStandard::SetTextColour</definition>
+        <argsstring>(const wxColour &amp;colour)</argsstring>
+        <name>SetTextColour</name>
+        <param>
+          <type>const <ref refid="classwx_colour" kindref="compound">wxColour</ref> &amp;</type>
+          <declname>colour</declname>
+        </param>
+        <briefdescription>
+<para>Sets the colour used for drawing the text label. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="3822" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="3822" bodyend="3822"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_field_type_standard_1ab7bd5e3c65b186655aebf605b0e1eee0" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="classwx_colour" kindref="compound">wxColour</ref> &amp;</type>
+        <definition>const wxColour&amp; wxRichTextFieldTypeStandard::GetBorderColour</definition>
+        <argsstring>() const</argsstring>
+        <name>GetBorderColour</name>
+        <briefdescription>
+<para>Gets the colour used for drawing the field border. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="3827" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="3827" bodyend="3827"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_field_type_standard_1ade67b17541a5cb50369e85d559f3272a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxRichTextFieldTypeStandard::SetBorderColour</definition>
+        <argsstring>(const wxColour &amp;colour)</argsstring>
+        <name>SetBorderColour</name>
+        <param>
+          <type>const <ref refid="classwx_colour" kindref="compound">wxColour</ref> &amp;</type>
+          <declname>colour</declname>
+        </param>
+        <briefdescription>
+<para>Sets the colour used for drawing the field border. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="3832" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="3832" bodyend="3832"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_field_type_standard_1a81888f2c1866f16484164824ad23c08b" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="classwx_colour" kindref="compound">wxColour</ref> &amp;</type>
+        <definition>const wxColour&amp; wxRichTextFieldTypeStandard::GetBackgroundColour</definition>
+        <argsstring>() const</argsstring>
+        <name>GetBackgroundColour</name>
+        <briefdescription>
+<para>Gets the colour used for drawing the field background. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="3837" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="3837" bodyend="3837"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_field_type_standard_1a594473d1aaa7753c1716ed4ece318114" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxRichTextFieldTypeStandard::SetBackgroundColour</definition>
+        <argsstring>(const wxColour &amp;colour)</argsstring>
+        <name>SetBackgroundColour</name>
+        <param>
+          <type>const <ref refid="classwx_colour" kindref="compound">wxColour</ref> &amp;</type>
+          <declname>colour</declname>
+        </param>
+        <briefdescription>
+<para>Sets the colour used for drawing the field background. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="3842" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="3842" bodyend="3842"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_field_type_standard_1a4efe2e236201e3eed9bbcef289fcaa06" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxRichTextFieldTypeStandard::SetVerticalPadding</definition>
+        <argsstring>(int padding)</argsstring>
+        <name>SetVerticalPadding</name>
+        <param>
+          <type>int</type>
+          <declname>padding</declname>
+        </param>
+        <briefdescription>
+<para>Sets the vertical padding (the distance between the border and the text). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="3847" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="3847" bodyend="3847"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_field_type_standard_1a84e46fbc0aae56cafd0ba68f29621529" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int wxRichTextFieldTypeStandard::GetVerticalPadding</definition>
+        <argsstring>() const</argsstring>
+        <name>GetVerticalPadding</name>
+        <briefdescription>
+<para>Gets the vertical padding (the distance between the border and the text). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="3852" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="3852" bodyend="3852"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_field_type_standard_1a2633e35c474bf86670f3c749d55f2e1d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxRichTextFieldTypeStandard::SetHorizontalPadding</definition>
+        <argsstring>(int padding)</argsstring>
+        <name>SetHorizontalPadding</name>
+        <param>
+          <type>int</type>
+          <declname>padding</declname>
+        </param>
+        <briefdescription>
+<para>Sets the horizontal padding (the distance between the border and the text). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="3857" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="3857" bodyend="3857"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_field_type_standard_1a8a7f03bfce8107be138fcccc625876ac" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int wxRichTextFieldTypeStandard::GetHorizontalPadding</definition>
+        <argsstring>() const</argsstring>
+        <name>GetHorizontalPadding</name>
+        <briefdescription>
+<para>Sets the horizontal padding (the distance between the border and the text). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="3862" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="3862" bodyend="3862"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_field_type_standard_1a3809bc224096df6e3463fb32f1e6f826" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxRichTextFieldTypeStandard::SetHorizontalMargin</definition>
+        <argsstring>(int margin)</argsstring>
+        <name>SetHorizontalMargin</name>
+        <param>
+          <type>int</type>
+          <declname>margin</declname>
+        </param>
+        <briefdescription>
+<para>Sets the horizontal margin surrounding the field object. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="3867" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="3867" bodyend="3867"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_field_type_standard_1a6873e928742eca422fe5e64d866e1181" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int wxRichTextFieldTypeStandard::GetHorizontalMargin</definition>
+        <argsstring>() const</argsstring>
+        <name>GetHorizontalMargin</name>
+        <briefdescription>
+<para>Gets the horizontal margin surrounding the field object. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="3872" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="3872" bodyend="3872"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_field_type_standard_1a8fa1d92fd4749513d50f5dcf793864c3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxRichTextFieldTypeStandard::SetVerticalMargin</definition>
+        <argsstring>(int margin)</argsstring>
+        <name>SetVerticalMargin</name>
+        <param>
+          <type>int</type>
+          <declname>margin</declname>
+        </param>
+        <briefdescription>
+<para>Sets the vertical margin surrounding the field object. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="3877" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="3877" bodyend="3877"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_field_type_standard_1a615b699bcb74763d64dfca978c1562f4" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int wxRichTextFieldTypeStandard::GetVerticalMargin</definition>
+        <argsstring>() const</argsstring>
+        <name>GetVerticalMargin</name>
+        <briefdescription>
+<para>Gets the vertical margin surrounding the field object. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="3882" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="3882" bodyend="3882"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>A field type that can handle fields with text or bitmap labels, with a small range of styles for implementing rectangular fields and fields that can be used for start and end tags. </para>    </briefdescription>
+    <detaileddescription>
+<para>The border, text and background colours can be customised; the default is white text on a black background.</para><para>The following display styles can be used.</para><para><linebreak/>
+<heading level="2">Styles</heading>
+</para><para>This class supports the following styles:</para><para> <itemizedlist>
+<listitem><para>wxRICHTEXT_FIELD_STYLE_COMPOSITE: Creates a composite field; you will probably need to derive a new class to implement UpdateField. </para></listitem>
+<listitem><para>wxRICHTEXT_FIELD_STYLE_RECTANGLE: Shows a rounded rectangle background. </para></listitem>
+<listitem><para>wxRICHTEXT_FIELD_STYLE_NO_BORDER: Suppresses the background and border; mostly used with a bitmap label. </para></listitem>
+<listitem><para>wxRICHTEXT_FIELD_STYLE_START_TAG: Shows a start tag background, with the pointy end facing right. </para></listitem>
+<listitem><para>wxRICHTEXT_FIELD_STYLE_END_TAG: Shows an end tag background, with the pointy end facing left. <linebreak/>
+ <heading level="2"></heading>
+</para></listitem>
+</itemizedlist>
+Library:<nonbreakablespace/><nonbreakablespace/><ref refid="page_libs_1page_libs_wxrichtext" kindref="member">wxRichText</ref> &lt;&gt;&lt; =&apos;&apos;&gt;:&lt;/&gt;&amp;;&amp;;&lt; =&apos;&apos;&gt;\ &lt;/&gt;&lt;/&gt;</para><para><simplesect kind="see"><para><ref refid="classwx_rich_text_field_type" kindref="compound">wxRichTextFieldType</ref>, <ref refid="classwx_rich_text_field" kindref="compound">wxRichTextField</ref>, <ref refid="classwx_rich_text_buffer" kindref="compound">wxRichTextBuffer</ref>, <ref refid="classwx_rich_text_ctrl" kindref="compound">wxRichTextCtrl</ref> </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="6599">
+        <label>wxRichTextFieldType</label>
+        <link refid="classwx_rich_text_field_type"/>
+        <childnode refid="6600" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6600">
+        <label>wxObject</label>
+        <link refid="classwx_object"/>
+      </node>
+      <node id="6598">
+        <label>wxRichTextFieldTypeStandard</label>
+        <link refid="classwx_rich_text_field_type_standard"/>
+        <childnode refid="6599" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="6605">
+        <label>wxString</label>
+        <link refid="classwx_string"/>
+      </node>
+      <node id="6602">
+        <label>wxRichTextFieldType</label>
+        <link refid="classwx_rich_text_field_type"/>
+        <childnode refid="6603" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6605" relation="usage">
+          <edgelabel>m_name</edgelabel>
+        </childnode>
+      </node>
+      <node id="6603">
+        <label>wxObject</label>
+        <link refid="classwx_object"/>
+        <childnode refid="6604" relation="usage">
+          <edgelabel>m_refData</edgelabel>
+        </childnode>
+      </node>
+      <node id="6606">
+        <label>wxColour</label>
+        <link refid="classwx_colour"/>
+        <childnode refid="6603" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6607">
+        <label>wxBitmap</label>
+        <link refid="classwx_bitmap"/>
+        <childnode refid="6608" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6601">
+        <label>wxRichTextFieldTypeStandard</label>
+        <link refid="classwx_rich_text_field_type_standard"/>
+        <childnode refid="6602" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6606" relation="usage">
+          <edgelabel>m_backgroundColour</edgelabel>
+          <edgelabel>m_borderColour</edgelabel>
+          <edgelabel>m_textColour</edgelabel>
+        </childnode>
+        <childnode refid="6607" relation="usage">
+          <edgelabel>m_bitmap</edgelabel>
+        </childnode>
+        <childnode refid="6605" relation="usage">
+          <edgelabel>m_label</edgelabel>
+        </childnode>
+        <childnode refid="6609" relation="usage">
+          <edgelabel>m_font</edgelabel>
+        </childnode>
+      </node>
+      <node id="6608">
+        <label>wxGDIObject</label>
+        <link refid="classwx_g_d_i_object"/>
+        <childnode refid="6603" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6609">
+        <label>wxFont</label>
+        <link refid="classwx_font"/>
+        <childnode refid="6608" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6604">
+        <label>wxObjectRefData</label>
+        <link refid="classwx_object_ref_data"/>
+      </node>
+    </collaborationgraph>
+    <location file="interface/wx/richtext/richtextbuffer.h" line="3674" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="3673" bodyend="3897"/>
+    <listofallmembers>
+      <member refid="classwx_object_1a60204063f3cc3aa2fa1c7ff5bda9eb13" prot="protected" virt="non-virtual"><scope>wxRichTextFieldTypeStandard</scope><name>AllocExclusive</name></member>
+      <member refid="classwx_rich_text_field_type_1a35f43dfb867b7c8fdd8fea81269ee4c9" prot="public" virt="virtual"><scope>wxRichTextFieldTypeStandard</scope><name>CanEditProperties</name></member>
+      <member refid="classwx_object_1a436fc8fe68cf8a31000296d9cd3d2427" prot="protected" virt="virtual"><scope>wxRichTextFieldTypeStandard</scope><name>CloneRefData</name></member>
+      <member refid="classwx_rich_text_field_type_standard_1a4c24b014402571ddbd215b1ab7289cf2" prot="public" virt="non-virtual"><scope>wxRichTextFieldTypeStandard</scope><name>Copy</name></member>
+      <member refid="classwx_rich_text_field_type_1a66e1b96bb6c1fc4cd43e21fb55291544" prot="public" virt="non-virtual" ambiguityscope="wxRichTextFieldType::"><scope>wxRichTextFieldTypeStandard</scope><name>Copy</name></member>
+      <member refid="classwx_object_1a3f4f497c65cef611e121c41f21dd5ccc" prot="protected" virt="virtual"><scope>wxRichTextFieldTypeStandard</scope><name>CreateRefData</name></member>
+      <member refid="classwx_rich_text_field_type_standard_1ae3335c358bd5039df21d37b034fad5f5" prot="public" virt="virtual"><scope>wxRichTextFieldTypeStandard</scope><name>Draw</name></member>
+      <member refid="classwx_rich_text_field_type_1a7d29fe4fd0e0bf38c1998621711c036f" prot="public" virt="virtual"><scope>wxRichTextFieldTypeStandard</scope><name>EditProperties</name></member>
+      <member refid="classwx_rich_text_field_type_standard_1a81888f2c1866f16484164824ad23c08b" prot="public" virt="non-virtual"><scope>wxRichTextFieldTypeStandard</scope><name>GetBackgroundColour</name></member>
+      <member refid="classwx_rich_text_field_type_standard_1a61f1ea8f14e464a23456657a7bae544d" prot="public" virt="non-virtual"><scope>wxRichTextFieldTypeStandard</scope><name>GetBitmap</name></member>
+      <member refid="classwx_rich_text_field_type_standard_1ab7bd5e3c65b186655aebf605b0e1eee0" prot="public" virt="non-virtual"><scope>wxRichTextFieldTypeStandard</scope><name>GetBorderColour</name></member>
+      <member refid="classwx_object_1ae6d365f2556b26767ced8410c5e839d0" prot="public" virt="virtual"><scope>wxRichTextFieldTypeStandard</scope><name>GetClassInfo</name></member>
+      <member refid="classwx_rich_text_field_type_standard_1aa2f03dc46f3a7972f44ff28776db27f6" prot="public" virt="non-virtual"><scope>wxRichTextFieldTypeStandard</scope><name>GetDisplayStyle</name></member>
+      <member refid="classwx_rich_text_field_type_standard_1a66254a95398a875dfbd9c6ff56205975" prot="public" virt="non-virtual"><scope>wxRichTextFieldTypeStandard</scope><name>GetFont</name></member>
+      <member refid="classwx_rich_text_field_type_standard_1a6873e928742eca422fe5e64d866e1181" prot="public" virt="non-virtual"><scope>wxRichTextFieldTypeStandard</scope><name>GetHorizontalMargin</name></member>
+      <member refid="classwx_rich_text_field_type_standard_1a8a7f03bfce8107be138fcccc625876ac" prot="public" virt="non-virtual"><scope>wxRichTextFieldTypeStandard</scope><name>GetHorizontalPadding</name></member>
+      <member refid="classwx_rich_text_field_type_standard_1ae8a4176526e7f77b2836933613be2069" prot="public" virt="non-virtual"><scope>wxRichTextFieldTypeStandard</scope><name>GetLabel</name></member>
+      <member refid="classwx_rich_text_field_type_1a1d022b2a2222f0b127bf16626a1275b9" prot="public" virt="non-virtual"><scope>wxRichTextFieldTypeStandard</scope><name>GetName</name></member>
+      <member refid="classwx_rich_text_field_type_1a938eea34b941678679b1f5dee1c4103e" prot="public" virt="virtual"><scope>wxRichTextFieldTypeStandard</scope><name>GetPropertiesMenuLabel</name></member>
+      <member refid="classwx_rich_text_field_type_standard_1ac3e5c94503910db055011a3a673dbbdf" prot="public" virt="virtual"><scope>wxRichTextFieldTypeStandard</scope><name>GetRangeSize</name></member>
+      <member refid="classwx_object_1af3c6c76a775864832f1536d3c0de3a2b" prot="public" virt="non-virtual"><scope>wxRichTextFieldTypeStandard</scope><name>GetRefData</name></member>
+      <member refid="classwx_rich_text_field_type_standard_1a751fff1a19f99e3c76019ff89d14e425" prot="public" virt="non-virtual"><scope>wxRichTextFieldTypeStandard</scope><name>GetSize</name></member>
+      <member refid="classwx_rich_text_field_type_standard_1a49edabe313a0e513d4454bf3625d9b87" prot="public" virt="non-virtual"><scope>wxRichTextFieldTypeStandard</scope><name>GetTextColour</name></member>
+      <member refid="classwx_rich_text_field_type_standard_1a615b699bcb74763d64dfca978c1562f4" prot="public" virt="non-virtual"><scope>wxRichTextFieldTypeStandard</scope><name>GetVerticalMargin</name></member>
+      <member refid="classwx_rich_text_field_type_standard_1a84e46fbc0aae56cafd0ba68f29621529" prot="public" virt="non-virtual"><scope>wxRichTextFieldTypeStandard</scope><name>GetVerticalPadding</name></member>
+      <member refid="classwx_rich_text_field_type_standard_1ae62337bb14adae88c0e2dd2f4074947f" prot="public" virt="non-virtual"><scope>wxRichTextFieldTypeStandard</scope><name>Init</name></member>
+      <member refid="classwx_object_1a3c7115ef4132dcee0c4fc34e84d7fced" prot="public" virt="non-virtual"><scope>wxRichTextFieldTypeStandard</scope><name>IsKindOf</name></member>
+      <member refid="classwx_object_1a059373c494c2369d7db2a556efef8ecf" prot="public" virt="non-virtual"><scope>wxRichTextFieldTypeStandard</scope><name>IsSameAs</name></member>
+      <member refid="classwx_rich_text_field_type_standard_1aac8d65c98be57fcd42f862ec3d01e8ff" prot="public" virt="virtual"><scope>wxRichTextFieldTypeStandard</scope><name>IsTopLevel</name></member>
+      <member refid="classwx_rich_text_field_type_standard_1a95e373a021bb9481f5f38fbaa6588a85" prot="public" virt="virtual"><scope>wxRichTextFieldTypeStandard</scope><name>Layout</name></member>
+      <member refid="classwx_rich_text_field_type_standard_1a7f249742d51d9485a69e88872c9069a6" prot="protected" virt="non-virtual"><scope>wxRichTextFieldTypeStandard</scope><name>m_backgroundColour</name></member>
+      <member refid="classwx_rich_text_field_type_standard_1a6fcaf8627af27aafacd338935a217f02" prot="protected" virt="non-virtual"><scope>wxRichTextFieldTypeStandard</scope><name>m_bitmap</name></member>
+      <member refid="classwx_rich_text_field_type_standard_1af539099782e061da84a300f46f88dd88" prot="protected" virt="non-virtual"><scope>wxRichTextFieldTypeStandard</scope><name>m_borderColour</name></member>
+      <member refid="classwx_rich_text_field_type_standard_1a3a0e923fde245f367a6ebe1f6192fbc2" prot="protected" virt="non-virtual"><scope>wxRichTextFieldTypeStandard</scope><name>m_displayStyle</name></member>
+      <member refid="classwx_rich_text_field_type_standard_1a6dc2439d51f15d322b8db010e8c1f21b" prot="protected" virt="non-virtual"><scope>wxRichTextFieldTypeStandard</scope><name>m_font</name></member>
+      <member refid="classwx_rich_text_field_type_standard_1a1ccd50c19cdb0fd68e7c0cec317b6f0a" prot="protected" virt="non-virtual"><scope>wxRichTextFieldTypeStandard</scope><name>m_horizontalMargin</name></member>
+      <member refid="classwx_rich_text_field_type_standard_1a4dc3f6622834e459e93e969cad0115e5" prot="protected" virt="non-virtual"><scope>wxRichTextFieldTypeStandard</scope><name>m_horizontalPadding</name></member>
+      <member refid="classwx_rich_text_field_type_standard_1a1fdba8c45ee95e31f28749e581e26a5e" prot="protected" virt="non-virtual"><scope>wxRichTextFieldTypeStandard</scope><name>m_label</name></member>
+      <member refid="classwx_rich_text_field_type_1a3a87412ecadb4ff16e7e5c5ff2d1b4cf" prot="protected" virt="non-virtual"><scope>wxRichTextFieldTypeStandard</scope><name>m_name</name></member>
+      <member refid="classwx_object_1a9e31954530a0abd54982effc443ed2b8" prot="protected" virt="non-virtual"><scope>wxRichTextFieldTypeStandard</scope><name>m_refData</name></member>
+      <member refid="classwx_rich_text_field_type_standard_1ac84527079d73cbfe166328d7d8ed57f7" prot="protected" virt="non-virtual"><scope>wxRichTextFieldTypeStandard</scope><name>m_textColour</name></member>
+      <member refid="classwx_rich_text_field_type_standard_1a02775c1e65e0b143999543c1a7b15d20" prot="protected" virt="non-virtual"><scope>wxRichTextFieldTypeStandard</scope><name>m_verticalMargin</name></member>
+      <member refid="classwx_rich_text_field_type_standard_1a0431a40933aab2b7039c66074f27b880" prot="protected" virt="non-virtual"><scope>wxRichTextFieldTypeStandard</scope><name>m_verticalPadding</name></member>
+      <member refid="classwx_object_1a07b8f34f5afc5743195c5fed052f55d3" prot="public" virt="non-virtual"><scope>wxRichTextFieldTypeStandard</scope><name>operator delete</name></member>
+      <member refid="classwx_object_1a96fa423a1dbc212c8227a5d83825971f" prot="public" virt="non-virtual"><scope>wxRichTextFieldTypeStandard</scope><name>operator new</name></member>
+      <member refid="classwx_rich_text_field_type_standard_1a096331f8f7add7927bdd3939fcf32e57" prot="public" virt="non-virtual"><scope>wxRichTextFieldTypeStandard</scope><name>operator=</name></member>
+      <member refid="classwx_object_1a2f6f1aa51fe9fc2b1415ca4211a90e9e" prot="public" virt="non-virtual"><scope>wxRichTextFieldTypeStandard</scope><name>Ref</name></member>
+      <member refid="classwx_rich_text_field_type_standard_1a594473d1aaa7753c1716ed4ece318114" prot="public" virt="non-virtual"><scope>wxRichTextFieldTypeStandard</scope><name>SetBackgroundColour</name></member>
+      <member refid="classwx_rich_text_field_type_standard_1a87c185c1a0cc7c194ccfe987da491be8" prot="public" virt="non-virtual"><scope>wxRichTextFieldTypeStandard</scope><name>SetBitmap</name></member>
+      <member refid="classwx_rich_text_field_type_standard_1ade67b17541a5cb50369e85d559f3272a" prot="public" virt="non-virtual"><scope>wxRichTextFieldTypeStandard</scope><name>SetBorderColour</name></member>
+      <member refid="classwx_rich_text_field_type_standard_1a762975d841a8054f55253f4a040b5959" prot="public" virt="non-virtual"><scope>wxRichTextFieldTypeStandard</scope><name>SetDisplayStyle</name></member>
+      <member refid="classwx_rich_text_field_type_standard_1a74f2afcb9426b0ae4e296e2e0dd25b61" prot="public" virt="non-virtual"><scope>wxRichTextFieldTypeStandard</scope><name>SetFont</name></member>
+      <member refid="classwx_rich_text_field_type_standard_1a3809bc224096df6e3463fb32f1e6f826" prot="public" virt="non-virtual"><scope>wxRichTextFieldTypeStandard</scope><name>SetHorizontalMargin</name></member>
+      <member refid="classwx_rich_text_field_type_standard_1a2633e35c474bf86670f3c749d55f2e1d" prot="public" virt="non-virtual"><scope>wxRichTextFieldTypeStandard</scope><name>SetHorizontalPadding</name></member>
+      <member refid="classwx_rich_text_field_type_standard_1a845f739a35d6fe9e4f0988f33498aad1" prot="public" virt="non-virtual"><scope>wxRichTextFieldTypeStandard</scope><name>SetLabel</name></member>
+      <member refid="classwx_rich_text_field_type_1ac262078a04c98149b4e4277384a608c4" prot="public" virt="non-virtual"><scope>wxRichTextFieldTypeStandard</scope><name>SetName</name></member>
+      <member refid="classwx_object_1afab780710f2adc1bb33310e27590140b" prot="public" virt="non-virtual"><scope>wxRichTextFieldTypeStandard</scope><name>SetRefData</name></member>
+      <member refid="classwx_rich_text_field_type_standard_1ac9534c9aa9e9686a7694dfc5078fc05b" prot="public" virt="non-virtual"><scope>wxRichTextFieldTypeStandard</scope><name>SetTextColour</name></member>
+      <member refid="classwx_rich_text_field_type_standard_1a8fa1d92fd4749513d50f5dcf793864c3" prot="public" virt="non-virtual"><scope>wxRichTextFieldTypeStandard</scope><name>SetVerticalMargin</name></member>
+      <member refid="classwx_rich_text_field_type_standard_1a4efe2e236201e3eed9bbcef289fcaa06" prot="public" virt="non-virtual"><scope>wxRichTextFieldTypeStandard</scope><name>SetVerticalPadding</name></member>
+      <member refid="classwx_object_1af51efc6b1ae632fc7f0cd7ebbce9fa36" prot="public" virt="non-virtual"><scope>wxRichTextFieldTypeStandard</scope><name>UnRef</name></member>
+      <member refid="classwx_object_1a74b40e42d19a4b9e9bec0b57d62a5725" prot="public" virt="non-virtual"><scope>wxRichTextFieldTypeStandard</scope><name>UnShare</name></member>
+      <member refid="classwx_rich_text_field_type_1af2fea4621d5c0d6ef151a7674a7810fd" prot="public" virt="virtual"><scope>wxRichTextFieldTypeStandard</scope><name>UpdateField</name></member>
+      <member refid="classwx_object_1acaa378363a28af421ab56ad7b46eadf0" prot="public" virt="non-virtual"><scope>wxRichTextFieldTypeStandard</scope><name>wxObject</name></member>
+      <member refid="classwx_object_1a4721b4dc9b7aff0f30904ba2ea3954cf" prot="public" virt="non-virtual"><scope>wxRichTextFieldTypeStandard</scope><name>wxObject</name></member>
+      <member refid="classwx_rich_text_field_type_standard_1a08318d2e9f8e911974ca47133407c848a2a9f776db9001cd1cb9a47aa497d1dab" prot="public" virt="non-virtual"><scope>wxRichTextFieldTypeStandard</scope><name>wxRICHTEXT_FIELD_STYLE_COMPOSITE</name></member>
+      <member refid="classwx_rich_text_field_type_standard_1a08318d2e9f8e911974ca47133407c848a651330e2b0f66e9ddb54a91a5301d116" prot="public" virt="non-virtual"><scope>wxRichTextFieldTypeStandard</scope><name>wxRICHTEXT_FIELD_STYLE_END_TAG</name></member>
+      <member refid="classwx_rich_text_field_type_standard_1a08318d2e9f8e911974ca47133407c848abea5d718c131acf43bb926da959ca289" prot="public" virt="non-virtual"><scope>wxRichTextFieldTypeStandard</scope><name>wxRICHTEXT_FIELD_STYLE_NO_BORDER</name></member>
+      <member refid="classwx_rich_text_field_type_standard_1a08318d2e9f8e911974ca47133407c848aa2744f0e4fb2a40d1de128033e5bc725" prot="public" virt="non-virtual"><scope>wxRichTextFieldTypeStandard</scope><name>wxRICHTEXT_FIELD_STYLE_RECTANGLE</name></member>
+      <member refid="classwx_rich_text_field_type_standard_1a08318d2e9f8e911974ca47133407c848a2d7097b5c8e59e7ca97f7d44aeaed056" prot="public" virt="non-virtual"><scope>wxRichTextFieldTypeStandard</scope><name>wxRICHTEXT_FIELD_STYLE_START_TAG</name></member>
+      <member refid="classwx_rich_text_field_type_1af9ef1e01ba8dc7db1b55e68dc0c8fa40" prot="public" virt="non-virtual"><scope>wxRichTextFieldTypeStandard</scope><name>wxRichTextFieldType</name></member>
+      <member refid="classwx_rich_text_field_type_1aa75abc9c880c0f1a3a43763edbb3a913" prot="public" virt="non-virtual"><scope>wxRichTextFieldTypeStandard</scope><name>wxRichTextFieldType</name></member>
+      <member refid="classwx_rich_text_field_type_standard_1a4f1355b5e03cbec183514932ec292cb6" prot="public" virt="non-virtual"><scope>wxRichTextFieldTypeStandard</scope><name>wxRichTextFieldTypeStandard</name></member>
+      <member refid="classwx_rich_text_field_type_standard_1a97612ea4d91efb7bc5136b9ef4539d9d" prot="public" virt="non-virtual"><scope>wxRichTextFieldTypeStandard</scope><name>wxRichTextFieldTypeStandard</name></member>
+      <member refid="classwx_rich_text_field_type_standard_1acbdc1c3314a5fd003307205d651b2938" prot="public" virt="non-virtual"><scope>wxRichTextFieldTypeStandard</scope><name>wxRichTextFieldTypeStandard</name></member>
+      <member refid="classwx_rich_text_field_type_standard_1a96d22907026e53cc24b10aecd9c10079" prot="public" virt="non-virtual"><scope>wxRichTextFieldTypeStandard</scope><name>wxRichTextFieldTypeStandard</name></member>
+      <member refid="classwx_object_1a2a51aa8bfbab47ca2f051bcf84b3f35b" prot="public" virt="virtual"><scope>wxRichTextFieldTypeStandard</scope><name>~wxObject</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

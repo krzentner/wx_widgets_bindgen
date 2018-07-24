@@ -1,0 +1,174 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_transform2_d" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>wxTransform2D</compoundname>
+    <includes local="no">wx/geometry.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classwx_transform2_d_1ab37940d8e70be8097c72cfba453c1e6f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual wxTransform2D::~wxTransform2D</definition>
+        <argsstring>()</argsstring>
+        <name>~wxTransform2D</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/geometry.h" line="318" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_transform2_d_1a40161861f1c3e167fb65ba364695690d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void wxTransform2D::Transform</definition>
+        <argsstring>(wxPoint2DInt *pt) const =0</argsstring>
+        <name>Transform</name>
+        <param>
+          <type><ref refid="classwx_point2_d_int" kindref="compound">wxPoint2DInt</ref> *</type>
+          <declname>pt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/geometry.h" line="319" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_transform2_d_1ab026b891e8e75f876c5f295ff20e2ac6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void wxTransform2D::Transform</definition>
+        <argsstring>(wxRect2DInt *r) const</argsstring>
+        <name>Transform</name>
+        <param>
+          <type><ref refid="classwx_rect2_d_int" kindref="compound">wxRect2DInt</ref> *</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/geometry.h" line="320" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_transform2_d_1ad18dff211d24482221f8ba3b6dc51869" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="classwx_point2_d_int" kindref="compound">wxPoint2DInt</ref></type>
+        <definition>virtual wxPoint2DInt wxTransform2D::Transform</definition>
+        <argsstring>(const wxPoint2DInt &amp;pt) const</argsstring>
+        <name>Transform</name>
+        <param>
+          <type>const <ref refid="classwx_point2_d_int" kindref="compound">wxPoint2DInt</ref> &amp;</type>
+          <declname>pt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/geometry.h" line="321" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_transform2_d_1a314a0625dd93586a687409e41fbdedb3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="classwx_rect2_d_int" kindref="compound">wxRect2DInt</ref></type>
+        <definition>virtual wxRect2DInt wxTransform2D::Transform</definition>
+        <argsstring>(const wxRect2DInt &amp;r) const</argsstring>
+        <name>Transform</name>
+        <param>
+          <type>const <ref refid="classwx_rect2_d_int" kindref="compound">wxRect2DInt</ref> &amp;</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/geometry.h" line="322" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_transform2_d_1a8acf21aa854f564e1330d83bb0ebae93" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void wxTransform2D::InverseTransform</definition>
+        <argsstring>(wxPoint2DInt *pt) const =0</argsstring>
+        <name>InverseTransform</name>
+        <param>
+          <type><ref refid="classwx_point2_d_int" kindref="compound">wxPoint2DInt</ref> *</type>
+          <declname>pt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/geometry.h" line="324" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_transform2_d_1a7c2fe2036fa21970bffe056497c6bcd9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void wxTransform2D::InverseTransform</definition>
+        <argsstring>(wxRect2DInt *r) const</argsstring>
+        <name>InverseTransform</name>
+        <param>
+          <type><ref refid="classwx_rect2_d_int" kindref="compound">wxRect2DInt</ref> *</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/geometry.h" line="325" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_transform2_d_1a05f97117b1fa8c21232248440964c1a7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="classwx_point2_d_int" kindref="compound">wxPoint2DInt</ref></type>
+        <definition>virtual wxPoint2DInt wxTransform2D::InverseTransform</definition>
+        <argsstring>(const wxPoint2DInt &amp;pt) const</argsstring>
+        <name>InverseTransform</name>
+        <param>
+          <type>const <ref refid="classwx_point2_d_int" kindref="compound">wxPoint2DInt</ref> &amp;</type>
+          <declname>pt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/geometry.h" line="326" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_transform2_d_1afd3d1d60350a2f721f067e10a4521a4b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="classwx_rect2_d_int" kindref="compound">wxRect2DInt</ref></type>
+        <definition>virtual wxRect2DInt wxTransform2D::InverseTransform</definition>
+        <argsstring>(const wxRect2DInt &amp;r) const</argsstring>
+        <name>InverseTransform</name>
+        <param>
+          <type>const <ref refid="classwx_rect2_d_int" kindref="compound">wxRect2DInt</ref> &amp;</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/geometry.h" line="327" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="interface/wx/geometry.h" line="316" column="1" bodyfile="interface/wx/geometry.h" bodystart="315" bodyend="328"/>
+    <listofallmembers>
+      <member refid="classwx_transform2_d_1a8acf21aa854f564e1330d83bb0ebae93" prot="public" virt="pure-virtual"><scope>wxTransform2D</scope><name>InverseTransform</name></member>
+      <member refid="classwx_transform2_d_1a7c2fe2036fa21970bffe056497c6bcd9" prot="public" virt="virtual"><scope>wxTransform2D</scope><name>InverseTransform</name></member>
+      <member refid="classwx_transform2_d_1a05f97117b1fa8c21232248440964c1a7" prot="public" virt="virtual"><scope>wxTransform2D</scope><name>InverseTransform</name></member>
+      <member refid="classwx_transform2_d_1afd3d1d60350a2f721f067e10a4521a4b" prot="public" virt="virtual"><scope>wxTransform2D</scope><name>InverseTransform</name></member>
+      <member refid="classwx_transform2_d_1a40161861f1c3e167fb65ba364695690d" prot="public" virt="pure-virtual"><scope>wxTransform2D</scope><name>Transform</name></member>
+      <member refid="classwx_transform2_d_1ab026b891e8e75f876c5f295ff20e2ac6" prot="public" virt="virtual"><scope>wxTransform2D</scope><name>Transform</name></member>
+      <member refid="classwx_transform2_d_1ad18dff211d24482221f8ba3b6dc51869" prot="public" virt="virtual"><scope>wxTransform2D</scope><name>Transform</name></member>
+      <member refid="classwx_transform2_d_1a314a0625dd93586a687409e41fbdedb3" prot="public" virt="virtual"><scope>wxTransform2D</scope><name>Transform</name></member>
+      <member refid="classwx_transform2_d_1ab37940d8e70be8097c72cfba453c1e6f" prot="public" virt="virtual"><scope>wxTransform2D</scope><name>~wxTransform2D</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

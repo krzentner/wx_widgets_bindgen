@@ -1,0 +1,208 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_window_ptr_3_01_t_01_4" kind="class" language="C++" prot="public">
+    <compoundname>wxWindowPtr&lt; T &gt;</compoundname>
+    <basecompoundref refid="classwx_shared_ptr_3_01_t_01_4" prot="public" virt="non-virtual">wxSharedPtr&lt; T &gt;</basecompoundref>
+    <includes local="no">wx/windowptr.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classwx_window_ptr_3_01_t_01_4_1a311dd4020b4a0c8645232f4f8b9d012d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxWindowPtr&lt; T &gt;::wxWindowPtr</definition>
+        <argsstring>()</argsstring>
+        <name>wxWindowPtr</name>
+        <briefdescription>
+<para>Default constructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/windowptr.h" line="32" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_window_ptr_3_01_t_01_4_1a55555005f4e310cc41cbbeb4816e2385" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxWindowPtr&lt; T &gt;::wxWindowPtr</definition>
+        <argsstring>(T *ptr)</argsstring>
+        <name>wxWindowPtr</name>
+        <param>
+          <type>T *</type>
+          <declname>ptr</declname>
+        </param>
+        <briefdescription>
+<para>Constructor. </para>        </briefdescription>
+        <detaileddescription>
+<para>Creates shared pointer from the raw pointer <emphasis>ptr</emphasis> and takes ownership of it. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/windowptr.h" line="40" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_window_ptr_3_01_t_01_4_1ae209fe5186da732f3f37f81ec84c3412" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Deleter</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>wxWindowPtr&lt; T &gt;::wxWindowPtr</definition>
+        <argsstring>(T *ptr, Deleter d)</argsstring>
+        <name>wxWindowPtr</name>
+        <param>
+          <type>T *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>Deleter</type>
+          <declname>d</declname>
+        </param>
+        <briefdescription>
+<para>Constructor. </para>        </briefdescription>
+        <detaileddescription>
+<para>Creates shared pointer from the raw pointer <emphasis>ptr</emphasis> and deleter <emphasis>d</emphasis> and takes ownership of it.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ptr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The raw pointer. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>d</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Deleter - a functor that is called instead of delete to free the <emphasis>ptr</emphasis> raw pointer when its reference count drops to zero. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/windowptr.h" line="55" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_window_ptr_3_01_t_01_4_1a40ccbc523119082f4f88c3bb0fea8eaa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxWindowPtr&lt; T &gt;::wxWindowPtr</definition>
+        <argsstring>(const wxWindowPtr&lt; T &gt; &amp;tocopy)</argsstring>
+        <name>wxWindowPtr</name>
+        <param>
+          <type>const wxWindowPtr&lt; T &gt; &amp;</type>
+          <declname>tocopy</declname>
+        </param>
+        <briefdescription>
+<para>Copy constructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/windowptr.h" line="58" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_window_ptr_3_01_t_01_4_1abbd51ca40141a366df792588d70df8ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_window_ptr_3_01_t_01_4_1a311dd4020b4a0c8645232f4f8b9d012d" kindref="member">wxWindowPtr</ref>&lt; T &gt; &amp;</type>
+        <definition>wxWindowPtr&lt;T&gt;&amp; wxWindowPtr&lt; T &gt;::operator=</definition>
+        <argsstring>(T *ptr)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>T *</type>
+          <declname>ptr</declname>
+        </param>
+        <briefdescription>
+<para>Assignment operator. </para>        </briefdescription>
+        <detaileddescription>
+<para>Releases any previously held pointer and creates a reference to <emphasis>ptr</emphasis>. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/windowptr.h" line="65" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_window_ptr_3_01_t_01_4_1afd6e4a2a6e8eea5f9af1f5bdf98810b9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_window_ptr_3_01_t_01_4_1a311dd4020b4a0c8645232f4f8b9d012d" kindref="member">wxWindowPtr</ref>&lt; T &gt; &amp;</type>
+        <definition>wxWindowPtr&lt;T&gt;&amp; wxWindowPtr&lt; T &gt;::operator=</definition>
+        <argsstring>(const wxWindowPtr&lt; T &gt; &amp;tocopy)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="classwx_window_ptr_3_01_t_01_4_1a311dd4020b4a0c8645232f4f8b9d012d" kindref="member">wxWindowPtr</ref>&lt; T &gt; &amp;</type>
+          <declname>tocopy</declname>
+        </param>
+        <briefdescription>
+<para>Assignment operator. </para>        </briefdescription>
+        <detaileddescription>
+<para>Releases any previously held pointer and creates a reference to the same object as <emphasis>topcopy</emphasis>. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/windowptr.h" line="73" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_window_ptr_3_01_t_01_4_1a75da53ca2fc0654de4b12947b292621e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxWindowPtr&lt; T &gt;::reset</definition>
+        <argsstring>(T *ptr=NULL)</argsstring>
+        <name>reset</name>
+        <param>
+          <type>T *</type>
+          <declname>ptr</declname>
+          <defval>NULL</defval>
+        </param>
+        <briefdescription>
+<para>Reset pointer to <emphasis>ptr</emphasis>. </para>        </briefdescription>
+        <detaileddescription>
+<para>If the reference count of the previously owned pointer was 1 it will be deleted. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/windowptr.h" line="80" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>A reference-counted smart pointer for holding <ref refid="classwx_window" kindref="compound">wxWindow</ref> instances. </para>    </briefdescription>
+    <detaileddescription>
+<para>This specialization of <ref refid="classwx_shared_ptr_3_01_t_01_4" kindref="compound">wxSharedPtr&lt;T&gt;</ref> is useful for holding wxWindow-derived objects. Unlike <ref refid="classwx_shared_ptr_3_01_t_01_4" kindref="compound">wxSharedPtr&lt;T&gt;</ref> or <computeroutput>std::shared_ptr&lt;&gt;</computeroutput>, it doesn&apos;t use the delete operator to destroy the value when reference count drops to zero, but calls <ref refid="classwx_window_1a6bf0c5be864544d9ce0560087667b7fc" kindref="member">wxWindow::Destroy()</ref> to safely destroy the window.</para><para>The template parameter T must be <ref refid="classwx_window" kindref="compound">wxWindow</ref> or a class derived from it.</para><para><heading level="2"></heading>
+</para><para>Library:<nonbreakablespace/><nonbreakablespace/><ref refid="page_libs_1page_libs_wxcore" kindref="member">wxCore</ref> &lt;&gt;&lt; =&apos;&apos;&gt;:&lt;/&gt;&amp;;&amp;;&lt; =&apos;&apos;&gt;\ &lt;/&gt;&lt;/&gt;</para><para><simplesect kind="since"><para>3.0</para></simplesect>
+<simplesect kind="see"><para><ref refid="classwx_shared_ptr_3_01_t_01_4" kindref="compound">wxSharedPtr&lt;T&gt;</ref> </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="8867">
+        <label>wxWindowPtr&lt; T &gt;</label>
+        <link refid="classwx_window_ptr_3_01_t_01_4"/>
+        <childnode refid="8868" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8868">
+        <label>wxSharedPtr&lt; T &gt;</label>
+        <link refid="classwx_shared_ptr_3_01_t_01_4"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="8869">
+        <label>wxWindowPtr&lt; T &gt;</label>
+        <link refid="classwx_window_ptr_3_01_t_01_4"/>
+        <childnode refid="8870" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8870">
+        <label>wxSharedPtr&lt; T &gt;</label>
+        <link refid="classwx_shared_ptr_3_01_t_01_4"/>
+      </node>
+    </collaborationgraph>
+    <location file="interface/wx/windowptr.h" line="29" column="1" bodyfile="interface/wx/windowptr.h" bodystart="28" bodyend="81"/>
+    <listofallmembers>
+      <member refid="classwx_shared_ptr_3_01_t_01_4_1a7c58d9a509c0395fe8f7cd695b88c95f" prot="public" virt="non-virtual"><scope>wxWindowPtr&lt; T &gt;</scope><name>get</name></member>
+      <member refid="classwx_shared_ptr_3_01_t_01_4_1a632c2a5470709400a583d8234348219e" prot="public" virt="non-virtual"><scope>wxWindowPtr&lt; T &gt;</scope><name>operator unspecified_bool_type</name></member>
+      <member refid="classwx_shared_ptr_3_01_t_01_4_1acf67c3c567e828fd2e346e94d0a56a8c" prot="public" virt="non-virtual"><scope>wxWindowPtr&lt; T &gt;</scope><name>operator*</name></member>
+      <member refid="classwx_shared_ptr_3_01_t_01_4_1afa603f1e7cfe0ba156c915f7b4c47dcb" prot="public" virt="non-virtual"><scope>wxWindowPtr&lt; T &gt;</scope><name>operator-&gt;</name></member>
+      <member refid="classwx_window_ptr_3_01_t_01_4_1abbd51ca40141a366df792588d70df8ab" prot="public" virt="non-virtual"><scope>wxWindowPtr&lt; T &gt;</scope><name>operator=</name></member>
+      <member refid="classwx_window_ptr_3_01_t_01_4_1afd6e4a2a6e8eea5f9af1f5bdf98810b9" prot="public" virt="non-virtual"><scope>wxWindowPtr&lt; T &gt;</scope><name>operator=</name></member>
+      <member refid="classwx_shared_ptr_3_01_t_01_4_1a2843bd42c7d37447d1d27f0507030ef7" prot="public" virt="non-virtual" ambiguityscope="wxSharedPtr&lt; T &gt;::"><scope>wxWindowPtr&lt; T &gt;</scope><name>operator=</name></member>
+      <member refid="classwx_window_ptr_3_01_t_01_4_1a75da53ca2fc0654de4b12947b292621e" prot="public" virt="non-virtual"><scope>wxWindowPtr&lt; T &gt;</scope><name>reset</name></member>
+      <member refid="classwx_shared_ptr_3_01_t_01_4_1a0df7cfc42b669c556abc5e13b0e1268c" prot="public" virt="non-virtual" ambiguityscope="wxSharedPtr&lt; T &gt;::"><scope>wxWindowPtr&lt; T &gt;</scope><name>reset</name></member>
+      <member refid="classwx_shared_ptr_3_01_t_01_4_1af5c2de1ffb3c185c824634ccc4b234ea" prot="public" virt="non-virtual"><scope>wxWindowPtr&lt; T &gt;</scope><name>unique</name></member>
+      <member refid="classwx_shared_ptr_3_01_t_01_4_1ad00ad44cfa237d03d922584ac56cba6e" prot="public" virt="non-virtual"><scope>wxWindowPtr&lt; T &gt;</scope><name>use_count</name></member>
+      <member refid="classwx_shared_ptr_3_01_t_01_4_1ab9a0d5e0d4ae27b41b0e59727a9fd2d0" prot="public" virt="non-virtual"><scope>wxWindowPtr&lt; T &gt;</scope><name>wxSharedPtr</name></member>
+      <member refid="classwx_shared_ptr_3_01_t_01_4_1a54dbe86d9b90d2330c4b364736acf6d8" prot="public" virt="non-virtual"><scope>wxWindowPtr&lt; T &gt;</scope><name>wxSharedPtr</name></member>
+      <member refid="classwx_shared_ptr_3_01_t_01_4_1a78b7860f505470d2d954d33d76bf2372" prot="public" virt="non-virtual"><scope>wxWindowPtr&lt; T &gt;</scope><name>wxSharedPtr</name></member>
+      <member refid="classwx_window_ptr_3_01_t_01_4_1a311dd4020b4a0c8645232f4f8b9d012d" prot="public" virt="non-virtual"><scope>wxWindowPtr&lt; T &gt;</scope><name>wxWindowPtr</name></member>
+      <member refid="classwx_window_ptr_3_01_t_01_4_1a55555005f4e310cc41cbbeb4816e2385" prot="public" virt="non-virtual"><scope>wxWindowPtr&lt; T &gt;</scope><name>wxWindowPtr</name></member>
+      <member refid="classwx_window_ptr_3_01_t_01_4_1ae209fe5186da732f3f37f81ec84c3412" prot="public" virt="non-virtual"><scope>wxWindowPtr&lt; T &gt;</scope><name>wxWindowPtr</name></member>
+      <member refid="classwx_window_ptr_3_01_t_01_4_1a40ccbc523119082f4f88c3bb0fea8eaa" prot="public" virt="non-virtual"><scope>wxWindowPtr&lt; T &gt;</scope><name>wxWindowPtr</name></member>
+      <member refid="classwx_shared_ptr_3_01_t_01_4_1a0b5939721f372f5f8f80113b81006a7e" prot="public" virt="non-virtual"><scope>wxWindowPtr&lt; T &gt;</scope><name>~wxSharedPtr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

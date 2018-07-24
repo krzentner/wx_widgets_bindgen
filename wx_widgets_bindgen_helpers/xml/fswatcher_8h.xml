@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="fswatcher_8h" kind="file" language="C++">
+    <compoundname>fswatcher.h</compoundname>
+    <innerclass refid="classwx_file_system_watcher" prot="public">wxFileSystemWatcher</innerclass>
+    <innerclass refid="classwx_file_system_watcher_event" prot="public">wxFileSystemWatcherEvent</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="fswatcher_8h_1a4fe91d0a725cc933b1a59d03e116acd9" prot="public" static="no" strong="no">
+        <type></type>
+        <name>wxFSWFlags</name>
+        <enumvalue id="fswatcher_8h_1a4fe91d0a725cc933b1a59d03e116acd9ab212f3498f33764219ec90b48590bbe1" prot="public">
+          <name>wxFSW_EVENT_CREATE</name>
+          <initializer>= 0x01</initializer>
+          <briefdescription>
+<para>File or directory was created. </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="fswatcher_8h_1a4fe91d0a725cc933b1a59d03e116acd9a2216ab7a155dbd9d711a82c7eaa2dc51" prot="public">
+          <name>wxFSW_EVENT_DELETE</name>
+          <initializer>= 0x02</initializer>
+          <briefdescription>
+<para>File or directory was deleted. </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="fswatcher_8h_1a4fe91d0a725cc933b1a59d03e116acd9a5b29da9d412d125f511cb1620f078c19" prot="public">
+          <name>wxFSW_EVENT_RENAME</name>
+          <initializer>= 0x04</initializer>
+          <briefdescription>
+<para>File or directory was renamed. </para>          </briefdescription>
+          <detaileddescription>
+<para>Notice that under MSW this event is sometimes <ndash/> although not always <ndash/> followed by a <ref refid="fswatcher_8h_1a4fe91d0a725cc933b1a59d03e116acd9ab752d1b54c3e1f358ad11675fc47dcb5" kindref="member">wxFSW_EVENT_MODIFY</ref> for the new file.</para><para>Under OS X this event is currently not detected and instead separate <ref refid="fswatcher_8h_1a4fe91d0a725cc933b1a59d03e116acd9ab212f3498f33764219ec90b48590bbe1" kindref="member">wxFSW_EVENT_CREATE</ref> and <ref refid="fswatcher_8h_1a4fe91d0a725cc933b1a59d03e116acd9a2216ab7a155dbd9d711a82c7eaa2dc51" kindref="member">wxFSW_EVENT_DELETE</ref> events are. </para>          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="fswatcher_8h_1a4fe91d0a725cc933b1a59d03e116acd9ab752d1b54c3e1f358ad11675fc47dcb5" prot="public">
+          <name>wxFSW_EVENT_MODIFY</name>
+          <initializer>= 0x08</initializer>
+          <briefdescription>
+<para>File or directory was modified. </para>          </briefdescription>
+          <detaileddescription>
+<para>Depending on the program doing the file modification, multiple such events can be reported for a single logical file update.</para><para>Under OS X this event is currently not detected. </para>          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="fswatcher_8h_1a4fe91d0a725cc933b1a59d03e116acd9a9ef08877ce6256aedccc58ec69f6a463" prot="public">
+          <name>wxFSW_EVENT_ACCESS</name>
+          <initializer>= 0x10</initializer>
+          <briefdescription>
+<para>File or directory was accessed. </para>          </briefdescription>
+          <detaileddescription>
+<para>This event is currently only detected under Linux. </para>          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="fswatcher_8h_1a4fe91d0a725cc933b1a59d03e116acd9ab280685fb38379242ddffdbc85c8a717" prot="public">
+          <name>wxFSW_EVENT_ATTRIB</name>
+          <initializer>= 0x20</initializer>
+          <briefdescription>
+<para>The item&apos;s metadata was changed, e.g. its permissions or timestamps. </para>          </briefdescription>
+          <detaileddescription>
+<para>This event is currently only detected under Linux.</para><para><simplesect kind="since"><para>2.9.5 </para></simplesect>
+</para>          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="fswatcher_8h_1a4fe91d0a725cc933b1a59d03e116acd9abbe1f788fd5bd7d2ab682b590da0b54e" prot="public">
+          <name>wxFSW_EVENT_UNMOUNT</name>
+          <initializer>= 0x2000</initializer>
+          <briefdescription>
+<para>The file system containing a watched item was unmounted. </para>          </briefdescription>
+          <detaileddescription>
+<para>wxFSW_EVENT_UNMOUNT cannot be set; unmount events are produced automatically. This flag is therefore not included in wxFSW_EVENT_ALL.</para><para>This event is currently only detected under Linux.</para><para><simplesect kind="since"><para>2.9.5 </para></simplesect>
+</para>          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="fswatcher_8h_1a4fe91d0a725cc933b1a59d03e116acd9a8fb8524d1c624adef02f491bb9629fe6" prot="public">
+          <name>wxFSW_EVENT_WARNING</name>
+          <initializer>= 0x40</initializer>
+          <briefdescription>
+<para>A warning condition arose. </para>          </briefdescription>
+          <detaileddescription>
+<para>This is something that probably needs to be shown to the user in an interactive program as it can indicate a relatively serious problem, e.g. some events could have been missed because of an overflow. But more events will still be coming in the future, unlike for the error condition below. </para>          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="fswatcher_8h_1a4fe91d0a725cc933b1a59d03e116acd9a7a8adcd329218e5e9d5b5031d00f9f87" prot="public">
+          <name>wxFSW_EVENT_ERROR</name>
+          <initializer>= 0x80</initializer>
+          <briefdescription>
+<para>An error condition arose. </para>          </briefdescription>
+          <detaileddescription>
+<para>Errors are fatal, i.e. no more events will be reported after an error and the program can stop watching the directories currently being monitored. </para>          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="fswatcher_8h_1a4fe91d0a725cc933b1a59d03e116acd9a30f351a994dcdee859b50da8014212a0" prot="public">
+          <name>wxFSW_EVENT_ALL</name>
+          <initializer>= wxFSW_EVENT_CREATE | wxFSW_EVENT_DELETE |
+                         wxFSW_EVENT_RENAME | wxFSW_EVENT_MODIFY |
+                         wxFSW_EVENT_ACCESS | wxFSW_EVENT_ATTRIB |
+                         wxFSW_EVENT_WARNING | wxFSW_EVENT_ERROR</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>These are the possible types of file system change events. </para>        </briefdescription>
+        <detaileddescription>
+<para>Not all of these events are reported on all platforms currently.</para><para><simplesect kind="since"><para>2.9.1 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/fswatcher.h" line="232" column="1" bodyfile="interface/wx/fswatcher.h" bodystart="231" bodyend="312"/>
+      </memberdef>
+      <memberdef kind="enum" id="fswatcher_8h_1a1a9b4dfd8ebb0613675fc64af52b81d9" prot="public" static="no" strong="no">
+        <type></type>
+        <name>wxFSWWarningType</name>
+        <enumvalue id="fswatcher_8h_1a1a9b4dfd8ebb0613675fc64af52b81d9a2288b904a78949f95ac6728a773ea1f4" prot="public">
+          <name>wxFSW_WARNING_NONE</name>
+          <briefdescription>
+<para>This is not a warning at all. </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="fswatcher_8h_1a1a9b4dfd8ebb0613675fc64af52b81d9a21404702eb8aae831ef63d2f6e1b484e" prot="public">
+          <name>wxFSW_WARNING_GENERAL</name>
+          <briefdescription>
+<para>A generic warning. </para>          </briefdescription>
+          <detaileddescription>
+<para>Further information may be provided in the user-readable message available from <ref refid="classwx_file_system_watcher_event_1a63ed2bc26cfdc6ffd183f983af7a851f" kindref="member">wxFileSystemWatcherEvent::GetErrorDescription()</ref> </para>          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="fswatcher_8h_1a1a9b4dfd8ebb0613675fc64af52b81d9afd4d0e6ee035e44484d9e72e6598082c" prot="public">
+          <name>wxFSW_WARNING_OVERFLOW</name>
+          <briefdescription>
+<para>An overflow event. </para>          </briefdescription>
+          <detaileddescription>
+<para>This warning indicates that some file system changes were not signaled by any events, usually because there were too many of them and the internally used queue has overflown. If such event is received it is recommended to completely rescan the files or directories being monitored. </para>          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Possible warning types for the warning events generated by <ref refid="classwx_file_system_watcher" kindref="compound">wxFileSystemWatcher</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="since"><para>3.0 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/fswatcher.h" line="321" column="1" bodyfile="interface/wx/fswatcher.h" bodystart="320" bodyend="345"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="fswatcher_8h_1a45a6bf888dcae5120a0e41c074ef0d34" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_FSWATCHER</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_FSWATCHER</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/fswatcher.h" line="222" column="1" bodyfile="interface/wx/fswatcher.h" bodystart="222" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="interface/wx/fswatcher.h"/>
+  </compounddef>
+</doxygen>

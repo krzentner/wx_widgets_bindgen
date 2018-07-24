@@ -1,0 +1,143 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_system_settings" kind="class" language="C++" prot="public">
+    <compoundname>wxSystemSettings</compoundname>
+    <includes local="no">wx/settings.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classwx_system_settings_1a34c3d6ded6a697164682dbfb96481318" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxSystemSettings::wxSystemSettings</definition>
+        <argsstring>()</argsstring>
+        <name>wxSystemSettings</name>
+        <briefdescription>
+<para>Default constructor. </para>        </briefdescription>
+        <detaileddescription>
+<para>You don&apos;t need to create an instance of <ref refid="classwx_system_settings" kindref="compound">wxSystemSettings</ref> since all of its functions are static. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/settings.h" line="243" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classwx_system_settings_1ab252414b60f16a233bc17df2a19bd804" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_colour" kindref="compound">wxColour</ref></type>
+        <definition>static wxColour wxSystemSettings::GetColour</definition>
+        <argsstring>(wxSystemColour index)</argsstring>
+        <name>GetColour</name>
+        <param>
+          <type><ref refid="settings_8h_1a44ad26cbd8d579d1b7eff7015c8bd24b" kindref="member">wxSystemColour</ref></type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+<para>Returns a system colour. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Can be one of the <ref refid="settings_8h_1a44ad26cbd8d579d1b7eff7015c8bd24b" kindref="member">wxSystemColour</ref> enum values.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The returned colour is always valid. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/settings.h" line="254" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_system_settings_1a8ca19381cf14a21063ccadfed5ad4ad8" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_font" kindref="compound">wxFont</ref></type>
+        <definition>static wxFont wxSystemSettings::GetFont</definition>
+        <argsstring>(wxSystemFont index)</argsstring>
+        <name>GetFont</name>
+        <param>
+          <type><ref refid="settings_8h_1ac542cdc9950a6cf3b7a42f7e77ada05b" kindref="member">wxSystemFont</ref></type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+<para>Returns a system font. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Can be one of the <ref refid="settings_8h_1ac542cdc9950a6cf3b7a42f7e77ada05b" kindref="member">wxSystemFont</ref> enum values.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The returned font is always valid. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/settings.h" line="265" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_system_settings_1aa18e3b5794dc4193c4b0668d28d4933a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>static int wxSystemSettings::GetMetric</definition>
+        <argsstring>(wxSystemMetric index, wxWindow *win=NULL)</argsstring>
+        <name>GetMetric</name>
+        <param>
+          <type><ref refid="settings_8h_1a0f2b19d7a3717cdbef5a04cb05ab8f26" kindref="member">wxSystemMetric</ref></type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_window" kindref="compound">wxWindow</ref> *</type>
+          <declname>win</declname>
+          <defval>NULL</defval>
+        </param>
+        <briefdescription>
+<para>Returns the value of a system metric, or -1 if the metric is not supported on the current system. </para>        </briefdescription>
+        <detaileddescription>
+<para>The value of <emphasis>win</emphasis> determines if the metric returned is a global value or a <ref refid="classwx_window" kindref="compound">wxWindow</ref> based value, in which case it might determine the widget, the display the window is on, or something similar. The window given should be as close to the metric as possible (e.g. a <ref refid="classwx_top_level_window" kindref="compound">wxTopLevelWindow</ref> in case of the wxSYS_CAPTION_Y metric).</para><para><emphasis>index</emphasis> can be one of the <ref refid="settings_8h_1a0f2b19d7a3717cdbef5a04cb05ab8f26" kindref="member">wxSystemMetric</ref> enum values.</para><para><emphasis>win</emphasis> is a pointer to the window for which the metric is requested. Specifying the <emphasis>win</emphasis> parameter is encouraged, because some metrics on some ports are not supported without one,or they might be capable of reporting better values if given one. If a window does not make sense for a metric, one should still be given, as for example it might determine which displays cursor width is requested with wxSYS_CURSOR_X. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/settings.h" line="286" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_system_settings_1af8a2e5d2411eb520b8dad5fc5e9a1a7a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="settings_8h_1a805b469950075040f8fc4925d6507419" kindref="member">wxSystemScreenType</ref></type>
+        <definition>static wxSystemScreenType wxSystemSettings::GetScreenType</definition>
+        <argsstring>()</argsstring>
+        <name>GetScreenType</name>
+        <briefdescription>
+<para>Returns the screen type. </para>        </briefdescription>
+        <detaileddescription>
+<para>The return value is one of the <ref refid="settings_8h_1a805b469950075040f8fc4925d6507419" kindref="member">wxSystemScreenType</ref> enum values. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/settings.h" line="292" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_system_settings_1a9e695a03bc8e3127b8a45f24ebf7c297" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool wxSystemSettings::HasFeature</definition>
+        <argsstring>(wxSystemFeature index)</argsstring>
+        <name>HasFeature</name>
+        <param>
+          <type><ref refid="settings_8h_1afc464d07a27e1c7ebf406a1321167bf5" kindref="member">wxSystemFeature</ref></type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+<para>Returns true if the port has certain feature. </para>        </briefdescription>
+        <detaileddescription>
+<para>See the <ref refid="settings_8h_1afc464d07a27e1c7ebf406a1321167bf5" kindref="member">wxSystemFeature</ref> enum values. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/settings.h" line="298" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="classwx_system_settings" kindref="compound">wxSystemSettings</ref> allows the application to ask for details about the system. </para>    </briefdescription>
+    <detaileddescription>
+<para>This can include settings such as standard colours, fonts, and user interface element sizes.</para><para><heading level="2"></heading>
+</para><para>Library:<nonbreakablespace/><nonbreakablespace/><ref refid="page_libs_1page_libs_wxcore" kindref="member">wxCore</ref> &lt;&gt;&lt; =&apos;&apos;&gt;:&lt;/&gt;&amp;;&amp;;&lt; =&apos;&apos;&gt;\ &lt;/&gt;&lt;/&gt;</para><para><simplesect kind="see"><para><ref refid="classwx_font" kindref="compound">wxFont</ref>, <ref refid="classwx_colour" kindref="compound">wxColour</ref>, <ref refid="classwx_system_options" kindref="compound">wxSystemOptions</ref> </para></simplesect>
+</para>    </detaileddescription>
+    <location file="interface/wx/settings.h" line="235" column="1" bodyfile="interface/wx/settings.h" bodystart="234" bodyend="299"/>
+    <listofallmembers>
+      <member refid="classwx_system_settings_1ab252414b60f16a233bc17df2a19bd804" prot="public" virt="non-virtual"><scope>wxSystemSettings</scope><name>GetColour</name></member>
+      <member refid="classwx_system_settings_1a8ca19381cf14a21063ccadfed5ad4ad8" prot="public" virt="non-virtual"><scope>wxSystemSettings</scope><name>GetFont</name></member>
+      <member refid="classwx_system_settings_1aa18e3b5794dc4193c4b0668d28d4933a" prot="public" virt="non-virtual"><scope>wxSystemSettings</scope><name>GetMetric</name></member>
+      <member refid="classwx_system_settings_1af8a2e5d2411eb520b8dad5fc5e9a1a7a" prot="public" virt="non-virtual"><scope>wxSystemSettings</scope><name>GetScreenType</name></member>
+      <member refid="classwx_system_settings_1a9e695a03bc8e3127b8a45f24ebf7c297" prot="public" virt="non-virtual"><scope>wxSystemSettings</scope><name>HasFeature</name></member>
+      <member refid="classwx_system_settings_1a34c3d6ded6a697164682dbfb96481318" prot="public" virt="non-virtual"><scope>wxSystemSettings</scope><name>wxSystemSettings</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

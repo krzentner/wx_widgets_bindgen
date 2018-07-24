@@ -1,0 +1,150 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_p_g_attribute_storage" kind="class" language="C++" prot="public">
+    <compoundname>wxPGAttributeStorage</compoundname>
+    <includes local="no">wx/propgrid/property.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classwx_p_g_attribute_storage_1a5bd8dc046c16bc9ecf95cd5b43882121" prot="public" static="no">
+        <type>wxPGHashMapS2P::const_iterator</type>
+        <definition>typedef wxPGHashMapS2P::const_iterator wxPGAttributeStorage::const_iterator</definition>
+        <argsstring></argsstring>
+        <name>const_iterator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/property.h" line="279" column="1" bodyfile="interface/wx/propgrid/property.h" bodystart="279" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classwx_p_g_attribute_storage_1ab6e5c1c01f278adf2a4f7cde36925763" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxPGAttributeStorage::wxPGAttributeStorage</definition>
+        <argsstring>()</argsstring>
+        <name>wxPGAttributeStorage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/property.h" line="272" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_p_g_attribute_storage_1a33cfffea5e503f76b53e4fc7a26148f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxPGAttributeStorage::~wxPGAttributeStorage</definition>
+        <argsstring>()</argsstring>
+        <name>~wxPGAttributeStorage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/property.h" line="273" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_p_g_attribute_storage_1af32541837deacdd21aa9e6b470698bac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxPGAttributeStorage::Set</definition>
+        <argsstring>(const wxString &amp;name, const wxVariant &amp;value)</argsstring>
+        <name>Set</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_variant" kindref="compound">wxVariant</ref> &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/property.h" line="275" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_p_g_attribute_storage_1ac57937c2ea80896116766d4c3cb274ea" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>unsigned int</type>
+        <definition>unsigned int wxPGAttributeStorage::GetCount</definition>
+        <argsstring>() const</argsstring>
+        <name>GetCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/property.h" line="276" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_p_g_attribute_storage_1a89f2c1e50c0536dbf100e4ad74a163a1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_variant" kindref="compound">wxVariant</ref></type>
+        <definition>wxVariant wxPGAttributeStorage::FindValue</definition>
+        <argsstring>(const wxString &amp;name) const</argsstring>
+        <name>FindValue</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/property.h" line="277" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_p_g_attribute_storage_1a1242ec726abdd9c865049cd0f4673232" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_p_g_attribute_storage_1a5bd8dc046c16bc9ecf95cd5b43882121" kindref="member">const_iterator</ref></type>
+        <definition>const_iterator wxPGAttributeStorage::StartIteration</definition>
+        <argsstring>() const</argsstring>
+        <name>StartIteration</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/property.h" line="280" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_p_g_attribute_storage_1a5b98967ee5fe9685cb57ac122af9399f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxPGAttributeStorage::GetNext</definition>
+        <argsstring>(const_iterator &amp;it, wxVariant &amp;variant) const</argsstring>
+        <name>GetNext</name>
+        <param>
+          <type><ref refid="classwx_p_g_attribute_storage_1a5bd8dc046c16bc9ecf95cd5b43882121" kindref="member">const_iterator</ref> &amp;</type>
+          <declname>it</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_variant" kindref="compound">wxVariant</ref> &amp;</type>
+          <declname>variant</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/property.h" line="281" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="classwx_p_g_attribute_storage" kindref="compound">wxPGAttributeStorage</ref> is somewhat optimized storage for key=variant pairs (ie. </para>    </briefdescription>
+    <detaileddescription>
+<para>a map). </para>    </detaileddescription>
+    <location file="interface/wx/propgrid/property.h" line="270" column="1" bodyfile="interface/wx/propgrid/property.h" bodystart="269" bodyend="282"/>
+    <listofallmembers>
+      <member refid="classwx_p_g_attribute_storage_1a5bd8dc046c16bc9ecf95cd5b43882121" prot="public" virt="non-virtual"><scope>wxPGAttributeStorage</scope><name>const_iterator</name></member>
+      <member refid="classwx_p_g_attribute_storage_1a89f2c1e50c0536dbf100e4ad74a163a1" prot="public" virt="non-virtual"><scope>wxPGAttributeStorage</scope><name>FindValue</name></member>
+      <member refid="classwx_p_g_attribute_storage_1ac57937c2ea80896116766d4c3cb274ea" prot="public" virt="non-virtual"><scope>wxPGAttributeStorage</scope><name>GetCount</name></member>
+      <member refid="classwx_p_g_attribute_storage_1a5b98967ee5fe9685cb57ac122af9399f" prot="public" virt="non-virtual"><scope>wxPGAttributeStorage</scope><name>GetNext</name></member>
+      <member refid="classwx_p_g_attribute_storage_1af32541837deacdd21aa9e6b470698bac" prot="public" virt="non-virtual"><scope>wxPGAttributeStorage</scope><name>Set</name></member>
+      <member refid="classwx_p_g_attribute_storage_1a1242ec726abdd9c865049cd0f4673232" prot="public" virt="non-virtual"><scope>wxPGAttributeStorage</scope><name>StartIteration</name></member>
+      <member refid="classwx_p_g_attribute_storage_1ab6e5c1c01f278adf2a4f7cde36925763" prot="public" virt="non-virtual"><scope>wxPGAttributeStorage</scope><name>wxPGAttributeStorage</name></member>
+      <member refid="classwx_p_g_attribute_storage_1a33cfffea5e503f76b53e4fc7a26148f4" prot="public" virt="non-virtual"><scope>wxPGAttributeStorage</scope><name>~wxPGAttributeStorage</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

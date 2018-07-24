@@ -1,0 +1,191 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_generic_about_dialog" kind="class" language="C++" prot="public">
+    <compoundname>wxGenericAboutDialog</compoundname>
+    <includes local="no">wx/generic/aboutdlgg.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classwx_generic_about_dialog_1ad195f2e454ba722956b73e791e1c6a03" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxGenericAboutDialog::wxGenericAboutDialog</definition>
+        <argsstring>()</argsstring>
+        <name>wxGenericAboutDialog</name>
+        <briefdescription>
+<para>Default constructor, <ref refid="classwx_generic_about_dialog_1a6a3ce237b9c32c4c3a9ba4f6011cabc0" kindref="member">Create()</ref> must be called later. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/generic/aboutdlgg.h" line="57" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_generic_about_dialog_1a219d9040ec0e3ef091d25ed7e865e262" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxGenericAboutDialog::wxGenericAboutDialog</definition>
+        <argsstring>(const wxAboutDialogInfo &amp;info, wxWindow *parent=NULL)</argsstring>
+        <name>wxGenericAboutDialog</name>
+        <param>
+          <type>const <ref refid="classwx_about_dialog_info" kindref="compound">wxAboutDialogInfo</ref> &amp;</type>
+          <declname>info</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_window" kindref="compound">wxWindow</ref> *</type>
+          <declname>parent</declname>
+          <defval>NULL</defval>
+        </param>
+        <briefdescription>
+<para>Creates the dialog and initializes it with the given information. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/generic/aboutdlgg.h" line="62" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_generic_about_dialog_1a6a3ce237b9c32c4c3a9ba4f6011cabc0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxGenericAboutDialog::Create</definition>
+        <argsstring>(const wxAboutDialogInfo &amp;info, wxWindow *parent=NULL)</argsstring>
+        <name>Create</name>
+        <param>
+          <type>const <ref refid="classwx_about_dialog_info" kindref="compound">wxAboutDialogInfo</ref> &amp;</type>
+          <declname>info</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_window" kindref="compound">wxWindow</ref> *</type>
+          <declname>parent</declname>
+          <defval>NULL</defval>
+        </param>
+        <briefdescription>
+<para>Initializes the dialog created using the default constructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/generic/aboutdlgg.h" line="67" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classwx_generic_about_dialog_1aac06d083f8bf3cfa60405fcc87e230d3" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void wxGenericAboutDialog::DoAddCustomControls</definition>
+        <argsstring>()</argsstring>
+        <name>DoAddCustomControls</name>
+        <briefdescription>
+<para>This virtual method may be overridden to add more controls to the dialog. </para>        </briefdescription>
+        <detaileddescription>
+<para>Use the protected <ref refid="classwx_generic_about_dialog_1ae2bfc794a2c4fbe31a0dfff2491a959c" kindref="member">AddControl()</ref>, <ref refid="classwx_generic_about_dialog_1a45cb08ac1227440bf01663020cf7cd65" kindref="member">AddText()</ref> and <ref refid="classwx_generic_about_dialog_1aaa5ea5168dca50a862397ca31767fc88" kindref="member">AddCollapsiblePane()</ref> methods to add custom controls.</para><para>This method is called during the dialog creation and you don&apos;t need to call it, only to override it. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/generic/aboutdlgg.h" line="80" column="1" bodyfile="interface/wx/generic/aboutdlgg.h" bodystart="80" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_generic_about_dialog_1ae2bfc794a2c4fbe31a0dfff2491a959c" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxGenericAboutDialog::AddControl</definition>
+        <argsstring>(wxWindow *win, const wxSizerFlags &amp;flags)</argsstring>
+        <name>AddControl</name>
+        <param>
+          <type><ref refid="classwx_window" kindref="compound">wxWindow</ref> *</type>
+          <declname>win</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_sizer_flags" kindref="compound">wxSizerFlags</ref> &amp;</type>
+          <declname>flags</declname>
+        </param>
+        <briefdescription>
+<para>Add arbitrary control to the sizer content with the specified flags. </para>        </briefdescription>
+        <detaileddescription>
+<para>For example, here is how to add an expandable line with a border of 3 pixels, then a line of text: <programlisting><codeline><highlight class="normal">AddControl(new<sp/>wxStaticLine(this),<sp/>wxSizerFlags().Expand().Border(wxALL,<sp/>3));</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">AddText(_(&quot;This<sp/>line<sp/>is<sp/>just<sp/>an<sp/>example<sp/>of<sp/>custom<sp/>text.&quot;));</highlight></codeline>
+</programlisting> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/generic/aboutdlgg.h" line="93" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_generic_about_dialog_1a6b727cd9d31b32bfc152fa0bb1cb732f" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxGenericAboutDialog::AddControl</definition>
+        <argsstring>(wxWindow *win)</argsstring>
+        <name>AddControl</name>
+        <param>
+          <type><ref refid="classwx_window" kindref="compound">wxWindow</ref> *</type>
+          <declname>win</declname>
+        </param>
+        <briefdescription>
+<para>Add arbitrary control to the sizer content and centre it. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/generic/aboutdlgg.h" line="98" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_generic_about_dialog_1a45cb08ac1227440bf01663020cf7cd65" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxGenericAboutDialog::AddText</definition>
+        <argsstring>(const wxString &amp;text)</argsstring>
+        <name>AddText</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>text</declname>
+        </param>
+        <briefdescription>
+<para>Add the given (not empty) text to the sizer content. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/generic/aboutdlgg.h" line="103" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_generic_about_dialog_1aaa5ea5168dca50a862397ca31767fc88" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxGenericAboutDialog::AddCollapsiblePane</definition>
+        <argsstring>(const wxString &amp;title, const wxString &amp;text)</argsstring>
+        <name>AddCollapsiblePane</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>title</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>text</declname>
+        </param>
+        <briefdescription>
+<para>Add a <ref refid="classwx_collapsible_pane" kindref="compound">wxCollapsiblePane</ref> containing the given text. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/generic/aboutdlgg.h" line="108" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class defines a customizable <emphasis>About</emphasis> dialog. </para>    </briefdescription>
+    <detaileddescription>
+<para>Note that if you don&apos;t need customization, you should use the global <ref refid="group__group__funcmacro__dialog_1ga6d8198c95b97786f206abfde010a4d8f" kindref="member">wxAboutBox()</ref> function that is both easier to use and shows the native dialog if available.</para><para>To use this class, you need to derive your own class from it and override the virtual method <ref refid="classwx_generic_about_dialog_1aac06d083f8bf3cfa60405fcc87e230d3" kindref="member">DoAddCustomControls()</ref>.</para><para>To instantiate an object from your wxGenericAboutDialog-based class, you can use either the default constructor followed by a call to <ref refid="classwx_generic_about_dialog_1a6a3ce237b9c32c4c3a9ba4f6011cabc0" kindref="member">Create()</ref>, or directly using the alternate constructor. In either case, you have to prepare a <ref refid="classwx_about_dialog_info" kindref="compound">wxAboutDialogInfo</ref> containing standard informations to display in an about-box.</para><para>Example of usage, MyAboutDlg being a class derived from <ref refid="classwx_generic_about_dialog" kindref="compound">wxGenericAboutDialog</ref>: <programlisting><codeline><highlight class="normal">void<sp/>MyFrame::OnAbout(wxCommandEvent&amp;<sp/>WXUNUSED(event))</highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>wxAboutDialogInfo<sp/>aboutInfo;</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>aboutInfo.SetName(&quot;MyApp&quot;);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>aboutInfo.SetVersion(MY_APP_VERSION_STRING);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>aboutInfo.SetDescription(_(&quot;My<sp/>wxWidgets-based<sp/>application!&quot;));</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>aboutInfo.SetCopyright(&quot;(C)<sp/>1992-2012&quot;);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>aboutInfo.SetWebSite(&quot;http://myapp.org&quot;);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>aboutInfo.AddDeveloper(&quot;My<sp/>Self&quot;);</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>MyAboutDlg<sp/>dlgAbout(aboutInfo,<sp/>this);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>dlgAbout.ShowModal();</highlight></codeline>
+<codeline><highlight class="normal">}</highlight></codeline>
+</programlisting></para><para><heading level="2"></heading>
+</para><para>Library:<nonbreakablespace/><nonbreakablespace/><ref refid="page_libs_1page_libs_wxadv" kindref="member">wxAdvanced</ref> &lt;&gt;&lt; =&apos;&apos;&gt;:&lt;/&gt;&amp;;&amp;;&lt; =&apos;&apos;&gt;\ &lt;/&gt;&lt;/&gt;</para><para><simplesect kind="see"><para><ref refid="classwx_about_dialog_info" kindref="compound">wxAboutDialogInfo</ref> </para></simplesect>
+</para>    </detaileddescription>
+    <location file="interface/wx/generic/aboutdlgg.h" line="52" column="1" bodyfile="interface/wx/generic/aboutdlgg.h" bodystart="51" bodyend="109"/>
+    <listofallmembers>
+      <member refid="classwx_generic_about_dialog_1aaa5ea5168dca50a862397ca31767fc88" prot="protected" virt="non-virtual"><scope>wxGenericAboutDialog</scope><name>AddCollapsiblePane</name></member>
+      <member refid="classwx_generic_about_dialog_1ae2bfc794a2c4fbe31a0dfff2491a959c" prot="protected" virt="non-virtual"><scope>wxGenericAboutDialog</scope><name>AddControl</name></member>
+      <member refid="classwx_generic_about_dialog_1a6b727cd9d31b32bfc152fa0bb1cb732f" prot="protected" virt="non-virtual"><scope>wxGenericAboutDialog</scope><name>AddControl</name></member>
+      <member refid="classwx_generic_about_dialog_1a45cb08ac1227440bf01663020cf7cd65" prot="protected" virt="non-virtual"><scope>wxGenericAboutDialog</scope><name>AddText</name></member>
+      <member refid="classwx_generic_about_dialog_1a6a3ce237b9c32c4c3a9ba4f6011cabc0" prot="public" virt="non-virtual"><scope>wxGenericAboutDialog</scope><name>Create</name></member>
+      <member refid="classwx_generic_about_dialog_1aac06d083f8bf3cfa60405fcc87e230d3" prot="protected" virt="virtual"><scope>wxGenericAboutDialog</scope><name>DoAddCustomControls</name></member>
+      <member refid="classwx_generic_about_dialog_1ad195f2e454ba722956b73e791e1c6a03" prot="public" virt="non-virtual"><scope>wxGenericAboutDialog</scope><name>wxGenericAboutDialog</name></member>
+      <member refid="classwx_generic_about_dialog_1a219d9040ec0e3ef091d25ed7e865e262" prot="public" virt="non-virtual"><scope>wxGenericAboutDialog</scope><name>wxGenericAboutDialog</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

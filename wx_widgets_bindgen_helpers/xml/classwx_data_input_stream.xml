@@ -1,0 +1,392 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_data_input_stream" kind="class" language="C++" prot="public">
+    <compoundname>wxDataInputStream</compoundname>
+    <includes local="no">wx/datstrm.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classwx_data_input_stream_1a45c961ecf5c9ec061343e2c3fd20288f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxDataInputStream::wxDataInputStream</definition>
+        <argsstring>(wxInputStream &amp;stream, const wxMBConv &amp;conv=wxConvUTF8)</argsstring>
+        <name>wxDataInputStream</name>
+        <param>
+          <type><ref refid="classwx_input_stream" kindref="compound">wxInputStream</ref> &amp;</type>
+          <declname>stream</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_m_b_conv" kindref="compound">wxMBConv</ref> &amp;</type>
+          <declname>conv</declname>
+          <defval>wxConvUTF8</defval>
+        </param>
+        <briefdescription>
+<para>Constructs a datastream object from an input stream. </para>        </briefdescription>
+        <detaileddescription>
+<para>Only read methods will be available.</para><para>Note that the <emphasis>conv</emphasis> parameter is only available in Unicode builds of wxWidgets.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>stream</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The input stream. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>conv</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Charset conversion object used to decode strings in Unicode mode (see <ref refid="classwx_data_input_stream_1a65d59e47586519047d59e2f2ea4aa4b4" kindref="member">ReadString()</ref> for a detailed description). Note that you must not destroy <emphasis>conv</emphasis> before you destroy this <ref refid="classwx_data_input_stream" kindref="compound">wxDataInputStream</ref> instance! </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/datstrm.h" line="263" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_data_input_stream_1af4f67a3f04e782dc22326df5b15df3cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxDataInputStream::~wxDataInputStream</definition>
+        <argsstring>()</argsstring>
+        <name>~wxDataInputStream</name>
+        <briefdescription>
+<para>Destroys the <ref refid="classwx_data_input_stream" kindref="compound">wxDataInputStream</ref> object. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/datstrm.h" line="269" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_data_input_stream_1ad88bdb3fd5085080ea7c917181aa64cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxDataInputStream::BigEndianOrdered</definition>
+        <argsstring>(bool be_order)</argsstring>
+        <name>BigEndianOrdered</name>
+        <param>
+          <type>bool</type>
+          <declname>be_order</declname>
+        </param>
+        <briefdescription>
+<para>If <emphasis>be_order</emphasis> is true, all data will be read in big-endian order, such as written by programs on a big endian architecture (e.g. </para>        </briefdescription>
+        <detaileddescription>
+<para>Sparc) or written by Java-Streams (which always use big-endian order). </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/datstrm.h" line="276" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_data_input_stream_1aa286467b0da50211ed5f863e321f9898" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_m_b_conv" kindref="compound">wxMBConv</ref> *</type>
+        <definition>wxMBConv* wxDataInputStream::GetConv</definition>
+        <argsstring>() const</argsstring>
+        <name>GetConv</name>
+        <briefdescription>
+<para>Returns the current text conversion class used for reading strings. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/datstrm.h" line="282" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_data_input_stream_1a94bcedd17bee00052ecb907a29e26c33" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="defs_8h_1aad88e290b822df511ad8025ee2e45263" kindref="member">wxUint8</ref></type>
+        <definition>wxUint8 wxDataInputStream::Read8</definition>
+        <argsstring>()</argsstring>
+        <name>Read8</name>
+        <briefdescription>
+<para>Reads a single byte from the stream. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/datstrm.h" line="287" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_data_input_stream_1aaa0562585fe23bb86d1fdc59336184b3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxDataInputStream::Read8</definition>
+        <argsstring>(wxUint8 *buffer, size_t size)</argsstring>
+        <name>Read8</name>
+        <param>
+          <type><ref refid="defs_8h_1aad88e290b822df511ad8025ee2e45263" kindref="member">wxUint8</ref> *</type>
+          <declname>buffer</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+<para>Reads bytes from the stream in a specified buffer. </para>        </briefdescription>
+        <detaileddescription>
+<para>The number of bytes to read is specified by the <emphasis>size</emphasis> variable. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/datstrm.h" line="292" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_data_input_stream_1acc017dd5ce709595fcb04252e88433fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="defs_8h_1a8e9363c460a79dd550df544fab96e16d" kindref="member">wxUint16</ref></type>
+        <definition>wxUint16 wxDataInputStream::Read16</definition>
+        <argsstring>()</argsstring>
+        <name>Read16</name>
+        <briefdescription>
+<para>Reads a 16 bit unsigned integer from the stream. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/datstrm.h" line="297" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_data_input_stream_1a95db79be24f8abe37cec5897f2bb5d0d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxDataInputStream::Read16</definition>
+        <argsstring>(wxUint16 *buffer, size_t size)</argsstring>
+        <name>Read16</name>
+        <param>
+          <type><ref refid="defs_8h_1a8e9363c460a79dd550df544fab96e16d" kindref="member">wxUint16</ref> *</type>
+          <declname>buffer</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+<para>Reads 16 bit unsigned integers from the stream in a specified buffer. </para>        </briefdescription>
+        <detaileddescription>
+<para>The number of 16 bit unsigned integers to read is specified by the <emphasis>size</emphasis> variable. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/datstrm.h" line="303" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_data_input_stream_1a2e29749280c5e1e7a24e821bc244c926" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="defs_8h_1afdb12e5345c3fae4b537e813df9f02a3" kindref="member">wxUint32</ref></type>
+        <definition>wxUint32 wxDataInputStream::Read32</definition>
+        <argsstring>()</argsstring>
+        <name>Read32</name>
+        <briefdescription>
+<para>Reads a 32 bit unsigned integer from the stream. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/datstrm.h" line="308" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_data_input_stream_1a13bf663e7e76a5ac11bcbf01c8453505" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxDataInputStream::Read32</definition>
+        <argsstring>(wxUint32 *buffer, size_t size)</argsstring>
+        <name>Read32</name>
+        <param>
+          <type><ref refid="defs_8h_1afdb12e5345c3fae4b537e813df9f02a3" kindref="member">wxUint32</ref> *</type>
+          <declname>buffer</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+<para>Reads 32 bit unsigned integers from the stream in a specified buffer. </para>        </briefdescription>
+        <detaileddescription>
+<para>The number of 32 bit unsigned integers to read is specified by the <emphasis>size</emphasis> variable. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/datstrm.h" line="314" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_data_input_stream_1a7d744b0594c5810ae0bf2c4bb92fbd04" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="defs_8h_1a356b5511a759210b8138b6433ed8b1fc" kindref="member">wxUint64</ref></type>
+        <definition>wxUint64 wxDataInputStream::Read64</definition>
+        <argsstring>()</argsstring>
+        <name>Read64</name>
+        <briefdescription>
+<para>Reads a 64 bit unsigned integer from the stream. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/datstrm.h" line="319" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_data_input_stream_1af9d0786df6af44b5d62cf1f8b4406307" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxDataInputStream::Read64</definition>
+        <argsstring>(wxUint64 *buffer, size_t size)</argsstring>
+        <name>Read64</name>
+        <param>
+          <type><ref refid="defs_8h_1a356b5511a759210b8138b6433ed8b1fc" kindref="member">wxUint64</ref> *</type>
+          <declname>buffer</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+<para>Reads 64 bit unsigned integers from the stream in a specified buffer. </para>        </briefdescription>
+        <detaileddescription>
+<para>The number of 64 bit unsigned integers to read is specified by the <emphasis>size</emphasis> variable. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/datstrm.h" line="325" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_data_input_stream_1a095233b88e50698a593414d049921c04" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float wxDataInputStream::ReadFloat</definition>
+        <argsstring>()</argsstring>
+        <name>ReadFloat</name>
+        <briefdescription>
+<para>Reads a float from the stream. </para>        </briefdescription>
+        <detaileddescription>
+<para>Notice that if <ref refid="classwx_data_input_stream_1a25d6b375b481a0e7af60819768f2b945" kindref="member">UseBasicPrecisions()</ref> hadn&apos;t been called, this function simply reads a double and truncates it to float as by default the same (80 bit extended precision) representation is used for both float and double values.</para><para><simplesect kind="since"><para>2.9.5 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/datstrm.h" line="337" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_data_input_stream_1abd319e98149708623572476372dc2bd5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxDataInputStream::ReadFloat</definition>
+        <argsstring>(float *buffer, size_t size)</argsstring>
+        <name>ReadFloat</name>
+        <param>
+          <type>float *</type>
+          <declname>buffer</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+<para>Reads float data from the stream in a specified buffer. </para>        </briefdescription>
+        <detaileddescription>
+<para>The number of floats to read is specified by the <emphasis>size</emphasis> variable.</para><para><simplesect kind="since"><para>2.9.5 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/datstrm.h" line="346" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_data_input_stream_1a1669d060400851b49b5dc627388efcb9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double wxDataInputStream::ReadDouble</definition>
+        <argsstring>()</argsstring>
+        <name>ReadDouble</name>
+        <briefdescription>
+<para>Reads a double from the stream. </para>        </briefdescription>
+        <detaileddescription>
+<para>The expected format is either 80 bit extended precision or, if <ref refid="classwx_data_input_stream_1a25d6b375b481a0e7af60819768f2b945" kindref="member">UseBasicPrecisions()</ref> had been called, standard IEEE 754 64 bit double precision. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/datstrm.h" line="355" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_data_input_stream_1aa33da9cf032bcca914d3bc254d11a3ef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxDataInputStream::ReadDouble</definition>
+        <argsstring>(double *buffer, size_t size)</argsstring>
+        <name>ReadDouble</name>
+        <param>
+          <type>double *</type>
+          <declname>buffer</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+<para>Reads double data from the stream in a specified buffer. </para>        </briefdescription>
+        <detaileddescription>
+<para>The number of doubles to read is specified by the <emphasis>size</emphasis> variable. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/datstrm.h" line="362" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_data_input_stream_1a65d59e47586519047d59e2f2ea4aa4b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_string" kindref="compound">wxString</ref></type>
+        <definition>wxString wxDataInputStream::ReadString</definition>
+        <argsstring>()</argsstring>
+        <name>ReadString</name>
+        <briefdescription>
+<para>Reads a string from a stream. </para>        </briefdescription>
+        <detaileddescription>
+<para>Actually, this function first reads a long integer specifying the length of the string (without the last null character) and then reads the string.</para><para>In Unicode build of wxWidgets, the function first reads multibyte (char*) string from the stream and then converts it to Unicode using the <emphasis>conv</emphasis> object passed to constructor and returns the result as <ref refid="classwx_string" kindref="compound">wxString</ref>. You are responsible for using the same converter as when writing the stream.</para><para><simplesect kind="see"><para><ref refid="classwx_data_output_stream_1ad59954476921dd0f4a480e4d212ed61a" kindref="member">wxDataOutputStream::WriteString()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/datstrm.h" line="377" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_data_input_stream_1a8c9559bac6f6ac6d93b42d70c45452c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxDataInputStream::SetConv</definition>
+        <argsstring>(const wxMBConv &amp;conv)</argsstring>
+        <name>SetConv</name>
+        <param>
+          <type>const <ref refid="classwx_m_b_conv" kindref="compound">wxMBConv</ref> &amp;</type>
+          <declname>conv</declname>
+        </param>
+        <briefdescription>
+<para>Sets the text conversion class used for reading strings. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/datstrm.h" line="382" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_data_input_stream_1a25d6b375b481a0e7af60819768f2b945" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxDataInputStream::UseBasicPrecisions</definition>
+        <argsstring>()</argsstring>
+        <name>UseBasicPrecisions</name>
+        <briefdescription>
+<para>Disables the use of extended precision format for floating point numbers. </para>        </briefdescription>
+        <detaileddescription>
+<para>This method disables the use of 80 bit extended precision format for the <computeroutput>float</computeroutput> and <computeroutput>double</computeroutput> values read from the stream, which is used by default (unless <computeroutput>wxUSE_APPLE_IEEE</computeroutput> was set to <computeroutput>0</computeroutput> when building the library, in which case the extended format support is not available at all and this function does nothing).</para><para>After calling it, <computeroutput>float</computeroutput> values will be expected to appear in one of IEEE 754 &quot;basic formats&quot;, i.e. 32 bit single precision format for floats and 64 bit double precision format for doubles in the input.</para><para><simplesect kind="since"><para>2.9.5 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/datstrm.h" line="400" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_data_input_stream_1aa4a1cf4899b0c78c199508e8d3da0a4a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxDataInputStream::UseExtendedPrecision</definition>
+        <argsstring>()</argsstring>
+        <name>UseExtendedPrecision</name>
+        <briefdescription>
+<para>Explicitly request the use of extended precision for floating point numbers. </para>        </briefdescription>
+        <detaileddescription>
+<para>This function allows the application code to explicitly request the use of 80 bit extended precision format for the floating point numbers. This is the case by default but using this function explicitly ensures that the compilation of code relying on reading the input containing numbers in extended precision format would fail when using a version of wxWidgets compiled with <computeroutput>wxUSE_APPLE_IEEE==0</computeroutput> and so not supporting this format at all.</para><para><simplesect kind="since"><para>2.9.5 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/datstrm.h" line="416" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class provides functions that read binary data types in a portable way. </para>    </briefdescription>
+    <detaileddescription>
+<para>Please see <ref refid="classwx_data_output_stream" kindref="compound">wxDataOutputStream</ref> for the discussion of the format expected by this stream on input, notably for the floating point values.</para><para>If you want to read data from text files (or streams) use <ref refid="classwx_text_input_stream" kindref="compound">wxTextInputStream</ref> instead.</para><para>The &quot;&gt;&gt;&quot; operator is overloaded and you can use this class like a standard C++ iostream. Note, however, that the arguments are the fixed size types wxUint32, wxInt32 etc and on a typical 32-bit computer, none of these match to the &quot;long&quot; type (wxInt32 is defined as signed int on 32-bit architectures) so that you cannot use long. To avoid problems (here and elsewhere), make use of the wxInt32, wxUint32, etc types.</para><para>For example:</para><para><programlisting><codeline><highlight class="normal">wxFileInputStream<sp/>input(<sp/>&quot;mytext.dat&quot;<sp/>);</highlight></codeline>
+<codeline><highlight class="normal">wxDataInputStream<sp/>store(<sp/>input<sp/>);</highlight></codeline>
+<codeline><highlight class="normal">wxUint8<sp/>i1;</highlight></codeline>
+<codeline><highlight class="normal">float<sp/>f2;</highlight></codeline>
+<codeline><highlight class="normal">wxString<sp/>line;</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">store<sp/>&gt;&gt;<sp/>i1;<sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>read<sp/>a<sp/>8<sp/>bit<sp/>integer.</highlight></codeline>
+<codeline><highlight class="normal">store<sp/>&gt;&gt;<sp/>i1<sp/>&gt;&gt;<sp/>f2;<sp/>//<sp/>read<sp/>a<sp/>8<sp/>bit<sp/>integer<sp/>followed<sp/>by<sp/>float.</highlight></codeline>
+<codeline><highlight class="normal">store<sp/>&gt;&gt;<sp/>line;<sp/><sp/><sp/><sp/><sp/>//<sp/>read<sp/>a<sp/>text<sp/>line</highlight></codeline>
+</programlisting></para><para><heading level="2"></heading>
+</para><para>Library:<nonbreakablespace/><nonbreakablespace/><ref refid="page_libs_1page_libs_wxbase" kindref="member">wxBase</ref> &lt;&gt;&lt; =&apos;&apos;&gt;:&lt;/&gt;&amp;;&amp;;&lt; =&apos;&apos;&gt;\ &lt;/&gt;&lt;/&gt;</para><para><simplesect kind="see"><para><ref refid="classwx_data_output_stream" kindref="compound">wxDataOutputStream</ref> </para></simplesect>
+</para>    </detaileddescription>
+    <location file="interface/wx/datstrm.h" line="247" column="1" bodyfile="interface/wx/datstrm.h" bodystart="246" bodyend="417"/>
+    <listofallmembers>
+      <member refid="classwx_data_input_stream_1ad88bdb3fd5085080ea7c917181aa64cf" prot="public" virt="non-virtual"><scope>wxDataInputStream</scope><name>BigEndianOrdered</name></member>
+      <member refid="classwx_data_input_stream_1aa286467b0da50211ed5f863e321f9898" prot="public" virt="non-virtual"><scope>wxDataInputStream</scope><name>GetConv</name></member>
+      <member refid="classwx_data_input_stream_1acc017dd5ce709595fcb04252e88433fe" prot="public" virt="non-virtual"><scope>wxDataInputStream</scope><name>Read16</name></member>
+      <member refid="classwx_data_input_stream_1a95db79be24f8abe37cec5897f2bb5d0d" prot="public" virt="non-virtual"><scope>wxDataInputStream</scope><name>Read16</name></member>
+      <member refid="classwx_data_input_stream_1a2e29749280c5e1e7a24e821bc244c926" prot="public" virt="non-virtual"><scope>wxDataInputStream</scope><name>Read32</name></member>
+      <member refid="classwx_data_input_stream_1a13bf663e7e76a5ac11bcbf01c8453505" prot="public" virt="non-virtual"><scope>wxDataInputStream</scope><name>Read32</name></member>
+      <member refid="classwx_data_input_stream_1a7d744b0594c5810ae0bf2c4bb92fbd04" prot="public" virt="non-virtual"><scope>wxDataInputStream</scope><name>Read64</name></member>
+      <member refid="classwx_data_input_stream_1af9d0786df6af44b5d62cf1f8b4406307" prot="public" virt="non-virtual"><scope>wxDataInputStream</scope><name>Read64</name></member>
+      <member refid="classwx_data_input_stream_1a94bcedd17bee00052ecb907a29e26c33" prot="public" virt="non-virtual"><scope>wxDataInputStream</scope><name>Read8</name></member>
+      <member refid="classwx_data_input_stream_1aaa0562585fe23bb86d1fdc59336184b3" prot="public" virt="non-virtual"><scope>wxDataInputStream</scope><name>Read8</name></member>
+      <member refid="classwx_data_input_stream_1a1669d060400851b49b5dc627388efcb9" prot="public" virt="non-virtual"><scope>wxDataInputStream</scope><name>ReadDouble</name></member>
+      <member refid="classwx_data_input_stream_1aa33da9cf032bcca914d3bc254d11a3ef" prot="public" virt="non-virtual"><scope>wxDataInputStream</scope><name>ReadDouble</name></member>
+      <member refid="classwx_data_input_stream_1a095233b88e50698a593414d049921c04" prot="public" virt="non-virtual"><scope>wxDataInputStream</scope><name>ReadFloat</name></member>
+      <member refid="classwx_data_input_stream_1abd319e98149708623572476372dc2bd5" prot="public" virt="non-virtual"><scope>wxDataInputStream</scope><name>ReadFloat</name></member>
+      <member refid="classwx_data_input_stream_1a65d59e47586519047d59e2f2ea4aa4b4" prot="public" virt="non-virtual"><scope>wxDataInputStream</scope><name>ReadString</name></member>
+      <member refid="classwx_data_input_stream_1a8c9559bac6f6ac6d93b42d70c45452c3" prot="public" virt="non-virtual"><scope>wxDataInputStream</scope><name>SetConv</name></member>
+      <member refid="classwx_data_input_stream_1a25d6b375b481a0e7af60819768f2b945" prot="public" virt="non-virtual"><scope>wxDataInputStream</scope><name>UseBasicPrecisions</name></member>
+      <member refid="classwx_data_input_stream_1aa4a1cf4899b0c78c199508e8d3da0a4a" prot="public" virt="non-virtual"><scope>wxDataInputStream</scope><name>UseExtendedPrecision</name></member>
+      <member refid="classwx_data_input_stream_1a45c961ecf5c9ec061343e2c3fd20288f" prot="public" virt="non-virtual"><scope>wxDataInputStream</scope><name>wxDataInputStream</name></member>
+      <member refid="classwx_data_input_stream_1af4f67a3f04e782dc22326df5b15df3cd" prot="public" virt="non-virtual"><scope>wxDataInputStream</scope><name>~wxDataInputStream</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

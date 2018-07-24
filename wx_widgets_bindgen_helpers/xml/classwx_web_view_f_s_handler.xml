@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_web_view_f_s_handler" kind="class" language="C++" prot="public">
+    <compoundname>wxWebViewFSHandler</compoundname>
+    <basecompoundref refid="classwx_web_view_handler" prot="public" virt="non-virtual">wxWebViewHandler</basecompoundref>
+    <includes local="no">wx/webviewfshandler.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classwx_web_view_f_s_handler_1ab672be9545770c4c757cedd2373b1197" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxWebViewFSHandler::wxWebViewFSHandler</definition>
+        <argsstring>(const wxString &amp;scheme)</argsstring>
+        <name>wxWebViewFSHandler</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>scheme</declname>
+        </param>
+        <briefdescription>
+<para>Constructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/webviewfshandler.h" line="29" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_web_view_f_s_handler_1ae6b09b3d16d1e4b029582998115cabe9" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="classwx_f_s_file" kindref="compound">wxFSFile</ref> *</type>
+        <definition>virtual wxFSFile* wxWebViewFSHandler::GetFile</definition>
+        <argsstring>(const wxString &amp;uri)</argsstring>
+        <name>GetFile</name>
+        <reimplements refid="classwx_web_view_handler_1a29f448e3c8f685c45e43cc06bd4c9b38">GetFile</reimplements>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>uri</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>A pointer to the file represented by <computeroutput>uri</computeroutput>. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/webviewfshandler.h" line="30" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>A <ref refid="classwx_web_view" kindref="compound">wxWebView</ref> file system handler to support standard <ref refid="classwx_file_system" kindref="compound">wxFileSystem</ref> protocols of the form <computeroutput> example:page.htm </computeroutput> The handler allows <ref refid="classwx_web_view" kindref="compound">wxWebView</ref> to use <ref refid="classwx_file_system" kindref="compound">wxFileSystem</ref> in a similar fashion to its use with wxHtml. </para>    </briefdescription>
+    <detaileddescription>
+<para>The <ref refid="classwx_memory_f_s_handler" kindref="compound">wxMemoryFSHandler</ref> documentation gives an example of how it may be used.</para><para><simplesect kind="since"><para>2.9.5 <heading level="2"></heading>
+</para></simplesect>
+Library:<nonbreakablespace/><nonbreakablespace/><ref refid="page_libs_1page_libs_wxwebview" kindref="member">wxWebView</ref> &lt;&gt;&lt; =&apos;&apos;&gt;:&lt;/&gt;&amp;;&amp;;&lt; =&apos;&apos;&gt;\ &lt;/&gt;&lt;/&gt;</para><para><simplesect kind="see"><para><ref refid="classwx_web_view" kindref="compound">wxWebView</ref>, <ref refid="classwx_web_view_handler" kindref="compound">wxWebViewHandler</ref>, <ref refid="classwx_web_view_archive_handler" kindref="compound">wxWebViewArchiveHandler</ref> </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="8662">
+        <label>wxWebViewFSHandler</label>
+        <link refid="classwx_web_view_f_s_handler"/>
+        <childnode refid="8663" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8663">
+        <label>wxWebViewHandler</label>
+        <link refid="classwx_web_view_handler"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="8664">
+        <label>wxWebViewFSHandler</label>
+        <link refid="classwx_web_view_f_s_handler"/>
+        <childnode refid="8665" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8665">
+        <label>wxWebViewHandler</label>
+        <link refid="classwx_web_view_handler"/>
+      </node>
+    </collaborationgraph>
+    <location file="interface/wx/webviewfshandler.h" line="24" column="1" bodyfile="interface/wx/webviewfshandler.h" bodystart="23" bodyend="31"/>
+    <listofallmembers>
+      <member refid="classwx_web_view_f_s_handler_1ae6b09b3d16d1e4b029582998115cabe9" prot="public" virt="virtual"><scope>wxWebViewFSHandler</scope><name>GetFile</name></member>
+      <member refid="classwx_web_view_handler_1ae9021adc4b3c815b00da81b9efd92dce" prot="public" virt="virtual"><scope>wxWebViewFSHandler</scope><name>GetName</name></member>
+      <member refid="classwx_web_view_f_s_handler_1ab672be9545770c4c757cedd2373b1197" prot="public" virt="non-virtual"><scope>wxWebViewFSHandler</scope><name>wxWebViewFSHandler</name></member>
+      <member refid="classwx_web_view_handler_1a81e1c85b7954904245e49277df098149" prot="public" virt="non-virtual"><scope>wxWebViewFSHandler</scope><name>wxWebViewHandler</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,174 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="overview_helloworld" kind="page">
+    <compoundname>overview_helloworld</compoundname>
+    <title>Hello World Example</title>
+    <tableofcontents/>
+    <briefdescription>
+<para><linebreak/>
+ This page shows a very simple wxWidgets program that can be used as a skeleton for your own code. </para>    </briefdescription>
+    <detaileddescription>
+<para><linebreak/>
+ This page shows a very simple wxWidgets program that can be used as a skeleton for your own code.</para><para>While it does nothing very useful, it introduces a couple of important concepts and explains how to write a working wxWidgets application.</para><para>First, you have to include wxWidgets&apos; header files, of course. This can be done on a file by file basis (such as <computeroutput><ref refid="window_8h" kindref="compound">wx/window.h</ref></computeroutput>) or using one global include (<computeroutput>wx/wx.h</computeroutput>) which includes most of the commonly needed headers (although not all of them as there are simply too many wxWidgets headers to pull in all of them). For the platforms with support for precompiled headers, as indicated by <computeroutput>WX_PRECOMP</computeroutput>, this global header is already included by <computeroutput>wx/wxprec.h</computeroutput> so we only include it for the other ones:</para><para><programlisting><codeline><highlight class="normal">//<sp/>wxWidgets<sp/>&quot;Hello<sp/>world&quot;<sp/>Program</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">//<sp/>For<sp/>compilers<sp/>that<sp/>support<sp/>precompilation,<sp/>includes<sp/>&quot;wx/wx.h&quot;.</highlight></codeline>
+<codeline><highlight class="normal">#include<sp/>&lt;wx/wxprec.h&gt;</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">#ifndef<sp/>WX_PRECOMP</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>#include<sp/>&lt;wx/wx.h&gt;</highlight></codeline>
+<codeline><highlight class="normal">#endif</highlight></codeline>
+</programlisting></para><para>Practically every app should define a new class derived from <ref refid="classwx_app" kindref="compound">wxApp</ref>. By overriding <ref refid="classwx_app" kindref="compound">wxApp</ref>&apos;s OnInit() virtual method the program can be initialized, e.g. by creating a new main window.</para><para><programlisting><codeline><highlight class="normal">class<sp/>MyApp:<sp/>public<sp/>wxApp</highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal">public:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>virtual<sp/>bool<sp/>OnInit();</highlight></codeline>
+<codeline><highlight class="normal">};</highlight></codeline>
+</programlisting></para><para>The main window is created by deriving a class from <ref refid="classwx_frame" kindref="compound">wxFrame</ref> and giving it a menu and a status bar in its constructor. Also, any class that wishes to respond to any &quot;event&quot; (such as mouse clicks or messages from the menu or a button) must declare an event table using the macro below.</para><para>Finally, the way to react to such events must be done in &quot;handlers&quot;. In our sample, we react to three menu items, one for our custom menu command and two for the standard &quot;Exit&quot; and &quot;About&quot; commands (any program should normally implement the latter two). Notice that these handlers don&apos;t need to be neither virtual nor public.</para><para><programlisting><codeline><highlight class="normal">class<sp/>MyFrame:<sp/>public<sp/>wxFrame</highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal">public:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>MyFrame(const<sp/>wxString&amp;<sp/>title,<sp/>const<sp/>wxPoint&amp;<sp/>pos,<sp/>const<sp/>wxSize&amp;<sp/>size);</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">private:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>void<sp/>OnHello(wxCommandEvent&amp;<sp/>event);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>void<sp/>OnExit(wxCommandEvent&amp;<sp/>event);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>void<sp/>OnAbout(wxCommandEvent&amp;<sp/>event);</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>wxDECLARE_EVENT_TABLE();</highlight></codeline>
+<codeline><highlight class="normal">};</highlight></codeline>
+</programlisting></para><para>In order to be able to react to a menu command, it must be given a unique identifier which can be defined as a const variable or an enum element. The latter is often used because typically many such constants will be needed:</para><para><programlisting><codeline><highlight class="normal">enum</highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>ID_Hello<sp/>=<sp/>1</highlight></codeline>
+<codeline><highlight class="normal">};</highlight></codeline>
+</programlisting></para><para>Notice that you don&apos;t need to define identifiers for the &quot;About&quot; and &quot;Exit&quot;. We then proceed to actually implement an event table in which the events are routed to their respective handler functions in the class MyFrame.</para><para>There are predefined macros for routing all common events, ranging from the selection of a list box entry to a resize event when a user resizes a window on the screen. If <computeroutput>wxID_ANY</computeroutput> is given as the ID, the given handler will be invoked for any event of the specified type, so that you could add just one entry in the event table for all menu commands or all button commands etc.</para><para>The origin of the event can still be distinguished in the event handler as the (only) parameter in an event handler is a reference to a <ref refid="classwx_event" kindref="compound">wxEvent</ref> object, which holds various information about the event (such as the ID of and a pointer to the class, which emitted the event).</para><para><programlisting><codeline><highlight class="normal">wxBEGIN_EVENT_TABLE(MyFrame,<sp/>wxFrame)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EVT_MENU(ID_Hello,<sp/><sp/><sp/>MyFrame::OnHello)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EVT_MENU(wxID_EXIT,<sp/><sp/>MyFrame::OnExit)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EVT_MENU(wxID_ABOUT,<sp/>MyFrame::OnAbout)</highlight></codeline>
+<codeline><highlight class="normal">wxEND_EVENT_TABLE()</highlight></codeline>
+</programlisting></para><para>As in all programs there must be a &quot;main&quot; function. Under wxWidgets main is implemented using this macro, which creates an application instance and starts the program.</para><para><programlisting><codeline><highlight class="normal">wxIMPLEMENT_APP(MyApp)</highlight></codeline>
+</programlisting></para><para>As mentioned above, <ref refid="classwx_app_console_1a99953775a2fd83fa2456e390779afe15" kindref="member">wxApp::OnInit()</ref> is called upon startup and should be used to initialize the program, maybe showing a &quot;splash screen&quot; and creating the main window (or several). The frame should get a title bar text (&quot;Hello World&quot;) and a position and start-up size. One frame can also be declared to be the top window. Returning true indicates a successful initialization.</para><para><programlisting><codeline><highlight class="normal">bool<sp/>MyApp::OnInit()</highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>MyFrame<sp/>*frame<sp/>=<sp/>new<sp/>MyFrame(<sp/>&quot;Hello<sp/>World&quot;,<sp/>wxPoint(50,<sp/>50),<sp/>wxSize(450,<sp/>340)<sp/>);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>frame-&gt;Show(<sp/>true<sp/>);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>return<sp/>true;</highlight></codeline>
+<codeline><highlight class="normal">}</highlight></codeline>
+</programlisting></para><para>In the constructor of the main window (or later on) we create a menu with our menu items as well as a status bar to be shown at the bottom of the main window. Both have to be associated with the frame with respective calls.</para><para><programlisting><codeline><highlight class="normal">MyFrame::MyFrame(const<sp/>wxString&amp;<sp/>title,<sp/>const<sp/>wxPoint&amp;<sp/>pos,<sp/>const<sp/>wxSize&amp;<sp/>size)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>wxFrame(NULL,<sp/>wxID_ANY,<sp/>title,<sp/>pos,<sp/>size)</highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>wxMenu<sp/>*menuFile<sp/>=<sp/>new<sp/>wxMenu;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>menuFile-&gt;Append(ID_Hello,<sp/>&quot;&amp;Hello...\tCtrl-H&quot;,</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&quot;Help<sp/>string<sp/>shown<sp/>in<sp/>status<sp/>bar<sp/>for<sp/>this<sp/>menu<sp/>item&quot;);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>menuFile-&gt;AppendSeparator();</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>menuFile-&gt;Append(wxID_EXIT);</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>wxMenu<sp/>*menuHelp<sp/>=<sp/>new<sp/>wxMenu;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>menuHelp-&gt;Append(wxID_ABOUT);</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>wxMenuBar<sp/>*menuBar<sp/>=<sp/>new<sp/>wxMenuBar;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>menuBar-&gt;Append(<sp/>menuFile,<sp/>&quot;&amp;File&quot;<sp/>);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>menuBar-&gt;Append(<sp/>menuHelp,<sp/>&quot;&amp;Help&quot;<sp/>);</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>SetMenuBar(<sp/>menuBar<sp/>);</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>CreateStatusBar();</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>SetStatusText(<sp/>&quot;Welcome<sp/>to<sp/>wxWidgets!&quot;<sp/>);</highlight></codeline>
+<codeline><highlight class="normal">}</highlight></codeline>
+</programlisting></para><para>Notice that we don&apos;t need to specify the labels for the standard menu items <computeroutput>wxID_ABOUT</computeroutput> and <computeroutput>wxID_EXIT</computeroutput>, they will be given standard (even correctly translated) labels and also standard accelerators correct for the current platform making your program behaviour more native. For this reason you should prefer reusing the standard ids (see <ref refid="page_stockitems" kindref="compound">Stock Items</ref>) if possible.</para><para>Here are the standard event handlers implementations. MyFrame::OnExit() closes the main window by calling Close(). The parameter true indicates that other windows have no veto power such as after asking &quot;Do you really want to close?&quot;. If there is no other main window left, the application will quit.</para><para><programlisting><codeline><highlight class="normal">void<sp/>MyFrame::OnExit(wxCommandEvent&amp;<sp/>event)</highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>Close(<sp/>true<sp/>);</highlight></codeline>
+<codeline><highlight class="normal">}</highlight></codeline>
+</programlisting></para><para>MyFrame::OnAbout() will display a small window with some text in it. In this case a typical &quot;About&quot; window with information about the program.</para><para><programlisting><codeline><highlight class="normal">void<sp/>MyFrame::OnAbout(wxCommandEvent&amp;<sp/>event)</highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>wxMessageBox(<sp/>&quot;This<sp/>is<sp/>a<sp/>wxWidgets&apos;<sp/>Hello<sp/>world<sp/>sample&quot;,</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&quot;About<sp/>Hello<sp/>World&quot;,<sp/>wxOK<sp/>|<sp/>wxICON_INFORMATION<sp/>);</highlight></codeline>
+<codeline><highlight class="normal">}</highlight></codeline>
+</programlisting></para><para>The implementation of custom menu command handler may perform whatever task your program needs to do, in this case we will simply show a message from it as befits a hello world example:</para><para><programlisting><codeline><highlight class="normal">void<sp/>MyFrame::OnHello(wxCommandEvent&amp;<sp/>event)</highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>wxLogMessage(&quot;Hello<sp/>world<sp/>from<sp/>wxWidgets!&quot;);</highlight></codeline>
+<codeline><highlight class="normal">}</highlight></codeline>
+</programlisting></para><para>Here is the entire program that can be copied and pasted:</para><para><programlisting><codeline><highlight class="normal">//<sp/>wxWidgets<sp/>&quot;Hello<sp/>world&quot;<sp/>Program</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">//<sp/>For<sp/>compilers<sp/>that<sp/>support<sp/>precompilation,<sp/>includes<sp/>&quot;wx/wx.h&quot;.</highlight></codeline>
+<codeline><highlight class="normal">#include<sp/>&lt;wx/wxprec.h&gt;</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">#ifndef<sp/>WX_PRECOMP</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>#include<sp/>&lt;wx/wx.h&gt;</highlight></codeline>
+<codeline><highlight class="normal">#endif</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">class<sp/>MyApp:<sp/>public<sp/>wxApp</highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal">public:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>virtual<sp/>bool<sp/>OnInit();</highlight></codeline>
+<codeline><highlight class="normal">};</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">class<sp/>MyFrame:<sp/>public<sp/>wxFrame</highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal">public:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>MyFrame(const<sp/>wxString&amp;<sp/>title,<sp/>const<sp/>wxPoint&amp;<sp/>pos,<sp/>const<sp/>wxSize&amp;<sp/>size);</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">private:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>void<sp/>OnHello(wxCommandEvent&amp;<sp/>event);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>void<sp/>OnExit(wxCommandEvent&amp;<sp/>event);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>void<sp/>OnAbout(wxCommandEvent&amp;<sp/>event);</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>wxDECLARE_EVENT_TABLE();</highlight></codeline>
+<codeline><highlight class="normal">};</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">enum</highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>ID_Hello<sp/>=<sp/>1</highlight></codeline>
+<codeline><highlight class="normal">};</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">wxBEGIN_EVENT_TABLE(MyFrame,<sp/>wxFrame)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EVT_MENU(ID_Hello,<sp/><sp/><sp/>MyFrame::OnHello)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EVT_MENU(wxID_EXIT,<sp/><sp/>MyFrame::OnExit)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>EVT_MENU(wxID_ABOUT,<sp/>MyFrame::OnAbout)</highlight></codeline>
+<codeline><highlight class="normal">wxEND_EVENT_TABLE()</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">wxIMPLEMENT_APP(MyApp);</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">bool<sp/>MyApp::OnInit()</highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>MyFrame<sp/>*frame<sp/>=<sp/>new<sp/>MyFrame(<sp/>&quot;Hello<sp/>World&quot;,<sp/>wxPoint(50,<sp/>50),<sp/>wxSize(450,<sp/>340)<sp/>);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>frame-&gt;Show(<sp/>true<sp/>);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>return<sp/>true;</highlight></codeline>
+<codeline><highlight class="normal">}</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">MyFrame::MyFrame(const<sp/>wxString&amp;<sp/>title,<sp/>const<sp/>wxPoint&amp;<sp/>pos,<sp/>const<sp/>wxSize&amp;<sp/>size)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>wxFrame(NULL,<sp/>wxID_ANY,<sp/>title,<sp/>pos,<sp/>size)</highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>wxMenu<sp/>*menuFile<sp/>=<sp/>new<sp/>wxMenu;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>menuFile-&gt;Append(ID_Hello,<sp/>&quot;&amp;Hello...\tCtrl-H&quot;,</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&quot;Help<sp/>string<sp/>shown<sp/>in<sp/>status<sp/>bar<sp/>for<sp/>this<sp/>menu<sp/>item&quot;);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>menuFile-&gt;AppendSeparator();</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>menuFile-&gt;Append(wxID_EXIT);</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>wxMenu<sp/>*menuHelp<sp/>=<sp/>new<sp/>wxMenu;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>menuHelp-&gt;Append(wxID_ABOUT);</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>wxMenuBar<sp/>*menuBar<sp/>=<sp/>new<sp/>wxMenuBar;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>menuBar-&gt;Append(<sp/>menuFile,<sp/>&quot;&amp;File&quot;<sp/>);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>menuBar-&gt;Append(<sp/>menuHelp,<sp/>&quot;&amp;Help&quot;<sp/>);</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>SetMenuBar(<sp/>menuBar<sp/>);</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>CreateStatusBar();</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>SetStatusText(<sp/>&quot;Welcome<sp/>to<sp/>wxWidgets!&quot;<sp/>);</highlight></codeline>
+<codeline><highlight class="normal">}</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">void<sp/>MyFrame::OnExit(wxCommandEvent&amp;<sp/>event)</highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>Close(<sp/>true<sp/>);</highlight></codeline>
+<codeline><highlight class="normal">}</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">void<sp/>MyFrame::OnAbout(wxCommandEvent&amp;<sp/>event)</highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>wxMessageBox(<sp/>&quot;This<sp/>is<sp/>a<sp/>wxWidgets&apos;<sp/>Hello<sp/>world<sp/>sample&quot;,</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&quot;About<sp/>Hello<sp/>World&quot;,<sp/>wxOK<sp/>|<sp/>wxICON_INFORMATION<sp/>);</highlight></codeline>
+<codeline><highlight class="normal">}</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">void<sp/>MyFrame::OnHello(wxCommandEvent&amp;<sp/>event)</highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>wxLogMessage(&quot;Hello<sp/>world<sp/>from<sp/>wxWidgets!&quot;);</highlight></codeline>
+<codeline><highlight class="normal">}</highlight></codeline>
+</programlisting> </para>    </detaileddescription>
+  </compounddef>
+</doxygen>

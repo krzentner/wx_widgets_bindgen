@@ -1,0 +1,254 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_object_data_ptr_3_01_t_01_4" kind="class" language="C++" prot="public">
+    <compoundname>wxObjectDataPtr&lt; T &gt;</compoundname>
+    <includes local="no">wx/object.h</includes>
+    <templateparamlist>
+      <param>
+        <type>class T</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="user-defined">
+      <memberdef kind="function" id="classwx_object_data_ptr_3_01_t_01_4_1a13ee33fc6df54fa843c04a39f74a2c74" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_object_data_ptr_3_01_t_01_4_1af8043426b1516be851ebb6f9784e3848" kindref="member">wxObjectDataPtr</ref>&lt; T &gt; &amp;</type>
+        <definition>wxObjectDataPtr&lt;T&gt;&amp; wxObjectDataPtr&lt; T &gt;::operator=</definition>
+        <argsstring>(const wxObjectDataPtr&lt; T &gt; &amp;tocopy)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="classwx_object_data_ptr_3_01_t_01_4_1af8043426b1516be851ebb6f9784e3848" kindref="member">wxObjectDataPtr</ref>&lt; T &gt; &amp;</type>
+          <declname>tocopy</declname>
+        </param>
+        <briefdescription>
+<para>Assignment operator. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/object.h" line="638" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_object_data_ptr_3_01_t_01_4_1a07572e1b1af70bb7ddf8413f37ed46cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_object_data_ptr_3_01_t_01_4_1af8043426b1516be851ebb6f9784e3848" kindref="member">wxObjectDataPtr</ref>&lt; T &gt; &amp;</type>
+        <definition>wxObjectDataPtr&lt;T&gt;&amp; wxObjectDataPtr&lt; T &gt;::operator=</definition>
+        <argsstring>(T *ptr)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>T *</type>
+          <declname>ptr</declname>
+        </param>
+        <briefdescription>
+<para>Assignment operator. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/object.h" line="639" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classwx_object_data_ptr_3_01_t_01_4_1af8043426b1516be851ebb6f9784e3848" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxObjectDataPtr&lt; T &gt;::wxObjectDataPtr</definition>
+        <argsstring>(T *ptr=NULL)</argsstring>
+        <name>wxObjectDataPtr</name>
+        <param>
+          <type>T *</type>
+          <declname>ptr</declname>
+          <defval>NULL</defval>
+        </param>
+        <briefdescription>
+<para>Constructor. </para>        </briefdescription>
+        <detaileddescription>
+<para><emphasis>ptr</emphasis> is a pointer to the reference counted object to which this class points. If <emphasis>ptr</emphasis> is not NULL <bold>T::IncRef()</bold> will be called on the object. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/object.h" line="477" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_object_data_ptr_3_01_t_01_4_1a9963015e1a99b951df8d4550c7e375db" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxObjectDataPtr&lt; T &gt;::wxObjectDataPtr</definition>
+        <argsstring>(const wxObjectDataPtr&lt; T &gt; &amp;tocopy)</argsstring>
+        <name>wxObjectDataPtr</name>
+        <param>
+          <type>const wxObjectDataPtr&lt; T &gt; &amp;</type>
+          <declname>tocopy</declname>
+        </param>
+        <briefdescription>
+<para>This copy constructor increases the count of the reference counted object to which <emphasis>tocopy</emphasis> points and then this class will point to, as well. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/object.h" line="477" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_object_data_ptr_3_01_t_01_4_1afc347d29ffbdb48ccd73d2d07134e2de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxObjectDataPtr&lt; T &gt;::~wxObjectDataPtr</definition>
+        <argsstring>()</argsstring>
+        <name>~wxObjectDataPtr</name>
+        <briefdescription>
+<para>Decreases the reference count of the object to which this class points. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/object.h" line="477" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_object_data_ptr_3_01_t_01_4_1a879f0a4d4125ad8bfabe57a2c3235c25" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>T *</type>
+        <definition>T* wxObjectDataPtr&lt; T &gt;::get</definition>
+        <argsstring>() const</argsstring>
+        <name>get</name>
+        <briefdescription>
+<para>Gets a pointer to the reference counted object to which this class points. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/object.h" line="603" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_object_data_ptr_3_01_t_01_4_1a7a116724a09b11170af1cb4a125290f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxObjectDataPtr&lt; T &gt;::reset</definition>
+        <argsstring>(T *ptr)</argsstring>
+        <name>reset</name>
+        <param>
+          <type>T *</type>
+          <declname>ptr</declname>
+        </param>
+        <briefdescription>
+<para>Reset this class to ptr which points to a reference counted object and calls T::DecRef() on the previously owned object. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/object.h" line="609" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_object_data_ptr_3_01_t_01_4_1abbff01d1eca827c96d006b1193cba10e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxObjectDataPtr&lt; T &gt;::operator unspecified_bool_type</definition>
+        <argsstring>() const</argsstring>
+        <name>operator unspecified_bool_type</name>
+        <briefdescription>
+<para>Conversion to a boolean expression (in a variant which is not convertable to anything but a boolean expression). </para>        </briefdescription>
+        <detaileddescription>
+<para>If this class contains a valid pointer it will return true, if it contains a NULL pointer it will return false. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/object.h" line="618" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_object_data_ptr_3_01_t_01_4_1a5202a32adc9bd7057a90c34502a96c95" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>T &amp;</type>
+        <definition>T&amp; wxObjectDataPtr&lt; T &gt;::operator*</definition>
+        <argsstring>() const</argsstring>
+        <name>operator*</name>
+        <briefdescription>
+<para>Returns a reference to the object. </para>        </briefdescription>
+        <detaileddescription>
+<para>If the internal pointer is NULL this method will cause an assert in debug mode. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/object.h" line="625" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_object_data_ptr_3_01_t_01_4_1aba9b63a72d3f0432b155c35693c187ca" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>T *</type>
+        <definition>T* wxObjectDataPtr&lt; T &gt;::operator-&gt;</definition>
+        <argsstring>() const</argsstring>
+        <name>operator-&gt;</name>
+        <briefdescription>
+<para>Returns a pointer to the reference counted object to which this class points. </para>        </briefdescription>
+        <detaileddescription>
+<para>If this the internal pointer is NULL, this method will assert in debug mode. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/object.h" line="632" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This is an helper template class primarily written to avoid memory leaks because of missing calls to <ref refid="classwx_ref_counter_1a803eb5be907b1a342082ceb59c01d8c5" kindref="member">wxRefCounter::DecRef()</ref> and wxObjectRefData::DecRef(). </para>    </briefdescription>
+    <detaileddescription>
+<para>Despite the name this template can actually be used as a smart pointer for any class implementing the reference counting interface which only consists of the two methods <bold>T::IncRef()</bold> and <bold>T::DecRef()</bold>.</para><para>The difference to <ref refid="classwx_shared_ptr_3_01_t_01_4" kindref="compound">wxSharedPtr&lt;T&gt;</ref> is that <ref refid="classwx_object_data_ptr_3_01_t_01_4" kindref="compound">wxObjectDataPtr&lt;T&gt;</ref> relies on the reference counting to be in the class pointed to, where instead <ref refid="classwx_shared_ptr_3_01_t_01_4" kindref="compound">wxSharedPtr&lt;T&gt;</ref> implements the reference counting itself.</para><para>Below is an example illustrating how to implement reference counted data using <ref refid="classwx_ref_counter" kindref="compound">wxRefCounter</ref> and <ref refid="classwx_object_data_ptr_3_01_t_01_4" kindref="compound">wxObjectDataPtr&lt;T&gt;</ref> with copy-on-write semantics.</para><sect1 id="classwx_object_data_ptr_3_01_t_01_4_1objectdataptr_example">
+<title>Example</title>
+<para><programlisting><codeline><highlight class="normal">class<sp/>MyCarRefData:<sp/>public<sp/>wxRefCounter</highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal">public:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>MyCarRefData(<sp/>int<sp/>price<sp/>=<sp/>0<sp/>)<sp/>:<sp/>m_price(price)<sp/>{<sp/>}</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>MyCarRefData(<sp/>const<sp/>MyCarRefData&amp;<sp/>data<sp/>)<sp/>:<sp/>m_price(data.m_price)<sp/>{<sp/>}</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>void<sp/>SetPrice(<sp/>int<sp/>price<sp/>)<sp/><sp/>{<sp/>m_price<sp/>=<sp/>price;<sp/>}</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>int<sp/>GetPrice()<sp/>const<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{<sp/>return<sp/>m_price;<sp/>}</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">protected:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>int<sp/>m_price;</highlight></codeline>
+<codeline><highlight class="normal">};</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">class<sp/>MyCar</highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal">public:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>//<sp/>initializes<sp/>this<sp/>MyCar<sp/>assigning<sp/>to<sp/>the</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>//<sp/>internal<sp/>data<sp/>pointer<sp/>a<sp/>new<sp/>instance<sp/>of<sp/>MyCarRefData</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>MyCar(<sp/>int<sp/>price<sp/>=<sp/>0<sp/>)<sp/>:<sp/>m_data(<sp/>new<sp/>MyCarRefData(price)<sp/>)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>MyCar&amp;<sp/>operator<sp/>=(<sp/>const<sp/>MyCar&amp;<sp/>tocopy<sp/>)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>shallow<sp/>copy:<sp/>this<sp/>is<sp/>just<sp/>a<sp/>fast<sp/>copy<sp/>of<sp/>pointers;<sp/>the<sp/>real</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>memory-consuming<sp/>data<sp/>which<sp/>typically<sp/>is<sp/>stored<sp/>inside</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>MyCarRefData<sp/>is<sp/>not<sp/>copied<sp/>here!</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_data<sp/>=<sp/>tocopy.m_data;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>return<sp/>*this;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>bool<sp/>operator<sp/>==<sp/>(<sp/>const<sp/>MyCar&amp;<sp/>other<sp/>)<sp/>const</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>if<sp/>(m_data.get()<sp/>==<sp/>other.m_data.get())</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>return<sp/>true;<sp/>//<sp/>this<sp/>instance<sp/>and<sp/>the<sp/>&apos;other&apos;<sp/>one<sp/>share<sp/>the</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>same<sp/>MyCarRefData<sp/>data...</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>return<sp/>(m_data.GetPrice()<sp/>==<sp/>other.m_data.GetPrice());</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>void<sp/>SetPrice(<sp/>int<sp/>price<sp/>)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>make<sp/>sure<sp/>changes<sp/>to<sp/>this<sp/>class<sp/>do<sp/>not<sp/>affect<sp/>other<sp/>instances</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>currently<sp/>sharing<sp/>our<sp/>same<sp/>refcounted<sp/>data:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UnShare();</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_data-&gt;SetPrice(<sp/>price<sp/>);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>int<sp/>GetPrice()<sp/>const</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>return<sp/>m_data-&gt;GetPrice();</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>wxObjectDataPtr&lt;MyCarRefData&gt;<sp/>m_data;</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">protected:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>void<sp/>UnShare()</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>if<sp/>(m_data-&gt;GetRefCount()<sp/>==<sp/>1)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>return;</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_data.reset(<sp/>new<sp/>MyCarRefData(<sp/>*m_data<sp/>)<sp/>);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline><highlight class="normal">};</highlight></codeline>
+</programlisting></para><para><heading level="2"></heading>
+</para><para>Library:<nonbreakablespace/><nonbreakablespace/><ref refid="page_libs_1page_libs_wxbase" kindref="member">wxBase</ref> &lt;&gt;&lt; =&apos;&apos;&gt;:&lt;/&gt;&amp;;&amp;;&lt; =&apos;&apos;&gt;\ , \ &lt;/&gt;&lt;/&gt;</para><para><simplesect kind="see"><para><ref refid="classwx_object" kindref="compound">wxObject</ref>, <ref refid="classwx_object_ref_data" kindref="compound">wxObjectRefData</ref>, <ref refid="overview_refcount" kindref="compound">Reference Counting</ref>, <ref refid="classwx_shared_ptr_3_01_t_01_4" kindref="compound">wxSharedPtr&lt;T&gt;</ref>, <ref refid="classwx_scoped_ptr_3_01_t_01_4" kindref="compound">wxScopedPtr&lt;T&gt;</ref>, <ref refid="classwx_weak_ref_3_01_t_01_4" kindref="compound">wxWeakRef&lt;T&gt;</ref> </para></simplesect>
+</para></sect1>
+    </detaileddescription>
+    <location file="interface/wx/object.h" line="578" column="1" bodyfile="interface/wx/object.h" bodystart="577" bodyend="641"/>
+    <listofallmembers>
+      <member refid="classwx_object_data_ptr_3_01_t_01_4_1a879f0a4d4125ad8bfabe57a2c3235c25" prot="public" virt="non-virtual"><scope>wxObjectDataPtr&lt; T &gt;</scope><name>get</name></member>
+      <member refid="classwx_object_data_ptr_3_01_t_01_4_1abbff01d1eca827c96d006b1193cba10e" prot="public" virt="non-virtual"><scope>wxObjectDataPtr&lt; T &gt;</scope><name>operator unspecified_bool_type</name></member>
+      <member refid="classwx_object_data_ptr_3_01_t_01_4_1a5202a32adc9bd7057a90c34502a96c95" prot="public" virt="non-virtual"><scope>wxObjectDataPtr&lt; T &gt;</scope><name>operator*</name></member>
+      <member refid="classwx_object_data_ptr_3_01_t_01_4_1aba9b63a72d3f0432b155c35693c187ca" prot="public" virt="non-virtual"><scope>wxObjectDataPtr&lt; T &gt;</scope><name>operator-&gt;</name></member>
+      <member refid="classwx_object_data_ptr_3_01_t_01_4_1a13ee33fc6df54fa843c04a39f74a2c74" prot="public" virt="non-virtual"><scope>wxObjectDataPtr&lt; T &gt;</scope><name>operator=</name></member>
+      <member refid="classwx_object_data_ptr_3_01_t_01_4_1a07572e1b1af70bb7ddf8413f37ed46cf" prot="public" virt="non-virtual"><scope>wxObjectDataPtr&lt; T &gt;</scope><name>operator=</name></member>
+      <member refid="classwx_object_data_ptr_3_01_t_01_4_1a7a116724a09b11170af1cb4a125290f5" prot="public" virt="non-virtual"><scope>wxObjectDataPtr&lt; T &gt;</scope><name>reset</name></member>
+      <member refid="classwx_object_data_ptr_3_01_t_01_4_1af8043426b1516be851ebb6f9784e3848" prot="public" virt="non-virtual"><scope>wxObjectDataPtr&lt; T &gt;</scope><name>wxObjectDataPtr</name></member>
+      <member refid="classwx_object_data_ptr_3_01_t_01_4_1a9963015e1a99b951df8d4550c7e375db" prot="public" virt="non-virtual"><scope>wxObjectDataPtr&lt; T &gt;</scope><name>wxObjectDataPtr</name></member>
+      <member refid="classwx_object_data_ptr_3_01_t_01_4_1afc347d29ffbdb48ccd73d2d07134e2de" prot="public" virt="non-virtual"><scope>wxObjectDataPtr&lt; T &gt;</scope><name>~wxObjectDataPtr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

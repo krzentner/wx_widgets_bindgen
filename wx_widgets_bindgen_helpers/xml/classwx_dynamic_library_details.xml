@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_dynamic_library_details" kind="class" language="C++" prot="public">
+    <compoundname>wxDynamicLibraryDetails</compoundname>
+    <includes local="no">wx/dynlib.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classwx_dynamic_library_details_1a1e2714e96ee1467401ed09362da7a64a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxDynamicLibraryDetails::GetAddress</definition>
+        <argsstring>(void *addr, size_t *len) const</argsstring>
+        <name>GetAddress</name>
+        <param>
+          <type>void *</type>
+          <declname>addr</declname>
+        </param>
+        <param>
+          <type>size_t *</type>
+          <declname>len</declname>
+        </param>
+        <briefdescription>
+<para>Retrieves the load address and the size of this module. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>addr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The pointer to the location to return load address in, may be NULL. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>len</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Pointer to the location to return the size of this module in memory in, may be NULL.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true if the load address and module size were retrieved, false if this information is not available. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/dynlib.h" line="36" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_dynamic_library_details_1aa62e0e59ca322a9bfa3cf2363fedae19" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_string" kindref="compound">wxString</ref></type>
+        <definition>wxString wxDynamicLibraryDetails::GetName</definition>
+        <argsstring>() const</argsstring>
+        <name>GetName</name>
+        <briefdescription>
+<para>Returns the base name of this module, e.g. <computeroutput>&quot;kernel32.dll&quot;</computeroutput> or <computeroutput>&quot;libc-2.3.2.so&quot;</computeroutput>. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/dynlib.h" line="42" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_dynamic_library_details_1a043c3acd9c79efe8d7ecfc04ec9b6264" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_string" kindref="compound">wxString</ref></type>
+        <definition>wxString wxDynamicLibraryDetails::GetPath</definition>
+        <argsstring>() const</argsstring>
+        <name>GetPath</name>
+        <briefdescription>
+<para>Returns the full path of this module if available, e.g. <computeroutput>&quot;c:\windows\system32\kernel32.dll&quot;</computeroutput> or <computeroutput>&quot;/lib/libc-2.3.2.so&quot;</computeroutput>. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/dynlib.h" line="48" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_dynamic_library_details_1ae1a8890239673803347e0ed741211e5d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_string" kindref="compound">wxString</ref></type>
+        <definition>wxString wxDynamicLibraryDetails::GetVersion</definition>
+        <argsstring>() const</argsstring>
+        <name>GetVersion</name>
+        <briefdescription>
+<para>Returns the version of this module, e.g. <computeroutput>&quot;5.2.3790.0&quot;</computeroutput> or <computeroutput>&quot;2.3.2&quot;</computeroutput>. </para>        </briefdescription>
+        <detaileddescription>
+<para>The returned string is empty if the version information is not available. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/dynlib.h" line="55" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class is used for the objects returned by the <ref refid="classwx_dynamic_library_1a89df5540b1dc3aa3886122d8fc8e1e84" kindref="member">wxDynamicLibrary::ListLoaded()</ref> method and contains the information about a single module loaded into the address space of the current process. </para>    </briefdescription>
+    <detaileddescription>
+<para>A module in this context may be either a dynamic library or the main program itself.</para><para><heading level="2"></heading>
+</para><para>Library:<nonbreakablespace/><nonbreakablespace/><ref refid="page_libs_1page_libs_wxbase" kindref="member">wxBase</ref> &lt;&gt;&lt; =&apos;&apos;&gt;:&lt;/&gt;&amp;;&amp;;&lt; =&apos;&apos;&gt;\ &lt;/&gt;&lt;/&gt; </para>    </detaileddescription>
+    <location file="interface/wx/dynlib.h" line="21" column="1" bodyfile="interface/wx/dynlib.h" bodystart="20" bodyend="56"/>
+    <listofallmembers>
+      <member refid="classwx_dynamic_library_details_1a1e2714e96ee1467401ed09362da7a64a" prot="public" virt="non-virtual"><scope>wxDynamicLibraryDetails</scope><name>GetAddress</name></member>
+      <member refid="classwx_dynamic_library_details_1aa62e0e59ca322a9bfa3cf2363fedae19" prot="public" virt="non-virtual"><scope>wxDynamicLibraryDetails</scope><name>GetName</name></member>
+      <member refid="classwx_dynamic_library_details_1a043c3acd9c79efe8d7ecfc04ec9b6264" prot="public" virt="non-virtual"><scope>wxDynamicLibraryDetails</scope><name>GetPath</name></member>
+      <member refid="classwx_dynamic_library_details_1ae1a8890239673803347e0ed741211e5d" prot="public" virt="non-virtual"><scope>wxDynamicLibraryDetails</scope><name>GetVersion</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

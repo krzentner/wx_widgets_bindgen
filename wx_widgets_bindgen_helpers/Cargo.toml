@@ -1,0 +1,11 @@
+[package]
+name = "wx_widgets_bindgen_helpers"
+version = "0.1.0"
+authors = ["K.R. Zentner <krzentner@gmail.com>"]
+
+[dependencies]
+failure = "0.1.1"
+failure_derive = "0.1.1"
+minidom = "0.9.1"
+quick-xml = "0.12.1"
+single = "0.3.0"

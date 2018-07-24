@@ -1,0 +1,157 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_p_g_window_list" kind="class" language="C++" prot="public">
+    <compoundname>wxPGWindowList</compoundname>
+    <includes local="no">wx/propgrid/editors.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classwx_p_g_window_list_1af4f9f690f054960a5dc7bbcaf92ed009" prot="public" static="no" mutable="no">
+        <type><ref refid="classwx_window" kindref="compound">wxWindow</ref> *</type>
+        <definition>wxWindow* wxPGWindowList::m_primary</definition>
+        <argsstring></argsstring>
+        <name>m_primary</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/editors.h" line="20" column="1" bodyfile="interface/wx/propgrid/editors.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classwx_p_g_window_list_1a74a32bbc3aa82e77a68e761937a9057b" prot="public" static="no" mutable="no">
+        <type><ref refid="classwx_window" kindref="compound">wxWindow</ref> *</type>
+        <definition>wxWindow* wxPGWindowList::m_secondary</definition>
+        <argsstring></argsstring>
+        <name>m_secondary</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/editors.h" line="21" column="1" bodyfile="interface/wx/propgrid/editors.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classwx_p_g_window_list_1acffc0bd5f10531fcb2ba82ad78592406" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxPGWindowList::wxPGWindowList</definition>
+        <argsstring>()</argsstring>
+        <name>wxPGWindowList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/editors.h" line="17" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_p_g_window_list_1abb1ccd20be36977302b342bf79322347" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxPGWindowList::SetSecondary</definition>
+        <argsstring>(wxWindow *secondary)</argsstring>
+        <name>SetSecondary</name>
+        <param>
+          <type><ref refid="classwx_window" kindref="compound">wxWindow</ref> *</type>
+          <declname>secondary</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/editors.h" line="18" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_p_g_window_list_1aadce9c657d728f9a67412f0165691239" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxPGWindowList::wxPGWindowList</definition>
+        <argsstring>(wxWindow *a)</argsstring>
+        <name>wxPGWindowList</name>
+        <param>
+          <type><ref refid="classwx_window" kindref="compound">wxWindow</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/editors.h" line="23" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_p_g_window_list_1a436698cb216bac5bb87dcba5bc9bc2d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxPGWindowList::wxPGWindowList</definition>
+        <argsstring>(wxWindow *a, wxWindow *b)</argsstring>
+        <name>wxPGWindowList</name>
+        <param>
+          <type><ref refid="classwx_window" kindref="compound">wxWindow</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_window" kindref="compound">wxWindow</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/editors.h" line="24" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Contains a list of editor windows returned by CreateControls. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="5458">
+        <label>wxObject</label>
+        <link refid="classwx_object"/>
+        <childnode refid="5459" relation="usage">
+          <edgelabel>m_refData</edgelabel>
+        </childnode>
+      </node>
+      <node id="5457">
+        <label>wxEvtHandler</label>
+        <link refid="classwx_evt_handler"/>
+        <childnode refid="5458" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5460" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5460">
+        <label>wxTrackable</label>
+        <link refid="classwx_trackable"/>
+      </node>
+      <node id="5456">
+        <label>wxWindow</label>
+        <link refid="classwx_window"/>
+        <childnode refid="5457" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5455">
+        <label>wxPGWindowList</label>
+        <link refid="classwx_p_g_window_list"/>
+        <childnode refid="5456" relation="usage">
+          <edgelabel>m_secondary</edgelabel>
+          <edgelabel>m_primary</edgelabel>
+        </childnode>
+      </node>
+      <node id="5459">
+        <label>wxObjectRefData</label>
+        <link refid="classwx_object_ref_data"/>
+      </node>
+    </collaborationgraph>
+    <location file="interface/wx/propgrid/editors.h" line="15" column="1" bodyfile="interface/wx/propgrid/editors.h" bodystart="14" bodyend="25"/>
+    <listofallmembers>
+      <member refid="classwx_p_g_window_list_1af4f9f690f054960a5dc7bbcaf92ed009" prot="public" virt="non-virtual"><scope>wxPGWindowList</scope><name>m_primary</name></member>
+      <member refid="classwx_p_g_window_list_1a74a32bbc3aa82e77a68e761937a9057b" prot="public" virt="non-virtual"><scope>wxPGWindowList</scope><name>m_secondary</name></member>
+      <member refid="classwx_p_g_window_list_1abb1ccd20be36977302b342bf79322347" prot="public" virt="non-virtual"><scope>wxPGWindowList</scope><name>SetSecondary</name></member>
+      <member refid="classwx_p_g_window_list_1acffc0bd5f10531fcb2ba82ad78592406" prot="public" virt="non-virtual"><scope>wxPGWindowList</scope><name>wxPGWindowList</name></member>
+      <member refid="classwx_p_g_window_list_1aadce9c657d728f9a67412f0165691239" prot="public" virt="non-virtual"><scope>wxPGWindowList</scope><name>wxPGWindowList</name></member>
+      <member refid="classwx_p_g_window_list_1a436698cb216bac5bb87dcba5bc9bc2d8" prot="public" virt="non-virtual"><scope>wxPGWindowList</scope><name>wxPGWindowList</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,1209 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_rect" kind="class" language="C++" prot="public">
+    <compoundname>wxRect</compoundname>
+    <includes local="no">wx/gdicmn.h</includes>
+      <sectiondef kind="user-defined">
+      <memberdef kind="function" id="classwx_rect_1a7ea7c06a0a4136736009e05fa6eb006f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_rect" kindref="compound">wxRect</ref></type>
+        <definition>wxRect wxRect::CentreIn</definition>
+        <argsstring>(const wxRect &amp;r, int dir=wxBOTH) const</argsstring>
+        <name>CentreIn</name>
+        <param>
+          <type>const <ref refid="classwx_rect" kindref="compound">wxRect</ref> &amp;</type>
+          <declname>r</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dir</declname>
+          <defval><ref refid="defs_8h_1a1e6994f40bd9cb140e292afb165af971a31055fdab980125bf5a575f776066097" kindref="member">wxBOTH</ref></defval>
+        </param>
+        <briefdescription>
+<para>Returns the rectangle having the same size as this one but centered relatively to the given rectangle <emphasis>r</emphasis>. </para>        </briefdescription>
+        <detaileddescription>
+<para>By default, rectangle is centred in both directions but if <emphasis>dir</emphasis> includes only <computeroutput>wxVERTICAL</computeroutput> or only <computeroutput>wxHORIZONTAL</computeroutput>, then it is only centered in this direction while the other component of its position remains unchanged. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/gdicmn.h" line="243" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rect_1ab89e40c6c82cd7271d0a304f4fe5ab4b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_rect" kindref="compound">wxRect</ref></type>
+        <definition>wxRect wxRect::CenterIn</definition>
+        <argsstring>(const wxRect &amp;r, int dir=wxBOTH) const</argsstring>
+        <name>CenterIn</name>
+        <param>
+          <type>const <ref refid="classwx_rect" kindref="compound">wxRect</ref> &amp;</type>
+          <declname>r</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dir</declname>
+          <defval><ref refid="defs_8h_1a1e6994f40bd9cb140e292afb165af971a31055fdab980125bf5a575f776066097" kindref="member">wxBOTH</ref></defval>
+        </param>
+        <briefdescription>
+<para>Returns the rectangle having the same size as this one but centered relatively to the given rectangle <emphasis>r</emphasis>. </para>        </briefdescription>
+        <detaileddescription>
+<para>By default, rectangle is centred in both directions but if <emphasis>dir</emphasis> includes only <computeroutput>wxVERTICAL</computeroutput> or only <computeroutput>wxHORIZONTAL</computeroutput>, then it is only centered in this direction while the other component of its position remains unchanged. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/gdicmn.h" line="244" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="user-defined">
+      <memberdef kind="function" id="classwx_rect_1ae06d8b6c01e87c37b6b1c6f71a2c1533" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_rect" kindref="compound">wxRect</ref> &amp;</type>
+        <definition>wxRect&amp; wxRect::Deflate</definition>
+        <argsstring>(wxCoord dx, wxCoord dy)</argsstring>
+        <name>Deflate</name>
+        <param>
+          <type><ref refid="defs_8h_1a11f6efc0e8d8d680f3ec8e82aa4f1770" kindref="member">wxCoord</ref></type>
+          <declname>dx</declname>
+        </param>
+        <param>
+          <type><ref refid="defs_8h_1a11f6efc0e8d8d680f3ec8e82aa4f1770" kindref="member">wxCoord</ref></type>
+          <declname>dy</declname>
+        </param>
+        <briefdescription>
+<para>Decrease the rectangle size. </para>        </briefdescription>
+        <detaileddescription>
+<para>This method is the opposite from <ref refid="classwx_rect_1acc7657b99635a18702941bd9879ff6d3" kindref="member">Inflate()</ref>: Deflate(a, b) is equivalent to Inflate(-a, -b). Please refer to <ref refid="classwx_rect_1acc7657b99635a18702941bd9879ff6d3" kindref="member">Inflate()</ref> for full description. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/gdicmn.h" line="270" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rect_1a489912f655b6a0f947ed9c834fa30ec0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_rect" kindref="compound">wxRect</ref> &amp;</type>
+        <definition>wxRect&amp; wxRect::Deflate</definition>
+        <argsstring>(const wxSize &amp;diff)</argsstring>
+        <name>Deflate</name>
+        <param>
+          <type>const <ref refid="classwx_size" kindref="compound">wxSize</ref> &amp;</type>
+          <declname>diff</declname>
+        </param>
+        <briefdescription>
+<para>Decrease the rectangle size. </para>        </briefdescription>
+        <detaileddescription>
+<para>This method is the opposite from <ref refid="classwx_rect_1acc7657b99635a18702941bd9879ff6d3" kindref="member">Inflate()</ref>: Deflate(a, b) is equivalent to Inflate(-a, -b). Please refer to <ref refid="classwx_rect_1acc7657b99635a18702941bd9879ff6d3" kindref="member">Inflate()</ref> for full description. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/gdicmn.h" line="271" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rect_1a742ace64501590bbebcb40ec4d79bf06" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_rect" kindref="compound">wxRect</ref> &amp;</type>
+        <definition>wxRect&amp; wxRect::Deflate</definition>
+        <argsstring>(wxCoord diff)</argsstring>
+        <name>Deflate</name>
+        <param>
+          <type><ref refid="defs_8h_1a11f6efc0e8d8d680f3ec8e82aa4f1770" kindref="member">wxCoord</ref></type>
+          <declname>diff</declname>
+        </param>
+        <briefdescription>
+<para>Decrease the rectangle size. </para>        </briefdescription>
+        <detaileddescription>
+<para>This method is the opposite from <ref refid="classwx_rect_1acc7657b99635a18702941bd9879ff6d3" kindref="member">Inflate()</ref>: Deflate(a, b) is equivalent to Inflate(-a, -b). Please refer to <ref refid="classwx_rect_1acc7657b99635a18702941bd9879ff6d3" kindref="member">Inflate()</ref> for full description. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/gdicmn.h" line="272" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rect_1aa9475a49c56f1e5fac550dbfd0b7a5b8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_rect" kindref="compound">wxRect</ref></type>
+        <definition>wxRect wxRect::Deflate</definition>
+        <argsstring>(wxCoord dx, wxCoord dy) const</argsstring>
+        <name>Deflate</name>
+        <param>
+          <type><ref refid="defs_8h_1a11f6efc0e8d8d680f3ec8e82aa4f1770" kindref="member">wxCoord</ref></type>
+          <declname>dx</declname>
+        </param>
+        <param>
+          <type><ref refid="defs_8h_1a11f6efc0e8d8d680f3ec8e82aa4f1770" kindref="member">wxCoord</ref></type>
+          <declname>dy</declname>
+        </param>
+        <briefdescription>
+<para>Decrease the rectangle size. </para>        </briefdescription>
+        <detaileddescription>
+<para>This method is the opposite from <ref refid="classwx_rect_1acc7657b99635a18702941bd9879ff6d3" kindref="member">Inflate()</ref>: Deflate(a, b) is equivalent to Inflate(-a, -b). Please refer to <ref refid="classwx_rect_1acc7657b99635a18702941bd9879ff6d3" kindref="member">Inflate()</ref> for full description. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/gdicmn.h" line="273" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="user-defined">
+      <memberdef kind="function" id="classwx_rect_1acc7657b99635a18702941bd9879ff6d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_rect" kindref="compound">wxRect</ref> &amp;</type>
+        <definition>wxRect&amp; wxRect::Inflate</definition>
+        <argsstring>(wxCoord dx, wxCoord dy)</argsstring>
+        <name>Inflate</name>
+        <param>
+          <type><ref refid="defs_8h_1a11f6efc0e8d8d680f3ec8e82aa4f1770" kindref="member">wxCoord</ref></type>
+          <declname>dx</declname>
+        </param>
+        <param>
+          <type><ref refid="defs_8h_1a11f6efc0e8d8d680f3ec8e82aa4f1770" kindref="member">wxCoord</ref></type>
+          <declname>dy</declname>
+        </param>
+        <briefdescription>
+<para>Increases the size of the rectangle. </para>        </briefdescription>
+        <detaileddescription>
+<para>The left border is moved farther left and the right border is moved farther right by <emphasis>dx</emphasis>. The upper border is moved farther up and the bottom border is moved farther down by <emphasis>dy</emphasis>. (Note that the width and height of the rectangle thus change by 2*dx and 2*dy, respectively.) If one or both of <emphasis>dx</emphasis> and <emphasis>dy</emphasis> are negative, the opposite happens: the rectangle size decreases in the respective direction.</para><para>Inflating and deflating behaves &quot;naturally&quot;. Defined more precisely, that means:<orderedlist>
+<listitem><para>&quot;Real&quot; inflates (that is, <emphasis>dx</emphasis> and/or <emphasis>dy</emphasis> = 0) are not constrained. Thus inflating a rectangle can cause its upper left corner to move into the negative numbers. (2.5.4 and older forced the top left coordinate to not fall below (0, 0), which implied a forced move of the rectangle.)</para></listitem><listitem><para>Deflates are clamped to not reduce the width or height of the rectangle below zero. In such cases, the top-left corner is nonetheless handled properly. For example, a rectangle at (10, 10) with size (20, 40) that is inflated by (-15, -15) will become located at (20, 25) at size (0, 10). Finally, observe that the width and height are treated independently. In the above example, the width is reduced by 20, whereas the height is reduced by the full 30 (rather than also stopping at 20, when the width reached zero).</para></listitem></orderedlist>
+</para><para><simplesect kind="see"><para><ref refid="classwx_rect_1ae06d8b6c01e87c37b6b1c6f71a2c1533" kindref="member">Deflate()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/gdicmn.h" line="378" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rect_1ae26fb587de4bebbf29fa7d8591d5540d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_rect" kindref="compound">wxRect</ref> &amp;</type>
+        <definition>wxRect&amp; wxRect::Inflate</definition>
+        <argsstring>(const wxSize &amp;diff)</argsstring>
+        <name>Inflate</name>
+        <param>
+          <type>const <ref refid="classwx_size" kindref="compound">wxSize</ref> &amp;</type>
+          <declname>diff</declname>
+        </param>
+        <briefdescription>
+<para>Increases the size of the rectangle. </para>        </briefdescription>
+        <detaileddescription>
+<para>The left border is moved farther left and the right border is moved farther right by <emphasis>dx</emphasis>. The upper border is moved farther up and the bottom border is moved farther down by <emphasis>dy</emphasis>. (Note that the width and height of the rectangle thus change by 2*dx and 2*dy, respectively.) If one or both of <emphasis>dx</emphasis> and <emphasis>dy</emphasis> are negative, the opposite happens: the rectangle size decreases in the respective direction.</para><para>Inflating and deflating behaves &quot;naturally&quot;. Defined more precisely, that means:<orderedlist>
+<listitem><para>&quot;Real&quot; inflates (that is, <emphasis>dx</emphasis> and/or <emphasis>dy</emphasis> = 0) are not constrained. Thus inflating a rectangle can cause its upper left corner to move into the negative numbers. (2.5.4 and older forced the top left coordinate to not fall below (0, 0), which implied a forced move of the rectangle.)</para></listitem><listitem><para>Deflates are clamped to not reduce the width or height of the rectangle below zero. In such cases, the top-left corner is nonetheless handled properly. For example, a rectangle at (10, 10) with size (20, 40) that is inflated by (-15, -15) will become located at (20, 25) at size (0, 10). Finally, observe that the width and height are treated independently. In the above example, the width is reduced by 20, whereas the height is reduced by the full 30 (rather than also stopping at 20, when the width reached zero).</para></listitem></orderedlist>
+</para><para><simplesect kind="see"><para><ref refid="classwx_rect_1ae06d8b6c01e87c37b6b1c6f71a2c1533" kindref="member">Deflate()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/gdicmn.h" line="379" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rect_1aa94ab78b5770ee7066940319b530690d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_rect" kindref="compound">wxRect</ref> &amp;</type>
+        <definition>wxRect&amp; wxRect::Inflate</definition>
+        <argsstring>(wxCoord diff)</argsstring>
+        <name>Inflate</name>
+        <param>
+          <type><ref refid="defs_8h_1a11f6efc0e8d8d680f3ec8e82aa4f1770" kindref="member">wxCoord</ref></type>
+          <declname>diff</declname>
+        </param>
+        <briefdescription>
+<para>Increases the size of the rectangle. </para>        </briefdescription>
+        <detaileddescription>
+<para>The left border is moved farther left and the right border is moved farther right by <emphasis>dx</emphasis>. The upper border is moved farther up and the bottom border is moved farther down by <emphasis>dy</emphasis>. (Note that the width and height of the rectangle thus change by 2*dx and 2*dy, respectively.) If one or both of <emphasis>dx</emphasis> and <emphasis>dy</emphasis> are negative, the opposite happens: the rectangle size decreases in the respective direction.</para><para>Inflating and deflating behaves &quot;naturally&quot;. Defined more precisely, that means:<orderedlist>
+<listitem><para>&quot;Real&quot; inflates (that is, <emphasis>dx</emphasis> and/or <emphasis>dy</emphasis> = 0) are not constrained. Thus inflating a rectangle can cause its upper left corner to move into the negative numbers. (2.5.4 and older forced the top left coordinate to not fall below (0, 0), which implied a forced move of the rectangle.)</para></listitem><listitem><para>Deflates are clamped to not reduce the width or height of the rectangle below zero. In such cases, the top-left corner is nonetheless handled properly. For example, a rectangle at (10, 10) with size (20, 40) that is inflated by (-15, -15) will become located at (20, 25) at size (0, 10). Finally, observe that the width and height are treated independently. In the above example, the width is reduced by 20, whereas the height is reduced by the full 30 (rather than also stopping at 20, when the width reached zero).</para></listitem></orderedlist>
+</para><para><simplesect kind="see"><para><ref refid="classwx_rect_1ae06d8b6c01e87c37b6b1c6f71a2c1533" kindref="member">Deflate()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/gdicmn.h" line="380" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rect_1acc9c9e81ad5d6519d6544434ac636ba1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_rect" kindref="compound">wxRect</ref></type>
+        <definition>wxRect wxRect::Inflate</definition>
+        <argsstring>(wxCoord dx, wxCoord dy) const</argsstring>
+        <name>Inflate</name>
+        <param>
+          <type><ref refid="defs_8h_1a11f6efc0e8d8d680f3ec8e82aa4f1770" kindref="member">wxCoord</ref></type>
+          <declname>dx</declname>
+        </param>
+        <param>
+          <type><ref refid="defs_8h_1a11f6efc0e8d8d680f3ec8e82aa4f1770" kindref="member">wxCoord</ref></type>
+          <declname>dy</declname>
+        </param>
+        <briefdescription>
+<para>Increases the size of the rectangle. </para>        </briefdescription>
+        <detaileddescription>
+<para>The left border is moved farther left and the right border is moved farther right by <emphasis>dx</emphasis>. The upper border is moved farther up and the bottom border is moved farther down by <emphasis>dy</emphasis>. (Note that the width and height of the rectangle thus change by 2*dx and 2*dy, respectively.) If one or both of <emphasis>dx</emphasis> and <emphasis>dy</emphasis> are negative, the opposite happens: the rectangle size decreases in the respective direction.</para><para>Inflating and deflating behaves &quot;naturally&quot;. Defined more precisely, that means:<orderedlist>
+<listitem><para>&quot;Real&quot; inflates (that is, <emphasis>dx</emphasis> and/or <emphasis>dy</emphasis> = 0) are not constrained. Thus inflating a rectangle can cause its upper left corner to move into the negative numbers. (2.5.4 and older forced the top left coordinate to not fall below (0, 0), which implied a forced move of the rectangle.)</para></listitem><listitem><para>Deflates are clamped to not reduce the width or height of the rectangle below zero. In such cases, the top-left corner is nonetheless handled properly. For example, a rectangle at (10, 10) with size (20, 40) that is inflated by (-15, -15) will become located at (20, 25) at size (0, 10). Finally, observe that the width and height are treated independently. In the above example, the width is reduced by 20, whereas the height is reduced by the full 30 (rather than also stopping at 20, when the width reached zero).</para></listitem></orderedlist>
+</para><para><simplesect kind="see"><para><ref refid="classwx_rect_1ae06d8b6c01e87c37b6b1c6f71a2c1533" kindref="member">Deflate()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/gdicmn.h" line="381" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="user-defined">
+      <memberdef kind="function" id="classwx_rect_1a90f2b9450cf08cf81afe66e502814902" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxRect::Offset</definition>
+        <argsstring>(wxCoord dx, wxCoord dy)</argsstring>
+        <name>Offset</name>
+        <param>
+          <type><ref refid="defs_8h_1a11f6efc0e8d8d680f3ec8e82aa4f1770" kindref="member">wxCoord</ref></type>
+          <declname>dx</declname>
+        </param>
+        <param>
+          <type><ref refid="defs_8h_1a11f6efc0e8d8d680f3ec8e82aa4f1770" kindref="member">wxCoord</ref></type>
+          <declname>dy</declname>
+        </param>
+        <briefdescription>
+<para>Moves the rectangle by the specified offset. </para>        </briefdescription>
+        <detaileddescription>
+<para>If <emphasis>dx</emphasis> is positive, the rectangle is moved to the right, if <emphasis>dy</emphasis> is positive, it is moved to the bottom, otherwise it is moved to the left or top respectively. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/gdicmn.h" line="416" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rect_1a7533abc7c86cb6089c64231db9c9c219" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxRect::Offset</definition>
+        <argsstring>(const wxPoint &amp;pt)</argsstring>
+        <name>Offset</name>
+        <param>
+          <type>const <ref refid="classwx_point" kindref="compound">wxPoint</ref> &amp;</type>
+          <declname>pt</declname>
+        </param>
+        <briefdescription>
+<para>Moves the rectangle by the specified offset. </para>        </briefdescription>
+        <detaileddescription>
+<para>If <emphasis>dx</emphasis> is positive, the rectangle is moved to the right, if <emphasis>dy</emphasis> is positive, it is moved to the bottom, otherwise it is moved to the left or top respectively. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/gdicmn.h" line="417" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="user-defined">
+      <memberdef kind="function" id="classwx_rect_1a0647e48228840a668b379933f298a1a8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_rect" kindref="compound">wxRect</ref></type>
+        <definition>wxRect wxRect::Union</definition>
+        <argsstring>(const wxRect &amp;rect) const</argsstring>
+        <name>Union</name>
+        <param>
+          <type>const <ref refid="classwx_rect" kindref="compound">wxRect</ref> &amp;</type>
+          <declname>rect</declname>
+        </param>
+        <briefdescription>
+<para>Modifies the rectangle to contain the bounding box of this rectangle and the one passed in as parameter. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/gdicmn.h" line="512" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rect_1a093503cdc6e1eb4f3cc6b086ec99d8ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_rect" kindref="compound">wxRect</ref> &amp;</type>
+        <definition>wxRect&amp; wxRect::Union</definition>
+        <argsstring>(const wxRect &amp;rect)</argsstring>
+        <name>Union</name>
+        <param>
+          <type>const <ref refid="classwx_rect" kindref="compound">wxRect</ref> &amp;</type>
+          <declname>rect</declname>
+        </param>
+        <briefdescription>
+<para>Modifies the rectangle to contain the bounding box of this rectangle and the one passed in as parameter. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/gdicmn.h" line="513" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="user-defined">
+      <memberdef kind="function" id="classwx_rect_1adfaa87d437f100daeff323aaade49509" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_rect" kindref="compound">wxRect</ref></type>
+        <definition>wxRect wxRect::operator+</definition>
+        <argsstring>(const wxRect &amp;r1, const wxRect &amp;r2)</argsstring>
+        <name>operator+</name>
+        <param>
+          <type>const <ref refid="classwx_rect" kindref="compound">wxRect</ref> &amp;</type>
+          <declname>r1</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_rect" kindref="compound">wxRect</ref> &amp;</type>
+          <declname>r2</declname>
+        </param>
+        <briefdescription>
+<para>Like <ref refid="classwx_rect_1a0647e48228840a668b379933f298a1a8" kindref="member">Union()</ref>, but doesn&apos;t treat empty rectangles specially. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/gdicmn.h" line="525" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rect_1a2cf1b56f4269ff22d26647ab875de94d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_rect" kindref="compound">wxRect</ref> &amp;</type>
+        <definition>wxRect&amp; wxRect::operator+=</definition>
+        <argsstring>(const wxRect &amp;r)</argsstring>
+        <name>operator+=</name>
+        <param>
+          <type>const <ref refid="classwx_rect" kindref="compound">wxRect</ref> &amp;</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+<para>Like <ref refid="classwx_rect_1a0647e48228840a668b379933f298a1a8" kindref="member">Union()</ref>, but doesn&apos;t treat empty rectangles specially. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/gdicmn.h" line="526" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="user-defined">
+      <memberdef kind="function" id="classwx_rect_1a93f30b20426ff0231ba3da0099a792ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_rect" kindref="compound">wxRect</ref></type>
+        <definition>wxRect wxRect::operator*</definition>
+        <argsstring>(const wxRect &amp;r1, const wxRect &amp;r2)</argsstring>
+        <name>operator*</name>
+        <param>
+          <type>const <ref refid="classwx_rect" kindref="compound">wxRect</ref> &amp;</type>
+          <declname>r1</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_rect" kindref="compound">wxRect</ref> &amp;</type>
+          <declname>r2</declname>
+        </param>
+        <briefdescription>
+<para>Returns the intersection of two rectangles (which may be empty). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/gdicmn.h" line="533" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rect_1afa4db3cd72770e468df4ffd7282f1c58" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_rect" kindref="compound">wxRect</ref> &amp;</type>
+        <definition>wxRect&amp; wxRect::operator*=</definition>
+        <argsstring>(const wxRect &amp;r)</argsstring>
+        <name>operator*=</name>
+        <param>
+          <type>const <ref refid="classwx_rect" kindref="compound">wxRect</ref> &amp;</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+<para>Returns the intersection of two rectangles (which may be empty). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/gdicmn.h" line="534" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classwx_rect_1a1d165d7b9572e7229c2f2e1b25898f7d" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int wxRect::height</definition>
+        <argsstring></argsstring>
+        <name>height</name>
+        <briefdescription>
+<para>Height member. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/gdicmn.h" line="550" column="1" bodyfile="interface/wx/gdicmn.h" bodystart="550" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classwx_rect_1ab2be5c8d430c85c007f5a9aab58356d8" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int wxRect::width</definition>
+        <argsstring></argsstring>
+        <name>width</name>
+        <briefdescription>
+<para>Width member. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/gdicmn.h" line="555" column="1" bodyfile="interface/wx/gdicmn.h" bodystart="555" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classwx_rect_1a81e5eb1ee155fd53ff40f1585e90b2fb" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int wxRect::x</definition>
+        <argsstring></argsstring>
+        <name>x</name>
+        <briefdescription>
+<para>x coordinate of the top-level corner of the rectangle. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/gdicmn.h" line="560" column="1" bodyfile="interface/wx/gdicmn.h" bodystart="560" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classwx_rect_1a81d2ea24b666fe662295fc356e68408d" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int wxRect::y</definition>
+        <argsstring></argsstring>
+        <name>y</name>
+        <briefdescription>
+<para>y coordinate of the top-level corner of the rectangle. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/gdicmn.h" line="565" column="1" bodyfile="interface/wx/gdicmn.h" bodystart="565" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classwx_rect_1a19b68679edc9030cba102a8602febded" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxRect::wxRect</definition>
+        <argsstring>()</argsstring>
+        <name>wxRect</name>
+        <briefdescription>
+<para>Default constructor. </para>        </briefdescription>
+        <detaileddescription>
+<para>Initializes to zero the internal <emphasis>x</emphasis>, <emphasis>y</emphasis>, <emphasis>width</emphasis> and <emphasis>height</emphasis> members. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/gdicmn.h" line="217" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rect_1aefb674bdc6d9d66a5c3746e5acc845d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxRect::wxRect</definition>
+        <argsstring>(int x, int y, int width, int height)</argsstring>
+        <name>wxRect</name>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>height</declname>
+        </param>
+        <briefdescription>
+<para>Creates a <ref refid="classwx_rect" kindref="compound">wxRect</ref> object from <emphasis>x</emphasis>, <emphasis>y</emphasis>, <emphasis>width</emphasis> and <emphasis>height</emphasis> values. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/gdicmn.h" line="221" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rect_1a8d62df83787d4e1acdcf7a12fc97e5e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxRect::wxRect</definition>
+        <argsstring>(const wxPoint &amp;topLeft, const wxPoint &amp;bottomRight)</argsstring>
+        <name>wxRect</name>
+        <param>
+          <type>const <ref refid="classwx_point" kindref="compound">wxPoint</ref> &amp;</type>
+          <declname>topLeft</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_point" kindref="compound">wxPoint</ref> &amp;</type>
+          <declname>bottomRight</declname>
+        </param>
+        <briefdescription>
+<para>Creates a <ref refid="classwx_rect" kindref="compound">wxRect</ref> object from top-left and bottom-right points. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/gdicmn.h" line="225" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rect_1ae46a17423adfbb2faa21020b7cab8bc8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxRect::wxRect</definition>
+        <argsstring>(const wxPoint &amp;pos, const wxSize &amp;size)</argsstring>
+        <name>wxRect</name>
+        <param>
+          <type>const <ref refid="classwx_point" kindref="compound">wxPoint</ref> &amp;</type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_size" kindref="compound">wxSize</ref> &amp;</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+<para>Creates a <ref refid="classwx_rect" kindref="compound">wxRect</ref> object from position <emphasis>pos</emphasis> and <emphasis>size</emphasis> values. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/gdicmn.h" line="229" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rect_1a806ffe715a971157753890bab59d7d16" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxRect::wxRect</definition>
+        <argsstring>(const wxSize &amp;size)</argsstring>
+        <name>wxRect</name>
+        <param>
+          <type>const <ref refid="classwx_size" kindref="compound">wxSize</ref> &amp;</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+<para>Creates a <ref refid="classwx_rect" kindref="compound">wxRect</ref> object from <emphasis>size</emphasis> values at the origin. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/gdicmn.h" line="233" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rect_1af9dbfc78b8b630d04e70240c6c5d691b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxRect::Contains</definition>
+        <argsstring>(int x, int y) const</argsstring>
+        <name>Contains</name>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+<para>Returns true if the given point is inside the rectangle (or on its boundary) and false otherwise. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/gdicmn.h" line="251" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rect_1a742168b406772696f9b491c1b3f1b82a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxRect::Contains</definition>
+        <argsstring>(const wxPoint &amp;pt) const</argsstring>
+        <name>Contains</name>
+        <param>
+          <type>const <ref refid="classwx_point" kindref="compound">wxPoint</ref> &amp;</type>
+          <declname>pt</declname>
+        </param>
+        <briefdescription>
+<para>Returns true if the given point is inside the rectangle (or on its boundary) and false otherwise. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/gdicmn.h" line="256" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rect_1a200f82b29580067c6052162784608897" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxRect::Contains</definition>
+        <argsstring>(const wxRect &amp;rect) const</argsstring>
+        <name>Contains</name>
+        <param>
+          <type>const <ref refid="classwx_rect" kindref="compound">wxRect</ref> &amp;</type>
+          <declname>rect</declname>
+        </param>
+        <briefdescription>
+<para>Returns true if the given rectangle is completely inside this rectangle (or touches its boundary) and false otherwise. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/gdicmn.h" line="261" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rect_1a362f06d7a036726a31b73464224c4b24" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int wxRect::GetBottom</definition>
+        <argsstring>() const</argsstring>
+        <name>GetBottom</name>
+        <briefdescription>
+<para>Gets the bottom point of the rectangle. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/gdicmn.h" line="279" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rect_1a3343305c7af694260f1124b79014f230" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_point" kindref="compound">wxPoint</ref></type>
+        <definition>wxPoint wxRect::GetBottomLeft</definition>
+        <argsstring>() const</argsstring>
+        <name>GetBottomLeft</name>
+        <briefdescription>
+<para>Gets the position of the bottom left corner. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/gdicmn.h" line="284" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rect_1a63597674ae5446df85e6cd82724495a6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_point" kindref="compound">wxPoint</ref></type>
+        <definition>wxPoint wxRect::GetBottomRight</definition>
+        <argsstring>() const</argsstring>
+        <name>GetBottomRight</name>
+        <briefdescription>
+<para>Gets the position of the bottom right corner. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/gdicmn.h" line="289" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rect_1a15431ee34e69823f7a5098f8ff3cf929" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int wxRect::GetHeight</definition>
+        <argsstring>() const</argsstring>
+        <name>GetHeight</name>
+        <briefdescription>
+<para>Gets the height member. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/gdicmn.h" line="294" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rect_1a903b6b2ea94ce0266b86f4e8e7c88e52" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int wxRect::GetLeft</definition>
+        <argsstring>() const</argsstring>
+        <name>GetLeft</name>
+        <briefdescription>
+<para>Gets the left point of the rectangle (the same as <ref refid="classwx_rect_1ad7dc3b867d63e2908710f354baacddc3" kindref="member">GetX()</ref>). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/gdicmn.h" line="299" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rect_1a3b46232998f8c0bf44e3544fe8cbad20" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_point" kindref="compound">wxPoint</ref></type>
+        <definition>wxPoint wxRect::GetPosition</definition>
+        <argsstring>() const</argsstring>
+        <name>GetPosition</name>
+        <briefdescription>
+<para>Gets the position. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/gdicmn.h" line="304" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rect_1af6808c0e7a663411b570867cd8ed98b3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int wxRect::GetRight</definition>
+        <argsstring>() const</argsstring>
+        <name>GetRight</name>
+        <briefdescription>
+<para>Gets the right point of the rectangle. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/gdicmn.h" line="309" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rect_1a3cc4e113de2759c6b7cdbb3597b728f1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_size" kindref="compound">wxSize</ref></type>
+        <definition>wxSize wxRect::GetSize</definition>
+        <argsstring>() const</argsstring>
+        <name>GetSize</name>
+        <briefdescription>
+<para>Gets the size. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="see"><para><ref refid="classwx_rect_1a2e3502710b2987209bde881ac59521fc" kindref="member">SetSize()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/gdicmn.h" line="316" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rect_1a6419a3672446e9589d7fb14d24fa867b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int wxRect::GetTop</definition>
+        <argsstring>() const</argsstring>
+        <name>GetTop</name>
+        <briefdescription>
+<para>Gets the top point of the rectangle (the same as <ref refid="classwx_rect_1a2dc9bc934a126f3568642f826db0cbbb" kindref="member">GetY()</ref>). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/gdicmn.h" line="321" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rect_1a9be63d55cc56520955f72541c06ce27c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_point" kindref="compound">wxPoint</ref></type>
+        <definition>wxPoint wxRect::GetTopLeft</definition>
+        <argsstring>() const</argsstring>
+        <name>GetTopLeft</name>
+        <briefdescription>
+<para>Gets the position of the top left corner of the rectangle, same as <ref refid="classwx_rect_1a3b46232998f8c0bf44e3544fe8cbad20" kindref="member">GetPosition()</ref>. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/gdicmn.h" line="327" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rect_1a9a8d3422539928a31772080026d1f855" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_point" kindref="compound">wxPoint</ref></type>
+        <definition>wxPoint wxRect::GetTopRight</definition>
+        <argsstring>() const</argsstring>
+        <name>GetTopRight</name>
+        <briefdescription>
+<para>Gets the position of the top right corner. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/gdicmn.h" line="332" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rect_1a45e10fe0f67517b3700cc079520dff31" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int wxRect::GetWidth</definition>
+        <argsstring>() const</argsstring>
+        <name>GetWidth</name>
+        <briefdescription>
+<para>Gets the width member. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/gdicmn.h" line="337" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rect_1ad7dc3b867d63e2908710f354baacddc3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int wxRect::GetX</definition>
+        <argsstring>() const</argsstring>
+        <name>GetX</name>
+        <briefdescription>
+<para>Gets the x member. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/gdicmn.h" line="342" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rect_1a2dc9bc934a126f3568642f826db0cbbb" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int wxRect::GetY</definition>
+        <argsstring>() const</argsstring>
+        <name>GetY</name>
+        <briefdescription>
+<para>Gets the y member. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/gdicmn.h" line="347" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rect_1a928a50439047bc6a7e945a2a191b7d93" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_rect" kindref="compound">wxRect</ref> &amp;</type>
+        <definition>wxRect&amp; wxRect::Intersect</definition>
+        <argsstring>(const wxRect &amp;rect)</argsstring>
+        <name>Intersect</name>
+        <param>
+          <type>const <ref refid="classwx_rect" kindref="compound">wxRect</ref> &amp;</type>
+          <declname>rect</declname>
+        </param>
+        <briefdescription>
+<para>Modifies this rectangle to contain the overlapping portion of this rectangle and the one passed in as parameter. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>This rectangle, modified. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/gdicmn.h" line="390" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rect_1a0b739fa8d09d3d3eed4791372e27f418" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_rect" kindref="compound">wxRect</ref></type>
+        <definition>wxRect wxRect::Intersect</definition>
+        <argsstring>(const wxRect &amp;rect) const</argsstring>
+        <name>Intersect</name>
+        <param>
+          <type>const <ref refid="classwx_rect" kindref="compound">wxRect</ref> &amp;</type>
+          <declname>rect</declname>
+        </param>
+        <briefdescription>
+<para>Returns the overlapping portion of this rectangle and the one passed in as parameter. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/gdicmn.h" line="396" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rect_1a66bf0638e9b845e20116f5292c456a27" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxRect::Intersects</definition>
+        <argsstring>(const wxRect &amp;rect) const</argsstring>
+        <name>Intersects</name>
+        <param>
+          <type>const <ref refid="classwx_rect" kindref="compound">wxRect</ref> &amp;</type>
+          <declname>rect</declname>
+        </param>
+        <briefdescription>
+<para>Returns true if this rectangle has a non-empty intersection with the rectangle <emphasis>rect</emphasis> and false otherwise. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/gdicmn.h" line="402" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rect_1ae7cebd6daeb13297ba836239aef945e7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxRect::IsEmpty</definition>
+        <argsstring>() const</argsstring>
+        <name>IsEmpty</name>
+        <briefdescription>
+<para>Returns true if this rectangle has a width or height less than or equal to 0 and false otherwise. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/gdicmn.h" line="408" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rect_1a6a089334755230eedf89e06794571fca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxRect::SetHeight</definition>
+        <argsstring>(int height)</argsstring>
+        <name>SetHeight</name>
+        <param>
+          <type>int</type>
+          <declname>height</declname>
+        </param>
+        <briefdescription>
+<para>Sets the height. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/gdicmn.h" line="423" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rect_1a252234c32c36504805cb2bd9f2e3a59e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxRect::SetPosition</definition>
+        <argsstring>(const wxPoint &amp;pos)</argsstring>
+        <name>SetPosition</name>
+        <param>
+          <type>const <ref refid="classwx_point" kindref="compound">wxPoint</ref> &amp;</type>
+          <declname>pos</declname>
+        </param>
+        <briefdescription>
+<para>Sets the position. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/gdicmn.h" line="428" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rect_1a2e3502710b2987209bde881ac59521fc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxRect::SetSize</definition>
+        <argsstring>(const wxSize &amp;s)</argsstring>
+        <name>SetSize</name>
+        <param>
+          <type>const <ref refid="classwx_size" kindref="compound">wxSize</ref> &amp;</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+<para>Sets the size. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="see"><para><ref refid="classwx_rect_1a3cc4e113de2759c6b7cdbb3597b728f1" kindref="member">GetSize()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/gdicmn.h" line="435" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rect_1a653179ac2e602486ecef4f5266b6878b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxRect::SetWidth</definition>
+        <argsstring>(int width)</argsstring>
+        <name>SetWidth</name>
+        <param>
+          <type>int</type>
+          <declname>width</declname>
+        </param>
+        <briefdescription>
+<para>Sets the width. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/gdicmn.h" line="440" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rect_1a878bff0acba1bb8183db8d1e5d4c4d53" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxRect::SetX</definition>
+        <argsstring>(int x)</argsstring>
+        <name>SetX</name>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+<para>Sets the x position. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/gdicmn.h" line="445" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rect_1a55b3573519cf8748d3ec1af9c10cd94d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxRect::SetY</definition>
+        <argsstring>(int y)</argsstring>
+        <name>SetY</name>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+<para>Sets the y position. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/gdicmn.h" line="450" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rect_1a234b22dbe1ee1a6e9f711492d9e5bce8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxRect::SetLeft</definition>
+        <argsstring>(int left)</argsstring>
+        <name>SetLeft</name>
+        <param>
+          <type>int</type>
+          <declname>left</declname>
+        </param>
+        <briefdescription>
+<para>Set the left side of the rectangle. </para>        </briefdescription>
+        <detaileddescription>
+<para>Notice that because the rectangle stores its left side and width, calling <ref refid="classwx_rect_1a234b22dbe1ee1a6e9f711492d9e5bce8" kindref="member">SetLeft()</ref> changes the right side position too <ndash/> but does preserve the width. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/gdicmn.h" line="459" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rect_1abc3f50f43628a64c6689889b6e86876e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxRect::SetRight</definition>
+        <argsstring>(int right)</argsstring>
+        <name>SetRight</name>
+        <param>
+          <type>int</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+<para>Set the right side of the rectangle. </para>        </briefdescription>
+        <detaileddescription>
+<para>Notice that this doesn&apos;t affect <ref refid="classwx_rect_1a903b6b2ea94ce0266b86f4e8e7c88e52" kindref="member">GetLeft()</ref> return value but changes the rectangle width to set its right side to the given position. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/gdicmn.h" line="467" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rect_1afaa648c7f822e3504d858e292b889a3d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxRect::SetTop</definition>
+        <argsstring>(int top)</argsstring>
+        <name>SetTop</name>
+        <param>
+          <type>int</type>
+          <declname>top</declname>
+        </param>
+        <briefdescription>
+<para>Set the top edge of the rectangle. </para>        </briefdescription>
+        <detaileddescription>
+<para>Notice that because the rectangle stores its top side and height, calling <ref refid="classwx_rect_1afaa648c7f822e3504d858e292b889a3d" kindref="member">SetTop()</ref> changes the bottom side position too <ndash/> but does preserve the height. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/gdicmn.h" line="476" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rect_1a1df4b9602d009c0b7b7af7e29bc045ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxRect::SetBottom</definition>
+        <argsstring>(int bottom)</argsstring>
+        <name>SetBottom</name>
+        <param>
+          <type>int</type>
+          <declname>bottom</declname>
+        </param>
+        <briefdescription>
+<para>Set the bottom edge of the rectangle. </para>        </briefdescription>
+        <detaileddescription>
+<para>Notice that this doesn&apos;t affect <ref refid="classwx_rect_1a6419a3672446e9589d7fb14d24fa867b" kindref="member">GetTop()</ref> return value but changes the rectangle height to set its bottom side to the given position. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/gdicmn.h" line="484" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rect_1ae7a6eef4e3d0242077be2b38a4c60927" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxRect::SetTopLeft</definition>
+        <argsstring>(const wxPoint &amp;p)</argsstring>
+        <name>SetTopLeft</name>
+        <param>
+          <type>const <ref refid="classwx_point" kindref="compound">wxPoint</ref> &amp;</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+<para>Set the top-left point of the rectangle. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/gdicmn.h" line="489" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rect_1ad35b1402cbe77d7feed98d25370fe33d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxRect::SetBottomRight</definition>
+        <argsstring>(const wxPoint &amp;p)</argsstring>
+        <name>SetBottomRight</name>
+        <param>
+          <type>const <ref refid="classwx_point" kindref="compound">wxPoint</ref> &amp;</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+<para>Set the bottom-right point of the rectangle. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/gdicmn.h" line="494" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rect_1abdb7cdbf0361e4b1af955c4840ebec5a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxRect::SetTopRight</definition>
+        <argsstring>(const wxPoint &amp;p)</argsstring>
+        <name>SetTopRight</name>
+        <param>
+          <type>const <ref refid="classwx_point" kindref="compound">wxPoint</ref> &amp;</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+<para>Set the top-right point of the rectangle. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/gdicmn.h" line="499" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rect_1a2b8fe9507b3979ec6c930e710f331337" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxRect::SetBottomLeft</definition>
+        <argsstring>(const wxPoint &amp;p)</argsstring>
+        <name>SetBottomLeft</name>
+        <param>
+          <type>const <ref refid="classwx_point" kindref="compound">wxPoint</ref> &amp;</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+<para>Set the bottom-left point of the rectangle. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/gdicmn.h" line="504" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rect_1ab7fd3a9fec77e38df15dba8a3a795e09" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxRect::operator!=</definition>
+        <argsstring>(const wxRect &amp;r1, const wxRect &amp;r2)</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type>const <ref refid="classwx_rect" kindref="compound">wxRect</ref> &amp;</type>
+          <declname>r1</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_rect" kindref="compound">wxRect</ref> &amp;</type>
+          <declname>r2</declname>
+        </param>
+        <briefdescription>
+<para>Inequality operator. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/gdicmn.h" line="519" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rect_1a0cef047e7877f97e088fe26e85b04ab6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_rect" kindref="compound">wxRect</ref> &amp;</type>
+        <definition>wxRect&amp; wxRect::operator=</definition>
+        <argsstring>(const wxRect &amp;rect)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="classwx_rect" kindref="compound">wxRect</ref> &amp;</type>
+          <declname>rect</declname>
+        </param>
+        <briefdescription>
+<para>Assignment operator. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/gdicmn.h" line="540" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rect_1a40ba14975fbd9097b18308eebc1318f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxRect::operator==</definition>
+        <argsstring>(const wxRect &amp;r1, const wxRect &amp;r2)</argsstring>
+        <name>operator==</name>
+        <param>
+          <type>const <ref refid="classwx_rect" kindref="compound">wxRect</ref> &amp;</type>
+          <declname>r1</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_rect" kindref="compound">wxRect</ref> &amp;</type>
+          <declname>r2</declname>
+        </param>
+        <briefdescription>
+<para>Equality operator. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/gdicmn.h" line="545" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>A class for manipulating rectangles. </para>    </briefdescription>
+    <detaileddescription>
+<para>Note that the x, y coordinates and the width and height stored inside a <ref refid="classwx_rect" kindref="compound">wxRect</ref> object may be negative and that <ref refid="classwx_rect" kindref="compound">wxRect</ref> functions do not perform any check against negative values.</para><para><heading level="2"></heading>
+</para><para>Library:<nonbreakablespace/><nonbreakablespace/><ref refid="page_libs_1page_libs_wxcore" kindref="member">wxCore</ref> &lt;&gt;&lt; =&apos;&apos;&gt;:&lt;/&gt;&amp;;&amp;;&lt; =&apos;&apos;&gt;\ &lt;/&gt;&lt;/&gt;</para><para><simplesect kind="see"><para><ref refid="classwx_point" kindref="compound">wxPoint</ref>, <ref refid="classwx_size" kindref="compound">wxSize</ref> </para></simplesect>
+</para>    </detaileddescription>
+    <location file="interface/wx/gdicmn.h" line="211" column="1" bodyfile="interface/wx/gdicmn.h" bodystart="210" bodyend="566"/>
+    <listofallmembers>
+      <member refid="classwx_rect_1ab89e40c6c82cd7271d0a304f4fe5ab4b" prot="public" virt="non-virtual"><scope>wxRect</scope><name>CenterIn</name></member>
+      <member refid="classwx_rect_1a7ea7c06a0a4136736009e05fa6eb006f" prot="public" virt="non-virtual"><scope>wxRect</scope><name>CentreIn</name></member>
+      <member refid="classwx_rect_1af9dbfc78b8b630d04e70240c6c5d691b" prot="public" virt="non-virtual"><scope>wxRect</scope><name>Contains</name></member>
+      <member refid="classwx_rect_1a742168b406772696f9b491c1b3f1b82a" prot="public" virt="non-virtual"><scope>wxRect</scope><name>Contains</name></member>
+      <member refid="classwx_rect_1a200f82b29580067c6052162784608897" prot="public" virt="non-virtual"><scope>wxRect</scope><name>Contains</name></member>
+      <member refid="classwx_rect_1ae06d8b6c01e87c37b6b1c6f71a2c1533" prot="public" virt="non-virtual"><scope>wxRect</scope><name>Deflate</name></member>
+      <member refid="classwx_rect_1a489912f655b6a0f947ed9c834fa30ec0" prot="public" virt="non-virtual"><scope>wxRect</scope><name>Deflate</name></member>
+      <member refid="classwx_rect_1a742ace64501590bbebcb40ec4d79bf06" prot="public" virt="non-virtual"><scope>wxRect</scope><name>Deflate</name></member>
+      <member refid="classwx_rect_1aa9475a49c56f1e5fac550dbfd0b7a5b8" prot="public" virt="non-virtual"><scope>wxRect</scope><name>Deflate</name></member>
+      <member refid="classwx_rect_1a362f06d7a036726a31b73464224c4b24" prot="public" virt="non-virtual"><scope>wxRect</scope><name>GetBottom</name></member>
+      <member refid="classwx_rect_1a3343305c7af694260f1124b79014f230" prot="public" virt="non-virtual"><scope>wxRect</scope><name>GetBottomLeft</name></member>
+      <member refid="classwx_rect_1a63597674ae5446df85e6cd82724495a6" prot="public" virt="non-virtual"><scope>wxRect</scope><name>GetBottomRight</name></member>
+      <member refid="classwx_rect_1a15431ee34e69823f7a5098f8ff3cf929" prot="public" virt="non-virtual"><scope>wxRect</scope><name>GetHeight</name></member>
+      <member refid="classwx_rect_1a903b6b2ea94ce0266b86f4e8e7c88e52" prot="public" virt="non-virtual"><scope>wxRect</scope><name>GetLeft</name></member>
+      <member refid="classwx_rect_1a3b46232998f8c0bf44e3544fe8cbad20" prot="public" virt="non-virtual"><scope>wxRect</scope><name>GetPosition</name></member>
+      <member refid="classwx_rect_1af6808c0e7a663411b570867cd8ed98b3" prot="public" virt="non-virtual"><scope>wxRect</scope><name>GetRight</name></member>
+      <member refid="classwx_rect_1a3cc4e113de2759c6b7cdbb3597b728f1" prot="public" virt="non-virtual"><scope>wxRect</scope><name>GetSize</name></member>
+      <member refid="classwx_rect_1a6419a3672446e9589d7fb14d24fa867b" prot="public" virt="non-virtual"><scope>wxRect</scope><name>GetTop</name></member>
+      <member refid="classwx_rect_1a9be63d55cc56520955f72541c06ce27c" prot="public" virt="non-virtual"><scope>wxRect</scope><name>GetTopLeft</name></member>
+      <member refid="classwx_rect_1a9a8d3422539928a31772080026d1f855" prot="public" virt="non-virtual"><scope>wxRect</scope><name>GetTopRight</name></member>
+      <member refid="classwx_rect_1a45e10fe0f67517b3700cc079520dff31" prot="public" virt="non-virtual"><scope>wxRect</scope><name>GetWidth</name></member>
+      <member refid="classwx_rect_1ad7dc3b867d63e2908710f354baacddc3" prot="public" virt="non-virtual"><scope>wxRect</scope><name>GetX</name></member>
+      <member refid="classwx_rect_1a2dc9bc934a126f3568642f826db0cbbb" prot="public" virt="non-virtual"><scope>wxRect</scope><name>GetY</name></member>
+      <member refid="classwx_rect_1a1d165d7b9572e7229c2f2e1b25898f7d" prot="public" virt="non-virtual"><scope>wxRect</scope><name>height</name></member>
+      <member refid="classwx_rect_1acc7657b99635a18702941bd9879ff6d3" prot="public" virt="non-virtual"><scope>wxRect</scope><name>Inflate</name></member>
+      <member refid="classwx_rect_1ae26fb587de4bebbf29fa7d8591d5540d" prot="public" virt="non-virtual"><scope>wxRect</scope><name>Inflate</name></member>
+      <member refid="classwx_rect_1aa94ab78b5770ee7066940319b530690d" prot="public" virt="non-virtual"><scope>wxRect</scope><name>Inflate</name></member>
+      <member refid="classwx_rect_1acc9c9e81ad5d6519d6544434ac636ba1" prot="public" virt="non-virtual"><scope>wxRect</scope><name>Inflate</name></member>
+      <member refid="classwx_rect_1a928a50439047bc6a7e945a2a191b7d93" prot="public" virt="non-virtual"><scope>wxRect</scope><name>Intersect</name></member>
+      <member refid="classwx_rect_1a0b739fa8d09d3d3eed4791372e27f418" prot="public" virt="non-virtual"><scope>wxRect</scope><name>Intersect</name></member>
+      <member refid="classwx_rect_1a66bf0638e9b845e20116f5292c456a27" prot="public" virt="non-virtual"><scope>wxRect</scope><name>Intersects</name></member>
+      <member refid="classwx_rect_1ae7cebd6daeb13297ba836239aef945e7" prot="public" virt="non-virtual"><scope>wxRect</scope><name>IsEmpty</name></member>
+      <member refid="classwx_rect_1a90f2b9450cf08cf81afe66e502814902" prot="public" virt="non-virtual"><scope>wxRect</scope><name>Offset</name></member>
+      <member refid="classwx_rect_1a7533abc7c86cb6089c64231db9c9c219" prot="public" virt="non-virtual"><scope>wxRect</scope><name>Offset</name></member>
+      <member refid="classwx_rect_1ab7fd3a9fec77e38df15dba8a3a795e09" prot="public" virt="non-virtual"><scope>wxRect</scope><name>operator!=</name></member>
+      <member refid="classwx_rect_1a93f30b20426ff0231ba3da0099a792ee" prot="public" virt="non-virtual"><scope>wxRect</scope><name>operator*</name></member>
+      <member refid="classwx_rect_1afa4db3cd72770e468df4ffd7282f1c58" prot="public" virt="non-virtual"><scope>wxRect</scope><name>operator*=</name></member>
+      <member refid="classwx_rect_1adfaa87d437f100daeff323aaade49509" prot="public" virt="non-virtual"><scope>wxRect</scope><name>operator+</name></member>
+      <member refid="classwx_rect_1a2cf1b56f4269ff22d26647ab875de94d" prot="public" virt="non-virtual"><scope>wxRect</scope><name>operator+=</name></member>
+      <member refid="classwx_rect_1a0cef047e7877f97e088fe26e85b04ab6" prot="public" virt="non-virtual"><scope>wxRect</scope><name>operator=</name></member>
+      <member refid="classwx_rect_1a40ba14975fbd9097b18308eebc1318f2" prot="public" virt="non-virtual"><scope>wxRect</scope><name>operator==</name></member>
+      <member refid="classwx_rect_1a1df4b9602d009c0b7b7af7e29bc045ea" prot="public" virt="non-virtual"><scope>wxRect</scope><name>SetBottom</name></member>
+      <member refid="classwx_rect_1a2b8fe9507b3979ec6c930e710f331337" prot="public" virt="non-virtual"><scope>wxRect</scope><name>SetBottomLeft</name></member>
+      <member refid="classwx_rect_1ad35b1402cbe77d7feed98d25370fe33d" prot="public" virt="non-virtual"><scope>wxRect</scope><name>SetBottomRight</name></member>
+      <member refid="classwx_rect_1a6a089334755230eedf89e06794571fca" prot="public" virt="non-virtual"><scope>wxRect</scope><name>SetHeight</name></member>
+      <member refid="classwx_rect_1a234b22dbe1ee1a6e9f711492d9e5bce8" prot="public" virt="non-virtual"><scope>wxRect</scope><name>SetLeft</name></member>
+      <member refid="classwx_rect_1a252234c32c36504805cb2bd9f2e3a59e" prot="public" virt="non-virtual"><scope>wxRect</scope><name>SetPosition</name></member>
+      <member refid="classwx_rect_1abc3f50f43628a64c6689889b6e86876e" prot="public" virt="non-virtual"><scope>wxRect</scope><name>SetRight</name></member>
+      <member refid="classwx_rect_1a2e3502710b2987209bde881ac59521fc" prot="public" virt="non-virtual"><scope>wxRect</scope><name>SetSize</name></member>
+      <member refid="classwx_rect_1afaa648c7f822e3504d858e292b889a3d" prot="public" virt="non-virtual"><scope>wxRect</scope><name>SetTop</name></member>
+      <member refid="classwx_rect_1ae7a6eef4e3d0242077be2b38a4c60927" prot="public" virt="non-virtual"><scope>wxRect</scope><name>SetTopLeft</name></member>
+      <member refid="classwx_rect_1abdb7cdbf0361e4b1af955c4840ebec5a" prot="public" virt="non-virtual"><scope>wxRect</scope><name>SetTopRight</name></member>
+      <member refid="classwx_rect_1a653179ac2e602486ecef4f5266b6878b" prot="public" virt="non-virtual"><scope>wxRect</scope><name>SetWidth</name></member>
+      <member refid="classwx_rect_1a878bff0acba1bb8183db8d1e5d4c4d53" prot="public" virt="non-virtual"><scope>wxRect</scope><name>SetX</name></member>
+      <member refid="classwx_rect_1a55b3573519cf8748d3ec1af9c10cd94d" prot="public" virt="non-virtual"><scope>wxRect</scope><name>SetY</name></member>
+      <member refid="classwx_rect_1a0647e48228840a668b379933f298a1a8" prot="public" virt="non-virtual"><scope>wxRect</scope><name>Union</name></member>
+      <member refid="classwx_rect_1a093503cdc6e1eb4f3cc6b086ec99d8ea" prot="public" virt="non-virtual"><scope>wxRect</scope><name>Union</name></member>
+      <member refid="classwx_rect_1ab2be5c8d430c85c007f5a9aab58356d8" prot="public" virt="non-virtual"><scope>wxRect</scope><name>width</name></member>
+      <member refid="classwx_rect_1a19b68679edc9030cba102a8602febded" prot="public" virt="non-virtual"><scope>wxRect</scope><name>wxRect</name></member>
+      <member refid="classwx_rect_1aefb674bdc6d9d66a5c3746e5acc845d4" prot="public" virt="non-virtual"><scope>wxRect</scope><name>wxRect</name></member>
+      <member refid="classwx_rect_1a8d62df83787d4e1acdcf7a12fc97e5e6" prot="public" virt="non-virtual"><scope>wxRect</scope><name>wxRect</name></member>
+      <member refid="classwx_rect_1ae46a17423adfbb2faa21020b7cab8bc8" prot="public" virt="non-virtual"><scope>wxRect</scope><name>wxRect</name></member>
+      <member refid="classwx_rect_1a806ffe715a971157753890bab59d7d16" prot="public" virt="non-virtual"><scope>wxRect</scope><name>wxRect</name></member>
+      <member refid="classwx_rect_1a81e5eb1ee155fd53ff40f1585e90b2fb" prot="public" virt="non-virtual"><scope>wxRect</scope><name>x</name></member>
+      <member refid="classwx_rect_1a81d2ea24b666fe662295fc356e68408d" prot="public" virt="non-virtual"><scope>wxRect</scope><name>y</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

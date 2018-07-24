@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_debug_report_preview_std" kind="class" language="C++" prot="public">
+    <compoundname>wxDebugReportPreviewStd</compoundname>
+    <basecompoundref refid="classwx_debug_report_preview" prot="public" virt="non-virtual">wxDebugReportPreview</basecompoundref>
+    <includes local="no">wx/debugrpt.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classwx_debug_report_preview_std_1a180f3b45fd70fb579d3a74526cf33887" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxDebugReportPreviewStd::wxDebugReportPreviewStd</definition>
+        <argsstring>()</argsstring>
+        <name>wxDebugReportPreviewStd</name>
+        <briefdescription>
+<para>Trivial default constructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/debugrpt.h" line="341" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_debug_report_preview_std_1adea223b68bbb23a2f64e9ae062ebbcfd" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool wxDebugReportPreviewStd::Show</definition>
+        <argsstring>(wxDebugReport &amp;dbgrpt) const</argsstring>
+        <name>Show</name>
+        <reimplements refid="classwx_debug_report_preview_1a713eb7e9ed71174e57753c08eb4e4ee7">Show</reimplements>
+        <param>
+          <type><ref refid="classwx_debug_report" kindref="compound">wxDebugReport</ref> &amp;</type>
+          <declname>dbgrpt</declname>
+        </param>
+        <briefdescription>
+<para>Shows the dialog. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="see"><para><ref refid="classwx_debug_report_preview_1a713eb7e9ed71174e57753c08eb4e4ee7" kindref="member">wxDebugReportPreview::Show()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/debugrpt.h" line="348" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="classwx_debug_report_preview_std" kindref="compound">wxDebugReportPreviewStd</ref> is a standard debug report preview window. </para>    </briefdescription>
+    <detaileddescription>
+<para>It displays a dialog allowing the user to examine the contents of a debug report, remove files from and add notes to it.</para><para><heading level="2"></heading>
+</para><para>Library:<nonbreakablespace/><nonbreakablespace/><ref refid="page_libs_1page_libs_wxqa" kindref="member">wxQA</ref> &lt;&gt;&lt; =&apos;&apos;&gt;:&lt;/&gt;&amp;;&amp;;&lt; =&apos;&apos;&gt;\ &lt;/&gt;&lt;/&gt; </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="1641">
+        <label>wxDebugReportPreview</label>
+        <link refid="classwx_debug_report_preview"/>
+      </node>
+      <node id="1640">
+        <label>wxDebugReportPreviewStd</label>
+        <link refid="classwx_debug_report_preview_std"/>
+        <childnode refid="1641" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1643">
+        <label>wxDebugReportPreview</label>
+        <link refid="classwx_debug_report_preview"/>
+      </node>
+      <node id="1642">
+        <label>wxDebugReportPreviewStd</label>
+        <link refid="classwx_debug_report_preview_std"/>
+        <childnode refid="1643" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="interface/wx/debugrpt.h" line="336" column="1" bodyfile="interface/wx/debugrpt.h" bodystart="335" bodyend="349"/>
+    <listofallmembers>
+      <member refid="classwx_debug_report_preview_std_1adea223b68bbb23a2f64e9ae062ebbcfd" prot="public" virt="virtual"><scope>wxDebugReportPreviewStd</scope><name>Show</name></member>
+      <member refid="classwx_debug_report_preview_1a25c6bed0bf6ad6acf5d06817f520fb57" prot="public" virt="non-virtual"><scope>wxDebugReportPreviewStd</scope><name>wxDebugReportPreview</name></member>
+      <member refid="classwx_debug_report_preview_std_1a180f3b45fd70fb579d3a74526cf33887" prot="public" virt="non-virtual"><scope>wxDebugReportPreviewStd</scope><name>wxDebugReportPreviewStd</name></member>
+      <member refid="classwx_debug_report_preview_1ac538eb0d478526f3a88154b7897d07cf" prot="public" virt="virtual"><scope>wxDebugReportPreviewStd</scope><name>~wxDebugReportPreview</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

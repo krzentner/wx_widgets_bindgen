@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="textentry_8h" kind="file" language="C++">
+    <compoundname>textentry.h</compoundname>
+    <innerclass refid="classwx_text_entry" prot="public">wxTextEntry</innerclass>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="textentry_8h_1aa28063825bda6771b3b9434698747e52" prot="public" static="no">
+        <type>long</type>
+        <definition>typedef long wxTextPos</definition>
+        <argsstring></argsstring>
+        <name>wxTextPos</name>
+        <briefdescription>
+<para>wxTextPos is a position in the text </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/textentry.h" line="14" column="1" bodyfile="interface/wx/textentry.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="interface/wx/textentry.h"/>
+  </compounddef>
+</doxygen>

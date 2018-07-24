@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="propgridiface_8h" kind="file" language="C++">
+    <compoundname>propgridiface.h</compoundname>
+    <innerclass refid="classwx_p_g_prop_arg_cls" prot="public">wxPGPropArgCls</innerclass>
+    <innerclass refid="classwx_property_grid_interface" prot="public">wxPropertyGridInterface</innerclass>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="propgridiface_8h_1a3f566131b8cbb5f0e282b3db4f5c501c" prot="public" static="no">
+        <type>const <ref refid="classwx_p_g_prop_arg_cls" kindref="compound">wxPGPropArgCls</ref> &amp;</type>
+        <definition>typedef const wxPGPropArgCls&amp; wxPGPropArg</definition>
+        <argsstring></argsstring>
+        <name>wxPGPropArg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/propgridiface.h" line="39" column="1" bodyfile="interface/wx/propgrid/propgridiface.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="interface/wx/propgrid/propgridiface.h"/>
+  </compounddef>
+</doxygen>

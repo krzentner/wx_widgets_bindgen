@@ -1,0 +1,730 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_mouse_event" kind="class" language="C++" prot="public">
+    <compoundname>wxMouseEvent</compoundname>
+    <basecompoundref refid="classwx_event" prot="public" virt="non-virtual">wxEvent</basecompoundref>
+    <basecompoundref refid="classwx_mouse_state" prot="public" virt="non-virtual">wxMouseState</basecompoundref>
+    <includes local="no">wx/event.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classwx_mouse_event_1acefb7a03efc09f774bdb03b497d86bb4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxMouseEvent::wxMouseEvent</definition>
+        <argsstring>(wxEventType mouseEventType=wxEVT_NULL)</argsstring>
+        <name>wxMouseEvent</name>
+        <param>
+          <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+          <declname>mouseEventType</declname>
+          <defval><ref refid="group__group__funcmacro__events_1ga310bc3f7977ae79ac1198c7a287dbffe" kindref="member">wxEVT_NULL</ref></defval>
+        </param>
+        <briefdescription>
+<para>Constructor. </para>        </briefdescription>
+        <detaileddescription>
+<para>Valid event types are:</para><para><itemizedlist>
+<listitem><para><computeroutput>wxEVT_ENTER_WINDOW</computeroutput> </para></listitem>
+<listitem><para><computeroutput>wxEVT_LEAVE_WINDOW</computeroutput> </para></listitem>
+<listitem><para><computeroutput>wxEVT_LEFT_DOWN</computeroutput> </para></listitem>
+<listitem><para><computeroutput>wxEVT_LEFT_UP</computeroutput> </para></listitem>
+<listitem><para><computeroutput>wxEVT_LEFT_DCLICK</computeroutput> </para></listitem>
+<listitem><para><computeroutput>wxEVT_MIDDLE_DOWN</computeroutput> </para></listitem>
+<listitem><para><computeroutput>wxEVT_MIDDLE_UP</computeroutput> </para></listitem>
+<listitem><para><computeroutput>wxEVT_MIDDLE_DCLICK</computeroutput> </para></listitem>
+<listitem><para><computeroutput>wxEVT_RIGHT_DOWN</computeroutput> </para></listitem>
+<listitem><para><computeroutput>wxEVT_RIGHT_UP</computeroutput> </para></listitem>
+<listitem><para><computeroutput>wxEVT_RIGHT_DCLICK</computeroutput> </para></listitem>
+<listitem><para><computeroutput>wxEVT_AUX1_DOWN</computeroutput> </para></listitem>
+<listitem><para><computeroutput>wxEVT_AUX1_UP</computeroutput> </para></listitem>
+<listitem><para><computeroutput>wxEVT_AUX1_DCLICK</computeroutput> </para></listitem>
+<listitem><para><computeroutput>wxEVT_AUX2_DOWN</computeroutput> </para></listitem>
+<listitem><para><computeroutput>wxEVT_AUX2_UP</computeroutput> </para></listitem>
+<listitem><para><computeroutput>wxEVT_AUX2_DCLICK</computeroutput> </para></listitem>
+<listitem><para><computeroutput>wxEVT_MOTION</computeroutput> </para></listitem>
+<listitem><para><computeroutput>wxEVT_MOUSEWHEEL</computeroutput> </para></listitem>
+</itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/event.h" line="2663" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_mouse_event_1ae2c51596a8608ac2028911140efca9f4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxMouseEvent::Aux1DClick</definition>
+        <argsstring>() const</argsstring>
+        <name>Aux1DClick</name>
+        <briefdescription>
+<para>Returns true if the event was a first extra button double click. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/event.h" line="2668" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_mouse_event_1afe1a57591865fe8454a21bd3699a01f9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxMouseEvent::Aux1Down</definition>
+        <argsstring>() const</argsstring>
+        <name>Aux1Down</name>
+        <briefdescription>
+<para>Returns true if the first extra button mouse button changed to down. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/event.h" line="2673" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_mouse_event_1add041b97305586a2305b3b532dc65123" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxMouseEvent::Aux1Up</definition>
+        <argsstring>() const</argsstring>
+        <name>Aux1Up</name>
+        <briefdescription>
+<para>Returns true if the first extra button mouse button changed to up. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/event.h" line="2678" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_mouse_event_1a2be62a363b8da0a5ecfe06929e3ad4bb" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxMouseEvent::Aux2DClick</definition>
+        <argsstring>() const</argsstring>
+        <name>Aux2DClick</name>
+        <briefdescription>
+<para>Returns true if the event was a second extra button double click. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/event.h" line="2683" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_mouse_event_1a5494f60d0424dbed2886853207ca24b4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxMouseEvent::Aux2Down</definition>
+        <argsstring>() const</argsstring>
+        <name>Aux2Down</name>
+        <briefdescription>
+<para>Returns true if the second extra button mouse button changed to down. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/event.h" line="2688" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_mouse_event_1aae659084143a6485d5dd95fb81d1ffaa" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxMouseEvent::Aux2Up</definition>
+        <argsstring>() const</argsstring>
+        <name>Aux2Up</name>
+        <briefdescription>
+<para>Returns true if the second extra button mouse button changed to up. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/event.h" line="2693" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_mouse_event_1aa10348a90ac4802bbe06dc6cdd4432b2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxMouseEvent::Button</definition>
+        <argsstring>(wxMouseButton but) const</argsstring>
+        <name>Button</name>
+        <param>
+          <type><ref refid="mousestate_8h_1afb918542b7b2b8f0fa28a483ad95de49" kindref="member">wxMouseButton</ref></type>
+          <declname>but</declname>
+        </param>
+        <briefdescription>
+<para>Returns true if the event was generated by the specified button. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="see"><para>wxMouseState::ButtoinIsDown() </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/event.h" line="2700" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_mouse_event_1ab449807319bf870d033cc654c71eb6dd" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxMouseEvent::ButtonDClick</definition>
+        <argsstring>(wxMouseButton but=wxMOUSE_BTN_ANY) const</argsstring>
+        <name>ButtonDClick</name>
+        <param>
+          <type><ref refid="mousestate_8h_1afb918542b7b2b8f0fa28a483ad95de49" kindref="member">wxMouseButton</ref></type>
+          <declname>but</declname>
+          <defval><ref refid="mousestate_8h_1afb918542b7b2b8f0fa28a483ad95de49a8645ddd8ed04060c86c8382a7839fcb9" kindref="member">wxMOUSE_BTN_ANY</ref></defval>
+        </param>
+        <briefdescription>
+<para>If the argument is omitted, this returns true if the event was a mouse double click event. </para>        </briefdescription>
+        <detaileddescription>
+<para>Otherwise the argument specifies which double click event was generated (see <ref refid="classwx_mouse_event_1aa10348a90ac4802bbe06dc6cdd4432b2" kindref="member">Button()</ref> for the possible values). </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/event.h" line="2707" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_mouse_event_1a3362550e828e7d6872d3a8859a569685" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxMouseEvent::ButtonDown</definition>
+        <argsstring>(wxMouseButton but=wxMOUSE_BTN_ANY) const</argsstring>
+        <name>ButtonDown</name>
+        <param>
+          <type><ref refid="mousestate_8h_1afb918542b7b2b8f0fa28a483ad95de49" kindref="member">wxMouseButton</ref></type>
+          <declname>but</declname>
+          <defval><ref refid="mousestate_8h_1afb918542b7b2b8f0fa28a483ad95de49a8645ddd8ed04060c86c8382a7839fcb9" kindref="member">wxMOUSE_BTN_ANY</ref></defval>
+        </param>
+        <briefdescription>
+<para>If the argument is omitted, this returns true if the event was a mouse button down event. </para>        </briefdescription>
+        <detaileddescription>
+<para>Otherwise the argument specifies which button-down event was generated (see <ref refid="classwx_mouse_event_1aa10348a90ac4802bbe06dc6cdd4432b2" kindref="member">Button()</ref> for the possible values). </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/event.h" line="2714" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_mouse_event_1ab9b34492408d1988f526e5f4a3c93c08" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxMouseEvent::ButtonUp</definition>
+        <argsstring>(wxMouseButton but=wxMOUSE_BTN_ANY) const</argsstring>
+        <name>ButtonUp</name>
+        <param>
+          <type><ref refid="mousestate_8h_1afb918542b7b2b8f0fa28a483ad95de49" kindref="member">wxMouseButton</ref></type>
+          <declname>but</declname>
+          <defval><ref refid="mousestate_8h_1afb918542b7b2b8f0fa28a483ad95de49a8645ddd8ed04060c86c8382a7839fcb9" kindref="member">wxMOUSE_BTN_ANY</ref></defval>
+        </param>
+        <briefdescription>
+<para>If the argument is omitted, this returns true if the event was a mouse button up event. </para>        </briefdescription>
+        <detaileddescription>
+<para>Otherwise the argument specifies which button-up event was generated (see <ref refid="classwx_mouse_event_1aa10348a90ac4802bbe06dc6cdd4432b2" kindref="member">Button()</ref> for the possible values). </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/event.h" line="2721" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_mouse_event_1aa08074a2555618c63e2a53f38e56f18f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxMouseEvent::Dragging</definition>
+        <argsstring>() const</argsstring>
+        <name>Dragging</name>
+        <briefdescription>
+<para>Returns true if this was a dragging event (motion while a button is depressed). </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="see"><para><ref refid="classwx_mouse_event_1a03707fb904deb70ab5cfe2e893046465" kindref="member">Moving()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/event.h" line="2728" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_mouse_event_1aba23d806bfad21911a5e1e4f21bdf283" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxMouseEvent::Entering</definition>
+        <argsstring>() const</argsstring>
+        <name>Entering</name>
+        <briefdescription>
+<para>Returns true if the mouse was entering the window. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="see"><para><ref refid="classwx_mouse_event_1a40c80ae3b1c99525711c5c68aa31d917" kindref="member">Leaving()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/event.h" line="2735" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_mouse_event_1a33653a3f59d68405361f3ae65d2936eb" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int wxMouseEvent::GetButton</definition>
+        <argsstring>() const</argsstring>
+        <name>GetButton</name>
+        <briefdescription>
+<para>Returns the mouse button which generated this event or <computeroutput>wxMOUSE_BTN_NONE</computeroutput> if no button is involved (for mouse move, enter or leave event, for example). </para>        </briefdescription>
+        <detaileddescription>
+<para>Otherwise <computeroutput>wxMOUSE_BTN_LEFT</computeroutput> is returned for the left button down, up and double click events, <computeroutput>wxMOUSE_BTN_MIDDLE</computeroutput> and <computeroutput>wxMOUSE_BTN_RIGHT</computeroutput> for the same events for the middle and the right buttons respectively. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/event.h" line="2744" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_mouse_event_1a392c9bac6c152016ecf09c05fa2d8f9c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int wxMouseEvent::GetClickCount</definition>
+        <argsstring>() const</argsstring>
+        <name>GetClickCount</name>
+        <briefdescription>
+<para>Returns the number of mouse clicks for this event: 1 for a simple click, 2 for a double-click, 3 for a triple-click and so on. </para>        </briefdescription>
+        <detaileddescription>
+<para>Currently this function is implemented only in wxMac and returns -1 for the other platforms (you can still distinguish simple clicks from double-clicks as they generate different kinds of events however).</para><para><simplesect kind="since"><para>2.9.0 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/event.h" line="2756" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_mouse_event_1a0af4db62efdd4e3a51d5ea120aeadda2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int wxMouseEvent::GetLinesPerAction</definition>
+        <argsstring>() const</argsstring>
+        <name>GetLinesPerAction</name>
+        <briefdescription>
+<para>Returns the configured number of lines (or whatever) to be scrolled per wheel action. </para>        </briefdescription>
+        <detaileddescription>
+<para>Default value under most platforms is three.</para><para><simplesect kind="see"><para><ref refid="classwx_mouse_event_1a84ffae36f25eb784975ccbd4b8774b01" kindref="member">GetColumnsPerAction()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/event.h" line="2766" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_mouse_event_1a84ffae36f25eb784975ccbd4b8774b01" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int wxMouseEvent::GetColumnsPerAction</definition>
+        <argsstring>() const</argsstring>
+        <name>GetColumnsPerAction</name>
+        <briefdescription>
+<para>Returns the configured number of columns (or whatever) to be scrolled per wheel action. </para>        </briefdescription>
+        <detaileddescription>
+<para>Default value under most platforms is three.</para><para><simplesect kind="see"><para><ref refid="classwx_mouse_event_1a0af4db62efdd4e3a51d5ea120aeadda2" kindref="member">GetLinesPerAction()</ref></para></simplesect>
+<simplesect kind="since"><para>2.9.5 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/event.h" line="2778" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_mouse_event_1ada3567c0ac444667e328c7c733496b58" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_point" kindref="compound">wxPoint</ref></type>
+        <definition>wxPoint wxMouseEvent::GetLogicalPosition</definition>
+        <argsstring>(const wxDC &amp;dc) const</argsstring>
+        <name>GetLogicalPosition</name>
+        <param>
+          <type>const <ref refid="classwx_d_c" kindref="compound">wxDC</ref> &amp;</type>
+          <declname>dc</declname>
+        </param>
+        <briefdescription>
+<para>Returns the logical mouse position in pixels (i.e. translated according to the translation set for the DC, which usually indicates that the window has been scrolled). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/event.h" line="2785" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_mouse_event_1a5fa028a09896b6ddb894b12caacc32fb" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int wxMouseEvent::GetWheelDelta</definition>
+        <argsstring>() const</argsstring>
+        <name>GetWheelDelta</name>
+        <briefdescription>
+<para>Get wheel delta, normally 120. </para>        </briefdescription>
+        <detaileddescription>
+<para>This is the threshold for action to be taken, and one such action (for example, scrolling one increment) should occur for each delta. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/event.h" line="2793" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_mouse_event_1af25c634cf45cb3d4633d45c472f5b2b9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int wxMouseEvent::GetWheelRotation</definition>
+        <argsstring>() const</argsstring>
+        <name>GetWheelRotation</name>
+        <briefdescription>
+<para>Get wheel rotation, positive or negative indicates direction of rotation. </para>        </briefdescription>
+        <detaileddescription>
+<para>Current devices all send an event when rotation is at least +/-WheelDelta, but finer resolution devices can be created in the future.</para><para>Because of this you shouldn&apos;t assume that one event is equal to 1 line, but you should be able to either do partial line scrolling or wait until several events accumulate before scrolling. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/event.h" line="2805" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_mouse_event_1aef664e2d50f87a56ed4ec80271b3e580" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="event_8h_1a198c1db521935c03fbd89959c951215b" kindref="member">wxMouseWheelAxis</ref></type>
+        <definition>wxMouseWheelAxis wxMouseEvent::GetWheelAxis</definition>
+        <argsstring>() const</argsstring>
+        <name>GetWheelAxis</name>
+        <briefdescription>
+<para>Gets the axis the wheel operation concerns. </para>        </briefdescription>
+        <detaileddescription>
+<para>Usually the mouse wheel is used to scroll vertically so <computeroutput>wxMOUSE_WHEEL_VERTICAL</computeroutput> is returned but some mice (and most trackpads) also allow to use the wheel to scroll horizontally in which case <computeroutput>wxMOUSE_WHEEL_HORIZONTAL</computeroutput> is returned.</para><para>Notice that before wxWidgets 2.9.4 this method returned <computeroutput>int</computeroutput>. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/event.h" line="2817" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_mouse_event_1aabd0abde2a268f185577e5cdad70804e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxMouseEvent::IsButton</definition>
+        <argsstring>() const</argsstring>
+        <name>IsButton</name>
+        <briefdescription>
+<para>Returns true if the event was a mouse button event (not necessarily a button down event - that may be tested using <ref refid="classwx_mouse_event_1a3362550e828e7d6872d3a8859a569685" kindref="member">ButtonDown()</ref>). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/event.h" line="2823" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_mouse_event_1ab00378989ac7f5e8c56bcc4bd5e4251a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxMouseEvent::IsPageScroll</definition>
+        <argsstring>() const</argsstring>
+        <name>IsPageScroll</name>
+        <briefdescription>
+<para>Returns true if the system has been setup to do page scrolling with the mouse wheel instead of line scrolling. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/event.h" line="2829" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_mouse_event_1a40c80ae3b1c99525711c5c68aa31d917" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxMouseEvent::Leaving</definition>
+        <argsstring>() const</argsstring>
+        <name>Leaving</name>
+        <briefdescription>
+<para>Returns true if the mouse was leaving the window. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="see"><para><ref refid="classwx_mouse_event_1aba23d806bfad21911a5e1e4f21bdf283" kindref="member">Entering()</ref>. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/event.h" line="2836" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_mouse_event_1ad34fad1c0f5a1e1912edcc3a8dec1c6f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxMouseEvent::LeftDClick</definition>
+        <argsstring>() const</argsstring>
+        <name>LeftDClick</name>
+        <briefdescription>
+<para>Returns true if the event was a left double click. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/event.h" line="2841" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_mouse_event_1af24cf14161da22d4d0d8bc80ffe33150" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxMouseEvent::LeftDown</definition>
+        <argsstring>() const</argsstring>
+        <name>LeftDown</name>
+        <briefdescription>
+<para>Returns true if the left mouse button changed to down. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/event.h" line="2846" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_mouse_event_1a47552c7cc416599eed216be1948da5c8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxMouseEvent::LeftUp</definition>
+        <argsstring>() const</argsstring>
+        <name>LeftUp</name>
+        <briefdescription>
+<para>Returns true if the left mouse button changed to up. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/event.h" line="2851" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_mouse_event_1afe6f69d3384ce92e42f4c57ea625303d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxMouseEvent::MetaDown</definition>
+        <argsstring>() const</argsstring>
+        <name>MetaDown</name>
+        <briefdescription>
+<para>Returns true if the Meta key was down at the time of the event. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/event.h" line="2856" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_mouse_event_1a82a4878e915c35d2a71fe2d882c5e7fd" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxMouseEvent::MiddleDClick</definition>
+        <argsstring>() const</argsstring>
+        <name>MiddleDClick</name>
+        <briefdescription>
+<para>Returns true if the event was a middle double click. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/event.h" line="2861" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_mouse_event_1a3e1baf28a5a73bf16d4a567fdb05fa25" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxMouseEvent::MiddleDown</definition>
+        <argsstring>() const</argsstring>
+        <name>MiddleDown</name>
+        <briefdescription>
+<para>Returns true if the middle mouse button changed to down. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/event.h" line="2866" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_mouse_event_1a53904a7f504db15ad3978d270bee2ebf" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxMouseEvent::MiddleUp</definition>
+        <argsstring>() const</argsstring>
+        <name>MiddleUp</name>
+        <briefdescription>
+<para>Returns true if the middle mouse button changed to up. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/event.h" line="2871" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_mouse_event_1a03707fb904deb70ab5cfe2e893046465" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxMouseEvent::Moving</definition>
+        <argsstring>() const</argsstring>
+        <name>Moving</name>
+        <briefdescription>
+<para>Returns true if this was a motion event and no mouse buttons were pressed. </para>        </briefdescription>
+        <detaileddescription>
+<para>If any mouse button is held pressed, then this method returns false and <ref refid="classwx_mouse_event_1aa08074a2555618c63e2a53f38e56f18f" kindref="member">Dragging()</ref> returns true. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/event.h" line="2878" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_mouse_event_1a3f47f47ce99e00138b8d4f31390192f9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxMouseEvent::RightDClick</definition>
+        <argsstring>() const</argsstring>
+        <name>RightDClick</name>
+        <briefdescription>
+<para>Returns true if the event was a right double click. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/event.h" line="2883" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_mouse_event_1ae3da81deb2d240ad6a43b8b3255e00b9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxMouseEvent::RightDown</definition>
+        <argsstring>() const</argsstring>
+        <name>RightDown</name>
+        <briefdescription>
+<para>Returns true if the right mouse button changed to down. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/event.h" line="2888" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_mouse_event_1a345a41200f4fb64724e54b2fd85e7770" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxMouseEvent::RightUp</definition>
+        <argsstring>() const</argsstring>
+        <name>RightUp</name>
+        <briefdescription>
+<para>Returns true if the right mouse button changed to up. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/event.h" line="2893" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This event class contains information about the events generated by the mouse: they include mouse buttons press and release events and mouse move events. </para>    </briefdescription>
+    <detaileddescription>
+<para>All mouse events involving the buttons use <computeroutput>wxMOUSE_BTN_LEFT</computeroutput> for the left mouse button, <computeroutput>wxMOUSE_BTN_MIDDLE</computeroutput> for the middle one and <computeroutput>wxMOUSE_BTN_RIGHT</computeroutput> for the right one. And if the system supports more buttons, the <computeroutput>wxMOUSE_BTN_AUX1</computeroutput> and <computeroutput>wxMOUSE_BTN_AUX2</computeroutput> events can also be generated. Note that not all mice have even a middle button so a portable application should avoid relying on the events from it (but the right button click can be emulated using the left mouse button with the control key under Mac platforms with a single button mouse).</para><para>For the <computeroutput>wxEVT_ENTER_WINDOW</computeroutput> and <computeroutput>wxEVT_LEAVE_WINDOW</computeroutput> events purposes, the mouse is considered to be inside the window if it is in the window client area and not inside one of its children. In other words, the parent window receives <computeroutput>wxEVT_LEAVE_WINDOW</computeroutput> event not only when the mouse leaves the window entirely but also when it enters one of its children.</para><para>The position associated with a mouse event is expressed in the window coordinates of the window which generated the event, you can use <ref refid="classwx_window_1af5e852c8695297c0328f1dfe3908605a" kindref="member">wxWindow::ClientToScreen()</ref> to convert it to screen coordinates and possibly call <ref refid="classwx_window_1a09aca554d41d6e771d3dc72f26b9cacc" kindref="member">wxWindow::ScreenToClient()</ref> next to convert it to window coordinates of another window.</para><para><simplesect kind="note"><para>Note that under Windows CE mouse enter and leave events are not natively supported by the system but are generated by wxWidgets itself. This has several drawbacks: the LEAVE_WINDOW event might be received some time after the mouse left the window and the state variables for it may have changed during this time.</para></simplesect>
+<simplesect kind="note"><para>Note the difference between methods like <ref refid="classwx_mouse_event_1af24cf14161da22d4d0d8bc80ffe33150" kindref="member">wxMouseEvent::LeftDown</ref> and the inherited <ref refid="classwx_mouse_state_1abc8bd8076822d5183d3946490735af7f" kindref="member">wxMouseState::LeftIsDown</ref>: the former returns true when the event corresponds to the left mouse button click while the latter returns true if the left mouse button is currently being pressed. For example, when the user is dragging the mouse you can use <ref refid="classwx_mouse_state_1abc8bd8076822d5183d3946490735af7f" kindref="member">wxMouseEvent::LeftIsDown</ref> to test whether the left mouse button is (still) depressed. Also, by convention, if <ref refid="classwx_mouse_event_1af24cf14161da22d4d0d8bc80ffe33150" kindref="member">wxMouseEvent::LeftDown</ref> returns true, <ref refid="classwx_mouse_state_1abc8bd8076822d5183d3946490735af7f" kindref="member">wxMouseEvent::LeftIsDown</ref> will also return true in wxWidgets whatever the underlying GUI behaviour is (which is platform-dependent). The same applies, of course, to other mouse buttons as well.</para></simplesect>
+<linebreak/>
+<heading level="2">Events using this class</heading>
+</para><para>The following event handler macros redirect the events to member function handlers &apos;<bold>func</bold>&apos; with prototypes like: void<nonbreakablespace/>handlerFuncName(<ref refid="classwx_mouse_event" kindref="compound">wxMouseEvent</ref>&amp;<nonbreakablespace/>event)</para><para>Event macros: <itemizedlist>
+<listitem><para>EVT_LEFT_DOWN(func): Process a <computeroutput>wxEVT_LEFT_DOWN</computeroutput> event. The handler of this event should normally call event.Skip() to allow the default processing to take place as otherwise the window under mouse wouldn&apos;t get the focus. </para></listitem>
+<listitem><para>EVT_LEFT_UP(func): Process a <computeroutput>wxEVT_LEFT_UP</computeroutput> event. </para></listitem>
+<listitem><para>EVT_LEFT_DCLICK(func): Process a <computeroutput>wxEVT_LEFT_DCLICK</computeroutput> event. </para></listitem>
+<listitem><para>EVT_MIDDLE_DOWN(func): Process a <computeroutput>wxEVT_MIDDLE_DOWN</computeroutput> event. </para></listitem>
+<listitem><para>EVT_MIDDLE_UP(func): Process a <computeroutput>wxEVT_MIDDLE_UP</computeroutput> event. </para></listitem>
+<listitem><para>EVT_MIDDLE_DCLICK(func): Process a <computeroutput>wxEVT_MIDDLE_DCLICK</computeroutput> event. </para></listitem>
+<listitem><para>EVT_RIGHT_DOWN(func): Process a <computeroutput>wxEVT_RIGHT_DOWN</computeroutput> event. </para></listitem>
+<listitem><para>EVT_RIGHT_UP(func): Process a <computeroutput>wxEVT_RIGHT_UP</computeroutput> event. </para></listitem>
+<listitem><para>EVT_RIGHT_DCLICK(func): Process a <computeroutput>wxEVT_RIGHT_DCLICK</computeroutput> event. </para></listitem>
+<listitem><para>EVT_MOUSE_AUX1_DOWN(func): Process a <computeroutput>wxEVT_AUX1_DOWN</computeroutput> event. </para></listitem>
+<listitem><para>EVT_MOUSE_AUX1_UP(func): Process a <computeroutput>wxEVT_AUX1_UP</computeroutput> event. </para></listitem>
+<listitem><para>EVT_MOUSE_AUX1_DCLICK(func): Process a <computeroutput>wxEVT_AUX1_DCLICK</computeroutput> event. </para></listitem>
+<listitem><para>EVT_MOUSE_AUX2_DOWN(func): Process a <computeroutput>wxEVT_AUX2_DOWN</computeroutput> event. </para></listitem>
+<listitem><para>EVT_MOUSE_AUX2_UP(func): Process a <computeroutput>wxEVT_AUX2_UP</computeroutput> event. </para></listitem>
+<listitem><para>EVT_MOUSE_AUX2_DCLICK(func): Process a <computeroutput>wxEVT_AUX2_DCLICK</computeroutput> event. </para></listitem>
+<listitem><para>EVT_MOTION(func): Process a <computeroutput>wxEVT_MOTION</computeroutput> event. </para></listitem>
+<listitem><para>EVT_ENTER_WINDOW(func): Process a <computeroutput>wxEVT_ENTER_WINDOW</computeroutput> event. </para></listitem>
+<listitem><para>EVT_LEAVE_WINDOW(func): Process a <computeroutput>wxEVT_LEAVE_WINDOW</computeroutput> event. </para></listitem>
+<listitem><para>EVT_MOUSEWHEEL(func): Process a <computeroutput>wxEVT_MOUSEWHEEL</computeroutput> event. </para></listitem>
+<listitem><para>EVT_MOUSE_EVENTS(func): Process all mouse events. <linebreak/>
+ <heading level="2"></heading>
+</para></listitem>
+</itemizedlist>
+Library:<nonbreakablespace/><nonbreakablespace/><ref refid="page_libs_1page_libs_wxcore" kindref="member">wxCore</ref> &lt;&gt;&lt; =&apos;&apos;&gt;:&lt;/&gt;&amp;;&amp;;&lt; =&apos;&apos;&gt;\ &lt;/&gt;&lt;/&gt;</para><para><simplesect kind="see"><para><ref refid="classwx_key_event" kindref="compound">wxKeyEvent</ref> </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="4304">
+        <label>wxKeyboardState</label>
+        <link refid="classwx_keyboard_state"/>
+      </node>
+      <node id="4302">
+        <label>wxObject</label>
+        <link refid="classwx_object"/>
+      </node>
+      <node id="4300">
+        <label>wxMouseEvent</label>
+        <link refid="classwx_mouse_event"/>
+        <childnode refid="4301" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4303" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4301">
+        <label>wxEvent</label>
+        <link refid="classwx_event"/>
+        <childnode refid="4302" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4303">
+        <label>wxMouseState</label>
+        <link refid="classwx_mouse_state"/>
+        <childnode refid="4304" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4310">
+        <label>wxKeyboardState</label>
+        <link refid="classwx_keyboard_state"/>
+      </node>
+      <node id="4307">
+        <label>wxObject</label>
+        <link refid="classwx_object"/>
+        <childnode refid="4308" relation="usage">
+          <edgelabel>m_refData</edgelabel>
+        </childnode>
+      </node>
+      <node id="4305">
+        <label>wxMouseEvent</label>
+        <link refid="classwx_mouse_event"/>
+        <childnode refid="4306" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4309" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4306">
+        <label>wxEvent</label>
+        <link refid="classwx_event"/>
+        <childnode refid="4307" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4308">
+        <label>wxObjectRefData</label>
+        <link refid="classwx_object_ref_data"/>
+      </node>
+      <node id="4309">
+        <label>wxMouseState</label>
+        <link refid="classwx_mouse_state"/>
+        <childnode refid="4310" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="interface/wx/event.h" line="2638" column="1" bodyfile="interface/wx/event.h" bodystart="2636" bodyend="2894"/>
+    <listofallmembers>
+      <member refid="classwx_object_1a60204063f3cc3aa2fa1c7ff5bda9eb13" prot="protected" virt="non-virtual"><scope>wxMouseEvent</scope><name>AllocExclusive</name></member>
+      <member refid="classwx_keyboard_state_1a21f4762d6874787de9408bffe49474bb" prot="public" virt="non-virtual"><scope>wxMouseEvent</scope><name>AltDown</name></member>
+      <member refid="classwx_mouse_event_1ae2c51596a8608ac2028911140efca9f4" prot="public" virt="non-virtual"><scope>wxMouseEvent</scope><name>Aux1DClick</name></member>
+      <member refid="classwx_mouse_event_1afe1a57591865fe8454a21bd3699a01f9" prot="public" virt="non-virtual"><scope>wxMouseEvent</scope><name>Aux1Down</name></member>
+      <member refid="classwx_mouse_state_1a6a96c76224bca3d45d0c13160389c778" prot="public" virt="non-virtual"><scope>wxMouseEvent</scope><name>Aux1IsDown</name></member>
+      <member refid="classwx_mouse_event_1add041b97305586a2305b3b532dc65123" prot="public" virt="non-virtual"><scope>wxMouseEvent</scope><name>Aux1Up</name></member>
+      <member refid="classwx_mouse_event_1a2be62a363b8da0a5ecfe06929e3ad4bb" prot="public" virt="non-virtual"><scope>wxMouseEvent</scope><name>Aux2DClick</name></member>
+      <member refid="classwx_mouse_event_1a5494f60d0424dbed2886853207ca24b4" prot="public" virt="non-virtual"><scope>wxMouseEvent</scope><name>Aux2Down</name></member>
+      <member refid="classwx_mouse_state_1a599e903ea53cfa9da7f5a63f5991475c" prot="public" virt="non-virtual"><scope>wxMouseEvent</scope><name>Aux2IsDown</name></member>
+      <member refid="classwx_mouse_event_1aae659084143a6485d5dd95fb81d1ffaa" prot="public" virt="non-virtual"><scope>wxMouseEvent</scope><name>Aux2Up</name></member>
+      <member refid="classwx_mouse_event_1aa10348a90ac4802bbe06dc6cdd4432b2" prot="public" virt="non-virtual"><scope>wxMouseEvent</scope><name>Button</name></member>
+      <member refid="classwx_mouse_event_1ab449807319bf870d033cc654c71eb6dd" prot="public" virt="non-virtual"><scope>wxMouseEvent</scope><name>ButtonDClick</name></member>
+      <member refid="classwx_mouse_event_1a3362550e828e7d6872d3a8859a569685" prot="public" virt="non-virtual"><scope>wxMouseEvent</scope><name>ButtonDown</name></member>
+      <member refid="classwx_mouse_event_1ab9b34492408d1988f526e5f4a3c93c08" prot="public" virt="non-virtual"><scope>wxMouseEvent</scope><name>ButtonUp</name></member>
+      <member refid="classwx_event_1a26878097a702e8d0368da150125d4158" prot="public" virt="pure-virtual"><scope>wxMouseEvent</scope><name>Clone</name></member>
+      <member refid="classwx_object_1a436fc8fe68cf8a31000296d9cd3d2427" prot="protected" virt="virtual"><scope>wxMouseEvent</scope><name>CloneRefData</name></member>
+      <member refid="classwx_keyboard_state_1a65d09b479fcb9a3b20d01f79d6c92da8" prot="public" virt="non-virtual"><scope>wxMouseEvent</scope><name>CmdDown</name></member>
+      <member refid="classwx_keyboard_state_1aa4ed00359eb8ba6000ce302b36e9147b" prot="public" virt="non-virtual"><scope>wxMouseEvent</scope><name>ControlDown</name></member>
+      <member refid="classwx_object_1a3f4f497c65cef611e121c41f21dd5ccc" prot="protected" virt="virtual"><scope>wxMouseEvent</scope><name>CreateRefData</name></member>
+      <member refid="classwx_mouse_event_1aa08074a2555618c63e2a53f38e56f18f" prot="public" virt="non-virtual"><scope>wxMouseEvent</scope><name>Dragging</name></member>
+      <member refid="classwx_mouse_event_1aba23d806bfad21911a5e1e4f21bdf283" prot="public" virt="non-virtual"><scope>wxMouseEvent</scope><name>Entering</name></member>
+      <member refid="classwx_mouse_event_1a33653a3f59d68405361f3ae65d2936eb" prot="public" virt="non-virtual"><scope>wxMouseEvent</scope><name>GetButton</name></member>
+      <member refid="classwx_object_1ae6d365f2556b26767ced8410c5e839d0" prot="public" virt="virtual"><scope>wxMouseEvent</scope><name>GetClassInfo</name></member>
+      <member refid="classwx_mouse_event_1a392c9bac6c152016ecf09c05fa2d8f9c" prot="public" virt="non-virtual"><scope>wxMouseEvent</scope><name>GetClickCount</name></member>
+      <member refid="classwx_mouse_event_1a84ffae36f25eb784975ccbd4b8774b01" prot="public" virt="non-virtual"><scope>wxMouseEvent</scope><name>GetColumnsPerAction</name></member>
+      <member refid="classwx_event_1ac4958ff6ec32b7f4b23066932d611131" prot="public" virt="virtual"><scope>wxMouseEvent</scope><name>GetEventCategory</name></member>
+      <member refid="classwx_event_1a424a4ffaaaf95164d8952ef9ab2ef444" prot="public" virt="non-virtual"><scope>wxMouseEvent</scope><name>GetEventObject</name></member>
+      <member refid="classwx_event_1a01c89719ef6241a6e612a313a259c1c2" prot="public" virt="non-virtual"><scope>wxMouseEvent</scope><name>GetEventType</name></member>
+      <member refid="classwx_event_1ae7d3e088f0f165ad0421717dd33e4460" prot="public" virt="non-virtual"><scope>wxMouseEvent</scope><name>GetEventUserData</name></member>
+      <member refid="classwx_event_1ac5fa5c10d4845d903e58026a42b403c7" prot="public" virt="non-virtual"><scope>wxMouseEvent</scope><name>GetId</name></member>
+      <member refid="classwx_mouse_event_1a0af4db62efdd4e3a51d5ea120aeadda2" prot="public" virt="non-virtual"><scope>wxMouseEvent</scope><name>GetLinesPerAction</name></member>
+      <member refid="classwx_mouse_event_1ada3567c0ac444667e328c7c733496b58" prot="public" virt="non-virtual"><scope>wxMouseEvent</scope><name>GetLogicalPosition</name></member>
+      <member refid="classwx_keyboard_state_1a203cd1439ba9be039f7e058f4278b4cd" prot="public" virt="non-virtual"><scope>wxMouseEvent</scope><name>GetModifiers</name></member>
+      <member refid="classwx_mouse_state_1a318d5a329edfd9210f611058546c2b1f" prot="public" virt="non-virtual"><scope>wxMouseEvent</scope><name>GetPosition</name></member>
+      <member refid="classwx_mouse_state_1a22177c938d6a00e37bbe19c5e5707229" prot="public" virt="non-virtual"><scope>wxMouseEvent</scope><name>GetPosition</name></member>
+      <member refid="classwx_object_1af3c6c76a775864832f1536d3c0de3a2b" prot="public" virt="non-virtual"><scope>wxMouseEvent</scope><name>GetRefData</name></member>
+      <member refid="classwx_event_1aa770dbcd0f1714ba097836af6534b4c5" prot="public" virt="non-virtual"><scope>wxMouseEvent</scope><name>GetSkipped</name></member>
+      <member refid="classwx_event_1a48662230971127737d2500cef7be549d" prot="public" virt="non-virtual"><scope>wxMouseEvent</scope><name>GetTimestamp</name></member>
+      <member refid="classwx_mouse_event_1aef664e2d50f87a56ed4ec80271b3e580" prot="public" virt="non-virtual"><scope>wxMouseEvent</scope><name>GetWheelAxis</name></member>
+      <member refid="classwx_mouse_event_1a5fa028a09896b6ddb894b12caacc32fb" prot="public" virt="non-virtual"><scope>wxMouseEvent</scope><name>GetWheelDelta</name></member>
+      <member refid="classwx_mouse_event_1af25c634cf45cb3d4633d45c472f5b2b9" prot="public" virt="non-virtual"><scope>wxMouseEvent</scope><name>GetWheelRotation</name></member>
+      <member refid="classwx_mouse_state_1acf5e2001f5b729a50f0d3a8c1cf64b5c" prot="public" virt="non-virtual"><scope>wxMouseEvent</scope><name>GetX</name></member>
+      <member refid="classwx_mouse_state_1ac41c9e6b32b6f88b4fd729a0480ab4e4" prot="public" virt="non-virtual"><scope>wxMouseEvent</scope><name>GetY</name></member>
+      <member refid="classwx_keyboard_state_1acfaeb807c52ca591c78c4464abd32baa" prot="public" virt="non-virtual"><scope>wxMouseEvent</scope><name>HasAnyModifiers</name></member>
+      <member refid="classwx_keyboard_state_1ae4ae63d5a16031599f78bf6254337fba" prot="public" virt="non-virtual"><scope>wxMouseEvent</scope><name>HasModifiers</name></member>
+      <member refid="classwx_mouse_event_1aabd0abde2a268f185577e5cdad70804e" prot="public" virt="non-virtual"><scope>wxMouseEvent</scope><name>IsButton</name></member>
+      <member refid="classwx_event_1a31f6a4377d6d36964b8eae4e56ec43e0" prot="public" virt="non-virtual"><scope>wxMouseEvent</scope><name>IsCommandEvent</name></member>
+      <member refid="classwx_object_1a3c7115ef4132dcee0c4fc34e84d7fced" prot="public" virt="non-virtual"><scope>wxMouseEvent</scope><name>IsKindOf</name></member>
+      <member refid="classwx_mouse_event_1ab00378989ac7f5e8c56bcc4bd5e4251a" prot="public" virt="non-virtual"><scope>wxMouseEvent</scope><name>IsPageScroll</name></member>
+      <member refid="classwx_object_1a059373c494c2369d7db2a556efef8ecf" prot="public" virt="non-virtual"><scope>wxMouseEvent</scope><name>IsSameAs</name></member>
+      <member refid="classwx_mouse_event_1a40c80ae3b1c99525711c5c68aa31d917" prot="public" virt="non-virtual"><scope>wxMouseEvent</scope><name>Leaving</name></member>
+      <member refid="classwx_mouse_event_1ad34fad1c0f5a1e1912edcc3a8dec1c6f" prot="public" virt="non-virtual"><scope>wxMouseEvent</scope><name>LeftDClick</name></member>
+      <member refid="classwx_mouse_event_1af24cf14161da22d4d0d8bc80ffe33150" prot="public" virt="non-virtual"><scope>wxMouseEvent</scope><name>LeftDown</name></member>
+      <member refid="classwx_mouse_state_1abc8bd8076822d5183d3946490735af7f" prot="public" virt="non-virtual"><scope>wxMouseEvent</scope><name>LeftIsDown</name></member>
+      <member refid="classwx_mouse_event_1a47552c7cc416599eed216be1948da5c8" prot="public" virt="non-virtual"><scope>wxMouseEvent</scope><name>LeftUp</name></member>
+      <member refid="classwx_event_1ac81911194f1f59e1454c0397b87975d4" prot="protected" virt="non-virtual"><scope>wxMouseEvent</scope><name>m_propagationLevel</name></member>
+      <member refid="classwx_object_1a9e31954530a0abd54982effc443ed2b8" prot="protected" virt="non-virtual"><scope>wxMouseEvent</scope><name>m_refData</name></member>
+      <member refid="classwx_mouse_event_1afe6f69d3384ce92e42f4c57ea625303d" prot="public" virt="non-virtual"><scope>wxMouseEvent</scope><name>MetaDown</name></member>
+      <member refid="classwx_mouse_event_1a82a4878e915c35d2a71fe2d882c5e7fd" prot="public" virt="non-virtual"><scope>wxMouseEvent</scope><name>MiddleDClick</name></member>
+      <member refid="classwx_mouse_event_1a3e1baf28a5a73bf16d4a567fdb05fa25" prot="public" virt="non-virtual"><scope>wxMouseEvent</scope><name>MiddleDown</name></member>
+      <member refid="classwx_mouse_state_1af2021f1d6534fc6e0782c73696149a3b" prot="public" virt="non-virtual"><scope>wxMouseEvent</scope><name>MiddleIsDown</name></member>
+      <member refid="classwx_mouse_event_1a53904a7f504db15ad3978d270bee2ebf" prot="public" virt="non-virtual"><scope>wxMouseEvent</scope><name>MiddleUp</name></member>
+      <member refid="classwx_mouse_event_1a03707fb904deb70ab5cfe2e893046465" prot="public" virt="non-virtual"><scope>wxMouseEvent</scope><name>Moving</name></member>
+      <member refid="classwx_object_1a07b8f34f5afc5743195c5fed052f55d3" prot="public" virt="non-virtual"><scope>wxMouseEvent</scope><name>operator delete</name></member>
+      <member refid="classwx_object_1a96fa423a1dbc212c8227a5d83825971f" prot="public" virt="non-virtual"><scope>wxMouseEvent</scope><name>operator new</name></member>
+      <member refid="classwx_keyboard_state_1a3b32b49f2a49f182f73423e8ac49c36d" prot="public" virt="non-virtual"><scope>wxMouseEvent</scope><name>RawControlDown</name></member>
+      <member refid="classwx_object_1a2f6f1aa51fe9fc2b1415ca4211a90e9e" prot="public" virt="non-virtual"><scope>wxMouseEvent</scope><name>Ref</name></member>
+      <member refid="classwx_event_1a0acb5c75f6e67b8822ad8ba3c5bdc4fe" prot="public" virt="non-virtual"><scope>wxMouseEvent</scope><name>ResumePropagation</name></member>
+      <member refid="classwx_mouse_event_1a3f47f47ce99e00138b8d4f31390192f9" prot="public" virt="non-virtual"><scope>wxMouseEvent</scope><name>RightDClick</name></member>
+      <member refid="classwx_mouse_event_1ae3da81deb2d240ad6a43b8b3255e00b9" prot="public" virt="non-virtual"><scope>wxMouseEvent</scope><name>RightDown</name></member>
+      <member refid="classwx_mouse_state_1a3f9d3b85ea8131706d15d160997482e3" prot="public" virt="non-virtual"><scope>wxMouseEvent</scope><name>RightIsDown</name></member>
+      <member refid="classwx_mouse_event_1a345a41200f4fb64724e54b2fd85e7770" prot="public" virt="non-virtual"><scope>wxMouseEvent</scope><name>RightUp</name></member>
+      <member refid="classwx_keyboard_state_1a6ba12f87c2c95364528ab152fa813de0" prot="public" virt="non-virtual"><scope>wxMouseEvent</scope><name>SetAltDown</name></member>
+      <member refid="classwx_mouse_state_1a9f87d1187687b2e8d96ea14a93fdc397" prot="public" virt="non-virtual"><scope>wxMouseEvent</scope><name>SetAux1Down</name></member>
+      <member refid="classwx_mouse_state_1ab0f55cf7fb235c4bb1bcd6dc4fd27cbd" prot="public" virt="non-virtual"><scope>wxMouseEvent</scope><name>SetAux2Down</name></member>
+      <member refid="classwx_keyboard_state_1ac9e9f195b68f79f4aac683bb7eb620dd" prot="public" virt="non-virtual"><scope>wxMouseEvent</scope><name>SetControlDown</name></member>
+      <member refid="classwx_event_1a3460217d04c36393ab868ba453fde13d" prot="public" virt="non-virtual"><scope>wxMouseEvent</scope><name>SetEventObject</name></member>
+      <member refid="classwx_event_1aa29fb7459d64602e09837fea1e516d27" prot="public" virt="non-virtual"><scope>wxMouseEvent</scope><name>SetEventType</name></member>
+      <member refid="classwx_event_1ab9973f687bfa8a60318d8d9bd629d0d4" prot="public" virt="non-virtual"><scope>wxMouseEvent</scope><name>SetId</name></member>
+      <member refid="classwx_mouse_state_1ab7f0e3c1b439df3069b9ed2438ab3fb6" prot="public" virt="non-virtual"><scope>wxMouseEvent</scope><name>SetLeftDown</name></member>
+      <member refid="classwx_keyboard_state_1adb5578cce4dce054cd24c7eb3cd650e7" prot="public" virt="non-virtual"><scope>wxMouseEvent</scope><name>SetMetaDown</name></member>
+      <member refid="classwx_mouse_state_1a642c369edc8cc256898684b9ffe47c2c" prot="public" virt="non-virtual"><scope>wxMouseEvent</scope><name>SetMiddleDown</name></member>
+      <member refid="classwx_mouse_state_1a3af09115e9db255f820b54077da51cfc" prot="public" virt="non-virtual"><scope>wxMouseEvent</scope><name>SetPosition</name></member>
+      <member refid="classwx_keyboard_state_1a3a200bfbfaa31597f791e5bd57b99db6" prot="public" virt="non-virtual"><scope>wxMouseEvent</scope><name>SetRawControlDown</name></member>
+      <member refid="classwx_object_1afab780710f2adc1bb33310e27590140b" prot="public" virt="non-virtual"><scope>wxMouseEvent</scope><name>SetRefData</name></member>
+      <member refid="classwx_mouse_state_1a3dcc8691d8b73a015768ec5472346ce9" prot="public" virt="non-virtual"><scope>wxMouseEvent</scope><name>SetRightDown</name></member>
+      <member refid="classwx_keyboard_state_1a5a8f8337c65248310363aedf228303e9" prot="public" virt="non-virtual"><scope>wxMouseEvent</scope><name>SetShiftDown</name></member>
+      <member refid="classwx_mouse_state_1a59d981aa6726c5f7312b558159f25ced" prot="public" virt="non-virtual"><scope>wxMouseEvent</scope><name>SetState</name></member>
+      <member refid="classwx_event_1ad4380dff3144a986cb960473051a1d8d" prot="public" virt="non-virtual"><scope>wxMouseEvent</scope><name>SetTimestamp</name></member>
+      <member refid="classwx_mouse_state_1a095c9989c4fc607295683882f9d94efa" prot="public" virt="non-virtual"><scope>wxMouseEvent</scope><name>SetX</name></member>
+      <member refid="classwx_mouse_state_1ad67621bb4a134ec32c0a5419474714e4" prot="public" virt="non-virtual"><scope>wxMouseEvent</scope><name>SetY</name></member>
+      <member refid="classwx_keyboard_state_1a1332cbf971bd2809db73342652435ba9" prot="public" virt="non-virtual"><scope>wxMouseEvent</scope><name>ShiftDown</name></member>
+      <member refid="classwx_event_1ac7a178c3c781c80f1308945042f76e7f" prot="public" virt="non-virtual"><scope>wxMouseEvent</scope><name>ShouldPropagate</name></member>
+      <member refid="classwx_event_1a98eb20b76106f9a933c2eb3ee119f66c" prot="public" virt="non-virtual"><scope>wxMouseEvent</scope><name>Skip</name></member>
+      <member refid="classwx_event_1a060a7d222404daff4d3cef30cddeaae3" prot="public" virt="non-virtual"><scope>wxMouseEvent</scope><name>StopPropagation</name></member>
+      <member refid="classwx_object_1af51efc6b1ae632fc7f0cd7ebbce9fa36" prot="public" virt="non-virtual"><scope>wxMouseEvent</scope><name>UnRef</name></member>
+      <member refid="classwx_object_1a74b40e42d19a4b9e9bec0b57d62a5725" prot="public" virt="non-virtual"><scope>wxMouseEvent</scope><name>UnShare</name></member>
+      <member refid="classwx_event_1aaf2a5cf056d006859cea36689ba13d36" prot="public" virt="non-virtual"><scope>wxMouseEvent</scope><name>wxEvent</name></member>
+      <member refid="classwx_keyboard_state_1aabf0c85adc4d56ca6364694eb26e55a8" prot="public" virt="non-virtual"><scope>wxMouseEvent</scope><name>wxKeyboardState</name></member>
+      <member refid="classwx_mouse_event_1acefb7a03efc09f774bdb03b497d86bb4" prot="public" virt="non-virtual"><scope>wxMouseEvent</scope><name>wxMouseEvent</name></member>
+      <member refid="classwx_mouse_state_1a96a28a4a38917b132ea51bef03955b28" prot="public" virt="non-virtual"><scope>wxMouseEvent</scope><name>wxMouseState</name></member>
+      <member refid="classwx_object_1acaa378363a28af421ab56ad7b46eadf0" prot="public" virt="non-virtual"><scope>wxMouseEvent</scope><name>wxObject</name></member>
+      <member refid="classwx_object_1a4721b4dc9b7aff0f30904ba2ea3954cf" prot="public" virt="non-virtual"><scope>wxMouseEvent</scope><name>wxObject</name></member>
+      <member refid="classwx_object_1a2a51aa8bfbab47ca2f051bcf84b3f35b" prot="public" virt="virtual"><scope>wxMouseEvent</scope><name>~wxObject</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

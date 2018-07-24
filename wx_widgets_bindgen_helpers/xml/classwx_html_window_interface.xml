@@ -1,0 +1,310 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_html_window_interface" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>wxHtmlWindowInterface</compoundname>
+    <derivedcompoundref refid="classwx_html_window" prot="public" virt="non-virtual">wxHtmlWindow</derivedcompoundref>
+    <includes local="no">wx/html/htmlwin.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="classwx_html_window_interface_1abee7411cdffad251a5ac7b831aacef70" prot="public" static="no" strong="no">
+        <type></type>
+        <name>HTMLCursor</name>
+        <enumvalue id="classwx_html_window_interface_1abee7411cdffad251a5ac7b831aacef70a2e6f776e0650c0b81c3ef41b8ef76a0d" prot="public">
+          <name>HTMLCursor_Default</name>
+          <briefdescription>
+<para>Standard mouse cursor (typically an arrow) </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classwx_html_window_interface_1abee7411cdffad251a5ac7b831aacef70a8b6d0e568bbc790f288bf1be1fb0fef3" prot="public">
+          <name>HTMLCursor_Link</name>
+          <briefdescription>
+<para>Cursor shown over links. </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classwx_html_window_interface_1abee7411cdffad251a5ac7b831aacef70a67c98e64061369f85bae5cfa01708cc5" prot="public">
+          <name>HTMLCursor_Text</name>
+          <briefdescription>
+<para>Cursor shown over selectable text. </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Type of mouse cursor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/html/htmlwin.h" line="93" column="1" bodyfile="interface/wx/html/htmlwin.h" bodystart="92" bodyend="100"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classwx_html_window_interface_1ab788f844e826335587566046af381aae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxHtmlWindowInterface::wxHtmlWindowInterface</definition>
+        <argsstring>()</argsstring>
+        <name>wxHtmlWindowInterface</name>
+        <briefdescription>
+<para>Ctor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/html/htmlwin.h" line="39" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_html_window_interface_1ac560c9abd03c1ad5e296b606340f5a04" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual wxHtmlWindowInterface::~wxHtmlWindowInterface</definition>
+        <argsstring>()</argsstring>
+        <name>~wxHtmlWindowInterface</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/html/htmlwin.h" line="40" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_html_window_interface_1a8ce342fb0439b76675c6b58a7e13b677" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void wxHtmlWindowInterface::SetHTMLWindowTitle</definition>
+        <argsstring>(const wxString &amp;title)=0</argsstring>
+        <name>SetHTMLWindowTitle</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>title</declname>
+        </param>
+        <briefdescription>
+<para>Called by the parser to set window&apos;s title to given text. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/html/htmlwin.h" line="45" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_html_window_interface_1a8f9b772badc2d3a49a3df2538ec9f554" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void wxHtmlWindowInterface::OnHTMLLinkClicked</definition>
+        <argsstring>(const wxHtmlLinkInfo &amp;link)=0</argsstring>
+        <name>OnHTMLLinkClicked</name>
+        <param>
+          <type>const <ref refid="classwx_html_link_info" kindref="compound">wxHtmlLinkInfo</ref> &amp;</type>
+          <declname>link</declname>
+        </param>
+        <briefdescription>
+<para>Called when a link is clicked. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>link</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>information about the clicked link </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/html/htmlwin.h" line="52" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_html_window_interface_1aeda08ee928e2072e6d679f3018298503" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type><ref refid="htmlwin_8h_1ac1d732c434321dadebd82289497348db" kindref="member">wxHtmlOpeningStatus</ref></type>
+        <definition>virtual wxHtmlOpeningStatus wxHtmlWindowInterface::OnHTMLOpeningURL</definition>
+        <argsstring>(wxHtmlURLType type, const wxString &amp;url, wxString *redirect) const =0</argsstring>
+        <name>OnHTMLOpeningURL</name>
+        <param>
+          <type><ref refid="htmlpars_8h_1a6e895f8a11485532a3cb67ecec03d4fa" kindref="member">wxHtmlURLType</ref></type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>url</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_string" kindref="compound">wxString</ref> *</type>
+          <declname>redirect</declname>
+        </param>
+        <briefdescription>
+<para>Called when the parser needs to open another URL (e.g. </para>        </briefdescription>
+        <detaileddescription>
+<para>an image).</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>type</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Type of the URL request (e.g. image) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>url</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>URL the parser wants to open </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>redirect</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>If the return value is wxHTML_REDIRECT, then the URL to redirect to will be stored in this variable (the pointer must never be NULL)</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>indicator of how to treat the request </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/html/htmlwin.h" line="65" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_html_window_interface_1a40f350d5a0d35561dc7b0e0ec8758c78" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type><ref refid="classwx_point" kindref="compound">wxPoint</ref></type>
+        <definition>virtual wxPoint wxHtmlWindowInterface::HTMLCoordsToWindow</definition>
+        <argsstring>(wxHtmlCell *cell, const wxPoint &amp;pos) const =0</argsstring>
+        <name>HTMLCoordsToWindow</name>
+        <param>
+          <type><ref refid="classwx_html_cell" kindref="compound">wxHtmlCell</ref> *</type>
+          <declname>cell</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_point" kindref="compound">wxPoint</ref> &amp;</type>
+          <declname>pos</declname>
+        </param>
+        <briefdescription>
+<para>Converts coordinates <emphasis>pos</emphasis> relative to given <emphasis>cell</emphasis> to physical coordinates in the window. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/html/htmlwin.h" line="73" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_html_window_interface_1a4e35b38fa3dea581feff39343b16e006" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type><ref refid="classwx_window" kindref="compound">wxWindow</ref> *</type>
+        <definition>virtual wxWindow* wxHtmlWindowInterface::GetHTMLWindow</definition>
+        <argsstring>()=0</argsstring>
+        <name>GetHTMLWindow</name>
+        <briefdescription>
+<para>Returns the window used for rendering (may be NULL). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/html/htmlwin.h" line="77" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_html_window_interface_1af8a745de3d031db9771119ea8965ae98" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type><ref refid="classwx_colour" kindref="compound">wxColour</ref></type>
+        <definition>virtual wxColour wxHtmlWindowInterface::GetHTMLBackgroundColour</definition>
+        <argsstring>() const =0</argsstring>
+        <name>GetHTMLBackgroundColour</name>
+        <briefdescription>
+<para>Returns background colour to use by default. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/html/htmlwin.h" line="80" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_html_window_interface_1ac88a65e20b777047f01f64ca92f741ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void wxHtmlWindowInterface::SetHTMLBackgroundColour</definition>
+        <argsstring>(const wxColour &amp;clr)=0</argsstring>
+        <name>SetHTMLBackgroundColour</name>
+        <param>
+          <type>const <ref refid="classwx_colour" kindref="compound">wxColour</ref> &amp;</type>
+          <declname>clr</declname>
+        </param>
+        <briefdescription>
+<para>Sets window&apos;s background to colour <emphasis>clr</emphasis>. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/html/htmlwin.h" line="83" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_html_window_interface_1a5747c4d798059d2976eb7594e8bb9745" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void wxHtmlWindowInterface::SetHTMLBackgroundImage</definition>
+        <argsstring>(const wxBitmap &amp;bmpBg)=0</argsstring>
+        <name>SetHTMLBackgroundImage</name>
+        <param>
+          <type>const <ref refid="classwx_bitmap" kindref="compound">wxBitmap</ref> &amp;</type>
+          <declname>bmpBg</declname>
+        </param>
+        <briefdescription>
+<para>Sets window&apos;s background to given bitmap. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/html/htmlwin.h" line="86" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_html_window_interface_1aeeb79b04e19931b44cec467237a160ce" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void wxHtmlWindowInterface::SetHTMLStatusText</definition>
+        <argsstring>(const wxString &amp;text)=0</argsstring>
+        <name>SetHTMLStatusText</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>text</declname>
+        </param>
+        <briefdescription>
+<para>Sets status bar text. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/html/htmlwin.h" line="89" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_html_window_interface_1a8677ac7a10014785cd79aff2e4b51e8b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type><ref refid="classwx_cursor" kindref="compound">wxCursor</ref></type>
+        <definition>virtual wxCursor wxHtmlWindowInterface::GetHTMLCursor</definition>
+        <argsstring>(wxHtmlWindowInterface::HTMLCursor type) const =0</argsstring>
+        <name>GetHTMLCursor</name>
+        <param>
+          <type><ref refid="classwx_html_window_interface_1abee7411cdffad251a5ac7b831aacef70" kindref="member">wxHtmlWindowInterface::HTMLCursor</ref></type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+<para>Returns mouse cursor of given <emphasis>type</emphasis>. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/html/htmlwin.h" line="105" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Abstract interface to a HTML rendering window (such as <ref refid="classwx_html_window" kindref="compound">wxHtmlWindow</ref> or <ref refid="classwx_html_list_box" kindref="compound">wxHtmlListBox</ref>) that is passed to <ref refid="classwx_html_win_parser" kindref="compound">wxHtmlWinParser</ref>. </para>    </briefdescription>
+    <detaileddescription>
+<para>It encapsulates all communication from the parser to the window. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="3523">
+        <label>wxHtmlWindow</label>
+        <link refid="classwx_html_window"/>
+        <childnode refid="3522" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3522">
+        <label>wxHtmlWindowInterface</label>
+        <link refid="classwx_html_window_interface"/>
+      </node>
+    </inheritancegraph>
+    <location file="interface/wx/html/htmlwin.h" line="36" column="1" bodyfile="interface/wx/html/htmlwin.h" bodystart="35" bodyend="106"/>
+    <listofallmembers>
+      <member refid="classwx_html_window_interface_1af8a745de3d031db9771119ea8965ae98" prot="public" virt="pure-virtual"><scope>wxHtmlWindowInterface</scope><name>GetHTMLBackgroundColour</name></member>
+      <member refid="classwx_html_window_interface_1a8677ac7a10014785cd79aff2e4b51e8b" prot="public" virt="pure-virtual"><scope>wxHtmlWindowInterface</scope><name>GetHTMLCursor</name></member>
+      <member refid="classwx_html_window_interface_1a4e35b38fa3dea581feff39343b16e006" prot="public" virt="pure-virtual"><scope>wxHtmlWindowInterface</scope><name>GetHTMLWindow</name></member>
+      <member refid="classwx_html_window_interface_1a40f350d5a0d35561dc7b0e0ec8758c78" prot="public" virt="pure-virtual"><scope>wxHtmlWindowInterface</scope><name>HTMLCoordsToWindow</name></member>
+      <member refid="classwx_html_window_interface_1abee7411cdffad251a5ac7b831aacef70" prot="public" virt="non-virtual"><scope>wxHtmlWindowInterface</scope><name>HTMLCursor</name></member>
+      <member refid="classwx_html_window_interface_1abee7411cdffad251a5ac7b831aacef70a2e6f776e0650c0b81c3ef41b8ef76a0d" prot="public" virt="non-virtual"><scope>wxHtmlWindowInterface</scope><name>HTMLCursor_Default</name></member>
+      <member refid="classwx_html_window_interface_1abee7411cdffad251a5ac7b831aacef70a8b6d0e568bbc790f288bf1be1fb0fef3" prot="public" virt="non-virtual"><scope>wxHtmlWindowInterface</scope><name>HTMLCursor_Link</name></member>
+      <member refid="classwx_html_window_interface_1abee7411cdffad251a5ac7b831aacef70a67c98e64061369f85bae5cfa01708cc5" prot="public" virt="non-virtual"><scope>wxHtmlWindowInterface</scope><name>HTMLCursor_Text</name></member>
+      <member refid="classwx_html_window_interface_1a8f9b772badc2d3a49a3df2538ec9f554" prot="public" virt="pure-virtual"><scope>wxHtmlWindowInterface</scope><name>OnHTMLLinkClicked</name></member>
+      <member refid="classwx_html_window_interface_1aeda08ee928e2072e6d679f3018298503" prot="public" virt="pure-virtual"><scope>wxHtmlWindowInterface</scope><name>OnHTMLOpeningURL</name></member>
+      <member refid="classwx_html_window_interface_1ac88a65e20b777047f01f64ca92f741ee" prot="public" virt="pure-virtual"><scope>wxHtmlWindowInterface</scope><name>SetHTMLBackgroundColour</name></member>
+      <member refid="classwx_html_window_interface_1a5747c4d798059d2976eb7594e8bb9745" prot="public" virt="pure-virtual"><scope>wxHtmlWindowInterface</scope><name>SetHTMLBackgroundImage</name></member>
+      <member refid="classwx_html_window_interface_1aeeb79b04e19931b44cec467237a160ce" prot="public" virt="pure-virtual"><scope>wxHtmlWindowInterface</scope><name>SetHTMLStatusText</name></member>
+      <member refid="classwx_html_window_interface_1a8ce342fb0439b76675c6b58a7e13b677" prot="public" virt="pure-virtual"><scope>wxHtmlWindowInterface</scope><name>SetHTMLWindowTitle</name></member>
+      <member refid="classwx_html_window_interface_1ab788f844e826335587566046af381aae" prot="public" virt="non-virtual"><scope>wxHtmlWindowInterface</scope><name>wxHtmlWindowInterface</name></member>
+      <member refid="classwx_html_window_interface_1ac560c9abd03c1ad5e296b606340f5a04" prot="public" virt="virtual"><scope>wxHtmlWindowInterface</scope><name>~wxHtmlWindowInterface</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

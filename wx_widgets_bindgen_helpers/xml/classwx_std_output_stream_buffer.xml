@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_std_output_stream_buffer" kind="class" language="C++" prot="public">
+    <compoundname>wxStdOutputStreamBuffer</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">streambuf</basecompoundref>
+    <includes local="no">wx/stdstream.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classwx_std_output_stream_buffer_1aea461b4b946c0563462ba0777bc208f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxStdOutputStreamBuffer::wxStdOutputStreamBuffer</definition>
+        <argsstring>(wxOutputStream &amp;stream)</argsstring>
+        <name>wxStdOutputStreamBuffer</name>
+        <param>
+          <type><ref refid="classwx_output_stream" kindref="compound">wxOutputStream</ref> &amp;</type>
+          <declname>stream</declname>
+        </param>
+        <briefdescription>
+<para>Creates a std::steambuf derived stream buffer which writes to a <ref refid="classwx_output_stream" kindref="compound">wxOutputStream</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>stream</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Stream to write to. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/stdstream.h" line="145" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_std_output_stream_buffer_1a12c36631493367ee85e5b932e5b926f9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual wxStdOutputStreamBuffer::~wxStdOutputStreamBuffer</definition>
+        <argsstring>()</argsstring>
+        <name>~wxStdOutputStreamBuffer</name>
+        <briefdescription>
+<para>Destructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/stdstream.h" line="150" column="1" bodyfile="interface/wx/stdstream.h" bodystart="150" bodyend="150"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="classwx_std_output_stream_buffer" kindref="compound">wxStdOutputStreamBuffer</ref> is a std::streambuf derived stream buffer which writes to a <ref refid="classwx_output_stream" kindref="compound">wxOutputStream</ref>. </para>    </briefdescription>
+    <detaileddescription>
+<para>Example: <programlisting><codeline><highlight class="normal">wxFFileOutputStream<sp/>file(&quot;cout.txt.gz&quot;);</highlight></codeline>
+<codeline><highlight class="normal">wxZlibOutputStream<sp/>gzipOutput(file,<sp/>-1,<sp/>wxZLIB_GZIP);</highlight></codeline>
+<codeline><highlight class="normal">wxStdOutputStreamBuffer<sp/>gzipStreamBuffer(gzipOutput);</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">//<sp/>redirect<sp/>std::cout<sp/>to<sp/>cout.txt.gz<sp/>using<sp/>GZIP<sp/>compression</highlight></codeline>
+<codeline><highlight class="normal">std::streambuf*<sp/>streamBufferOld<sp/>=<sp/>std::cout.rdbuf(&amp;gzipStreamBuffer);</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">//<sp/>write<sp/>to<sp/>std::cout</highlight></codeline>
+<codeline><highlight class="normal">std::cout<sp/>&lt;&lt;<sp/>&quot;Hello<sp/>world!&quot;<sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">//<sp/>restore<sp/>std::cout</highlight></codeline>
+<codeline><highlight class="normal">std::cout.rdbuf(streamBufferOld);</highlight></codeline>
+</programlisting></para><para><heading level="2"></heading>
+</para><para>Library:<nonbreakablespace/><nonbreakablespace/><ref refid="page_libs_1page_libs_wxbase" kindref="member">wxBase</ref> &lt;&gt;&lt; =&apos;&apos;&gt;:&lt;/&gt;&amp;;&amp;;&lt; =&apos;&apos;&gt;\ &lt;/&gt;&lt;/&gt;</para><para><simplesect kind="see"><para><ref refid="classwx_output_stream" kindref="compound">wxOutputStream</ref>, <ref refid="classwx_std_output_stream" kindref="compound">wxStdOutputStream</ref> </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="7596">
+        <label>streambuf</label>
+      </node>
+      <node id="7595">
+        <label>wxStdOutputStreamBuffer</label>
+        <link refid="classwx_std_output_stream_buffer"/>
+        <childnode refid="7596" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="7598">
+        <label>streambuf</label>
+      </node>
+      <node id="7597">
+        <label>wxStdOutputStreamBuffer</label>
+        <link refid="classwx_std_output_stream_buffer"/>
+        <childnode refid="7598" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="interface/wx/stdstream.h" line="136" column="1" bodyfile="interface/wx/stdstream.h" bodystart="135" bodyend="151"/>
+    <listofallmembers>
+      <member refid="classwx_std_output_stream_buffer_1aea461b4b946c0563462ba0777bc208f3" prot="public" virt="non-virtual"><scope>wxStdOutputStreamBuffer</scope><name>wxStdOutputStreamBuffer</name></member>
+      <member refid="classwx_std_output_stream_buffer_1a12c36631493367ee85e5b932e5b926f9" prot="public" virt="virtual"><scope>wxStdOutputStreamBuffer</scope><name>~wxStdOutputStreamBuffer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,285 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_data_view_virtual_list_model" kind="class" language="C++" prot="public">
+    <compoundname>wxDataViewVirtualListModel</compoundname>
+    <basecompoundref refid="classwx_data_view_list_model" prot="public" virt="non-virtual">wxDataViewListModel</basecompoundref>
+    <includes local="no">wx/dataview.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classwx_data_view_virtual_list_model_1a7b9be495b7d054963089d564eb2342d2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxDataViewVirtualListModel::wxDataViewVirtualListModel</definition>
+        <argsstring>(unsigned int initial_size=0)</argsstring>
+        <name>wxDataViewVirtualListModel</name>
+        <param>
+          <type>unsigned int</type>
+          <declname>initial_size</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>Constructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/dataview.h" line="547" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_data_view_virtual_list_model_1a55fd843c0c8d1c97e00c6b2218cde938" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_data_view_item" kindref="compound">wxDataViewItem</ref></type>
+        <definition>wxDataViewItem wxDataViewVirtualListModel::GetItem</definition>
+        <argsstring>(unsigned int row) const</argsstring>
+        <name>GetItem</name>
+        <param>
+          <type>unsigned int</type>
+          <declname>row</declname>
+        </param>
+        <briefdescription>
+<para>Returns the <ref refid="classwx_data_view_item" kindref="compound">wxDataViewItem</ref> at the given <emphasis>row</emphasis>. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/dataview.h" line="552" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_data_view_virtual_list_model_1ad72afc0963dc7af4f0206a8fc3ef0d86" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxDataViewVirtualListModel::Reset</definition>
+        <argsstring>(unsigned int new_size)</argsstring>
+        <name>Reset</name>
+        <param>
+          <type>unsigned int</type>
+          <declname>new_size</declname>
+        </param>
+        <briefdescription>
+<para>Call this after if the data has to be read again from the model. </para>        </briefdescription>
+        <detaileddescription>
+<para>This is useful after major changes when calling the methods below (possibly thousands of times) doesn&apos;t make sense. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/dataview.h" line="559" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_data_view_virtual_list_model_1aef8086b37cf12b98afc0ccbb080bcd68" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxDataViewVirtualListModel::RowAppended</definition>
+        <argsstring>()</argsstring>
+        <name>RowAppended</name>
+        <briefdescription>
+<para>Call this after a row has been appended to the model. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/dataview.h" line="564" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_data_view_virtual_list_model_1aa7bef2abcd4d53a555a4777618fbee4f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxDataViewVirtualListModel::RowChanged</definition>
+        <argsstring>(unsigned int row)</argsstring>
+        <name>RowChanged</name>
+        <param>
+          <type>unsigned int</type>
+          <declname>row</declname>
+        </param>
+        <briefdescription>
+<para>Call this after a row has been changed. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/dataview.h" line="569" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_data_view_virtual_list_model_1abd903d6a270396b1101d4d43a7ae3a68" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxDataViewVirtualListModel::RowDeleted</definition>
+        <argsstring>(unsigned int row)</argsstring>
+        <name>RowDeleted</name>
+        <param>
+          <type>unsigned int</type>
+          <declname>row</declname>
+        </param>
+        <briefdescription>
+<para>Call this after a row has been deleted. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/dataview.h" line="574" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_data_view_virtual_list_model_1af2b7ca1c906c1d6a9228ddde09eb5b6c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxDataViewVirtualListModel::RowInserted</definition>
+        <argsstring>(unsigned int before)</argsstring>
+        <name>RowInserted</name>
+        <param>
+          <type>unsigned int</type>
+          <declname>before</declname>
+        </param>
+        <briefdescription>
+<para>Call this after a row has been inserted at the given position. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/dataview.h" line="579" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_data_view_virtual_list_model_1a68b74bd2ad4765c72247af66078ec833" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxDataViewVirtualListModel::RowPrepended</definition>
+        <argsstring>()</argsstring>
+        <name>RowPrepended</name>
+        <briefdescription>
+<para>Call this after a row has been prepended to the model. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/dataview.h" line="584" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_data_view_virtual_list_model_1a1b9dc8b21ae2fcec9ccc052f42f7cd43" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxDataViewVirtualListModel::RowValueChanged</definition>
+        <argsstring>(unsigned int row, unsigned int col)</argsstring>
+        <name>RowValueChanged</name>
+        <param>
+          <type>unsigned int</type>
+          <declname>row</declname>
+        </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>col</declname>
+        </param>
+        <briefdescription>
+<para>Call this after a value has been changed. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/dataview.h" line="589" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_data_view_virtual_list_model_1acbcd350f3ee4e771ec53cbb45151c6a1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxDataViewVirtualListModel::RowsDeleted</definition>
+        <argsstring>(const wxArrayInt &amp;rows)</argsstring>
+        <name>RowsDeleted</name>
+        <param>
+          <type>const <ref refid="dynarray_8h_1add87f199292e36ee87efd6d7f0d4ee66" kindref="member">wxArrayInt</ref> &amp;</type>
+          <declname>rows</declname>
+        </param>
+        <briefdescription>
+<para>Call this after rows have been deleted. </para>        </briefdescription>
+        <detaileddescription>
+<para>The array will internally get copied and sorted in descending order so that the rows with the highest position will be deleted first. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/dataview.h" line="596" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="classwx_data_view_virtual_list_model" kindref="compound">wxDataViewVirtualListModel</ref> is a specialized data model which lets you address an item by its position (row) rather than its <ref refid="classwx_data_view_item" kindref="compound">wxDataViewItem</ref> and as such offers the exact same interface as <ref refid="classwx_data_view_index_list_model" kindref="compound">wxDataViewIndexListModel</ref>. </para>    </briefdescription>
+    <detaileddescription>
+<para>The important difference is that under platforms other than OS X, using this model will result in a truly virtual control able to handle millions of items as the control doesn&apos;t store any item (a feature not supported by OS X).</para><para><simplesect kind="see"><para><ref refid="classwx_data_view_list_model" kindref="compound">wxDataViewListModel</ref> for the API.</para></simplesect>
+<heading level="2"></heading>
+</para><para>Library:<nonbreakablespace/><nonbreakablespace/><ref refid="page_libs_1page_libs_wxadv" kindref="member">wxAdvanced</ref> &lt;&gt;&lt; =&apos;&apos;&gt;:&lt;/&gt;&amp;;&amp;;&lt; =&apos;&apos;&gt;\ &lt;/&gt;&lt;/&gt; </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="1537">
+        <label>wxRefCounter</label>
+        <link refid="classwx_ref_counter"/>
+      </node>
+      <node id="1536">
+        <label>wxDataViewModel</label>
+        <link refid="classwx_data_view_model"/>
+        <childnode refid="1537" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1534">
+        <label>wxDataViewVirtualListModel</label>
+        <link refid="classwx_data_view_virtual_list_model"/>
+        <childnode refid="1535" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1535">
+        <label>wxDataViewListModel</label>
+        <link refid="classwx_data_view_list_model"/>
+        <childnode refid="1536" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1541">
+        <label>wxRefCounter</label>
+        <link refid="classwx_ref_counter"/>
+      </node>
+      <node id="1540">
+        <label>wxDataViewModel</label>
+        <link refid="classwx_data_view_model"/>
+        <childnode refid="1541" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1538">
+        <label>wxDataViewVirtualListModel</label>
+        <link refid="classwx_data_view_virtual_list_model"/>
+        <childnode refid="1539" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1539">
+        <label>wxDataViewListModel</label>
+        <link refid="classwx_data_view_list_model"/>
+        <childnode refid="1540" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="interface/wx/dataview.h" line="542" column="1" bodyfile="interface/wx/dataview.h" bodystart="541" bodyend="598"/>
+    <listofallmembers>
+      <member refid="classwx_data_view_model_1af975c0a3afb970a21b9691a92f44c6c8" prot="public" virt="non-virtual"><scope>wxDataViewVirtualListModel</scope><name>AddNotifier</name></member>
+      <member refid="classwx_data_view_model_1ab52b55596d0724047be8cf62184f4468" prot="public" virt="non-virtual"><scope>wxDataViewVirtualListModel</scope><name>ChangeValue</name></member>
+      <member refid="classwx_data_view_model_1ad7f3023ee6166eb6f5bafececb4fff0c" prot="public" virt="virtual"><scope>wxDataViewVirtualListModel</scope><name>Cleared</name></member>
+      <member refid="classwx_data_view_list_model_1a71c2e3061b283cdab9d428ed1e1ef115" prot="public" virt="virtual"><scope>wxDataViewVirtualListModel</scope><name>Compare</name></member>
+      <member refid="classwx_ref_counter_1a803eb5be907b1a342082ceb59c01d8c5" prot="public" virt="non-virtual"><scope>wxDataViewVirtualListModel</scope><name>DecRef</name></member>
+      <member refid="classwx_data_view_model_1a28b85b9aca3a1ea803940817d86b0b73" prot="public" virt="virtual"><scope>wxDataViewVirtualListModel</scope><name>GetAttr</name></member>
+      <member refid="classwx_data_view_list_model_1a2fff48eb34020081a2b02cddec30bc97" prot="public" virt="virtual"><scope>wxDataViewVirtualListModel</scope><name>GetAttrByRow</name></member>
+      <member refid="classwx_data_view_model_1a945bbb0523166c6b092af62c7ba7b2ac" prot="public" virt="pure-virtual"><scope>wxDataViewVirtualListModel</scope><name>GetChildren</name></member>
+      <member refid="classwx_data_view_model_1adbdf03c45af02bce54d6f979a831e728" prot="public" virt="pure-virtual"><scope>wxDataViewVirtualListModel</scope><name>GetColumnCount</name></member>
+      <member refid="classwx_data_view_model_1ae370253a221d44db0c230127404858ab" prot="public" virt="pure-virtual"><scope>wxDataViewVirtualListModel</scope><name>GetColumnType</name></member>
+      <member refid="classwx_data_view_list_model_1adda74dc8e6c95b12100832487fe9fdbf" prot="public" virt="pure-virtual"><scope>wxDataViewVirtualListModel</scope><name>GetCount</name></member>
+      <member refid="classwx_data_view_virtual_list_model_1a55fd843c0c8d1c97e00c6b2218cde938" prot="public" virt="non-virtual"><scope>wxDataViewVirtualListModel</scope><name>GetItem</name></member>
+      <member refid="classwx_data_view_model_1a4e12a582dffdc40bf043a48e1c12a9fb" prot="public" virt="pure-virtual"><scope>wxDataViewVirtualListModel</scope><name>GetParent</name></member>
+      <member refid="classwx_ref_counter_1a98ca5fc3fa6219d993dd3654925c46aa" prot="public" virt="non-virtual"><scope>wxDataViewVirtualListModel</scope><name>GetRefCount</name></member>
+      <member refid="classwx_data_view_list_model_1aa5e888fd59a01fc4519c897368300855" prot="public" virt="pure-virtual"><scope>wxDataViewVirtualListModel</scope><name>GetRow</name></member>
+      <member refid="classwx_data_view_model_1a74d9f0ac2dd9935b7132da11c008c67f" prot="public" virt="pure-virtual"><scope>wxDataViewVirtualListModel</scope><name>GetValue</name></member>
+      <member refid="classwx_data_view_list_model_1a3a19138ea419ab8b981b260565069c7a" prot="public" virt="pure-virtual"><scope>wxDataViewVirtualListModel</scope><name>GetValueByRow</name></member>
+      <member refid="classwx_data_view_model_1a1c8983afee8875226c2b11500f228ae4" prot="public" virt="virtual"><scope>wxDataViewVirtualListModel</scope><name>HasContainerColumns</name></member>
+      <member refid="classwx_data_view_model_1a909b2f8ec6493dbb8dff5b22f857eda7" prot="public" virt="virtual"><scope>wxDataViewVirtualListModel</scope><name>HasDefaultCompare</name></member>
+      <member refid="classwx_data_view_model_1a94cf3ebac6c5ee259a3fa4cf51def987" prot="public" virt="non-virtual"><scope>wxDataViewVirtualListModel</scope><name>HasValue</name></member>
+      <member refid="classwx_ref_counter_1a9fec1fb6f778d9df7a8c046ad6a2d887" prot="public" virt="non-virtual"><scope>wxDataViewVirtualListModel</scope><name>IncRef</name></member>
+      <member refid="classwx_data_view_model_1a2c61a09270fdda6720966742f0e4f09c" prot="public" virt="pure-virtual"><scope>wxDataViewVirtualListModel</scope><name>IsContainer</name></member>
+      <member refid="classwx_data_view_model_1a561564e63f8c975b4241ad5be74e6965" prot="public" virt="virtual"><scope>wxDataViewVirtualListModel</scope><name>IsEnabled</name></member>
+      <member refid="classwx_data_view_list_model_1a51fb8e1249abd22dfb874dc00adbec02" prot="public" virt="virtual"><scope>wxDataViewVirtualListModel</scope><name>IsEnabledByRow</name></member>
+      <member refid="classwx_data_view_model_1a550180cf1a3b529b025c98e0c16b9d85" prot="public" virt="virtual"><scope>wxDataViewVirtualListModel</scope><name>IsListModel</name></member>
+      <member refid="classwx_data_view_model_1a503f49f7ef8767c208068c320c68783c" prot="public" virt="virtual"><scope>wxDataViewVirtualListModel</scope><name>IsVirtualListModel</name></member>
+      <member refid="classwx_data_view_model_1a37f9bf080fb368c6e964dc03aee46e5c" prot="public" virt="non-virtual"><scope>wxDataViewVirtualListModel</scope><name>ItemAdded</name></member>
+      <member refid="classwx_data_view_model_1abd4be4a8981cceaab024e0f69111e2f2" prot="public" virt="non-virtual"><scope>wxDataViewVirtualListModel</scope><name>ItemChanged</name></member>
+      <member refid="classwx_data_view_model_1a8bdcc58bf0e606c473ecd06c93ff0812" prot="public" virt="non-virtual"><scope>wxDataViewVirtualListModel</scope><name>ItemDeleted</name></member>
+      <member refid="classwx_data_view_model_1a23b737d08f3a2249e7780c4a97e4277d" prot="public" virt="non-virtual"><scope>wxDataViewVirtualListModel</scope><name>ItemsAdded</name></member>
+      <member refid="classwx_data_view_model_1a9a3c99b9200ed1a72990973df07f4b1d" prot="public" virt="non-virtual"><scope>wxDataViewVirtualListModel</scope><name>ItemsChanged</name></member>
+      <member refid="classwx_data_view_model_1af472d2e95b0e062045785cab17e72383" prot="public" virt="non-virtual"><scope>wxDataViewVirtualListModel</scope><name>ItemsDeleted</name></member>
+      <member refid="classwx_data_view_model_1ae0ce5ec556a84b6fd8612d36b0078d63" prot="public" virt="non-virtual"><scope>wxDataViewVirtualListModel</scope><name>RemoveNotifier</name></member>
+      <member refid="classwx_data_view_virtual_list_model_1ad72afc0963dc7af4f0206a8fc3ef0d86" prot="public" virt="non-virtual"><scope>wxDataViewVirtualListModel</scope><name>Reset</name></member>
+      <member refid="classwx_data_view_model_1a2c2c525bd1617b19f34bc286a638b293" prot="public" virt="virtual"><scope>wxDataViewVirtualListModel</scope><name>Resort</name></member>
+      <member refid="classwx_data_view_virtual_list_model_1aef8086b37cf12b98afc0ccbb080bcd68" prot="public" virt="non-virtual"><scope>wxDataViewVirtualListModel</scope><name>RowAppended</name></member>
+      <member refid="classwx_data_view_virtual_list_model_1aa7bef2abcd4d53a555a4777618fbee4f" prot="public" virt="non-virtual"><scope>wxDataViewVirtualListModel</scope><name>RowChanged</name></member>
+      <member refid="classwx_data_view_virtual_list_model_1abd903d6a270396b1101d4d43a7ae3a68" prot="public" virt="non-virtual"><scope>wxDataViewVirtualListModel</scope><name>RowDeleted</name></member>
+      <member refid="classwx_data_view_virtual_list_model_1af2b7ca1c906c1d6a9228ddde09eb5b6c" prot="public" virt="non-virtual"><scope>wxDataViewVirtualListModel</scope><name>RowInserted</name></member>
+      <member refid="classwx_data_view_virtual_list_model_1a68b74bd2ad4765c72247af66078ec833" prot="public" virt="non-virtual"><scope>wxDataViewVirtualListModel</scope><name>RowPrepended</name></member>
+      <member refid="classwx_data_view_virtual_list_model_1acbcd350f3ee4e771ec53cbb45151c6a1" prot="public" virt="non-virtual"><scope>wxDataViewVirtualListModel</scope><name>RowsDeleted</name></member>
+      <member refid="classwx_data_view_virtual_list_model_1a1b9dc8b21ae2fcec9ccc052f42f7cd43" prot="public" virt="non-virtual"><scope>wxDataViewVirtualListModel</scope><name>RowValueChanged</name></member>
+      <member refid="classwx_data_view_model_1a136dbef49beb09df1ffe5aa884a9c022" prot="public" virt="pure-virtual"><scope>wxDataViewVirtualListModel</scope><name>SetValue</name></member>
+      <member refid="classwx_data_view_list_model_1af0cf3adc92a3e62e62cfa2acfd11f227" prot="public" virt="pure-virtual"><scope>wxDataViewVirtualListModel</scope><name>SetValueByRow</name></member>
+      <member refid="classwx_data_view_model_1a29418c077b554d0e87d509806fffc67d" prot="public" virt="virtual"><scope>wxDataViewVirtualListModel</scope><name>ValueChanged</name></member>
+      <member refid="classwx_data_view_model_1a0a14db629af262fad0d4044959e85a11" prot="public" virt="non-virtual"><scope>wxDataViewVirtualListModel</scope><name>wxDataViewModel</name></member>
+      <member refid="classwx_data_view_virtual_list_model_1a7b9be495b7d054963089d564eb2342d2" prot="public" virt="non-virtual"><scope>wxDataViewVirtualListModel</scope><name>wxDataViewVirtualListModel</name></member>
+      <member refid="classwx_ref_counter_1aebcddb8241dfea7f60f8e4df6776a0e3" prot="public" virt="non-virtual"><scope>wxDataViewVirtualListModel</scope><name>wxRefCounter</name></member>
+      <member refid="classwx_data_view_list_model_1aa3a1112a7c067e374b746e3c4ce2d8dc" prot="public" virt="virtual"><scope>wxDataViewVirtualListModel</scope><name>~wxDataViewListModel</name></member>
+      <member refid="classwx_data_view_model_1a9bd6ba637b1ff7130acda86527c10862" prot="protected" virt="virtual"><scope>wxDataViewVirtualListModel</scope><name>~wxDataViewModel</name></member>
+      <member refid="classwx_ref_counter_1aeaa9aceda6421eaa0d693cc29795263a" prot="protected" virt="virtual"><scope>wxDataViewVirtualListModel</scope><name>~wxRefCounter</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

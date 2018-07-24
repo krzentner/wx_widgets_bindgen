@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_dir_traverser" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>wxDirTraverser</compoundname>
+    <includes local="no">wx/dir.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classwx_dir_traverser_1a1a63d55b08f7da5c39269f649db32aeb" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type><ref refid="dir_8h_1a54f52ca9f3bca0591ddf75afa78aeb0d" kindref="member">wxDirTraverseResult</ref></type>
+        <definition>virtual wxDirTraverseResult wxDirTraverser::OnDir</definition>
+        <argsstring>(const wxString &amp;dirname)=0</argsstring>
+        <name>OnDir</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>dirname</declname>
+        </param>
+        <briefdescription>
+<para>This function is called for each directory. </para>        </briefdescription>
+        <detaileddescription>
+<para>It may return <ref refid="dir_8h_1a54f52ca9f3bca0591ddf75afa78aeb0da938579fa180c2d21b30fddf3276053b6" kindref="member">wxDIR_STOP</ref> to abort traversing completely, <ref refid="dir_8h_1a54f52ca9f3bca0591ddf75afa78aeb0da36240c61083cad086982265b04d32a0c" kindref="member">wxDIR_IGNORE</ref> to skip this directory but continue with others or <ref refid="dir_8h_1a54f52ca9f3bca0591ddf75afa78aeb0da9ad0e17cc680b15c92bc475ee2dd883e" kindref="member">wxDIR_CONTINUE</ref> to enumerate all files and subdirectories in this directory.</para><para>This is a pure virtual function and must be implemented in the derived class. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/dir.h" line="70" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_dir_traverser_1ad51354154a38c89d288a933866501ea8" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type><ref refid="dir_8h_1a54f52ca9f3bca0591ddf75afa78aeb0d" kindref="member">wxDirTraverseResult</ref></type>
+        <definition>virtual wxDirTraverseResult wxDirTraverser::OnFile</definition>
+        <argsstring>(const wxString &amp;filename)=0</argsstring>
+        <name>OnFile</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>filename</declname>
+        </param>
+        <briefdescription>
+<para>This function is called for each file. </para>        </briefdescription>
+        <detaileddescription>
+<para>It may return <ref refid="dir_8h_1a54f52ca9f3bca0591ddf75afa78aeb0da938579fa180c2d21b30fddf3276053b6" kindref="member">wxDIR_STOP</ref> to abort traversing (for example, if the file being searched is found) or <ref refid="dir_8h_1a54f52ca9f3bca0591ddf75afa78aeb0da9ad0e17cc680b15c92bc475ee2dd883e" kindref="member">wxDIR_CONTINUE</ref> to proceed.</para><para>This is a pure virtual function and must be implemented in the derived class. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/dir.h" line="80" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_dir_traverser_1a0cf17e9c925c17bef9e77bbc185c90a7" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="dir_8h_1a54f52ca9f3bca0591ddf75afa78aeb0d" kindref="member">wxDirTraverseResult</ref></type>
+        <definition>virtual wxDirTraverseResult wxDirTraverser::OnOpenError</definition>
+        <argsstring>(const wxString &amp;openerrorname)</argsstring>
+        <name>OnOpenError</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>openerrorname</declname>
+        </param>
+        <briefdescription>
+<para>This function is called for each directory which we failed to open for enumerating. </para>        </briefdescription>
+        <detaileddescription>
+<para>It may return <ref refid="dir_8h_1a54f52ca9f3bca0591ddf75afa78aeb0da938579fa180c2d21b30fddf3276053b6" kindref="member">wxDIR_STOP</ref> to abort traversing completely, <ref refid="dir_8h_1a54f52ca9f3bca0591ddf75afa78aeb0da36240c61083cad086982265b04d32a0c" kindref="member">wxDIR_IGNORE</ref> to skip this directory but continue with others or <ref refid="dir_8h_1a54f52ca9f3bca0591ddf75afa78aeb0da9ad0e17cc680b15c92bc475ee2dd883e" kindref="member">wxDIR_CONTINUE</ref> to retry opening this directory once again.</para><para>The base class version always returns <ref refid="dir_8h_1a54f52ca9f3bca0591ddf75afa78aeb0da36240c61083cad086982265b04d32a0c" kindref="member">wxDIR_IGNORE</ref>. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/dir.h" line="90" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="classwx_dir_traverser" kindref="compound">wxDirTraverser</ref> is an abstract interface which must be implemented by objects passed to <ref refid="classwx_dir_1aad331408428c3fdb2f78add5eec7b022" kindref="member">wxDir::Traverse()</ref> function. </para>    </briefdescription>
+    <detaileddescription>
+<para>Example of use (this works almost like <ref refid="classwx_dir_1adf11b6104db3ff8c17902328d0ada848" kindref="member">wxDir::GetAllFiles()</ref>):</para><para><programlisting><codeline><highlight class="normal">class<sp/>wxDirTraverserSimple<sp/>:<sp/>public<sp/>wxDirTraverser</highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal">public:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>wxDirTraverserSimple(wxArrayString&amp;<sp/>files)<sp/>:<sp/>m_files(files)<sp/>{<sp/>}</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>virtual<sp/>wxDirTraverseResult<sp/>OnFile(const<sp/>wxString&amp;<sp/>filename)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_files.Add(filename);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>return<sp/>wxDIR_CONTINUE;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>virtual<sp/>wxDirTraverseResult<sp/>OnDir(const<sp/>wxString&amp;<sp/>WXUNUSED(dirname))</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>return<sp/>wxDIR_CONTINUE;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">private:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>wxArrayString&amp;<sp/>m_files;</highlight></codeline>
+<codeline><highlight class="normal">};</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">//<sp/>get<sp/>the<sp/>names<sp/>of<sp/>all<sp/>files<sp/>in<sp/>the<sp/>array</highlight></codeline>
+<codeline><highlight class="normal">wxArrayString<sp/>files;</highlight></codeline>
+<codeline><highlight class="normal">wxDirTraverserSimple<sp/>traverser(files);</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">wxDir<sp/>dir(dirname);</highlight></codeline>
+<codeline><highlight class="normal">dir.Traverse(traverser);</highlight></codeline>
+</programlisting></para><para><heading level="2"></heading>
+</para><para>Library:<nonbreakablespace/><nonbreakablespace/><ref refid="page_libs_1page_libs_wxbase" kindref="member">wxBase</ref> &lt;&gt;&lt; =&apos;&apos;&gt;:&lt;/&gt;&amp;;&amp;;&lt; =&apos;&apos;&gt;\ &lt;/&gt;&lt;/&gt; </para>    </detaileddescription>
+    <location file="interface/wx/dir.h" line="59" column="1" bodyfile="interface/wx/dir.h" bodystart="58" bodyend="91"/>
+    <listofallmembers>
+      <member refid="classwx_dir_traverser_1a1a63d55b08f7da5c39269f649db32aeb" prot="public" virt="pure-virtual"><scope>wxDirTraverser</scope><name>OnDir</name></member>
+      <member refid="classwx_dir_traverser_1ad51354154a38c89d288a933866501ea8" prot="public" virt="pure-virtual"><scope>wxDirTraverser</scope><name>OnFile</name></member>
+      <member refid="classwx_dir_traverser_1a0cf17e9c925c17bef9e77bbc185c90a7" prot="public" virt="virtual"><scope>wxDirTraverser</scope><name>OnOpenError</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

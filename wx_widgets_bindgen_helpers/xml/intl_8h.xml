@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="intl_8h" kind="file" language="C++">
+    <compoundname>intl.h</compoundname>
+    <innerclass refid="structwx_language_info" prot="public">wxLanguageInfo</innerclass>
+    <innerclass refid="classwx_locale" prot="public">wxLocale</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="intl_8h_1a7e30efec05ef9b40b1750ac046400c81" prot="public" static="no" strong="no">
+        <type></type>
+        <name>wxLayoutDirection</name>
+        <enumvalue id="intl_8h_1a7e30efec05ef9b40b1750ac046400c81a0e5a9ed88176063ce110d7fdb1469d49" prot="public">
+          <name>wxLayout_Default</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="intl_8h_1a7e30efec05ef9b40b1750ac046400c81a1a824f5c3c82d3eb3347fb99234af2e4" prot="public">
+          <name>wxLayout_LeftToRight</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="intl_8h_1a7e30efec05ef9b40b1750ac046400c81aac0f78e411dd85e8f6f3932f569a12ee" prot="public">
+          <name>wxLayout_RightToLeft</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>This is the layout direction stored in <ref refid="structwx_language_info" kindref="compound">wxLanguageInfo</ref> and returned by <ref refid="classwx_app_1a84e31137094939032db73cfaa8f6542c" kindref="member">wxApp::GetLayoutDirection()</ref>, <ref refid="classwx_window_1afafd17cbb5dd6d899b25360255e0bdae" kindref="member">wxWindow::GetLayoutDirection()</ref>, <ref refid="classwx_d_c_1a69139fe0c3b10e077a5ad4e9a8860b7f" kindref="member">wxDC::GetLayoutDirection()</ref> for RTL (right-to-left) languages support. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/intl.h" line="14" column="1" bodyfile="interface/wx/intl.h" bodystart="13" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="enum" id="intl_8h_1a934e5f080f46c8c1b3c043775466f121" prot="public" static="no" strong="no">
+        <type></type>
+        <name>wxLocaleCategory</name>
+        <enumvalue id="intl_8h_1a934e5f080f46c8c1b3c043775466f121abba97ccff3b244f5219baf5bee813ce8" prot="public">
+          <name>wxLOCALE_CAT_NUMBER</name>
+          <briefdescription>
+<para>Number formatting. </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="intl_8h_1a934e5f080f46c8c1b3c043775466f121aa4504335b5a8a3d10af0458331ffa7d6" prot="public">
+          <name>wxLOCALE_CAT_DATE</name>
+          <briefdescription>
+<para>Date/time formatting. </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="intl_8h_1a934e5f080f46c8c1b3c043775466f121a7a1e34beb8e212dde190ab661d522306" prot="public">
+          <name>wxLOCALE_CAT_MONEY</name>
+          <briefdescription>
+<para>Monetary values formatting. </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="intl_8h_1a934e5f080f46c8c1b3c043775466f121a45e7bd5d40a1ddb806a54133fd9842d7" prot="public">
+          <name>wxLOCALE_CAT_DEFAULT</name>
+          <briefdescription>
+<para>Default category for the wxLocaleInfo value. </para>          </briefdescription>
+          <detaileddescription>
+<para>This category can be used for values which only make sense for a single category, e.g. wxLOCALE_SHORT_DATE_FMT which can only be used with wxLOCALE_CAT_DATE. As this is the default value of the second parameter of <ref refid="classwx_locale_1acd6eccc8900847c0a29e7a4598c7d83f" kindref="member">wxLocale::GetInfo()</ref>, wxLOCALE_CAT_DATE can be omitted when asking for wxLOCALE_SHORT_DATE_FMT value.</para><para><simplesect kind="since"><para>2.9.0 </para></simplesect>
+</para>          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>The category of locale settings. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="see"><para><ref refid="classwx_locale_1acd6eccc8900847c0a29e7a4598c7d83f" kindref="member">wxLocale::GetInfo()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/intl.h" line="70" column="1" bodyfile="interface/wx/intl.h" bodystart="69" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="enum" id="intl_8h_1a54d3421c44d428cc5cce0c772d583c34" prot="public" static="no" strong="no">
+        <type></type>
+        <name>wxLocaleInfo</name>
+        <enumvalue id="intl_8h_1a54d3421c44d428cc5cce0c772d583c34acecbc710f2aba6bbfb449d53b48bb73c" prot="public">
+          <name>wxLOCALE_THOUSANDS_SEP</name>
+          <briefdescription>
+<para>The thousands separator. </para>          </briefdescription>
+          <detaileddescription>
+<para>This value can be used with either wxLOCALE_CAT_NUMBER or wxLOCALE_CAT_MONEY categories. </para>          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="intl_8h_1a54d3421c44d428cc5cce0c772d583c34a186483393ab9221beff2222851c3bbda" prot="public">
+          <name>wxLOCALE_DECIMAL_POINT</name>
+          <briefdescription>
+<para>The character used as decimal point. </para>          </briefdescription>
+          <detaileddescription>
+<para>This value can be used with either wxLOCALE_CAT_NUMBER or wxLOCALE_CAT_MONEY categories. </para>          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="intl_8h_1a54d3421c44d428cc5cce0c772d583c34a2652cb37b07518c06fe850d3216e6cc8" prot="public">
+          <name>wxLOCALE_SHORT_DATE_FMT</name>
+          <briefdescription>
+<para>Short date format. </para>          </briefdescription>
+          <detaileddescription>
+<para>Notice that short and long date formats may be the same under POSIX systems currently but may, and typically are, different under MSW or OS X.</para><para><simplesect kind="since"><para>2.9.0 </para></simplesect>
+</para>          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="intl_8h_1a54d3421c44d428cc5cce0c772d583c34acbb2ebe1881e3d54441df67f09f83de1" prot="public">
+          <name>wxLOCALE_LONG_DATE_FMT</name>
+          <briefdescription>
+<para>Long date format. </para>          </briefdescription>
+          <detaileddescription>
+<para><simplesect kind="since"><para>2.9.0 </para></simplesect>
+</para>          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="intl_8h_1a54d3421c44d428cc5cce0c772d583c34aa418faf026fe930ffa9059648a71ced7" prot="public">
+          <name>wxLOCALE_DATE_TIME_FMT</name>
+          <briefdescription>
+<para>Date and time format. </para>          </briefdescription>
+          <detaileddescription>
+<para><simplesect kind="since"><para>2.9.0 </para></simplesect>
+</para>          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="intl_8h_1a54d3421c44d428cc5cce0c772d583c34ab4e5bd461798c728861436dd00b6a06c" prot="public">
+          <name>wxLOCALE_TIME_FMT</name>
+          <briefdescription>
+<para>Time format. </para>          </briefdescription>
+          <detaileddescription>
+<para><simplesect kind="since"><para>2.9.0 </para></simplesect>
+</para>          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>The values understood by <ref refid="classwx_locale_1acd6eccc8900847c0a29e7a4598c7d83f" kindref="member">wxLocale::GetInfo()</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para>Note that for the <computeroutput>wxLOCALE_*_FMT</computeroutput> constants (the date and time formats), the strings returned by <ref refid="classwx_locale_1acd6eccc8900847c0a29e7a4598c7d83f" kindref="member">wxLocale::GetInfo()</ref> use strftime() or, equivalently, <ref refid="classwx_date_time_1a6a60f071d74712eba58153113f5af23a" kindref="member">wxDateTime::Format()</ref> format. If the relevant format couldn&apos;t be determined, an empty string is returned <ndash/> there is no fallback value so that the application could determine the best course of actions itself in such case.</para><para>All of these values are used with <computeroutput>wxLOCALE_CAT_DATE</computeroutput> in <ref refid="classwx_locale_1acd6eccc8900847c0a29e7a4598c7d83f" kindref="member">wxLocale::GetInfo()</ref> or, more typically, with <computeroutput>wxLOCALE_CAT_DEFAULT</computeroutput> as they only apply to a single category. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/intl.h" line="108" column="1" bodyfile="interface/wx/intl.h" bodystart="107" bodyend="155"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="intl_8h_1a5969f06cbce287948126cc607a53cbf9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_locale" kindref="compound">wxLocale</ref> *</type>
+        <definition>wxLocale* wxGetLocale</definition>
+        <argsstring>()</argsstring>
+        <name>wxGetLocale</name>
+        <briefdescription>
+<para>Get the current locale object (note that it may be NULL!) </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/intl.h" line="502" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="interface/wx/intl.h"/>
+  </compounddef>
+</doxygen>

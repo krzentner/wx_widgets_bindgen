@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="spinctrl_8h" kind="file" language="C++">
+    <compoundname>spinctrl.h</compoundname>
+    <innerclass refid="classwx_spin_ctrl" prot="public">wxSpinCtrl</innerclass>
+    <innerclass refid="classwx_spin_ctrl_double" prot="public">wxSpinCtrlDouble</innerclass>
+    <innerclass refid="classwx_spin_double_event" prot="public">wxSpinDoubleEvent</innerclass>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="spinctrl_8h_1ae976dc4de9a6d66c6bebbd260ce5c735" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_SPINCTRL</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_SPINCTRL</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/spinctrl.h" line="391" column="1" bodyfile="interface/wx/spinctrl.h" bodystart="391" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="spinctrl_8h_1a4353da00f51a1862f09d0d7c5065ccee" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_SPINCTRLDOUBLE</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_SPINCTRLDOUBLE</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/spinctrl.h" line="392" column="1" bodyfile="interface/wx/spinctrl.h" bodystart="392" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="interface/wx/spinctrl.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,175 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_stack_frame" kind="class" language="C++" prot="public">
+    <compoundname>wxStackFrame</compoundname>
+    <includes local="no">wx/stackwalk.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classwx_stack_frame_1affd1688261f77128c4c353e9891906b9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void *</type>
+        <definition>void* wxStackFrame::GetAddress</definition>
+        <argsstring>() const</argsstring>
+        <name>GetAddress</name>
+        <briefdescription>
+<para>Return the address of this frame. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/stackwalk.h" line="109" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_stack_frame_1a0384f103c5b8a8be183e2d8a0550b320" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_string" kindref="compound">wxString</ref></type>
+        <definition>wxString wxStackFrame::GetFileName</definition>
+        <argsstring>() const</argsstring>
+        <name>GetFileName</name>
+        <briefdescription>
+<para>Return the name of the file containing this frame, empty if unavailable (typically because debug info is missing). </para>        </briefdescription>
+        <detaileddescription>
+<para>Use <ref refid="classwx_stack_frame_1ae03546531c3ccadf1f9867b2c9625fb0" kindref="member">HasSourceLocation()</ref> to check whether the file name is available. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/stackwalk.h" line="117" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_stack_frame_1a5b0e78019cf1aa49a509305c7f37a516" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t wxStackFrame::GetLevel</definition>
+        <argsstring>() const</argsstring>
+        <name>GetLevel</name>
+        <briefdescription>
+<para>Get the level of this frame (deepest/innermost one is 0). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/stackwalk.h" line="122" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_stack_frame_1a61161b0e0b82a4cc8b5690abd69bb948" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t wxStackFrame::GetLine</definition>
+        <argsstring>() const</argsstring>
+        <name>GetLine</name>
+        <briefdescription>
+<para>Return the line number of this frame, 0 if unavailable. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="see"><para><ref refid="classwx_stack_frame_1a0384f103c5b8a8be183e2d8a0550b320" kindref="member">GetFileName()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/stackwalk.h" line="129" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_stack_frame_1ae064492932f198d0427a2f2b8d87e893" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_string" kindref="compound">wxString</ref></type>
+        <definition>wxString wxStackFrame::GetModule</definition>
+        <argsstring>() const</argsstring>
+        <name>GetModule</name>
+        <briefdescription>
+<para>Get the module this function belongs to (empty if not available). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/stackwalk.h" line="134" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_stack_frame_1ac21dacf5bc55c0cbeec9172b6ca92253" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_string" kindref="compound">wxString</ref></type>
+        <definition>wxString wxStackFrame::GetName</definition>
+        <argsstring>() const</argsstring>
+        <name>GetName</name>
+        <briefdescription>
+<para>Return the unmangled (if possible) name of the function containing this frame. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/stackwalk.h" line="139" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_stack_frame_1a7c291ed2f7e979ace928f586ef3bca3d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t wxStackFrame::GetOffset</definition>
+        <argsstring>() const</argsstring>
+        <name>GetOffset</name>
+        <briefdescription>
+<para>Return the return address of this frame. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/stackwalk.h" line="144" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_stack_frame_1a73ddda3335894c4ee88336d846a6d6b1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool wxStackFrame::GetParam</definition>
+        <argsstring>(size_t n, wxString *type, wxString *name, wxString *value) const</argsstring>
+        <name>GetParam</name>
+        <param>
+          <type>size_t</type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_string" kindref="compound">wxString</ref> *</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_string" kindref="compound">wxString</ref> *</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_string" kindref="compound">wxString</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Get the name, type and value (in text form) of the given parameter. </para>        </briefdescription>
+        <detaileddescription>
+<para>Any pointer may be NULL if you&apos;re not interested in the corresponding value.</para><para>Return true if at least some values could be retrieved. This function currently is only implemented under Win32 and requires a PDB file. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/stackwalk.h" line="153" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_stack_frame_1a2e216e45180ee32753aa58ba0ace2b36" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>size_t</type>
+        <definition>virtual size_t wxStackFrame::GetParamCount</definition>
+        <argsstring>() const</argsstring>
+        <name>GetParamCount</name>
+        <briefdescription>
+<para>Return the number of parameters of this function (may return 0 if we can&apos;t retrieve the parameters info even although the function does have parameters). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/stackwalk.h" line="161" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_stack_frame_1ae03546531c3ccadf1f9867b2c9625fb0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxStackFrame::HasSourceLocation</definition>
+        <argsstring>() const</argsstring>
+        <name>HasSourceLocation</name>
+        <briefdescription>
+<para>Return true if we have the file name and line number for this frame. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/stackwalk.h" line="166" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="classwx_stack_frame" kindref="compound">wxStackFrame</ref> represents a single stack frame, or a single function in the call stack, and is used exclusively together with <ref refid="classwx_stack_walker" kindref="compound">wxStackWalker</ref>, see there for a more detailed discussion. </para>    </briefdescription>
+    <detaileddescription>
+<para><heading level="2"></heading>
+</para><para>Library:<nonbreakablespace/><nonbreakablespace/><ref refid="page_libs_1page_libs_wxbase" kindref="member">wxBase</ref> &lt;&gt;&lt; =&apos;&apos;&gt;:&lt;/&gt;&amp;;&amp;;&lt; =&apos;&apos;&gt;\ &lt;/&gt;&lt;/&gt;</para><para><simplesect kind="see"><para><ref refid="classwx_stack_walker" kindref="compound">wxStackWalker</ref> </para></simplesect>
+</para>    </detaileddescription>
+    <location file="interface/wx/stackwalk.h" line="104" column="1" bodyfile="interface/wx/stackwalk.h" bodystart="103" bodyend="167"/>
+    <listofallmembers>
+      <member refid="classwx_stack_frame_1affd1688261f77128c4c353e9891906b9" prot="public" virt="non-virtual"><scope>wxStackFrame</scope><name>GetAddress</name></member>
+      <member refid="classwx_stack_frame_1a0384f103c5b8a8be183e2d8a0550b320" prot="public" virt="non-virtual"><scope>wxStackFrame</scope><name>GetFileName</name></member>
+      <member refid="classwx_stack_frame_1a5b0e78019cf1aa49a509305c7f37a516" prot="public" virt="non-virtual"><scope>wxStackFrame</scope><name>GetLevel</name></member>
+      <member refid="classwx_stack_frame_1a61161b0e0b82a4cc8b5690abd69bb948" prot="public" virt="non-virtual"><scope>wxStackFrame</scope><name>GetLine</name></member>
+      <member refid="classwx_stack_frame_1ae064492932f198d0427a2f2b8d87e893" prot="public" virt="non-virtual"><scope>wxStackFrame</scope><name>GetModule</name></member>
+      <member refid="classwx_stack_frame_1ac21dacf5bc55c0cbeec9172b6ca92253" prot="public" virt="non-virtual"><scope>wxStackFrame</scope><name>GetName</name></member>
+      <member refid="classwx_stack_frame_1a7c291ed2f7e979ace928f586ef3bca3d" prot="public" virt="non-virtual"><scope>wxStackFrame</scope><name>GetOffset</name></member>
+      <member refid="classwx_stack_frame_1a73ddda3335894c4ee88336d846a6d6b1" prot="public" virt="virtual"><scope>wxStackFrame</scope><name>GetParam</name></member>
+      <member refid="classwx_stack_frame_1a2e216e45180ee32753aa58ba0ace2b36" prot="public" virt="virtual"><scope>wxStackFrame</scope><name>GetParamCount</name></member>
+      <member refid="classwx_stack_frame_1ae03546531c3ccadf1f9867b2c9625fb0" prot="public" virt="non-virtual"><scope>wxStackFrame</scope><name>HasSourceLocation</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

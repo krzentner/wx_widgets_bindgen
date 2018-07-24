@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="ribbon_2panel_8h" kind="file" language="C++">
+    <compoundname>panel.h</compoundname>
+    <innerclass refid="classwx_ribbon_panel_event" prot="public">wxRibbonPanelEvent</innerclass>
+    <innerclass refid="classwx_ribbon_panel" prot="public">wxRibbonPanel</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="ribbon_2panel_8h_1a075ddd0d7e78829214cbf87665deffe7" prot="public" static="no" strong="no">
+        <type></type>
+        <name>wxRibbonPanelOption</name>
+        <enumvalue id="ribbon_2panel_8h_1a075ddd0d7e78829214cbf87665deffe7ac0c0fbb977dd73c05f61df07b4ca19f4" prot="public">
+          <name>wxRIBBON_PANEL_NO_AUTO_MINIMISE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="ribbon_2panel_8h_1a075ddd0d7e78829214cbf87665deffe7a630630e65a93954a5355d62476530967" prot="public">
+          <name>wxRIBBON_PANEL_EXT_BUTTON</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="ribbon_2panel_8h_1a075ddd0d7e78829214cbf87665deffe7a119d44645a3529452c0a6bd12730ff3e" prot="public">
+          <name>wxRIBBON_PANEL_MINIMISE_BUTTON</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="ribbon_2panel_8h_1a075ddd0d7e78829214cbf87665deffe7a948ca327f7befbe0f08100937dfaaff5" prot="public">
+          <name>wxRIBBON_PANEL_STRETCH</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="ribbon_2panel_8h_1a075ddd0d7e78829214cbf87665deffe7a160a557bc01756da44aea2f0effac06e" prot="public">
+          <name>wxRIBBON_PANEL_FLEXIBLE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="ribbon_2panel_8h_1a075ddd0d7e78829214cbf87665deffe7a19ea5de72cbbff25f621cf904ac23aa4" prot="public">
+          <name>wxRIBBON_PANEL_DEFAULT_STYLE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/ribbon/panel.h" line="10" column="1" bodyfile="interface/wx/ribbon/panel.h" bodystart="9" bodyend="17"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="ribbon_2panel_8h_1a19619294ea9e8e275c61eba02737d259" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_RIBBONPANEL_EXTBUTTON_ACTIVATED</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_RIBBONPANEL_EXTBUTTON_ACTIVATED</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/ribbon/panel.h" line="55" column="1" bodyfile="interface/wx/ribbon/panel.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="interface/wx/ribbon/panel.h"/>
+  </compounddef>
+</doxygen>

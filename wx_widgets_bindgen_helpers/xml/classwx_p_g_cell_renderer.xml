@@ -1,0 +1,395 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_p_g_cell_renderer" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>wxPGCellRenderer</compoundname>
+    <basecompoundref refid="classwx_object_ref_data" prot="public" virt="non-virtual">wxObjectRefData</basecompoundref>
+    <derivedcompoundref refid="classwx_p_g_default_renderer" prot="public" virt="non-virtual">wxPGDefaultRenderer</derivedcompoundref>
+    <includes local="no">wx/propgrid/property.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="classwx_p_g_cell_renderer_1a4fe5b675c34091230c2009bcb8681646" prot="public" static="no" strong="no">
+        <type></type>
+        <name>@41</name>
+        <enumvalue id="classwx_p_g_cell_renderer_1a4fe5b675c34091230c2009bcb8681646aca8f4bd10993aa936446e54fb3d4ad3b" prot="public">
+          <name>Selected</name>
+          <initializer>= 0x00010000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classwx_p_g_cell_renderer_1a4fe5b675c34091230c2009bcb8681646ac7bc270287926cd09fccfbc1205c0d73" prot="public">
+          <name>ChoicePopup</name>
+          <initializer>= 0x00020000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classwx_p_g_cell_renderer_1a4fe5b675c34091230c2009bcb8681646a77e5dd5995a1adced62f58083ad74a0c" prot="public">
+          <name>Control</name>
+          <initializer>= 0x00040000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classwx_p_g_cell_renderer_1a4fe5b675c34091230c2009bcb8681646a3df38422f9c2d31bfb701bb83d9573e2" prot="public">
+          <name>Disabled</name>
+          <initializer>= 0x00080000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classwx_p_g_cell_renderer_1a4fe5b675c34091230c2009bcb8681646a218f5f75364fa5430ff63f87303a3f74" prot="public">
+          <name>DontUseCellFgCol</name>
+          <initializer>= 0x00100000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classwx_p_g_cell_renderer_1a4fe5b675c34091230c2009bcb8681646acec7b998aa0facfe0522257a246a66e9" prot="public">
+          <name>DontUseCellBgCol</name>
+          <initializer>= 0x00200000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classwx_p_g_cell_renderer_1a4fe5b675c34091230c2009bcb8681646aaf7bc2310325a6c2a1ee2b3208ca27bb" prot="public">
+          <name>DontUseCellColours</name>
+          <initializer>= DontUseCellFgCol |
+                              DontUseCellBgCol</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/property.h" line="64" column="1" bodyfile="interface/wx/propgrid/property.h" bodystart="63" bodyend="86"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classwx_p_g_cell_renderer_1a908d36b0ac0d1ad8e3504ff87404ea21" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>wxPGCellRenderer::wxPGCellRenderer</definition>
+        <argsstring>()</argsstring>
+        <name>wxPGCellRenderer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/property.h" line="58" column="1" bodyfile="interface/wx/propgrid/property.h" bodystart="58" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_p_g_cell_renderer_1ac00ba809099f5163e10965ed33faf060" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual wxPGCellRenderer::~wxPGCellRenderer</definition>
+        <argsstring>()</argsstring>
+        <name>~wxPGCellRenderer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/property.h" line="60" column="1" bodyfile="interface/wx/propgrid/property.h" bodystart="60" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_p_g_cell_renderer_1a83cefa722439e1bab456089a655a07f9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>bool</type>
+        <definition>virtual bool wxPGCellRenderer::Render</definition>
+        <argsstring>(wxDC &amp;dc, const wxRect &amp;rect, const wxPropertyGrid *propertyGrid, wxPGProperty *property, int column, int item, int flags) const =0</argsstring>
+        <name>Render</name>
+        <reimplementedby refid="classwx_p_g_default_renderer_1a61cc9111c2b62ce98cdcd8fca5027a3a">Render</reimplementedby>
+        <param>
+          <type><ref refid="classwx_d_c" kindref="compound">wxDC</ref> &amp;</type>
+          <declname>dc</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_rect" kindref="compound">wxRect</ref> &amp;</type>
+          <declname>rect</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_property_grid" kindref="compound">wxPropertyGrid</ref> *</type>
+          <declname>propertyGrid</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_p_g_property" kindref="compound">wxPGProperty</ref> *</type>
+          <declname>property</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>column</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>item</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>flags</declname>
+        </param>
+        <briefdescription>
+<para>Returns true if rendered something in the foreground (text or bitmap. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/property.h" line="92" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_p_g_cell_renderer_1a66882f61aab65893c123bf133bcf3558" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="classwx_size" kindref="compound">wxSize</ref></type>
+        <definition>virtual wxSize wxPGCellRenderer::GetImageSize</definition>
+        <argsstring>(const wxPGProperty *property, int column, int item) const</argsstring>
+        <name>GetImageSize</name>
+        <reimplementedby refid="classwx_p_g_default_renderer_1a95218c01df87ceb722366355862fbbc6">GetImageSize</reimplementedby>
+        <param>
+          <type>const <ref refid="classwx_p_g_property" kindref="compound">wxPGProperty</ref> *</type>
+          <declname>property</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>column</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>item</declname>
+        </param>
+        <briefdescription>
+<para>Returns size of the image in front of the editable area. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="remark"><para>If property is NULL, then this call is for a custom value. In that case the item is index to <ref refid="classwx_property_grid" kindref="compound">wxPropertyGrid</ref>&apos;s custom values. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/property.h" line="105" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_p_g_cell_renderer_1af1cc8a5bced86bd7cea514b72858c7cf" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void wxPGCellRenderer::DrawCaptionSelectionRect</definition>
+        <argsstring>(wxDC &amp;dc, int x, int y, int w, int h) const</argsstring>
+        <name>DrawCaptionSelectionRect</name>
+        <param>
+          <type><ref refid="classwx_d_c" kindref="compound">wxDC</ref> &amp;</type>
+          <declname>dc</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>w</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>h</declname>
+        </param>
+        <briefdescription>
+<para>Paints property category selection rectangle. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/property.h" line="111" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_p_g_cell_renderer_1af59c18e3844c6498ac725c818787663b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxPGCellRenderer::DrawText</definition>
+        <argsstring>(wxDC &amp;dc, const wxRect &amp;rect, int imageWidth, const wxString &amp;text) const</argsstring>
+        <name>DrawText</name>
+        <param>
+          <type><ref refid="classwx_d_c" kindref="compound">wxDC</ref> &amp;</type>
+          <declname>dc</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_rect" kindref="compound">wxRect</ref> &amp;</type>
+          <declname>rect</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>imageWidth</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>text</declname>
+        </param>
+        <briefdescription>
+<para>Utility to draw vertically centered text. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/property.h" line="117" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_p_g_cell_renderer_1af3c82b537fb29cc45a4ad67836248ce6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxPGCellRenderer::DrawEditorValue</definition>
+        <argsstring>(wxDC &amp;dc, const wxRect &amp;rect, int xOffset, const wxString &amp;text, wxPGProperty *property, const wxPGEditor *editor) const</argsstring>
+        <name>DrawEditorValue</name>
+        <param>
+          <type><ref refid="classwx_d_c" kindref="compound">wxDC</ref> &amp;</type>
+          <declname>dc</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_rect" kindref="compound">wxRect</ref> &amp;</type>
+          <declname>rect</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>xOffset</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>text</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_p_g_property" kindref="compound">wxPGProperty</ref> *</type>
+          <declname>property</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_p_g_editor" kindref="compound">wxPGEditor</ref> *</type>
+          <declname>editor</declname>
+        </param>
+        <briefdescription>
+<para>Utility to draw editor&apos;s value, or vertically aligned text if editor is NULL. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/property.h" line="126" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_p_g_cell_renderer_1adf918125b7d26e908b20060de46876a1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int wxPGCellRenderer::PreDrawCell</definition>
+        <argsstring>(wxDC &amp;dc, const wxRect &amp;rect, const wxPGCell &amp;cell, int flags) const</argsstring>
+        <name>PreDrawCell</name>
+        <param>
+          <type><ref refid="classwx_d_c" kindref="compound">wxDC</ref> &amp;</type>
+          <declname>dc</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_rect" kindref="compound">wxRect</ref> &amp;</type>
+          <declname>rect</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_p_g_cell" kindref="compound">wxPGCell</ref> &amp;</type>
+          <declname>cell</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>flags</declname>
+        </param>
+        <briefdescription>
+<para>Utility to render cell bitmap and set text colour plus bg brush colour. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Returns image width, which, for instance, can be passed to DrawText. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/property.h" line="137" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_p_g_cell_renderer_1a853f6e10956046b6519c60b471bc4122" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxPGCellRenderer::PostDrawCell</definition>
+        <argsstring>(wxDC &amp;dc, const wxPropertyGrid *propGrid, const wxPGCell &amp;cell, int flags) const</argsstring>
+        <name>PostDrawCell</name>
+        <param>
+          <type><ref refid="classwx_d_c" kindref="compound">wxDC</ref> &amp;</type>
+          <declname>dc</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_property_grid" kindref="compound">wxPropertyGrid</ref> *</type>
+          <declname>propGrid</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_p_g_cell" kindref="compound">wxPGCell</ref> &amp;</type>
+          <declname>cell</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>flags</declname>
+        </param>
+        <briefdescription>
+<para>Utility to be called after drawing is done, to revert whatever changes <ref refid="classwx_p_g_cell_renderer_1adf918125b7d26e908b20060de46876a1" kindref="member">PreDrawCell()</ref> did. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>flags</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Same as those passed to <ref refid="classwx_p_g_cell_renderer_1adf918125b7d26e908b20060de46876a1" kindref="member">PreDrawCell()</ref>. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/property.h" line="149" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Base class for <ref refid="classwx_property_grid" kindref="compound">wxPropertyGrid</ref> cell renderers. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="5281">
+        <label>wxPGCellRenderer</label>
+        <link refid="classwx_p_g_cell_renderer"/>
+        <childnode refid="5282" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5283">
+        <label>wxPGDefaultRenderer</label>
+        <link refid="classwx_p_g_default_renderer"/>
+        <childnode refid="5281" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5282">
+        <label>wxObjectRefData</label>
+        <link refid="classwx_object_ref_data"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="5284">
+        <label>wxPGCellRenderer</label>
+        <link refid="classwx_p_g_cell_renderer"/>
+        <childnode refid="5285" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5285">
+        <label>wxObjectRefData</label>
+        <link refid="classwx_object_ref_data"/>
+      </node>
+    </collaborationgraph>
+    <location file="interface/wx/propgrid/property.h" line="55" column="1" bodyfile="interface/wx/propgrid/property.h" bodystart="54" bodyend="153"/>
+    <listofallmembers>
+      <member refid="classwx_p_g_cell_renderer_1a4fe5b675c34091230c2009bcb8681646ac7bc270287926cd09fccfbc1205c0d73" prot="public" virt="non-virtual"><scope>wxPGCellRenderer</scope><name>ChoicePopup</name></member>
+      <member refid="classwx_p_g_cell_renderer_1a4fe5b675c34091230c2009bcb8681646a77e5dd5995a1adced62f58083ad74a0c" prot="public" virt="non-virtual"><scope>wxPGCellRenderer</scope><name>Control</name></member>
+      <member refid="classwx_p_g_cell_renderer_1a4fe5b675c34091230c2009bcb8681646a3df38422f9c2d31bfb701bb83d9573e2" prot="public" virt="non-virtual"><scope>wxPGCellRenderer</scope><name>Disabled</name></member>
+      <member refid="classwx_p_g_cell_renderer_1a4fe5b675c34091230c2009bcb8681646acec7b998aa0facfe0522257a246a66e9" prot="public" virt="non-virtual"><scope>wxPGCellRenderer</scope><name>DontUseCellBgCol</name></member>
+      <member refid="classwx_p_g_cell_renderer_1a4fe5b675c34091230c2009bcb8681646aaf7bc2310325a6c2a1ee2b3208ca27bb" prot="public" virt="non-virtual"><scope>wxPGCellRenderer</scope><name>DontUseCellColours</name></member>
+      <member refid="classwx_p_g_cell_renderer_1a4fe5b675c34091230c2009bcb8681646a218f5f75364fa5430ff63f87303a3f74" prot="public" virt="non-virtual"><scope>wxPGCellRenderer</scope><name>DontUseCellFgCol</name></member>
+      <member refid="classwx_p_g_cell_renderer_1af1cc8a5bced86bd7cea514b72858c7cf" prot="public" virt="virtual"><scope>wxPGCellRenderer</scope><name>DrawCaptionSelectionRect</name></member>
+      <member refid="classwx_p_g_cell_renderer_1af3c82b537fb29cc45a4ad67836248ce6" prot="public" virt="non-virtual"><scope>wxPGCellRenderer</scope><name>DrawEditorValue</name></member>
+      <member refid="classwx_p_g_cell_renderer_1af59c18e3844c6498ac725c818787663b" prot="public" virt="non-virtual"><scope>wxPGCellRenderer</scope><name>DrawText</name></member>
+      <member refid="classwx_p_g_cell_renderer_1a66882f61aab65893c123bf133bcf3558" prot="public" virt="virtual"><scope>wxPGCellRenderer</scope><name>GetImageSize</name></member>
+      <member refid="classwx_p_g_cell_renderer_1a853f6e10956046b6519c60b471bc4122" prot="public" virt="non-virtual"><scope>wxPGCellRenderer</scope><name>PostDrawCell</name></member>
+      <member refid="classwx_p_g_cell_renderer_1adf918125b7d26e908b20060de46876a1" prot="public" virt="non-virtual"><scope>wxPGCellRenderer</scope><name>PreDrawCell</name></member>
+      <member refid="classwx_p_g_cell_renderer_1a83cefa722439e1bab456089a655a07f9" prot="public" virt="pure-virtual"><scope>wxPGCellRenderer</scope><name>Render</name></member>
+      <member refid="classwx_p_g_cell_renderer_1a4fe5b675c34091230c2009bcb8681646aca8f4bd10993aa936446e54fb3d4ad3b" prot="public" virt="non-virtual"><scope>wxPGCellRenderer</scope><name>Selected</name></member>
+      <member refid="classwx_p_g_cell_renderer_1a908d36b0ac0d1ad8e3504ff87404ea21" prot="public" virt="non-virtual"><scope>wxPGCellRenderer</scope><name>wxPGCellRenderer</name></member>
+      <member refid="classwx_p_g_cell_renderer_1ac00ba809099f5163e10965ed33faf060" prot="public" virt="virtual"><scope>wxPGCellRenderer</scope><name>~wxPGCellRenderer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="timectrl_8h" kind="file" language="C++">
+    <compoundname>timectrl.h</compoundname>
+    <innerclass refid="classwx_time_picker_ctrl" prot="public">wxTimePickerCtrl</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="group__group__class__pickers_1gaf715e26dfffd1f8de1c18449e2770cff" prot="public" static="no" strong="no">
+        <type></type>
+        <name>@49</name>
+        <enumvalue id="group__group__class__pickers_1ggaf715e26dfffd1f8de1c18449e2770cffac480c46f4d1a2f115c87e4e0cd49e5cd" prot="public">
+          <name>wxTP_DEFAULT</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Styles used with <ref refid="classwx_time_picker_ctrl" kindref="compound">wxTimePickerCtrl</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para>Currently no special styles are defined for this object.</para><para><heading level="2"></heading>
+</para><para>Library:<nonbreakablespace/><nonbreakablespace/><ref refid="page_libs_1page_libs_wxadv" kindref="member">wxAdvanced</ref> &lt;&gt;&lt; =&apos;&apos;&gt;:&lt;/&gt;&amp;;&amp;;&lt; =&apos;&apos;&gt;\ &lt;/&gt;&lt;/&gt;</para><para><simplesect kind="since"><para>2.9.3 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/timectrl.h" line="21" column="1" bodyfile="interface/wx/timectrl.h" bodystart="20" bodyend="23"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="interface/wx/timectrl.h"/>
+  </compounddef>
+</doxygen>

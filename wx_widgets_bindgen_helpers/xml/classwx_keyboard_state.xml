@@ -1,0 +1,300 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_keyboard_state" kind="class" language="C++" prot="public">
+    <compoundname>wxKeyboardState</compoundname>
+    <derivedcompoundref refid="classwx_key_event" prot="public" virt="non-virtual">wxKeyEvent</derivedcompoundref>
+    <derivedcompoundref refid="classwx_mouse_state" prot="public" virt="non-virtual">wxMouseState</derivedcompoundref>
+    <includes local="no">wx/kbdstate.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classwx_keyboard_state_1aabf0c85adc4d56ca6364694eb26e55a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxKeyboardState::wxKeyboardState</definition>
+        <argsstring>(bool controlDown=false, bool shiftDown=false, bool altDown=false, bool metaDown=false)</argsstring>
+        <name>wxKeyboardState</name>
+        <param>
+          <type>bool</type>
+          <declname>controlDown</declname>
+          <defval>false</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>shiftDown</declname>
+          <defval>false</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>altDown</declname>
+          <defval>false</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>metaDown</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+<para>Constructor initializes the modifier key settings. </para>        </briefdescription>
+        <detaileddescription>
+<para>By default, no modifiers are active. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/kbdstate.h" line="33" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_keyboard_state_1a203cd1439ba9be039f7e058f4278b4cd" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int wxKeyboardState::GetModifiers</definition>
+        <argsstring>() const</argsstring>
+        <name>GetModifiers</name>
+        <briefdescription>
+<para>Return the bit mask of all pressed modifier keys. </para>        </briefdescription>
+        <detaileddescription>
+<para>The return value is a combination of <computeroutput>wxMOD_ALT</computeroutput>, <computeroutput>wxMOD_CONTROL</computeroutput>, <computeroutput>wxMOD_SHIFT</computeroutput> and <computeroutput>wxMOD_META</computeroutput> bit masks. Additionally, <computeroutput>wxMOD_NONE</computeroutput> is defined as 0, i.e. corresponds to no modifiers (see <ref refid="classwx_keyboard_state_1acfaeb807c52ca591c78c4464abd32baa" kindref="member">HasAnyModifiers()</ref>) and <computeroutput>wxMOD_CMD</computeroutput> is either <computeroutput>wxMOD_CONTROL</computeroutput> (MSW and Unix) or <computeroutput>wxMOD_META</computeroutput> (Mac), see <ref refid="classwx_keyboard_state_1a65d09b479fcb9a3b20d01f79d6c92da8" kindref="member">CmdDown()</ref>. See <ref refid="defs_8h_1a5b81968ab866f5874cabc504490ae5cd" kindref="member">wxKeyModifier</ref> for the full list of modifiers.</para><para>Notice that this function is easier to use correctly than, for example, <ref refid="classwx_keyboard_state_1aa4ed00359eb8ba6000ce302b36e9147b" kindref="member">ControlDown()</ref> because when using the latter you also have to remember to test that none of the other modifiers is pressed:</para><para><programlisting><codeline><highlight class="normal">if<sp/>(<sp/>ControlDown()<sp/>&amp;&amp;<sp/>!AltDown()<sp/>&amp;&amp;<sp/>!ShiftDown()<sp/>&amp;&amp;<sp/>!MetaDown()<sp/>)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>...<sp/>handle<sp/>Ctrl-XXX<sp/>...</highlight></codeline>
+</programlisting></para><para>and forgetting to do it can result in serious program bugs (e.g. program not working with European keyboard layout where <computeroutput>AltGr</computeroutput> key which is seen by the program as combination of CTRL and ALT is used). On the other hand, you can simply write:</para><para><programlisting><codeline><highlight class="normal">if<sp/>(<sp/>GetModifiers()<sp/>==<sp/>wxMOD_CONTROL<sp/>)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>...<sp/>handle<sp/>Ctrl-XXX<sp/>...</highlight></codeline>
+</programlisting></para><para>with this function. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/kbdstate.h" line="69" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_keyboard_state_1acfaeb807c52ca591c78c4464abd32baa" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxKeyboardState::HasAnyModifiers</definition>
+        <argsstring>() const</argsstring>
+        <name>HasAnyModifiers</name>
+        <briefdescription>
+<para>Returns true if any modifiers at all are pressed. </para>        </briefdescription>
+        <detaileddescription>
+<para>This is equivalent to <computeroutput><ref refid="classwx_keyboard_state_1a203cd1439ba9be039f7e058f4278b4cd" kindref="member">GetModifiers()</ref></computeroutput> <computeroutput>!=</computeroutput> <computeroutput>wxMOD_NONE</computeroutput>.</para><para>Notice that this is different from <ref refid="classwx_keyboard_state_1ae4ae63d5a16031599f78bf6254337fba" kindref="member">HasModifiers()</ref> method which doesn&apos;t take e.g. Shift modifier into account. This method is most suitable for mouse events when any modifier, including Shift, can change the interpretation of the event.</para><para><simplesect kind="since"><para>2.9.5 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/kbdstate.h" line="83" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_keyboard_state_1ae4ae63d5a16031599f78bf6254337fba" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxKeyboardState::HasModifiers</definition>
+        <argsstring>() const</argsstring>
+        <name>HasModifiers</name>
+        <briefdescription>
+<para>Returns true if Control or Alt are pressed. </para>        </briefdescription>
+        <detaileddescription>
+<para>Checks if Control, Alt or, under OS X only, Command key are pressed (notice that the real Control key is still taken into account under OS X too).</para><para>This method returns false if only Shift is pressed for compatibility reasons and also because pressing Shift usually doesn&apos;t change the interpretation of key events, see <ref refid="classwx_keyboard_state_1acfaeb807c52ca591c78c4464abd32baa" kindref="member">HasAnyModifiers()</ref> if you want to take Shift into account as well. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/kbdstate.h" line="97" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_keyboard_state_1aa4ed00359eb8ba6000ce302b36e9147b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxKeyboardState::ControlDown</definition>
+        <argsstring>() const</argsstring>
+        <name>ControlDown</name>
+        <briefdescription>
+<para>Returns true if the Control key or Apple/Command key under OS X is pressed. </para>        </briefdescription>
+        <detaileddescription>
+<para>This function doesn&apos;t distinguish between right and left control keys.</para><para>Notice that <ref refid="classwx_keyboard_state_1a203cd1439ba9be039f7e058f4278b4cd" kindref="member">GetModifiers()</ref> should usually be used instead of this one. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/kbdstate.h" line="106" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_keyboard_state_1a3b32b49f2a49f182f73423e8ac49c36d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxKeyboardState::RawControlDown</definition>
+        <argsstring>() const</argsstring>
+        <name>RawControlDown</name>
+        <briefdescription>
+<para>Returns true if the Control key (also under OS X). </para>        </briefdescription>
+        <detaileddescription>
+<para>This function doesn&apos;t distinguish between right and left control keys.</para><para>Notice that <ref refid="classwx_keyboard_state_1a203cd1439ba9be039f7e058f4278b4cd" kindref="member">GetModifiers()</ref> should usually be used instead of this one. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/kbdstate.h" line="115" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_keyboard_state_1a1332cbf971bd2809db73342652435ba9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxKeyboardState::ShiftDown</definition>
+        <argsstring>() const</argsstring>
+        <name>ShiftDown</name>
+        <briefdescription>
+<para>Returns true if the Shift key is pressed. </para>        </briefdescription>
+        <detaileddescription>
+<para>This function doesn&apos;t distinguish between right and left shift keys.</para><para>Notice that <ref refid="classwx_keyboard_state_1a203cd1439ba9be039f7e058f4278b4cd" kindref="member">GetModifiers()</ref> should usually be used instead of this one. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/kbdstate.h" line="124" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_keyboard_state_1a94875b6bb651d071e04122bec726bab7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxKeyboardState::MetaDown</definition>
+        <argsstring>() const</argsstring>
+        <name>MetaDown</name>
+        <briefdescription>
+<para>Returns true if the Meta/Windows/Apple key is pressed. </para>        </briefdescription>
+        <detaileddescription>
+<para>This function tests the state of the key traditionally called Meta under Unix systems, Windows keys under MSW Notice that <ref refid="classwx_keyboard_state_1a203cd1439ba9be039f7e058f4278b4cd" kindref="member">GetModifiers()</ref> should usually be used instead of this one.</para><para><simplesect kind="see"><para><ref refid="classwx_keyboard_state_1a65d09b479fcb9a3b20d01f79d6c92da8" kindref="member">CmdDown()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/kbdstate.h" line="135" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_keyboard_state_1a21f4762d6874787de9408bffe49474bb" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxKeyboardState::AltDown</definition>
+        <argsstring>() const</argsstring>
+        <name>AltDown</name>
+        <briefdescription>
+<para>Returns true if the Alt key is pressed. </para>        </briefdescription>
+        <detaileddescription>
+<para>Notice that <ref refid="classwx_keyboard_state_1a203cd1439ba9be039f7e058f4278b4cd" kindref="member">GetModifiers()</ref> should usually be used instead of this one. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/kbdstate.h" line="142" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_keyboard_state_1a65d09b479fcb9a3b20d01f79d6c92da8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxKeyboardState::CmdDown</definition>
+        <argsstring>() const</argsstring>
+        <name>CmdDown</name>
+        <briefdescription>
+<para>Returns true if the key used for command accelerators is pressed. </para>        </briefdescription>
+        <detaileddescription>
+<para>Same as <ref refid="classwx_keyboard_state_1aa4ed00359eb8ba6000ce302b36e9147b" kindref="member">ControlDown()</ref>. Deprecated.</para><para>Notice that <ref refid="classwx_keyboard_state_1a203cd1439ba9be039f7e058f4278b4cd" kindref="member">GetModifiers()</ref> should usually be used instead of this one. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/kbdstate.h" line="150" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_keyboard_state_1ac9e9f195b68f79f4aac683bb7eb620dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxKeyboardState::SetControlDown</definition>
+        <argsstring>(bool down)</argsstring>
+        <name>SetControlDown</name>
+        <param>
+          <type>bool</type>
+          <declname>down</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/kbdstate.h" line="153" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_keyboard_state_1a3a200bfbfaa31597f791e5bd57b99db6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxKeyboardState::SetRawControlDown</definition>
+        <argsstring>(bool down)</argsstring>
+        <name>SetRawControlDown</name>
+        <param>
+          <type>bool</type>
+          <declname>down</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/kbdstate.h" line="154" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_keyboard_state_1a5a8f8337c65248310363aedf228303e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxKeyboardState::SetShiftDown</definition>
+        <argsstring>(bool down)</argsstring>
+        <name>SetShiftDown</name>
+        <param>
+          <type>bool</type>
+          <declname>down</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/kbdstate.h" line="155" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_keyboard_state_1a6ba12f87c2c95364528ab152fa813de0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxKeyboardState::SetAltDown</definition>
+        <argsstring>(bool down)</argsstring>
+        <name>SetAltDown</name>
+        <param>
+          <type>bool</type>
+          <declname>down</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/kbdstate.h" line="156" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_keyboard_state_1adb5578cce4dce054cd24c7eb3cd650e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxKeyboardState::SetMetaDown</definition>
+        <argsstring>(bool down)</argsstring>
+        <name>SetMetaDown</name>
+        <param>
+          <type>bool</type>
+          <declname>down</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/kbdstate.h" line="157" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Provides methods for testing the state of the keyboard modifier keys. </para>    </briefdescription>
+    <detaileddescription>
+<para>This class is used as a base class of <ref refid="classwx_key_event" kindref="compound">wxKeyEvent</ref> and <ref refid="classwx_mouse_state" kindref="compound">wxMouseState</ref> and, hence, indirectly, of <ref refid="classwx_mouse_event" kindref="compound">wxMouseEvent</ref>, so its methods may be used to get information about the modifier keys which were pressed when the event occurred.</para><para>This class is implemented entirely inline in &lt;<ref refid="kbdstate_8h" kindref="compound">wx/kbdstate.h</ref>&gt; and thus has no linking requirements.</para><para><heading level="2"></heading>
+</para><para>Library:<nonbreakablespace/><nonbreakablespace/>None; this class implementation is entirely header-based. &lt;&gt;&lt; =&apos;&apos;&gt;:&lt;/&gt;&amp;;&amp;;&lt; =&apos;&apos;&gt;\ &lt;/&gt;&lt;/&gt;</para><para><simplesect kind="see"><para><ref refid="classwx_key_event" kindref="compound">wxKeyEvent</ref>, <ref refid="classwx_mouse_state" kindref="compound">wxMouseState</ref> </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="3826">
+        <label>wxKeyboardState</label>
+        <link refid="classwx_keyboard_state"/>
+      </node>
+      <node id="3827">
+        <label>wxKeyEvent</label>
+        <link refid="classwx_key_event"/>
+        <childnode refid="3826" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3829">
+        <label>wxMouseEvent</label>
+        <link refid="classwx_mouse_event"/>
+        <childnode refid="3828" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3828">
+        <label>wxMouseState</label>
+        <link refid="classwx_mouse_state"/>
+        <childnode refid="3826" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="interface/wx/kbdstate.h" line="26" column="1" bodyfile="interface/wx/kbdstate.h" bodystart="25" bodyend="159"/>
+    <listofallmembers>
+      <member refid="classwx_keyboard_state_1a21f4762d6874787de9408bffe49474bb" prot="public" virt="non-virtual"><scope>wxKeyboardState</scope><name>AltDown</name></member>
+      <member refid="classwx_keyboard_state_1a65d09b479fcb9a3b20d01f79d6c92da8" prot="public" virt="non-virtual"><scope>wxKeyboardState</scope><name>CmdDown</name></member>
+      <member refid="classwx_keyboard_state_1aa4ed00359eb8ba6000ce302b36e9147b" prot="public" virt="non-virtual"><scope>wxKeyboardState</scope><name>ControlDown</name></member>
+      <member refid="classwx_keyboard_state_1a203cd1439ba9be039f7e058f4278b4cd" prot="public" virt="non-virtual"><scope>wxKeyboardState</scope><name>GetModifiers</name></member>
+      <member refid="classwx_keyboard_state_1acfaeb807c52ca591c78c4464abd32baa" prot="public" virt="non-virtual"><scope>wxKeyboardState</scope><name>HasAnyModifiers</name></member>
+      <member refid="classwx_keyboard_state_1ae4ae63d5a16031599f78bf6254337fba" prot="public" virt="non-virtual"><scope>wxKeyboardState</scope><name>HasModifiers</name></member>
+      <member refid="classwx_keyboard_state_1a94875b6bb651d071e04122bec726bab7" prot="public" virt="non-virtual"><scope>wxKeyboardState</scope><name>MetaDown</name></member>
+      <member refid="classwx_keyboard_state_1a3b32b49f2a49f182f73423e8ac49c36d" prot="public" virt="non-virtual"><scope>wxKeyboardState</scope><name>RawControlDown</name></member>
+      <member refid="classwx_keyboard_state_1a6ba12f87c2c95364528ab152fa813de0" prot="public" virt="non-virtual"><scope>wxKeyboardState</scope><name>SetAltDown</name></member>
+      <member refid="classwx_keyboard_state_1ac9e9f195b68f79f4aac683bb7eb620dd" prot="public" virt="non-virtual"><scope>wxKeyboardState</scope><name>SetControlDown</name></member>
+      <member refid="classwx_keyboard_state_1adb5578cce4dce054cd24c7eb3cd650e7" prot="public" virt="non-virtual"><scope>wxKeyboardState</scope><name>SetMetaDown</name></member>
+      <member refid="classwx_keyboard_state_1a3a200bfbfaa31597f791e5bd57b99db6" prot="public" virt="non-virtual"><scope>wxKeyboardState</scope><name>SetRawControlDown</name></member>
+      <member refid="classwx_keyboard_state_1a5a8f8337c65248310363aedf228303e9" prot="public" virt="non-virtual"><scope>wxKeyboardState</scope><name>SetShiftDown</name></member>
+      <member refid="classwx_keyboard_state_1a1332cbf971bd2809db73342652435ba9" prot="public" virt="non-virtual"><scope>wxKeyboardState</scope><name>ShiftDown</name></member>
+      <member refid="classwx_keyboard_state_1aabf0c85adc4d56ca6364694eb26e55a8" prot="public" virt="non-virtual"><scope>wxKeyboardState</scope><name>wxKeyboardState</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

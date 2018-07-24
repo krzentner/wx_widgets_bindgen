@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="structwx_p_g_paint_data" kind="class" language="C++" prot="public">
+    <compoundname>wxPGPaintData</compoundname>
+    <includes local="no">wx/propgrid/property.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structwx_p_g_paint_data_1ac46800e8b4894810f80df89eaff909ee" prot="public" static="no" mutable="no">
+        <type>const <ref refid="classwx_property_grid" kindref="compound">wxPropertyGrid</ref> *</type>
+        <definition>const wxPropertyGrid* wxPGPaintData::m_parent</definition>
+        <argsstring></argsstring>
+        <name>m_parent</name>
+        <briefdescription>
+<para><ref refid="classwx_property_grid" kindref="compound">wxPropertyGrid</ref>. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/property.h" line="20" column="1" bodyfile="interface/wx/propgrid/property.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwx_p_g_paint_data_1a8151d06ed7a954c2dd12d0862c561be7" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int wxPGPaintData::m_choiceItem</definition>
+        <argsstring></argsstring>
+        <name>m_choiceItem</name>
+        <briefdescription>
+<para>Normally -1, otherwise index to drop-down list item that has to be drawn. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/property.h" line="26" column="1" bodyfile="interface/wx/propgrid/property.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwx_p_g_paint_data_1a93f0b0e8eb878c3f2df7849469a612cf" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int wxPGPaintData::m_drawnWidth</definition>
+        <argsstring></argsstring>
+        <name>m_drawnWidth</name>
+        <briefdescription>
+<para>Set to drawn width in OnCustomPaint (optional). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/property.h" line="29" column="1" bodyfile="interface/wx/propgrid/property.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwx_p_g_paint_data_1abfcc4b4d01ab7138c55a4453f0f60fc0" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int wxPGPaintData::m_drawnHeight</definition>
+        <argsstring></argsstring>
+        <name>m_drawnHeight</name>
+        <briefdescription>
+<para>In a measure item call, set this to the height of item at m_choiceItem index. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/property.h" line="35" column="1" bodyfile="interface/wx/propgrid/property.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Contains information relayed to property&apos;s OnCustomPaint. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="5391">
+        <label>wxObject</label>
+        <link refid="classwx_object"/>
+        <childnode refid="5392" relation="usage">
+          <edgelabel>m_refData</edgelabel>
+        </childnode>
+      </node>
+      <node id="5390">
+        <label>wxEvtHandler</label>
+        <link refid="classwx_evt_handler"/>
+        <childnode refid="5391" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5393" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5393">
+        <label>wxTrackable</label>
+        <link refid="classwx_trackable"/>
+      </node>
+      <node id="5386">
+        <label>wxPGPaintData</label>
+        <link refid="structwx_p_g_paint_data"/>
+        <childnode refid="5387" relation="usage">
+          <edgelabel>m_parent</edgelabel>
+        </childnode>
+      </node>
+      <node id="5388">
+        <label>wxControl</label>
+        <link refid="classwx_control"/>
+        <childnode refid="5389" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5389">
+        <label>wxWindow</label>
+        <link refid="classwx_window"/>
+        <childnode refid="5390" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5387">
+        <label>wxPropertyGrid</label>
+        <link refid="classwx_property_grid"/>
+        <childnode refid="5388" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5394" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5395" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5394">
+        <label>wxScrollHelper</label>
+      </node>
+      <node id="5395">
+        <label>wxPropertyGridInterface</label>
+        <link refid="classwx_property_grid_interface"/>
+      </node>
+      <node id="5392">
+        <label>wxObjectRefData</label>
+        <link refid="classwx_object_ref_data"/>
+      </node>
+    </collaborationgraph>
+    <location file="interface/wx/propgrid/property.h" line="18" column="1" bodyfile="interface/wx/propgrid/property.h" bodystart="17" bodyend="36"/>
+    <listofallmembers>
+      <member refid="structwx_p_g_paint_data_1a8151d06ed7a954c2dd12d0862c561be7" prot="public" virt="non-virtual"><scope>wxPGPaintData</scope><name>m_choiceItem</name></member>
+      <member refid="structwx_p_g_paint_data_1abfcc4b4d01ab7138c55a4453f0f60fc0" prot="public" virt="non-virtual"><scope>wxPGPaintData</scope><name>m_drawnHeight</name></member>
+      <member refid="structwx_p_g_paint_data_1a93f0b0e8eb878c3f2df7849469a612cf" prot="public" virt="non-virtual"><scope>wxPGPaintData</scope><name>m_drawnWidth</name></member>
+      <member refid="structwx_p_g_paint_data_1ac46800e8b4894810f80df89eaff909ee" prot="public" virt="non-virtual"><scope>wxPGPaintData</scope><name>m_parent</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

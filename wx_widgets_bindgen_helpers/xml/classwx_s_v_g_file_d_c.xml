@@ -1,0 +1,549 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_s_v_g_file_d_c" kind="class" language="C++" prot="public">
+    <compoundname>wxSVGFileDC</compoundname>
+    <basecompoundref refid="classwx_d_c" prot="public" virt="non-virtual">wxDC</basecompoundref>
+    <includes local="no">wx/dcsvg.h</includes>
+      <sectiondef kind="user-defined">
+      <memberdef kind="function" id="classwx_s_v_g_file_d_c_1ae9c7ad3de5259a461eb4fd7c56b58d90" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxSVGFileDC::CrossHair</definition>
+        <argsstring>(wxCoord x, wxCoord y)</argsstring>
+        <name>CrossHair</name>
+        <param>
+          <type><ref refid="defs_8h_1a11f6efc0e8d8d680f3ec8e82aa4f1770" kindref="member">wxCoord</ref></type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type><ref refid="defs_8h_1a11f6efc0e8d8d680f3ec8e82aa4f1770" kindref="member">wxCoord</ref></type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+<para>Functions not implemented in this DC class. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/dcsvg.h" line="110" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_s_v_g_file_d_c_1af1b54af9382656b98cf4d5bf3f051618" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxSVGFileDC::FloodFill</definition>
+        <argsstring>(wxCoord x, wxCoord y, const wxColour &amp;colour, wxFloodFillStyle style=wxFLOOD_SURFACE)</argsstring>
+        <name>FloodFill</name>
+        <param>
+          <type><ref refid="defs_8h_1a11f6efc0e8d8d680f3ec8e82aa4f1770" kindref="member">wxCoord</ref></type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type><ref refid="defs_8h_1a11f6efc0e8d8d680f3ec8e82aa4f1770" kindref="member">wxCoord</ref></type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_colour" kindref="compound">wxColour</ref> &amp;</type>
+          <declname>colour</declname>
+        </param>
+        <param>
+          <type><ref refid="interface_2wx_2dc_8h_1a7ad228eb95f51d70574644e99d07dc8c" kindref="member">wxFloodFillStyle</ref></type>
+          <declname>style</declname>
+          <defval><ref refid="interface_2wx_2dc_8h_1a7ad228eb95f51d70574644e99d07dc8ca7f2a8f896e5c592b1eb96174bc9a9a8a" kindref="member">wxFLOOD_SURFACE</ref></defval>
+        </param>
+        <briefdescription>
+<para>Functions not implemented in this DC class. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/dcsvg.h" line="111" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_s_v_g_file_d_c_1a6409c576e101ae00c16859a47b99aaf8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxSVGFileDC::GetClippingBox</definition>
+        <argsstring>(wxCoord *x, wxCoord *y, wxCoord *width, wxCoord *height) const</argsstring>
+        <name>GetClippingBox</name>
+        <param>
+          <type><ref refid="defs_8h_1a11f6efc0e8d8d680f3ec8e82aa4f1770" kindref="member">wxCoord</ref> *</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type><ref refid="defs_8h_1a11f6efc0e8d8d680f3ec8e82aa4f1770" kindref="member">wxCoord</ref> *</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type><ref refid="defs_8h_1a11f6efc0e8d8d680f3ec8e82aa4f1770" kindref="member">wxCoord</ref> *</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type><ref refid="defs_8h_1a11f6efc0e8d8d680f3ec8e82aa4f1770" kindref="member">wxCoord</ref> *</type>
+          <declname>height</declname>
+        </param>
+        <briefdescription>
+<para>Functions not implemented in this DC class. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/dcsvg.h" line="113" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_s_v_g_file_d_c_1a0304a4081244e8e9944a357c855a713b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxSVGFileDC::GetPixel</definition>
+        <argsstring>(wxCoord x, wxCoord y, wxColour *colour) const</argsstring>
+        <name>GetPixel</name>
+        <param>
+          <type><ref refid="defs_8h_1a11f6efc0e8d8d680f3ec8e82aa4f1770" kindref="member">wxCoord</ref></type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type><ref refid="defs_8h_1a11f6efc0e8d8d680f3ec8e82aa4f1770" kindref="member">wxCoord</ref></type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_colour" kindref="compound">wxColour</ref> *</type>
+          <declname>colour</declname>
+        </param>
+        <briefdescription>
+<para>Functions not implemented in this DC class. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/dcsvg.h" line="114" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_s_v_g_file_d_c_1a56f9674ee5fff78f9f884586c7106bfc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxSVGFileDC::SetPalette</definition>
+        <argsstring>(const wxPalette &amp;palette)</argsstring>
+        <name>SetPalette</name>
+        <param>
+          <type>const <ref refid="classwx_palette" kindref="compound">wxPalette</ref> &amp;</type>
+          <declname>palette</declname>
+        </param>
+        <briefdescription>
+<para>Functions not implemented in this DC class. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/dcsvg.h" line="115" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_s_v_g_file_d_c_1afc23fca3c1919a917ba4fa4ea1a47bd6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxSVGFileDC::StartDoc</definition>
+        <argsstring>(const wxString &amp;message)</argsstring>
+        <name>StartDoc</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+<para>Functions not implemented in this DC class. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/dcsvg.h" line="116" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classwx_s_v_g_file_d_c_1a9ddceb3078f12c843126ca08f029f313" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxSVGFileDC::wxSVGFileDC</definition>
+        <argsstring>(const wxString &amp;filename, int width=320, int height=240, double dpi=72)</argsstring>
+        <name>wxSVGFileDC</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>filename</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>width</declname>
+          <defval>320</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>height</declname>
+          <defval>240</defval>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>dpi</declname>
+          <defval>72</defval>
+        </param>
+        <briefdescription>
+<para>Initializes a <ref refid="classwx_s_v_g_file_d_c" kindref="compound">wxSVGFileDC</ref> with the given <emphasis>f</emphasis> filename with the given <emphasis>Width</emphasis> and <emphasis>Height</emphasis> at <emphasis>dpi</emphasis> resolution. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/dcsvg.h" line="41" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_s_v_g_file_d_c_1aa812de582da4c650dd251129c3a03fab" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual wxSVGFileDC::~wxSVGFileDC</definition>
+        <argsstring>()</argsstring>
+        <name>~wxSVGFileDC</name>
+        <briefdescription>
+<para>Destructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/dcsvg.h" line="46" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_s_v_g_file_d_c_1a70fee3fe2c116cd5698e89c63992dfe1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxSVGFileDC::EndDoc</definition>
+        <argsstring>()</argsstring>
+        <name>EndDoc</name>
+        <briefdescription>
+<para>Does nothing. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/dcsvg.h" line="51" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_s_v_g_file_d_c_1aabbe60d5f7816974da2ab92195de961a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxSVGFileDC::EndPage</definition>
+        <argsstring>()</argsstring>
+        <name>EndPage</name>
+        <briefdescription>
+<para>Does nothing. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/dcsvg.h" line="56" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_s_v_g_file_d_c_1a88eb12ff20b15f2e7d91483394a2ed16" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxSVGFileDC::Clear</definition>
+        <argsstring>()</argsstring>
+        <name>Clear</name>
+        <briefdescription>
+<para>This makes no sense in <ref refid="classwx_s_v_g_file_d_c" kindref="compound">wxSVGFileDC</ref> and does nothing. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/dcsvg.h" line="61" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_s_v_g_file_d_c_1a0450e2e90bf39ed0167c49b59fcb9e31" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxSVGFileDC::SetLogicalFunction</definition>
+        <argsstring>(wxRasterOperationMode function)</argsstring>
+        <name>SetLogicalFunction</name>
+        <param>
+          <type><ref refid="interface_2wx_2dc_8h_1a07398221a1f9dfecf424c90c5c777d54" kindref="member">wxRasterOperationMode</ref></type>
+          <declname>function</declname>
+        </param>
+        <briefdescription>
+<para>Does the same as <ref refid="classwx_d_c_1aae8adce8cf260bf703b8e76784bd577d" kindref="member">wxDC::SetLogicalFunction()</ref>, except that only wxCOPY is available. </para>        </briefdescription>
+        <detaileddescription>
+<para>Trying to set one of the other values will fail. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/dcsvg.h" line="67" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_s_v_g_file_d_c_1aeb64330f4f9430472894df975968059a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxSVGFileDC::SetClippingRegion</definition>
+        <argsstring>(wxCoord x, wxCoord y, wxCoord width, wxCoord height)</argsstring>
+        <name>SetClippingRegion</name>
+        <param>
+          <type><ref refid="defs_8h_1a11f6efc0e8d8d680f3ec8e82aa4f1770" kindref="member">wxCoord</ref></type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type><ref refid="defs_8h_1a11f6efc0e8d8d680f3ec8e82aa4f1770" kindref="member">wxCoord</ref></type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type><ref refid="defs_8h_1a11f6efc0e8d8d680f3ec8e82aa4f1770" kindref="member">wxCoord</ref></type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type><ref refid="defs_8h_1a11f6efc0e8d8d680f3ec8e82aa4f1770" kindref="member">wxCoord</ref></type>
+          <declname>height</declname>
+        </param>
+        <briefdescription>
+<para>Sets the clipping region for this device context to the intersection of the given region described by the parameters of this method and the previously set clipping region. </para>        </briefdescription>
+        <detaileddescription>
+<para>Clipping is implemented in the SVG output using SVG group elements (&lt;g&gt;), with nested group elements being used to represent clipping region intersections when two or more calls are made to <ref refid="classwx_s_v_g_file_d_c_1aeb64330f4f9430472894df975968059a" kindref="member">SetClippingRegion()</ref>. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/dcsvg.h" line="77" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_s_v_g_file_d_c_1a719ce39244b3ae8b202ce7942467cc70" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxSVGFileDC::SetClippingRegion</definition>
+        <argsstring>(const wxPoint &amp;pt, const wxSize &amp;sz)</argsstring>
+        <name>SetClippingRegion</name>
+        <param>
+          <type>const <ref refid="classwx_point" kindref="compound">wxPoint</ref> &amp;</type>
+          <declname>pt</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_size" kindref="compound">wxSize</ref> &amp;</type>
+          <declname>sz</declname>
+        </param>
+        <briefdescription>
+<para>This is an overloaded member function, provided for convenience. </para>        </briefdescription>
+        <detaileddescription>
+<para>It differs from the above function only in what argument(s) it accepts. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/dcsvg.h" line="84" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_s_v_g_file_d_c_1a280990002cc2671542eb7a0523da6e41" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxSVGFileDC::SetClippingRegion</definition>
+        <argsstring>(const wxRect &amp;rect)</argsstring>
+        <name>SetClippingRegion</name>
+        <param>
+          <type>const <ref refid="classwx_rect" kindref="compound">wxRect</ref> &amp;</type>
+          <declname>rect</declname>
+        </param>
+        <briefdescription>
+<para>This is an overloaded member function, provided for convenience. </para>        </briefdescription>
+        <detaileddescription>
+<para>It differs from the above function only in what argument(s) it accepts. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/dcsvg.h" line="90" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_s_v_g_file_d_c_1af80c8d46a9ca278e2ee296d0f35434c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxSVGFileDC::SetClippingRegion</definition>
+        <argsstring>(const wxRegion &amp;region)</argsstring>
+        <name>SetClippingRegion</name>
+        <param>
+          <type>const <ref refid="classwx_region" kindref="compound">wxRegion</ref> &amp;</type>
+          <declname>region</declname>
+        </param>
+        <briefdescription>
+<para>This function is not implemented in this DC class. </para>        </briefdescription>
+        <detaileddescription>
+<para>It could be implemented in future if a GetPoints() function were made available on <ref refid="classwx_region" kindref="compound">wxRegion</ref>. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/dcsvg.h" line="96" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_s_v_g_file_d_c_1a83be1b0f0b66a4949268e34348af3ee8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxSVGFileDC::DestroyClippingRegion</definition>
+        <argsstring>()</argsstring>
+        <name>DestroyClippingRegion</name>
+        <briefdescription>
+<para>Destroys the current clipping region so that none of the DC is clipped. </para>        </briefdescription>
+        <detaileddescription>
+<para>Since intersections arising from sequential calls to SetClippingRegion are represented with nested SVG group elements (&lt;g&gt;), all such groups are closed when DestroyClippingRegion is called. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/dcsvg.h" line="104" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>A <ref refid="classwx_s_v_g_file_d_c" kindref="compound">wxSVGFileDC</ref> is a device context onto which graphics and text can be drawn, and the output produced as a vector file, in SVG format. </para>    </briefdescription>
+    <detaileddescription>
+<para>This format can be read by a range of programs, including a Netscape plugin (Adobe) and the open source Inkscape program (<ulink url="http://inkscape.org/">http://inkscape.org/</ulink>). Full details are given in the W3C SVG recommendation (<ulink url="http://www.w3.org/TR/SVG/">http://www.w3.org/TR/SVG/</ulink>).</para><para>The intention behind <ref refid="classwx_s_v_g_file_d_c" kindref="compound">wxSVGFileDC</ref> is that it can be used to produce a file corresponding to the screen display context, <ref refid="classwx_s_v_g_file_d_c" kindref="compound">wxSVGFileDC</ref>, by passing the <ref refid="classwx_s_v_g_file_d_c" kindref="compound">wxSVGFileDC</ref> as a parameter instead of a <ref refid="classwx_d_c" kindref="compound">wxDC</ref>. Thus the <ref refid="classwx_s_v_g_file_d_c" kindref="compound">wxSVGFileDC</ref> is a write-only class.</para><para>As the <ref refid="classwx_s_v_g_file_d_c" kindref="compound">wxSVGFileDC</ref> is a vector format, raster operations like <ref refid="classwx_s_v_g_file_d_c_1a0304a4081244e8e9944a357c855a713b" kindref="member">GetPixel()</ref> are unlikely to be supported. However, the SVG specification allows for PNG format raster files to be embedded in the SVG, and so bitmaps, icons and blit operations in <ref refid="classwx_s_v_g_file_d_c" kindref="compound">wxSVGFileDC</ref> are supported.</para><para>A more substantial SVG library (for reading and writing) is available at the wxArt2D website <ulink url="http://wxart2d.sourceforge.net/">http://wxart2d.sourceforge.net/</ulink>.</para><para><heading level="2"></heading>
+</para><para>Library:<nonbreakablespace/><nonbreakablespace/><ref refid="page_libs_1page_libs_wxcore" kindref="member">wxCore</ref> &lt;&gt;&lt; =&apos;&apos;&gt;:&lt;/&gt;&amp;;&amp;;&lt; =&apos;&apos;&gt;\ &lt;/&gt;&lt;/&gt; </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="7701">
+        <label>wxObject</label>
+        <link refid="classwx_object"/>
+      </node>
+      <node id="7700">
+        <label>wxDC</label>
+        <link refid="classwx_d_c"/>
+        <childnode refid="7701" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7699">
+        <label>wxSVGFileDC</label>
+        <link refid="classwx_s_v_g_file_d_c"/>
+        <childnode refid="7700" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="7704">
+        <label>wxObject</label>
+        <link refid="classwx_object"/>
+        <childnode refid="7705" relation="usage">
+          <edgelabel>m_refData</edgelabel>
+        </childnode>
+      </node>
+      <node id="7703">
+        <label>wxDC</label>
+        <link refid="classwx_d_c"/>
+        <childnode refid="7704" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7702">
+        <label>wxSVGFileDC</label>
+        <link refid="classwx_s_v_g_file_d_c"/>
+        <childnode refid="7703" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7705">
+        <label>wxObjectRefData</label>
+        <link refid="classwx_object_ref_data"/>
+      </node>
+    </collaborationgraph>
+    <location file="interface/wx/dcsvg.h" line="35" column="1" bodyfile="interface/wx/dcsvg.h" bodystart="34" bodyend="118"/>
+    <listofallmembers>
+      <member refid="classwx_object_1a60204063f3cc3aa2fa1c7ff5bda9eb13" prot="protected" virt="non-virtual"><scope>wxSVGFileDC</scope><name>AllocExclusive</name></member>
+      <member refid="classwx_d_c_1a12bed94a15136b9080683f4151042a34" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>Blit</name></member>
+      <member refid="classwx_d_c_1a850699d4fdc9006421b085d2d37fa0c0" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>CalcBoundingBox</name></member>
+      <member refid="classwx_d_c_1a1effb5b9e03fe331515137145bf22e18" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>CanDrawBitmap</name></member>
+      <member refid="classwx_d_c_1aa933c630eb41e2e9d78324a95f4118b5" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>CanGetTextExtent</name></member>
+      <member refid="classwx_d_c_1a02b3bde61bfa924e984a9381c69698c1" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>CanUseTransformMatrix</name></member>
+      <member refid="classwx_s_v_g_file_d_c_1a88eb12ff20b15f2e7d91483394a2ed16" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>Clear</name></member>
+      <member refid="classwx_object_1a436fc8fe68cf8a31000296d9cd3d2427" prot="protected" virt="virtual"><scope>wxSVGFileDC</scope><name>CloneRefData</name></member>
+      <member refid="classwx_d_c_1ad1258b299c3a92344f1bdedbb7fc3acc" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>CopyAttributes</name></member>
+      <member refid="classwx_object_1a3f4f497c65cef611e121c41f21dd5ccc" prot="protected" virt="virtual"><scope>wxSVGFileDC</scope><name>CreateRefData</name></member>
+      <member refid="classwx_s_v_g_file_d_c_1ae9c7ad3de5259a461eb4fd7c56b58d90" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>CrossHair</name></member>
+      <member refid="classwx_d_c_1ad5ad1b17105668a9cba6f4f6cc902a02" prot="public" virt="non-virtual" ambiguityscope="wxDC::"><scope>wxSVGFileDC</scope><name>CrossHair</name></member>
+      <member refid="classwx_s_v_g_file_d_c_1a83be1b0f0b66a4949268e34348af3ee8" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>DestroyClippingRegion</name></member>
+      <member refid="classwx_d_c_1a17971d3a2e3834f5b261aedd493ae08e" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>DeviceToLogicalX</name></member>
+      <member refid="classwx_d_c_1a173351b84f5c8ef0952d39e49021a84e" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>DeviceToLogicalXRel</name></member>
+      <member refid="classwx_d_c_1af669c71c68fb759927ec2e5721a6793e" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>DeviceToLogicalY</name></member>
+      <member refid="classwx_d_c_1a13fe5057e20314f2d383907719b278b8" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>DeviceToLogicalYRel</name></member>
+      <member refid="classwx_d_c_1a348f8cd1ba0ffcf62b8145628b0a5492" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>DrawArc</name></member>
+      <member refid="classwx_d_c_1abe49b852e96ff500ef6333bfc044890f" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>DrawArc</name></member>
+      <member refid="classwx_d_c_1af982eb2d3b10c5617ef3559d51a1defc" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>DrawBitmap</name></member>
+      <member refid="classwx_d_c_1a9449053951eceeb7984125cd4a694fd8" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>DrawBitmap</name></member>
+      <member refid="classwx_d_c_1a8ad34eda4c0b75ca905d466c6328fe91" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>DrawCheckMark</name></member>
+      <member refid="classwx_d_c_1a14fe0d838374721e98d6254cdd1484a6" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>DrawCheckMark</name></member>
+      <member refid="classwx_d_c_1a62fd1c810d532e53a25e3b2e6fd621f7" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>DrawCircle</name></member>
+      <member refid="classwx_d_c_1a560192c6dcb33c5bde404f3647234657" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>DrawCircle</name></member>
+      <member refid="classwx_d_c_1a340697f08f5fd08d9db383ffcef642c2" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>DrawEllipse</name></member>
+      <member refid="classwx_d_c_1a8a7a8478797c599e91125168669a5f36" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>DrawEllipse</name></member>
+      <member refid="classwx_d_c_1a637167c299d7e58832cf9c71f6f64fd5" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>DrawEllipse</name></member>
+      <member refid="classwx_d_c_1a821e0b82707ca0379273cca67913da06" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>DrawEllipticArc</name></member>
+      <member refid="classwx_d_c_1a5f18a7aee18b69c8721aec67ea0a3532" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>DrawEllipticArc</name></member>
+      <member refid="classwx_d_c_1a890d011a03308a28039d4940dd04264e" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>DrawIcon</name></member>
+      <member refid="classwx_d_c_1a5719d8c36a03d1679828c5d89d33dd67" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>DrawIcon</name></member>
+      <member refid="classwx_d_c_1ae28d7aa2e17a850f4ca15c042a870152" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>DrawLabel</name></member>
+      <member refid="classwx_d_c_1a9e4ddef5a10fdcee96ff9ef2fded9ee3" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>DrawLabel</name></member>
+      <member refid="classwx_d_c_1a12f2c236d4d320acec0bc6fe20e8399d" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>DrawLine</name></member>
+      <member refid="classwx_d_c_1a34f84b8b73cf782e6d9ab0f629598b6f" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>DrawLine</name></member>
+      <member refid="classwx_d_c_1abae438499fdfdc102e7be7629e8f8c46" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>DrawLines</name></member>
+      <member refid="classwx_d_c_1a23cbb356e46890c99fcb5304d077f888" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>DrawLines</name></member>
+      <member refid="classwx_d_c_1a8380aab866e8f3947e0898cf08969d9f" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>DrawPoint</name></member>
+      <member refid="classwx_d_c_1a9b75ad987adc0c01d13c34db101b3539" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>DrawPoint</name></member>
+      <member refid="classwx_d_c_1a86e50a20fa6b634b9ce590ce8a900e1c" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>DrawPolygon</name></member>
+      <member refid="classwx_d_c_1a6e5808ba5b740f0d4df5da02b05ce5ca" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>DrawPolygon</name></member>
+      <member refid="classwx_d_c_1ae760da96008debe42e18195d8ac8df3d" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>DrawPolyPolygon</name></member>
+      <member refid="classwx_d_c_1a918b9ae3447a2fc13f4c38c628a45c01" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>DrawRectangle</name></member>
+      <member refid="classwx_d_c_1a5499c7359d84871343e4875902c06a69" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>DrawRectangle</name></member>
+      <member refid="classwx_d_c_1ae0a8c6fe2eb45f6f03339b049db6b2b8" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>DrawRectangle</name></member>
+      <member refid="classwx_d_c_1aae5aff11939d5c55ab5c50987e4f2521" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>DrawRotatedText</name></member>
+      <member refid="classwx_d_c_1a791bc8502da484f1d3163e360cf91e8a" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>DrawRotatedText</name></member>
+      <member refid="classwx_d_c_1a94db29e2a40a16dc19ac852d05cd65b0" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>DrawRoundedRectangle</name></member>
+      <member refid="classwx_d_c_1a9e4b8ab031042016d434606eb7744c9c" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>DrawRoundedRectangle</name></member>
+      <member refid="classwx_d_c_1a926fb2251b9185e58f15c41f680aaf2a" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>DrawRoundedRectangle</name></member>
+      <member refid="classwx_d_c_1ad72d38c75ac6b3f80c1f957dd94089fa" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>DrawSpline</name></member>
+      <member refid="classwx_d_c_1aacfb4bab651f9eb572e42cd2870c40c6" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>DrawSpline</name></member>
+      <member refid="classwx_d_c_1a60c358ff3cfbf2b6f6d1918b527de98a" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>DrawSpline</name></member>
+      <member refid="classwx_d_c_1a11d35ce34fccb57b0efc7dc91168660b" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>DrawText</name></member>
+      <member refid="classwx_d_c_1a17f5674c449449b730c63f773534d721" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>DrawText</name></member>
+      <member refid="classwx_s_v_g_file_d_c_1a70fee3fe2c116cd5698e89c63992dfe1" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>EndDoc</name></member>
+      <member refid="classwx_s_v_g_file_d_c_1aabbe60d5f7816974da2ab92195de961a" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>EndPage</name></member>
+      <member refid="classwx_s_v_g_file_d_c_1af1b54af9382656b98cf4d5bf3f051618" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>FloodFill</name></member>
+      <member refid="classwx_d_c_1aa3ad38fdcd0e731af94bd9c3189e72e9" prot="public" virt="non-virtual" ambiguityscope="wxDC::"><scope>wxSVGFileDC</scope><name>FloodFill</name></member>
+      <member refid="classwx_d_c_1ad29258b841e124462aa74a5581526e9e" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>GetAsBitmap</name></member>
+      <member refid="classwx_d_c_1a7322eb1e64eb276f5cca9aa21d3cefe4" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>GetBackground</name></member>
+      <member refid="classwx_d_c_1ae4f34b8c09b8f7af5c848906ead10e64" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>GetBackgroundMode</name></member>
+      <member refid="classwx_d_c_1a9bf13abd52b398ddf3096b2bd65824d3" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>GetBrush</name></member>
+      <member refid="classwx_d_c_1a426166f27052b98dffcee07b6d743098" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>GetCharHeight</name></member>
+      <member refid="classwx_d_c_1a3079e3786b0d9160462e15cfe61422c4" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>GetCharWidth</name></member>
+      <member refid="classwx_object_1ae6d365f2556b26767ced8410c5e839d0" prot="public" virt="virtual"><scope>wxSVGFileDC</scope><name>GetClassInfo</name></member>
+      <member refid="classwx_s_v_g_file_d_c_1a6409c576e101ae00c16859a47b99aaf8" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>GetClippingBox</name></member>
+      <member refid="classwx_d_c_1a798700d907980c88c717e86a4a06e924" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>GetDepth</name></member>
+      <member refid="classwx_d_c_1a1ce47e2939c15b7290540a4ca1736eb5" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>GetDeviceOrigin</name></member>
+      <member refid="classwx_d_c_1aa2a9561d0783d2891fab3f34fd1e3021" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>GetFont</name></member>
+      <member refid="classwx_d_c_1ae55ab5ce3194add52406f0f15009920c" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>GetFontMetrics</name></member>
+      <member refid="classwx_d_c_1ad7be3a69e1266da242827d40b88c72a5" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>GetHandle</name></member>
+      <member refid="classwx_d_c_1a69139fe0c3b10e077a5ad4e9a8860b7f" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>GetLayoutDirection</name></member>
+      <member refid="classwx_d_c_1af0a85cc17b43c8db59a3172ded90cb79" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>GetLogicalFunction</name></member>
+      <member refid="classwx_d_c_1a4acfbc9623a3c441e22f5257f9516fc0" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>GetLogicalOrigin</name></member>
+      <member refid="classwx_d_c_1aebaa077e6b083daf17dfdb35dbe87823" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>GetLogicalOrigin</name></member>
+      <member refid="classwx_d_c_1ab6a2a41a573b659dc2331c387bab4d16" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>GetLogicalScale</name></member>
+      <member refid="classwx_d_c_1a42171f00a80eff7e88204f92c36f1f6f" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>GetMapMode</name></member>
+      <member refid="classwx_d_c_1a3f59fa4cc99e7f8c84b945373d986a45" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>GetMultiLineTextExtent</name></member>
+      <member refid="classwx_d_c_1a827892cc43071baaad813cbddbba021b" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>GetMultiLineTextExtent</name></member>
+      <member refid="classwx_d_c_1a9caf42966be72457715b3188fe285220" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>GetPartialTextExtents</name></member>
+      <member refid="classwx_d_c_1a04592fedab03caa91cabc34d22451b5f" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>GetPen</name></member>
+      <member refid="classwx_s_v_g_file_d_c_1a0304a4081244e8e9944a357c855a713b" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>GetPixel</name></member>
+      <member refid="classwx_d_c_1a5e5a7832177ceceee0b5c35d146a1d6a" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>GetPPI</name></member>
+      <member refid="classwx_object_1af3c6c76a775864832f1536d3c0de3a2b" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>GetRefData</name></member>
+      <member refid="classwx_d_c_1aee6d97d655f20039745b5f6fb43a2d51" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>GetSize</name></member>
+      <member refid="classwx_d_c_1a27377e56df8a908085a3f8f5ef772303" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>GetSize</name></member>
+      <member refid="classwx_d_c_1a33e35c892ed21eb3d512598753c080e2" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>GetSizeMM</name></member>
+      <member refid="classwx_d_c_1adb021c4bd833267efc58956487262082" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>GetSizeMM</name></member>
+      <member refid="classwx_d_c_1a7d0015e6e8e62e1e207bb38873b0e0b7" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>GetTextBackground</name></member>
+      <member refid="classwx_d_c_1a8ad68582fbd5373b4af6bad906defeb4" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>GetTextExtent</name></member>
+      <member refid="classwx_d_c_1a1f9b9b72ba8c88c1217b6210af4c22c6" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>GetTextExtent</name></member>
+      <member refid="classwx_d_c_1aa36f1f4cd4594c9735ca91638f42fe28" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>GetTextForeground</name></member>
+      <member refid="classwx_d_c_1ac50798a205d501ac7124bcdd9f67c760" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>GetTransformMatrix</name></member>
+      <member refid="classwx_d_c_1a711601938dff67d42ec45b61b4d13db3" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>GetUserScale</name></member>
+      <member refid="classwx_d_c_1a323802ed579056fce98220f5d1778076" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>GradientFillConcentric</name></member>
+      <member refid="classwx_d_c_1a2f0cd1850aefeda55b25cf56d55ac495" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>GradientFillConcentric</name></member>
+      <member refid="classwx_d_c_1a9cfbde2fcde06ffacf323f3a9dd1b020" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>GradientFillLinear</name></member>
+      <member refid="classwx_object_1a3c7115ef4132dcee0c4fc34e84d7fced" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>IsKindOf</name></member>
+      <member refid="classwx_d_c_1af00c59870ef918f0647b53f52bc29d6a" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>IsOk</name></member>
+      <member refid="classwx_object_1a059373c494c2369d7db2a556efef8ecf" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>IsSameAs</name></member>
+      <member refid="classwx_d_c_1ace891d047e6f95d8f4d3a83475ab228e" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>LogicalToDeviceX</name></member>
+      <member refid="classwx_d_c_1a68bac9e6f4bb21a3a38250c977bf2e5e" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>LogicalToDeviceXRel</name></member>
+      <member refid="classwx_d_c_1a373fbecf8b5fe2391d858150f94f8154" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>LogicalToDeviceY</name></member>
+      <member refid="classwx_d_c_1af9d891f58f39682fdd49c5aa5fc57ff2" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>LogicalToDeviceYRel</name></member>
+      <member refid="classwx_object_1a9e31954530a0abd54982effc443ed2b8" prot="protected" virt="non-virtual"><scope>wxSVGFileDC</scope><name>m_refData</name></member>
+      <member refid="classwx_d_c_1a0021372eada83e1fa73a5364100377fc" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>MaxX</name></member>
+      <member refid="classwx_d_c_1a6484caea9b032fc399f900e46deb6be3" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>MaxY</name></member>
+      <member refid="classwx_d_c_1a8f205424c5badc4f76b77aa71887f5ff" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>MinX</name></member>
+      <member refid="classwx_d_c_1a74abb8dd4308d7594e8d7a234d19e04f" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>MinY</name></member>
+      <member refid="classwx_object_1a07b8f34f5afc5743195c5fed052f55d3" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>operator delete</name></member>
+      <member refid="classwx_object_1a96fa423a1dbc212c8227a5d83825971f" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>operator new</name></member>
+      <member refid="classwx_object_1a2f6f1aa51fe9fc2b1415ca4211a90e9e" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>Ref</name></member>
+      <member refid="classwx_d_c_1a35ed8c0c64315ec85588142d44f83af8" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>ResetBoundingBox</name></member>
+      <member refid="classwx_d_c_1a41a9a4f616da21afdcad0fe1585ca066" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>ResetTransformMatrix</name></member>
+      <member refid="classwx_d_c_1a1ada4defde484280fb24c4c47d24e0e8" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>SetAxisOrientation</name></member>
+      <member refid="classwx_d_c_1ad0139f6542f619244b80d4db7f685f86" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>SetBackground</name></member>
+      <member refid="classwx_d_c_1a86c405ae265e6fdb4e393c4c9ada73c0" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>SetBackgroundMode</name></member>
+      <member refid="classwx_d_c_1a13978b2624116987a59ff729c4f81a96" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>SetBrush</name></member>
+      <member refid="classwx_s_v_g_file_d_c_1aeb64330f4f9430472894df975968059a" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>SetClippingRegion</name></member>
+      <member refid="classwx_s_v_g_file_d_c_1a719ce39244b3ae8b202ce7942467cc70" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>SetClippingRegion</name></member>
+      <member refid="classwx_s_v_g_file_d_c_1a280990002cc2671542eb7a0523da6e41" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>SetClippingRegion</name></member>
+      <member refid="classwx_s_v_g_file_d_c_1af80c8d46a9ca278e2ee296d0f35434c4" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>SetClippingRegion</name></member>
+      <member refid="classwx_d_c_1a382a46c105ebad94e848e74e9cc0b4b1" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>SetDeviceClippingRegion</name></member>
+      <member refid="classwx_d_c_1a0a1c7d7d07d1faf3f7b89698bde769f3" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>SetDeviceOrigin</name></member>
+      <member refid="classwx_d_c_1afab18239d707cd403235b36a987171a8" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>SetFont</name></member>
+      <member refid="classwx_d_c_1a16196571f402cabf506619e8bf9f1586" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>SetLayoutDirection</name></member>
+      <member refid="classwx_s_v_g_file_d_c_1a0450e2e90bf39ed0167c49b59fcb9e31" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>SetLogicalFunction</name></member>
+      <member refid="classwx_d_c_1a4ce7dda4ff2f3ece524b8d538b346b6f" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>SetLogicalOrigin</name></member>
+      <member refid="classwx_d_c_1aae1c728cdd2f43601f876b7d67067a39" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>SetLogicalScale</name></member>
+      <member refid="classwx_d_c_1aa07ef94e2f3af5b64345c3f94333e86e" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>SetMapMode</name></member>
+      <member refid="classwx_s_v_g_file_d_c_1a56f9674ee5fff78f9f884586c7106bfc" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>SetPalette</name></member>
+      <member refid="classwx_d_c_1a0d229733fbc83c7e4c483c0714d090b2" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>SetPen</name></member>
+      <member refid="classwx_object_1afab780710f2adc1bb33310e27590140b" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>SetRefData</name></member>
+      <member refid="classwx_d_c_1a3ed22bd0a0b835d4d085261bb022766b" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>SetTextBackground</name></member>
+      <member refid="classwx_d_c_1aeac811df9a1688ce875117f3049849d6" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>SetTextForeground</name></member>
+      <member refid="classwx_d_c_1a6e3243fcb5d194ef5637f4bda11a49c3" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>SetTransformMatrix</name></member>
+      <member refid="classwx_d_c_1a190e43cf66ef402aa67f759d20f22eb0" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>SetUserScale</name></member>
+      <member refid="classwx_s_v_g_file_d_c_1afc23fca3c1919a917ba4fa4ea1a47bd6" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>StartDoc</name></member>
+      <member refid="classwx_d_c_1a94c855ceb9f2fd5dcd1cf61396c13576" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>StartPage</name></member>
+      <member refid="classwx_d_c_1a82801167a35e747218c49aa2161ae4bf" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>StretchBlit</name></member>
+      <member refid="classwx_object_1af51efc6b1ae632fc7f0cd7ebbce9fa36" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>UnRef</name></member>
+      <member refid="classwx_object_1a74b40e42d19a4b9e9bec0b57d62a5725" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>UnShare</name></member>
+      <member refid="classwx_object_1acaa378363a28af421ab56ad7b46eadf0" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>wxObject</name></member>
+      <member refid="classwx_object_1a4721b4dc9b7aff0f30904ba2ea3954cf" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>wxObject</name></member>
+      <member refid="classwx_s_v_g_file_d_c_1a9ddceb3078f12c843126ca08f029f313" prot="public" virt="non-virtual"><scope>wxSVGFileDC</scope><name>wxSVGFileDC</name></member>
+      <member refid="classwx_object_1a2a51aa8bfbab47ca2f051bcf84b3f35b" prot="public" virt="virtual"><scope>wxSVGFileDC</scope><name>~wxObject</name></member>
+      <member refid="classwx_s_v_g_file_d_c_1aa812de582da4c650dd251129c3a03fab" prot="public" virt="virtual"><scope>wxSVGFileDC</scope><name>~wxSVGFileDC</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

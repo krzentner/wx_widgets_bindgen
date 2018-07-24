@@ -1,0 +1,454 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_p_g_choice_editor" kind="class" language="C++" prot="public">
+    <compoundname>wxPGChoiceEditor</compoundname>
+    <basecompoundref refid="classwx_p_g_editor" prot="public" virt="non-virtual">wxPGEditor</basecompoundref>
+    <derivedcompoundref refid="classwx_p_g_choice_and_button_editor" prot="public" virt="non-virtual">wxPGChoiceAndButtonEditor</derivedcompoundref>
+    <derivedcompoundref refid="classwx_p_g_combo_box_editor" prot="public" virt="non-virtual">wxPGComboBoxEditor</derivedcompoundref>
+    <includes local="no">wx/propgrid/editors.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classwx_p_g_choice_editor_1a0c36252a21a85e5c9169c0ba9fd121bf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxPGChoiceEditor::wxPGChoiceEditor</definition>
+        <argsstring>() virtual ~wxPGChoiceEditor()</argsstring>
+        <name>wxPGChoiceEditor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/editors.h" line="240" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_p_g_choice_editor_1adad54c3f9d47922fc8ee1499a04ec07b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="classwx_p_g_window_list" kindref="compound">wxPGWindowList</ref></type>
+        <definition>virtual wxPGWindowList wxPGChoiceEditor::CreateControls</definition>
+        <argsstring>(wxPropertyGrid *propgrid, wxPGProperty *property, const wxPoint &amp;pos, const wxSize &amp;size) const</argsstring>
+        <name>CreateControls</name>
+        <reimplements refid="classwx_p_g_editor_1a9d33fbd55fe4fe390bdaa826a7ff87e2">CreateControls</reimplements>
+        <reimplementedby refid="classwx_p_g_combo_box_editor_1a67f114aa101427dfa3f44d5a50e418c4">CreateControls</reimplementedby>
+        <reimplementedby refid="classwx_p_g_choice_and_button_editor_1abeb1e9988744887d03fa8e9dc4d3aa52">CreateControls</reimplementedby>
+        <param>
+          <type><ref refid="classwx_property_grid" kindref="compound">wxPropertyGrid</ref> *</type>
+          <declname>propgrid</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_p_g_property" kindref="compound">wxPGProperty</ref> *</type>
+          <declname>property</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_point" kindref="compound">wxPoint</ref> &amp;</type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_size" kindref="compound">wxSize</ref> &amp;</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+<para>Instantiates editor controls. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>propgrid</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="classwx_property_grid" kindref="compound">wxPropertyGrid</ref> to which the property belongs (use as parent for control).</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>property</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Property for which this method is called.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>pos</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Position, inside <ref refid="classwx_property_grid" kindref="compound">wxPropertyGrid</ref>, to create control(s) to.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>size</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Initial size for control(s).</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="remark"><para><itemizedlist>
+<listitem><para>Primary control shall use id wxPG_SUBID1, and secondary (button) control shall use wxPG_SUBID2.</para></listitem><listitem><para>Unlike in previous version of <ref refid="classwx_property_grid" kindref="compound">wxPropertyGrid</ref>, it is no longer necessary to call <ref refid="classwx_evt_handler_1a78719e8b82c9f9c6e4056b3449df1943" kindref="member">wxEvtHandler::Connect()</ref> for interesting editor events. Instead, all events from control are now automatically forwarded to <ref refid="classwx_p_g_editor_1a035fa3bee4ac87e4300df0c637a56261" kindref="member">wxPGEditor::OnEvent()</ref> and <ref refid="classwx_p_g_property_1a16fbe26240bf47ab0a9a02d21781da73" kindref="member">wxPGProperty::OnEvent()</ref>. </para></listitem></itemizedlist>
+</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/editors.h" line="243" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_p_g_choice_editor_1abe14c536c92754d86f9c38dfd77fce85" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void wxPGChoiceEditor::UpdateControl</definition>
+        <argsstring>(wxPGProperty *property, wxWindow *ctrl) const</argsstring>
+        <name>UpdateControl</name>
+        <reimplements refid="classwx_p_g_editor_1a229b635a46763efa40814584eb480c51">UpdateControl</reimplements>
+        <reimplementedby refid="classwx_p_g_combo_box_editor_1a2a327ecb1487b4f42ff078742cb32ed0">UpdateControl</reimplementedby>
+        <param>
+          <type><ref refid="classwx_p_g_property" kindref="compound">wxPGProperty</ref> *</type>
+          <declname>property</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_window" kindref="compound">wxWindow</ref> *</type>
+          <declname>ctrl</declname>
+        </param>
+        <briefdescription>
+<para>Loads value from property to the control. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/editors.h" line="247" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_p_g_choice_editor_1a9a06bbaf3c50fa1e7924cf61548ea056" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool wxPGChoiceEditor::OnEvent</definition>
+        <argsstring>(wxPropertyGrid *propgrid, wxPGProperty *property, wxWindow *primaryCtrl, wxEvent &amp;event) const</argsstring>
+        <name>OnEvent</name>
+        <reimplements refid="classwx_p_g_editor_1a035fa3bee4ac87e4300df0c637a56261">OnEvent</reimplements>
+        <reimplementedby refid="classwx_p_g_combo_box_editor_1a2dd0fa91eefbe064d4dc01a57ba909d8">OnEvent</reimplementedby>
+        <param>
+          <type><ref refid="classwx_property_grid" kindref="compound">wxPropertyGrid</ref> *</type>
+          <declname>propgrid</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_p_g_property" kindref="compound">wxPGProperty</ref> *</type>
+          <declname>property</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_window" kindref="compound">wxWindow</ref> *</type>
+          <declname>wnd_primary</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_event" kindref="compound">wxEvent</ref> &amp;</type>
+          <declname>event</declname>
+        </param>
+        <briefdescription>
+<para>Handles events. </para>        </briefdescription>
+        <detaileddescription>
+<para>Returns true if value in control was modified (see <ref refid="classwx_p_g_property_1a16fbe26240bf47ab0a9a02d21781da73" kindref="member">wxPGProperty::OnEvent()</ref> for more information).</para><para><simplesect kind="remark"><para><ref refid="classwx_property_grid" kindref="compound">wxPropertyGrid</ref> will automatically unfocus the editor when <computeroutput>wxEVT_TEXT_ENTER</computeroutput> is received and when it results in property value being modified. This happens regardless of editor type (ie. behaviour is same for any <ref refid="classwx_text_ctrl" kindref="compound">wxTextCtrl</ref> and <ref refid="classwx_combo_box" kindref="compound">wxComboBox</ref> based editor). </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/editors.h" line="249" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_p_g_choice_editor_1af7dded049c895f619047359a4f055863" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool wxPGChoiceEditor::GetValueFromControl</definition>
+        <argsstring>(wxVariant &amp;variant, wxPGProperty *property, wxWindow *ctrl) const</argsstring>
+        <name>GetValueFromControl</name>
+        <reimplements refid="classwx_p_g_editor_1a659824648ba414ff9598644e027df327">GetValueFromControl</reimplements>
+        <reimplementedby refid="classwx_p_g_combo_box_editor_1a730e51b8e3fdf870d95b67524f400168">GetValueFromControl</reimplementedby>
+        <param>
+          <type><ref refid="classwx_variant" kindref="compound">wxVariant</ref> &amp;</type>
+          <declname>variant</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_p_g_property" kindref="compound">wxPGProperty</ref> *</type>
+          <declname>property</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_window" kindref="compound">wxWindow</ref> *</type>
+          <declname>ctrl</declname>
+        </param>
+        <briefdescription>
+<para>Returns value from control, via parameter &apos;variant&apos;. </para>        </briefdescription>
+        <detaileddescription>
+<para>Usually ends up calling property&apos;s StringToValue() or IntToValue(). Returns true if value was different. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/editors.h" line="253" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_p_g_choice_editor_1ad7ad3ffd49f5400d20e604ce9ed2674d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void wxPGChoiceEditor::SetValueToUnspecified</definition>
+        <argsstring>(wxPGProperty *property, wxWindow *ctrl) const</argsstring>
+        <name>SetValueToUnspecified</name>
+        <reimplements refid="classwx_p_g_editor_1a61941ea05d5c5962e0eea7159a6087fe">SetValueToUnspecified</reimplements>
+        <param>
+          <type><ref refid="classwx_p_g_property" kindref="compound">wxPGProperty</ref> *</type>
+          <declname>property</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_window" kindref="compound">wxWindow</ref> *</type>
+          <declname>ctrl</declname>
+        </param>
+        <briefdescription>
+<para>Sets value in control to unspecified. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/editors.h" line="256" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_p_g_choice_editor_1ae1258b2a46be03c88987f64da3322e9c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="classwx_string" kindref="compound">wxString</ref></type>
+        <definition>virtual wxString wxPGChoiceEditor::GetName</definition>
+        <argsstring>() const</argsstring>
+        <name>GetName</name>
+        <reimplements refid="classwx_p_g_editor_1a0bbdc7034d7ff76d6dffda833703858c">GetName</reimplements>
+        <reimplementedby refid="classwx_p_g_combo_box_editor_1a7caaf540b3fecc467f44eb248640083b">GetName</reimplementedby>
+        <reimplementedby refid="classwx_p_g_choice_and_button_editor_1aeee04d7e63b0a979890e350da40ff3a4">GetName</reimplementedby>
+        <briefdescription>
+<para>Returns pointer to the name of the editor. </para>        </briefdescription>
+        <detaileddescription>
+<para>For example, wxPGEditor_TextCtrl has name &quot;TextCtrl&quot;. If you dont&apos; need to access your custom editor by string name, then you do not need to implement this function. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/editors.h" line="258" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_p_g_choice_editor_1a8ab38d358245db8dd4917caa60e8144f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void wxPGChoiceEditor::SetControlIntValue</definition>
+        <argsstring>(wxPGProperty *property, wxWindow *ctrl, int value) const</argsstring>
+        <name>SetControlIntValue</name>
+        <reimplements refid="classwx_p_g_editor_1a98a252a47c070cb8e4e8b7142624777a">SetControlIntValue</reimplements>
+        <param>
+          <type><ref refid="classwx_p_g_property" kindref="compound">wxPGProperty</ref> *</type>
+          <declname>property</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_window" kindref="compound">wxWindow</ref> *</type>
+          <declname>ctrl</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Sets control&apos;s value specifically from int (applies to choice etc.). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/editors.h" line="260" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_p_g_choice_editor_1a62d20159938870057dfda59083a8cfb4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void wxPGChoiceEditor::SetControlStringValue</definition>
+        <argsstring>(wxPGProperty *property, wxWindow *ctrl, const wxString &amp;txt) const</argsstring>
+        <name>SetControlStringValue</name>
+        <reimplements refid="classwx_p_g_editor_1a7c522a5a0b4a43ce486d48f1ff021568">SetControlStringValue</reimplements>
+        <param>
+          <type><ref refid="classwx_p_g_property" kindref="compound">wxPGProperty</ref> *</type>
+          <declname>property</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_window" kindref="compound">wxWindow</ref> *</type>
+          <declname>ctrl</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>txt</declname>
+        </param>
+        <briefdescription>
+<para>Sets control&apos;s value specifically from string. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/editors.h" line="263" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_p_g_choice_editor_1af61d1f313ac6deae15eeb126b955e67b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>int</type>
+        <definition>virtual int wxPGChoiceEditor::InsertItem</definition>
+        <argsstring>(wxWindow *ctrl, const wxString &amp;label, int index) const</argsstring>
+        <name>InsertItem</name>
+        <reimplements refid="classwx_p_g_editor_1aa36816d607db13e0daf9c1feb22580ea">InsertItem</reimplements>
+        <param>
+          <type><ref refid="classwx_window" kindref="compound">wxWindow</ref> *</type>
+          <declname>ctrl</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>label</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+<para>Inserts item to existing control. </para>        </briefdescription>
+        <detaileddescription>
+<para>Index -1 means end of list. Default implementation does nothing. Returns index of item added. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/editors.h" line="267" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_p_g_choice_editor_1af7d07530a269a6ee24f4f76fe6508138" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void wxPGChoiceEditor::DeleteItem</definition>
+        <argsstring>(wxWindow *ctrl, int index) const</argsstring>
+        <name>DeleteItem</name>
+        <reimplements refid="classwx_p_g_editor_1a6d8f77f37726060b95ededf323177478">DeleteItem</reimplements>
+        <param>
+          <type><ref refid="classwx_window" kindref="compound">wxWindow</ref> *</type>
+          <declname>ctrl</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+<para>Deletes item from existing control. </para>        </briefdescription>
+        <detaileddescription>
+<para>Default implementation does nothing. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/editors.h" line="270" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_p_g_choice_editor_1a74044d3483004f19c46d95324774b34a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool wxPGChoiceEditor::CanContainCustomImage</definition>
+        <argsstring>() const</argsstring>
+        <name>CanContainCustomImage</name>
+        <reimplements refid="classwx_p_g_editor_1ab5483cdd96879f78eb31cd1775eac2a8">CanContainCustomImage</reimplements>
+        <briefdescription>
+<para>Returns true if control itself can contain the custom image. </para>        </briefdescription>
+        <detaileddescription>
+<para>Default implementation returns false. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/editors.h" line="271" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_p_g_choice_editor_1afb8afcf4d4c71bbd9458c506694a1298" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_window" kindref="compound">wxWindow</ref> *</type>
+        <definition>wxWindow* wxPGChoiceEditor::CreateControlsBase</definition>
+        <argsstring>(wxPropertyGrid *propgrid, wxPGProperty *property, const wxPoint &amp;pos, const wxSize &amp;sz, long extraStyle) const</argsstring>
+        <name>CreateControlsBase</name>
+        <param>
+          <type><ref refid="classwx_property_grid" kindref="compound">wxPropertyGrid</ref> *</type>
+          <declname>propgrid</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_p_g_property" kindref="compound">wxPGProperty</ref> *</type>
+          <declname>property</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_point" kindref="compound">wxPoint</ref> &amp;</type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_size" kindref="compound">wxSize</ref> &amp;</type>
+          <declname>sz</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>extraStyle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/editors.h" line="273" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="5304">
+        <label>wxObject</label>
+        <link refid="classwx_object"/>
+      </node>
+      <node id="5306">
+        <label>wxPGComboBoxEditor</label>
+        <link refid="classwx_p_g_combo_box_editor"/>
+        <childnode refid="5302" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5302">
+        <label>wxPGChoiceEditor</label>
+        <link refid="classwx_p_g_choice_editor"/>
+        <childnode refid="5303" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5303">
+        <label>wxPGEditor</label>
+        <link refid="classwx_p_g_editor"/>
+        <childnode refid="5304" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5305">
+        <label>wxPGChoiceAndButtonEditor</label>
+        <link refid="classwx_p_g_choice_and_button_editor"/>
+        <childnode refid="5302" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="5309">
+        <label>wxObject</label>
+        <link refid="classwx_object"/>
+        <childnode refid="5310" relation="usage">
+          <edgelabel>m_refData</edgelabel>
+        </childnode>
+      </node>
+      <node id="5307">
+        <label>wxPGChoiceEditor</label>
+        <link refid="classwx_p_g_choice_editor"/>
+        <childnode refid="5308" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5308">
+        <label>wxPGEditor</label>
+        <link refid="classwx_p_g_editor"/>
+        <childnode refid="5309" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5310">
+        <label>wxObjectRefData</label>
+        <link refid="classwx_object_ref_data"/>
+      </node>
+    </collaborationgraph>
+    <location file="interface/wx/propgrid/editors.h" line="238" column="1" bodyfile="interface/wx/propgrid/editors.h" bodystart="237" bodyend="279"/>
+    <listofallmembers>
+      <member refid="classwx_object_1a60204063f3cc3aa2fa1c7ff5bda9eb13" prot="protected" virt="non-virtual"><scope>wxPGChoiceEditor</scope><name>AllocExclusive</name></member>
+      <member refid="classwx_p_g_choice_editor_1a74044d3483004f19c46d95324774b34a" prot="public" virt="virtual"><scope>wxPGChoiceEditor</scope><name>CanContainCustomImage</name></member>
+      <member refid="classwx_object_1a436fc8fe68cf8a31000296d9cd3d2427" prot="protected" virt="virtual"><scope>wxPGChoiceEditor</scope><name>CloneRefData</name></member>
+      <member refid="classwx_p_g_choice_editor_1adad54c3f9d47922fc8ee1499a04ec07b" prot="public" virt="virtual"><scope>wxPGChoiceEditor</scope><name>CreateControls</name></member>
+      <member refid="classwx_p_g_choice_editor_1afb8afcf4d4c71bbd9458c506694a1298" prot="public" virt="non-virtual"><scope>wxPGChoiceEditor</scope><name>CreateControlsBase</name></member>
+      <member refid="classwx_object_1a3f4f497c65cef611e121c41f21dd5ccc" prot="protected" virt="virtual"><scope>wxPGChoiceEditor</scope><name>CreateRefData</name></member>
+      <member refid="classwx_p_g_choice_editor_1af7d07530a269a6ee24f4f76fe6508138" prot="public" virt="virtual"><scope>wxPGChoiceEditor</scope><name>DeleteItem</name></member>
+      <member refid="classwx_p_g_editor_1a32a1bd59a5d00b39d35e39f9ee7c1cb3" prot="public" virt="virtual"><scope>wxPGChoiceEditor</scope><name>DrawValue</name></member>
+      <member refid="classwx_object_1ae6d365f2556b26767ced8410c5e839d0" prot="public" virt="virtual"><scope>wxPGChoiceEditor</scope><name>GetClassInfo</name></member>
+      <member refid="classwx_p_g_choice_editor_1ae1258b2a46be03c88987f64da3322e9c" prot="public" virt="virtual"><scope>wxPGChoiceEditor</scope><name>GetName</name></member>
+      <member refid="classwx_object_1af3c6c76a775864832f1536d3c0de3a2b" prot="public" virt="non-virtual"><scope>wxPGChoiceEditor</scope><name>GetRefData</name></member>
+      <member refid="classwx_p_g_choice_editor_1af7dded049c895f619047359a4f055863" prot="public" virt="virtual"><scope>wxPGChoiceEditor</scope><name>GetValueFromControl</name></member>
+      <member refid="classwx_p_g_choice_editor_1af61d1f313ac6deae15eeb126b955e67b" prot="public" virt="virtual"><scope>wxPGChoiceEditor</scope><name>InsertItem</name></member>
+      <member refid="classwx_object_1a3c7115ef4132dcee0c4fc34e84d7fced" prot="public" virt="non-virtual"><scope>wxPGChoiceEditor</scope><name>IsKindOf</name></member>
+      <member refid="classwx_object_1a059373c494c2369d7db2a556efef8ecf" prot="public" virt="non-virtual"><scope>wxPGChoiceEditor</scope><name>IsSameAs</name></member>
+      <member refid="classwx_p_g_editor_1ad066c97e851bb86baa6b75f99174cee1" prot="public" virt="non-virtual"><scope>wxPGChoiceEditor</scope><name>m_clientData</name></member>
+      <member refid="classwx_object_1a9e31954530a0abd54982effc443ed2b8" prot="protected" virt="non-virtual"><scope>wxPGChoiceEditor</scope><name>m_refData</name></member>
+      <member refid="classwx_p_g_choice_editor_1a9a06bbaf3c50fa1e7924cf61548ea056" prot="public" virt="virtual"><scope>wxPGChoiceEditor</scope><name>OnEvent</name></member>
+      <member refid="classwx_p_g_editor_1a0ce261471210cf6c1cf1c8f3d6e7e102" prot="public" virt="virtual"><scope>wxPGChoiceEditor</scope><name>OnFocus</name></member>
+      <member refid="classwx_object_1a07b8f34f5afc5743195c5fed052f55d3" prot="public" virt="non-virtual"><scope>wxPGChoiceEditor</scope><name>operator delete</name></member>
+      <member refid="classwx_object_1a96fa423a1dbc212c8227a5d83825971f" prot="public" virt="non-virtual"><scope>wxPGChoiceEditor</scope><name>operator new</name></member>
+      <member refid="classwx_object_1a2f6f1aa51fe9fc2b1415ca4211a90e9e" prot="public" virt="non-virtual"><scope>wxPGChoiceEditor</scope><name>Ref</name></member>
+      <member refid="classwx_p_g_editor_1a475bd60b51f9cd4f08dd7f0d67cc2334" prot="public" virt="virtual"><scope>wxPGChoiceEditor</scope><name>SetControlAppearance</name></member>
+      <member refid="classwx_p_g_choice_editor_1a8ab38d358245db8dd4917caa60e8144f" prot="public" virt="virtual"><scope>wxPGChoiceEditor</scope><name>SetControlIntValue</name></member>
+      <member refid="classwx_p_g_choice_editor_1a62d20159938870057dfda59083a8cfb4" prot="public" virt="virtual"><scope>wxPGChoiceEditor</scope><name>SetControlStringValue</name></member>
+      <member refid="classwx_object_1afab780710f2adc1bb33310e27590140b" prot="public" virt="non-virtual"><scope>wxPGChoiceEditor</scope><name>SetRefData</name></member>
+      <member refid="classwx_p_g_choice_editor_1ad7ad3ffd49f5400d20e604ce9ed2674d" prot="public" virt="virtual"><scope>wxPGChoiceEditor</scope><name>SetValueToUnspecified</name></member>
+      <member refid="classwx_object_1af51efc6b1ae632fc7f0cd7ebbce9fa36" prot="public" virt="non-virtual"><scope>wxPGChoiceEditor</scope><name>UnRef</name></member>
+      <member refid="classwx_object_1a74b40e42d19a4b9e9bec0b57d62a5725" prot="public" virt="non-virtual"><scope>wxPGChoiceEditor</scope><name>UnShare</name></member>
+      <member refid="classwx_p_g_choice_editor_1abe14c536c92754d86f9c38dfd77fce85" prot="public" virt="virtual"><scope>wxPGChoiceEditor</scope><name>UpdateControl</name></member>
+      <member refid="classwx_object_1acaa378363a28af421ab56ad7b46eadf0" prot="public" virt="non-virtual"><scope>wxPGChoiceEditor</scope><name>wxObject</name></member>
+      <member refid="classwx_object_1a4721b4dc9b7aff0f30904ba2ea3954cf" prot="public" virt="non-virtual"><scope>wxPGChoiceEditor</scope><name>wxObject</name></member>
+      <member refid="classwx_p_g_choice_editor_1a0c36252a21a85e5c9169c0ba9fd121bf" prot="public" virt="non-virtual"><scope>wxPGChoiceEditor</scope><name>wxPGChoiceEditor</name></member>
+      <member refid="classwx_p_g_editor_1a31af1e59136a4246e19a4f2792762a1f" prot="public" virt="non-virtual"><scope>wxPGChoiceEditor</scope><name>wxPGEditor</name></member>
+      <member refid="classwx_object_1a2a51aa8bfbab47ca2f051bcf84b3f35b" prot="public" virt="virtual"><scope>wxPGChoiceEditor</scope><name>~wxObject</name></member>
+      <member refid="classwx_p_g_editor_1a29dc3fd2736e4e4929753e10df3fa01c" prot="public" virt="virtual"><scope>wxPGChoiceEditor</scope><name>~wxPGEditor</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

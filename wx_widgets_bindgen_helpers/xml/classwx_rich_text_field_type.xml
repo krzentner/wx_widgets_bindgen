@@ -1,0 +1,431 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_rich_text_field_type" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>wxRichTextFieldType</compoundname>
+    <basecompoundref refid="classwx_object" prot="public" virt="non-virtual">wxObject</basecompoundref>
+    <derivedcompoundref refid="classwx_rich_text_field_type_standard" prot="public" virt="non-virtual">wxRichTextFieldTypeStandard</derivedcompoundref>
+    <includes local="no">wx/richtext/richtextbuffer.h</includes>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classwx_rich_text_field_type_1a3a87412ecadb4ff16e7e5c5ff2d1b4cf" prot="protected" static="no" mutable="no">
+        <type><ref refid="classwx_string" kindref="compound">wxString</ref></type>
+        <definition>wxString wxRichTextFieldType::m_name</definition>
+        <argsstring></argsstring>
+        <name>m_name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="3637" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="3637" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classwx_rich_text_field_type_1af9ef1e01ba8dc7db1b55e68dc0c8fa40" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>wxRichTextFieldType::wxRichTextFieldType</definition>
+        <argsstring>(const wxString &amp;name=wxEmptyString)</argsstring>
+        <name>wxRichTextFieldType</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>name</declname>
+          <defval><ref refid="interface_2wx_2string_8h_1a9a321d587166a30017b608dd2d234033" kindref="member">wxEmptyString</ref></defval>
+        </param>
+        <briefdescription>
+<para>Creates a field type definition. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="3568" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="3568" bodyend="3570"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_field_type_1aa75abc9c880c0f1a3a43763edbb3a913" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>wxRichTextFieldType::wxRichTextFieldType</definition>
+        <argsstring>(const wxRichTextFieldType &amp;fieldType)</argsstring>
+        <name>wxRichTextFieldType</name>
+        <param>
+          <type>const <ref refid="classwx_rich_text_field_type" kindref="compound">wxRichTextFieldType</ref> &amp;</type>
+          <declname>fieldType</declname>
+        </param>
+        <briefdescription>
+<para>Copy constructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="3575" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="3575" bodyend="3575"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_field_type_1a66e1b96bb6c1fc4cd43e21fb55291544" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxRichTextFieldType::Copy</definition>
+        <argsstring>(const wxRichTextFieldType &amp;fieldType)</argsstring>
+        <name>Copy</name>
+        <param>
+          <type>const <ref refid="classwx_rich_text_field_type" kindref="compound">wxRichTextFieldType</ref> &amp;</type>
+          <declname>fieldType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="3577" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="3577" bodyend="3577"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_field_type_1a7394e955a5acf24d9c8125488662a55c" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>bool</type>
+        <definition>virtual bool wxRichTextFieldType::Draw</definition>
+        <argsstring>(wxRichTextField *obj, wxDC &amp;dc, wxRichTextDrawingContext &amp;context, const wxRichTextRange &amp;range, const wxRichTextSelection &amp;selection, const wxRect &amp;rect, int descent, int style)=0</argsstring>
+        <name>Draw</name>
+        <reimplementedby refid="classwx_rich_text_field_type_standard_1ae3335c358bd5039df21d37b034fad5f5">Draw</reimplementedby>
+        <param>
+          <type><ref refid="classwx_rich_text_field" kindref="compound">wxRichTextField</ref> *</type>
+          <declname>obj</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_d_c" kindref="compound">wxDC</ref> &amp;</type>
+          <declname>dc</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_rich_text_drawing_context" kindref="compound">wxRichTextDrawingContext</ref> &amp;</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_rich_text_range" kindref="compound">wxRichTextRange</ref> &amp;</type>
+          <declname>range</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_rich_text_selection" kindref="compound">wxRichTextSelection</ref> &amp;</type>
+          <declname>selection</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_rect" kindref="compound">wxRect</ref> &amp;</type>
+          <declname>rect</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>descent</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>style</declname>
+        </param>
+        <briefdescription>
+<para>Draw the item, within the given range. </para>        </briefdescription>
+        <detaileddescription>
+<para>Some objects may ignore the range (for example paragraphs) while others must obey it (lines, to implement wrapping) </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="3583" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_field_type_1ab1db4fac2471ab82398021e248aa11a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>bool</type>
+        <definition>virtual bool wxRichTextFieldType::Layout</definition>
+        <argsstring>(wxRichTextField *obj, wxDC &amp;dc, wxRichTextDrawingContext &amp;context, const wxRect &amp;rect, const wxRect &amp;parentRect, int style)=0</argsstring>
+        <name>Layout</name>
+        <reimplementedby refid="classwx_rich_text_field_type_standard_1a95e373a021bb9481f5f38fbaa6588a85">Layout</reimplementedby>
+        <param>
+          <type><ref refid="classwx_rich_text_field" kindref="compound">wxRichTextField</ref> *</type>
+          <declname>obj</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_d_c" kindref="compound">wxDC</ref> &amp;</type>
+          <declname>dc</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_rich_text_drawing_context" kindref="compound">wxRichTextDrawingContext</ref> &amp;</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_rect" kindref="compound">wxRect</ref> &amp;</type>
+          <declname>rect</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_rect" kindref="compound">wxRect</ref> &amp;</type>
+          <declname>parentRect</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>style</declname>
+        </param>
+        <briefdescription>
+<para>Lay the item out at the specified position with the given size constraint. </para>        </briefdescription>
+        <detaileddescription>
+<para>Layout must set the cached size. <emphasis>rect</emphasis> is the available space for the object, and <emphasis>parentRect</emphasis> is the container that is used to determine a relative size or position (for example if a text box must be 50% of the parent text box). </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="3591" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_field_type_1a2c9d8a4c8de66d7caaf2801812202e64" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>bool</type>
+        <definition>virtual bool wxRichTextFieldType::GetRangeSize</definition>
+        <argsstring>(wxRichTextField *obj, const wxRichTextRange &amp;range, wxSize &amp;size, int &amp;descent, wxDC &amp;dc, wxRichTextDrawingContext &amp;context, int flags, const wxPoint &amp;position=wxPoint(0, 0), const wxSize &amp;parentSize=wxDefaultSize, wxArrayInt *partialExtents=NULL) const =0</argsstring>
+        <name>GetRangeSize</name>
+        <reimplementedby refid="classwx_rich_text_field_type_standard_1ac3e5c94503910db055011a3a673dbbdf">GetRangeSize</reimplementedby>
+        <param>
+          <type><ref refid="classwx_rich_text_field" kindref="compound">wxRichTextField</ref> *</type>
+          <declname>obj</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_rich_text_range" kindref="compound">wxRichTextRange</ref> &amp;</type>
+          <declname>range</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_size" kindref="compound">wxSize</ref> &amp;</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>int &amp;</type>
+          <declname>descent</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_d_c" kindref="compound">wxDC</ref> &amp;</type>
+          <declname>dc</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_rich_text_drawing_context" kindref="compound">wxRichTextDrawingContext</ref> &amp;</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>flags</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_point" kindref="compound">wxPoint</ref> &amp;</type>
+          <declname>position</declname>
+          <defval><ref refid="classwx_point" kindref="compound">wxPoint</ref>(0, 0)</defval>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_size" kindref="compound">wxSize</ref> &amp;</type>
+          <declname>parentSize</declname>
+          <defval><ref refid="gdicmn_8h_1a33a012cdb075e9f78c93f63bec2dc27b" kindref="member">wxDefaultSize</ref></defval>
+        </param>
+        <param>
+          <type><ref refid="dynarray_8h_1add87f199292e36ee87efd6d7f0d4ee66" kindref="member">wxArrayInt</ref> *</type>
+          <declname>partialExtents</declname>
+          <defval>NULL</defval>
+        </param>
+        <briefdescription>
+<para>Returns the object size for the given range. </para>        </briefdescription>
+        <detaileddescription>
+<para>Returns false if the range is invalid for this object. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="3597" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_field_type_1a35f43dfb867b7c8fdd8fea81269ee4c9" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool wxRichTextFieldType::CanEditProperties</definition>
+        <argsstring>(wxRichTextField *obj) const</argsstring>
+        <name>CanEditProperties</name>
+        <param>
+          <type><ref refid="classwx_rich_text_field" kindref="compound">wxRichTextField</ref> *</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+<para>Returns true if we can edit the object&apos;s properties via a GUI. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="3602" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="3602" bodyend="3602"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_field_type_1a7d29fe4fd0e0bf38c1998621711c036f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool wxRichTextFieldType::EditProperties</definition>
+        <argsstring>(wxRichTextField *obj, wxWindow *parent, wxRichTextBuffer *buffer)</argsstring>
+        <name>EditProperties</name>
+        <param>
+          <type><ref refid="classwx_rich_text_field" kindref="compound">wxRichTextField</ref> *</type>
+          <declname>obj</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_window" kindref="compound">wxWindow</ref> *</type>
+          <declname>parent</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_rich_text_buffer" kindref="compound">wxRichTextBuffer</ref> *</type>
+          <declname>buffer</declname>
+        </param>
+        <briefdescription>
+<para>Edits the object&apos;s properties via a GUI. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="3607" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="3607" bodyend="3607"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_field_type_1a938eea34b941678679b1f5dee1c4103e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="classwx_string" kindref="compound">wxString</ref></type>
+        <definition>virtual wxString wxRichTextFieldType::GetPropertiesMenuLabel</definition>
+        <argsstring>(wxRichTextField *obj) const</argsstring>
+        <name>GetPropertiesMenuLabel</name>
+        <param>
+          <type><ref refid="classwx_rich_text_field" kindref="compound">wxRichTextField</ref> *</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+<para>Returns the label to be used for the properties context menu item. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="3612" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="3612" bodyend="3612"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_field_type_1af2fea4621d5c0d6ef151a7674a7810fd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool wxRichTextFieldType::UpdateField</definition>
+        <argsstring>(wxRichTextBuffer *buffer, wxRichTextField *obj)</argsstring>
+        <name>UpdateField</name>
+        <param>
+          <type><ref refid="classwx_rich_text_buffer" kindref="compound">wxRichTextBuffer</ref> *</type>
+          <declname>buffer</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_rich_text_field" kindref="compound">wxRichTextField</ref> *</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+<para>Update the field. </para>        </briefdescription>
+        <detaileddescription>
+<para>This would typically expand the field to its value, if this is a dynamically changing and/or composite field. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="3618" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="3618" bodyend="3618"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_field_type_1aef25534c3aec8b10eb53c6321f5da299" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool wxRichTextFieldType::IsTopLevel</definition>
+        <argsstring>(wxRichTextField *obj) const</argsstring>
+        <name>IsTopLevel</name>
+        <reimplementedby refid="classwx_rich_text_field_type_standard_1aac8d65c98be57fcd42f862ec3d01e8ff">IsTopLevel</reimplementedby>
+        <param>
+          <type><ref refid="classwx_rich_text_field" kindref="compound">wxRichTextField</ref> *</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+<para>Returns true if this object is top-level, i.e. contains its own paragraphs, such as a text box. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="3623" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="3623" bodyend="3623"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_field_type_1ac262078a04c98149b4e4277384a608c4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxRichTextFieldType::SetName</definition>
+        <argsstring>(const wxString &amp;name)</argsstring>
+        <name>SetName</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+<para>Sets the field type name. </para>        </briefdescription>
+        <detaileddescription>
+<para>There should be a unique name per field type object. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="3628" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="3628" bodyend="3628"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_field_type_1a1d022b2a2222f0b127bf16626a1275b9" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classwx_string" kindref="compound">wxString</ref></type>
+        <definition>wxString wxRichTextFieldType::GetName</definition>
+        <argsstring>() const</argsstring>
+        <name>GetName</name>
+        <briefdescription>
+<para>Returns the field type name. </para>        </briefdescription>
+        <detaileddescription>
+<para>There should be a unique name per field type object. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="3633" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="3633" bodyend="3633"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>The base class for custom field types. </para>    </briefdescription>
+    <detaileddescription>
+<para>Each type definition handles one field type. Override functions to provide drawing, layout, updating and property editing functionality for a field.</para><para>Register field types on application initialisation with the static function <ref refid="classwx_rich_text_buffer_1ac35d3843f99893735bb8ba43e3dbd30b" kindref="member">wxRichTextBuffer::AddFieldType</ref>. They will be deleted automatically on application exit.</para><para><heading level="2"></heading>
+</para><para>Library:<nonbreakablespace/><nonbreakablespace/><ref refid="page_libs_1page_libs_wxrichtext" kindref="member">wxRichText</ref> &lt;&gt;&lt; =&apos;&apos;&gt;:&lt;/&gt;&amp;;&amp;;&lt; =&apos;&apos;&gt;\ &lt;/&gt;&lt;/&gt;</para><para><simplesect kind="see"><para><ref refid="classwx_rich_text_field_type_standard" kindref="compound">wxRichTextFieldTypeStandard</ref>, <ref refid="classwx_rich_text_field" kindref="compound">wxRichTextField</ref>, <ref refid="classwx_rich_text_ctrl" kindref="compound">wxRichTextCtrl</ref> </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="6591">
+        <label>wxRichTextFieldType</label>
+        <link refid="classwx_rich_text_field_type"/>
+        <childnode refid="6592" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6592">
+        <label>wxObject</label>
+        <link refid="classwx_object"/>
+      </node>
+      <node id="6593">
+        <label>wxRichTextFieldTypeStandard</label>
+        <link refid="classwx_rich_text_field_type_standard"/>
+        <childnode refid="6591" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="6597">
+        <label>wxString</label>
+        <link refid="classwx_string"/>
+      </node>
+      <node id="6594">
+        <label>wxRichTextFieldType</label>
+        <link refid="classwx_rich_text_field_type"/>
+        <childnode refid="6595" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6597" relation="usage">
+          <edgelabel>m_name</edgelabel>
+        </childnode>
+      </node>
+      <node id="6595">
+        <label>wxObject</label>
+        <link refid="classwx_object"/>
+        <childnode refid="6596" relation="usage">
+          <edgelabel>m_refData</edgelabel>
+        </childnode>
+      </node>
+      <node id="6596">
+        <label>wxObjectRefData</label>
+        <link refid="classwx_object_ref_data"/>
+      </node>
+    </collaborationgraph>
+    <location file="interface/wx/richtext/richtextbuffer.h" line="3563" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="3562" bodyend="3638"/>
+    <listofallmembers>
+      <member refid="classwx_object_1a60204063f3cc3aa2fa1c7ff5bda9eb13" prot="protected" virt="non-virtual"><scope>wxRichTextFieldType</scope><name>AllocExclusive</name></member>
+      <member refid="classwx_rich_text_field_type_1a35f43dfb867b7c8fdd8fea81269ee4c9" prot="public" virt="virtual"><scope>wxRichTextFieldType</scope><name>CanEditProperties</name></member>
+      <member refid="classwx_object_1a436fc8fe68cf8a31000296d9cd3d2427" prot="protected" virt="virtual"><scope>wxRichTextFieldType</scope><name>CloneRefData</name></member>
+      <member refid="classwx_rich_text_field_type_1a66e1b96bb6c1fc4cd43e21fb55291544" prot="public" virt="non-virtual"><scope>wxRichTextFieldType</scope><name>Copy</name></member>
+      <member refid="classwx_object_1a3f4f497c65cef611e121c41f21dd5ccc" prot="protected" virt="virtual"><scope>wxRichTextFieldType</scope><name>CreateRefData</name></member>
+      <member refid="classwx_rich_text_field_type_1a7394e955a5acf24d9c8125488662a55c" prot="public" virt="pure-virtual"><scope>wxRichTextFieldType</scope><name>Draw</name></member>
+      <member refid="classwx_rich_text_field_type_1a7d29fe4fd0e0bf38c1998621711c036f" prot="public" virt="virtual"><scope>wxRichTextFieldType</scope><name>EditProperties</name></member>
+      <member refid="classwx_object_1ae6d365f2556b26767ced8410c5e839d0" prot="public" virt="virtual"><scope>wxRichTextFieldType</scope><name>GetClassInfo</name></member>
+      <member refid="classwx_rich_text_field_type_1a1d022b2a2222f0b127bf16626a1275b9" prot="public" virt="non-virtual"><scope>wxRichTextFieldType</scope><name>GetName</name></member>
+      <member refid="classwx_rich_text_field_type_1a938eea34b941678679b1f5dee1c4103e" prot="public" virt="virtual"><scope>wxRichTextFieldType</scope><name>GetPropertiesMenuLabel</name></member>
+      <member refid="classwx_rich_text_field_type_1a2c9d8a4c8de66d7caaf2801812202e64" prot="public" virt="pure-virtual"><scope>wxRichTextFieldType</scope><name>GetRangeSize</name></member>
+      <member refid="classwx_object_1af3c6c76a775864832f1536d3c0de3a2b" prot="public" virt="non-virtual"><scope>wxRichTextFieldType</scope><name>GetRefData</name></member>
+      <member refid="classwx_object_1a3c7115ef4132dcee0c4fc34e84d7fced" prot="public" virt="non-virtual"><scope>wxRichTextFieldType</scope><name>IsKindOf</name></member>
+      <member refid="classwx_object_1a059373c494c2369d7db2a556efef8ecf" prot="public" virt="non-virtual"><scope>wxRichTextFieldType</scope><name>IsSameAs</name></member>
+      <member refid="classwx_rich_text_field_type_1aef25534c3aec8b10eb53c6321f5da299" prot="public" virt="virtual"><scope>wxRichTextFieldType</scope><name>IsTopLevel</name></member>
+      <member refid="classwx_rich_text_field_type_1ab1db4fac2471ab82398021e248aa11a3" prot="public" virt="pure-virtual"><scope>wxRichTextFieldType</scope><name>Layout</name></member>
+      <member refid="classwx_rich_text_field_type_1a3a87412ecadb4ff16e7e5c5ff2d1b4cf" prot="protected" virt="non-virtual"><scope>wxRichTextFieldType</scope><name>m_name</name></member>
+      <member refid="classwx_object_1a9e31954530a0abd54982effc443ed2b8" prot="protected" virt="non-virtual"><scope>wxRichTextFieldType</scope><name>m_refData</name></member>
+      <member refid="classwx_object_1a07b8f34f5afc5743195c5fed052f55d3" prot="public" virt="non-virtual"><scope>wxRichTextFieldType</scope><name>operator delete</name></member>
+      <member refid="classwx_object_1a96fa423a1dbc212c8227a5d83825971f" prot="public" virt="non-virtual"><scope>wxRichTextFieldType</scope><name>operator new</name></member>
+      <member refid="classwx_object_1a2f6f1aa51fe9fc2b1415ca4211a90e9e" prot="public" virt="non-virtual"><scope>wxRichTextFieldType</scope><name>Ref</name></member>
+      <member refid="classwx_rich_text_field_type_1ac262078a04c98149b4e4277384a608c4" prot="public" virt="non-virtual"><scope>wxRichTextFieldType</scope><name>SetName</name></member>
+      <member refid="classwx_object_1afab780710f2adc1bb33310e27590140b" prot="public" virt="non-virtual"><scope>wxRichTextFieldType</scope><name>SetRefData</name></member>
+      <member refid="classwx_object_1af51efc6b1ae632fc7f0cd7ebbce9fa36" prot="public" virt="non-virtual"><scope>wxRichTextFieldType</scope><name>UnRef</name></member>
+      <member refid="classwx_object_1a74b40e42d19a4b9e9bec0b57d62a5725" prot="public" virt="non-virtual"><scope>wxRichTextFieldType</scope><name>UnShare</name></member>
+      <member refid="classwx_rich_text_field_type_1af2fea4621d5c0d6ef151a7674a7810fd" prot="public" virt="virtual"><scope>wxRichTextFieldType</scope><name>UpdateField</name></member>
+      <member refid="classwx_object_1acaa378363a28af421ab56ad7b46eadf0" prot="public" virt="non-virtual"><scope>wxRichTextFieldType</scope><name>wxObject</name></member>
+      <member refid="classwx_object_1a4721b4dc9b7aff0f30904ba2ea3954cf" prot="public" virt="non-virtual"><scope>wxRichTextFieldType</scope><name>wxObject</name></member>
+      <member refid="classwx_rich_text_field_type_1af9ef1e01ba8dc7db1b55e68dc0c8fa40" prot="public" virt="non-virtual"><scope>wxRichTextFieldType</scope><name>wxRichTextFieldType</name></member>
+      <member refid="classwx_rich_text_field_type_1aa75abc9c880c0f1a3a43763edbb3a913" prot="public" virt="non-virtual"><scope>wxRichTextFieldType</scope><name>wxRichTextFieldType</name></member>
+      <member refid="classwx_object_1a2a51aa8bfbab47ca2f051bcf84b3f35b" prot="public" virt="virtual"><scope>wxRichTextFieldType</scope><name>~wxObject</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

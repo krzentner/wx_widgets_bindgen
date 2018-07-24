@@ -1,0 +1,224 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_rich_text_object_address" kind="class" language="C++" prot="public">
+    <compoundname>wxRichTextObjectAddress</compoundname>
+    <includes local="no">wx/richtext/richtextbuffer.h</includes>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classwx_rich_text_object_address_1a999a55c4cd29c2492c49b0df98b2605d" prot="protected" static="no" mutable="no">
+        <type><ref refid="dynarray_8h_1add87f199292e36ee87efd6d7f0d4ee66" kindref="member">wxArrayInt</ref></type>
+        <definition>wxArrayInt wxRichTextObjectAddress::m_address</definition>
+        <argsstring></argsstring>
+        <name>m_address</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="5808" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="5808" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classwx_rich_text_object_address_1a2d693dd09a237d8daa3e881d7a04c5fb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>wxRichTextObjectAddress::wxRichTextObjectAddress</definition>
+        <argsstring>(wxRichTextParagraphLayoutBox *topLevelContainer, wxRichTextObject *obj)</argsstring>
+        <name>wxRichTextObjectAddress</name>
+        <param>
+          <type><ref refid="classwx_rich_text_paragraph_layout_box" kindref="compound">wxRichTextParagraphLayoutBox</ref> *</type>
+          <declname>topLevelContainer</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_rich_text_object" kindref="compound">wxRichTextObject</ref> *</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+<para>Creates the address given a container and an object. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="5761" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="5761" bodyend="5761"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_object_address_1a152ecc02e7ec1505c423d8cd36d220d2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>wxRichTextObjectAddress::wxRichTextObjectAddress</definition>
+        <argsstring>()</argsstring>
+        <name>wxRichTextObjectAddress</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="5764" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="5764" bodyend="5764"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_object_address_1a5d527b4f99f9f023fde960c7ae2afc16" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>wxRichTextObjectAddress::wxRichTextObjectAddress</definition>
+        <argsstring>(const wxRichTextObjectAddress &amp;address)</argsstring>
+        <name>wxRichTextObjectAddress</name>
+        <param>
+          <type>const <ref refid="classwx_rich_text_object_address" kindref="compound">wxRichTextObjectAddress</ref> &amp;</type>
+          <declname>address</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="5767" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="5767" bodyend="5767"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_object_address_1a1cf0fc078ec51c0528bd97614beafa45" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxRichTextObjectAddress::Init</definition>
+        <argsstring>()</argsstring>
+        <name>Init</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="5769" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="5769" bodyend="5769"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_object_address_1a152a64ef8a2bc1bbea9b1b3b117a53cb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxRichTextObjectAddress::Copy</definition>
+        <argsstring>(const wxRichTextObjectAddress &amp;address)</argsstring>
+        <name>Copy</name>
+        <param>
+          <type>const <ref refid="classwx_rich_text_object_address" kindref="compound">wxRichTextObjectAddress</ref> &amp;</type>
+          <declname>address</declname>
+        </param>
+        <briefdescription>
+<para>Copies the address. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="5774" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="5774" bodyend="5774"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_object_address_1a96f8428f95bc0883030d0709d451eb6b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxRichTextObjectAddress::operator=</definition>
+        <argsstring>(const wxRichTextObjectAddress &amp;address)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="classwx_rich_text_object_address" kindref="compound">wxRichTextObjectAddress</ref> &amp;</type>
+          <declname>address</declname>
+        </param>
+        <briefdescription>
+<para>Assignment operator. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="5779" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="5779" bodyend="5779"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_object_address_1abff61d2762ec275e2e9075602fb2b7d6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_rich_text_object" kindref="compound">wxRichTextObject</ref> *</type>
+        <definition>wxRichTextObject* wxRichTextObjectAddress::GetObject</definition>
+        <argsstring>(wxRichTextParagraphLayoutBox *topLevelContainer) const</argsstring>
+        <name>GetObject</name>
+        <param>
+          <type><ref refid="classwx_rich_text_paragraph_layout_box" kindref="compound">wxRichTextParagraphLayoutBox</ref> *</type>
+          <declname>topLevelContainer</declname>
+        </param>
+        <briefdescription>
+<para>Returns the object specified by the address, given a top level container. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="5784" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_object_address_1a36544fb1cc6800597583e816187a17e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxRichTextObjectAddress::Create</definition>
+        <argsstring>(wxRichTextParagraphLayoutBox *topLevelContainer, wxRichTextObject *obj)</argsstring>
+        <name>Create</name>
+        <param>
+          <type><ref refid="classwx_rich_text_paragraph_layout_box" kindref="compound">wxRichTextParagraphLayoutBox</ref> *</type>
+          <declname>topLevelContainer</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_rich_text_object" kindref="compound">wxRichTextObject</ref> *</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+<para>Creates the address given a container and an object. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="5789" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_object_address_1affdec5095487c10a79ce2b7229e23e0d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="dynarray_8h_1add87f199292e36ee87efd6d7f0d4ee66" kindref="member">wxArrayInt</ref> &amp;</type>
+        <definition>wxArrayInt&amp; wxRichTextObjectAddress::GetAddress</definition>
+        <argsstring>()</argsstring>
+        <name>GetAddress</name>
+        <briefdescription>
+<para>Returns the array of integers representing the object address. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="5794" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="5794" bodyend="5794"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_object_address_1a86a2424610bd0f217917734da25e9c42" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="dynarray_8h_1add87f199292e36ee87efd6d7f0d4ee66" kindref="member">wxArrayInt</ref> &amp;</type>
+        <definition>const wxArrayInt&amp; wxRichTextObjectAddress::GetAddress</definition>
+        <argsstring>() const</argsstring>
+        <name>GetAddress</name>
+        <briefdescription>
+<para>Returns the array of integers representing the object address. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="5799" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="5799" bodyend="5799"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_object_address_1adbf5a5529307fe9567ddd1b735223a08" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxRichTextObjectAddress::SetAddress</definition>
+        <argsstring>(const wxArrayInt &amp;address)</argsstring>
+        <name>SetAddress</name>
+        <param>
+          <type>const <ref refid="dynarray_8h_1add87f199292e36ee87efd6d7f0d4ee66" kindref="member">wxArrayInt</ref> &amp;</type>
+          <declname>address</declname>
+        </param>
+        <briefdescription>
+<para>Sets the address from an array of integers. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="5804" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="5804" bodyend="5804"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>A class for specifying an object anywhere in an object hierarchy, without using a pointer, necessary since wxRTC commands may delete and recreate sub-objects so physical object addresses change. </para>    </briefdescription>
+    <detaileddescription>
+<para>An array of positions (one per hierarchy level) is used.</para><para><heading level="2"></heading>
+</para><para>Library:<nonbreakablespace/><nonbreakablespace/><ref refid="page_libs_1page_libs_wxrichtext" kindref="member">wxRichText</ref> &lt;&gt;&lt; =&apos;&apos;&gt;:&lt;/&gt;&amp;;&amp;;&lt; =&apos;&apos;&gt;\ &lt;/&gt;&lt;/&gt;</para><para><simplesect kind="see"><para><ref refid="classwx_rich_text_command" kindref="compound">wxRichTextCommand</ref> </para></simplesect>
+</para>    </detaileddescription>
+    <location file="interface/wx/richtext/richtextbuffer.h" line="5756" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="5755" bodyend="5809"/>
+    <listofallmembers>
+      <member refid="classwx_rich_text_object_address_1a152a64ef8a2bc1bbea9b1b3b117a53cb" prot="public" virt="non-virtual"><scope>wxRichTextObjectAddress</scope><name>Copy</name></member>
+      <member refid="classwx_rich_text_object_address_1a36544fb1cc6800597583e816187a17e9" prot="public" virt="non-virtual"><scope>wxRichTextObjectAddress</scope><name>Create</name></member>
+      <member refid="classwx_rich_text_object_address_1affdec5095487c10a79ce2b7229e23e0d" prot="public" virt="non-virtual"><scope>wxRichTextObjectAddress</scope><name>GetAddress</name></member>
+      <member refid="classwx_rich_text_object_address_1a86a2424610bd0f217917734da25e9c42" prot="public" virt="non-virtual"><scope>wxRichTextObjectAddress</scope><name>GetAddress</name></member>
+      <member refid="classwx_rich_text_object_address_1abff61d2762ec275e2e9075602fb2b7d6" prot="public" virt="non-virtual"><scope>wxRichTextObjectAddress</scope><name>GetObject</name></member>
+      <member refid="classwx_rich_text_object_address_1a1cf0fc078ec51c0528bd97614beafa45" prot="public" virt="non-virtual"><scope>wxRichTextObjectAddress</scope><name>Init</name></member>
+      <member refid="classwx_rich_text_object_address_1a999a55c4cd29c2492c49b0df98b2605d" prot="protected" virt="non-virtual"><scope>wxRichTextObjectAddress</scope><name>m_address</name></member>
+      <member refid="classwx_rich_text_object_address_1a96f8428f95bc0883030d0709d451eb6b" prot="public" virt="non-virtual"><scope>wxRichTextObjectAddress</scope><name>operator=</name></member>
+      <member refid="classwx_rich_text_object_address_1adbf5a5529307fe9567ddd1b735223a08" prot="public" virt="non-virtual"><scope>wxRichTextObjectAddress</scope><name>SetAddress</name></member>
+      <member refid="classwx_rich_text_object_address_1a2d693dd09a237d8daa3e881d7a04c5fb" prot="public" virt="non-virtual"><scope>wxRichTextObjectAddress</scope><name>wxRichTextObjectAddress</name></member>
+      <member refid="classwx_rich_text_object_address_1a152ecc02e7ec1505c423d8cd36d220d2" prot="public" virt="non-virtual"><scope>wxRichTextObjectAddress</scope><name>wxRichTextObjectAddress</name></member>
+      <member refid="classwx_rich_text_object_address_1a5d527b4f99f9f023fde960c7ae2afc16" prot="public" virt="non-virtual"><scope>wxRichTextObjectAddress</scope><name>wxRichTextObjectAddress</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

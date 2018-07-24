@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_grid_cell_bool_renderer" kind="class" language="C++" prot="public">
+    <compoundname>wxGridCellBoolRenderer</compoundname>
+    <basecompoundref refid="classwx_grid_cell_renderer" prot="public" virt="non-virtual">wxGridCellRenderer</basecompoundref>
+    <includes local="no">wx/grid.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classwx_grid_cell_bool_renderer_1a60e15c5bf7c1462f5f3c3d6cee35d15f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxGridCellBoolRenderer::wxGridCellBoolRenderer</definition>
+        <argsstring>()</argsstring>
+        <name>wxGridCellBoolRenderer</name>
+        <briefdescription>
+<para>Default constructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/grid.h" line="121" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class may be used to format boolean data in a cell. </para>    </briefdescription>
+    <detaileddescription>
+<para><heading level="2"></heading>
+</para><para>Library:<nonbreakablespace/><nonbreakablespace/><ref refid="page_libs_1page_libs_wxadv" kindref="member">wxAdvanced</ref> &lt;&gt;&lt; =&apos;&apos;&gt;:&lt;/&gt;&amp;;&amp;;&lt; =&apos;&apos;&gt;\ &lt;/&gt;&lt;/&gt;</para><para><simplesect kind="see"><para><ref refid="classwx_grid_cell_renderer" kindref="compound">wxGridCellRenderer</ref>, <ref refid="classwx_grid_cell_auto_wrap_string_renderer" kindref="compound">wxGridCellAutoWrapStringRenderer</ref>, <ref refid="classwx_grid_cell_date_time_renderer" kindref="compound">wxGridCellDateTimeRenderer</ref>, <ref refid="classwx_grid_cell_enum_renderer" kindref="compound">wxGridCellEnumRenderer</ref>, <ref refid="classwx_grid_cell_float_renderer" kindref="compound">wxGridCellFloatRenderer</ref>, <ref refid="classwx_grid_cell_number_renderer" kindref="compound">wxGridCellNumberRenderer</ref>, <ref refid="classwx_grid_cell_string_renderer" kindref="compound">wxGridCellStringRenderer</ref> </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="2929">
+        <label>wxRefCounter</label>
+        <link refid="classwx_ref_counter"/>
+      </node>
+      <node id="2926">
+        <label>wxGridCellBoolRenderer</label>
+        <link refid="classwx_grid_cell_bool_renderer"/>
+        <childnode refid="2927" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2928">
+        <label>wxClientDataContainer</label>
+        <link refid="classwx_client_data_container"/>
+      </node>
+      <node id="2927">
+        <label>wxGridCellRenderer</label>
+        <link refid="classwx_grid_cell_renderer"/>
+        <childnode refid="2928" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2929" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2933">
+        <label>wxRefCounter</label>
+        <link refid="classwx_ref_counter"/>
+      </node>
+      <node id="2930">
+        <label>wxGridCellBoolRenderer</label>
+        <link refid="classwx_grid_cell_bool_renderer"/>
+        <childnode refid="2931" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2932">
+        <label>wxClientDataContainer</label>
+        <link refid="classwx_client_data_container"/>
+      </node>
+      <node id="2931">
+        <label>wxGridCellRenderer</label>
+        <link refid="classwx_grid_cell_renderer"/>
+        <childnode refid="2932" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2933" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="interface/wx/grid.h" line="116" column="1" bodyfile="interface/wx/grid.h" bodystart="115" bodyend="122"/>
+    <listofallmembers>
+      <member refid="classwx_grid_cell_renderer_1a55c1db8c06f8cb994beb90615d5264f7" prot="public" virt="pure-virtual"><scope>wxGridCellBoolRenderer</scope><name>Clone</name></member>
+      <member refid="classwx_ref_counter_1a803eb5be907b1a342082ceb59c01d8c5" prot="public" virt="non-virtual"><scope>wxGridCellBoolRenderer</scope><name>DecRef</name></member>
+      <member refid="classwx_grid_cell_renderer_1a1848512422742bbbf9dec1b173bfc752" prot="public" virt="pure-virtual"><scope>wxGridCellBoolRenderer</scope><name>Draw</name></member>
+      <member refid="classwx_grid_cell_renderer_1a747661d7b50f6bc5d67a6ac218b12ed8" prot="public" virt="pure-virtual"><scope>wxGridCellBoolRenderer</scope><name>GetBestSize</name></member>
+      <member refid="classwx_client_data_container_1aad41cd81b3f64bfd10f9bd89ce758dec" prot="public" virt="non-virtual"><scope>wxGridCellBoolRenderer</scope><name>GetClientData</name></member>
+      <member refid="classwx_client_data_container_1a1845f232b64e6ca3907620f991f427f3" prot="public" virt="non-virtual"><scope>wxGridCellBoolRenderer</scope><name>GetClientObject</name></member>
+      <member refid="classwx_ref_counter_1a98ca5fc3fa6219d993dd3654925c46aa" prot="public" virt="non-virtual"><scope>wxGridCellBoolRenderer</scope><name>GetRefCount</name></member>
+      <member refid="classwx_ref_counter_1a9fec1fb6f778d9df7a8c046ad6a2d887" prot="public" virt="non-virtual"><scope>wxGridCellBoolRenderer</scope><name>IncRef</name></member>
+      <member refid="classwx_client_data_container_1a3b291dde8d851583b00e6917af539d13" prot="public" virt="non-virtual"><scope>wxGridCellBoolRenderer</scope><name>SetClientData</name></member>
+      <member refid="classwx_client_data_container_1afc03e080cc61dd9acaac86b76965cbb5" prot="public" virt="non-virtual"><scope>wxGridCellBoolRenderer</scope><name>SetClientObject</name></member>
+      <member refid="classwx_client_data_container_1a7de68b5dc45762f7507840d9deac511b" prot="public" virt="non-virtual"><scope>wxGridCellBoolRenderer</scope><name>wxClientDataContainer</name></member>
+      <member refid="classwx_grid_cell_bool_renderer_1a60e15c5bf7c1462f5f3c3d6cee35d15f" prot="public" virt="non-virtual"><scope>wxGridCellBoolRenderer</scope><name>wxGridCellBoolRenderer</name></member>
+      <member refid="classwx_grid_cell_renderer_1a023f503b35120ae37a659b6856335594" prot="public" virt="non-virtual"><scope>wxGridCellBoolRenderer</scope><name>wxGridCellRenderer</name></member>
+      <member refid="classwx_ref_counter_1aebcddb8241dfea7f60f8e4df6776a0e3" prot="public" virt="non-virtual"><scope>wxGridCellBoolRenderer</scope><name>wxRefCounter</name></member>
+      <member refid="classwx_client_data_container_1a20946ab7128a84681ccb7d5da52ba695" prot="public" virt="virtual"><scope>wxGridCellBoolRenderer</scope><name>~wxClientDataContainer</name></member>
+      <member refid="classwx_grid_cell_renderer_1ab65211e7eebb25f4c47e0d6ce13a3b6e" prot="protected" virt="virtual"><scope>wxGridCellBoolRenderer</scope><name>~wxGridCellRenderer</name></member>
+      <member refid="classwx_ref_counter_1aeaa9aceda6421eaa0d693cc29795263a" prot="protected" virt="virtual"><scope>wxGridCellBoolRenderer</scope><name>~wxRefCounter</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

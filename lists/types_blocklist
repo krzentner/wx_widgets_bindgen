@@ -1,0 +1,27 @@
+# This file is read by build.rs
+
+wxSharedPtr_reftype_with_deleter
+
+# Instantiations of these are the wrong size, for some reason.
+wxNavigationEnabled
+# But this one is sometimes right and needed.
+# wxScrolled
+
+# Just bindgen not understanding template param scopes.
+const_pointer
+int_type
+char_type
+pointer
+CharType
+
+sigset_t
+
+std_basic_ostream_sentry
+std_basic_istream_sentry
+std_basic_streambuf
+std_basic_istream_sentry___istream_type
+std_basic_istream_sentry___streambuf_type
+std_basic_istream_sentry_traits_type
+
+# what the heck
+std_ios.*

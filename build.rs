@@ -1,5 +1,9 @@
 extern crate bindgen;
+extern crate cc;
+extern crate failure;
+extern crate wx_widgets_bindgen_helpers;
 
+use failure::Error;
 use std::env;
 use std::fs::File;
 use std::io::{BufRead, BufReader};
@@ -15,12 +19,13 @@ fn get_config_flags(wx_config_path: &str, args: &[&str]) -> Vec<String> {
     return clang_flags
         .trim()
         .split(' ')
+        .filter(|s| s.len() > 0)
         .map(|s| s.to_owned())
         .collect();
 }
 
 fn get_lib_flags(wx_config_path: &str) -> Vec<String> {
-    get_config_flags(wx_config_path, &["--libs"])
+    get_config_flags(wx_config_path, &["--libs", "all"])
 }
 
 fn get_clang_flags(wx_config_path: &str) -> Vec<String> {
@@ -41,40 +46,68 @@ fn read_passlist_lines(path: &str) -> Vec<String> {
 }
 
 fn add_lists(mut builder: bindgen::Builder) -> bindgen::Builder {
-    for variable in read_passlist_lines("const_passlist") {
+    for variable in read_passlist_lines("lists/const_passlist") {
         builder = builder.whitelist_var(variable);
     }
-    for type_name in read_passlist_lines("types_opaquelist") {
+    for type_name in read_passlist_lines("lists/types_opaquelist") {
         builder = builder.opaque_type(type_name);
     }
-    for type_name in read_passlist_lines("types_passlist") {
+    for type_name in read_passlist_lines("lists/types_passlist") {
         builder = builder.whitelist_type(type_name);
     }
-    for type_name in read_passlist_lines("types_blocklist") {
+    for type_name in read_passlist_lines("lists/types_blocklist") {
         builder = builder.blacklist_type(type_name);
     }
-    for fn_name in read_passlist_lines("fn_passlist") {
+    for fn_name in read_passlist_lines("lists/fn_passlist") {
         builder = builder.whitelist_function(fn_name);
     }
     return builder;
 }
 
-fn main() {
+fn build_wrapper(flags: &mut Iterator<Item = &String>) {
+    let mut builder = cc::Build::new();
+    builder.cpp(true);
+    builder.file("src/wrapper.cpp");
+    for flag in flags {
+        builder.flag(flag);
+    }
+    builder.compile("wrapper");
+}
+
+fn main() -> Result<(), Error> {
     let out_path = PathBuf::from(env::var("OUT_DIR").unwrap());
+
+    let out_generated_header = out_path.join("generated_wrapper.hpp");
+    let out_generated_source = out_path.join("generated_wrapper.cpp");
+
+    println!("generating c++ wrapper code");
+    wx_widgets_bindgen_helpers::generate_wrapper(
+        out_generated_header.to_str().unwrap(),
+        out_generated_source.to_str().unwrap(),
+        "wx_widgets_bindgen_helpers/xml",
+    )?;
+    println!("wrapper generation complete");
+
     // TODO(krzentner): Configure which wx instance to use.
     let wx_config_path = "wx-config";
 
-    for lib_flag in get_lib_flags(wx_config_path) {
+    let lib_flags = get_lib_flags(wx_config_path);
+
+    for lib_flag in lib_flags.iter() {
         if lib_flag.starts_with("-l") {
             println!("cargo:rustc-link-lib={}", &lib_flag[2..]);
         }
     }
 
-    let clang_flags = get_clang_flags(wx_config_path);
+    let mut clang_flags = get_clang_flags(wx_config_path);
+    clang_flags.push("-I".to_owned());
+    clang_flags.push(out_path.to_str().unwrap().to_owned());
+
+    build_wrapper(&mut clang_flags.iter().chain(lib_flags.iter()));
 
     let builder = add_lists(
         bindgen::Builder::default()
-            .header("wrapper.hpp")
+            .header("src/wrapper.hpp")
             .generate_comments(true)
             .rust_target(bindgen::RustTarget::Nightly)
             .emit_ir_graphviz(out_path.join("bindgen_ir.dot").to_str().unwrap().to_owned())
@@ -86,4 +119,5 @@ fn main() {
     bindings
         .write_to_file(out_path.join("bindings.rs"))
         .expect("Couldn't write bindings!");
+    Ok(())
 }

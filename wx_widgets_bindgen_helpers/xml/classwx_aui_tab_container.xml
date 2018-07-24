@@ -1,0 +1,813 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_aui_tab_container" kind="class" language="C++" prot="public">
+    <compoundname>wxAuiTabContainer</compoundname>
+    <includes local="no">wx/aui/auibook.h</includes>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classwx_aui_tab_container_1aa5041d48f3b5a3b69c570c894c110014" prot="protected" static="no" mutable="no">
+        <type><ref refid="classwx_aui_tab_art" kindref="compound">wxAuiTabArt</ref> *</type>
+        <definition>wxAuiTabArt* wxAuiTabContainer::m_art</definition>
+        <argsstring></argsstring>
+        <name>m_art</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/auibook.h" line="537" column="1" bodyfile="interface/wx/aui/auibook.h" bodystart="537" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classwx_aui_tab_container_1aa022e379c54c293a07431dc6e78b054a" prot="protected" static="no" mutable="no">
+        <type>wxAuiNotebookPageArray</type>
+        <definition>wxAuiNotebookPageArray wxAuiTabContainer::m_pages</definition>
+        <argsstring></argsstring>
+        <name>m_pages</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/auibook.h" line="538" column="1" bodyfile="interface/wx/aui/auibook.h" bodystart="538" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classwx_aui_tab_container_1a0a79866684bdde2bf11889123cd91750" prot="protected" static="no" mutable="no">
+        <type>wxAuiTabContainerButtonArray</type>
+        <definition>wxAuiTabContainerButtonArray wxAuiTabContainer::m_buttons</definition>
+        <argsstring></argsstring>
+        <name>m_buttons</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/auibook.h" line="539" column="1" bodyfile="interface/wx/aui/auibook.h" bodystart="539" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classwx_aui_tab_container_1ac1808fd87993b90985cbc6f2653ca3bb" prot="protected" static="no" mutable="no">
+        <type>wxAuiTabContainerButtonArray</type>
+        <definition>wxAuiTabContainerButtonArray wxAuiTabContainer::m_tabCloseButtons</definition>
+        <argsstring></argsstring>
+        <name>m_tabCloseButtons</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/auibook.h" line="540" column="1" bodyfile="interface/wx/aui/auibook.h" bodystart="540" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classwx_aui_tab_container_1a739a70ee8e76b555152451aea291adff" prot="protected" static="no" mutable="no">
+        <type><ref refid="classwx_rect" kindref="compound">wxRect</ref></type>
+        <definition>wxRect wxAuiTabContainer::m_rect</definition>
+        <argsstring></argsstring>
+        <name>m_rect</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/auibook.h" line="541" column="1" bodyfile="interface/wx/aui/auibook.h" bodystart="541" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classwx_aui_tab_container_1ad9066e3714270cd71e3d7b86da8b7d30" prot="protected" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t wxAuiTabContainer::m_tabOffset</definition>
+        <argsstring></argsstring>
+        <name>m_tabOffset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/auibook.h" line="542" column="1" bodyfile="interface/wx/aui/auibook.h" bodystart="542" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classwx_aui_tab_container_1acea85983c73c0c642e9c21b209ada585" prot="protected" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int wxAuiTabContainer::m_flags</definition>
+        <argsstring></argsstring>
+        <name>m_flags</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/auibook.h" line="543" column="1" bodyfile="interface/wx/aui/auibook.h" bodystart="543" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classwx_aui_tab_container_1aff6aee77e5883fdede991a1fc86d6c10" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxAuiTabContainer::wxAuiTabContainer</definition>
+        <argsstring>()</argsstring>
+        <name>wxAuiTabContainer</name>
+        <briefdescription>
+<para>Default ctor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/auibook.h" line="479" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_aui_tab_container_1abfec1b08169be52519dd5b2662ef4374" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual wxAuiTabContainer::~wxAuiTabContainer</definition>
+        <argsstring>()</argsstring>
+        <name>~wxAuiTabContainer</name>
+        <briefdescription>
+<para>Default dtor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/auibook.h" line="484" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_aui_tab_container_1af7326c39bfbbb6efdd6739a2174c26a1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxAuiTabContainer::SetArtProvider</definition>
+        <argsstring>(wxAuiTabArt *art)</argsstring>
+        <name>SetArtProvider</name>
+        <param>
+          <type><ref refid="classwx_aui_tab_art" kindref="compound">wxAuiTabArt</ref> *</type>
+          <declname>art</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/auibook.h" line="486" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_aui_tab_container_1a0bcc623aceb28fbd34caf95cb4f766a8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_aui_tab_art" kindref="compound">wxAuiTabArt</ref> *</type>
+        <definition>wxAuiTabArt* wxAuiTabContainer::GetArtProvider</definition>
+        <argsstring>() const</argsstring>
+        <name>GetArtProvider</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/auibook.h" line="487" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_aui_tab_container_1a1f4d9c56c4ed09fcc421202714147c65" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxAuiTabContainer::SetFlags</definition>
+        <argsstring>(unsigned int flags)</argsstring>
+        <name>SetFlags</name>
+        <param>
+          <type>unsigned int</type>
+          <declname>flags</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/auibook.h" line="489" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_aui_tab_container_1afd859e7c3b49ea444d9616f38edae8d6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>unsigned int</type>
+        <definition>unsigned int wxAuiTabContainer::GetFlags</definition>
+        <argsstring>() const</argsstring>
+        <name>GetFlags</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/auibook.h" line="490" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_aui_tab_container_1aa781ebbd559db31fcc7954b252252e64" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxAuiTabContainer::AddPage</definition>
+        <argsstring>(wxWindow *page, const wxAuiNotebookPage &amp;info)</argsstring>
+        <name>AddPage</name>
+        <param>
+          <type><ref refid="classwx_window" kindref="compound">wxWindow</ref> *</type>
+          <declname>page</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_aui_notebook_page" kindref="compound">wxAuiNotebookPage</ref> &amp;</type>
+          <declname>info</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/auibook.h" line="492" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_aui_tab_container_1a6e5106278231c9e4bf116f17cc0d57e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxAuiTabContainer::InsertPage</definition>
+        <argsstring>(wxWindow *page, const wxAuiNotebookPage &amp;info, size_t idx)</argsstring>
+        <name>InsertPage</name>
+        <param>
+          <type><ref refid="classwx_window" kindref="compound">wxWindow</ref> *</type>
+          <declname>page</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_aui_notebook_page" kindref="compound">wxAuiNotebookPage</ref> &amp;</type>
+          <declname>info</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>idx</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/auibook.h" line="493" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_aui_tab_container_1a198bf662b4d18f6fda5a6f68b9659640" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxAuiTabContainer::MovePage</definition>
+        <argsstring>(wxWindow *page, size_t newIdx)</argsstring>
+        <name>MovePage</name>
+        <param>
+          <type><ref refid="classwx_window" kindref="compound">wxWindow</ref> *</type>
+          <declname>page</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>newIdx</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/auibook.h" line="494" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_aui_tab_container_1abb2904939d60946ad0e900b0ad123d73" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxAuiTabContainer::RemovePage</definition>
+        <argsstring>(wxWindow *page)</argsstring>
+        <name>RemovePage</name>
+        <param>
+          <type><ref refid="classwx_window" kindref="compound">wxWindow</ref> *</type>
+          <declname>page</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/auibook.h" line="495" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_aui_tab_container_1a301f35646e1667e574e0eaf3cf7ddf87" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxAuiTabContainer::SetActivePage</definition>
+        <argsstring>(wxWindow *page)</argsstring>
+        <name>SetActivePage</name>
+        <param>
+          <type><ref refid="classwx_window" kindref="compound">wxWindow</ref> *</type>
+          <declname>page</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/auibook.h" line="496" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_aui_tab_container_1af8a519bc22bf1daa43c440cb05c95e08" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxAuiTabContainer::SetActivePage</definition>
+        <argsstring>(size_t page)</argsstring>
+        <name>SetActivePage</name>
+        <param>
+          <type>size_t</type>
+          <declname>page</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/auibook.h" line="497" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_aui_tab_container_1a6f8ca84ae7b37c1e73817d39e5633da1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxAuiTabContainer::SetNoneActive</definition>
+        <argsstring>()</argsstring>
+        <name>SetNoneActive</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/auibook.h" line="498" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_aui_tab_container_1aedb5d266aad1129d68f85dca529005d0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int wxAuiTabContainer::GetActivePage</definition>
+        <argsstring>() const</argsstring>
+        <name>GetActivePage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/auibook.h" line="499" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_aui_tab_container_1a5024cb209b10c2d5abf0f13d4d729442" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxAuiTabContainer::TabHitTest</definition>
+        <argsstring>(int x, int y, wxWindow **hit) const</argsstring>
+        <name>TabHitTest</name>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_window" kindref="compound">wxWindow</ref> **</type>
+          <declname>hit</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/auibook.h" line="500" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_aui_tab_container_1a2f945525c050465b89e098e03174fd9e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxAuiTabContainer::ButtonHitTest</definition>
+        <argsstring>(int x, int y, wxAuiTabContainerButton **hit) const</argsstring>
+        <name>ButtonHitTest</name>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_aui_tab_container_button" kindref="compound">wxAuiTabContainerButton</ref> **</type>
+          <declname>hit</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/auibook.h" line="501" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_aui_tab_container_1a852fdfb5be160188f3e735f19a5d8fc3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_window" kindref="compound">wxWindow</ref> *</type>
+        <definition>wxWindow* wxAuiTabContainer::GetWindowFromIdx</definition>
+        <argsstring>(size_t idx) const</argsstring>
+        <name>GetWindowFromIdx</name>
+        <param>
+          <type>size_t</type>
+          <declname>idx</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/auibook.h" line="502" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_aui_tab_container_1a35df908b5fb8e70137dc047327436d86" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int wxAuiTabContainer::GetIdxFromWindow</definition>
+        <argsstring>(wxWindow *page) const</argsstring>
+        <name>GetIdxFromWindow</name>
+        <param>
+          <type><ref refid="classwx_window" kindref="compound">wxWindow</ref> *</type>
+          <declname>page</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/auibook.h" line="503" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_aui_tab_container_1aac87e144c7bbe26cdfdadf75d1ec16b6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t wxAuiTabContainer::GetPageCount</definition>
+        <argsstring>() const</argsstring>
+        <name>GetPageCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/auibook.h" line="504" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_aui_tab_container_1a09bee08a72b0028bc2c1fce9769ea39a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_aui_notebook_page" kindref="compound">wxAuiNotebookPage</ref> &amp;</type>
+        <definition>wxAuiNotebookPage&amp; wxAuiTabContainer::GetPage</definition>
+        <argsstring>(size_t idx)</argsstring>
+        <name>GetPage</name>
+        <param>
+          <type>size_t</type>
+          <declname>idx</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/auibook.h" line="505" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_aui_tab_container_1ad0db72d9e7cb5aa0704adc3b49226e2c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="classwx_aui_notebook_page" kindref="compound">wxAuiNotebookPage</ref> &amp;</type>
+        <definition>const wxAuiNotebookPage&amp; wxAuiTabContainer::GetPage</definition>
+        <argsstring>(size_t idx) const</argsstring>
+        <name>GetPage</name>
+        <param>
+          <type>size_t</type>
+          <declname>idx</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/auibook.h" line="506" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_aui_tab_container_1a25262aca94e1a2aef13b96e8e663796e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>wxAuiNotebookPageArray &amp;</type>
+        <definition>wxAuiNotebookPageArray&amp; wxAuiTabContainer::GetPages</definition>
+        <argsstring>()</argsstring>
+        <name>GetPages</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/auibook.h" line="507" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_aui_tab_container_1aef70d718f341e3e0a544028fe5988e2b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxAuiTabContainer::SetNormalFont</definition>
+        <argsstring>(const wxFont &amp;normalFont)</argsstring>
+        <name>SetNormalFont</name>
+        <param>
+          <type>const <ref refid="classwx_font" kindref="compound">wxFont</ref> &amp;</type>
+          <declname>normalFont</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/auibook.h" line="508" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_aui_tab_container_1ab39792790c320c22816e0d7373fad8cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxAuiTabContainer::SetSelectedFont</definition>
+        <argsstring>(const wxFont &amp;selectedFont)</argsstring>
+        <name>SetSelectedFont</name>
+        <param>
+          <type>const <ref refid="classwx_font" kindref="compound">wxFont</ref> &amp;</type>
+          <declname>selectedFont</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/auibook.h" line="509" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_aui_tab_container_1ae63249cd4609e262b21db33ee290d2a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxAuiTabContainer::SetMeasuringFont</definition>
+        <argsstring>(const wxFont &amp;measuringFont)</argsstring>
+        <name>SetMeasuringFont</name>
+        <param>
+          <type>const <ref refid="classwx_font" kindref="compound">wxFont</ref> &amp;</type>
+          <declname>measuringFont</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/auibook.h" line="510" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_aui_tab_container_1ab6145c17cf26b1dd069dfaa88a8e05ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxAuiTabContainer::SetColour</definition>
+        <argsstring>(const wxColour &amp;colour)</argsstring>
+        <name>SetColour</name>
+        <param>
+          <type>const <ref refid="classwx_colour" kindref="compound">wxColour</ref> &amp;</type>
+          <declname>colour</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/auibook.h" line="511" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_aui_tab_container_1ac69536e905f49d2006f04408b1276d93" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxAuiTabContainer::SetActiveColour</definition>
+        <argsstring>(const wxColour &amp;colour)</argsstring>
+        <name>SetActiveColour</name>
+        <param>
+          <type>const <ref refid="classwx_colour" kindref="compound">wxColour</ref> &amp;</type>
+          <declname>colour</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/auibook.h" line="512" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_aui_tab_container_1a7cb7a86effc91b991f419276e5c10b22" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxAuiTabContainer::DoShowHide</definition>
+        <argsstring>()</argsstring>
+        <name>DoShowHide</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/auibook.h" line="513" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_aui_tab_container_1a2b6d5c3d6758b1ddd0f01795a1d41603" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxAuiTabContainer::SetRect</definition>
+        <argsstring>(const wxRect &amp;rect)</argsstring>
+        <name>SetRect</name>
+        <param>
+          <type>const <ref refid="classwx_rect" kindref="compound">wxRect</ref> &amp;</type>
+          <declname>rect</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/auibook.h" line="514" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_aui_tab_container_1af773d478cee437f4ab142c5284f02858" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxAuiTabContainer::RemoveButton</definition>
+        <argsstring>(int id)</argsstring>
+        <name>RemoveButton</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/auibook.h" line="516" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_aui_tab_container_1a3065fecabfcd97a5e93daca242b019c9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxAuiTabContainer::AddButton</definition>
+        <argsstring>(int id, int location, const wxBitmap &amp;normalBitmap=wxNullBitmap, const wxBitmap &amp;disabledBitmap=wxNullBitmap)</argsstring>
+        <name>AddButton</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>location</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_bitmap" kindref="compound">wxBitmap</ref> &amp;</type>
+          <declname>normalBitmap</declname>
+          <defval><ref refid="interface_2wx_2bitmap_8h_1a2947690e84b8fdb2e37b79a4af8f8a21" kindref="member">wxNullBitmap</ref></defval>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_bitmap" kindref="compound">wxBitmap</ref> &amp;</type>
+          <declname>disabledBitmap</declname>
+          <defval><ref refid="interface_2wx_2bitmap_8h_1a2947690e84b8fdb2e37b79a4af8f8a21" kindref="member">wxNullBitmap</ref></defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/auibook.h" line="517" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_aui_tab_container_1a8a2c158621ff51184fa0111c55e2e6cb" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t wxAuiTabContainer::GetTabOffset</definition>
+        <argsstring>() const</argsstring>
+        <name>GetTabOffset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/auibook.h" line="522" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_aui_tab_container_1aba074cb311cf547feca6f855e6c0b5a5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxAuiTabContainer::SetTabOffset</definition>
+        <argsstring>(size_t offset)</argsstring>
+        <name>SetTabOffset</name>
+        <param>
+          <type>size_t</type>
+          <declname>offset</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/auibook.h" line="523" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_aui_tab_container_1ac83ff7cc1b8ad7f7c8d0bcff8e067729" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxAuiTabContainer::IsTabVisible</definition>
+        <argsstring>(int tabPage, int tabOffset, wxDC *dc, wxWindow *wnd)</argsstring>
+        <name>IsTabVisible</name>
+        <param>
+          <type>int</type>
+          <declname>tabPage</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>tabOffset</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_d_c" kindref="compound">wxDC</ref> *</type>
+          <declname>dc</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_window" kindref="compound">wxWindow</ref> *</type>
+          <declname>wnd</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/auibook.h" line="526" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_aui_tab_container_1ab530e4aebb04e570d20ebd3832ab3ae1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxAuiTabContainer::MakeTabVisible</definition>
+        <argsstring>(int tabPage, wxWindow *win)</argsstring>
+        <name>MakeTabVisible</name>
+        <param>
+          <type>int</type>
+          <declname>tabPage</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_window" kindref="compound">wxWindow</ref> *</type>
+          <declname>win</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/auibook.h" line="529" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classwx_aui_tab_container_1a1d8393e655bc84baae0819839e1fd3d1" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void wxAuiTabContainer::Render</definition>
+        <argsstring>(wxDC *dc, wxWindow *wnd)</argsstring>
+        <name>Render</name>
+        <param>
+          <type><ref refid="classwx_d_c" kindref="compound">wxDC</ref> *</type>
+          <declname>dc</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_window" kindref="compound">wxWindow</ref> *</type>
+          <declname>wnd</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/auibook.h" line="533" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="classwx_aui_tab_container" kindref="compound">wxAuiTabContainer</ref> is a class which contains information about each tab. </para>    </briefdescription>
+    <detaileddescription>
+<para>It also can render an entire tab control to a specified DC. It&apos;s not a window class itself, because this code will be used by the <ref refid="classwx_aui_notebook" kindref="compound">wxAuiNotebook</ref>, where it is disadvantageous to have separate windows for each tab control in the case of &quot;docked tabs&quot;.</para><para>A derived class, wxAuiTabCtrl, is an actual <ref refid="classwx_window" kindref="compound">wxWindow</ref> - derived window which can be used as a tab control in the normal sense.</para><para><heading level="2"></heading>
+</para><para>Library:<nonbreakablespace/><nonbreakablespace/><ref refid="page_libs_1page_libs_wxaui" kindref="member">wxAui</ref> &lt;&gt;&lt; =&apos;&apos;&gt;:&lt;/&gt;&amp;;&amp;;&lt; =&apos;&apos;&gt;\ &lt;/&gt;&lt;/&gt; </para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="399">
+        <label>wxAuiTabArt</label>
+        <link refid="classwx_aui_tab_art"/>
+      </node>
+      <node id="398">
+        <label>wxAuiTabContainer</label>
+        <link refid="classwx_aui_tab_container"/>
+        <childnode refid="399" relation="usage">
+          <edgelabel>m_art</edgelabel>
+        </childnode>
+        <childnode refid="400" relation="usage">
+          <edgelabel>m_rect</edgelabel>
+        </childnode>
+      </node>
+      <node id="400">
+        <label>wxRect</label>
+        <link refid="classwx_rect"/>
+      </node>
+    </collaborationgraph>
+    <location file="interface/wx/aui/auibook.h" line="473" column="1" bodyfile="interface/wx/aui/auibook.h" bodystart="472" bodyend="544"/>
+    <listofallmembers>
+      <member refid="classwx_aui_tab_container_1a3065fecabfcd97a5e93daca242b019c9" prot="public" virt="non-virtual"><scope>wxAuiTabContainer</scope><name>AddButton</name></member>
+      <member refid="classwx_aui_tab_container_1aa781ebbd559db31fcc7954b252252e64" prot="public" virt="non-virtual"><scope>wxAuiTabContainer</scope><name>AddPage</name></member>
+      <member refid="classwx_aui_tab_container_1a2f945525c050465b89e098e03174fd9e" prot="public" virt="non-virtual"><scope>wxAuiTabContainer</scope><name>ButtonHitTest</name></member>
+      <member refid="classwx_aui_tab_container_1a7cb7a86effc91b991f419276e5c10b22" prot="public" virt="non-virtual"><scope>wxAuiTabContainer</scope><name>DoShowHide</name></member>
+      <member refid="classwx_aui_tab_container_1aedb5d266aad1129d68f85dca529005d0" prot="public" virt="non-virtual"><scope>wxAuiTabContainer</scope><name>GetActivePage</name></member>
+      <member refid="classwx_aui_tab_container_1a0bcc623aceb28fbd34caf95cb4f766a8" prot="public" virt="non-virtual"><scope>wxAuiTabContainer</scope><name>GetArtProvider</name></member>
+      <member refid="classwx_aui_tab_container_1afd859e7c3b49ea444d9616f38edae8d6" prot="public" virt="non-virtual"><scope>wxAuiTabContainer</scope><name>GetFlags</name></member>
+      <member refid="classwx_aui_tab_container_1a35df908b5fb8e70137dc047327436d86" prot="public" virt="non-virtual"><scope>wxAuiTabContainer</scope><name>GetIdxFromWindow</name></member>
+      <member refid="classwx_aui_tab_container_1a09bee08a72b0028bc2c1fce9769ea39a" prot="public" virt="non-virtual"><scope>wxAuiTabContainer</scope><name>GetPage</name></member>
+      <member refid="classwx_aui_tab_container_1ad0db72d9e7cb5aa0704adc3b49226e2c" prot="public" virt="non-virtual"><scope>wxAuiTabContainer</scope><name>GetPage</name></member>
+      <member refid="classwx_aui_tab_container_1aac87e144c7bbe26cdfdadf75d1ec16b6" prot="public" virt="non-virtual"><scope>wxAuiTabContainer</scope><name>GetPageCount</name></member>
+      <member refid="classwx_aui_tab_container_1a25262aca94e1a2aef13b96e8e663796e" prot="public" virt="non-virtual"><scope>wxAuiTabContainer</scope><name>GetPages</name></member>
+      <member refid="classwx_aui_tab_container_1a8a2c158621ff51184fa0111c55e2e6cb" prot="public" virt="non-virtual"><scope>wxAuiTabContainer</scope><name>GetTabOffset</name></member>
+      <member refid="classwx_aui_tab_container_1a852fdfb5be160188f3e735f19a5d8fc3" prot="public" virt="non-virtual"><scope>wxAuiTabContainer</scope><name>GetWindowFromIdx</name></member>
+      <member refid="classwx_aui_tab_container_1a6e5106278231c9e4bf116f17cc0d57e7" prot="public" virt="non-virtual"><scope>wxAuiTabContainer</scope><name>InsertPage</name></member>
+      <member refid="classwx_aui_tab_container_1ac83ff7cc1b8ad7f7c8d0bcff8e067729" prot="public" virt="non-virtual"><scope>wxAuiTabContainer</scope><name>IsTabVisible</name></member>
+      <member refid="classwx_aui_tab_container_1aa5041d48f3b5a3b69c570c894c110014" prot="protected" virt="non-virtual"><scope>wxAuiTabContainer</scope><name>m_art</name></member>
+      <member refid="classwx_aui_tab_container_1a0a79866684bdde2bf11889123cd91750" prot="protected" virt="non-virtual"><scope>wxAuiTabContainer</scope><name>m_buttons</name></member>
+      <member refid="classwx_aui_tab_container_1acea85983c73c0c642e9c21b209ada585" prot="protected" virt="non-virtual"><scope>wxAuiTabContainer</scope><name>m_flags</name></member>
+      <member refid="classwx_aui_tab_container_1aa022e379c54c293a07431dc6e78b054a" prot="protected" virt="non-virtual"><scope>wxAuiTabContainer</scope><name>m_pages</name></member>
+      <member refid="classwx_aui_tab_container_1a739a70ee8e76b555152451aea291adff" prot="protected" virt="non-virtual"><scope>wxAuiTabContainer</scope><name>m_rect</name></member>
+      <member refid="classwx_aui_tab_container_1ac1808fd87993b90985cbc6f2653ca3bb" prot="protected" virt="non-virtual"><scope>wxAuiTabContainer</scope><name>m_tabCloseButtons</name></member>
+      <member refid="classwx_aui_tab_container_1ad9066e3714270cd71e3d7b86da8b7d30" prot="protected" virt="non-virtual"><scope>wxAuiTabContainer</scope><name>m_tabOffset</name></member>
+      <member refid="classwx_aui_tab_container_1ab530e4aebb04e570d20ebd3832ab3ae1" prot="public" virt="non-virtual"><scope>wxAuiTabContainer</scope><name>MakeTabVisible</name></member>
+      <member refid="classwx_aui_tab_container_1a198bf662b4d18f6fda5a6f68b9659640" prot="public" virt="non-virtual"><scope>wxAuiTabContainer</scope><name>MovePage</name></member>
+      <member refid="classwx_aui_tab_container_1af773d478cee437f4ab142c5284f02858" prot="public" virt="non-virtual"><scope>wxAuiTabContainer</scope><name>RemoveButton</name></member>
+      <member refid="classwx_aui_tab_container_1abb2904939d60946ad0e900b0ad123d73" prot="public" virt="non-virtual"><scope>wxAuiTabContainer</scope><name>RemovePage</name></member>
+      <member refid="classwx_aui_tab_container_1a1d8393e655bc84baae0819839e1fd3d1" prot="protected" virt="virtual"><scope>wxAuiTabContainer</scope><name>Render</name></member>
+      <member refid="classwx_aui_tab_container_1ac69536e905f49d2006f04408b1276d93" prot="public" virt="non-virtual"><scope>wxAuiTabContainer</scope><name>SetActiveColour</name></member>
+      <member refid="classwx_aui_tab_container_1a301f35646e1667e574e0eaf3cf7ddf87" prot="public" virt="non-virtual"><scope>wxAuiTabContainer</scope><name>SetActivePage</name></member>
+      <member refid="classwx_aui_tab_container_1af8a519bc22bf1daa43c440cb05c95e08" prot="public" virt="non-virtual"><scope>wxAuiTabContainer</scope><name>SetActivePage</name></member>
+      <member refid="classwx_aui_tab_container_1af7326c39bfbbb6efdd6739a2174c26a1" prot="public" virt="non-virtual"><scope>wxAuiTabContainer</scope><name>SetArtProvider</name></member>
+      <member refid="classwx_aui_tab_container_1ab6145c17cf26b1dd069dfaa88a8e05ab" prot="public" virt="non-virtual"><scope>wxAuiTabContainer</scope><name>SetColour</name></member>
+      <member refid="classwx_aui_tab_container_1a1f4d9c56c4ed09fcc421202714147c65" prot="public" virt="non-virtual"><scope>wxAuiTabContainer</scope><name>SetFlags</name></member>
+      <member refid="classwx_aui_tab_container_1ae63249cd4609e262b21db33ee290d2a4" prot="public" virt="non-virtual"><scope>wxAuiTabContainer</scope><name>SetMeasuringFont</name></member>
+      <member refid="classwx_aui_tab_container_1a6f8ca84ae7b37c1e73817d39e5633da1" prot="public" virt="non-virtual"><scope>wxAuiTabContainer</scope><name>SetNoneActive</name></member>
+      <member refid="classwx_aui_tab_container_1aef70d718f341e3e0a544028fe5988e2b" prot="public" virt="non-virtual"><scope>wxAuiTabContainer</scope><name>SetNormalFont</name></member>
+      <member refid="classwx_aui_tab_container_1a2b6d5c3d6758b1ddd0f01795a1d41603" prot="public" virt="non-virtual"><scope>wxAuiTabContainer</scope><name>SetRect</name></member>
+      <member refid="classwx_aui_tab_container_1ab39792790c320c22816e0d7373fad8cd" prot="public" virt="non-virtual"><scope>wxAuiTabContainer</scope><name>SetSelectedFont</name></member>
+      <member refid="classwx_aui_tab_container_1aba074cb311cf547feca6f855e6c0b5a5" prot="public" virt="non-virtual"><scope>wxAuiTabContainer</scope><name>SetTabOffset</name></member>
+      <member refid="classwx_aui_tab_container_1a5024cb209b10c2d5abf0f13d4d729442" prot="public" virt="non-virtual"><scope>wxAuiTabContainer</scope><name>TabHitTest</name></member>
+      <member refid="classwx_aui_tab_container_1aff6aee77e5883fdede991a1fc86d6c10" prot="public" virt="non-virtual"><scope>wxAuiTabContainer</scope><name>wxAuiTabContainer</name></member>
+      <member refid="classwx_aui_tab_container_1abfec1b08169be52519dd5b2662ef4374" prot="public" virt="virtual"><scope>wxAuiTabContainer</scope><name>~wxAuiTabContainer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

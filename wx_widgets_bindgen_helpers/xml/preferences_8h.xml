@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="preferences_8h" kind="file" language="C++">
+    <compoundname>preferences.h</compoundname>
+    <innerclass refid="classwx_preferences_editor" prot="public">wxPreferencesEditor</innerclass>
+    <innerclass refid="classwx_preferences_page" prot="public">wxPreferencesPage</innerclass>
+    <innerclass refid="classwx_stock_preferences_page" prot="public">wxStockPreferencesPage</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="interface/wx/preferences.h"/>
+  </compounddef>
+</doxygen>

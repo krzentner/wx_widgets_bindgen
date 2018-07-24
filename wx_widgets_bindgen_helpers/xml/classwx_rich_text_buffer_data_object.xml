@@ -1,0 +1,344 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_rich_text_buffer_data_object" kind="class" language="C++" prot="public">
+    <compoundname>wxRichTextBufferDataObject</compoundname>
+    <basecompoundref refid="classwx_data_object_simple" prot="public" virt="non-virtual">wxDataObjectSimple</basecompoundref>
+    <includes local="no">wx/richtext/richtextbuffer.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classwx_rich_text_buffer_data_object_1a2b128e4c7a44889ed4c668976bf94641" prot="private" static="no" mutable="no">
+        <type><ref refid="classwx_data_format" kindref="compound">wxDataFormat</ref></type>
+        <definition>wxDataFormat wxRichTextBufferDataObject::m_formatRichTextBuffer</definition>
+        <argsstring></argsstring>
+        <name>m_formatRichTextBuffer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="6397" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="6397" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classwx_rich_text_buffer_data_object_1aea1a523a6c4a81f32d18b343b6f11d71" prot="private" static="no" mutable="no">
+        <type><ref refid="classwx_rich_text_buffer" kindref="compound">wxRichTextBuffer</ref> *</type>
+        <definition>wxRichTextBuffer* wxRichTextBufferDataObject::m_richTextBuffer</definition>
+        <argsstring></argsstring>
+        <name>m_richTextBuffer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="6398" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="6398" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classwx_rich_text_buffer_data_object_1aaa1684721be239f3cfdc350d7ed73afd" prot="private" static="yes" mutable="no">
+        <type>const <ref refid="group__group__funcmacro__string_1gad42f64d8c82f1ce4ae58773a89b2d6a7" kindref="member">wxChar</ref> *</type>
+        <definition>const wxChar* wxRichTextBufferDataObject::ms_richTextBufferFormatId</definition>
+        <argsstring></argsstring>
+        <name>ms_richTextBufferFormatId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="6399" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="6399" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classwx_rich_text_buffer_data_object_1a3c3bb2af1d3b3ab61b4337af22055c64" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxRichTextBufferDataObject::wxRichTextBufferDataObject</definition>
+        <argsstring>(wxRichTextBuffer *richTextBuffer=NULL)</argsstring>
+        <name>wxRichTextBufferDataObject</name>
+        <param>
+          <type><ref refid="classwx_rich_text_buffer" kindref="compound">wxRichTextBuffer</ref> *</type>
+          <declname>richTextBuffer</declname>
+          <defval>NULL</defval>
+        </param>
+        <briefdescription>
+<para>The constructor doesn&apos;t copy the pointer, so it shouldn&apos;t go away while this object is alive. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="6369" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_buffer_data_object_1a3fe56e1cc9f7e1c3132b347bfc017f72" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual wxRichTextBufferDataObject::~wxRichTextBufferDataObject</definition>
+        <argsstring>()</argsstring>
+        <name>~wxRichTextBufferDataObject</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="6370" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_buffer_data_object_1a5b7a0d39c0aaa5d56bf14948d97b4f0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_rich_text_buffer" kindref="compound">wxRichTextBuffer</ref> *</type>
+        <definition>wxRichTextBuffer* wxRichTextBufferDataObject::GetRichTextBuffer</definition>
+        <argsstring>()</argsstring>
+        <name>GetRichTextBuffer</name>
+        <briefdescription>
+<para>After a call to this function, the buffer is owned by the caller and it is responsible for deleting it. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="6376" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_buffer_data_object_1a79b0ca8cba13948f5a1cc4ef588ca849" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="classwx_data_format" kindref="compound">wxDataFormat</ref></type>
+        <definition>virtual wxDataFormat wxRichTextBufferDataObject::GetPreferredFormat</definition>
+        <argsstring>(Direction dir) const</argsstring>
+        <name>GetPreferredFormat</name>
+        <reimplements refid="classwx_data_object_1a47570ed6123bbebec195a2b7f843103c">GetPreferredFormat</reimplements>
+        <param>
+          <type><ref refid="classwx_data_object_1a7623fd02a6bef5dba7c96ff0a1a692ef" kindref="member">Direction</ref></type>
+          <declname>dir</declname>
+        </param>
+        <briefdescription>
+<para>Returns the preferred format for either rendering the data (if <emphasis>dir</emphasis> is <computeroutput>Get</computeroutput>, its default value) or for setting it. </para>        </briefdescription>
+        <detaileddescription>
+<para>Usually this will be the native format of the <ref refid="classwx_data_object" kindref="compound">wxDataObject</ref>. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="6385" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_buffer_data_object_1acdcc4139ae50f08d5aff0409c4974769" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>size_t</type>
+        <definition>virtual size_t wxRichTextBufferDataObject::GetDataSize</definition>
+        <argsstring>() const</argsstring>
+        <name>GetDataSize</name>
+        <reimplements refid="classwx_data_object_simple_1a1188fa9b93e42d90a0710475d255eef3">GetDataSize</reimplements>
+        <briefdescription>
+<para>Gets the size of our data. </para>        </briefdescription>
+        <detaileddescription>
+<para>Must be implemented in the derived class if the object supports rendering its data. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="6386" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_buffer_data_object_1a2b2db6f301af667e28771de784a0ba8c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool wxRichTextBufferDataObject::GetDataHere</definition>
+        <argsstring>(void *pBuf) const</argsstring>
+        <name>GetDataHere</name>
+        <reimplements refid="classwx_data_object_simple_1a2d6fdc3eaa2bdd613f17c85c9600ecd2">GetDataHere</reimplements>
+        <param>
+          <type>void *</type>
+          <declname>buf</declname>
+        </param>
+        <briefdescription>
+<para>Copy the data to the buffer, return true on success. </para>        </briefdescription>
+        <detaileddescription>
+<para>Must be implemented in the derived class if the object supports rendering its data. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="6387" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_buffer_data_object_1aaef7b34a2440d720e3e2dbc50f941ae6" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool wxRichTextBufferDataObject::SetData</definition>
+        <argsstring>(size_t len, const void *buf)</argsstring>
+        <name>SetData</name>
+        <reimplements refid="classwx_data_object_simple_1a064b6e42ceb86247318e7ab62bb47442">SetData</reimplements>
+        <param>
+          <type>size_t</type>
+          <declname>len</declname>
+        </param>
+        <param>
+          <type>const void *</type>
+          <declname>buf</declname>
+        </param>
+        <briefdescription>
+<para>Copy the data from the buffer, return true on success. </para>        </briefdescription>
+        <detaileddescription>
+<para>Must be implemented in the derived class if the object supports setting its data. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="6388" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_buffer_data_object_1afede146a9f66034af46564b5a7d21fe0" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>size_t</type>
+        <definition>virtual size_t wxRichTextBufferDataObject::GetDataSize</definition>
+        <argsstring>(const wxDataFormat &amp;) const</argsstring>
+        <name>GetDataSize</name>
+        <reimplements refid="classwx_data_object_1a10674c65e59f08ba318f942e410b8627">GetDataSize</reimplements>
+        <param>
+          <type>const <ref refid="classwx_data_format" kindref="compound">wxDataFormat</ref> &amp;</type>
+          <declname>format</declname>
+        </param>
+        <briefdescription>
+<para>Returns the data size of the given format <emphasis>format</emphasis>. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="6392" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="6392" bodyend="6392"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_buffer_data_object_1a67733efe8b3abfa9193c759b70078319" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool wxRichTextBufferDataObject::GetDataHere</definition>
+        <argsstring>(const wxDataFormat &amp;, void *buf) const</argsstring>
+        <name>GetDataHere</name>
+        <reimplements refid="classwx_data_object_1aa48761390b25d797d4cad393db752568">GetDataHere</reimplements>
+        <param>
+          <type>const <ref refid="classwx_data_format" kindref="compound">wxDataFormat</ref> &amp;</type>
+          <declname>format</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>buf</declname>
+        </param>
+        <briefdescription>
+<para>The method will write the data of the format <emphasis>format</emphasis> to the buffer <emphasis>buf</emphasis>. </para>        </briefdescription>
+        <detaileddescription>
+<para>In other words, copy the data from this object in the given format to the supplied buffer. Returns true on success, false on failure. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="6393" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="6393" bodyend="6393"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_buffer_data_object_1aa9b77769053603a9d1214c12600f68ce" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool wxRichTextBufferDataObject::SetData</definition>
+        <argsstring>(const wxDataFormat &amp;, size_t len, const void *buf)</argsstring>
+        <name>SetData</name>
+        <reimplements refid="classwx_data_object_1ab73fa5f1cb933c67df20ddb1fad99071">SetData</reimplements>
+        <param>
+          <type>const <ref refid="classwx_data_format" kindref="compound">wxDataFormat</ref> &amp;</type>
+          <declname>format</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>len</declname>
+        </param>
+        <param>
+          <type>const void *</type>
+          <declname>buf</declname>
+        </param>
+        <briefdescription>
+<para>Set the data in the format <emphasis>format</emphasis> of the length <emphasis>len</emphasis> provided in the buffer <emphasis>buf</emphasis>. </para>        </briefdescription>
+        <detaileddescription>
+<para>In other words, copy length bytes of data from the buffer to this data object.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>format</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The format for which to set the data. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>len</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The size of data in bytes. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>buf</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Non-NULL pointer to the data. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true on success, false on failure. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="6394" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="6394" bodyend="6394"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classwx_rich_text_buffer_data_object_1a6b1cfd4244653560c206b76213d23c97" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="group__group__funcmacro__string_1gad42f64d8c82f1ce4ae58773a89b2d6a7" kindref="member">wxChar</ref> *</type>
+        <definition>static const wxChar* wxRichTextBufferDataObject::GetRichTextBufferFormatId</definition>
+        <argsstring>()</argsstring>
+        <name>GetRichTextBufferFormatId</name>
+        <briefdescription>
+<para>Returns the id for the new data format. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="6381" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="6381" bodyend="6381"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Implements a rich text data object for clipboard transfer. </para>    </briefdescription>
+    <detaileddescription>
+<para><heading level="2"></heading>
+</para><para>Library:<nonbreakablespace/><nonbreakablespace/><ref refid="page_libs_1page_libs_wxrichtext" kindref="member">wxRichText</ref> &lt;&gt;&lt; =&apos;&apos;&gt;:&lt;/&gt;&amp;;&amp;;&lt; =&apos;&apos;&gt;\ &lt;/&gt;&lt;/&gt;</para><para><simplesect kind="see"><para><ref refid="classwx_data_object_simple" kindref="compound">wxDataObjectSimple</ref>, <ref refid="classwx_rich_text_buffer" kindref="compound">wxRichTextBuffer</ref>, <ref refid="classwx_rich_text_ctrl" kindref="compound">wxRichTextCtrl</ref> </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="6302">
+        <label>wxDataObject</label>
+        <link refid="classwx_data_object"/>
+      </node>
+      <node id="6300">
+        <label>wxRichTextBufferDataObject</label>
+        <link refid="classwx_rich_text_buffer_data_object"/>
+        <childnode refid="6301" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6301">
+        <label>wxDataObjectSimple</label>
+        <link refid="classwx_data_object_simple"/>
+        <childnode refid="6302" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="6305">
+        <label>wxDataObject</label>
+        <link refid="classwx_data_object"/>
+      </node>
+      <node id="6303">
+        <label>wxRichTextBufferDataObject</label>
+        <link refid="classwx_rich_text_buffer_data_object"/>
+        <childnode refid="6304" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6304">
+        <label>wxDataObjectSimple</label>
+        <link refid="classwx_data_object_simple"/>
+        <childnode refid="6305" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="interface/wx/richtext/richtextbuffer.h" line="6363" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="6362" bodyend="6400"/>
+    <listofallmembers>
+      <member refid="classwx_data_object_1a7623fd02a6bef5dba7c96ff0a1a692efa1f94b69e55238c5470f85e252b5fd8df" prot="public" virt="non-virtual"><scope>wxRichTextBufferDataObject</scope><name>Both</name></member>
+      <member refid="classwx_data_object_1a7623fd02a6bef5dba7c96ff0a1a692ef" prot="public" virt="non-virtual"><scope>wxRichTextBufferDataObject</scope><name>Direction</name></member>
+      <member refid="classwx_data_object_1a7623fd02a6bef5dba7c96ff0a1a692efac7de2bf89290f75553da7f3cb8fa5397" prot="public" virt="non-virtual"><scope>wxRichTextBufferDataObject</scope><name>Get</name></member>
+      <member refid="classwx_data_object_1a71abcc4eb2229e936ea53ebdefa53bef" prot="public" virt="pure-virtual"><scope>wxRichTextBufferDataObject</scope><name>GetAllFormats</name></member>
+      <member refid="classwx_rich_text_buffer_data_object_1a2b2db6f301af667e28771de784a0ba8c" prot="public" virt="virtual"><scope>wxRichTextBufferDataObject</scope><name>GetDataHere</name></member>
+      <member refid="classwx_rich_text_buffer_data_object_1a67733efe8b3abfa9193c759b70078319" prot="public" virt="virtual"><scope>wxRichTextBufferDataObject</scope><name>GetDataHere</name></member>
+      <member refid="classwx_rich_text_buffer_data_object_1acdcc4139ae50f08d5aff0409c4974769" prot="public" virt="virtual"><scope>wxRichTextBufferDataObject</scope><name>GetDataSize</name></member>
+      <member refid="classwx_rich_text_buffer_data_object_1afede146a9f66034af46564b5a7d21fe0" prot="public" virt="virtual"><scope>wxRichTextBufferDataObject</scope><name>GetDataSize</name></member>
+      <member refid="classwx_data_object_simple_1a77fd9a7b98ad483ea40fb5389c00bb75" prot="public" virt="non-virtual"><scope>wxRichTextBufferDataObject</scope><name>GetFormat</name></member>
+      <member refid="classwx_data_object_1a3f82815810bf4dcc34e1a5783c9b8a62" prot="public" virt="pure-virtual"><scope>wxRichTextBufferDataObject</scope><name>GetFormatCount</name></member>
+      <member refid="classwx_rich_text_buffer_data_object_1a79b0ca8cba13948f5a1cc4ef588ca849" prot="public" virt="virtual"><scope>wxRichTextBufferDataObject</scope><name>GetPreferredFormat</name></member>
+      <member refid="classwx_rich_text_buffer_data_object_1a5b7a0d39c0aaa5d56bf14948d97b4f0e" prot="public" virt="non-virtual"><scope>wxRichTextBufferDataObject</scope><name>GetRichTextBuffer</name></member>
+      <member refid="classwx_rich_text_buffer_data_object_1a6b1cfd4244653560c206b76213d23c97" prot="public" virt="non-virtual"><scope>wxRichTextBufferDataObject</scope><name>GetRichTextBufferFormatId</name></member>
+      <member refid="classwx_data_object_1ad974e869ebbc2a67e4d8793526022aca" prot="public" virt="non-virtual"><scope>wxRichTextBufferDataObject</scope><name>IsSupported</name></member>
+      <member refid="classwx_rich_text_buffer_data_object_1a2b128e4c7a44889ed4c668976bf94641" prot="private" virt="non-virtual"><scope>wxRichTextBufferDataObject</scope><name>m_formatRichTextBuffer</name></member>
+      <member refid="classwx_rich_text_buffer_data_object_1aea1a523a6c4a81f32d18b343b6f11d71" prot="private" virt="non-virtual"><scope>wxRichTextBufferDataObject</scope><name>m_richTextBuffer</name></member>
+      <member refid="classwx_rich_text_buffer_data_object_1aaa1684721be239f3cfdc350d7ed73afd" prot="private" virt="non-virtual"><scope>wxRichTextBufferDataObject</scope><name>ms_richTextBufferFormatId</name></member>
+      <member refid="classwx_data_object_1a7623fd02a6bef5dba7c96ff0a1a692efa2ab9d7f173f2d17dc8ee7324ed3410b6" prot="public" virt="non-virtual"><scope>wxRichTextBufferDataObject</scope><name>Set</name></member>
+      <member refid="classwx_rich_text_buffer_data_object_1aaef7b34a2440d720e3e2dbc50f941ae6" prot="public" virt="virtual"><scope>wxRichTextBufferDataObject</scope><name>SetData</name></member>
+      <member refid="classwx_rich_text_buffer_data_object_1aa9b77769053603a9d1214c12600f68ce" prot="public" virt="virtual"><scope>wxRichTextBufferDataObject</scope><name>SetData</name></member>
+      <member refid="classwx_data_object_simple_1adf9d889c7fcc7e05cb6253b3b1e3cb0f" prot="public" virt="non-virtual"><scope>wxRichTextBufferDataObject</scope><name>SetFormat</name></member>
+      <member refid="classwx_data_object_1aa910d21b55e45638567f770aa71a44da" prot="public" virt="non-virtual"><scope>wxRichTextBufferDataObject</scope><name>wxDataObject</name></member>
+      <member refid="classwx_data_object_simple_1ad246b285dd2f414f4b13a4d794bf602d" prot="public" virt="non-virtual"><scope>wxRichTextBufferDataObject</scope><name>wxDataObjectSimple</name></member>
+      <member refid="classwx_rich_text_buffer_data_object_1a3c3bb2af1d3b3ab61b4337af22055c64" prot="public" virt="non-virtual"><scope>wxRichTextBufferDataObject</scope><name>wxRichTextBufferDataObject</name></member>
+      <member refid="classwx_data_object_1a392665fe790cd29de240223b5bd2936c" prot="public" virt="virtual"><scope>wxRichTextBufferDataObject</scope><name>~wxDataObject</name></member>
+      <member refid="classwx_rich_text_buffer_data_object_1a3fe56e1cc9f7e1c3132b347bfc017f72" prot="public" virt="virtual"><scope>wxRichTextBufferDataObject</scope><name>~wxRichTextBufferDataObject</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

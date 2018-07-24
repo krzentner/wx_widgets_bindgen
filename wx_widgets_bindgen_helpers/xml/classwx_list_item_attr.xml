@@ -1,0 +1,196 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_list_item_attr" kind="class" language="C++" prot="public">
+    <compoundname>wxListItemAttr</compoundname>
+    <includes local="no">wx/listctrl.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classwx_list_item_attr_1a77a863e276ff6d69524d655958bec72a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxListItemAttr::wxListItemAttr</definition>
+        <argsstring>()</argsstring>
+        <name>wxListItemAttr</name>
+        <briefdescription>
+<para>Default Constructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/listctrl.h" line="1511" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_list_item_attr_1abb174fb0eae9e8b7889da24e81827e4c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxListItemAttr::wxListItemAttr</definition>
+        <argsstring>(const wxColour &amp;colText, const wxColour &amp;colBack, const wxFont &amp;font)</argsstring>
+        <name>wxListItemAttr</name>
+        <param>
+          <type>const <ref refid="classwx_colour" kindref="compound">wxColour</ref> &amp;</type>
+          <declname>colText</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_colour" kindref="compound">wxColour</ref> &amp;</type>
+          <declname>colBack</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_font" kindref="compound">wxFont</ref> &amp;</type>
+          <declname>font</declname>
+        </param>
+        <briefdescription>
+<para>Construct a <ref refid="classwx_list_item_attr" kindref="compound">wxListItemAttr</ref> with the specified foreground and background colors and font. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/listctrl.h" line="1517" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_list_item_attr_1a09653b20025c5645f68e37a434c56678" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="classwx_colour" kindref="compound">wxColour</ref> &amp;</type>
+        <definition>const wxColour&amp; wxListItemAttr::GetBackgroundColour</definition>
+        <argsstring>() const</argsstring>
+        <name>GetBackgroundColour</name>
+        <briefdescription>
+<para>Returns the currently set background color. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/listctrl.h" line="1524" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_list_item_attr_1a7235a27f4c6bb9de79fd96f691b508bf" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="classwx_font" kindref="compound">wxFont</ref> &amp;</type>
+        <definition>const wxFont&amp; wxListItemAttr::GetFont</definition>
+        <argsstring>() const</argsstring>
+        <name>GetFont</name>
+        <briefdescription>
+<para>Returns the currently set font. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/listctrl.h" line="1529" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_list_item_attr_1a038192bd6ee72c7029346903c8f9ca8b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="classwx_colour" kindref="compound">wxColour</ref> &amp;</type>
+        <definition>const wxColour&amp; wxListItemAttr::GetTextColour</definition>
+        <argsstring>() const</argsstring>
+        <name>GetTextColour</name>
+        <briefdescription>
+<para>Returns the currently set text color. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/listctrl.h" line="1534" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_list_item_attr_1a36da80c9b44cbcfa7d26c0a7766e1786" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxListItemAttr::HasBackgroundColour</definition>
+        <argsstring>() const</argsstring>
+        <name>HasBackgroundColour</name>
+        <briefdescription>
+<para>Returns true if the currently set background color is valid. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/listctrl.h" line="1539" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_list_item_attr_1a6f1692b9dde33e598912b7416892c2fa" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxListItemAttr::HasFont</definition>
+        <argsstring>() const</argsstring>
+        <name>HasFont</name>
+        <briefdescription>
+<para>Returns true if the currently set font is valid. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/listctrl.h" line="1544" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_list_item_attr_1aea7f2e51d56f0f1d79d2acfdbcf3b4a5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxListItemAttr::HasTextColour</definition>
+        <argsstring>() const</argsstring>
+        <name>HasTextColour</name>
+        <briefdescription>
+<para>Returns true if the currently set text color is valid. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/listctrl.h" line="1549" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_list_item_attr_1ab8a9ca864921010ea7eb1124875773eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxListItemAttr::SetBackgroundColour</definition>
+        <argsstring>(const wxColour &amp;colour)</argsstring>
+        <name>SetBackgroundColour</name>
+        <param>
+          <type>const <ref refid="classwx_colour" kindref="compound">wxColour</ref> &amp;</type>
+          <declname>colour</declname>
+        </param>
+        <briefdescription>
+<para>Sets a new background color. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/listctrl.h" line="1554" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_list_item_attr_1acada92c401d29196b8fa1954364b5651" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxListItemAttr::SetFont</definition>
+        <argsstring>(const wxFont &amp;font)</argsstring>
+        <name>SetFont</name>
+        <param>
+          <type>const <ref refid="classwx_font" kindref="compound">wxFont</ref> &amp;</type>
+          <declname>font</declname>
+        </param>
+        <briefdescription>
+<para>Sets a new font. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/listctrl.h" line="1559" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_list_item_attr_1a8412b96168424fd27a3fe32d9deae343" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxListItemAttr::SetTextColour</definition>
+        <argsstring>(const wxColour &amp;colour)</argsstring>
+        <name>SetTextColour</name>
+        <param>
+          <type>const <ref refid="classwx_colour" kindref="compound">wxColour</ref> &amp;</type>
+          <declname>colour</declname>
+        </param>
+        <briefdescription>
+<para>Sets a new text color. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/listctrl.h" line="1564" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Represents the attributes (color, font, ...) of a <ref refid="classwx_list_ctrl" kindref="compound">wxListCtrl</ref>&apos;s <ref refid="classwx_list_item" kindref="compound">wxListItem</ref>. </para>    </briefdescription>
+    <detaileddescription>
+<para><heading level="2"></heading>
+</para><para>Library:<nonbreakablespace/><nonbreakablespace/><ref refid="page_libs_1page_libs_wxcore" kindref="member">wxCore</ref> &lt;&gt;&lt; =&apos;&apos;&gt;:&lt;/&gt;&amp;;&amp;;&lt; =&apos;&apos;&gt;\ &lt;/&gt;&lt;/&gt;</para><para><simplesect kind="see"><para><ref refid="overview_listctrl" kindref="compound">wxListCtrl Overview</ref>, <ref refid="classwx_list_ctrl" kindref="compound">wxListCtrl</ref>, <ref refid="classwx_list_item" kindref="compound">wxListItem</ref> </para></simplesect>
+</para>    </detaileddescription>
+    <location file="interface/wx/listctrl.h" line="1506" column="1" bodyfile="interface/wx/listctrl.h" bodystart="1505" bodyend="1565"/>
+    <listofallmembers>
+      <member refid="classwx_list_item_attr_1a09653b20025c5645f68e37a434c56678" prot="public" virt="non-virtual"><scope>wxListItemAttr</scope><name>GetBackgroundColour</name></member>
+      <member refid="classwx_list_item_attr_1a7235a27f4c6bb9de79fd96f691b508bf" prot="public" virt="non-virtual"><scope>wxListItemAttr</scope><name>GetFont</name></member>
+      <member refid="classwx_list_item_attr_1a038192bd6ee72c7029346903c8f9ca8b" prot="public" virt="non-virtual"><scope>wxListItemAttr</scope><name>GetTextColour</name></member>
+      <member refid="classwx_list_item_attr_1a36da80c9b44cbcfa7d26c0a7766e1786" prot="public" virt="non-virtual"><scope>wxListItemAttr</scope><name>HasBackgroundColour</name></member>
+      <member refid="classwx_list_item_attr_1a6f1692b9dde33e598912b7416892c2fa" prot="public" virt="non-virtual"><scope>wxListItemAttr</scope><name>HasFont</name></member>
+      <member refid="classwx_list_item_attr_1aea7f2e51d56f0f1d79d2acfdbcf3b4a5" prot="public" virt="non-virtual"><scope>wxListItemAttr</scope><name>HasTextColour</name></member>
+      <member refid="classwx_list_item_attr_1ab8a9ca864921010ea7eb1124875773eb" prot="public" virt="non-virtual"><scope>wxListItemAttr</scope><name>SetBackgroundColour</name></member>
+      <member refid="classwx_list_item_attr_1acada92c401d29196b8fa1954364b5651" prot="public" virt="non-virtual"><scope>wxListItemAttr</scope><name>SetFont</name></member>
+      <member refid="classwx_list_item_attr_1a8412b96168424fd27a3fe32d9deae343" prot="public" virt="non-virtual"><scope>wxListItemAttr</scope><name>SetTextColour</name></member>
+      <member refid="classwx_list_item_attr_1a77a863e276ff6d69524d655958bec72a" prot="public" virt="non-virtual"><scope>wxListItemAttr</scope><name>wxListItemAttr</name></member>
+      <member refid="classwx_list_item_attr_1abb174fb0eae9e8b7889da24e81827e4c" prot="public" virt="non-virtual"><scope>wxListItemAttr</scope><name>wxListItemAttr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

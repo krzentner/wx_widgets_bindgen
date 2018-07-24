@@ -1,0 +1,923 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_any" kind="class" language="C++" prot="public">
+    <compoundname>wxAny</compoundname>
+    <includes local="no">wx/any.h</includes>
+      <sectiondef kind="user-defined">
+      <header>Assignment operators</header>
+      <memberdef kind="function" id="classwx_any_1a128a3ab1b6ad1593ceb862e61d1e78cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="classwx_any" kindref="compound">wxAny</ref> &amp;</type>
+        <definition>wxAny&amp; wxAny::operator=</definition>
+        <argsstring>(const T &amp;value)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const T &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/any.h" line="175" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_any_1a29c8766d77f2de7d1f71dc0bc14bf6d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_any" kindref="compound">wxAny</ref> &amp;</type>
+        <definition>wxAny&amp; wxAny::operator=</definition>
+        <argsstring>(const wxAny &amp;any)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="classwx_any" kindref="compound">wxAny</ref> &amp;</type>
+          <declname>any</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/any.h" line="176" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_any_1abb73ad85c843f81f08fca557de7691cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_any" kindref="compound">wxAny</ref> &amp;</type>
+        <definition>wxAny&amp; wxAny::operator=</definition>
+        <argsstring>(const wxVariant &amp;variant)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="classwx_variant" kindref="compound">wxVariant</ref> &amp;</type>
+          <declname>variant</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/any.h" line="177" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="user-defined">
+      <header>Equality operators</header>
+      <memberdef kind="function" id="classwx_any_1a21268682e02de7f46eaf0f7a72740e05" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxAny::operator==</definition>
+        <argsstring>(signed char value) const</argsstring>
+        <name>operator==</name>
+        <param>
+          <type>signed char</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/any.h" line="196" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_any_1a17555d014da9c2297334ebfabde9bfba" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxAny::operator==</definition>
+        <argsstring>(signed short value) const</argsstring>
+        <name>operator==</name>
+        <param>
+          <type>signed short</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/any.h" line="197" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_any_1a3aa581ca6e7432870acf28b339ce6b0c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxAny::operator==</definition>
+        <argsstring>(signed int value) const</argsstring>
+        <name>operator==</name>
+        <param>
+          <type>signed int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/any.h" line="198" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_any_1a6742ab52145f22c3b0df540fcb972863" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxAny::operator==</definition>
+        <argsstring>(signed long value) const</argsstring>
+        <name>operator==</name>
+        <param>
+          <type>signed long</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/any.h" line="199" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_any_1a603f0fce19617f2d7ad97c77c87b646b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxAny::operator==</definition>
+        <argsstring>(wxLongLong_t value) const</argsstring>
+        <name>operator==</name>
+        <param>
+          <type>wxLongLong_t</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/any.h" line="200" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_any_1a69e3190d7a2a205dd8720999f67dfb0e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxAny::operator==</definition>
+        <argsstring>(unsigned char value) const</argsstring>
+        <name>operator==</name>
+        <param>
+          <type>unsigned char</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/any.h" line="201" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_any_1a3bc45ec39642abc0738a0039cdbe731d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxAny::operator==</definition>
+        <argsstring>(unsigned short value) const</argsstring>
+        <name>operator==</name>
+        <param>
+          <type>unsigned short</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/any.h" line="202" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_any_1a89ba0bb78fa17bf8030b1b567d29b30d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxAny::operator==</definition>
+        <argsstring>(unsigned int value) const</argsstring>
+        <name>operator==</name>
+        <param>
+          <type>unsigned int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/any.h" line="203" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_any_1a85f86fd0f7208f14fd57361eed4175e9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxAny::operator==</definition>
+        <argsstring>(unsigned long value) const</argsstring>
+        <name>operator==</name>
+        <param>
+          <type>unsigned long</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/any.h" line="204" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_any_1adeefd759b1fed2bd12356e5ff1673f6a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxAny::operator==</definition>
+        <argsstring>(wxULongLong_t value) const</argsstring>
+        <name>operator==</name>
+        <param>
+          <type>wxULongLong_t</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/any.h" line="205" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_any_1a570914fdcae479f8720b5a9941c9531f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxAny::operator==</definition>
+        <argsstring>(float value) const</argsstring>
+        <name>operator==</name>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/any.h" line="206" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_any_1a3bce2cb41abea184da2a0e0accb547c4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxAny::operator==</definition>
+        <argsstring>(double value) const</argsstring>
+        <name>operator==</name>
+        <param>
+          <type>double</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/any.h" line="207" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_any_1a726cfe45986c5f4926449c07d22aac0f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxAny::operator==</definition>
+        <argsstring>(bool value) const</argsstring>
+        <name>operator==</name>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/any.h" line="208" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_any_1ab9b75a7b5d69229816dc6df4a868e3f8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxAny::operator==</definition>
+        <argsstring>(const char *value) const</argsstring>
+        <name>operator==</name>
+        <param>
+          <type>const char *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/any.h" line="209" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_any_1a874fd5983fdc7859e649bb4c4f978167" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxAny::operator==</definition>
+        <argsstring>(const wchar_t *value) const</argsstring>
+        <name>operator==</name>
+        <param>
+          <type>const wchar_t *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/any.h" line="210" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_any_1a5cb0b245177ce35f3413eba72109a859" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxAny::operator==</definition>
+        <argsstring>(const wxString &amp;value) const</argsstring>
+        <name>operator==</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/any.h" line="211" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="user-defined">
+      <header>Inequality operators</header>
+      <memberdef kind="function" id="classwx_any_1a81ef9057fce0249d057e00fac359fb69" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxAny::operator!=</definition>
+        <argsstring>(signed char value) const</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type>signed char</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/any.h" line="218" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_any_1a0a2f478fb13e7532add7c856ff748098" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxAny::operator!=</definition>
+        <argsstring>(signed short value) const</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type>signed short</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/any.h" line="219" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_any_1a39c4e081dfea2c79fef1617277a3400b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxAny::operator!=</definition>
+        <argsstring>(signed int value) const</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type>signed int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/any.h" line="220" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_any_1ac29ebc21de2d61aa53feeede3e942a90" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxAny::operator!=</definition>
+        <argsstring>(signed long value) const</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type>signed long</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/any.h" line="221" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_any_1a9d64736bd244590beb5b299056a32aee" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxAny::operator!=</definition>
+        <argsstring>(wxLongLong_t value) const</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type>wxLongLong_t</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/any.h" line="222" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_any_1ab2d3cc6fb79bf77fd9856ef1d3340283" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxAny::operator!=</definition>
+        <argsstring>(unsigned char value) const</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type>unsigned char</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/any.h" line="223" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_any_1a1ea4cf09b12e80f1be74dca655d73bb0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxAny::operator!=</definition>
+        <argsstring>(unsigned short value) const</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type>unsigned short</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/any.h" line="224" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_any_1a6b28d6c4d7b28aca7166de60e99747c7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxAny::operator!=</definition>
+        <argsstring>(unsigned int value) const</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type>unsigned int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/any.h" line="225" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_any_1a022f380e9c3d080679b5adbffede16cb" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxAny::operator!=</definition>
+        <argsstring>(unsigned long value) const</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type>unsigned long</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/any.h" line="226" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_any_1a5bfb4392c5f90eeed3a4bd917f092c7d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxAny::operator!=</definition>
+        <argsstring>(wxULongLong_t value) const</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type>wxULongLong_t</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/any.h" line="227" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_any_1a379725daba5b04a7d880adc0db2fc83d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxAny::operator!=</definition>
+        <argsstring>(float value) const</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/any.h" line="228" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_any_1a0789731ca2d6fb6c4003d494f08fe5e9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxAny::operator!=</definition>
+        <argsstring>(double value) const</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type>double</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/any.h" line="229" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_any_1a729df7beee0025e4ea24587f8c0e7087" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxAny::operator!=</definition>
+        <argsstring>(bool value) const</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/any.h" line="230" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_any_1afacdc46e2789b147ab24ba22e3cfc2b8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxAny::operator!=</definition>
+        <argsstring>(const char *value) const</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type>const char *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/any.h" line="231" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_any_1a7f8d07980d820ef86c9a22a1223fdbc5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxAny::operator!=</definition>
+        <argsstring>(const wchar_t *value) const</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type>const wchar_t *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/any.h" line="232" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_any_1ad036fbb999e3d0f3ef8d442512e02f1d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxAny::operator!=</definition>
+        <argsstring>(const wxString &amp;value) const</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/any.h" line="233" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classwx_any_1a0dab49e1f6127bc459b49aed7f5106a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxAny::wxAny</definition>
+        <argsstring>()</argsstring>
+        <name>wxAny</name>
+        <briefdescription>
+<para>Default constructor. </para>        </briefdescription>
+        <detaileddescription>
+<para>It seeds the object with a null value. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/any.h" line="66" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_any_1a54f15b40ccc2420fbc8170dc44b9fa3a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>wxAny::wxAny</definition>
+        <argsstring>(const T &amp;value)</argsstring>
+        <name>wxAny</name>
+        <param>
+          <type>const T &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <ref refid="classwx_any" kindref="compound">wxAny</ref> from data. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/any.h" line="72" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_any_1a1a98d3bb6b2fd780822524000214f252" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxAny::wxAny</definition>
+        <argsstring>(const wxAny &amp;any)</argsstring>
+        <name>wxAny</name>
+        <param>
+          <type>const <ref refid="classwx_any" kindref="compound">wxAny</ref> &amp;</type>
+          <declname>any</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <ref refid="classwx_any" kindref="compound">wxAny</ref> from another <ref refid="classwx_any" kindref="compound">wxAny</ref>. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/any.h" line="77" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_any_1a3db7df945f7e1390e45c9ff44af80b5d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxAny::wxAny</definition>
+        <argsstring>(const wxVariant &amp;variant)</argsstring>
+        <name>wxAny</name>
+        <param>
+          <type>const <ref refid="classwx_variant" kindref="compound">wxVariant</ref> &amp;</type>
+          <declname>variant</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <ref refid="classwx_any" kindref="compound">wxAny</ref>, converting value from <ref refid="classwx_variant" kindref="compound">wxVariant</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="remark"><para>Because of this conversion, it is not usually possible to have <ref refid="classwx_any" kindref="compound">wxAny</ref> that actually holds a <ref refid="classwx_variant" kindref="compound">wxVariant</ref>. If <ref refid="classwx_variant" kindref="compound">wxVariant</ref> cannot be converted to a specific data type, <ref refid="classwx_any" kindref="compound">wxAny</ref> will then hold and manage reference to wxVariantData* similar to how <ref refid="classwx_variant" kindref="compound">wxVariant</ref> does. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/any.h" line="88" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_any_1a2073a5bead2fc7929778a6b80c5e41a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxAny::~wxAny</definition>
+        <argsstring>()</argsstring>
+        <name>~wxAny</name>
+        <briefdescription>
+<para>Destructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/any.h" line="93" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_any_1a890cd022f86ae75a46bb01592ff6eea2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>T</type>
+        <definition>T wxAny::As</definition>
+        <argsstring>() const</argsstring>
+        <name>As</name>
+        <briefdescription>
+<para>This template function converts <ref refid="classwx_any" kindref="compound">wxAny</ref> into given type. </para>        </briefdescription>
+        <detaileddescription>
+<para>In most cases no type conversion is performed, so if the type is incorrect an assertion failure will occur.</para><para><simplesect kind="remark"><para>For conveniency, conversion is done when T is <ref refid="classwx_string" kindref="compound">wxString</ref>. This is useful when a string literal (which are treated as const char* and const wchar_t*) has been assigned to <ref refid="classwx_any" kindref="compound">wxAny</ref>.</para></simplesect>
+This template function may not work properly with Visual C++<orderedlist>
+<listitem><para>For full compiler compatibility, please use <ref refid="any_8h_1a718197eac6fd06ce8cd60b868536852c" kindref="member">wxANY_AS(any, T)</ref> macro instead. </para></listitem></orderedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/any.h" line="109" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_any_1a585f010487f849adb845dc50b0005030" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool wxAny::CheckType</definition>
+        <argsstring>() const</argsstring>
+        <name>CheckType</name>
+        <briefdescription>
+<para>Use this template function for checking if this <ref refid="classwx_any" kindref="compound">wxAny</ref> holds a specific C++ data type. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="remark"><para>This template function may not work properly with Visual C++<orderedlist>
+<listitem><para>For full compiler compatibility, please use <ref refid="any_8h_1a50295ab114c98f18da22360091b590c9" kindref="member">wxANY_CHECK_TYPE(any, T)</ref> macro instead.</para></listitem></orderedlist>
+</para></simplesect>
+<simplesect kind="see"><para><ref refid="classwx_any_value_type_1ad9d5dc1dbca91f4e3e21c17887335ce7" kindref="member">wxAnyValueType::CheckType()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/any.h" line="122" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_any_1a2d1560bc82a4c9f91f129bedce7120e9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool wxAny::GetAs</definition>
+        <argsstring>(T *value) const</argsstring>
+        <name>GetAs</name>
+        <param>
+          <type>T *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Template function that retrieves and converts the value of this <ref refid="classwx_any" kindref="compound">wxAny</ref> to the type that T* value is. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Returns true if conversion was successful. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/any.h" line="131" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_any_1a857c42170f46e372f74a79779c43bfa1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxAny::GetAs</definition>
+        <argsstring>(wxVariant *value) const</argsstring>
+        <name>GetAs</name>
+        <param>
+          <type><ref refid="classwx_variant" kindref="compound">wxVariant</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Specialization of <ref refid="classwx_any_1a2d1560bc82a4c9f91f129bedce7120e9" kindref="member">GetAs()</ref> that allows conversion of <ref refid="classwx_any" kindref="compound">wxAny</ref> into <ref refid="classwx_variant" kindref="compound">wxVariant</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Returns true if conversion was successful. Conversion usually only fails if variant used custom <ref refid="classwx_variant_data" kindref="compound">wxVariantData</ref> that did not implement the <ref refid="classwx_any" kindref="compound">wxAny</ref> to <ref refid="classwx_variant" kindref="compound">wxVariant</ref> conversion functions. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/any.h" line="141" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_any_1a2e0dcfd601852bd248c449166a3da6a7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="classwx_any_value_type" kindref="compound">wxAnyValueType</ref> *</type>
+        <definition>const wxAnyValueType* wxAny::GetType</definition>
+        <argsstring>() const</argsstring>
+        <name>GetType</name>
+        <briefdescription>
+<para>Returns the value type as <ref refid="classwx_any_value_type" kindref="compound">wxAnyValueType</ref> instance. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="remark"><para>You cannot reliably test whether two wxAnys are of same value type by simply comparing return values of <ref refid="classwx_any_1a2e0dcfd601852bd248c449166a3da6a7" kindref="member">wxAny::GetType()</ref>. Instead, use <ref refid="classwx_any_1a1583dfd4389c2dfb3a94e9aaec24dedd" kindref="member">wxAny::HasSameType()</ref>.</para></simplesect>
+<simplesect kind="see"><para><ref refid="classwx_any_1a1583dfd4389c2dfb3a94e9aaec24dedd" kindref="member">HasSameType()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/any.h" line="152" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_any_1a1583dfd4389c2dfb3a94e9aaec24dedd" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxAny::HasSameType</definition>
+        <argsstring>(const wxAny &amp;other) const</argsstring>
+        <name>HasSameType</name>
+        <param>
+          <type>const <ref refid="classwx_any" kindref="compound">wxAny</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>Returns true if this and another <ref refid="classwx_any" kindref="compound">wxAny</ref> have the same value type. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/any.h" line="158" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_any_1a81cb4de204073c2c95dd32bb1addacfa" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxAny::IsNull</definition>
+        <argsstring>() const</argsstring>
+        <name>IsNull</name>
+        <briefdescription>
+<para>Tests if <ref refid="classwx_any" kindref="compound">wxAny</ref> is null (that is, whether there is no data). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/any.h" line="163" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_any_1ab229cda7063a3c3a82330b6dd7b3550c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxAny::MakeNull</definition>
+        <argsstring>()</argsstring>
+        <name>MakeNull</name>
+        <briefdescription>
+<para>Makes <ref refid="classwx_any" kindref="compound">wxAny</ref> null (that is, clears it). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/any.h" line="168" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>The <ref refid="classwx_any" kindref="compound">wxAny</ref> class represents a container for any type. </para>    </briefdescription>
+    <detaileddescription>
+<para>Its value can be changed at run time, possibly to a different type of value.</para><para><ref refid="classwx_any" kindref="compound">wxAny</ref> is a backwards-incompatible (but convertible) successor class for <ref refid="classwx_variant" kindref="compound">wxVariant</ref>, essentially doing the same thing in a more modern, template- based manner and with transparent support for any user data type.</para><para>Some pseudo-code&apos;ish example of use with arbitrary user data:</para><para><programlisting><codeline><highlight class="normal">void<sp/>SomeFunction()</highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>MyClass<sp/>myObject;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>wxAny<sp/>any<sp/>=<sp/>myObject;</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>//<sp/>Do<sp/>something</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>//<sp/>...</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>//<sp/>Let&apos;s<sp/>do<sp/>a<sp/>sanity<sp/>check<sp/>to<sp/>make<sp/>sure<sp/>that<sp/>any<sp/>still<sp/>holds</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>//<sp/>data<sp/>of<sp/>correct<sp/>type.</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>if<sp/>(<sp/>any.CheckType&lt;MyClass&gt;()<sp/>)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>Thank<sp/>goodness,<sp/>still<sp/>a<sp/>correct<sp/>type.</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>MyClass<sp/>myObject2<sp/>=<sp/>any.As&lt;MyClass&gt;();</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>else</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>Something<sp/>has<sp/>gone<sp/>horribly<sp/>wrong!</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>wxFAIL();</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline><highlight class="normal">}</highlight></codeline>
+</programlisting></para><para>When compared to <ref refid="classwx_variant" kindref="compound">wxVariant</ref>, there are various internal implementation differences as well. For instance, <ref refid="classwx_any" kindref="compound">wxAny</ref> only allocates separate data object in heap for large objects (i.e. ones with size more than WX_ANY_VALUE_BUFFER_SIZE, which at the time of writing is 16 bytes).</para><para><simplesect kind="note"><para>When performing conversions between strings and floating point numbers, the representation of numbers in C locale is always used. I.e.<programlisting><codeline><highlight class="normal">wxAny(&quot;1.23&quot;).GetAs&lt;double&gt;()<sp/></highlight></codeline>
+</programlisting> will always work, even if the current locale uses comma as decimal separator.</para></simplesect>
+<heading level="2"></heading>
+</para><para>Library:<nonbreakablespace/><nonbreakablespace/><ref refid="page_libs_1page_libs_wxbase" kindref="member">wxBase</ref> &lt;&gt;&lt; =&apos;&apos;&gt;:&lt;/&gt;&amp;;&amp;;&lt; =&apos;&apos;&gt;\ &lt;/&gt;&lt;/&gt;</para><para><simplesect kind="see"><para><ref refid="classwx_any_value_type" kindref="compound">wxAnyValueType</ref>, <ref refid="classwx_variant" kindref="compound">wxVariant</ref>, <ref refid="overview_cpp_rtti_disabled" kindref="compound">Caveats When Not Using C++ RTTI</ref> </para></simplesect>
+</para>    </detaileddescription>
+    <location file="interface/wx/any.h" line="61" column="1" bodyfile="interface/wx/any.h" bodystart="60" bodyend="235"/>
+    <listofallmembers>
+      <member refid="classwx_any_1a890cd022f86ae75a46bb01592ff6eea2" prot="public" virt="non-virtual"><scope>wxAny</scope><name>As</name></member>
+      <member refid="classwx_any_1a585f010487f849adb845dc50b0005030" prot="public" virt="non-virtual"><scope>wxAny</scope><name>CheckType</name></member>
+      <member refid="classwx_any_1a2d1560bc82a4c9f91f129bedce7120e9" prot="public" virt="non-virtual"><scope>wxAny</scope><name>GetAs</name></member>
+      <member refid="classwx_any_1a857c42170f46e372f74a79779c43bfa1" prot="public" virt="non-virtual"><scope>wxAny</scope><name>GetAs</name></member>
+      <member refid="classwx_any_1a2e0dcfd601852bd248c449166a3da6a7" prot="public" virt="non-virtual"><scope>wxAny</scope><name>GetType</name></member>
+      <member refid="classwx_any_1a1583dfd4389c2dfb3a94e9aaec24dedd" prot="public" virt="non-virtual"><scope>wxAny</scope><name>HasSameType</name></member>
+      <member refid="classwx_any_1a81cb4de204073c2c95dd32bb1addacfa" prot="public" virt="non-virtual"><scope>wxAny</scope><name>IsNull</name></member>
+      <member refid="classwx_any_1ab229cda7063a3c3a82330b6dd7b3550c" prot="public" virt="non-virtual"><scope>wxAny</scope><name>MakeNull</name></member>
+      <member refid="classwx_any_1a81ef9057fce0249d057e00fac359fb69" prot="public" virt="non-virtual"><scope>wxAny</scope><name>operator!=</name></member>
+      <member refid="classwx_any_1a0a2f478fb13e7532add7c856ff748098" prot="public" virt="non-virtual"><scope>wxAny</scope><name>operator!=</name></member>
+      <member refid="classwx_any_1a39c4e081dfea2c79fef1617277a3400b" prot="public" virt="non-virtual"><scope>wxAny</scope><name>operator!=</name></member>
+      <member refid="classwx_any_1ac29ebc21de2d61aa53feeede3e942a90" prot="public" virt="non-virtual"><scope>wxAny</scope><name>operator!=</name></member>
+      <member refid="classwx_any_1a9d64736bd244590beb5b299056a32aee" prot="public" virt="non-virtual"><scope>wxAny</scope><name>operator!=</name></member>
+      <member refid="classwx_any_1ab2d3cc6fb79bf77fd9856ef1d3340283" prot="public" virt="non-virtual"><scope>wxAny</scope><name>operator!=</name></member>
+      <member refid="classwx_any_1a1ea4cf09b12e80f1be74dca655d73bb0" prot="public" virt="non-virtual"><scope>wxAny</scope><name>operator!=</name></member>
+      <member refid="classwx_any_1a6b28d6c4d7b28aca7166de60e99747c7" prot="public" virt="non-virtual"><scope>wxAny</scope><name>operator!=</name></member>
+      <member refid="classwx_any_1a022f380e9c3d080679b5adbffede16cb" prot="public" virt="non-virtual"><scope>wxAny</scope><name>operator!=</name></member>
+      <member refid="classwx_any_1a5bfb4392c5f90eeed3a4bd917f092c7d" prot="public" virt="non-virtual"><scope>wxAny</scope><name>operator!=</name></member>
+      <member refid="classwx_any_1a379725daba5b04a7d880adc0db2fc83d" prot="public" virt="non-virtual"><scope>wxAny</scope><name>operator!=</name></member>
+      <member refid="classwx_any_1a0789731ca2d6fb6c4003d494f08fe5e9" prot="public" virt="non-virtual"><scope>wxAny</scope><name>operator!=</name></member>
+      <member refid="classwx_any_1a729df7beee0025e4ea24587f8c0e7087" prot="public" virt="non-virtual"><scope>wxAny</scope><name>operator!=</name></member>
+      <member refid="classwx_any_1afacdc46e2789b147ab24ba22e3cfc2b8" prot="public" virt="non-virtual"><scope>wxAny</scope><name>operator!=</name></member>
+      <member refid="classwx_any_1a7f8d07980d820ef86c9a22a1223fdbc5" prot="public" virt="non-virtual"><scope>wxAny</scope><name>operator!=</name></member>
+      <member refid="classwx_any_1ad036fbb999e3d0f3ef8d442512e02f1d" prot="public" virt="non-virtual"><scope>wxAny</scope><name>operator!=</name></member>
+      <member refid="classwx_any_1a128a3ab1b6ad1593ceb862e61d1e78cd" prot="public" virt="non-virtual"><scope>wxAny</scope><name>operator=</name></member>
+      <member refid="classwx_any_1a29c8766d77f2de7d1f71dc0bc14bf6d4" prot="public" virt="non-virtual"><scope>wxAny</scope><name>operator=</name></member>
+      <member refid="classwx_any_1abb73ad85c843f81f08fca557de7691cf" prot="public" virt="non-virtual"><scope>wxAny</scope><name>operator=</name></member>
+      <member refid="classwx_any_1a21268682e02de7f46eaf0f7a72740e05" prot="public" virt="non-virtual"><scope>wxAny</scope><name>operator==</name></member>
+      <member refid="classwx_any_1a17555d014da9c2297334ebfabde9bfba" prot="public" virt="non-virtual"><scope>wxAny</scope><name>operator==</name></member>
+      <member refid="classwx_any_1a3aa581ca6e7432870acf28b339ce6b0c" prot="public" virt="non-virtual"><scope>wxAny</scope><name>operator==</name></member>
+      <member refid="classwx_any_1a6742ab52145f22c3b0df540fcb972863" prot="public" virt="non-virtual"><scope>wxAny</scope><name>operator==</name></member>
+      <member refid="classwx_any_1a603f0fce19617f2d7ad97c77c87b646b" prot="public" virt="non-virtual"><scope>wxAny</scope><name>operator==</name></member>
+      <member refid="classwx_any_1a69e3190d7a2a205dd8720999f67dfb0e" prot="public" virt="non-virtual"><scope>wxAny</scope><name>operator==</name></member>
+      <member refid="classwx_any_1a3bc45ec39642abc0738a0039cdbe731d" prot="public" virt="non-virtual"><scope>wxAny</scope><name>operator==</name></member>
+      <member refid="classwx_any_1a89ba0bb78fa17bf8030b1b567d29b30d" prot="public" virt="non-virtual"><scope>wxAny</scope><name>operator==</name></member>
+      <member refid="classwx_any_1a85f86fd0f7208f14fd57361eed4175e9" prot="public" virt="non-virtual"><scope>wxAny</scope><name>operator==</name></member>
+      <member refid="classwx_any_1adeefd759b1fed2bd12356e5ff1673f6a" prot="public" virt="non-virtual"><scope>wxAny</scope><name>operator==</name></member>
+      <member refid="classwx_any_1a570914fdcae479f8720b5a9941c9531f" prot="public" virt="non-virtual"><scope>wxAny</scope><name>operator==</name></member>
+      <member refid="classwx_any_1a3bce2cb41abea184da2a0e0accb547c4" prot="public" virt="non-virtual"><scope>wxAny</scope><name>operator==</name></member>
+      <member refid="classwx_any_1a726cfe45986c5f4926449c07d22aac0f" prot="public" virt="non-virtual"><scope>wxAny</scope><name>operator==</name></member>
+      <member refid="classwx_any_1ab9b75a7b5d69229816dc6df4a868e3f8" prot="public" virt="non-virtual"><scope>wxAny</scope><name>operator==</name></member>
+      <member refid="classwx_any_1a874fd5983fdc7859e649bb4c4f978167" prot="public" virt="non-virtual"><scope>wxAny</scope><name>operator==</name></member>
+      <member refid="classwx_any_1a5cb0b245177ce35f3413eba72109a859" prot="public" virt="non-virtual"><scope>wxAny</scope><name>operator==</name></member>
+      <member refid="classwx_any_1a0dab49e1f6127bc459b49aed7f5106a3" prot="public" virt="non-virtual"><scope>wxAny</scope><name>wxAny</name></member>
+      <member refid="classwx_any_1a54f15b40ccc2420fbc8170dc44b9fa3a" prot="public" virt="non-virtual"><scope>wxAny</scope><name>wxAny</name></member>
+      <member refid="classwx_any_1a1a98d3bb6b2fd780822524000214f252" prot="public" virt="non-virtual"><scope>wxAny</scope><name>wxAny</name></member>
+      <member refid="classwx_any_1a3db7df945f7e1390e45c9ff44af80b5d" prot="public" virt="non-virtual"><scope>wxAny</scope><name>wxAny</name></member>
+      <member refid="classwx_any_1a2073a5bead2fc7929778a6b80c5e41a2" prot="public" virt="non-virtual"><scope>wxAny</scope><name>~wxAny</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

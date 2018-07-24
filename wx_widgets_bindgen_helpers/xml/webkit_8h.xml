@@ -1,0 +1,176 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="webkit_8h" kind="file" language="C++">
+    <compoundname>webkit.h</compoundname>
+    <innerclass refid="classwx_web_kit_ctrl" prot="public">wxWebKitCtrl</innerclass>
+    <innerclass refid="classwx_web_kit_before_load_event" prot="public">wxWebKitBeforeLoadEvent</innerclass>
+    <innerclass refid="classwx_web_kit_state_changed_event" prot="public">wxWebKitStateChangedEvent</innerclass>
+    <innerclass refid="classwx_web_kit_new_window_event" prot="public">wxWebKitNewWindowEvent</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="webkit_8h_1a5d76b81b0ad4c19007a781d4edb8181f" prot="public" static="no" strong="no">
+        <type></type>
+        <name>@28</name>
+        <enumvalue id="webkit_8h_1a5d76b81b0ad4c19007a781d4edb8181facd774cb869f86939c3c54d82b328d54b" prot="public">
+          <name>wxWEBKIT_STATE_START</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="webkit_8h_1a5d76b81b0ad4c19007a781d4edb8181fa4e63d4cfe38587f4ddd1955d2cf838fd" prot="public">
+          <name>wxWEBKIT_STATE_NEGOTIATING</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="webkit_8h_1a5d76b81b0ad4c19007a781d4edb8181fafb2ac659a8eeb73679921a0623620387" prot="public">
+          <name>wxWEBKIT_STATE_REDIRECTING</name>
+          <initializer>= 4</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="webkit_8h_1a5d76b81b0ad4c19007a781d4edb8181fa2ca6f5265660035d30cac07fb9cd8542" prot="public">
+          <name>wxWEBKIT_STATE_TRANSFERRING</name>
+          <initializer>= 8</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="webkit_8h_1a5d76b81b0ad4c19007a781d4edb8181fa9e0fa3a412033982a47528ec80c5040d" prot="public">
+          <name>wxWEBKIT_STATE_STOP</name>
+          <initializer>= 16</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="webkit_8h_1a5d76b81b0ad4c19007a781d4edb8181fabaf923e45d0791463a16d7f62f72f26d" prot="public">
+          <name>wxWEBKIT_STATE_FAILED</name>
+          <initializer>= 32</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/html/webkit.h" line="89" column="1" bodyfile="interface/wx/html/webkit.h" bodystart="89" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="enum" id="webkit_8h_1aac34dfe6c6b73b43a4656c9dce041034" prot="public" static="no" strong="no">
+        <type></type>
+        <name>@29</name>
+        <enumvalue id="webkit_8h_1aac34dfe6c6b73b43a4656c9dce041034ae1379fdf0911b272f03e8dc06c88b463" prot="public">
+          <name>wxWEBKIT_NAV_LINK_CLICKED</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="webkit_8h_1aac34dfe6c6b73b43a4656c9dce041034a226efb63d3cfb7b26a5db719f74770f5" prot="public">
+          <name>wxWEBKIT_NAV_BACK_NEXT</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="webkit_8h_1aac34dfe6c6b73b43a4656c9dce041034abde8ee494ec7789f99108c299d482b51" prot="public">
+          <name>wxWEBKIT_NAV_FORM_SUBMITTED</name>
+          <initializer>= 4</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="webkit_8h_1aac34dfe6c6b73b43a4656c9dce041034af17413672890efd8a7e8ac65ba18166f" prot="public">
+          <name>wxWEBKIT_NAV_RELOAD</name>
+          <initializer>= 8</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="webkit_8h_1aac34dfe6c6b73b43a4656c9dce041034a6ef0bbc1878a2143fd3175e32556abda" prot="public">
+          <name>wxWEBKIT_NAV_FORM_RESUBMITTED</name>
+          <initializer>= 16</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="webkit_8h_1aac34dfe6c6b73b43a4656c9dce041034a472fab94a354109bf77d42a6536318ee" prot="public">
+          <name>wxWEBKIT_NAV_OTHER</name>
+          <initializer>= 32</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/html/webkit.h" line="98" column="1" bodyfile="interface/wx/html/webkit.h" bodystart="98" bodyend="106"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="webkit_8h_1a55a3bd13bb13fb4a7b3a97a9ed1397f7" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_WEBKIT_STATE_CHANGED</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_WEBKIT_STATE_CHANGED</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/html/webkit.h" line="146" column="1" bodyfile="interface/wx/html/webkit.h" bodystart="146" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="webkit_8h_1ab3dc313de245375e59ae1a7aeef237a0" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_WEBKIT_BEFORE_LOAD</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_WEBKIT_BEFORE_LOAD</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/html/webkit.h" line="147" column="1" bodyfile="interface/wx/html/webkit.h" bodystart="147" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="webkit_8h_1a17ef70c4f1d27ee00590bbcf7242ad53" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_WEBKIT_NEW_WINDOW</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_WEBKIT_NEW_WINDOW</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/html/webkit.h" line="148" column="1" bodyfile="interface/wx/html/webkit.h" bodystart="148" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="interface/wx/html/webkit.h"/>
+  </compounddef>
+</doxygen>

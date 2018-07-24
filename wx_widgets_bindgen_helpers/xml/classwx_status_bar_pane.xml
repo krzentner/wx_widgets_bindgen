@@ -1,0 +1,202 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_status_bar_pane" kind="class" language="C++" prot="public">
+    <compoundname>wxStatusBarPane</compoundname>
+    <includes local="no">wx/statusbr.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classwx_status_bar_pane_1a09de0e3d124479f91b27048845ef6761" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxStatusBarPane::wxStatusBarPane</definition>
+        <argsstring>(int style=wxSB_NORMAL, int width=0)</argsstring>
+        <name>wxStatusBarPane</name>
+        <param>
+          <type>int</type>
+          <declname>style</declname>
+          <defval><ref refid="statusbr_8h_1a087408cc0ea0e5d01e58b6ae327d0de8" kindref="member">wxSB_NORMAL</ref></defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>width</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>Constructs the pane with the given <emphasis>style</emphasis> and <emphasis>width</emphasis>. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/statusbr.h" line="41" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_status_bar_pane_1aab7f589404f64c417120bf012c37eb38" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int wxStatusBarPane::GetWidth</definition>
+        <argsstring>() const</argsstring>
+        <name>GetWidth</name>
+        <briefdescription>
+<para>Returns the pane width; it maybe negative, indicating a variable-width field. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/statusbr.h" line="46" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_status_bar_pane_1acea303782875455cdaca7a010e17ca71" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int wxStatusBarPane::GetStyle</definition>
+        <argsstring>() const</argsstring>
+        <name>GetStyle</name>
+        <briefdescription>
+<para>Returns the pane style. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/statusbr.h" line="51" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_status_bar_pane_1a28696d9735ac7e9528f342f6dc885c44" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_string" kindref="compound">wxString</ref></type>
+        <definition>wxString wxStatusBarPane::GetText</definition>
+        <argsstring>() const</argsstring>
+        <name>GetText</name>
+        <briefdescription>
+<para>Returns the text currently shown in this pane. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/statusbr.h" line="56" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_status_bar_pane_1a13a99c841a8e1880c9b23f1ae306fd40" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxStatusBarPane::IsEllipsized</definition>
+        <argsstring>() const</argsstring>
+        <name>IsEllipsized</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/statusbr.h" line="59" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_status_bar_pane_1ac6814ed2e94b9039643a839b14639ec2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxStatusBarPane::SetIsEllipsized</definition>
+        <argsstring>(bool isEllipsized)</argsstring>
+        <name>SetIsEllipsized</name>
+        <param>
+          <type>bool</type>
+          <declname>isEllipsized</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/statusbr.h" line="60" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_status_bar_pane_1a0a976c278558f3c7bbc2fc95f3a5ce69" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxStatusBarPane::SetWidth</definition>
+        <argsstring>(int width)</argsstring>
+        <name>SetWidth</name>
+        <param>
+          <type>int</type>
+          <declname>width</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/statusbr.h" line="62" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_status_bar_pane_1a8e61b79be2f88b9a71dfb3aa6db261ef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxStatusBarPane::SetStyle</definition>
+        <argsstring>(int style)</argsstring>
+        <name>SetStyle</name>
+        <param>
+          <type>int</type>
+          <declname>style</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/statusbr.h" line="63" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_status_bar_pane_1a9aa58a25f0f821bedbc14704a3b70547" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxStatusBarPane::SetText</definition>
+        <argsstring>(const wxString &amp;text)</argsstring>
+        <name>SetText</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>text</declname>
+        </param>
+        <briefdescription>
+<para>Set text. </para>        </briefdescription>
+        <detaileddescription>
+<para>Returns true if it changed or false if it was already set to this value. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/statusbr.h" line="69" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_status_bar_pane_1a31dfc8a705708f797a7dd34a5ed6a738" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxStatusBarPane::PushText</definition>
+        <argsstring>(const wxString &amp;text)</argsstring>
+        <name>PushText</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>text</declname>
+        </param>
+        <briefdescription>
+<para>Save the existing text on top of a stack and make the new text current. </para>        </briefdescription>
+        <detaileddescription>
+<para>Returns true if the text really changed. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/statusbr.h" line="75" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_status_bar_pane_1a8913408a483ea50620e8bb890d389903" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxStatusBarPane::PopText</definition>
+        <argsstring>()</argsstring>
+        <name>PopText</name>
+        <briefdescription>
+<para>Restore the message saved by the last call to Push() (unless it was changed by an intervening call to <ref refid="classwx_status_bar_pane_1a9aa58a25f0f821bedbc14704a3b70547" kindref="member">SetText()</ref>) and return true if we really restored anything. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/statusbr.h" line="82" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>A status bar pane data container used by <ref refid="classwx_status_bar" kindref="compound">wxStatusBar</ref>. </para>    </briefdescription>
+    <detaileddescription>
+<para><heading level="2"></heading>
+</para><para>Library:<nonbreakablespace/><nonbreakablespace/><ref refid="page_libs_1page_libs_wxcore" kindref="member">wxCore</ref> &lt;&gt;&lt; =&apos;&apos;&gt;:&lt;/&gt;&amp;;&amp;;&lt; =&apos;&apos;&gt;\ &lt;/&gt;&lt;/&gt;</para><para><simplesect kind="see"><para><ref refid="classwx_status_bar" kindref="compound">wxStatusBar</ref> </para></simplesect>
+</para>    </detaileddescription>
+    <location file="interface/wx/statusbr.h" line="36" column="1" bodyfile="interface/wx/statusbr.h" bodystart="35" bodyend="84"/>
+    <listofallmembers>
+      <member refid="classwx_status_bar_pane_1acea303782875455cdaca7a010e17ca71" prot="public" virt="non-virtual"><scope>wxStatusBarPane</scope><name>GetStyle</name></member>
+      <member refid="classwx_status_bar_pane_1a28696d9735ac7e9528f342f6dc885c44" prot="public" virt="non-virtual"><scope>wxStatusBarPane</scope><name>GetText</name></member>
+      <member refid="classwx_status_bar_pane_1aab7f589404f64c417120bf012c37eb38" prot="public" virt="non-virtual"><scope>wxStatusBarPane</scope><name>GetWidth</name></member>
+      <member refid="classwx_status_bar_pane_1a13a99c841a8e1880c9b23f1ae306fd40" prot="public" virt="non-virtual"><scope>wxStatusBarPane</scope><name>IsEllipsized</name></member>
+      <member refid="classwx_status_bar_pane_1a8913408a483ea50620e8bb890d389903" prot="public" virt="non-virtual"><scope>wxStatusBarPane</scope><name>PopText</name></member>
+      <member refid="classwx_status_bar_pane_1a31dfc8a705708f797a7dd34a5ed6a738" prot="public" virt="non-virtual"><scope>wxStatusBarPane</scope><name>PushText</name></member>
+      <member refid="classwx_status_bar_pane_1ac6814ed2e94b9039643a839b14639ec2" prot="public" virt="non-virtual"><scope>wxStatusBarPane</scope><name>SetIsEllipsized</name></member>
+      <member refid="classwx_status_bar_pane_1a8e61b79be2f88b9a71dfb3aa6db261ef" prot="public" virt="non-virtual"><scope>wxStatusBarPane</scope><name>SetStyle</name></member>
+      <member refid="classwx_status_bar_pane_1a9aa58a25f0f821bedbc14704a3b70547" prot="public" virt="non-virtual"><scope>wxStatusBarPane</scope><name>SetText</name></member>
+      <member refid="classwx_status_bar_pane_1a0a976c278558f3c7bbc2fc95f3a5ce69" prot="public" virt="non-virtual"><scope>wxStatusBarPane</scope><name>SetWidth</name></member>
+      <member refid="classwx_status_bar_pane_1a09de0e3d124479f91b27048845ef6761" prot="public" virt="non-virtual"><scope>wxStatusBarPane</scope><name>wxStatusBarPane</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,167 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_metafile" kind="class" language="C++" prot="public">
+    <compoundname>wxMetafile</compoundname>
+    <basecompoundref refid="classwx_object" prot="public" virt="non-virtual">wxObject</basecompoundref>
+    <includes local="no">wx/metafile.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classwx_metafile_1adf3c73473b66130a140e2325a2cb87f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxMetafile::wxMetafile</definition>
+        <argsstring>(const wxString &amp;filename=wxEmptyString)</argsstring>
+        <name>wxMetafile</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>filename</declname>
+          <defval><ref refid="interface_2wx_2string_8h_1a9a321d587166a30017b608dd2d234033" kindref="member">wxEmptyString</ref></defval>
+        </param>
+        <briefdescription>
+<para>Constructor. </para>        </briefdescription>
+        <detaileddescription>
+<para>If a filename is given, the Windows disk metafile is read in. Check whether this was performed successfully by using the <ref refid="classwx_metafile_1a22c932cc631943ef5f80a251639af298" kindref="member">IsOk()</ref> member. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/metafile.h" line="84" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_metafile_1ae163d1a240f59d8ce2d72450a1babb79" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxMetafile::~wxMetafile</definition>
+        <argsstring>()</argsstring>
+        <name>~wxMetafile</name>
+        <briefdescription>
+<para>Destructor. </para>        </briefdescription>
+        <detaileddescription>
+<para>See <ref refid="overview_refcount_1overview_refcount_destruct" kindref="member">Object Destruction</ref> for more info. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/metafile.h" line="91" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_metafile_1a22c932cc631943ef5f80a251639af298" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxMetafile::IsOk</definition>
+        <argsstring>()</argsstring>
+        <name>IsOk</name>
+        <briefdescription>
+<para>Returns true if the metafile is valid. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/metafile.h" line="96" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_metafile_1a737c07e3ef22395d425fe7c3edbe4f2c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxMetafile::Play</definition>
+        <argsstring>(wxDC *dc)</argsstring>
+        <name>Play</name>
+        <param>
+          <type><ref refid="classwx_d_c" kindref="compound">wxDC</ref> *</type>
+          <declname>dc</declname>
+        </param>
+        <briefdescription>
+<para>Plays the metafile into the given device context, returning true if successful. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/metafile.h" line="102" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_metafile_1a2e84ccbc1ec4edbf217684782e34035a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxMetafile::SetClipboard</definition>
+        <argsstring>(int width=0, int height=0)</argsstring>
+        <name>SetClipboard</name>
+        <param>
+          <type>int</type>
+          <declname>width</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>height</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>Passes the metafile data to the clipboard. </para>        </briefdescription>
+        <detaileddescription>
+<para>The metafile can no longer be used for anything, but the <ref refid="classwx_metafile" kindref="compound">wxMetafile</ref> object must still be destroyed by the application.</para><para>Below is a example of metafile, metafile device context and clipboard use from the <computeroutput>hello.cpp</computeroutput> example. Note the way the metafile dimensions are passed to the clipboard, making use of the device context&apos;s ability to keep track of the maximum extent of drawing commands.</para><para><programlisting><codeline><highlight class="normal">wxMetafileDC<sp/>dc;</highlight></codeline>
+<codeline><highlight class="normal">if<sp/>(dc.IsOk())</highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>Draw(dc,<sp/>false);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>wxMetafile<sp/>*mf<sp/>=<sp/>dc.Close();</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>if<sp/>(mf)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>bool<sp/>success<sp/>=<sp/>mf-&gt;SetClipboard((int)(dc.MaxX()<sp/>+<sp/>10),<sp/>(int)(dc.MaxY()<sp/>+<sp/>10));</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>delete<sp/>mf;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline><highlight class="normal">}</highlight></codeline>
+</programlisting> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/metafile.h" line="128" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>A <bold><ref refid="classwx_metafile" kindref="compound">wxMetafile</ref></bold> represents the MS Windows metafile object, so metafile operations have no effect in X. </para>    </briefdescription>
+    <detaileddescription>
+<para>In wxWidgets, only sufficient functionality has been provided for copying a graphic to the clipboard; this may be extended in a future version.</para><para>Presently, the only way of creating a metafile is to use a <ref refid="classwx_metafile_d_c" kindref="compound">wxMetafileDC</ref>.</para><para>Availability:<nonbreakablespace/><nonbreakablespace/>only available for the <ref refid="page_port_1page_port_wxmsw" kindref="member">wxMSW</ref> port. <onlyfor>wxmsw</onlyfor> </para><para><heading level="2"></heading>
+</para><para>Library:<nonbreakablespace/><nonbreakablespace/><ref refid="page_libs_1page_libs_wxcore" kindref="member">wxCore</ref> &lt;&gt;&lt; =&apos;&apos;&gt;:&lt;/&gt;&amp;;&amp;;&lt; =&apos;&apos;&gt;\ &lt;/&gt;&lt;/&gt;</para><para><simplesect kind="see"><para><ref refid="classwx_metafile_d_c" kindref="compound">wxMetafileDC</ref> </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="4241">
+        <label>wxObject</label>
+        <link refid="classwx_object"/>
+      </node>
+      <node id="4240">
+        <label>wxMetafile</label>
+        <link refid="classwx_metafile"/>
+        <childnode refid="4241" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4243">
+        <label>wxObject</label>
+        <link refid="classwx_object"/>
+        <childnode refid="4244" relation="usage">
+          <edgelabel>m_refData</edgelabel>
+        </childnode>
+      </node>
+      <node id="4242">
+        <label>wxMetafile</label>
+        <link refid="classwx_metafile"/>
+        <childnode refid="4243" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4244">
+        <label>wxObjectRefData</label>
+        <link refid="classwx_object_ref_data"/>
+      </node>
+    </collaborationgraph>
+    <location file="interface/wx/metafile.h" line="76" column="1" bodyfile="interface/wx/metafile.h" bodystart="75" bodyend="129"/>
+    <listofallmembers>
+      <member refid="classwx_object_1a60204063f3cc3aa2fa1c7ff5bda9eb13" prot="protected" virt="non-virtual"><scope>wxMetafile</scope><name>AllocExclusive</name></member>
+      <member refid="classwx_object_1a436fc8fe68cf8a31000296d9cd3d2427" prot="protected" virt="virtual"><scope>wxMetafile</scope><name>CloneRefData</name></member>
+      <member refid="classwx_object_1a3f4f497c65cef611e121c41f21dd5ccc" prot="protected" virt="virtual"><scope>wxMetafile</scope><name>CreateRefData</name></member>
+      <member refid="classwx_object_1ae6d365f2556b26767ced8410c5e839d0" prot="public" virt="virtual"><scope>wxMetafile</scope><name>GetClassInfo</name></member>
+      <member refid="classwx_object_1af3c6c76a775864832f1536d3c0de3a2b" prot="public" virt="non-virtual"><scope>wxMetafile</scope><name>GetRefData</name></member>
+      <member refid="classwx_object_1a3c7115ef4132dcee0c4fc34e84d7fced" prot="public" virt="non-virtual"><scope>wxMetafile</scope><name>IsKindOf</name></member>
+      <member refid="classwx_metafile_1a22c932cc631943ef5f80a251639af298" prot="public" virt="non-virtual"><scope>wxMetafile</scope><name>IsOk</name></member>
+      <member refid="classwx_object_1a059373c494c2369d7db2a556efef8ecf" prot="public" virt="non-virtual"><scope>wxMetafile</scope><name>IsSameAs</name></member>
+      <member refid="classwx_object_1a9e31954530a0abd54982effc443ed2b8" prot="protected" virt="non-virtual"><scope>wxMetafile</scope><name>m_refData</name></member>
+      <member refid="classwx_object_1a07b8f34f5afc5743195c5fed052f55d3" prot="public" virt="non-virtual"><scope>wxMetafile</scope><name>operator delete</name></member>
+      <member refid="classwx_object_1a96fa423a1dbc212c8227a5d83825971f" prot="public" virt="non-virtual"><scope>wxMetafile</scope><name>operator new</name></member>
+      <member refid="classwx_metafile_1a737c07e3ef22395d425fe7c3edbe4f2c" prot="public" virt="non-virtual"><scope>wxMetafile</scope><name>Play</name></member>
+      <member refid="classwx_object_1a2f6f1aa51fe9fc2b1415ca4211a90e9e" prot="public" virt="non-virtual"><scope>wxMetafile</scope><name>Ref</name></member>
+      <member refid="classwx_metafile_1a2e84ccbc1ec4edbf217684782e34035a" prot="public" virt="non-virtual"><scope>wxMetafile</scope><name>SetClipboard</name></member>
+      <member refid="classwx_object_1afab780710f2adc1bb33310e27590140b" prot="public" virt="non-virtual"><scope>wxMetafile</scope><name>SetRefData</name></member>
+      <member refid="classwx_object_1af51efc6b1ae632fc7f0cd7ebbce9fa36" prot="public" virt="non-virtual"><scope>wxMetafile</scope><name>UnRef</name></member>
+      <member refid="classwx_object_1a74b40e42d19a4b9e9bec0b57d62a5725" prot="public" virt="non-virtual"><scope>wxMetafile</scope><name>UnShare</name></member>
+      <member refid="classwx_metafile_1adf3c73473b66130a140e2325a2cb87f8" prot="public" virt="non-virtual"><scope>wxMetafile</scope><name>wxMetafile</name></member>
+      <member refid="classwx_object_1acaa378363a28af421ab56ad7b46eadf0" prot="public" virt="non-virtual"><scope>wxMetafile</scope><name>wxObject</name></member>
+      <member refid="classwx_object_1a4721b4dc9b7aff0f30904ba2ea3954cf" prot="public" virt="non-virtual"><scope>wxMetafile</scope><name>wxObject</name></member>
+      <member refid="classwx_metafile_1ae163d1a240f59d8ce2d72450a1babb79" prot="public" virt="non-virtual"><scope>wxMetafile</scope><name>~wxMetafile</name></member>
+      <member refid="classwx_object_1a2a51aa8bfbab47ca2f051bcf84b3f35b" prot="public" virt="virtual"><scope>wxMetafile</scope><name>~wxObject</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

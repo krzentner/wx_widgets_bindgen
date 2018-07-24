@@ -1,0 +1,248 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_colour_property_value" kind="class" language="C++" prot="public">
+    <compoundname>wxColourPropertyValue</compoundname>
+    <basecompoundref refid="classwx_object" prot="public" virt="non-virtual">wxObject</basecompoundref>
+    <includes local="no">wx/propgrid/advprops.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classwx_colour_property_value_1a42fffa02f3ba7f377168a22b6e9150fe" prot="public" static="no" mutable="no">
+        <type><ref refid="defs_8h_1afdb12e5345c3fae4b537e813df9f02a3" kindref="member">wxUint32</ref></type>
+        <definition>wxUint32 wxColourPropertyValue::m_type</definition>
+        <argsstring></argsstring>
+        <name>m_type</name>
+        <briefdescription>
+<para>An integer value relating to the colour, and which exact meaning depends on the property with which it is used. </para>        </briefdescription>
+        <detaileddescription>
+<para>For <ref refid="classwx_system_colour_property" kindref="compound">wxSystemColourProperty</ref>:</para><para>Any of wxSYS_COLOUR_XXX, or any web-colour ( use wxPG_TO_WEB_COLOUR macro - (currently unsupported) ), or wxPG_COLOUR_CUSTOM.</para><para>For custom colour properties without values array specified:</para><para>index or wxPG_COLOUR_CUSTOM</para><para>For custom colour properties <bold>with</bold> values array specified:</para><para>m_arrValues[index] or wxPG_COLOUR_CUSTOM </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/advprops.h" line="45" column="1" bodyfile="interface/wx/propgrid/advprops.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classwx_colour_property_value_1a40742851ba26cd29450466011e8af4bc" prot="public" static="no" mutable="no">
+        <type><ref refid="classwx_colour" kindref="compound">wxColour</ref></type>
+        <definition>wxColour wxColourPropertyValue::m_colour</definition>
+        <argsstring></argsstring>
+        <name>m_colour</name>
+        <briefdescription>
+<para>Resulting colour. </para>        </briefdescription>
+        <detaileddescription>
+<para>Should be correct regardless of type. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/advprops.h" line="48" column="1" bodyfile="interface/wx/propgrid/advprops.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classwx_colour_property_value_1acf65db41f1f892718fb7862b8d24128b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxColourPropertyValue::wxColourPropertyValue</definition>
+        <argsstring>()</argsstring>
+        <name>wxColourPropertyValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/advprops.h" line="50" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_colour_property_value_1a1f7fba8ebcf54da751f06e8ebe4a78ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxColourPropertyValue::wxColourPropertyValue</definition>
+        <argsstring>(const wxColourPropertyValue &amp;v)</argsstring>
+        <name>wxColourPropertyValue</name>
+        <param>
+          <type>const <ref refid="classwx_colour_property_value" kindref="compound">wxColourPropertyValue</ref> &amp;</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/advprops.h" line="51" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_colour_property_value_1ac07cbf4c5b0988fbbbcf0bf251d84577" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxColourPropertyValue::wxColourPropertyValue</definition>
+        <argsstring>(const wxColour &amp;colour)</argsstring>
+        <name>wxColourPropertyValue</name>
+        <param>
+          <type>const <ref refid="classwx_colour" kindref="compound">wxColour</ref> &amp;</type>
+          <declname>colour</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/advprops.h" line="52" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_colour_property_value_1a2078b59b85d2d8dab3730788ef91eed1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxColourPropertyValue::wxColourPropertyValue</definition>
+        <argsstring>(wxUint32 type)</argsstring>
+        <name>wxColourPropertyValue</name>
+        <param>
+          <type><ref refid="defs_8h_1afdb12e5345c3fae4b537e813df9f02a3" kindref="member">wxUint32</ref></type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/advprops.h" line="53" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_colour_property_value_1a6b369e2484f5bb0dc5d5585e77dab570" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxColourPropertyValue::wxColourPropertyValue</definition>
+        <argsstring>(wxUint32 type, const wxColour &amp;colour)</argsstring>
+        <name>wxColourPropertyValue</name>
+        <param>
+          <type><ref refid="defs_8h_1afdb12e5345c3fae4b537e813df9f02a3" kindref="member">wxUint32</ref></type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_colour" kindref="compound">wxColour</ref> &amp;</type>
+          <declname>colour</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/advprops.h" line="54" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_colour_property_value_1a1b48490fb06bf1da4093c0f29e031d49" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual wxColourPropertyValue::~wxColourPropertyValue</definition>
+        <argsstring>()</argsstring>
+        <name>~wxColourPropertyValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/advprops.h" line="56" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_colour_property_value_1a4223095998794c2a47b4b9cf442ac964" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxColourPropertyValue::Init</definition>
+        <argsstring>(wxUint32 type, const wxColour &amp;colour)</argsstring>
+        <name>Init</name>
+        <param>
+          <type><ref refid="defs_8h_1afdb12e5345c3fae4b537e813df9f02a3" kindref="member">wxUint32</ref></type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_colour" kindref="compound">wxColour</ref> &amp;</type>
+          <declname>colour</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/advprops.h" line="58" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_colour_property_value_1a52756dff408e0b5a00cfe515aee68f51" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxColourPropertyValue::operator=</definition>
+        <argsstring>(const wxColourPropertyValue &amp;cpv)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="classwx_colour_property_value" kindref="compound">wxColourPropertyValue</ref> &amp;</type>
+          <declname>cpv</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/advprops.h" line="60" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Because text, background and other colours tend to differ between platforms, <ref refid="classwx_system_colour_property" kindref="compound">wxSystemColourProperty</ref> must be able to select between system colour and, when necessary, to pick a custom one. </para>    </briefdescription>
+    <detaileddescription>
+<para><ref refid="classwx_system_colour_property" kindref="compound">wxSystemColourProperty</ref> value makes this possible. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="937">
+        <label>wxObject</label>
+        <link refid="classwx_object"/>
+      </node>
+      <node id="936">
+        <label>wxColourPropertyValue</label>
+        <link refid="classwx_colour_property_value"/>
+        <childnode refid="937" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="939">
+        <label>wxObject</label>
+        <link refid="classwx_object"/>
+        <childnode refid="940" relation="usage">
+          <edgelabel>m_refData</edgelabel>
+        </childnode>
+      </node>
+      <node id="941">
+        <label>wxColour</label>
+        <link refid="classwx_colour"/>
+        <childnode refid="939" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="938">
+        <label>wxColourPropertyValue</label>
+        <link refid="classwx_colour_property_value"/>
+        <childnode refid="939" relation="public-inheritance">
+        </childnode>
+        <childnode refid="941" relation="usage">
+          <edgelabel>m_colour</edgelabel>
+        </childnode>
+      </node>
+      <node id="940">
+        <label>wxObjectRefData</label>
+        <link refid="classwx_object_ref_data"/>
+      </node>
+    </collaborationgraph>
+    <location file="interface/wx/propgrid/advprops.h" line="27" column="1" bodyfile="interface/wx/propgrid/advprops.h" bodystart="26" bodyend="61"/>
+    <listofallmembers>
+      <member refid="classwx_object_1a60204063f3cc3aa2fa1c7ff5bda9eb13" prot="protected" virt="non-virtual"><scope>wxColourPropertyValue</scope><name>AllocExclusive</name></member>
+      <member refid="classwx_object_1a436fc8fe68cf8a31000296d9cd3d2427" prot="protected" virt="virtual"><scope>wxColourPropertyValue</scope><name>CloneRefData</name></member>
+      <member refid="classwx_object_1a3f4f497c65cef611e121c41f21dd5ccc" prot="protected" virt="virtual"><scope>wxColourPropertyValue</scope><name>CreateRefData</name></member>
+      <member refid="classwx_object_1ae6d365f2556b26767ced8410c5e839d0" prot="public" virt="virtual"><scope>wxColourPropertyValue</scope><name>GetClassInfo</name></member>
+      <member refid="classwx_object_1af3c6c76a775864832f1536d3c0de3a2b" prot="public" virt="non-virtual"><scope>wxColourPropertyValue</scope><name>GetRefData</name></member>
+      <member refid="classwx_colour_property_value_1a4223095998794c2a47b4b9cf442ac964" prot="public" virt="non-virtual"><scope>wxColourPropertyValue</scope><name>Init</name></member>
+      <member refid="classwx_object_1a3c7115ef4132dcee0c4fc34e84d7fced" prot="public" virt="non-virtual"><scope>wxColourPropertyValue</scope><name>IsKindOf</name></member>
+      <member refid="classwx_object_1a059373c494c2369d7db2a556efef8ecf" prot="public" virt="non-virtual"><scope>wxColourPropertyValue</scope><name>IsSameAs</name></member>
+      <member refid="classwx_colour_property_value_1a40742851ba26cd29450466011e8af4bc" prot="public" virt="non-virtual"><scope>wxColourPropertyValue</scope><name>m_colour</name></member>
+      <member refid="classwx_object_1a9e31954530a0abd54982effc443ed2b8" prot="protected" virt="non-virtual"><scope>wxColourPropertyValue</scope><name>m_refData</name></member>
+      <member refid="classwx_colour_property_value_1a42fffa02f3ba7f377168a22b6e9150fe" prot="public" virt="non-virtual"><scope>wxColourPropertyValue</scope><name>m_type</name></member>
+      <member refid="classwx_object_1a07b8f34f5afc5743195c5fed052f55d3" prot="public" virt="non-virtual"><scope>wxColourPropertyValue</scope><name>operator delete</name></member>
+      <member refid="classwx_object_1a96fa423a1dbc212c8227a5d83825971f" prot="public" virt="non-virtual"><scope>wxColourPropertyValue</scope><name>operator new</name></member>
+      <member refid="classwx_colour_property_value_1a52756dff408e0b5a00cfe515aee68f51" prot="public" virt="non-virtual"><scope>wxColourPropertyValue</scope><name>operator=</name></member>
+      <member refid="classwx_object_1a2f6f1aa51fe9fc2b1415ca4211a90e9e" prot="public" virt="non-virtual"><scope>wxColourPropertyValue</scope><name>Ref</name></member>
+      <member refid="classwx_object_1afab780710f2adc1bb33310e27590140b" prot="public" virt="non-virtual"><scope>wxColourPropertyValue</scope><name>SetRefData</name></member>
+      <member refid="classwx_object_1af51efc6b1ae632fc7f0cd7ebbce9fa36" prot="public" virt="non-virtual"><scope>wxColourPropertyValue</scope><name>UnRef</name></member>
+      <member refid="classwx_object_1a74b40e42d19a4b9e9bec0b57d62a5725" prot="public" virt="non-virtual"><scope>wxColourPropertyValue</scope><name>UnShare</name></member>
+      <member refid="classwx_colour_property_value_1acf65db41f1f892718fb7862b8d24128b" prot="public" virt="non-virtual"><scope>wxColourPropertyValue</scope><name>wxColourPropertyValue</name></member>
+      <member refid="classwx_colour_property_value_1a1f7fba8ebcf54da751f06e8ebe4a78ae" prot="public" virt="non-virtual"><scope>wxColourPropertyValue</scope><name>wxColourPropertyValue</name></member>
+      <member refid="classwx_colour_property_value_1ac07cbf4c5b0988fbbbcf0bf251d84577" prot="public" virt="non-virtual"><scope>wxColourPropertyValue</scope><name>wxColourPropertyValue</name></member>
+      <member refid="classwx_colour_property_value_1a2078b59b85d2d8dab3730788ef91eed1" prot="public" virt="non-virtual"><scope>wxColourPropertyValue</scope><name>wxColourPropertyValue</name></member>
+      <member refid="classwx_colour_property_value_1a6b369e2484f5bb0dc5d5585e77dab570" prot="public" virt="non-virtual"><scope>wxColourPropertyValue</scope><name>wxColourPropertyValue</name></member>
+      <member refid="classwx_object_1acaa378363a28af421ab56ad7b46eadf0" prot="public" virt="non-virtual"><scope>wxColourPropertyValue</scope><name>wxObject</name></member>
+      <member refid="classwx_object_1a4721b4dc9b7aff0f30904ba2ea3954cf" prot="public" virt="non-virtual"><scope>wxColourPropertyValue</scope><name>wxObject</name></member>
+      <member refid="classwx_colour_property_value_1a1b48490fb06bf1da4093c0f29e031d49" prot="public" virt="virtual"><scope>wxColourPropertyValue</scope><name>~wxColourPropertyValue</name></member>
+      <member refid="classwx_object_1a2a51aa8bfbab47ca2f051bcf84b3f35b" prot="public" virt="virtual"><scope>wxColourPropertyValue</scope><name>~wxObject</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

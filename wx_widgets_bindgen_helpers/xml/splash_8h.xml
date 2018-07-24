@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="splash_8h" kind="file" language="C++">
+    <compoundname>splash.h</compoundname>
+    <innerclass refid="classwx_splash_screen" prot="public">wxSplashScreen</innerclass>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="splash_8h_1a4eb44c23458e90a203d6064fda1ecbfc" prot="public" static="no">
+        <name>wxSPLASH_CENTRE_ON_PARENT</name>
+        <initializer>0x01</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/splash.h" line="8" column="9" bodyfile="interface/wx/splash.h" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="splash_8h_1a814d2a4cc92a3956fc145cbb480d624e" prot="public" static="no">
+        <name>wxSPLASH_CENTRE_ON_SCREEN</name>
+        <initializer>0x02</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/splash.h" line="9" column="9" bodyfile="interface/wx/splash.h" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="splash_8h_1ac9725db4174a3f5522a9075e1b52ada2" prot="public" static="no">
+        <name>wxSPLASH_NO_CENTRE</name>
+        <initializer>0x00</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/splash.h" line="10" column="9" bodyfile="interface/wx/splash.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="splash_8h_1a62bff766a336ea1652c2edd0f679f345" prot="public" static="no">
+        <name>wxSPLASH_TIMEOUT</name>
+        <initializer>0x04</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/splash.h" line="11" column="9" bodyfile="interface/wx/splash.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="splash_8h_1a9616c97cc5cc3d8288bde570d6238dbc" prot="public" static="no">
+        <name>wxSPLASH_NO_TIMEOUT</name>
+        <initializer>0x00</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/splash.h" line="12" column="9" bodyfile="interface/wx/splash.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="interface/wx/splash.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,344 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="object_8h" kind="file" language="C++">
+    <compoundname>object.h</compoundname>
+    <innerclass refid="classwx_ref_counter" prot="public">wxRefCounter</innerclass>
+    <innerclass refid="classwx_object" prot="public">wxObject</innerclass>
+    <innerclass refid="classwx_class_info" prot="public">wxClassInfo</innerclass>
+    <innerclass refid="classwx_object_data_ptr_3_01_t_01_4" prot="public">wxObjectDataPtr&lt; T &gt;</innerclass>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="group__group__funcmacro__rtti_1gacee897a7d4e704e1aa53568220f2396e" prot="public" static="no">
+        <name>wxCLASSINFO</name>
+        <param><defname>className</defname></param>
+        <briefdescription>
+<para>Returns a pointer to the <ref refid="classwx_class_info" kindref="compound">wxClassInfo</ref> object associated with this class. </para>        </briefdescription>
+        <detaileddescription>
+<para>Include file:<linebreak/>
+ <verbatim>#include &lt;wx/object.h&gt; </verbatim> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/object.h" line="657" column="9" bodyfile="interface/wx/object.h" bodystart="657" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group__group__funcmacro__rtti_1ga5bbb5821d56ac801da838c42105b72ae" prot="public" static="no">
+        <name>wxDECLARE_ABSTRACT_CLASS</name>
+        <param><defname>className</defname></param>
+        <briefdescription>
+<para>Used inside a class declaration to declare that the class should be made known to the class hierarchy, but objects of this class cannot be created dynamically. </para>        </briefdescription>
+        <detaileddescription>
+<para>Include file:<linebreak/>
+ <verbatim>#include &lt;wx/object.h&gt; </verbatim></para><para>Example:</para><para><programlisting><codeline><highlight class="normal">class<sp/>wxCommand:<sp/>public<sp/>wxObject</highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>wxDECLARE_ABSTRACT_CLASS(wxCommand);</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">private:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>...</highlight></codeline>
+<codeline><highlight class="normal">public:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>...</highlight></codeline>
+<codeline><highlight class="normal">};</highlight></codeline>
+</programlisting> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/object.h" line="680" column="9" bodyfile="interface/wx/object.h" bodystart="680" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group__group__funcmacro__rtti_1ga9c252d076397bec5ac241272a7a60747" prot="public" static="no">
+        <name>wxDECLARE_DYNAMIC_CLASS</name>
+        <param><defname>className</defname></param>
+        <briefdescription>
+<para>Used inside a class declaration to make the class known to wxWidgets RTTI system and also declare that the objects of this class should be dynamically creatable from run-time type information. </para>        </briefdescription>
+        <detaileddescription>
+<para>Notice that this implies that the class should have a default constructor, if this is not the case consider using <ref refid="group__group__funcmacro__rtti_1ga5bbb5821d56ac801da838c42105b72ae" kindref="member">wxDECLARE_ABSTRACT_CLASS()</ref>.</para><para>Include file:<linebreak/>
+ <verbatim>#include &lt;wx/object.h&gt; </verbatim></para><para>Example:</para><para><programlisting><codeline><highlight class="normal">class<sp/>wxFrame:<sp/>public<sp/>wxWindow</highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>wxDECLARE_DYNAMIC_CLASS(wxFrame);</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">private:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>const<sp/>wxString&amp;<sp/>frameTitle;</highlight></codeline>
+<codeline><highlight class="normal">public:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>...</highlight></codeline>
+<codeline><highlight class="normal">};</highlight></codeline>
+</programlisting> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/object.h" line="705" column="9" bodyfile="interface/wx/object.h" bodystart="705" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group__group__funcmacro__rtti_1ga20465fc7e022e29a5dacfad46e152e75" prot="public" static="no">
+        <name>wxDECLARE_CLASS</name>
+        <param><defname>className</defname></param>
+        <briefdescription>
+<para>Used inside a class declaration to declare that the class should be made known to the class hierarchy, but objects of this class cannot be created dynamically. </para>        </briefdescription>
+        <detaileddescription>
+<para>The same as <ref refid="group__group__funcmacro__rtti_1ga5bbb5821d56ac801da838c42105b72ae" kindref="member">wxDECLARE_ABSTRACT_CLASS()</ref>.</para><para>Include file:<linebreak/>
+ <verbatim>#include &lt;wx/object.h&gt; </verbatim> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/object.h" line="716" column="9" bodyfile="interface/wx/object.h" bodystart="716" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group__group__funcmacro__rtti_1ga2f58f4ea4376a2e3994a9e6880509027" prot="public" static="no">
+        <name>wxIMPLEMENT_ABSTRACT_CLASS</name>
+        <param><defname>className</defname></param>
+        <param><defname>baseClassName</defname></param>
+        <briefdescription>
+<para>Used in a C++ implementation file to complete the declaration of a class that has run-time type information. </para>        </briefdescription>
+        <detaileddescription>
+<para>Include file:<linebreak/>
+ <verbatim>#include &lt;wx/object.h&gt; </verbatim></para><para>Example:</para><para><programlisting><codeline><highlight class="normal">wxIMPLEMENT_ABSTRACT_CLASS(wxCommand,<sp/>wxObject);</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">wxCommand::wxCommand(void)</highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>...</highlight></codeline>
+<codeline><highlight class="normal">}</highlight></codeline>
+</programlisting> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/object.h" line="735" column="9" bodyfile="interface/wx/object.h" bodystart="735" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group__group__funcmacro__rtti_1ga55f899b6146d26aa5a75a22984fa1895" prot="public" static="no">
+        <name>wxIMPLEMENT_ABSTRACT_CLASS2</name>
+        <param><defname>className</defname></param>
+        <param><defname>baseClassName1</defname></param>
+        <param><defname>baseClassName2</defname></param>
+        <briefdescription>
+<para>Used in a C++ implementation file to complete the declaration of a class that has run-time type information and two base classes. </para>        </briefdescription>
+        <detaileddescription>
+<para>Include file:<linebreak/>
+ <verbatim>#include &lt;wx/object.h&gt; </verbatim> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/object.h" line="743" column="9" bodyfile="interface/wx/object.h" bodystart="743" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group__group__funcmacro__rtti_1ga4cbf0c21eb5986eb489dc67450eab1d1" prot="public" static="no">
+        <name>wxIMPLEMENT_DYNAMIC_CLASS</name>
+        <param><defname>className</defname></param>
+        <param><defname>baseClassName</defname></param>
+        <briefdescription>
+<para>Used in a C++ implementation file to complete the declaration of a class that has run-time type information, and whose instances can be created dynamically. </para>        </briefdescription>
+        <detaileddescription>
+<para>Include file:<linebreak/>
+ <verbatim>#include &lt;wx/object.h&gt; </verbatim></para><para>Example:</para><para><programlisting><codeline><highlight class="normal">wxIMPLEMENT_DYNAMIC_CLASS(wxFrame,<sp/>wxWindow);</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">wxFrame::wxFrame(void)</highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>...</highlight></codeline>
+<codeline><highlight class="normal">}</highlight></codeline>
+</programlisting> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/object.h" line="763" column="9" bodyfile="interface/wx/object.h" bodystart="763" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group__group__funcmacro__rtti_1ga239f80b143bae2085a271fea0b5ed9db" prot="public" static="no">
+        <name>wxIMPLEMENT_DYNAMIC_CLASS2</name>
+        <param><defname>className</defname></param>
+        <param><defname>baseClassName1</defname></param>
+        <param><defname>baseClassName2</defname></param>
+        <briefdescription>
+<para>Used in a C++ implementation file to complete the declaration of a class that has run-time type information, and whose instances can be created dynamically. </para>        </briefdescription>
+        <detaileddescription>
+<para>Use this for classes derived from two base classes.</para><para>Include file:<linebreak/>
+ <verbatim>#include &lt;wx/object.h&gt; </verbatim> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/object.h" line="772" column="9" bodyfile="interface/wx/object.h" bodystart="772" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group__group__funcmacro__rtti_1gaf2d0caedeccc20619218809d4a2a7604" prot="public" static="no">
+        <name>wxIMPLEMENT_CLASS</name>
+        <param><defname>className</defname></param>
+        <param><defname>baseClassName</defname></param>
+        <briefdescription>
+<para>Synonym for <ref refid="group__group__funcmacro__rtti_1ga2f58f4ea4376a2e3994a9e6880509027" kindref="member">wxIMPLEMENT_ABSTRACT_CLASS()</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para>Please prefer to use the more clear, if longer, <ref refid="group__group__funcmacro__rtti_1ga2f58f4ea4376a2e3994a9e6880509027" kindref="member">wxIMPLEMENT_ABSTRACT_CLASS</ref> in the new code.</para><para>Include file:<linebreak/>
+ <verbatim>#include &lt;wx/object.h&gt; </verbatim> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/object.h" line="782" column="9" bodyfile="interface/wx/object.h" bodystart="782" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group__group__funcmacro__rtti_1gaf644ef7f6fe628bc447141936f675332" prot="public" static="no">
+        <name>wxIMPLEMENT_CLASS2</name>
+        <param><defname>className</defname></param>
+        <param><defname>baseClassName1</defname></param>
+        <param><defname>baseClassName2</defname></param>
+        <briefdescription>
+<para>Synonym for <ref refid="group__group__funcmacro__rtti_1ga55f899b6146d26aa5a75a22984fa1895" kindref="member">wxIMPLEMENT_ABSTRACT_CLASS2()</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para>Please prefer to use the more clear, if longer, <ref refid="group__group__funcmacro__rtti_1ga55f899b6146d26aa5a75a22984fa1895" kindref="member">wxIMPLEMENT_ABSTRACT_CLASS2</ref> in the new code.</para><para>Include file:<linebreak/>
+ <verbatim>#include &lt;wx/object.h&gt; </verbatim> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/object.h" line="792" column="9" bodyfile="interface/wx/object.h" bodystart="792" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group__group__funcmacro__rtti_1gae268e701d1e2aed8539c6003f775dd73" prot="public" static="no">
+        <name>wx_const_cast</name>
+        <param><defname>T</defname></param>
+        <param><defname>x</defname></param>
+        <briefdescription>
+<para>Same as <computeroutput>const_cast&lt;T&gt;(x)</computeroutput> if the compiler supports const cast or <computeroutput></computeroutput>(T)x for old compilers. </para>        </briefdescription>
+        <detaileddescription>
+<para>Unlike <ref refid="group__group__funcmacro__rtti_1ga47026a9dcf1318d6934c1e8091f3433e" kindref="member">wxConstCast()</ref>, the cast it to the type <computeroutput>T</computeroutput> and not to <computeroutput>T *</computeroutput> and also the order of arguments is the same as for the standard cast.</para><para>Include file:<linebreak/>
+ <verbatim>#include &lt;wx/defs.h&gt; </verbatim></para><para><simplesect kind="see"><para><ref refid="group__group__funcmacro__rtti_1ga42cdce9f5bc6dbe6a846a47e9e841e4f" kindref="member">wx_reinterpret_cast()</ref>, <ref refid="group__group__funcmacro__rtti_1gaa3a4a52303d4a1fa3d3346e762638c64" kindref="member">wx_static_cast()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/object.h" line="803" column="9" bodyfile="interface/wx/object.h" bodystart="803" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group__group__funcmacro__rtti_1ga42cdce9f5bc6dbe6a846a47e9e841e4f" prot="public" static="no">
+        <name>wx_reinterpret_cast</name>
+        <param><defname>T</defname></param>
+        <param><defname>x</defname></param>
+        <briefdescription>
+<para>Same as <computeroutput>reinterpret_cast&lt;T&gt;(x)</computeroutput> if the compiler supports reinterpret cast or <computeroutput></computeroutput>(T)x for old compilers. </para>        </briefdescription>
+        <detaileddescription>
+<para>Include file:<linebreak/>
+ <verbatim>#include &lt;wx/defs.h&gt; </verbatim></para><para><simplesect kind="see"><para><ref refid="group__group__funcmacro__rtti_1gae268e701d1e2aed8539c6003f775dd73" kindref="member">wx_const_cast()</ref>, <ref refid="group__group__funcmacro__rtti_1gaa3a4a52303d4a1fa3d3346e762638c64" kindref="member">wx_static_cast()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/object.h" line="813" column="9" bodyfile="interface/wx/object.h" bodystart="813" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group__group__funcmacro__rtti_1gaa3a4a52303d4a1fa3d3346e762638c64" prot="public" static="no">
+        <name>wx_static_cast</name>
+        <param><defname>T</defname></param>
+        <param><defname>x</defname></param>
+        <briefdescription>
+<para>Same as <computeroutput>static_cast&lt;T&gt;(x)</computeroutput> if the compiler supports static cast or <computeroutput></computeroutput>(T)x for old compilers. </para>        </briefdescription>
+        <detaileddescription>
+<para>Unlike <ref refid="group__group__funcmacro__rtti_1gaae25db7169be29d37f3451dff0ac7711" kindref="member">wxStaticCast()</ref>, there are no checks being done and the meaning of the macro arguments is exactly the same as for the standard static cast, i.e. <emphasis>T</emphasis> is the full type name and star is not appended to it.</para><para>Include file:<linebreak/>
+ <verbatim>#include &lt;wx/defs.h&gt; </verbatim></para><para><simplesect kind="see"><para><ref refid="group__group__funcmacro__rtti_1gae268e701d1e2aed8539c6003f775dd73" kindref="member">wx_const_cast()</ref>, <ref refid="group__group__funcmacro__rtti_1ga42cdce9f5bc6dbe6a846a47e9e841e4f" kindref="member">wx_reinterpret_cast()</ref>, <ref refid="group__group__funcmacro__rtti_1ga092df8a3ee35e20a4c2c7d0b6132592a" kindref="member">wx_truncate_cast()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/object.h" line="825" column="9" bodyfile="interface/wx/object.h" bodystart="825" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group__group__funcmacro__rtti_1ga092df8a3ee35e20a4c2c7d0b6132592a" prot="public" static="no">
+        <name>wx_truncate_cast</name>
+        <param><defname>T</defname></param>
+        <param><defname>x</defname></param>
+        <briefdescription>
+<para>This case doesn’t correspond to any standard cast but exists solely to make casts which possibly result in a truncation of an integer value more readable. </para>        </briefdescription>
+        <detaileddescription>
+<para>Include file:<linebreak/>
+ <verbatim>#include &lt;wx/defs.h&gt; </verbatim> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/object.h" line="834" column="9" bodyfile="interface/wx/object.h" bodystart="834" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group__group__funcmacro__rtti_1ga47026a9dcf1318d6934c1e8091f3433e" prot="public" static="no">
+        <name>wxConstCast</name>
+        <param><defname>ptr</defname></param>
+        <param><defname>classname</defname></param>
+        <briefdescription>
+<para>This macro expands into <computeroutput>const_cast&lt;classname *&gt;(ptr)</computeroutput> if the compiler supports const_cast or into an old, C-style cast, otherwise. </para>        </briefdescription>
+        <detaileddescription>
+<para>Include file:<linebreak/>
+ <verbatim>#include &lt;wx/defs.h&gt; </verbatim></para><para><simplesect kind="see"><para><ref refid="group__group__funcmacro__rtti_1gae268e701d1e2aed8539c6003f775dd73" kindref="member">wx_const_cast()</ref>, <ref refid="group__group__funcmacro__rtti_1ga2606f92f8d5f8e22f4afb44a6df3c38a" kindref="member">wxDynamicCast()</ref>, <ref refid="group__group__funcmacro__rtti_1gaae25db7169be29d37f3451dff0ac7711" kindref="member">wxStaticCast()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/object.h" line="844" column="9" bodyfile="interface/wx/object.h" bodystart="844" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group__group__funcmacro__rtti_1ga2606f92f8d5f8e22f4afb44a6df3c38a" prot="public" static="no">
+        <name>wxDynamicCast</name>
+        <param><defname>ptr</defname></param>
+        <param><defname>classname</defname></param>
+        <briefdescription>
+<para>This macro returns the pointer <emphasis>ptr</emphasis> cast to the type <emphasis>classname</emphasis> * if the pointer is of this type (the check is done during the run-time) or NULL otherwise. </para>        </briefdescription>
+        <detaileddescription>
+<para>Usage of this macro is preferred over obsoleted <ref refid="classwx_object_1a3c7115ef4132dcee0c4fc34e84d7fced" kindref="member">wxObject::IsKindOf()</ref> function.</para><para>The <emphasis>ptr</emphasis> argument may be NULL, in which case NULL will be returned.</para><para>Include file:<linebreak/>
+ <verbatim>#include &lt;wx/object.h&gt; </verbatim></para><para>Example:</para><para><programlisting><codeline><highlight class="normal">wxWindow<sp/>*win<sp/>=<sp/>wxWindow::FindFocus();</highlight></codeline>
+<codeline><highlight class="normal">wxTextCtrl<sp/>*text<sp/>=<sp/>wxDynamicCast(win,<sp/>wxTextCtrl);</highlight></codeline>
+<codeline><highlight class="normal">if<sp/>(<sp/>text<sp/>)</highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>//<sp/>a<sp/>text<sp/>control<sp/>has<sp/>the<sp/>focus...</highlight></codeline>
+<codeline><highlight class="normal">}</highlight></codeline>
+<codeline><highlight class="normal">else</highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>//<sp/>no<sp/>window<sp/>has<sp/>the<sp/>focus<sp/>or<sp/>it<sp/>is<sp/>not<sp/>a<sp/>text<sp/>control</highlight></codeline>
+<codeline><highlight class="normal">}</highlight></codeline>
+</programlisting></para><para><simplesect kind="see"><para><ref refid="overview_rtti" kindref="compound">Runtime Type Information (RTTI)</ref>, <ref refid="group__group__funcmacro__rtti_1ga2f76c7ed5cfc61d7f5e62a1618476af5" kindref="member">wxDynamicCastThis()</ref>, <ref refid="group__group__funcmacro__rtti_1ga47026a9dcf1318d6934c1e8091f3433e" kindref="member">wxConstCast()</ref>, <ref refid="group__group__funcmacro__rtti_1gaae25db7169be29d37f3451dff0ac7711" kindref="member">wxStaticCast()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/object.h" line="873" column="9" bodyfile="interface/wx/object.h" bodystart="873" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group__group__funcmacro__rtti_1ga2f76c7ed5cfc61d7f5e62a1618476af5" prot="public" static="no">
+        <name>wxDynamicCastThis</name>
+        <param><defname>classname</defname></param>
+        <briefdescription>
+<para>This macro is equivalent to <computeroutput><ref refid="group__group__funcmacro__rtti_1ga2606f92f8d5f8e22f4afb44a6df3c38a" kindref="member">wxDynamicCast(this, classname)</ref></computeroutput> but the latter provokes spurious compilation warnings from some compilers (because it tests whether <computeroutput>this</computeroutput> pointer is non-NULL which is always true), so this macro should be used to avoid them. </para>        </briefdescription>
+        <detaileddescription>
+<para>Include file:<linebreak/>
+ <verbatim>#include &lt;wx/object.h&gt; </verbatim></para><para><simplesect kind="see"><para><ref refid="group__group__funcmacro__rtti_1ga2606f92f8d5f8e22f4afb44a6df3c38a" kindref="member">wxDynamicCast()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/object.h" line="885" column="9" bodyfile="interface/wx/object.h" bodystart="885" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group__group__funcmacro__rtti_1gaae25db7169be29d37f3451dff0ac7711" prot="public" static="no">
+        <name>wxStaticCast</name>
+        <param><defname>ptr</defname></param>
+        <param><defname>classname</defname></param>
+        <briefdescription>
+<para>This macro checks that the cast is valid in debug mode (an assert failure will result if <ref refid="group__group__funcmacro__rtti_1ga2606f92f8d5f8e22f4afb44a6df3c38a" kindref="member">wxDynamicCast(ptr, classname)</ref> == NULL) and then returns the result of executing an equivalent of <computeroutput>static_cast&lt;classname *&gt;(ptr)</computeroutput>. </para>        </briefdescription>
+        <detaileddescription>
+<para>Include file:<linebreak/>
+ <verbatim>#include &lt;wx/object.h&gt; </verbatim></para><para><simplesect kind="see"><para><ref refid="group__group__funcmacro__rtti_1gaa3a4a52303d4a1fa3d3346e762638c64" kindref="member">wx_static_cast()</ref>, <ref refid="group__group__funcmacro__rtti_1ga2606f92f8d5f8e22f4afb44a6df3c38a" kindref="member">wxDynamicCast()</ref>, <ref refid="group__group__funcmacro__rtti_1ga47026a9dcf1318d6934c1e8091f3433e" kindref="member">wxConstCast()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/object.h" line="896" column="9" bodyfile="interface/wx/object.h" bodystart="896" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group__group__funcmacro__debug_1ga217a048b9e879488505a8c44cb83cc0e" prot="public" static="no">
+        <name>WXDEBUG_NEW</name>
+        <param><defname>arg</defname></param>
+        <briefdescription>
+<para>This is defined in debug mode to be call the redefined new operator with filename and line number arguments. </para>        </briefdescription>
+        <detaileddescription>
+<para>The definition is:</para><para><programlisting><codeline><highlight class="normal">#define<sp/>WXDEBUG_NEW<sp/>new(__FILE__,__LINE__)</highlight></codeline>
+</programlisting></para><para>In non-debug mode, this is defined as the normal new operator.</para><para>Include file:<linebreak/>
+ <verbatim>#include &lt;wx/object.h&gt; </verbatim> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/object.h" line="924" column="9" bodyfile="interface/wx/object.h" bodystart="924" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="object_8h_1ab7149af7eced89712baaf20432d66e19" prot="public" static="no">
+        <type><ref refid="classwx_ref_counter" kindref="compound">wxRefCounter</ref></type>
+        <definition>typedef wxRefCounter wxObjectRefData</definition>
+        <argsstring></argsstring>
+        <name>wxObjectRefData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/object.h" line="143" column="1" bodyfile="interface/wx/object.h" bodystart="143" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="group__group__funcmacro__rtti_1gad73c0b653058d5bd95fce98e624ffb2d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_object" kindref="compound">wxObject</ref> *</type>
+        <definition>wxObject* wxCreateDynamicObject</definition>
+        <argsstring>(const wxString &amp;className)</argsstring>
+        <name>wxCreateDynamicObject</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>className</declname>
+        </param>
+        <briefdescription>
+<para>Creates and returns an object of the given class, if the class has been registered with the dynamic class system using DECLARE... </para>        </briefdescription>
+        <detaileddescription>
+<para>and IMPLEMENT... macros.</para><para>Include file:<linebreak/>
+ <verbatim>#include &lt;wx/object.h&gt; </verbatim> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/object.h" line="905" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="interface/wx/object.h"/>
+  </compounddef>
+</doxygen>

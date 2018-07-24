@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="todo" kind="page">
+    <compoundname>todo</compoundname>
+    <title>Todo List</title>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><variablelist>
+<varlistentry><term><anchor id="todo_1_todo000003"/>Page <ref refid="overview_datetime" kindref="compound">Date and Time</ref>  </term></varlistentry>
+<listitem><para>WRITE THIS DOC PARAGRAPH. </para></listitem>
+<varlistentry><term><anchor id="todo_1_todo000001"/>Page <ref refid="page_samples" kindref="compound">Samples Overview</ref>  </term></varlistentry>
+<listitem><para>Write descriptions for the samples who description started with &quot;This sample demonstrates&quot;, they are semi-auto generated.</para><para>This sample isn&apos;t very didactive; it&apos;s more than a set of tests rather than a sample and thus should be rewritten with CppUnit and moved under &quot;tests&quot; </para></listitem>
+<varlistentry><term><anchor id="todo_1_todo000006"/>Member <ref refid="framemanager_8h_1a80ff0066837866cf13560dd1127cbb16" kindref="member">wxAuiManagerDock</ref>  </term></varlistentry>
+<listitem><para><ref refid="classwx_aui_pane_info" kindref="compound">wxAuiPaneInfo</ref> dock direction types used with <ref refid="classwx_aui_manager" kindref="compound">wxAuiManager</ref>. </para></listitem>
+<varlistentry><term><anchor id="todo_1_todo000007"/>Member <ref refid="classwx_aui_manager_event_1a5f03c0fcae47ff7dcc4cd8178a912a51" kindref="member">wxAuiManagerEvent::GetDC</ref>  ()</term></varlistentry>
+<listitem><para>What is this?  </para></listitem>
+<varlistentry><term><anchor id="todo_1_todo000008"/>Member <ref refid="classwx_aui_manager_event_1aa9f90aa2e0991f2e63c97ed0c8af8371" kindref="member">wxAuiManagerEvent::SetDC</ref>  (<ref refid="classwx_d_c" kindref="compound">wxDC</ref> *pdc)</term></varlistentry>
+<listitem><para>What is this?  </para></listitem>
+<varlistentry><term><anchor id="todo_1_todo000009"/>Member <ref refid="classwx_bitmap_1ac2d3b023cf64f90fa1257eb874ed015e" kindref="member">wxBitmap::SetDepth</ref>  (int depth)</term></varlistentry>
+<listitem><para>since these functions do not affect the bitmap data, why they exist?? </para></listitem>
+<varlistentry><term><anchor id="todo_1_todo000010"/>Class <ref refid="classwx_bitmap_combo_box" kindref="compound">wxBitmapComboBox</ref>  </term></varlistentry>
+<listitem><para>create wxCB_PROCESS_ENTER rather than reusing wxTE_PROCESS_ENTER! </para></listitem>
+<varlistentry><term><anchor id="todo_1_todo000011"/>Member <ref refid="classwx_clipboard_1a6c56dbf02b1807ce61cac8134a534336" kindref="member">wxClipboard::IsSupported</ref>  (const <ref refid="classwx_data_format" kindref="compound">wxDataFormat</ref> &amp;format)</term></varlistentry>
+<listitem><para>The name of this function is misleading. This should be renamed to something that more accurately indicates what it does.  </para></listitem>
+<varlistentry><term><anchor id="todo_1_todo000028"/>Class <ref refid="classwx_connection_base" kindref="compound">wxConnectionBase</ref>  </term></varlistentry>
+<listitem><para>Document this class. </para></listitem>
+<varlistentry><term><anchor id="todo_1_todo000049"/>Class <ref refid="classwx_datagram_socket" kindref="compound">wxDatagramSocket</ref>  </term></varlistentry>
+<listitem><para>docme </para></listitem>
+<varlistentry><term><anchor id="todo_1_todo000014"/>Class <ref refid="classwx_date_time_holiday_authority" kindref="compound">wxDateTimeHolidayAuthority</ref>  </term></varlistentry>
+<listitem><para>Write <ref refid="classwx_date_time_holiday_authority" kindref="compound">wxDateTimeHolidayAuthority</ref> documentation. </para></listitem>
+<varlistentry><term><anchor id="todo_1_todo000013"/>Class <ref refid="classwx_date_time_work_days" kindref="compound">wxDateTimeWorkDays</ref>  </term></varlistentry>
+<listitem><para>Write <ref refid="classwx_date_time_work_days" kindref="compound">wxDateTimeWorkDays</ref> documentation. </para></listitem>
+<varlistentry><term><anchor id="todo_1_todo000015"/>Class <ref refid="classwx_d_c" kindref="compound">wxDC</ref>  </term></varlistentry>
+<listitem><para>Precise definition of default/initial state. </para><para>Pixelwise definition of operations (e.g. last point of a line not drawn).  </para></listitem>
+<varlistentry><term><anchor id="todo_1_todo000012"/>Member <ref refid="interface_2wx_2datetime_8h_1ade74a40ef749abadb7c5338e2c9a9321" kindref="member">wxDefaultDateTime</ref>  </term></varlistentry>
+<listitem><para>Would it be better to rename this wxNullDateTime so it&apos;s consistent with the rest of the &quot;empty/invalid/null&quot; global objects?  </para></listitem>
+<varlistentry><term><anchor id="todo_1_todo000016"/>Member <ref refid="classwx_evt_handler_1a3c07426130d2868a5ae7fa918a251f49" kindref="member">wxEvtHandler::SearchEventTable</ref>  (wxEventTable &amp;table, <ref refid="classwx_event" kindref="compound">wxEvent</ref> &amp;event)</term></varlistentry>
+<listitem><para>this function in the header is listed as an &quot;implementation only&quot; function; are we sure we want to document it? </para></listitem>
+<varlistentry><term><anchor id="todo_1_todo000018"/>Member <ref refid="classwx_f_file_1a51df30741d9e5277fbd706fc75b0107d" kindref="member">wxFFile::Eof</ref>  () const</term></varlistentry>
+<listitem><para>THIS METHOD MAY CRASH? DOESN&apos;T SOUND GOOD </para></listitem>
+<varlistentry><term><anchor id="todo_1_todo000019"/>Member <ref refid="classwx_f_file_1ae07588f0d756b5f29d43394c63c85bb2" kindref="member">wxFFile::Error</ref>  () const</term></varlistentry>
+<listitem><para>THIS METHOD MAY CRASH? DOESN&apos;T SOUND GOOD </para></listitem>
+<varlistentry><term><anchor id="todo_1_todo000020"/>Member <ref refid="classwx_font_1afa8eb67298aea006e3a262bd7b0c8493" kindref="member">wxFont::SetNativeFontInfoUserDesc</ref>  (const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;info)</term></varlistentry>
+<listitem><para>add an example for wxMac </para></listitem>
+<varlistentry><term><anchor id="todo_1_todo000021"/>Member <ref refid="classwx_grid_cell_attr_1afd5c2f4f037deed9dd25ab5570d8011b" kindref="member">wxGridCellAttr::SetDefAttr</ref>  (<ref refid="classwx_grid_cell_attr" kindref="compound">wxGridCellAttr</ref> *defAttr)</term></varlistentry>
+<listitem><para>Needs documentation. </para></listitem>
+<varlistentry><term><anchor id="todo_1_todo000022"/>Member <ref refid="classwx_help_controller_base_1ac8c3e391bdf373ece23ac69dcc59d874" kindref="member">wxHelpControllerBase::SetViewer</ref>  (const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;viewer, long flags=wxHELP_NETSCAPE)</term></varlistentry>
+<listitem><para>modernize this function with <ref refid="group__group__funcmacro__misc_1ga3ff36fe489da2a779248b56f283615ca" kindref="member">wxLaunchDefaultBrowser</ref>  </para></listitem>
+<varlistentry><term><anchor id="todo_1_todo000027"/>Member <ref refid="classwx_html_d_c_renderer_1af6921c6712a998118297c1b53eebf8fa" kindref="member">wxHtmlDCRenderer::Render</ref>  (int x, int y, wxArrayInt &amp;known_pagebreaks, int from=0, int dont_render=false, int to=INT_MAX)</term></varlistentry>
+<listitem><para>docme  </para></listitem>
+<varlistentry><term><anchor id="todo_1_todo000024"/>Member <ref refid="classwx_html_tag_1ab404b3defb527cded69458f15687ab19" kindref="member">wxHtmlTag::GetBeginPos</ref>  () const</term></varlistentry>
+<listitem><para>provide deprecation description  </para></listitem>
+<varlistentry><term><anchor id="todo_1_todo000025"/>Member <ref refid="classwx_html_tag_1a0d750710492a9b3f2c4f35a8a4ae8573" kindref="member">wxHtmlTag::GetEndPos1</ref>  () const</term></varlistentry>
+<listitem><para>provide deprecation description  </para></listitem>
+<varlistentry><term><anchor id="todo_1_todo000026"/>Member <ref refid="classwx_html_tag_1a6d1a3a5b349ac37c05303f38b81bbfc1" kindref="member">wxHtmlTag::GetEndPos2</ref>  () const</term></varlistentry>
+<listitem><para>provide deprecation description  </para></listitem>
+<varlistentry><term><anchor id="todo_1_todo000023"/>Class <ref refid="classwx_html_tag_handler" kindref="compound">wxHtmlTagHandler</ref>  </term></varlistentry>
+<listitem><para>describe me </para></listitem>
+<varlistentry><term><anchor id="todo_1_todo000004"/>Page <ref refid="overview_listctrl" kindref="compound">wxListCtrl Overview</ref>  </term></varlistentry>
+<listitem><para>The <ref refid="classwx_list_ctrl" kindref="compound">wxListCtrl</ref> topic overview still needs to be written, sorry. </para></listitem>
+<varlistentry><term><anchor id="todo_1_todo000005"/>Page <ref refid="overview_mbconv" kindref="compound">wxMBConv Overview</ref>  </term></varlistentry>
+<listitem><para>rewrite this overview; it&apos;s not up2date with <ref refid="classwx_string" kindref="compound">wxString</ref> changes </para></listitem>
+<varlistentry><term><anchor id="todo_1_todo000029"/>Member <ref refid="classwx_media_ctrl_1a96c7b8cdc6ae6ea1097794f938567c2b" kindref="member">wxMediaCtrl::Seek</ref>  (wxFileOffset where, wxSeekMode mode=wxFromStart)</term></varlistentry>
+<listitem><para>Document the wxSeekMode parameter <emphasis>mode</emphasis>, and perhaps also the wxFileOffset and wxSeekMode themselves.  </para></listitem>
+<varlistentry><term><anchor id="todo_1_todo000031"/>Member <ref refid="pen_8h_1a7d4a9e379451a8d249239543ad78af3a" kindref="member">wxPenCap</ref>  </term></varlistentry>
+<listitem><para>use wxPENCAP_ prefix  </para></listitem>
+<varlistentry><term><anchor id="todo_1_todo000030"/>Member <ref refid="pen_8h_1a2f214bacb569721da370aab5dbc2a9f4" kindref="member">wxPenJoin</ref>  </term></varlistentry>
+<listitem><para>use wxPENJOIN_ prefix  </para></listitem>
+<varlistentry><term><anchor id="todo_1_todo000033"/>Member <ref refid="pen_8h_1aebe64277219894a55d6b963607ad5f54a4fb547c2970454366e99444d4cee10bf" kindref="member">wxPENSTYLE_STIPPLE_MASK</ref>  </term></varlistentry>
+<listitem><para>WHAT&apos;s this?  </para></listitem>
+<varlistentry><term><anchor id="todo_1_todo000032"/>Member <ref refid="pen_8h_1aebe64277219894a55d6b963607ad5f54aae93043e84175afc078759e847cf8011" kindref="member">wxPENSTYLE_STIPPLE_MASK_OPAQUE</ref>  </term></varlistentry>
+<listitem><para>WHAT&apos;s this?  </para></listitem>
+<varlistentry><term><anchor id="todo_1_todo000036"/>Member <ref refid="classwx_p_g_property_1a0fbb7142a10cfcf02bb45000ab4527cd" kindref="member">wxPGProperty::SetValueFromString</ref>  (const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;text, int flags=0)</term></varlistentry>
+<listitem><para>docme </para></listitem>
+<varlistentry><term><anchor id="todo_1_todo000034"/>Member <ref refid="classwx_preview_control_bar_1ac5fabecd15222d662f284c3ac17bf78b" kindref="member">wxPreviewControlBar::CreateButtons</ref>  ()</term></varlistentry>
+<listitem><para>which flags??  </para></listitem>
+<varlistentry><term><anchor id="todo_1_todo000035"/>Member <ref refid="classwx_printout_1a2e073d911bd41bbaaeb00cdb722c20bd" kindref="member">wxPrintout::GetTitle</ref>  () const</term></varlistentry>
+<listitem><para>the python note here was wrong  </para></listitem>
+<varlistentry><term><anchor id="todo_1_todo000037"/>Member <ref refid="classwx_property_grid_interface_1a405d53556d04f0d8ead9bd51d86944af" kindref="member">wxPropertyGridInterface::GetPropertiesWithFlag</ref>  (wxArrayPGProperty *targetArr, <ref refid="classwx_p_g_property_1a68b0ae8aab37c387f5fc4b7e9c53968e" kindref="member">wxPGProperty::FlagType</ref> flags, bool inverse=false, int iterFlags=wxPG_ITERATE_PROPERTIES|wxPG_ITERATE_HIDDEN|wxPG_ITERATE_CATEGORIES) const</term></varlistentry>
+<listitem><para>docme </para><para>docme  </para></listitem>
+<varlistentry><term><anchor id="todo_1_todo000039"/>Member <ref refid="classwx_property_grid_interface_1ad3b171468f2b3999b98c44be4be5b45d" kindref="member">wxPropertyGridInterface::GetPropertyValues</ref>  (const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;listname=wxEmptyString, <ref refid="classwx_p_g_property" kindref="compound">wxPGProperty</ref> *baseparent=NULL, long flags=0) const</term></varlistentry>
+<listitem><para>docme </para><para>docme  </para></listitem>
+<varlistentry><term><anchor id="todo_1_todo000041"/>Member <ref refid="classwx_property_grid_interface_1aac3d5502e764989ed8b031a3d75b8814" kindref="member">wxPropertyGridInterface::HideProperty</ref>  (wxPGPropArg id, bool hide=true, int flags=wxPG_RECURSE)</term></varlistentry>
+<listitem><para>docme  </para></listitem>
+<varlistentry><term><anchor id="todo_1_todo000042"/>Member <ref refid="classwx_property_grid_interface_1a129a37f9d87a2a08516772de9860432d" kindref="member">wxPropertyGridInterface::SetPropertyAttribute</ref>  (wxPGPropArg id, const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;attrName, <ref refid="classwx_variant" kindref="compound">wxVariant</ref> value, long argFlags=0)</term></varlistentry>
+<listitem><para>docme  </para></listitem>
+<varlistentry><term><anchor id="todo_1_todo000043"/>Member <ref refid="classwx_property_grid_interface_1aff961af9dd2787fb97f510ea5ce46407" kindref="member">wxPropertyGridInterface::SetPropertyEditor</ref>  (wxPGPropArg id, const <ref refid="classwx_p_g_editor" kindref="compound">wxPGEditor</ref> *editor)</term></varlistentry>
+<listitem><para>docme  </para></listitem>
+<varlistentry><term><anchor id="todo_1_todo000044"/>Class <ref refid="classwx_scrolled" kindref="compound">wxScrolled&lt; T &gt;</ref>  </term></varlistentry>
+<listitem><para>review docs for this class replacing SetVirtualSizeHints() with SetMinClientSize(). </para></listitem>
+<varlistentry><term><anchor id="todo_1_todo000017"/>Member <ref refid="classwx_scroll_win_event_1a5aad63902c7a410a8db4b45a51e5f0d6" kindref="member">wxScrollWinEvent::GetOrientation</ref>  () const</term></varlistentry>
+<listitem><para>wxHORIZONTAL and wxVERTICAL should go in their own enum  </para></listitem>
+<varlistentry><term><anchor id="todo_1_todo000045"/>Member <ref refid="classwx_sizer_item_1a39ddf1d7da5982d6fc21e4b57db9bd61" kindref="member">wxSizerItem::SetInitSize</ref>  (int x, int y)</term></varlistentry>
+<listitem><para>docme. </para></listitem>
+<varlistentry><term><anchor id="todo_1_todo000046"/>Member <ref refid="classwx_sizer_item_1a9a310e236fa40720fe17a7d08ae4a1a6" kindref="member">wxSizerItem::SetWindow</ref>  (<ref refid="classwx_window" kindref="compound">wxWindow</ref> *window)</term></varlistentry>
+<listitem><para>provide deprecation description  </para></listitem>
+<varlistentry><term><anchor id="todo_1_todo000048"/>Class <ref refid="classwx_socket_client" kindref="compound">wxSocketClient</ref>  </term></varlistentry>
+<listitem><para>describe me. </para></listitem>
+<varlistentry><term><anchor id="todo_1_todo000047"/>Class <ref refid="classwx_socket_server" kindref="compound">wxSocketServer</ref>  </term></varlistentry>
+<listitem><para>describe me. </para></listitem>
+<varlistentry><term><anchor id="todo_1_todo000050"/>Class <ref refid="classwx_styled_text_event" kindref="compound">wxStyledTextEvent</ref>  </term></varlistentry>
+<listitem><para>list styled text ctrl events. </para></listitem>
+<varlistentry><term><anchor id="todo_1_todo000052"/>Member <ref refid="classwx_v_list_box_1a0e0295b12fd523a0948db9934d05d9e8" kindref="member">wxVListBox::OnDrawBackground</ref>  (<ref refid="classwx_d_c" kindref="compound">wxDC</ref> &amp;dc, const <ref refid="classwx_rect" kindref="compound">wxRect</ref> &amp;rect, size_t n) const</term></varlistentry>
+<listitem><para>Change this function signature to non-const.  </para></listitem>
+<varlistentry><term><anchor id="todo_1_todo000051"/>Member <ref refid="classwx_v_list_box_1aa3f4d4f5f0c9f00dd3e671334345b83b" kindref="member">wxVListBox::OnDrawItem</ref>  (<ref refid="classwx_d_c" kindref="compound">wxDC</ref> &amp;dc, const <ref refid="classwx_rect" kindref="compound">wxRect</ref> &amp;rect, size_t n) const =0</term></varlistentry>
+<listitem><para>Change this function signature to non-const.  </para></listitem>
+<varlistentry><term><anchor id="todo_1_todo000053"/>Member <ref refid="classwx_v_list_box_1ae139a0c31d982b4a627d463ef6aa562c" kindref="member">wxVListBox::OnDrawSeparator</ref>  (<ref refid="classwx_d_c" kindref="compound">wxDC</ref> &amp;dc, <ref refid="classwx_rect" kindref="compound">wxRect</ref> &amp;rect, size_t n) const</term></varlistentry>
+<listitem><para>Change this function signature to non-const.  </para></listitem>
+<varlistentry><term><anchor id="todo_1_todo000054"/>Member <ref refid="classwx_wizard_1a862344eb45f192916e6b6ca83b588eb6" kindref="member">wxWizard::SetBitmapPlacement</ref>  (int placement)</term></varlistentry>
+<listitem><para>describe this</para></listitem>
+</variablelist>
+</para>    </detaileddescription>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,277 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_aui_dock_info" kind="class" language="C++" prot="public">
+    <compoundname>wxAuiDockInfo</compoundname>
+    <includes local="no">wx/aui/framemanager.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classwx_aui_dock_info_1a34e2223072c41dae161c64724fb32769" prot="public" static="no" mutable="no">
+        <type>wxAuiPaneInfoPtrArray</type>
+        <definition>wxAuiPaneInfoPtrArray wxAuiDockInfo::panes</definition>
+        <argsstring></argsstring>
+        <name>panes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/framemanager.h" line="1043" column="1" bodyfile="interface/wx/aui/framemanager.h" bodystart="1043" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classwx_aui_dock_info_1a6b1b18002d70e0439f7e368228f38e84" prot="public" static="no" mutable="no">
+        <type><ref refid="classwx_rect" kindref="compound">wxRect</ref></type>
+        <definition>wxRect wxAuiDockInfo::rect</definition>
+        <argsstring></argsstring>
+        <name>rect</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/framemanager.h" line="1044" column="1" bodyfile="interface/wx/aui/framemanager.h" bodystart="1044" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classwx_aui_dock_info_1a1122aa04cde666342f6039e5ce5b65a6" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int wxAuiDockInfo::dock_direction</definition>
+        <argsstring></argsstring>
+        <name>dock_direction</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/framemanager.h" line="1045" column="1" bodyfile="interface/wx/aui/framemanager.h" bodystart="1045" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classwx_aui_dock_info_1a99523fe55dfd7f733661e038531103b0" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int wxAuiDockInfo::dock_layer</definition>
+        <argsstring></argsstring>
+        <name>dock_layer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/framemanager.h" line="1046" column="1" bodyfile="interface/wx/aui/framemanager.h" bodystart="1046" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classwx_aui_dock_info_1a11c898c5b5c34b7fef4b18f6b6de8bce" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int wxAuiDockInfo::dock_row</definition>
+        <argsstring></argsstring>
+        <name>dock_row</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/framemanager.h" line="1047" column="1" bodyfile="interface/wx/aui/framemanager.h" bodystart="1047" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classwx_aui_dock_info_1a04699bc4b5e1c25666ba0722abfede8e" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int wxAuiDockInfo::size</definition>
+        <argsstring></argsstring>
+        <name>size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/framemanager.h" line="1048" column="1" bodyfile="interface/wx/aui/framemanager.h" bodystart="1048" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classwx_aui_dock_info_1ad0fe6492c7b52e506dce6f42bc4cba22" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int wxAuiDockInfo::min_size</definition>
+        <argsstring></argsstring>
+        <name>min_size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/framemanager.h" line="1049" column="1" bodyfile="interface/wx/aui/framemanager.h" bodystart="1049" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classwx_aui_dock_info_1a9e0409f6edb7272491734794260375b3" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool wxAuiDockInfo::resizable</definition>
+        <argsstring></argsstring>
+        <name>resizable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/framemanager.h" line="1050" column="1" bodyfile="interface/wx/aui/framemanager.h" bodystart="1050" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classwx_aui_dock_info_1aa3099d3d1c138e83b9749e70998743c5" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool wxAuiDockInfo::toolbar</definition>
+        <argsstring></argsstring>
+        <name>toolbar</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/framemanager.h" line="1051" column="1" bodyfile="interface/wx/aui/framemanager.h" bodystart="1051" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classwx_aui_dock_info_1a709288a02c98c750fd60fdfacb4d23e7" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool wxAuiDockInfo::fixed</definition>
+        <argsstring></argsstring>
+        <name>fixed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/framemanager.h" line="1052" column="1" bodyfile="interface/wx/aui/framemanager.h" bodystart="1052" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classwx_aui_dock_info_1ae3e7d30d7e204449b8d257323c9d6f80" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool wxAuiDockInfo::reserved1</definition>
+        <argsstring></argsstring>
+        <name>reserved1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/framemanager.h" line="1054" column="1" bodyfile="interface/wx/aui/framemanager.h" bodystart="1054" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classwx_aui_dock_info_1aa5bb16f7bac8b298ee656d0add65a271" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxAuiDockInfo::wxAuiDockInfo</definition>
+        <argsstring>()</argsstring>
+        <name>wxAuiDockInfo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/framemanager.h" line="1035" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_aui_dock_info_1a38e89afff7a76cf3924fe8b24ed2cfaf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxAuiDockInfo::wxAuiDockInfo</definition>
+        <argsstring>(const wxAuiDockInfo &amp;c)</argsstring>
+        <name>wxAuiDockInfo</name>
+        <param>
+          <type>const <ref refid="classwx_aui_dock_info" kindref="compound">wxAuiDockInfo</ref> &amp;</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/framemanager.h" line="1036" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_aui_dock_info_1ade9c774107191a9a216bacab8600439b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_aui_dock_info" kindref="compound">wxAuiDockInfo</ref> &amp;</type>
+        <definition>wxAuiDockInfo&amp; wxAuiDockInfo::operator=</definition>
+        <argsstring>(const wxAuiDockInfo &amp;c)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="classwx_aui_dock_info" kindref="compound">wxAuiDockInfo</ref> &amp;</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/framemanager.h" line="1037" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_aui_dock_info_1aee1f270696293f7f2bc5aa7242c7b922" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxAuiDockInfo::IsOk</definition>
+        <argsstring>() const</argsstring>
+        <name>IsOk</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/framemanager.h" line="1039" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_aui_dock_info_1a61247e7479c236526d274d37c0c353da" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxAuiDockInfo::IsHorizontal</definition>
+        <argsstring>() const</argsstring>
+        <name>IsHorizontal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/framemanager.h" line="1040" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_aui_dock_info_1a8450d572a827784b6ddf4cb4974b526c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxAuiDockInfo::IsVertical</definition>
+        <argsstring>() const</argsstring>
+        <name>IsVertical</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/framemanager.h" line="1041" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="234">
+        <label>wxAuiDockInfo</label>
+        <link refid="classwx_aui_dock_info"/>
+        <childnode refid="235" relation="usage">
+          <edgelabel>rect</edgelabel>
+        </childnode>
+      </node>
+      <node id="235">
+        <label>wxRect</label>
+        <link refid="classwx_rect"/>
+      </node>
+    </collaborationgraph>
+    <location file="interface/wx/aui/framemanager.h" line="1033" column="1" bodyfile="interface/wx/aui/framemanager.h" bodystart="1032" bodyend="1055"/>
+    <listofallmembers>
+      <member refid="classwx_aui_dock_info_1a1122aa04cde666342f6039e5ce5b65a6" prot="public" virt="non-virtual"><scope>wxAuiDockInfo</scope><name>dock_direction</name></member>
+      <member refid="classwx_aui_dock_info_1a99523fe55dfd7f733661e038531103b0" prot="public" virt="non-virtual"><scope>wxAuiDockInfo</scope><name>dock_layer</name></member>
+      <member refid="classwx_aui_dock_info_1a11c898c5b5c34b7fef4b18f6b6de8bce" prot="public" virt="non-virtual"><scope>wxAuiDockInfo</scope><name>dock_row</name></member>
+      <member refid="classwx_aui_dock_info_1a709288a02c98c750fd60fdfacb4d23e7" prot="public" virt="non-virtual"><scope>wxAuiDockInfo</scope><name>fixed</name></member>
+      <member refid="classwx_aui_dock_info_1a61247e7479c236526d274d37c0c353da" prot="public" virt="non-virtual"><scope>wxAuiDockInfo</scope><name>IsHorizontal</name></member>
+      <member refid="classwx_aui_dock_info_1aee1f270696293f7f2bc5aa7242c7b922" prot="public" virt="non-virtual"><scope>wxAuiDockInfo</scope><name>IsOk</name></member>
+      <member refid="classwx_aui_dock_info_1a8450d572a827784b6ddf4cb4974b526c" prot="public" virt="non-virtual"><scope>wxAuiDockInfo</scope><name>IsVertical</name></member>
+      <member refid="classwx_aui_dock_info_1ad0fe6492c7b52e506dce6f42bc4cba22" prot="public" virt="non-virtual"><scope>wxAuiDockInfo</scope><name>min_size</name></member>
+      <member refid="classwx_aui_dock_info_1ade9c774107191a9a216bacab8600439b" prot="public" virt="non-virtual"><scope>wxAuiDockInfo</scope><name>operator=</name></member>
+      <member refid="classwx_aui_dock_info_1a34e2223072c41dae161c64724fb32769" prot="public" virt="non-virtual"><scope>wxAuiDockInfo</scope><name>panes</name></member>
+      <member refid="classwx_aui_dock_info_1a6b1b18002d70e0439f7e368228f38e84" prot="public" virt="non-virtual"><scope>wxAuiDockInfo</scope><name>rect</name></member>
+      <member refid="classwx_aui_dock_info_1ae3e7d30d7e204449b8d257323c9d6f80" prot="public" virt="non-virtual"><scope>wxAuiDockInfo</scope><name>reserved1</name></member>
+      <member refid="classwx_aui_dock_info_1a9e0409f6edb7272491734794260375b3" prot="public" virt="non-virtual"><scope>wxAuiDockInfo</scope><name>resizable</name></member>
+      <member refid="classwx_aui_dock_info_1a04699bc4b5e1c25666ba0722abfede8e" prot="public" virt="non-virtual"><scope>wxAuiDockInfo</scope><name>size</name></member>
+      <member refid="classwx_aui_dock_info_1aa3099d3d1c138e83b9749e70998743c5" prot="public" virt="non-virtual"><scope>wxAuiDockInfo</scope><name>toolbar</name></member>
+      <member refid="classwx_aui_dock_info_1aa5bb16f7bac8b298ee656d0add65a271" prot="public" virt="non-virtual"><scope>wxAuiDockInfo</scope><name>wxAuiDockInfo</name></member>
+      <member refid="classwx_aui_dock_info_1a38e89afff7a76cf3924fe8b24ed2cfaf" prot="public" virt="non-virtual"><scope>wxAuiDockInfo</scope><name>wxAuiDockInfo</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

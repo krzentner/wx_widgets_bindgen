@@ -1,0 +1,258 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="bar_8h" kind="file" language="C++">
+    <compoundname>bar.h</compoundname>
+    <innerclass refid="classwx_ribbon_bar_event" prot="public">wxRibbonBarEvent</innerclass>
+    <innerclass refid="classwx_ribbon_page_tab_info" prot="public">wxRibbonPageTabInfo</innerclass>
+    <innerclass refid="classwx_ribbon_bar" prot="public">wxRibbonBar</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="bar_8h_1a063dd5f6988f60473a69b458e0825c0c" prot="public" static="no" strong="no">
+        <type></type>
+        <name>wxRibbonBarOption</name>
+        <enumvalue id="bar_8h_1a063dd5f6988f60473a69b458e0825c0ca7ad4bbb0d4c72d7a3d3fb8e5c2ddcb8e" prot="public">
+          <name>wxRIBBON_BAR_SHOW_PAGE_LABELS</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="bar_8h_1a063dd5f6988f60473a69b458e0825c0caacf2303014644a132d8b273dc92962be" prot="public">
+          <name>wxRIBBON_BAR_SHOW_PAGE_ICONS</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="bar_8h_1a063dd5f6988f60473a69b458e0825c0cac149b5c2a92ac97bed5947bc883e11ee" prot="public">
+          <name>wxRIBBON_BAR_FLOW_HORIZONTAL</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="bar_8h_1a063dd5f6988f60473a69b458e0825c0ca5bb095b6f1c5d177e01f6245e7dbd788" prot="public">
+          <name>wxRIBBON_BAR_FLOW_VERTICAL</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="bar_8h_1a063dd5f6988f60473a69b458e0825c0cafa6f25df960446a6fbde99933a5d8c43" prot="public">
+          <name>wxRIBBON_BAR_SHOW_PANEL_EXT_BUTTONS</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="bar_8h_1a063dd5f6988f60473a69b458e0825c0ca4e984038fe2acece00116d1fb6b2e49e" prot="public">
+          <name>wxRIBBON_BAR_SHOW_PANEL_MINIMISE_BUTTONS</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="bar_8h_1a063dd5f6988f60473a69b458e0825c0caa7262c1844e9a33550b450e4fc6e4485" prot="public">
+          <name>wxRIBBON_BAR_ALWAYS_SHOW_TABS</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="bar_8h_1a063dd5f6988f60473a69b458e0825c0ca017dca1004508474c3c92506ab87fd9e" prot="public">
+          <name>wxRIBBON_BAR_SHOW_TOGGLE_BUTTON</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="bar_8h_1a063dd5f6988f60473a69b458e0825c0caac56ddb8d6697ffa66a84f7dbe8c25f8" prot="public">
+          <name>wxRIBBON_BAR_SHOW_HELP_BUTTON</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="bar_8h_1a063dd5f6988f60473a69b458e0825c0ca47261242d3d6da4666255029c3dfc609" prot="public">
+          <name>wxRIBBON_BAR_DEFAULT_STYLE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="bar_8h_1a063dd5f6988f60473a69b458e0825c0caa0a99958e6bfa034b269693b59a93000" prot="public">
+          <name>wxRIBBON_BAR_FOLDBAR_STYLE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/ribbon/bar.h" line="10" column="1" bodyfile="interface/wx/ribbon/bar.h" bodystart="9" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="enum" id="bar_8h_1aae4363bcdf07ea1b5cb5b9c29e0d60a6" prot="public" static="no" strong="no">
+        <type></type>
+        <name>wxRibbonDisplayMode</name>
+        <enumvalue id="bar_8h_1aae4363bcdf07ea1b5cb5b9c29e0d60a6a374287fe675b7c42dce3299921ebd01b" prot="public">
+          <name>wxRIBBON_BAR_PINNED</name>
+          <briefdescription>
+<para>The panel area is visible and pinned: it remains visible when the ribbon bar loses the focus. </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="bar_8h_1aae4363bcdf07ea1b5cb5b9c29e0d60a6a3578cc87fdc9c94ed211bbb7280587f9" prot="public">
+          <name>wxRIBBON_BAR_MINIMIZED</name>
+          <briefdescription>
+<para>The panel area is hidden: only the pages tabs remain visible. </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="bar_8h_1aae4363bcdf07ea1b5cb5b9c29e0d60a6ac041bdb9b6e00abbfa7eb93963a8ce35" prot="public">
+          <name>wxRIBBON_BAR_EXPANDED</name>
+          <briefdescription>
+<para>The panel area is visible, but not pinned: it minimizes as soon as the focus is lost. </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>The possible display modes of the panel area of a <ref refid="classwx_ribbon_bar" kindref="compound">wxRibbonBar</ref> widget. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="see"><para><ref refid="classwx_ribbon_bar_1aefabe45b9088bf39ab88f37ac34b7e0f" kindref="member">wxRibbonBar::ShowPanels()</ref> </para></simplesect>
+<simplesect kind="see"><para>wxRibbonBar::GetDisplayMode()</para></simplesect>
+<simplesect kind="since"><para>2.9.5 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/ribbon/bar.h" line="34" column="1" bodyfile="interface/wx/ribbon/bar.h" bodystart="33" bodyend="51"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="bar_8h_1a3aa9244927c011819e44650f0a07c692" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_RIBBONBAR_PAGE_CHANGED</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_RIBBONBAR_PAGE_CHANGED</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/ribbon/bar.h" line="88" column="1" bodyfile="interface/wx/ribbon/bar.h" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="bar_8h_1ac860adea1296ce39f422091435bea742" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_RIBBONBAR_PAGE_CHANGING</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_RIBBONBAR_PAGE_CHANGING</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/ribbon/bar.h" line="89" column="1" bodyfile="interface/wx/ribbon/bar.h" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="bar_8h_1ae049c525dd7962fd74f4c4bfeb4d21a0" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_RIBBONBAR_TAB_MIDDLE_DOWN</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_RIBBONBAR_TAB_MIDDLE_DOWN</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/ribbon/bar.h" line="90" column="1" bodyfile="interface/wx/ribbon/bar.h" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="bar_8h_1a2b3a80dfed30d5e1f35b6a5b97b54b52" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_RIBBONBAR_TAB_MIDDLE_UP</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_RIBBONBAR_TAB_MIDDLE_UP</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/ribbon/bar.h" line="91" column="1" bodyfile="interface/wx/ribbon/bar.h" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="bar_8h_1a3207d26409b0f4be233e9e5d21ec0e21" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_RIBBONBAR_TAB_RIGHT_DOWN</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_RIBBONBAR_TAB_RIGHT_DOWN</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/ribbon/bar.h" line="92" column="1" bodyfile="interface/wx/ribbon/bar.h" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="bar_8h_1a423fa6b1cd5113c7584d1433cc282c8c" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_RIBBONBAR_TAB_RIGHT_UP</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_RIBBONBAR_TAB_RIGHT_UP</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/ribbon/bar.h" line="93" column="1" bodyfile="interface/wx/ribbon/bar.h" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="bar_8h_1a0c672621a9847e9857b543b1ff75509e" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_RIBBONBAR_TAB_LEFT_DCLICK</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_RIBBONBAR_TAB_LEFT_DCLICK</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/ribbon/bar.h" line="94" column="1" bodyfile="interface/wx/ribbon/bar.h" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="bar_8h_1a6492c345245dd0a76102ab7a62f1d42e" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_RIBBONBAR_TOGGLED</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_RIBBONBAR_TOGGLED</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/ribbon/bar.h" line="95" column="1" bodyfile="interface/wx/ribbon/bar.h" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="bar_8h_1a137f111b7833415b4aaa0979673123c9" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_RIBBONBAR_HELP_CLICK</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_RIBBONBAR_HELP_CLICK</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/ribbon/bar.h" line="96" column="1" bodyfile="interface/wx/ribbon/bar.h" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="interface/wx/ribbon/bar.h"/>
+  </compounddef>
+</doxygen>

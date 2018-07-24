@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="htmlpars_8h" kind="file" language="C++">
+    <compoundname>htmlpars.h</compoundname>
+    <innerclass refid="classwx_html_tag_handler" prot="public">wxHtmlTagHandler</innerclass>
+    <innerclass refid="classwx_html_parser" prot="public">wxHtmlParser</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="htmlpars_8h_1a6e895f8a11485532a3cb67ecec03d4fa" prot="public" static="no" strong="no">
+        <type></type>
+        <name>wxHtmlURLType</name>
+        <enumvalue id="htmlpars_8h_1a6e895f8a11485532a3cb67ecec03d4faabda5677bdd02bf2b8dd7fd78d67502e3" prot="public">
+          <name>wxHTML_URL_PAGE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="htmlpars_8h_1a6e895f8a11485532a3cb67ecec03d4faaa87cfc2d23fda6011b59e3a6730efdd7" prot="public">
+          <name>wxHTML_URL_IMAGE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="htmlpars_8h_1a6e895f8a11485532a3cb67ecec03d4faaf2192e0e21c60382884ff4d028ec51cd" prot="public">
+          <name>wxHTML_URL_OTHER</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/html/htmlpars.h" line="9" column="1" bodyfile="interface/wx/html/htmlpars.h" bodystart="8" bodyend="13"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="interface/wx/html/htmlpars.h"/>
+  </compounddef>
+</doxygen>

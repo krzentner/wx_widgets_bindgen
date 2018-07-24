@@ -1,0 +1,228 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_i_p_v4address" kind="class" language="C++" prot="public">
+    <compoundname>wxIPV4address</compoundname>
+    <basecompoundref refid="classwx_i_paddress" prot="public" virt="non-virtual">wxIPaddress</basecompoundref>
+    <includes local="no">wx/socket.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classwx_i_p_v4address_1a0dc33ef2c107ea8be0adb4682857d6bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxIPV4address::AnyAddress</definition>
+        <argsstring>()</argsstring>
+        <name>AnyAddress</name>
+        <briefdescription>
+<para>Set address to any of the addresses of the current machine. </para>        </briefdescription>
+        <detaileddescription>
+<para>Whenever possible, use this function instead of <ref refid="classwx_i_p_v4address_1a13f8cc6fcb211617ee15d9e1b4debc42" kindref="member">LocalHost()</ref>, as this correctly handles multi-homed hosts and avoids other small problems. Internally, this is the same as setting the IP address to <bold>INADDR_ANY</bold>.</para><para><simplesect kind="return"><para>true on success, false if something went wrong. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/socket.h" line="131" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_i_p_v4address_1a6a24909f394dc8f315ebbbfe398c9d64" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxIPV4address::Hostname</definition>
+        <argsstring>(const wxString &amp;hostname)</argsstring>
+        <name>Hostname</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>hostname</declname>
+        </param>
+        <briefdescription>
+<para>Set the address to hostname, which can be a host name or an IP-style address in dot notation(<computeroutput>a.b.c.d</computeroutput>). </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>true on success, false if something goes wrong (invalid hostname or invalid IP address). </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/socket.h" line="140" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_i_p_v4address_1a2b197a03721435545ace251e3965d133" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="classwx_string" kindref="compound">wxString</ref></type>
+        <definition>virtual wxString wxIPV4address::Hostname</definition>
+        <argsstring>() const</argsstring>
+        <name>Hostname</name>
+        <briefdescription>
+<para>Returns the hostname which matches the IP address. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/socket.h" line="145" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_i_p_v4address_1a49c5a446eca9d3894394a2d84d8263f1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="classwx_string" kindref="compound">wxString</ref></type>
+        <definition>virtual wxString wxIPV4address::IPAddress</definition>
+        <argsstring>() const</argsstring>
+        <name>IPAddress</name>
+        <reimplements refid="classwx_i_paddress_1a4adae99c4bb81fef42ceaef5baa903a4">IPAddress</reimplements>
+        <briefdescription>
+<para>Returns a <ref refid="classwx_string" kindref="compound">wxString</ref> containing the IP address in dot quad (127.0.0.1) format. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/socket.h" line="150" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_i_p_v4address_1a13f8cc6fcb211617ee15d9e1b4debc42" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxIPV4address::LocalHost</definition>
+        <argsstring>()</argsstring>
+        <name>LocalHost</name>
+        <briefdescription>
+<para>Set address to localhost (127.0.0.1). </para>        </briefdescription>
+        <detaileddescription>
+<para>Whenever possible, use <ref refid="classwx_i_p_v4address_1a0dc33ef2c107ea8be0adb4682857d6bd" kindref="member">AnyAddress()</ref> instead of this one, as that one will correctly handle multi-homed hosts and avoid other small problems.</para><para><simplesect kind="return"><para>true on success, false if something went wrong. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/socket.h" line="160" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_i_p_v4address_1afd8784300624fe06e57cf35835529b36" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxIPV4address::Service</definition>
+        <argsstring>(const wxString &amp;service)</argsstring>
+        <name>Service</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>service</declname>
+        </param>
+        <briefdescription>
+<para>Set the port to that corresponding to the specified <emphasis>service</emphasis>. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>true on success, false if something goes wrong (invalid <emphasis>service</emphasis>). </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/socket.h" line="167" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_i_p_v4address_1a3833c1ce1a49de08c5a906410a8bb4e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxIPV4address::Service</definition>
+        <argsstring>(unsigned short service)</argsstring>
+        <name>Service</name>
+        <param>
+          <type>unsigned short</type>
+          <declname>service</declname>
+        </param>
+        <briefdescription>
+<para>Set the port to that corresponding to the specified <emphasis>service</emphasis>. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>true on success, false if something goes wrong (invalid <emphasis>service</emphasis>). </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/socket.h" line="174" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_i_p_v4address_1ae5cca0fadb26f1bfe73cc2a63c9592d0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>unsigned short</type>
+        <definition>unsigned short wxIPV4address::Service</definition>
+        <argsstring>() const</argsstring>
+        <name>Service</name>
+        <briefdescription>
+<para>Returns the current service. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/socket.h" line="179" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>A class for working with IPv4 network addresses. </para>    </briefdescription>
+    <detaileddescription>
+<para><heading level="2"></heading>
+</para><para>Library:<nonbreakablespace/><nonbreakablespace/><ref refid="page_libs_1page_libs_wxnet" kindref="member">wxNet</ref> &lt;&gt;&lt; =&apos;&apos;&gt;:&lt;/&gt;&amp;;&amp;;&lt; =&apos;&apos;&gt;\ &lt;/&gt;&lt;/&gt; </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="3773">
+        <label>wxObject</label>
+        <link refid="classwx_object"/>
+      </node>
+      <node id="3770">
+        <label>wxIPV4address</label>
+        <link refid="classwx_i_p_v4address"/>
+        <childnode refid="3771" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3771">
+        <label>wxIPaddress</label>
+        <link refid="classwx_i_paddress"/>
+        <childnode refid="3772" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3772">
+        <label>wxSockAddress</label>
+        <link refid="classwx_sock_address"/>
+        <childnode refid="3773" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3777">
+        <label>wxObject</label>
+        <link refid="classwx_object"/>
+        <childnode refid="3778" relation="usage">
+          <edgelabel>m_refData</edgelabel>
+        </childnode>
+      </node>
+      <node id="3774">
+        <label>wxIPV4address</label>
+        <link refid="classwx_i_p_v4address"/>
+        <childnode refid="3775" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3775">
+        <label>wxIPaddress</label>
+        <link refid="classwx_i_paddress"/>
+        <childnode refid="3776" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3776">
+        <label>wxSockAddress</label>
+        <link refid="classwx_sock_address"/>
+        <childnode refid="3777" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3778">
+        <label>wxObjectRefData</label>
+        <link refid="classwx_object_ref_data"/>
+      </node>
+    </collaborationgraph>
+    <location file="interface/wx/socket.h" line="119" column="1" bodyfile="interface/wx/socket.h" bodystart="118" bodyend="180"/>
+    <listofallmembers>
+      <member refid="classwx_object_1a60204063f3cc3aa2fa1c7ff5bda9eb13" prot="protected" virt="non-virtual"><scope>wxIPV4address</scope><name>AllocExclusive</name></member>
+      <member refid="classwx_i_p_v4address_1a0dc33ef2c107ea8be0adb4682857d6bd" prot="public" virt="non-virtual"><scope>wxIPV4address</scope><name>AnyAddress</name></member>
+      <member refid="classwx_i_paddress_1a84d58d990e0931616c6842ce103e2000" prot="public" virt="pure-virtual"><scope>wxIPV4address</scope><name>BroadcastAddress</name></member>
+      <member refid="classwx_sock_address_1a1a51e9dabf2728940da1e75a918b4360" prot="public" virt="virtual"><scope>wxIPV4address</scope><name>Clear</name></member>
+      <member refid="classwx_object_1a436fc8fe68cf8a31000296d9cd3d2427" prot="protected" virt="virtual"><scope>wxIPV4address</scope><name>CloneRefData</name></member>
+      <member refid="classwx_object_1a3f4f497c65cef611e121c41f21dd5ccc" prot="protected" virt="virtual"><scope>wxIPV4address</scope><name>CreateRefData</name></member>
+      <member refid="classwx_sock_address_1ace19aed630df59c76d3926077d2fd8da" prot="public" virt="non-virtual"><scope>wxIPV4address</scope><name>GetAddressData</name></member>
+      <member refid="classwx_sock_address_1a44626cc0d264fd8db37491b75f8449a0" prot="public" virt="non-virtual"><scope>wxIPV4address</scope><name>GetAddressDataLen</name></member>
+      <member refid="classwx_object_1ae6d365f2556b26767ced8410c5e839d0" prot="public" virt="virtual"><scope>wxIPV4address</scope><name>GetClassInfo</name></member>
+      <member refid="classwx_object_1af3c6c76a775864832f1536d3c0de3a2b" prot="public" virt="non-virtual"><scope>wxIPV4address</scope><name>GetRefData</name></member>
+      <member refid="classwx_i_p_v4address_1a6a24909f394dc8f315ebbbfe398c9d64" prot="public" virt="non-virtual"><scope>wxIPV4address</scope><name>Hostname</name></member>
+      <member refid="classwx_i_p_v4address_1a2b197a03721435545ace251e3965d133" prot="public" virt="virtual"><scope>wxIPV4address</scope><name>Hostname</name></member>
+      <member refid="classwx_i_p_v4address_1a49c5a446eca9d3894394a2d84d8263f1" prot="public" virt="virtual"><scope>wxIPV4address</scope><name>IPAddress</name></member>
+      <member refid="classwx_object_1a3c7115ef4132dcee0c4fc34e84d7fced" prot="public" virt="non-virtual"><scope>wxIPV4address</scope><name>IsKindOf</name></member>
+      <member refid="classwx_i_paddress_1ac5dd1da032fc4a664e9576e3d7cd5b59" prot="public" virt="pure-virtual"><scope>wxIPV4address</scope><name>IsLocalHost</name></member>
+      <member refid="classwx_object_1a059373c494c2369d7db2a556efef8ecf" prot="public" virt="non-virtual"><scope>wxIPV4address</scope><name>IsSameAs</name></member>
+      <member refid="classwx_i_p_v4address_1a13f8cc6fcb211617ee15d9e1b4debc42" prot="public" virt="non-virtual"><scope>wxIPV4address</scope><name>LocalHost</name></member>
+      <member refid="classwx_object_1a9e31954530a0abd54982effc443ed2b8" prot="protected" virt="non-virtual"><scope>wxIPV4address</scope><name>m_refData</name></member>
+      <member refid="classwx_object_1a07b8f34f5afc5743195c5fed052f55d3" prot="public" virt="non-virtual"><scope>wxIPV4address</scope><name>operator delete</name></member>
+      <member refid="classwx_object_1a96fa423a1dbc212c8227a5d83825971f" prot="public" virt="non-virtual"><scope>wxIPV4address</scope><name>operator new</name></member>
+      <member refid="classwx_object_1a2f6f1aa51fe9fc2b1415ca4211a90e9e" prot="public" virt="non-virtual"><scope>wxIPV4address</scope><name>Ref</name></member>
+      <member refid="classwx_i_p_v4address_1afd8784300624fe06e57cf35835529b36" prot="public" virt="non-virtual"><scope>wxIPV4address</scope><name>Service</name></member>
+      <member refid="classwx_i_p_v4address_1a3833c1ce1a49de08c5a906410a8bb4e3" prot="public" virt="non-virtual"><scope>wxIPV4address</scope><name>Service</name></member>
+      <member refid="classwx_i_p_v4address_1ae5cca0fadb26f1bfe73cc2a63c9592d0" prot="public" virt="non-virtual"><scope>wxIPV4address</scope><name>Service</name></member>
+      <member refid="classwx_object_1afab780710f2adc1bb33310e27590140b" prot="public" virt="non-virtual"><scope>wxIPV4address</scope><name>SetRefData</name></member>
+      <member refid="classwx_sock_address_1af7705f9c496b8d539c8f1a9cbd82f4ba" prot="public" virt="non-virtual"><scope>wxIPV4address</scope><name>SockAddrLen</name></member>
+      <member refid="classwx_object_1af51efc6b1ae632fc7f0cd7ebbce9fa36" prot="public" virt="non-virtual"><scope>wxIPV4address</scope><name>UnRef</name></member>
+      <member refid="classwx_object_1a74b40e42d19a4b9e9bec0b57d62a5725" prot="public" virt="non-virtual"><scope>wxIPV4address</scope><name>UnShare</name></member>
+      <member refid="classwx_object_1acaa378363a28af421ab56ad7b46eadf0" prot="public" virt="non-virtual"><scope>wxIPV4address</scope><name>wxObject</name></member>
+      <member refid="classwx_object_1a4721b4dc9b7aff0f30904ba2ea3954cf" prot="public" virt="non-virtual"><scope>wxIPV4address</scope><name>wxObject</name></member>
+      <member refid="classwx_sock_address_1ab7c5bcfc57e08179f08e982acfc25c46" prot="public" virt="non-virtual"><scope>wxIPV4address</scope><name>wxSockAddress</name></member>
+      <member refid="classwx_object_1a2a51aa8bfbab47ca2f051bcf84b3f35b" prot="public" virt="virtual"><scope>wxIPV4address</scope><name>~wxObject</name></member>
+      <member refid="classwx_sock_address_1ad5ce2fe60db7156a657ee365af8bc61e" prot="public" virt="virtual"><scope>wxIPV4address</scope><name>~wxSockAddress</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

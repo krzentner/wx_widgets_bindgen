@@ -1,0 +1,496 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_grid_string_table" kind="class" language="C++" prot="public">
+    <compoundname>wxGridStringTable</compoundname>
+    <basecompoundref refid="classwx_grid_table_base" prot="public" virt="non-virtual">wxGridTableBase</basecompoundref>
+    <includes local="no">wx/grid.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classwx_grid_string_table_1a4a5139028f21a8b21081d93402cb0d83" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxGridStringTable::wxGridStringTable</definition>
+        <argsstring>()</argsstring>
+        <name>wxGridStringTable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/grid.h" line="1811" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_grid_string_table_1a1acef80f226eff4b10274b90f2121706" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxGridStringTable::wxGridStringTable</definition>
+        <argsstring>(int numRows, int numCols)</argsstring>
+        <name>wxGridStringTable</name>
+        <param>
+          <type>int</type>
+          <declname>numRows</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>numCols</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/grid.h" line="1812" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_grid_string_table_1a851b8fe3b8fd5e78e7a4d2f1f2868212" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>int</type>
+        <definition>virtual int wxGridStringTable::GetNumberRows</definition>
+        <argsstring>()</argsstring>
+        <name>GetNumberRows</name>
+        <reimplements refid="classwx_grid_table_base_1aefe57964fd86e7a9ab2253d070908b48">GetNumberRows</reimplements>
+        <briefdescription>
+<para>Must be overridden to return the number of rows in the table. </para>        </briefdescription>
+        <detaileddescription>
+<para>For backwards compatibility reasons, this method is not const. Use <ref refid="classwx_grid_table_base_1a06c0945d3f271c6954b7f92c3bac54b4" kindref="member">GetRowsCount()</ref> instead of it in const methods of derived table classes. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/grid.h" line="1815" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_grid_string_table_1a5315de5638990a54d6ec97720cb9059f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>int</type>
+        <definition>virtual int wxGridStringTable::GetNumberCols</definition>
+        <argsstring>()</argsstring>
+        <name>GetNumberCols</name>
+        <reimplements refid="classwx_grid_table_base_1ad290f56b43056a66fa08531410c658d7">GetNumberCols</reimplements>
+        <briefdescription>
+<para>Must be overridden to return the number of columns in the table. </para>        </briefdescription>
+        <detaileddescription>
+<para>For backwards compatibility reasons, this method is not const. Use <ref refid="classwx_grid_table_base_1ab07c51b35ebce4e11fb5b93b0323e13c" kindref="member">GetColsCount()</ref> instead of it in const methods of derived table classes, </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/grid.h" line="1816" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_grid_string_table_1aa7d1576f6010b304cdc30a73099bb98f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="classwx_string" kindref="compound">wxString</ref></type>
+        <definition>virtual wxString wxGridStringTable::GetValue</definition>
+        <argsstring>(int row, int col)</argsstring>
+        <name>GetValue</name>
+        <reimplements refid="classwx_grid_table_base_1a4233348a081a46dabadb6b2dd2cfb972">GetValue</reimplements>
+        <param>
+          <type>int</type>
+          <declname>row</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>col</declname>
+        </param>
+        <briefdescription>
+<para>Must be overridden to implement accessing the table values as text. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/grid.h" line="1817" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_grid_string_table_1ab450d0e50a153a0fe8a60c418fdd1256" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void wxGridStringTable::SetValue</definition>
+        <argsstring>(int row, int col, const wxString &amp;value)</argsstring>
+        <name>SetValue</name>
+        <reimplements refid="classwx_grid_table_base_1a81959e0a329f006de970c5cc82d99ba2">SetValue</reimplements>
+        <param>
+          <type>int</type>
+          <declname>row</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>col</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Must be overridden to implement setting the table values as text. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/grid.h" line="1818" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_grid_string_table_1a83c1567bff49b6e71f0acd441c621bca" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void wxGridStringTable::Clear</definition>
+        <argsstring>()</argsstring>
+        <name>Clear</name>
+        <reimplements refid="classwx_grid_table_base_1acc1ed3ef5d026594cb09d957f34761f5">Clear</reimplements>
+        <briefdescription>
+<para>Clear the table contents. </para>        </briefdescription>
+        <detaileddescription>
+<para>This method is used by <ref refid="classwx_grid_1a7928e5d1e23e09db6c45c35f7aa65532" kindref="member">wxGrid::ClearGrid()</ref>. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/grid.h" line="1821" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_grid_string_table_1aaffc9aa967312749fd08ce34dd32938d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool wxGridStringTable::InsertRows</definition>
+        <argsstring>(size_t pos=0, size_t numRows=1)</argsstring>
+        <name>InsertRows</name>
+        <reimplements refid="classwx_grid_table_base_1a649fad50aeeb8dea442ae1f9122e4e6a">InsertRows</reimplements>
+        <param>
+          <type>size_t</type>
+          <declname>pos</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>numRows</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+<para>Insert additional rows into the table. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>pos</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The position of the first new row. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>numRows</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The number of rows to insert. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/grid.h" line="1822" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_grid_string_table_1a66811ce30919a6ed45dba9536e8c8652" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool wxGridStringTable::AppendRows</definition>
+        <argsstring>(size_t numRows=1)</argsstring>
+        <name>AppendRows</name>
+        <reimplements refid="classwx_grid_table_base_1a4b85abbed0e689820aa1928eb3a303cd">AppendRows</reimplements>
+        <param>
+          <type>size_t</type>
+          <declname>numRows</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+<para>Append additional rows at the end of the table. </para>        </briefdescription>
+        <detaileddescription>
+<para>This method is provided in addition to <ref refid="classwx_grid_string_table_1aaffc9aa967312749fd08ce34dd32938d" kindref="member">InsertRows()</ref> as some data models may only support appending rows to them but not inserting them at arbitrary locations. In such case you may implement this method only and leave <ref refid="classwx_grid_string_table_1aaffc9aa967312749fd08ce34dd32938d" kindref="member">InsertRows()</ref> unimplemented.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>numRows</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The number of rows to add. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/grid.h" line="1823" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_grid_string_table_1a63b043a2f48f5a4aec7a92f110830a7a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool wxGridStringTable::DeleteRows</definition>
+        <argsstring>(size_t pos=0, size_t numRows=1)</argsstring>
+        <name>DeleteRows</name>
+        <reimplements refid="classwx_grid_table_base_1a038567ce937e90cc3f06c5d7c4df7c16">DeleteRows</reimplements>
+        <param>
+          <type>size_t</type>
+          <declname>pos</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>numRows</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+<para>Delete rows from the table. </para>        </briefdescription>
+        <detaileddescription>
+<para>Notice that currently deleting a row intersecting a multi-cell (see SetCellSize()) is not supported and will result in a crash.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>pos</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The first row to delete. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>numRows</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The number of rows to delete. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/grid.h" line="1824" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_grid_string_table_1ae452ad9f669e6c7ad09de3fd7115e90e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool wxGridStringTable::InsertCols</definition>
+        <argsstring>(size_t pos=0, size_t numCols=1)</argsstring>
+        <name>InsertCols</name>
+        <reimplements refid="classwx_grid_table_base_1a361c7064a0199afc01678318ce8b712d">InsertCols</reimplements>
+        <param>
+          <type>size_t</type>
+          <declname>pos</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>numCols</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+<para>Exactly the same as <ref refid="classwx_grid_string_table_1aaffc9aa967312749fd08ce34dd32938d" kindref="member">InsertRows()</ref> but for columns. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/grid.h" line="1825" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_grid_string_table_1a96ac3ac5fe3871aed18a6e0fdcd329c9" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool wxGridStringTable::AppendCols</definition>
+        <argsstring>(size_t numCols=1)</argsstring>
+        <name>AppendCols</name>
+        <reimplements refid="classwx_grid_table_base_1a2f70e66794796670b6e5367e200d5168">AppendCols</reimplements>
+        <param>
+          <type>size_t</type>
+          <declname>numCols</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+<para>Exactly the same as <ref refid="classwx_grid_string_table_1a66811ce30919a6ed45dba9536e8c8652" kindref="member">AppendRows()</ref> but for columns. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/grid.h" line="1826" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_grid_string_table_1a27f964b9ea9c709a54814e166dc682ad" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool wxGridStringTable::DeleteCols</definition>
+        <argsstring>(size_t pos=0, size_t numCols=1)</argsstring>
+        <name>DeleteCols</name>
+        <reimplements refid="classwx_grid_table_base_1a4f96bd344c49875495c4f20ef707ca4b">DeleteCols</reimplements>
+        <param>
+          <type>size_t</type>
+          <declname>pos</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>numCols</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+<para>Exactly the same as <ref refid="classwx_grid_string_table_1a63b043a2f48f5a4aec7a92f110830a7a" kindref="member">DeleteRows()</ref> but for columns. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/grid.h" line="1827" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_grid_string_table_1af761fd6e62fbdb1051936bc212464bb5" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void wxGridStringTable::SetRowLabelValue</definition>
+        <argsstring>(int row, const wxString &amp;)</argsstring>
+        <name>SetRowLabelValue</name>
+        <reimplements refid="classwx_grid_table_base_1a8205840a49da8ab2147fa8081afb2de6">SetRowLabelValue</reimplements>
+        <param>
+          <type>int</type>
+          <declname>row</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>label</declname>
+        </param>
+        <briefdescription>
+<para>Set the given label for the specified row. </para>        </briefdescription>
+        <detaileddescription>
+<para>The default version does nothing, i.e. the label is not stored. You must override this method in your derived class if you wish <ref refid="classwx_grid_1ae67491f6e506a37dd45bc52e47a09fdc" kindref="member">wxGrid::SetRowLabelValue()</ref> to work. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/grid.h" line="1829" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_grid_string_table_1a77bb41c553a39b59c8526b8fa9a6d8d5" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void wxGridStringTable::SetColLabelValue</definition>
+        <argsstring>(int col, const wxString &amp;)</argsstring>
+        <name>SetColLabelValue</name>
+        <reimplements refid="classwx_grid_table_base_1a2c228818518de127b34c13655153021e">SetColLabelValue</reimplements>
+        <param>
+          <type>int</type>
+          <declname>col</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>label</declname>
+        </param>
+        <briefdescription>
+<para>Exactly the same as <ref refid="classwx_grid_string_table_1af761fd6e62fbdb1051936bc212464bb5" kindref="member">SetRowLabelValue()</ref> but for columns. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/grid.h" line="1830" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_grid_string_table_1a9f8ad94bc8dff183b001d7a38f7f7359" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="classwx_string" kindref="compound">wxString</ref></type>
+        <definition>wxString wxGridStringTable::GetRowLabelValue</definition>
+        <argsstring>(int row)</argsstring>
+        <name>GetRowLabelValue</name>
+        <reimplements refid="classwx_grid_table_base_1ad2a20c7f8ac0cbca8665639897b0aa33">GetRowLabelValue</reimplements>
+        <param>
+          <type>int</type>
+          <declname>row</declname>
+        </param>
+        <briefdescription>
+<para>Return the label of the specified row. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/grid.h" line="1831" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_grid_string_table_1a16ea9b1b101ae44fcb78b468e5bd3d22" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="classwx_string" kindref="compound">wxString</ref></type>
+        <definition>wxString wxGridStringTable::GetColLabelValue</definition>
+        <argsstring>(int col)</argsstring>
+        <name>GetColLabelValue</name>
+        <reimplements refid="classwx_grid_table_base_1ac7db44c525e0791b29005ee4fa48e729">GetColLabelValue</reimplements>
+        <param>
+          <type>int</type>
+          <declname>col</declname>
+        </param>
+        <briefdescription>
+<para>Return the label of the specified column. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/grid.h" line="1832" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Simplest type of data table for a grid for small tables of strings that are stored in memory. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3170">
+        <label>wxObject</label>
+        <link refid="classwx_object"/>
+      </node>
+      <node id="3169">
+        <label>wxGridTableBase</label>
+        <link refid="classwx_grid_table_base"/>
+        <childnode refid="3170" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3168">
+        <label>wxGridStringTable</label>
+        <link refid="classwx_grid_string_table"/>
+        <childnode refid="3169" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3173">
+        <label>wxObject</label>
+        <link refid="classwx_object"/>
+        <childnode refid="3174" relation="usage">
+          <edgelabel>m_refData</edgelabel>
+        </childnode>
+      </node>
+      <node id="3172">
+        <label>wxGridTableBase</label>
+        <link refid="classwx_grid_table_base"/>
+        <childnode refid="3173" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3174">
+        <label>wxObjectRefData</label>
+        <link refid="classwx_object_ref_data"/>
+      </node>
+      <node id="3171">
+        <label>wxGridStringTable</label>
+        <link refid="classwx_grid_string_table"/>
+        <childnode refid="3172" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="interface/wx/grid.h" line="1809" column="1" bodyfile="interface/wx/grid.h" bodystart="1808" bodyend="1833"/>
+    <listofallmembers>
+      <member refid="classwx_object_1a60204063f3cc3aa2fa1c7ff5bda9eb13" prot="protected" virt="non-virtual"><scope>wxGridStringTable</scope><name>AllocExclusive</name></member>
+      <member refid="classwx_grid_string_table_1a96ac3ac5fe3871aed18a6e0fdcd329c9" prot="public" virt="virtual"><scope>wxGridStringTable</scope><name>AppendCols</name></member>
+      <member refid="classwx_grid_string_table_1a66811ce30919a6ed45dba9536e8c8652" prot="public" virt="virtual"><scope>wxGridStringTable</scope><name>AppendRows</name></member>
+      <member refid="classwx_grid_table_base_1ab35a34c87742cf546751d93b5f6cdbdb" prot="public" virt="virtual"><scope>wxGridStringTable</scope><name>CanGetValueAs</name></member>
+      <member refid="classwx_grid_table_base_1aa5d507ed6d82b7a7878ad65f5e75d4f0" prot="public" virt="virtual"><scope>wxGridStringTable</scope><name>CanHaveAttributes</name></member>
+      <member refid="classwx_grid_table_base_1ab17971b84ec8c875cf758310a975d96e" prot="public" virt="virtual"><scope>wxGridStringTable</scope><name>CanSetValueAs</name></member>
+      <member refid="classwx_grid_string_table_1a83c1567bff49b6e71f0acd441c621bca" prot="public" virt="virtual"><scope>wxGridStringTable</scope><name>Clear</name></member>
+      <member refid="classwx_object_1a436fc8fe68cf8a31000296d9cd3d2427" prot="protected" virt="virtual"><scope>wxGridStringTable</scope><name>CloneRefData</name></member>
+      <member refid="classwx_object_1a3f4f497c65cef611e121c41f21dd5ccc" prot="protected" virt="virtual"><scope>wxGridStringTable</scope><name>CreateRefData</name></member>
+      <member refid="classwx_grid_string_table_1a27f964b9ea9c709a54814e166dc682ad" prot="public" virt="virtual"><scope>wxGridStringTable</scope><name>DeleteCols</name></member>
+      <member refid="classwx_grid_string_table_1a63b043a2f48f5a4aec7a92f110830a7a" prot="public" virt="virtual"><scope>wxGridStringTable</scope><name>DeleteRows</name></member>
+      <member refid="classwx_grid_table_base_1af031321a86e3835d23177ffe53eee643" prot="public" virt="virtual"><scope>wxGridStringTable</scope><name>GetAttr</name></member>
+      <member refid="classwx_grid_table_base_1a5454d0e78253901a464d959990f73c38" prot="public" virt="non-virtual"><scope>wxGridStringTable</scope><name>GetAttrProvider</name></member>
+      <member refid="classwx_object_1ae6d365f2556b26767ced8410c5e839d0" prot="public" virt="virtual"><scope>wxGridStringTable</scope><name>GetClassInfo</name></member>
+      <member refid="classwx_grid_string_table_1a16ea9b1b101ae44fcb78b468e5bd3d22" prot="public" virt="virtual"><scope>wxGridStringTable</scope><name>GetColLabelValue</name></member>
+      <member refid="classwx_grid_table_base_1ab07c51b35ebce4e11fb5b93b0323e13c" prot="public" virt="non-virtual"><scope>wxGridStringTable</scope><name>GetColsCount</name></member>
+      <member refid="classwx_grid_string_table_1a5315de5638990a54d6ec97720cb9059f" prot="public" virt="virtual"><scope>wxGridStringTable</scope><name>GetNumberCols</name></member>
+      <member refid="classwx_grid_string_table_1a851b8fe3b8fd5e78e7a4d2f1f2868212" prot="public" virt="virtual"><scope>wxGridStringTable</scope><name>GetNumberRows</name></member>
+      <member refid="classwx_object_1af3c6c76a775864832f1536d3c0de3a2b" prot="public" virt="non-virtual"><scope>wxGridStringTable</scope><name>GetRefData</name></member>
+      <member refid="classwx_grid_string_table_1a9f8ad94bc8dff183b001d7a38f7f7359" prot="public" virt="virtual"><scope>wxGridStringTable</scope><name>GetRowLabelValue</name></member>
+      <member refid="classwx_grid_table_base_1a06c0945d3f271c6954b7f92c3bac54b4" prot="public" virt="non-virtual"><scope>wxGridStringTable</scope><name>GetRowsCount</name></member>
+      <member refid="classwx_grid_table_base_1a2192fb69ab1daf9684f23562d1fea727" prot="public" virt="virtual"><scope>wxGridStringTable</scope><name>GetTypeName</name></member>
+      <member refid="classwx_grid_string_table_1aa7d1576f6010b304cdc30a73099bb98f" prot="public" virt="virtual"><scope>wxGridStringTable</scope><name>GetValue</name></member>
+      <member refid="classwx_grid_table_base_1a133772ec139879eef58d0440f22e4476" prot="public" virt="virtual"><scope>wxGridStringTable</scope><name>GetValueAsBool</name></member>
+      <member refid="classwx_grid_table_base_1a3679460609888689f497c6dc01ae8d41" prot="public" virt="virtual"><scope>wxGridStringTable</scope><name>GetValueAsCustom</name></member>
+      <member refid="classwx_grid_table_base_1ab761072281ec4e7f800f44c9577040bc" prot="public" virt="virtual"><scope>wxGridStringTable</scope><name>GetValueAsDouble</name></member>
+      <member refid="classwx_grid_table_base_1ac4abb42709ba4ad5fb3e65747b5525f2" prot="public" virt="virtual"><scope>wxGridStringTable</scope><name>GetValueAsLong</name></member>
+      <member refid="classwx_grid_table_base_1add45d32d72d611aa9bd61b691bc5523f" prot="public" virt="virtual"><scope>wxGridStringTable</scope><name>GetView</name></member>
+      <member refid="classwx_grid_string_table_1ae452ad9f669e6c7ad09de3fd7115e90e" prot="public" virt="virtual"><scope>wxGridStringTable</scope><name>InsertCols</name></member>
+      <member refid="classwx_grid_string_table_1aaffc9aa967312749fd08ce34dd32938d" prot="public" virt="virtual"><scope>wxGridStringTable</scope><name>InsertRows</name></member>
+      <member refid="classwx_grid_table_base_1a819caeb23236eb3f70832cacab2a9836" prot="public" virt="non-virtual"><scope>wxGridStringTable</scope><name>IsEmpty</name></member>
+      <member refid="classwx_grid_table_base_1a53b7f70b9eff26b9d699993e3a71968b" prot="public" virt="virtual"><scope>wxGridStringTable</scope><name>IsEmptyCell</name></member>
+      <member refid="classwx_object_1a3c7115ef4132dcee0c4fc34e84d7fced" prot="public" virt="non-virtual"><scope>wxGridStringTable</scope><name>IsKindOf</name></member>
+      <member refid="classwx_object_1a059373c494c2369d7db2a556efef8ecf" prot="public" virt="non-virtual"><scope>wxGridStringTable</scope><name>IsSameAs</name></member>
+      <member refid="classwx_object_1a9e31954530a0abd54982effc443ed2b8" prot="protected" virt="non-virtual"><scope>wxGridStringTable</scope><name>m_refData</name></member>
+      <member refid="classwx_object_1a07b8f34f5afc5743195c5fed052f55d3" prot="public" virt="non-virtual"><scope>wxGridStringTable</scope><name>operator delete</name></member>
+      <member refid="classwx_object_1a96fa423a1dbc212c8227a5d83825971f" prot="public" virt="non-virtual"><scope>wxGridStringTable</scope><name>operator new</name></member>
+      <member refid="classwx_object_1a2f6f1aa51fe9fc2b1415ca4211a90e9e" prot="public" virt="non-virtual"><scope>wxGridStringTable</scope><name>Ref</name></member>
+      <member refid="classwx_grid_table_base_1a12277f75a635fd35fcaefd0d56cad0ab" prot="public" virt="virtual"><scope>wxGridStringTable</scope><name>SetAttr</name></member>
+      <member refid="classwx_grid_table_base_1ad0248937170cf1f0280694525ee5f994" prot="public" virt="non-virtual"><scope>wxGridStringTable</scope><name>SetAttrProvider</name></member>
+      <member refid="classwx_grid_table_base_1ac08a10473e538c1f3859ad59936eb870" prot="public" virt="virtual"><scope>wxGridStringTable</scope><name>SetColAttr</name></member>
+      <member refid="classwx_grid_string_table_1a77bb41c553a39b59c8526b8fa9a6d8d5" prot="public" virt="virtual"><scope>wxGridStringTable</scope><name>SetColLabelValue</name></member>
+      <member refid="classwx_object_1afab780710f2adc1bb33310e27590140b" prot="public" virt="non-virtual"><scope>wxGridStringTable</scope><name>SetRefData</name></member>
+      <member refid="classwx_grid_table_base_1a8f1dc4a35497eeec27104943f0d7be11" prot="public" virt="virtual"><scope>wxGridStringTable</scope><name>SetRowAttr</name></member>
+      <member refid="classwx_grid_string_table_1af761fd6e62fbdb1051936bc212464bb5" prot="public" virt="virtual"><scope>wxGridStringTable</scope><name>SetRowLabelValue</name></member>
+      <member refid="classwx_grid_string_table_1ab450d0e50a153a0fe8a60c418fdd1256" prot="public" virt="virtual"><scope>wxGridStringTable</scope><name>SetValue</name></member>
+      <member refid="classwx_grid_table_base_1a1948b5e152aac985892e568655561feb" prot="public" virt="virtual"><scope>wxGridStringTable</scope><name>SetValueAsBool</name></member>
+      <member refid="classwx_grid_table_base_1ad9be80bb5bf75a8f80e26e40208be583" prot="public" virt="virtual"><scope>wxGridStringTable</scope><name>SetValueAsCustom</name></member>
+      <member refid="classwx_grid_table_base_1a4cf3f5ba2c6338cf2cb944960c15bdb1" prot="public" virt="virtual"><scope>wxGridStringTable</scope><name>SetValueAsDouble</name></member>
+      <member refid="classwx_grid_table_base_1ae035a347dd02d16182e37e866b5c2632" prot="public" virt="virtual"><scope>wxGridStringTable</scope><name>SetValueAsLong</name></member>
+      <member refid="classwx_grid_table_base_1a7dfac01d7b0655d3b41d350e2f322f60" prot="public" virt="virtual"><scope>wxGridStringTable</scope><name>SetView</name></member>
+      <member refid="classwx_object_1af51efc6b1ae632fc7f0cd7ebbce9fa36" prot="public" virt="non-virtual"><scope>wxGridStringTable</scope><name>UnRef</name></member>
+      <member refid="classwx_object_1a74b40e42d19a4b9e9bec0b57d62a5725" prot="public" virt="non-virtual"><scope>wxGridStringTable</scope><name>UnShare</name></member>
+      <member refid="classwx_grid_string_table_1a4a5139028f21a8b21081d93402cb0d83" prot="public" virt="non-virtual"><scope>wxGridStringTable</scope><name>wxGridStringTable</name></member>
+      <member refid="classwx_grid_string_table_1a1acef80f226eff4b10274b90f2121706" prot="public" virt="non-virtual"><scope>wxGridStringTable</scope><name>wxGridStringTable</name></member>
+      <member refid="classwx_grid_table_base_1a86c1ecf0f8077de6246194f3fcdf966d" prot="public" virt="non-virtual"><scope>wxGridStringTable</scope><name>wxGridTableBase</name></member>
+      <member refid="classwx_object_1acaa378363a28af421ab56ad7b46eadf0" prot="public" virt="non-virtual"><scope>wxGridStringTable</scope><name>wxObject</name></member>
+      <member refid="classwx_object_1a4721b4dc9b7aff0f30904ba2ea3954cf" prot="public" virt="non-virtual"><scope>wxGridStringTable</scope><name>wxObject</name></member>
+      <member refid="classwx_grid_table_base_1a6cf5b1cc9d9d57dd112695ed3dca5690" prot="public" virt="virtual"><scope>wxGridStringTable</scope><name>~wxGridTableBase</name></member>
+      <member refid="classwx_object_1a2a51aa8bfbab47ca2f051bcf84b3f35b" prot="public" virt="virtual"><scope>wxGridStringTable</scope><name>~wxObject</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="interface_2wx_2ribbon_2toolbar_8h" kind="file" language="C++">
+    <compoundname>toolbar.h</compoundname>
+    <innerclass refid="classwx_ribbon_tool_bar" prot="public">wxRibbonToolBar</innerclass>
+    <innerclass refid="classwx_ribbon_tool_bar_event" prot="public">wxRibbonToolBarEvent</innerclass>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="interface_2wx_2ribbon_2toolbar_8h_1a3be12c335eae32dc45d9ae3240410b2c" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_RIBBONTOOLBAR_CLICKED</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_RIBBONTOOLBAR_CLICKED</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/ribbon/toolbar.h" line="511" column="1" bodyfile="interface/wx/ribbon/toolbar.h" bodystart="511" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="interface_2wx_2ribbon_2toolbar_8h_1a15afb216bdd671e97c3250f30f22e3b2" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_RIBBONTOOLBAR_DROPDOWN_CLICKED</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_RIBBONTOOLBAR_DROPDOWN_CLICKED</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/ribbon/toolbar.h" line="512" column="1" bodyfile="interface/wx/ribbon/toolbar.h" bodystart="512" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="interface/wx/ribbon/toolbar.h"/>
+  </compounddef>
+</doxygen>

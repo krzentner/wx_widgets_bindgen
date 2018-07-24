@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="fs__arc_8h" kind="file" language="C++">
+    <compoundname>fs_arc.h</compoundname>
+    <innerclass refid="classwx_archive_f_s_handler" prot="public">wxArchiveFSHandler</innerclass>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="fs__arc_8h_1a7d7c41ccb233d19e16e858dcc663a8cd" prot="public" static="no">
+        <type><ref refid="classwx_archive_f_s_handler" kindref="compound">wxArchiveFSHandler</ref></type>
+        <definition>typedef wxArchiveFSHandler wxZipFSHandler</definition>
+        <argsstring></argsstring>
+        <name>wxZipFSHandler</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/fs_arc.h" line="23" column="1" bodyfile="interface/wx/fs_arc.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="interface/wx/fs_arc.h"/>
+  </compounddef>
+</doxygen>

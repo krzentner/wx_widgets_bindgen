@@ -1,0 +1,220 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="structwx_video_mode" kind="struct" language="C++" prot="public">
+    <compoundname>wxVideoMode</compoundname>
+    <includes local="no">wx/vidmode.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structwx_video_mode_1ae83d98eb7fcc7fe20366d9f8a317af70" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int wxVideoMode::w</definition>
+        <argsstring></argsstring>
+        <name>w</name>
+        <briefdescription>
+<para>The screen width in pixels (e.g. 640), 0 means unspecified. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/vidmode.h" line="66" column="1" bodyfile="interface/wx/vidmode.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwx_video_mode_1a65c37754dc82e1ccc418229002de16ed" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int wxVideoMode::h</definition>
+        <argsstring></argsstring>
+        <name>h</name>
+        <briefdescription>
+<para>The screen height in pixels (e.g. 480), 0 means unspecified. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/vidmode.h" line="71" column="1" bodyfile="interface/wx/vidmode.h" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwx_video_mode_1a7f5fbb16c6a90ed770976def15515444" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int wxVideoMode::bpp</definition>
+        <argsstring></argsstring>
+        <name>bpp</name>
+        <briefdescription>
+<para>Bits per pixel (e.g. 32), 1 is monochrome and 0 means unspecified/known. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/vidmode.h" line="77" column="1" bodyfile="interface/wx/vidmode.h" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwx_video_mode_1a992c50880b04d92e57cf12d9682df47b" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int wxVideoMode::refresh</definition>
+        <argsstring></argsstring>
+        <name>refresh</name>
+        <briefdescription>
+<para>Refresh frequency in Hz, 0 means unspecified/unknown. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/vidmode.h" line="82" column="1" bodyfile="interface/wx/vidmode.h" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structwx_video_mode_1af7f3f9db59f91dac5bb4c7b2f76f726d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxVideoMode::wxVideoMode</definition>
+        <argsstring>(int width=0, int height=0, int depth=0, int freq=0)</argsstring>
+        <name>wxVideoMode</name>
+        <param>
+          <type>int</type>
+          <declname>width</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>height</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>depth</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>freq</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>Constructs this class using the given parameters. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/vidmode.h" line="27" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="structwx_video_mode_1ac130b70b074c99d911be0695d32d3e24" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxVideoMode::Matches</definition>
+        <argsstring>(const wxVideoMode &amp;other) const</argsstring>
+        <name>Matches</name>
+        <param>
+          <type>const <ref refid="structwx_video_mode" kindref="compound">wxVideoMode</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>Returns true if this mode matches the other one in the sense that all non zero fields of the other mode have the same value in this one (except for refresh which is allowed to have a greater value). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/vidmode.h" line="34" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="structwx_video_mode_1a3c8c59dbbfb55ce5fcef4ab5c5c447d2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int wxVideoMode::GetWidth</definition>
+        <argsstring>() const</argsstring>
+        <name>GetWidth</name>
+        <briefdescription>
+<para>Returns the screen width in pixels (e.g. 640), 0 means unspecified. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/vidmode.h" line="39" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="structwx_video_mode_1aa31bdd67ac6b081e88746d3769cff3ac" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int wxVideoMode::GetHeight</definition>
+        <argsstring>() const</argsstring>
+        <name>GetHeight</name>
+        <briefdescription>
+<para>Returns the screen height in pixels (e.g. 480), 0 means unspecified. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/vidmode.h" line="44" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="structwx_video_mode_1a169e0d76cf74513595f7cc63a51dfd33" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int wxVideoMode::GetDepth</definition>
+        <argsstring>() const</argsstring>
+        <name>GetDepth</name>
+        <briefdescription>
+<para>Returns bits per pixel (e.g. 32), 1 is monochrome and 0 means unspecified/known. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/vidmode.h" line="50" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="structwx_video_mode_1a09e548dbaf3879517c63d8f1ad4336ac" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxVideoMode::IsOk</definition>
+        <argsstring>() const</argsstring>
+        <name>IsOk</name>
+        <briefdescription>
+<para>Returns true if the object has been initialized. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/vidmode.h" line="55" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="structwx_video_mode_1ae54ee6fa6352b8078ee24af60dc9efa2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxVideoMode::operator==</definition>
+        <argsstring>(const wxVideoMode &amp;m) const</argsstring>
+        <name>operator==</name>
+        <param>
+          <type>const <ref refid="structwx_video_mode" kindref="compound">wxVideoMode</ref> &amp;</type>
+          <declname>m</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/vidmode.h" line="58" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="structwx_video_mode_1a7fd02a2c4f82584529c59d1d23c8a405" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxVideoMode::operator!=</definition>
+        <argsstring>(const wxVideoMode &amp;mode) const</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type>const <ref refid="structwx_video_mode" kindref="compound">wxVideoMode</ref> &amp;</type>
+          <declname>mode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/vidmode.h" line="59" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Determines the sizes and locations of displays connected to the system. </para>    </briefdescription>
+    <detaileddescription>
+<para><heading level="2"></heading>
+</para><para>Library:<nonbreakablespace/><nonbreakablespace/><ref refid="page_libs_1page_libs_wxcore" kindref="member">wxCore</ref> &lt;&gt;&lt; =&apos;&apos;&gt;:&lt;/&gt;&amp;;&amp;;&lt; =&apos;&apos;&gt;\ &lt;/&gt;&lt;/&gt;</para><para>Predefined objects/pointers: <ref refid="vidmode_8h_1a74100ed513b4a32487b0716a9e20642b" kindref="member">wxDefaultVideoMode</ref></para><para><simplesect kind="see"><para><ref refid="group__group__funcmacro__gdi_1gab8a48ec2fc13c5112ff5fcd42e2881b9" kindref="member">wxClientDisplayRect()</ref>, <ref refid="group__group__funcmacro__gdi_1ga2a4dcac2c18c10f546e699ddba2fbfc8" kindref="member">wxDisplaySize()</ref>, <ref refid="group__group__funcmacro__gdi_1ga964bb139750337d8e578450f88b6e97b" kindref="member">wxDisplaySizeMM()</ref> </para></simplesect>
+</para>    </detaileddescription>
+    <location file="interface/wx/vidmode.h" line="22" column="1" bodyfile="interface/wx/vidmode.h" bodystart="21" bodyend="83"/>
+    <listofallmembers>
+      <member refid="structwx_video_mode_1a7f5fbb16c6a90ed770976def15515444" prot="public" virt="non-virtual"><scope>wxVideoMode</scope><name>bpp</name></member>
+      <member refid="structwx_video_mode_1a169e0d76cf74513595f7cc63a51dfd33" prot="public" virt="non-virtual"><scope>wxVideoMode</scope><name>GetDepth</name></member>
+      <member refid="structwx_video_mode_1aa31bdd67ac6b081e88746d3769cff3ac" prot="public" virt="non-virtual"><scope>wxVideoMode</scope><name>GetHeight</name></member>
+      <member refid="structwx_video_mode_1a3c8c59dbbfb55ce5fcef4ab5c5c447d2" prot="public" virt="non-virtual"><scope>wxVideoMode</scope><name>GetWidth</name></member>
+      <member refid="structwx_video_mode_1a65c37754dc82e1ccc418229002de16ed" prot="public" virt="non-virtual"><scope>wxVideoMode</scope><name>h</name></member>
+      <member refid="structwx_video_mode_1a09e548dbaf3879517c63d8f1ad4336ac" prot="public" virt="non-virtual"><scope>wxVideoMode</scope><name>IsOk</name></member>
+      <member refid="structwx_video_mode_1ac130b70b074c99d911be0695d32d3e24" prot="public" virt="non-virtual"><scope>wxVideoMode</scope><name>Matches</name></member>
+      <member refid="structwx_video_mode_1a7fd02a2c4f82584529c59d1d23c8a405" prot="public" virt="non-virtual"><scope>wxVideoMode</scope><name>operator!=</name></member>
+      <member refid="structwx_video_mode_1ae54ee6fa6352b8078ee24af60dc9efa2" prot="public" virt="non-virtual"><scope>wxVideoMode</scope><name>operator==</name></member>
+      <member refid="structwx_video_mode_1a992c50880b04d92e57cf12d9682df47b" prot="public" virt="non-virtual"><scope>wxVideoMode</scope><name>refresh</name></member>
+      <member refid="structwx_video_mode_1ae83d98eb7fcc7fe20366d9f8a317af70" prot="public" virt="non-virtual"><scope>wxVideoMode</scope><name>w</name></member>
+      <member refid="structwx_video_mode_1af7f3f9db59f91dac5bb4c7b2f76f726d" prot="public" virt="non-virtual"><scope>wxVideoMode</scope><name>wxVideoMode</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

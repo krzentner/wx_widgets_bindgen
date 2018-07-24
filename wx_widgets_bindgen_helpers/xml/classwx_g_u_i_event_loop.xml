@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_g_u_i_event_loop" kind="class" language="C++" prot="public">
+    <compoundname>wxGUIEventLoop</compoundname>
+    <basecompoundref refid="classwx_event_loop_base" prot="public" virt="non-virtual">wxEventLoopBase</basecompoundref>
+    <includes local="no">wx/evtloop.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classwx_g_u_i_event_loop_1ab4d0212ab09c20ba4bdfc3271a0f064a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxGUIEventLoop::wxGUIEventLoop</definition>
+        <argsstring>()</argsstring>
+        <name>wxGUIEventLoop</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/evtloop.h" line="336" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_g_u_i_event_loop_1aaa0797eb8a6ecf59e9cdcd1368e9108e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual wxGUIEventLoop::~wxGUIEventLoop</definition>
+        <argsstring>()</argsstring>
+        <name>~wxGUIEventLoop</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/evtloop.h" line="337" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>A generic implementation of the GUI event loop. </para>    </briefdescription>
+    <detaileddescription>
+<para><heading level="2"></heading>
+</para><para>Library:<nonbreakablespace/><nonbreakablespace/><ref refid="page_libs_1page_libs_wxbase" kindref="member">wxBase</ref> &lt;&gt;&lt; =&apos;&apos;&gt;:&lt;/&gt;&amp;;&amp;;&lt; =&apos;&apos;&gt;\ &lt;/&gt;&lt;/&gt; </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="3186">
+        <label>wxEventLoopBase</label>
+        <link refid="classwx_event_loop_base"/>
+      </node>
+      <node id="3185">
+        <label>wxGUIEventLoop</label>
+        <link refid="classwx_g_u_i_event_loop"/>
+        <childnode refid="3186" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3188">
+        <label>wxEventLoopBase</label>
+        <link refid="classwx_event_loop_base"/>
+      </node>
+      <node id="3187">
+        <label>wxGUIEventLoop</label>
+        <link refid="classwx_g_u_i_event_loop"/>
+        <childnode refid="3188" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="interface/wx/evtloop.h" line="334" column="1" bodyfile="interface/wx/evtloop.h" bodystart="333" bodyend="338"/>
+    <listofallmembers>
+      <member refid="classwx_event_loop_base_1aa6f5e8cf5d07a6f9d2b99a4b64325b84" prot="public" virt="pure-virtual"><scope>wxGUIEventLoop</scope><name>Dispatch</name></member>
+      <member refid="classwx_event_loop_base_1ac150a90acfad227f2ce174139289d099" prot="public" virt="pure-virtual"><scope>wxGUIEventLoop</scope><name>DispatchTimeout</name></member>
+      <member refid="classwx_event_loop_base_1a33c979a2f81d59cc340096a8a1dd49a5" prot="public" virt="virtual"><scope>wxGUIEventLoop</scope><name>Exit</name></member>
+      <member refid="classwx_event_loop_base_1a2027e53527c15342c2e23c8217e82ca3" prot="public" virt="non-virtual"><scope>wxGUIEventLoop</scope><name>GetActive</name></member>
+      <member refid="classwx_event_loop_base_1ab78274aef32137b0705f853781f1b91c" prot="public" virt="virtual"><scope>wxGUIEventLoop</scope><name>IsEventAllowedInsideYield</name></member>
+      <member refid="classwx_event_loop_base_1ace2a6a43211e30db88ea34d05339706a" prot="public" virt="non-virtual"><scope>wxGUIEventLoop</scope><name>IsMain</name></member>
+      <member refid="classwx_event_loop_base_1a7ff7e2e300c0cc2af6e6c8f40eb1f36c" prot="public" virt="virtual"><scope>wxGUIEventLoop</scope><name>IsOk</name></member>
+      <member refid="classwx_event_loop_base_1ab994e928bc72b41255226523dcca5680" prot="public" virt="non-virtual"><scope>wxGUIEventLoop</scope><name>IsRunning</name></member>
+      <member refid="classwx_event_loop_base_1a5ba2f1296bb5d9bbd7a034ea38281adc" prot="public" virt="virtual"><scope>wxGUIEventLoop</scope><name>IsYielding</name></member>
+      <member refid="classwx_event_loop_base_1aeb893bc6dbbf80f19925a9e108965669" prot="protected" virt="virtual"><scope>wxGUIEventLoop</scope><name>OnExit</name></member>
+      <member refid="classwx_event_loop_base_1a69f9cb42c4105a5041854d3f93ec2e64" prot="public" virt="pure-virtual"><scope>wxGUIEventLoop</scope><name>Pending</name></member>
+      <member refid="classwx_event_loop_base_1a5a6f47a392e5802e4d614b0dc398c6f7" prot="public" virt="virtual"><scope>wxGUIEventLoop</scope><name>ProcessIdle</name></member>
+      <member refid="classwx_event_loop_base_1a391d73eec67c7c05308368ef1939b330" prot="public" virt="pure-virtual"><scope>wxGUIEventLoop</scope><name>Run</name></member>
+      <member refid="classwx_event_loop_base_1a77cccf1ec4e1fd1776d01585391bce44" prot="public" virt="pure-virtual"><scope>wxGUIEventLoop</scope><name>ScheduleExit</name></member>
+      <member refid="classwx_event_loop_base_1a23646c8c2bdf2def39c856ac8ec250d8" prot="public" virt="non-virtual"><scope>wxGUIEventLoop</scope><name>SetActive</name></member>
+      <member refid="classwx_event_loop_base_1a96d41f8277d23fd9a4a5a0dfe3084120" prot="public" virt="pure-virtual"><scope>wxGUIEventLoop</scope><name>WakeUp</name></member>
+      <member refid="classwx_event_loop_base_1a07b4fe866e5f267ca50709efb351f606" prot="public" virt="virtual"><scope>wxGUIEventLoop</scope><name>WakeUpIdle</name></member>
+      <member refid="classwx_g_u_i_event_loop_1ab4d0212ab09c20ba4bdfc3271a0f064a" prot="public" virt="non-virtual"><scope>wxGUIEventLoop</scope><name>wxGUIEventLoop</name></member>
+      <member refid="classwx_event_loop_base_1a43b540654cc046ecea5e1e497acd4189" prot="public" virt="non-virtual"><scope>wxGUIEventLoop</scope><name>Yield</name></member>
+      <member refid="classwx_event_loop_base_1afb5ed08160c7e6b1364170af6115af55" prot="public" virt="non-virtual"><scope>wxGUIEventLoop</scope><name>YieldFor</name></member>
+      <member refid="classwx_g_u_i_event_loop_1aaa0797eb8a6ecf59e9cdcd1368e9108e" prot="public" virt="virtual"><scope>wxGUIEventLoop</scope><name>~wxGUIEventLoop</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,247 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_rich_text_font_table" kind="class" language="C++" prot="public">
+    <compoundname>wxRichTextFontTable</compoundname>
+    <basecompoundref refid="classwx_object" prot="public" virt="non-virtual">wxObject</basecompoundref>
+    <includes local="no">wx/richtext/richtextbuffer.h</includes>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classwx_rich_text_font_table_1a8ed0c92500cc8dd2f06650524dec16c3" prot="protected" static="no" mutable="no">
+        <type>double</type>
+        <definition>double wxRichTextFontTable::m_fontScale</definition>
+        <argsstring></argsstring>
+        <name>m_fontScale</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="1679" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="1679" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classwx_rich_text_font_table_1a6fed3cb56e33f27b5481bd9a3e32e3aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxRichTextFontTable::wxRichTextFontTable</definition>
+        <argsstring>()</argsstring>
+        <name>wxRichTextFontTable</name>
+        <briefdescription>
+<para>Default constructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="1634" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_font_table_1a6b50e1f3d5d69235adea5b9fcf6a0635" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxRichTextFontTable::wxRichTextFontTable</definition>
+        <argsstring>(const wxRichTextFontTable &amp;table)</argsstring>
+        <name>wxRichTextFontTable</name>
+        <param>
+          <type>const <ref refid="classwx_rich_text_font_table" kindref="compound">wxRichTextFontTable</ref> &amp;</type>
+          <declname>table</declname>
+        </param>
+        <briefdescription>
+<para>Copy constructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="1639" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_font_table_1a2fd105e4d24ec78c3b6c8e15a412723d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual wxRichTextFontTable::~wxRichTextFontTable</definition>
+        <argsstring>()</argsstring>
+        <name>~wxRichTextFontTable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="1640" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_font_table_1a9b725960e5f71d22ca793f8453120e7a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxRichTextFontTable::IsOk</definition>
+        <argsstring>() const</argsstring>
+        <name>IsOk</name>
+        <briefdescription>
+<para>Returns true if the font table is valid. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="1645" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="1645" bodyend="1645"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_font_table_1a33bc2f3ba6eea2ab02c8adc453bf0952" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_font" kindref="compound">wxFont</ref></type>
+        <definition>wxFont wxRichTextFontTable::FindFont</definition>
+        <argsstring>(const wxRichTextAttr &amp;fontSpec)</argsstring>
+        <name>FindFont</name>
+        <param>
+          <type>const <ref refid="classwx_rich_text_attr" kindref="compound">wxRichTextAttr</ref> &amp;</type>
+          <declname>fontSpec</declname>
+        </param>
+        <briefdescription>
+<para>Finds a font for the given attribute object. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="1650" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_font_table_1a9d9f4d3ea524d1b66da676342a846ca0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxRichTextFontTable::Clear</definition>
+        <argsstring>()</argsstring>
+        <name>Clear</name>
+        <briefdescription>
+<para>Clears the font table. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="1655" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_font_table_1a310987d55674bfab2c2d89e61bbf798c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxRichTextFontTable::operator=</definition>
+        <argsstring>(const wxRichTextFontTable &amp;table)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="classwx_rich_text_font_table" kindref="compound">wxRichTextFontTable</ref> &amp;</type>
+          <declname>table</declname>
+        </param>
+        <briefdescription>
+<para>Assignment operator. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="1660" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_font_table_1a1f3f04f42840638e9c9eb0969b6e86da" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxRichTextFontTable::operator==</definition>
+        <argsstring>(const wxRichTextFontTable &amp;table) const</argsstring>
+        <name>operator==</name>
+        <param>
+          <type>const <ref refid="classwx_rich_text_font_table" kindref="compound">wxRichTextFontTable</ref> &amp;</type>
+          <declname>table</declname>
+        </param>
+        <briefdescription>
+<para>Equality operator. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="1665" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_font_table_1a84482d1c56d9d8888383eb5311cc9b4f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxRichTextFontTable::operator!=</definition>
+        <argsstring>(const wxRichTextFontTable &amp;table) const</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type>const <ref refid="classwx_rich_text_font_table" kindref="compound">wxRichTextFontTable</ref> &amp;</type>
+          <declname>table</declname>
+        </param>
+        <briefdescription>
+<para>Inequality operator. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="1670" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="1670" bodyend="1670"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_font_table_1a2d1f152bb978f7afe20178eb89d9d294" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxRichTextFontTable::SetFontScale</definition>
+        <argsstring>(double fontScale)</argsstring>
+        <name>SetFontScale</name>
+        <param>
+          <type>double</type>
+          <declname>fontScale</declname>
+        </param>
+        <briefdescription>
+<para>Set the font scale factor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="1675" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Manages quick access to a pool of fonts for rendering rich text. </para>    </briefdescription>
+    <detaileddescription>
+<para><heading level="2"></heading>
+</para><para>Library:<nonbreakablespace/><nonbreakablespace/><ref refid="page_libs_1page_libs_wxrichtext" kindref="member">wxRichText</ref> &lt;&gt;&lt; =&apos;&apos;&gt;:&lt;/&gt;&amp;;&amp;;&lt; =&apos;&apos;&gt;\ &lt;/&gt;&lt;/&gt;</para><para><simplesect kind="see"><para><ref refid="classwx_rich_text_buffer" kindref="compound">wxRichTextBuffer</ref>, <ref refid="classwx_rich_text_ctrl" kindref="compound">wxRichTextCtrl</ref> </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="6620">
+        <label>wxObject</label>
+        <link refid="classwx_object"/>
+      </node>
+      <node id="6619">
+        <label>wxRichTextFontTable</label>
+        <link refid="classwx_rich_text_font_table"/>
+        <childnode refid="6620" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="6622">
+        <label>wxObject</label>
+        <link refid="classwx_object"/>
+        <childnode refid="6623" relation="usage">
+          <edgelabel>m_refData</edgelabel>
+        </childnode>
+      </node>
+      <node id="6621">
+        <label>wxRichTextFontTable</label>
+        <link refid="classwx_rich_text_font_table"/>
+        <childnode refid="6622" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6623">
+        <label>wxObjectRefData</label>
+        <link refid="classwx_object_ref_data"/>
+      </node>
+    </collaborationgraph>
+    <location file="interface/wx/richtext/richtextbuffer.h" line="1629" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="1628" bodyend="1680"/>
+    <listofallmembers>
+      <member refid="classwx_object_1a60204063f3cc3aa2fa1c7ff5bda9eb13" prot="protected" virt="non-virtual"><scope>wxRichTextFontTable</scope><name>AllocExclusive</name></member>
+      <member refid="classwx_rich_text_font_table_1a9d9f4d3ea524d1b66da676342a846ca0" prot="public" virt="non-virtual"><scope>wxRichTextFontTable</scope><name>Clear</name></member>
+      <member refid="classwx_object_1a436fc8fe68cf8a31000296d9cd3d2427" prot="protected" virt="virtual"><scope>wxRichTextFontTable</scope><name>CloneRefData</name></member>
+      <member refid="classwx_object_1a3f4f497c65cef611e121c41f21dd5ccc" prot="protected" virt="virtual"><scope>wxRichTextFontTable</scope><name>CreateRefData</name></member>
+      <member refid="classwx_rich_text_font_table_1a33bc2f3ba6eea2ab02c8adc453bf0952" prot="public" virt="non-virtual"><scope>wxRichTextFontTable</scope><name>FindFont</name></member>
+      <member refid="classwx_object_1ae6d365f2556b26767ced8410c5e839d0" prot="public" virt="virtual"><scope>wxRichTextFontTable</scope><name>GetClassInfo</name></member>
+      <member refid="classwx_object_1af3c6c76a775864832f1536d3c0de3a2b" prot="public" virt="non-virtual"><scope>wxRichTextFontTable</scope><name>GetRefData</name></member>
+      <member refid="classwx_object_1a3c7115ef4132dcee0c4fc34e84d7fced" prot="public" virt="non-virtual"><scope>wxRichTextFontTable</scope><name>IsKindOf</name></member>
+      <member refid="classwx_rich_text_font_table_1a9b725960e5f71d22ca793f8453120e7a" prot="public" virt="non-virtual"><scope>wxRichTextFontTable</scope><name>IsOk</name></member>
+      <member refid="classwx_object_1a059373c494c2369d7db2a556efef8ecf" prot="public" virt="non-virtual"><scope>wxRichTextFontTable</scope><name>IsSameAs</name></member>
+      <member refid="classwx_rich_text_font_table_1a8ed0c92500cc8dd2f06650524dec16c3" prot="protected" virt="non-virtual"><scope>wxRichTextFontTable</scope><name>m_fontScale</name></member>
+      <member refid="classwx_object_1a9e31954530a0abd54982effc443ed2b8" prot="protected" virt="non-virtual"><scope>wxRichTextFontTable</scope><name>m_refData</name></member>
+      <member refid="classwx_object_1a07b8f34f5afc5743195c5fed052f55d3" prot="public" virt="non-virtual"><scope>wxRichTextFontTable</scope><name>operator delete</name></member>
+      <member refid="classwx_object_1a96fa423a1dbc212c8227a5d83825971f" prot="public" virt="non-virtual"><scope>wxRichTextFontTable</scope><name>operator new</name></member>
+      <member refid="classwx_rich_text_font_table_1a84482d1c56d9d8888383eb5311cc9b4f" prot="public" virt="non-virtual"><scope>wxRichTextFontTable</scope><name>operator!=</name></member>
+      <member refid="classwx_rich_text_font_table_1a310987d55674bfab2c2d89e61bbf798c" prot="public" virt="non-virtual"><scope>wxRichTextFontTable</scope><name>operator=</name></member>
+      <member refid="classwx_rich_text_font_table_1a1f3f04f42840638e9c9eb0969b6e86da" prot="public" virt="non-virtual"><scope>wxRichTextFontTable</scope><name>operator==</name></member>
+      <member refid="classwx_object_1a2f6f1aa51fe9fc2b1415ca4211a90e9e" prot="public" virt="non-virtual"><scope>wxRichTextFontTable</scope><name>Ref</name></member>
+      <member refid="classwx_rich_text_font_table_1a2d1f152bb978f7afe20178eb89d9d294" prot="public" virt="non-virtual"><scope>wxRichTextFontTable</scope><name>SetFontScale</name></member>
+      <member refid="classwx_object_1afab780710f2adc1bb33310e27590140b" prot="public" virt="non-virtual"><scope>wxRichTextFontTable</scope><name>SetRefData</name></member>
+      <member refid="classwx_object_1af51efc6b1ae632fc7f0cd7ebbce9fa36" prot="public" virt="non-virtual"><scope>wxRichTextFontTable</scope><name>UnRef</name></member>
+      <member refid="classwx_object_1a74b40e42d19a4b9e9bec0b57d62a5725" prot="public" virt="non-virtual"><scope>wxRichTextFontTable</scope><name>UnShare</name></member>
+      <member refid="classwx_object_1acaa378363a28af421ab56ad7b46eadf0" prot="public" virt="non-virtual"><scope>wxRichTextFontTable</scope><name>wxObject</name></member>
+      <member refid="classwx_object_1a4721b4dc9b7aff0f30904ba2ea3954cf" prot="public" virt="non-virtual"><scope>wxRichTextFontTable</scope><name>wxObject</name></member>
+      <member refid="classwx_rich_text_font_table_1a6fed3cb56e33f27b5481bd9a3e32e3aa" prot="public" virt="non-virtual"><scope>wxRichTextFontTable</scope><name>wxRichTextFontTable</name></member>
+      <member refid="classwx_rich_text_font_table_1a6b50e1f3d5d69235adea5b9fcf6a0635" prot="public" virt="non-virtual"><scope>wxRichTextFontTable</scope><name>wxRichTextFontTable</name></member>
+      <member refid="classwx_object_1a2a51aa8bfbab47ca2f051bcf84b3f35b" prot="public" virt="virtual"><scope>wxRichTextFontTable</scope><name>~wxObject</name></member>
+      <member refid="classwx_rich_text_font_table_1a2fd105e4d24ec78c3b6c8e15a412723d" prot="public" virt="virtual"><scope>wxRichTextFontTable</scope><name>~wxRichTextFontTable</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

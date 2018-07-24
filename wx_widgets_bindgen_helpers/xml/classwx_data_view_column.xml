@@ -1,0 +1,296 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_data_view_column" kind="class" language="C++" prot="public">
+    <compoundname>wxDataViewColumn</compoundname>
+    <basecompoundref refid="classwx_settable_header_column" prot="public" virt="non-virtual">wxSettableHeaderColumn</basecompoundref>
+    <includes local="no">wx/dataview.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classwx_data_view_column_1aa56f4df8543bf14713a2852af471c768" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxDataViewColumn::wxDataViewColumn</definition>
+        <argsstring>(const wxString &amp;title, wxDataViewRenderer *renderer, unsigned int model_column, int width=wxDVC_DEFAULT_WIDTH, wxAlignment align=wxALIGN_CENTER, int flags=wxDATAVIEW_COL_RESIZABLE)</argsstring>
+        <name>wxDataViewColumn</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>title</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_data_view_renderer" kindref="compound">wxDataViewRenderer</ref> *</type>
+          <declname>renderer</declname>
+        </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>model_column</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>width</declname>
+          <defval><ref refid="dataview_8h_1af83b7e09f249047a58f92d705936736b" kindref="member">wxDVC_DEFAULT_WIDTH</ref></defval>
+        </param>
+        <param>
+          <type><ref refid="defs_8h_1a543dd017a172dc316253a8a1f351dde9" kindref="member">wxAlignment</ref></type>
+          <declname>align</declname>
+          <defval><ref refid="defs_8h_1a543dd017a172dc316253a8a1f351dde9aea58cfe429cf1512d3b026dea8c1b044" kindref="member">wxALIGN_CENTER</ref></defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>flags</declname>
+          <defval><ref refid="dataview_8h_1a156305189c948da3fa8fa0268d9774f9ac590d7a142905fffb2be2bffa6886d0e" kindref="member">wxDATAVIEW_COL_RESIZABLE</ref></defval>
+        </param>
+        <briefdescription>
+<para>Constructs a text column. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>title</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The title of the column. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>renderer</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The class which will render the contents of this column. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>model_column</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The index of the model&apos;s column which is associated with this object. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>width</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The width of the column. The <computeroutput>wxDVC_DEFAULT_WIDTH</computeroutput> value is the fixed default value. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>align</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The alignment of the column title. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>flags</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>One or more flags of the <ref refid="dataview_8h_1a156305189c948da3fa8fa0268d9774f9" kindref="member">wxDataViewColumnFlags</ref> enumeration. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/dataview.h" line="2299" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_data_view_column_1a3a63c1a874e68ba998b271b4efd4d4e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxDataViewColumn::wxDataViewColumn</definition>
+        <argsstring>(const wxBitmap &amp;bitmap, wxDataViewRenderer *renderer, unsigned int model_column, int width=wxDVC_DEFAULT_WIDTH, wxAlignment align=wxALIGN_CENTER, int flags=wxDATAVIEW_COL_RESIZABLE)</argsstring>
+        <name>wxDataViewColumn</name>
+        <param>
+          <type>const <ref refid="classwx_bitmap" kindref="compound">wxBitmap</ref> &amp;</type>
+          <declname>bitmap</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_data_view_renderer" kindref="compound">wxDataViewRenderer</ref> *</type>
+          <declname>renderer</declname>
+        </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>model_column</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>width</declname>
+          <defval><ref refid="dataview_8h_1af83b7e09f249047a58f92d705936736b" kindref="member">wxDVC_DEFAULT_WIDTH</ref></defval>
+        </param>
+        <param>
+          <type><ref refid="defs_8h_1a543dd017a172dc316253a8a1f351dde9" kindref="member">wxAlignment</ref></type>
+          <declname>align</declname>
+          <defval><ref refid="defs_8h_1a543dd017a172dc316253a8a1f351dde9aea58cfe429cf1512d3b026dea8c1b044" kindref="member">wxALIGN_CENTER</ref></defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>flags</declname>
+          <defval><ref refid="dataview_8h_1a156305189c948da3fa8fa0268d9774f9ac590d7a142905fffb2be2bffa6886d0e" kindref="member">wxDATAVIEW_COL_RESIZABLE</ref></defval>
+        </param>
+        <briefdescription>
+<para>Constructs a bitmap column. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>bitmap</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The bitmap of the column. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>renderer</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The class which will render the contents of this column. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>model_column</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The index of the model&apos;s column which is associated with this object. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>width</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The width of the column. The <computeroutput>wxDVC_DEFAULT_WIDTH</computeroutput> value is the fixed default value. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>align</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The alignment of the column title. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>flags</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>One or more flags of the <ref refid="dataview_8h_1a156305189c948da3fa8fa0268d9774f9" kindref="member">wxDataViewColumnFlags</ref> enumeration. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/dataview.h" line="2323" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_data_view_column_1a014d76ba96b8ce8a1c561d3213fd40b7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>unsigned int</type>
+        <definition>unsigned int wxDataViewColumn::GetModelColumn</definition>
+        <argsstring>() const</argsstring>
+        <name>GetModelColumn</name>
+        <briefdescription>
+<para>Returns the index of the column of the model, which this <ref refid="classwx_data_view_column" kindref="compound">wxDataViewColumn</ref> is displaying. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/dataview.h" line="2334" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_data_view_column_1ad05469d58a3b13e41a9fe0661828baa8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_data_view_ctrl" kindref="compound">wxDataViewCtrl</ref> *</type>
+        <definition>wxDataViewCtrl* wxDataViewColumn::GetOwner</definition>
+        <argsstring>() const</argsstring>
+        <name>GetOwner</name>
+        <briefdescription>
+<para>Returns the owning <ref refid="classwx_data_view_ctrl" kindref="compound">wxDataViewCtrl</ref>. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/dataview.h" line="2339" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_data_view_column_1aa8da7d179aa8679fafe5244afbfd7a39" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_data_view_renderer" kindref="compound">wxDataViewRenderer</ref> *</type>
+        <definition>wxDataViewRenderer* wxDataViewColumn::GetRenderer</definition>
+        <argsstring>() const</argsstring>
+        <name>GetRenderer</name>
+        <briefdescription>
+<para>Returns the renderer of this <ref refid="classwx_data_view_column" kindref="compound">wxDataViewColumn</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="see"><para><ref refid="classwx_data_view_renderer" kindref="compound">wxDataViewRenderer</ref>. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/dataview.h" line="2346" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class represents a column in a <ref refid="classwx_data_view_ctrl" kindref="compound">wxDataViewCtrl</ref>. </para>    </briefdescription>
+    <detaileddescription>
+<para>One <ref refid="classwx_data_view_column" kindref="compound">wxDataViewColumn</ref> is bound to one column in the data model to which the <ref refid="classwx_data_view_ctrl" kindref="compound">wxDataViewCtrl</ref> has been associated.</para><para>An instance of <ref refid="classwx_data_view_renderer" kindref="compound">wxDataViewRenderer</ref> is used by this class to render its data.</para><para><heading level="2"></heading>
+</para><para>Library:<nonbreakablespace/><nonbreakablespace/><ref refid="page_libs_1page_libs_wxadv" kindref="member">wxAdvanced</ref> &lt;&gt;&lt; =&apos;&apos;&gt;:&lt;/&gt;&amp;;&amp;;&lt; =&apos;&apos;&gt;\ &lt;/&gt;&lt;/&gt; </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="1352">
+        <label>wxSettableHeaderColumn</label>
+        <link refid="classwx_settable_header_column"/>
+        <childnode refid="1353" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1353">
+        <label>wxHeaderColumn</label>
+        <link refid="classwx_header_column"/>
+      </node>
+      <node id="1351">
+        <label>wxDataViewColumn</label>
+        <link refid="classwx_data_view_column"/>
+        <childnode refid="1352" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1355">
+        <label>wxSettableHeaderColumn</label>
+        <link refid="classwx_settable_header_column"/>
+        <childnode refid="1356" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1356">
+        <label>wxHeaderColumn</label>
+        <link refid="classwx_header_column"/>
+      </node>
+      <node id="1354">
+        <label>wxDataViewColumn</label>
+        <link refid="classwx_data_view_column"/>
+        <childnode refid="1355" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="interface/wx/dataview.h" line="2280" column="1" bodyfile="interface/wx/dataview.h" bodystart="2279" bodyend="2347"/>
+    <listofallmembers>
+      <member refid="classwx_settable_header_column_1ae4c0570355a3c4b712352457c925a7dd" prot="public" virt="non-virtual"><scope>wxDataViewColumn</scope><name>ChangeFlag</name></member>
+      <member refid="classwx_settable_header_column_1afb2fa0ed8e8e729d16ff9fefe9e41a26" prot="public" virt="non-virtual"><scope>wxDataViewColumn</scope><name>ClearFlag</name></member>
+      <member refid="classwx_header_column_1afc7728e0def849ecb6a2b074f2ea0eb8" prot="public" virt="pure-virtual"><scope>wxDataViewColumn</scope><name>GetAlignment</name></member>
+      <member refid="classwx_header_column_1aca4d183177667dd1f6f20a61127109af" prot="public" virt="pure-virtual"><scope>wxDataViewColumn</scope><name>GetBitmap</name></member>
+      <member refid="classwx_header_column_1a5026f8cf3dde67ab2003da8ec8a892ab" prot="public" virt="pure-virtual"><scope>wxDataViewColumn</scope><name>GetFlags</name></member>
+      <member refid="classwx_header_column_1a8a7c17e7f634570246b734cf2eb63fbb" prot="public" virt="pure-virtual"><scope>wxDataViewColumn</scope><name>GetMinWidth</name></member>
+      <member refid="classwx_data_view_column_1a014d76ba96b8ce8a1c561d3213fd40b7" prot="public" virt="non-virtual"><scope>wxDataViewColumn</scope><name>GetModelColumn</name></member>
+      <member refid="classwx_data_view_column_1ad05469d58a3b13e41a9fe0661828baa8" prot="public" virt="non-virtual"><scope>wxDataViewColumn</scope><name>GetOwner</name></member>
+      <member refid="classwx_data_view_column_1aa8da7d179aa8679fafe5244afbfd7a39" prot="public" virt="non-virtual"><scope>wxDataViewColumn</scope><name>GetRenderer</name></member>
+      <member refid="classwx_header_column_1a47d57c9babac44df16e1f5581156a3ce" prot="public" virt="pure-virtual"><scope>wxDataViewColumn</scope><name>GetTitle</name></member>
+      <member refid="classwx_header_column_1a992a31984563a35b0222adf5a06b0a77" prot="public" virt="pure-virtual"><scope>wxDataViewColumn</scope><name>GetWidth</name></member>
+      <member refid="classwx_header_column_1ad9ca1aaba092ae89b0e4efcacc243b12" prot="public" virt="non-virtual"><scope>wxDataViewColumn</scope><name>HasFlag</name></member>
+      <member refid="classwx_header_column_1a010ab3ccff0b3c58a1e19b93b0eb09ac" prot="public" virt="virtual"><scope>wxDataViewColumn</scope><name>IsHidden</name></member>
+      <member refid="classwx_header_column_1a40f94597100d0d1852b61124d32ab871" prot="public" virt="virtual"><scope>wxDataViewColumn</scope><name>IsReorderable</name></member>
+      <member refid="classwx_header_column_1a5d5bade6f1ade844355fe2a4ee680471" prot="public" virt="virtual"><scope>wxDataViewColumn</scope><name>IsResizeable</name></member>
+      <member refid="classwx_header_column_1a14d520b2b990069ea2df289cc346ba44" prot="public" virt="non-virtual"><scope>wxDataViewColumn</scope><name>IsShown</name></member>
+      <member refid="classwx_header_column_1a48e7b0b4c63cfc778b9fc87f0074fb62" prot="public" virt="virtual"><scope>wxDataViewColumn</scope><name>IsSortable</name></member>
+      <member refid="classwx_header_column_1a95645523fc113008d66d626bc06c7dd1" prot="public" virt="pure-virtual"><scope>wxDataViewColumn</scope><name>IsSortKey</name></member>
+      <member refid="classwx_header_column_1a30e41f28c017812c4f53e4b66c62cd4c" prot="public" virt="pure-virtual"><scope>wxDataViewColumn</scope><name>IsSortOrderAscending</name></member>
+      <member refid="classwx_settable_header_column_1a6b516a1b80ebe8d336ea31e29d9ded00" prot="public" virt="pure-virtual"><scope>wxDataViewColumn</scope><name>SetAlignment</name></member>
+      <member refid="classwx_settable_header_column_1a8cf3f4e113b8192fce88f06b44ad5728" prot="public" virt="pure-virtual"><scope>wxDataViewColumn</scope><name>SetBitmap</name></member>
+      <member refid="classwx_settable_header_column_1a71eddf8ebeb18d55d10fd40cc457aa97" prot="public" virt="non-virtual"><scope>wxDataViewColumn</scope><name>SetFlag</name></member>
+      <member refid="classwx_settable_header_column_1aaeebec7c145f5b36914694fa231df528" prot="public" virt="pure-virtual"><scope>wxDataViewColumn</scope><name>SetFlags</name></member>
+      <member refid="classwx_settable_header_column_1a92740fb99132c52fd91f333d703b0410" prot="public" virt="virtual"><scope>wxDataViewColumn</scope><name>SetHidden</name></member>
+      <member refid="classwx_settable_header_column_1a83af483273d0a5263377a83800a3dad3" prot="public" virt="pure-virtual"><scope>wxDataViewColumn</scope><name>SetMinWidth</name></member>
+      <member refid="classwx_settable_header_column_1a954858d4987d17a2f8fa30ef84ad2445" prot="public" virt="virtual"><scope>wxDataViewColumn</scope><name>SetReorderable</name></member>
+      <member refid="classwx_settable_header_column_1ac8996814e5625c634ed71d932071c6c1" prot="public" virt="virtual"><scope>wxDataViewColumn</scope><name>SetResizeable</name></member>
+      <member refid="classwx_settable_header_column_1afa46b4fd0a56898b3e2d5cc8e4401757" prot="public" virt="virtual"><scope>wxDataViewColumn</scope><name>SetSortable</name></member>
+      <member refid="classwx_settable_header_column_1a360deabbdb9ede8c9e616d460f276124" prot="public" virt="pure-virtual"><scope>wxDataViewColumn</scope><name>SetSortOrder</name></member>
+      <member refid="classwx_settable_header_column_1aa660fcc904edf557aaf68937aba1589f" prot="public" virt="pure-virtual"><scope>wxDataViewColumn</scope><name>SetTitle</name></member>
+      <member refid="classwx_settable_header_column_1aac89bf5d893ccf57c3e50e3d1acbebea" prot="public" virt="pure-virtual"><scope>wxDataViewColumn</scope><name>SetWidth</name></member>
+      <member refid="classwx_settable_header_column_1a4734d269e6b4454aae75eb3641f4b023" prot="public" virt="non-virtual"><scope>wxDataViewColumn</scope><name>ToggleFlag</name></member>
+      <member refid="classwx_settable_header_column_1a85f9c3278526a0f60b79fd32607d31bb" prot="public" virt="non-virtual"><scope>wxDataViewColumn</scope><name>ToggleSortOrder</name></member>
+      <member refid="classwx_settable_header_column_1a9f045a0c1f080d10600c8680b6e7a5b6" prot="public" virt="non-virtual"><scope>wxDataViewColumn</scope><name>UnsetAsSortKey</name></member>
+      <member refid="classwx_data_view_column_1aa56f4df8543bf14713a2852af471c768" prot="public" virt="non-virtual"><scope>wxDataViewColumn</scope><name>wxDataViewColumn</name></member>
+      <member refid="classwx_data_view_column_1a3a63c1a874e68ba998b271b4efd4d4e0" prot="public" virt="non-virtual"><scope>wxDataViewColumn</scope><name>wxDataViewColumn</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

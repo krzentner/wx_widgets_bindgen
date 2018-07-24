@@ -1,0 +1,558 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="interface_2wx_2grid_8h" kind="file" language="C++">
+    <compoundname>grid.h</compoundname>
+    <innerclass refid="classwx_grid_cell_renderer" prot="public">wxGridCellRenderer</innerclass>
+    <innerclass refid="classwx_grid_cell_auto_wrap_string_renderer" prot="public">wxGridCellAutoWrapStringRenderer</innerclass>
+    <innerclass refid="classwx_grid_cell_bool_renderer" prot="public">wxGridCellBoolRenderer</innerclass>
+    <innerclass refid="classwx_grid_cell_date_time_renderer" prot="public">wxGridCellDateTimeRenderer</innerclass>
+    <innerclass refid="classwx_grid_cell_enum_renderer" prot="public">wxGridCellEnumRenderer</innerclass>
+    <innerclass refid="classwx_grid_cell_float_renderer" prot="public">wxGridCellFloatRenderer</innerclass>
+    <innerclass refid="classwx_grid_cell_number_renderer" prot="public">wxGridCellNumberRenderer</innerclass>
+    <innerclass refid="classwx_grid_cell_string_renderer" prot="public">wxGridCellStringRenderer</innerclass>
+    <innerclass refid="classwx_grid_cell_editor" prot="public">wxGridCellEditor</innerclass>
+    <innerclass refid="classwx_grid_cell_auto_wrap_string_editor" prot="public">wxGridCellAutoWrapStringEditor</innerclass>
+    <innerclass refid="classwx_grid_cell_bool_editor" prot="public">wxGridCellBoolEditor</innerclass>
+    <innerclass refid="classwx_grid_cell_choice_editor" prot="public">wxGridCellChoiceEditor</innerclass>
+    <innerclass refid="classwx_grid_cell_enum_editor" prot="public">wxGridCellEnumEditor</innerclass>
+    <innerclass refid="classwx_grid_cell_text_editor" prot="public">wxGridCellTextEditor</innerclass>
+    <innerclass refid="classwx_grid_cell_float_editor" prot="public">wxGridCellFloatEditor</innerclass>
+    <innerclass refid="classwx_grid_cell_number_editor" prot="public">wxGridCellNumberEditor</innerclass>
+    <innerclass refid="classwx_grid_cell_attr" prot="public">wxGridCellAttr</innerclass>
+    <innerclass refid="classwx_grid_corner_header_renderer" prot="public">wxGridCornerHeaderRenderer</innerclass>
+    <innerclass refid="classwx_grid_header_labels_renderer" prot="public">wxGridHeaderLabelsRenderer</innerclass>
+    <innerclass refid="classwx_grid_row_header_renderer" prot="public">wxGridRowHeaderRenderer</innerclass>
+    <innerclass refid="classwx_grid_column_header_renderer" prot="public">wxGridColumnHeaderRenderer</innerclass>
+    <innerclass refid="classwx_grid_row_header_renderer_default" prot="public">wxGridRowHeaderRendererDefault</innerclass>
+    <innerclass refid="classwx_grid_column_header_renderer_default" prot="public">wxGridColumnHeaderRendererDefault</innerclass>
+    <innerclass refid="classwx_grid_corner_header_renderer_default" prot="public">wxGridCornerHeaderRendererDefault</innerclass>
+    <innerclass refid="classwx_grid_cell_attr_provider" prot="public">wxGridCellAttrProvider</innerclass>
+    <innerclass refid="classwx_grid_cell_coords" prot="public">wxGridCellCoords</innerclass>
+    <innerclass refid="classwx_grid_table_base" prot="public">wxGridTableBase</innerclass>
+    <innerclass refid="classwx_grid_table_message" prot="public">wxGridTableMessage</innerclass>
+    <innerclass refid="classwx_grid_string_table" prot="public">wxGridStringTable</innerclass>
+    <innerclass refid="structwx_grid_sizes_info" prot="public">wxGridSizesInfo</innerclass>
+    <innerclass refid="classwx_grid" prot="public">wxGrid</innerclass>
+    <innerclass refid="classwx_grid_update_locker" prot="public">wxGridUpdateLocker</innerclass>
+    <innerclass refid="classwx_grid_event" prot="public">wxGridEvent</innerclass>
+    <innerclass refid="classwx_grid_size_event" prot="public">wxGridSizeEvent</innerclass>
+    <innerclass refid="classwx_grid_range_select_event" prot="public">wxGridRangeSelectEvent</innerclass>
+    <innerclass refid="classwx_grid_editor_created_event" prot="public">wxGridEditorCreatedEvent</innerclass>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="interface_2wx_2grid_8h_1a396dd5efd4a1226546b8d205558fab5f" prot="public" static="no">
+        <name>wxGRID_AUTOSIZE</name>
+        <initializer>(-1)</initializer>
+        <briefdescription>
+<para>Magic constant which tells (to some functions) to automatically calculate the appropriate size. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/grid.h" line="11" column="9" bodyfile="interface/wx/grid.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="interface_2wx_2grid_8h_1a217feca5b3c92d0b1870dcddd719716a" prot="public" static="no" strong="no">
+        <type></type>
+        <name>wxGridDirection</name>
+        <enumvalue id="interface_2wx_2grid_8h_1a217feca5b3c92d0b1870dcddd719716aa9ad8acc4a3cdddf1b59b555c7193bc5a" prot="public">
+          <name>wxGRID_COLUMN</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="interface_2wx_2grid_8h_1a217feca5b3c92d0b1870dcddd719716aabc2fe462ed8a5cafb947715371e737aa" prot="public">
+          <name>wxGRID_ROW</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Many <ref refid="classwx_grid" kindref="compound">wxGrid</ref> methods work either with columns or rows, this enum is used for the parameter indicating which one should it be. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/grid.h" line="16" column="1" bodyfile="interface/wx/grid.h" bodystart="15" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="enum" id="interface_2wx_2grid_8h_1a6594fb49b365ff74b4f51d0a024d1105" prot="public" static="no" strong="no">
+        <type></type>
+        <name>wxGridCellFloatFormat</name>
+        <enumvalue id="interface_2wx_2grid_8h_1a6594fb49b365ff74b4f51d0a024d1105af154b7ad86bd974c6db187b03d862e6b" prot="public">
+          <name>wxGRID_FLOAT_FORMAT_FIXED</name>
+          <initializer>= 0x0010</initializer>
+          <briefdescription>
+<para>Decimal floating point (f). </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="interface_2wx_2grid_8h_1a6594fb49b365ff74b4f51d0a024d1105a98fa3b9f4ff2fe9ed76b5881a51447f1" prot="public">
+          <name>wxGRID_FLOAT_FORMAT_SCIENTIFIC</name>
+          <initializer>= 0x0020</initializer>
+          <briefdescription>
+<para>Scientific notation (mantissa/exponent) using e character (e). </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="interface_2wx_2grid_8h_1a6594fb49b365ff74b4f51d0a024d1105ab7ff34f25c4909317809d5edeab8b5cc" prot="public">
+          <name>wxGRID_FLOAT_FORMAT_COMPACT</name>
+          <initializer>= 0x0040</initializer>
+          <briefdescription>
+<para>Use the shorter of e or f (g). </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="interface_2wx_2grid_8h_1a6594fb49b365ff74b4f51d0a024d1105a60ec9397e4db07b7ead605ad08bb01f8" prot="public">
+          <name>wxGRID_FLOAT_FORMAT_UPPER</name>
+          <initializer>= 0x0080</initializer>
+          <briefdescription>
+<para>To use in combination with one of the above formats for the upper case version (F/E/G) </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="interface_2wx_2grid_8h_1a6594fb49b365ff74b4f51d0a024d1105afcd820d137b90d7f984ce0bfdf72f739" prot="public">
+          <name>wxGRID_FLOAT_FORMAT_DEFAULT</name>
+          <initializer>= wxGRID_FLOAT_FORMAT_FIXED</initializer>
+          <briefdescription>
+<para>The format used by default (wxGRID_FLOAT_FORMAT_FIXED). </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Specifier used to format the data to string for the numbers handled by <ref refid="classwx_grid_cell_float_renderer" kindref="compound">wxGridCellFloatRenderer</ref> and <ref refid="classwx_grid_cell_float_editor" kindref="compound">wxGridCellFloatEditor</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="since"><para>2.9.3 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/grid.h" line="210" column="1" bodyfile="interface/wx/grid.h" bodystart="209" bodyend="226"/>
+      </memberdef>
+      <memberdef kind="enum" id="interface_2wx_2grid_8h_1ab169f7bee913c59d3ab0ee160c871263" prot="public" static="no" strong="no">
+        <type></type>
+        <name>wxGridTableRequest</name>
+        <enumvalue id="interface_2wx_2grid_8h_1ab169f7bee913c59d3ab0ee160c871263a089c23dd072898b3e15a441e9d68b23b" prot="public">
+          <name>wxGRIDTABLE_REQUEST_VIEW_GET_VALUES</name>
+          <initializer>= 2000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="interface_2wx_2grid_8h_1ab169f7bee913c59d3ab0ee160c871263a90aad6d45d6c85330a8ce3e18e370989" prot="public">
+          <name>wxGRIDTABLE_REQUEST_VIEW_SEND_VALUES</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="interface_2wx_2grid_8h_1ab169f7bee913c59d3ab0ee160c871263aae6201085831f3700e0a1d39daebf975" prot="public">
+          <name>wxGRIDTABLE_NOTIFY_ROWS_INSERTED</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="interface_2wx_2grid_8h_1ab169f7bee913c59d3ab0ee160c871263aa2d369ea36e0c793097c97b8b0afe862" prot="public">
+          <name>wxGRIDTABLE_NOTIFY_ROWS_APPENDED</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="interface_2wx_2grid_8h_1ab169f7bee913c59d3ab0ee160c871263adb2c3f7947f10eccf523a51badd9e922" prot="public">
+          <name>wxGRIDTABLE_NOTIFY_ROWS_DELETED</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="interface_2wx_2grid_8h_1ab169f7bee913c59d3ab0ee160c871263a2d1f813978d10a17e35722568085f55d" prot="public">
+          <name>wxGRIDTABLE_NOTIFY_COLS_INSERTED</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="interface_2wx_2grid_8h_1ab169f7bee913c59d3ab0ee160c871263a51e730a9a10b6b14da9fa36c6672034c" prot="public">
+          <name>wxGRIDTABLE_NOTIFY_COLS_APPENDED</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="interface_2wx_2grid_8h_1ab169f7bee913c59d3ab0ee160c871263a8ea96954f7e2c72d675ba621c451c4ac" prot="public">
+          <name>wxGRIDTABLE_NOTIFY_COLS_DELETED</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/grid.h" line="1762" column="1" bodyfile="interface/wx/grid.h" bodystart="1761" bodyend="1771"/>
+      </memberdef>
+      <memberdef kind="enum" id="interface_2wx_2grid_8h_1a6c6e4c1a30cf97ac7d4f1a96ab2a9fac" prot="public" static="no" strong="no">
+        <type></type>
+        <name>wxGridRenderStyle</name>
+        <enumvalue id="interface_2wx_2grid_8h_1a6c6e4c1a30cf97ac7d4f1a96ab2a9faca4aca3843ad994f0409f246766ec57c84" prot="public">
+          <name>wxGRID_DRAW_ROWS_HEADER</name>
+          <initializer>= 0x001</initializer>
+          <briefdescription>
+<para>Draw grid row header labels. </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="interface_2wx_2grid_8h_1a6c6e4c1a30cf97ac7d4f1a96ab2a9facab898fd04a37e86b394730c6bcf20cafd" prot="public">
+          <name>wxGRID_DRAW_COLS_HEADER</name>
+          <initializer>= 0x002</initializer>
+          <briefdescription>
+<para>Draw grid column header labels. </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="interface_2wx_2grid_8h_1a6c6e4c1a30cf97ac7d4f1a96ab2a9faca9d55dd816ee317d485d46c5b614cb7df" prot="public">
+          <name>wxGRID_DRAW_CELL_LINES</name>
+          <initializer>= 0x004</initializer>
+          <briefdescription>
+<para>Draw grid cell border lines. </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="interface_2wx_2grid_8h_1a6c6e4c1a30cf97ac7d4f1a96ab2a9faca59067533028feef418df47f75fbcac44" prot="public">
+          <name>wxGRID_DRAW_BOX_RECT</name>
+          <initializer>= 0x008</initializer>
+          <briefdescription>
+<para>Draw a bounding rectangle around the rendered cell area. </para>          </briefdescription>
+          <detaileddescription>
+<para>Useful where row or column headers are not drawn or where there is multi row or column cell clipping and therefore no cell border at the rendered outer boundary. </para>          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="interface_2wx_2grid_8h_1a6c6e4c1a30cf97ac7d4f1a96ab2a9facaddd0be014edd32983d18549920e9fb84" prot="public">
+          <name>wxGRID_DRAW_SELECTION</name>
+          <initializer>= 0x010</initializer>
+          <briefdescription>
+<para>Draw the grid cell selection highlight if a selection is present. </para>          </briefdescription>
+          <detaileddescription>
+<para>At present the highlight colour drawn depends on whether the grid window loses focus before drawing begins. </para>          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="interface_2wx_2grid_8h_1a6c6e4c1a30cf97ac7d4f1a96ab2a9faca0ac95e7d35b3584bcb737a925d3e285c" prot="public">
+          <name>wxGRID_DRAW_DEFAULT</name>
+          <initializer>= wxGRID_DRAW_ROWS_HEADER |
+                          wxGRID_DRAW_COLS_HEADER |
+                          wxGRID_DRAW_CELL_LINES |
+                          wxGRID_DRAW_BOX_RECT</initializer>
+          <briefdescription>
+<para>The default render style. </para>          </briefdescription>
+          <detaileddescription>
+<para>Includes all except wxGRID_DRAW_SELECTION. </para>          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Rendering styles supported by <ref refid="classwx_grid_1a5186ffa351b21512c729994f097aff1f" kindref="member">wxGrid::Render()</ref> method. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="since"><para>2.9.4 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/grid.h" line="1911" column="1" bodyfile="interface/wx/grid.h" bodystart="1910" bodyend="1947"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="interface_2wx_2grid_8h_1a661d09f404e0391eaa885de0aff601e4" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_GRID_CELL_LEFT_CLICK</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_GRID_CELL_LEFT_CLICK</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/grid.h" line="5044" column="1" bodyfile="interface/wx/grid.h" bodystart="5044" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="interface_2wx_2grid_8h_1a8a09eda4bba7704a82ef8ef3c6e94a36" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_GRID_CELL_RIGHT_CLICK</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_GRID_CELL_RIGHT_CLICK</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/grid.h" line="5045" column="1" bodyfile="interface/wx/grid.h" bodystart="5045" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="interface_2wx_2grid_8h_1a02594128266e9da14f73c905c1173096" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_GRID_CELL_LEFT_DCLICK</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_GRID_CELL_LEFT_DCLICK</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/grid.h" line="5046" column="1" bodyfile="interface/wx/grid.h" bodystart="5046" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="interface_2wx_2grid_8h_1a7e3c829a05cd515042506efb4e4fffc1" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_GRID_CELL_RIGHT_DCLICK</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_GRID_CELL_RIGHT_DCLICK</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/grid.h" line="5047" column="1" bodyfile="interface/wx/grid.h" bodystart="5047" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="interface_2wx_2grid_8h_1a85ea104ba287609f92d2da152b9e9445" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_GRID_LABEL_LEFT_CLICK</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_GRID_LABEL_LEFT_CLICK</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/grid.h" line="5048" column="1" bodyfile="interface/wx/grid.h" bodystart="5048" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="interface_2wx_2grid_8h_1a448c97424012f311c7afc7cb2b6dba3c" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_GRID_LABEL_RIGHT_CLICK</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_GRID_LABEL_RIGHT_CLICK</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/grid.h" line="5049" column="1" bodyfile="interface/wx/grid.h" bodystart="5049" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="interface_2wx_2grid_8h_1a03c8bf04b9ec1aac7451e7e200ba7c61" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_GRID_LABEL_LEFT_DCLICK</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_GRID_LABEL_LEFT_DCLICK</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/grid.h" line="5050" column="1" bodyfile="interface/wx/grid.h" bodystart="5050" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="interface_2wx_2grid_8h_1a45aeb768d97a5419a2053b3dca1fc3c9" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_GRID_LABEL_RIGHT_DCLICK</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_GRID_LABEL_RIGHT_DCLICK</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/grid.h" line="5051" column="1" bodyfile="interface/wx/grid.h" bodystart="5051" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="interface_2wx_2grid_8h_1a270988c64631ba9774e6ffb9525ee299" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_GRID_ROW_SIZE</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_GRID_ROW_SIZE</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/grid.h" line="5052" column="1" bodyfile="interface/wx/grid.h" bodystart="5052" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="interface_2wx_2grid_8h_1ad194e808d28e532fcaa276ea1ba2119e" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_GRID_COL_SIZE</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_GRID_COL_SIZE</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/grid.h" line="5053" column="1" bodyfile="interface/wx/grid.h" bodystart="5053" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="interface_2wx_2grid_8h_1ae85987da2fa2ab2189fc5b77822c7068" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_GRID_COL_AUTO_SIZE</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_GRID_COL_AUTO_SIZE</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/grid.h" line="5054" column="1" bodyfile="interface/wx/grid.h" bodystart="5054" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="interface_2wx_2grid_8h_1a5921e02471a37c83759a5e50a727bbac" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_GRID_RANGE_SELECT</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_GRID_RANGE_SELECT</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/grid.h" line="5055" column="1" bodyfile="interface/wx/grid.h" bodystart="5055" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="interface_2wx_2grid_8h_1a0059b095da34dfb96d0880dc477a944f" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_GRID_CELL_CHANGING</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_GRID_CELL_CHANGING</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/grid.h" line="5056" column="1" bodyfile="interface/wx/grid.h" bodystart="5056" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="interface_2wx_2grid_8h_1adac8c85b01fea02c2277c12189f39a28" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_GRID_CELL_CHANGED</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_GRID_CELL_CHANGED</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/grid.h" line="5057" column="1" bodyfile="interface/wx/grid.h" bodystart="5057" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="interface_2wx_2grid_8h_1af3cf7611a09e2da3baf0912be0b24065" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_GRID_SELECT_CELL</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_GRID_SELECT_CELL</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/grid.h" line="5058" column="1" bodyfile="interface/wx/grid.h" bodystart="5058" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="interface_2wx_2grid_8h_1abcb351f4754434706e4a73aaff4abd3f" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_GRID_EDITOR_SHOWN</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_GRID_EDITOR_SHOWN</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/grid.h" line="5059" column="1" bodyfile="interface/wx/grid.h" bodystart="5059" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="interface_2wx_2grid_8h_1aabad977bdee0d6b512a7ec3a9157d859" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_GRID_EDITOR_HIDDEN</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_GRID_EDITOR_HIDDEN</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/grid.h" line="5060" column="1" bodyfile="interface/wx/grid.h" bodystart="5060" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="interface_2wx_2grid_8h_1a6fb1d808e71f10d757165476172b8bf0" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_GRID_EDITOR_CREATED</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_GRID_EDITOR_CREATED</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/grid.h" line="5061" column="1" bodyfile="interface/wx/grid.h" bodystart="5061" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="interface_2wx_2grid_8h_1a43874bd6aadc25e7ae6bd97022e7c7e7" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_GRID_CELL_BEGIN_DRAG</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_GRID_CELL_BEGIN_DRAG</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/grid.h" line="5062" column="1" bodyfile="interface/wx/grid.h" bodystart="5062" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="interface_2wx_2grid_8h_1aa420d5d79781f0fecb56e6598c4fab0e" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_GRID_COL_MOVE</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_GRID_COL_MOVE</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/grid.h" line="5063" column="1" bodyfile="interface/wx/grid.h" bodystart="5063" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="interface_2wx_2grid_8h_1ae5224a13d02406d762cb5dfb897af6ad" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_GRID_COL_SORT</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_GRID_COL_SORT</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/grid.h" line="5064" column="1" bodyfile="interface/wx/grid.h" bodystart="5064" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="interface_2wx_2grid_8h_1af20cf9a975d9de40c5671f24d4a1c945" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_GRID_TABBING</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_GRID_TABBING</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/grid.h" line="5065" column="1" bodyfile="interface/wx/grid.h" bodystart="5065" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="interface/wx/grid.h"/>
+  </compounddef>
+</doxygen>

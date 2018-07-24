@@ -1,0 +1,1203 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_property_grid_page_state" kind="class" language="C++" prot="public">
+    <compoundname>wxPropertyGridPageState</compoundname>
+    <derivedcompoundref refid="classwx_property_grid_page" prot="public" virt="non-virtual">wxPropertyGridPage</derivedcompoundref>
+    <includes local="no">wx/propgrid/propgridpagestate.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classwx_property_grid_page_state_1a8660eb95faea7bb4a4fd8fd3cbaae369" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxPropertyGridPageState::wxPropertyGridPageState</definition>
+        <argsstring>()</argsstring>
+        <name>wxPropertyGridPageState</name>
+        <briefdescription>
+<para>Default constructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/propgridpagestate.h" line="245" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_property_grid_page_state_1a055f38849ec9f2b08e97eeb42b28b159" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual wxPropertyGridPageState::~wxPropertyGridPageState</definition>
+        <argsstring>()</argsstring>
+        <name>~wxPropertyGridPageState</name>
+        <briefdescription>
+<para>Destructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/propgridpagestate.h" line="248" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_property_grid_page_state_1a1dae01882c546f21eed099d818c5561a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxPropertyGridPageState::CheckColumnWidths</definition>
+        <argsstring>(int widthChange=0)</argsstring>
+        <name>CheckColumnWidths</name>
+        <param>
+          <type>int</type>
+          <declname>widthChange</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>Makes sure all columns have minimum width. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/propgridpagestate.h" line="252" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_property_grid_page_state_1adc165a010cd5b0ccdef2855a18cd3823" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void wxPropertyGridPageState::DoDelete</definition>
+        <argsstring>(wxPGProperty *item, bool doDelete=true)</argsstring>
+        <name>DoDelete</name>
+        <param>
+          <type><ref refid="classwx_p_g_property" kindref="compound">wxPGProperty</ref> *</type>
+          <declname>item</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>doDelete</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+<para>Override this member function to add custom behaviour on property deletion. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/propgridpagestate.h" line="258" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_property_grid_page_state_1aa3ee765f99739507d98b16e81b0fa40c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_size" kindref="compound">wxSize</ref></type>
+        <definition>wxSize wxPropertyGridPageState::DoFitColumns</definition>
+        <argsstring>(bool allowGridResize=false)</argsstring>
+        <name>DoFitColumns</name>
+        <param>
+          <type>bool</type>
+          <declname>allowGridResize</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/propgridpagestate.h" line="260" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_property_grid_page_state_1a6dc539ae7fee246d041978a566b637e9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_p_g_property" kindref="compound">wxPGProperty</ref> *</type>
+        <definition>wxPGProperty* wxPropertyGridPageState::DoGetItemAtY</definition>
+        <argsstring>(int y) const</argsstring>
+        <name>DoGetItemAtY</name>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/propgridpagestate.h" line="262" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_property_grid_page_state_1a0e6f17db76e2067217320b26219fd035" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="classwx_p_g_property" kindref="compound">wxPGProperty</ref> *</type>
+        <definition>virtual wxPGProperty* wxPropertyGridPageState::DoInsert</definition>
+        <argsstring>(wxPGProperty *parent, int index, wxPGProperty *property)</argsstring>
+        <name>DoInsert</name>
+        <param>
+          <type><ref refid="classwx_p_g_property" kindref="compound">wxPGProperty</ref> *</type>
+          <declname>parent</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_p_g_property" kindref="compound">wxPGProperty</ref> *</type>
+          <declname>property</declname>
+        </param>
+        <briefdescription>
+<para>Override this member function to add custom behaviour on property insertion. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/propgridpagestate.h" line="268" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_property_grid_page_state_1a96250a30a56880061536dfafae95c946" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void wxPropertyGridPageState::DoSetSplitterPosition</definition>
+        <argsstring>(int pos, int splitterColumn=0, int flags=0)</argsstring>
+        <name>DoSetSplitterPosition</name>
+        <param>
+          <type>int</type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>splitterColumn</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>flags</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>This needs to be overridden in grid used the manager so that splitter changes can be propagated to other pages. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/propgridpagestate.h" line="276" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_property_grid_page_state_1af4a119b240369838ec207d857e2bf323" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxPropertyGridPageState::EnableCategories</definition>
+        <argsstring>(bool enable)</argsstring>
+        <name>EnableCategories</name>
+        <param>
+          <type>bool</type>
+          <declname>enable</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/propgridpagestate.h" line="280" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_property_grid_page_state_1aba5d1eb97eeb4b39f89a2eada9259439" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxPropertyGridPageState::EnsureVirtualHeight</definition>
+        <argsstring>()</argsstring>
+        <name>EnsureVirtualHeight</name>
+        <briefdescription>
+<para>Make sure virtual height is up-to-date. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/propgridpagestate.h" line="284" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_property_grid_page_state_1aeda4f546dc3a3d8f2c5f09c11e06ed8b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>unsigned int</type>
+        <definition>unsigned int wxPropertyGridPageState::GetVirtualHeight</definition>
+        <argsstring>() const</argsstring>
+        <name>GetVirtualHeight</name>
+        <briefdescription>
+<para>Returns (precalculated) height of contained visible properties. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/propgridpagestate.h" line="288" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_property_grid_page_state_1a985a1adda94b8610caaad1ad2464f11c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsigned int</type>
+        <definition>unsigned int wxPropertyGridPageState::GetVirtualHeight</definition>
+        <argsstring>()</argsstring>
+        <name>GetVirtualHeight</name>
+        <briefdescription>
+<para>Returns (precalculated) height of contained visible properties. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/propgridpagestate.h" line="292" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_property_grid_page_state_1a19bc9707fdb2c2a30c389c40b4231b73" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsigned int</type>
+        <definition>unsigned int wxPropertyGridPageState::GetActualVirtualHeight</definition>
+        <argsstring>() const</argsstring>
+        <name>GetActualVirtualHeight</name>
+        <briefdescription>
+<para>Returns actual height of contained visible properties. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="remark"><para>Mostly used for internal diagnostic purposes. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/propgridpagestate.h" line="298" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_property_grid_page_state_1a0c5c433c65cf1af8bbc6265f0c496577" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>unsigned int</type>
+        <definition>unsigned int wxPropertyGridPageState::GetColumnCount</definition>
+        <argsstring>() const</argsstring>
+        <name>GetColumnCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/propgridpagestate.h" line="300" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_property_grid_page_state_1a23f5a180cbe0f1e30bf5e9777a6aafbf" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int wxPropertyGridPageState::GetColumnMinWidth</definition>
+        <argsstring>(int column) const</argsstring>
+        <name>GetColumnMinWidth</name>
+        <param>
+          <type>int</type>
+          <declname>column</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/propgridpagestate.h" line="302" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_property_grid_page_state_1ad8e1a1dc580ddda4cfbb4ff0f162ddf1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int wxPropertyGridPageState::GetColumnWidth</definition>
+        <argsstring>(unsigned int column) const</argsstring>
+        <name>GetColumnWidth</name>
+        <param>
+          <type>unsigned int</type>
+          <declname>column</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/propgridpagestate.h" line="304" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_property_grid_page_state_1a4a0184fdf7881c07fcaf8298f17fb970" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_property_grid" kindref="compound">wxPropertyGrid</ref> *</type>
+        <definition>wxPropertyGrid* wxPropertyGridPageState::GetGrid</definition>
+        <argsstring>() const</argsstring>
+        <name>GetGrid</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/propgridpagestate.h" line="306" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_property_grid_page_state_1a48a1d0061ac741a670f173e054d6bca8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_p_g_property" kindref="compound">wxPGProperty</ref> *</type>
+        <definition>wxPGProperty* wxPropertyGridPageState::GetLastItem</definition>
+        <argsstring>(int flags=wxPG_ITERATE_DEFAULT)</argsstring>
+        <name>GetLastItem</name>
+        <param>
+          <type>int</type>
+          <declname>flags</declname>
+          <defval><ref refid="propgridpagestate_8h_1a307ba26bf1eeb9d76108893f4f723b0aaa73795625ba7549869c0a194d17846dd" kindref="member">wxPG_ITERATE_DEFAULT</ref></defval>
+        </param>
+        <briefdescription>
+<para>Returns last item which could be iterated using given flags. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>flags</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="" kindref="compound">List of iterator flags</ref> </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/propgridpagestate.h" line="312" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_property_grid_page_state_1aab6ab7c0f30d02b0482793cb06cd37fc" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="classwx_p_g_property" kindref="compound">wxPGProperty</ref> *</type>
+        <definition>const wxPGProperty* wxPropertyGridPageState::GetLastItem</definition>
+        <argsstring>(int flags=wxPG_ITERATE_DEFAULT) const</argsstring>
+        <name>GetLastItem</name>
+        <param>
+          <type>int</type>
+          <declname>flags</declname>
+          <defval><ref refid="propgridpagestate_8h_1a307ba26bf1eeb9d76108893f4f723b0aaa73795625ba7549869c0a194d17846dd" kindref="member">wxPG_ITERATE_DEFAULT</ref></defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/propgridpagestate.h" line="314" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_property_grid_page_state_1a3168934ddcc270c0ee66fba9b26d4b55" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_p_g_property" kindref="compound">wxPGProperty</ref> *</type>
+        <definition>wxPGProperty* wxPropertyGridPageState::GetSelection</definition>
+        <argsstring>() const</argsstring>
+        <name>GetSelection</name>
+        <briefdescription>
+<para>Returns currently selected property. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/propgridpagestate.h" line="319" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_property_grid_page_state_1ac0ad611aa0006488b34caa119dae3e6f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxPropertyGridPageState::DoSetSelection</definition>
+        <argsstring>(wxPGProperty *prop)</argsstring>
+        <name>DoSetSelection</name>
+        <param>
+          <type><ref refid="classwx_p_g_property" kindref="compound">wxPGProperty</ref> *</type>
+          <declname>prop</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/propgridpagestate.h" line="321" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_property_grid_page_state_1a2ef7ae579ba4e8c80de7d8ff04562fb3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxPropertyGridPageState::DoClearSelection</definition>
+        <argsstring>()</argsstring>
+        <name>DoClearSelection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/propgridpagestate.h" line="323" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_property_grid_page_state_1a194c16813dc2e3afb8b6d80ac33f356d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxPropertyGridPageState::DoRemoveFromSelection</definition>
+        <argsstring>(wxPGProperty *prop)</argsstring>
+        <name>DoRemoveFromSelection</name>
+        <param>
+          <type><ref refid="classwx_p_g_property" kindref="compound">wxPGProperty</ref> *</type>
+          <declname>prop</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/propgridpagestate.h" line="325" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_property_grid_page_state_1a00e0d44f1bbf3c6b1a5c2ed4cf1e39d1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxPropertyGridPageState::DoSetColumnProportion</definition>
+        <argsstring>(unsigned int column, int proportion)</argsstring>
+        <name>DoSetColumnProportion</name>
+        <param>
+          <type>unsigned int</type>
+          <declname>column</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>proportion</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/propgridpagestate.h" line="327" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_property_grid_page_state_1a22adc81738a671d9ecd258714e7db417" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int wxPropertyGridPageState::DoGetColumnProportion</definition>
+        <argsstring>(unsigned int column) const</argsstring>
+        <name>DoGetColumnProportion</name>
+        <param>
+          <type>unsigned int</type>
+          <declname>column</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/propgridpagestate.h" line="329" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_property_grid_page_state_1ac119dd7dc04986e56b1b5b8c996d284d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxPropertyGridPageState::ResetColumnSizes</definition>
+        <argsstring>(int setSplitterFlags)</argsstring>
+        <name>ResetColumnSizes</name>
+        <param>
+          <type>int</type>
+          <declname>setSplitterFlags</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/propgridpagestate.h" line="331" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_property_grid_page_state_1a57152a4cc109b76c09a57f30eb48f902" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_property_category" kindref="compound">wxPropertyCategory</ref> *</type>
+        <definition>wxPropertyCategory* wxPropertyGridPageState::GetPropertyCategory</definition>
+        <argsstring>(const wxPGProperty *p) const</argsstring>
+        <name>GetPropertyCategory</name>
+        <param>
+          <type>const <ref refid="classwx_p_g_property" kindref="compound">wxPGProperty</ref> *</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/propgridpagestate.h" line="333" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_property_grid_page_state_1a431b5d8cd0e7e0f79dae98ce65cd6d73" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_p_g_property" kindref="compound">wxPGProperty</ref> *</type>
+        <definition>wxPGProperty* wxPropertyGridPageState::GetPropertyByLabel</definition>
+        <argsstring>(const wxString &amp;name, wxPGProperty *parent=NULL) const</argsstring>
+        <name>GetPropertyByLabel</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_p_g_property" kindref="compound">wxPGProperty</ref> *</type>
+          <declname>parent</declname>
+          <defval>NULL</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/propgridpagestate.h" line="335" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_property_grid_page_state_1a6b1d6ccd3700d1851ae6dba1620946b9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_variant" kindref="compound">wxVariant</ref></type>
+        <definition>wxVariant wxPropertyGridPageState::DoGetPropertyValues</definition>
+        <argsstring>(const wxString &amp;listname, wxPGProperty *baseparent, long flags) const</argsstring>
+        <name>DoGetPropertyValues</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>listname</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_p_g_property" kindref="compound">wxPGProperty</ref> *</type>
+          <declname>baseparent</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>flags</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/propgridpagestate.h" line="338" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_property_grid_page_state_1aef4629d700d0985e77371d69bbcf5e18" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_p_g_property" kindref="compound">wxPGProperty</ref> *</type>
+        <definition>wxPGProperty* wxPropertyGridPageState::DoGetRoot</definition>
+        <argsstring>() const</argsstring>
+        <name>DoGetRoot</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/propgridpagestate.h" line="342" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_property_grid_page_state_1adcede99ffbd0b84e0b8b6c3e87b85e87" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxPropertyGridPageState::DoSetPropertyName</definition>
+        <argsstring>(wxPGProperty *p, const wxString &amp;newName)</argsstring>
+        <name>DoSetPropertyName</name>
+        <param>
+          <type><ref refid="classwx_p_g_property" kindref="compound">wxPGProperty</ref> *</type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>newName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/propgridpagestate.h" line="344" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_property_grid_page_state_1a32b3b9298a1571f0c15e8759581a3c49" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int wxPropertyGridPageState::GetVirtualWidth</definition>
+        <argsstring>() const</argsstring>
+        <name>GetVirtualWidth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/propgridpagestate.h" line="347" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_property_grid_page_state_1a185c12279a4eb5f6a7eef49399f0fdf1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int wxPropertyGridPageState::GetColumnFitWidth</definition>
+        <argsstring>(wxClientDC &amp;dc, wxPGProperty *pwc, unsigned int col, bool subProps) const</argsstring>
+        <name>GetColumnFitWidth</name>
+        <param>
+          <type><ref refid="classwx_client_d_c" kindref="compound">wxClientDC</ref> &amp;</type>
+          <declname>dc</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_p_g_property" kindref="compound">wxPGProperty</ref> *</type>
+          <declname>pwc</declname>
+        </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>col</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>subProps</declname>
+        </param>
+        <briefdescription>
+<para>Returns minimal width for given column so that all images and texts will fit entirely. </para>        </briefdescription>
+        <detaileddescription>
+<para>Used by <ref refid="classwx_property_grid_page_state_1aeed5e69d2fbea63fd13b8a8e7b8d9a76" kindref="member">SetSplitterLeft()</ref> and <ref refid="classwx_property_grid_page_state_1aa3ee765f99739507d98b16e81b0fa40c" kindref="member">DoFitColumns()</ref>. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/propgridpagestate.h" line="355" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_property_grid_page_state_1aee548cfcd6b4ddd174fd2eece3edd2ef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int wxPropertyGridPageState::GetColumnFullWidth</definition>
+        <argsstring>(wxClientDC &amp;dc, wxPGProperty *p, unsigned int col)</argsstring>
+        <name>GetColumnFullWidth</name>
+        <param>
+          <type><ref refid="classwx_client_d_c" kindref="compound">wxClientDC</ref> &amp;</type>
+          <declname>dc</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_p_g_property" kindref="compound">wxPGProperty</ref> *</type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>col</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/propgridpagestate.h" line="360" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_property_grid_page_state_1a34f0d52ac666579c91d963e6e2ea2a81" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_property_grid_hit_test_result" kindref="compound">wxPropertyGridHitTestResult</ref></type>
+        <definition>wxPropertyGridHitTestResult wxPropertyGridPageState::HitTest</definition>
+        <argsstring>(const wxPoint &amp;pt) const</argsstring>
+        <name>HitTest</name>
+        <param>
+          <type>const <ref refid="classwx_point" kindref="compound">wxPoint</ref> &amp;</type>
+          <declname>pt</declname>
+        </param>
+        <briefdescription>
+<para>Returns information about arbitrary position in the grid. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>pt</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Logical coordinates in the virtual grid space. Use <ref refid="classwx_scrolled_1addb96196c8bc441934fb96c2b4e56a51" kindref="member">wxScrolled&lt;T&gt;::CalcUnscrolledPosition()</ref> if you need to translate a scrolled position into a logical one. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/propgridpagestate.h" line="370" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_property_grid_page_state_1a681e22c81fb39f1a0b21ff40c3460d35" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxPropertyGridPageState::IsDisplayed</definition>
+        <argsstring>() const</argsstring>
+        <name>IsDisplayed</name>
+        <briefdescription>
+<para>Returns true if page is visibly displayed. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/propgridpagestate.h" line="374" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_property_grid_page_state_1a3098eeb4044fe67596b11c405b6f2e5a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxPropertyGridPageState::IsInNonCatMode</definition>
+        <argsstring>() const</argsstring>
+        <name>IsInNonCatMode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/propgridpagestate.h" line="376" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_property_grid_page_state_1abf74bf0ee6cddb1bb3030f44cd022fbd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxPropertyGridPageState::DoLimitPropertyEditing</definition>
+        <argsstring>(wxPGProperty *p, bool limit=true)</argsstring>
+        <name>DoLimitPropertyEditing</name>
+        <param>
+          <type><ref refid="classwx_p_g_property" kindref="compound">wxPGProperty</ref> *</type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>limit</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/propgridpagestate.h" line="378" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_property_grid_page_state_1a2ad328a14b687ee4b8bb51658516a4a0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxPropertyGridPageState::DoSelectProperty</definition>
+        <argsstring>(wxPGProperty *p, unsigned int flags=0)</argsstring>
+        <name>DoSelectProperty</name>
+        <param>
+          <type><ref refid="classwx_p_g_property" kindref="compound">wxPGProperty</ref> *</type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>flags</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/propgridpagestate.h" line="380" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_property_grid_page_state_1aa1a59a25013f5b92323ab08b34dceeab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxPropertyGridPageState::OnClientWidthChange</definition>
+        <argsstring>(int newWidth, int widthChange, bool fromOnResize=false)</argsstring>
+        <name>OnClientWidthChange</name>
+        <param>
+          <type>int</type>
+          <declname>newWidth</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>widthChange</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>fromOnResize</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+<para>widthChange is non-client. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/propgridpagestate.h" line="384" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_property_grid_page_state_1a728ec026bfb72eb935d176f159437040" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxPropertyGridPageState::RecalculateVirtualHeight</definition>
+        <argsstring>()</argsstring>
+        <name>RecalculateVirtualHeight</name>
+        <briefdescription>
+<para>Recalculates m_virtualHeight. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/propgridpagestate.h" line="390" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_property_grid_page_state_1ad9bd6734804f8759a1531cdab47605c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxPropertyGridPageState::SetColumnCount</definition>
+        <argsstring>(int colCount)</argsstring>
+        <name>SetColumnCount</name>
+        <param>
+          <type>int</type>
+          <declname>colCount</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/propgridpagestate.h" line="392" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_property_grid_page_state_1a82d60af96e233a9db23df146763e64e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxPropertyGridPageState::PropagateColSizeDec</definition>
+        <argsstring>(int column, int decrease, int dir)</argsstring>
+        <name>PropagateColSizeDec</name>
+        <param>
+          <type>int</type>
+          <declname>column</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>decrease</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dir</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/propgridpagestate.h" line="394" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_property_grid_page_state_1afac1b0b942bdcc18156f3d85884d664e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxPropertyGridPageState::DoHideProperty</definition>
+        <argsstring>(wxPGProperty *p, bool hide, int flags=wxPG_RECURSE)</argsstring>
+        <name>DoHideProperty</name>
+        <param>
+          <type><ref refid="classwx_p_g_property" kindref="compound">wxPGProperty</ref> *</type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>hide</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>flags</declname>
+          <defval><ref refid="propgriddefs_8h_1a77bb7880e3ea2359f13566eff2a1478cac9c20676ced7bcd3ecbd227bdc3f70da" kindref="member">wxPG_RECURSE</ref></defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/propgridpagestate.h" line="396" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_property_grid_page_state_1a8c73eb600e15744e336529ecec8ddc69" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxPropertyGridPageState::DoSetPropertyValueString</definition>
+        <argsstring>(wxPGProperty *p, const wxString &amp;value)</argsstring>
+        <name>DoSetPropertyValueString</name>
+        <param>
+          <type><ref refid="classwx_p_g_property" kindref="compound">wxPGProperty</ref> *</type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/propgridpagestate.h" line="398" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_property_grid_page_state_1a29319f13777831e1f6ae5cf61fa4aa29" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxPropertyGridPageState::DoSetPropertyValue</definition>
+        <argsstring>(wxPGProperty *p, wxVariant &amp;value)</argsstring>
+        <name>DoSetPropertyValue</name>
+        <param>
+          <type><ref refid="classwx_p_g_property" kindref="compound">wxPGProperty</ref> *</type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_variant" kindref="compound">wxVariant</ref> &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/propgridpagestate.h" line="400" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_property_grid_page_state_1a4e95df8f53a7a6025da9ff405a4e8cdd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxPropertyGridPageState::DoSetPropertyValueWxObjectPtr</definition>
+        <argsstring>(wxPGProperty *p, wxObject *value)</argsstring>
+        <name>DoSetPropertyValueWxObjectPtr</name>
+        <param>
+          <type><ref refid="classwx_p_g_property" kindref="compound">wxPGProperty</ref> *</type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_object" kindref="compound">wxObject</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/propgridpagestate.h" line="402" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_property_grid_page_state_1ad9b13803d670af921df18169ce091449" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxPropertyGridPageState::DoSetPropertyValues</definition>
+        <argsstring>(const wxVariantList &amp;list, wxPGProperty *default_category)</argsstring>
+        <name>DoSetPropertyValues</name>
+        <param>
+          <type>const wxVariantList &amp;</type>
+          <declname>list</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_p_g_property" kindref="compound">wxPGProperty</ref> *</type>
+          <declname>default_category</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/propgridpagestate.h" line="403" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_property_grid_page_state_1aeed5e69d2fbea63fd13b8a8e7b8d9a76" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxPropertyGridPageState::SetSplitterLeft</definition>
+        <argsstring>(bool subProps=false)</argsstring>
+        <name>SetSplitterLeft</name>
+        <param>
+          <type>bool</type>
+          <declname>subProps</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/propgridpagestate.h" line="406" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_property_grid_page_state_1a34d973f948f773212abb6c66b614873a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxPropertyGridPageState::SetVirtualWidth</definition>
+        <argsstring>(int width)</argsstring>
+        <name>SetVirtualWidth</name>
+        <param>
+          <type>int</type>
+          <declname>width</declname>
+        </param>
+        <briefdescription>
+<para>Set virtual width for this particular page. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/propgridpagestate.h" line="409" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_property_grid_page_state_1a6003ca6182c475a6608b371b3f229a1c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxPropertyGridPageState::DoSortChildren</definition>
+        <argsstring>(wxPGProperty *p, int flags=0)</argsstring>
+        <name>DoSortChildren</name>
+        <param>
+          <type><ref refid="classwx_p_g_property" kindref="compound">wxPGProperty</ref> *</type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>flags</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/propgridpagestate.h" line="411" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_property_grid_page_state_1a2ba3829c38dafa87468511f03e1c1708" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxPropertyGridPageState::DoSort</definition>
+        <argsstring>(int flags=0)</argsstring>
+        <name>DoSort</name>
+        <param>
+          <type>int</type>
+          <declname>flags</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/propgridpagestate.h" line="412" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_property_grid_page_state_1a2f7db3792da1e5246dc13f0bce0cde67" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxPropertyGridPageState::PrepareAfterItemsAdded</definition>
+        <argsstring>()</argsstring>
+        <name>PrepareAfterItemsAdded</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/propgridpagestate.h" line="414" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_property_grid_page_state_1a317168d90819366d5a9ee57bacefd382" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxPropertyGridPageState::VirtualHeightChanged</definition>
+        <argsstring>()</argsstring>
+        <name>VirtualHeightChanged</name>
+        <briefdescription>
+<para>Called after virtual height needs to be recalculated. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/propgridpagestate.h" line="418" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_property_grid_page_state_1a589adb54d708293337d1e4443b02271a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_p_g_property" kindref="compound">wxPGProperty</ref> *</type>
+        <definition>wxPGProperty* wxPropertyGridPageState::DoAppend</definition>
+        <argsstring>(wxPGProperty *property)</argsstring>
+        <name>DoAppend</name>
+        <param>
+          <type><ref refid="classwx_p_g_property" kindref="compound">wxPGProperty</ref> *</type>
+          <declname>property</declname>
+        </param>
+        <briefdescription>
+<para>Base append. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/propgridpagestate.h" line="421" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_property_grid_page_state_1ae7f361c10802da58b15f0cded4924092" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_p_g_property" kindref="compound">wxPGProperty</ref> *</type>
+        <definition>wxPGProperty* wxPropertyGridPageState::BaseGetPropertyByName</definition>
+        <argsstring>(const wxString &amp;name) const</argsstring>
+        <name>BaseGetPropertyByName</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+<para>Returns property by its name. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/propgridpagestate.h" line="424" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_property_grid_page_state_1a973b71f680b1c92492c6ffbb8a0a57ce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxPropertyGridPageState::DoClear</definition>
+        <argsstring>()</argsstring>
+        <name>DoClear</name>
+        <briefdescription>
+<para>Called in, for example, <ref refid="classwx_property_grid_1a48ef39121da1882f16f2cbf868cc0f2c" kindref="member">wxPropertyGrid::Clear</ref>. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/propgridpagestate.h" line="427" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_property_grid_page_state_1a2774759dc960cf018068add53e5f8163" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxPropertyGridPageState::DoIsPropertySelected</definition>
+        <argsstring>(wxPGProperty *prop) const</argsstring>
+        <name>DoIsPropertySelected</name>
+        <param>
+          <type><ref refid="classwx_p_g_property" kindref="compound">wxPGProperty</ref> *</type>
+          <declname>prop</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/propgridpagestate.h" line="429" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_property_grid_page_state_1a4a00e9294fd27de60b7e9d44ab656d27" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxPropertyGridPageState::DoCollapse</definition>
+        <argsstring>(wxPGProperty *p)</argsstring>
+        <name>DoCollapse</name>
+        <param>
+          <type><ref refid="classwx_p_g_property" kindref="compound">wxPGProperty</ref> *</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/propgridpagestate.h" line="431" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_property_grid_page_state_1a3351d32817627c0a1f80d495d0ca921d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxPropertyGridPageState::DoExpand</definition>
+        <argsstring>(wxPGProperty *p)</argsstring>
+        <name>DoExpand</name>
+        <param>
+          <type><ref refid="classwx_p_g_property" kindref="compound">wxPGProperty</ref> *</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/propgridpagestate.h" line="433" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_property_grid_page_state_1ae12d4913e4c999c053dc55bb53dd9a0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxPropertyGridPageState::CalculateFontAndBitmapStuff</definition>
+        <argsstring>(int vspacing)</argsstring>
+        <name>CalculateFontAndBitmapStuff</name>
+        <param>
+          <type>int</type>
+          <declname>vspacing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/propgridpagestate.h" line="435" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Contains low-level property page information (properties, column widths, etc) of a single <ref refid="classwx_property_grid" kindref="compound">wxPropertyGrid</ref> or single <ref refid="classwx_property_grid_page" kindref="compound">wxPropertyGridPage</ref>. </para>    </briefdescription>
+    <detaileddescription>
+<para>Generally you should not use this class directly, but instead member functions in <ref refid="classwx_property_grid_interface" kindref="compound">wxPropertyGridInterface</ref>, <ref refid="classwx_property_grid" kindref="compound">wxPropertyGrid</ref>, <ref refid="classwx_property_grid_page" kindref="compound">wxPropertyGridPage</ref>, and <ref refid="classwx_property_grid_manager" kindref="compound">wxPropertyGridManager</ref>.</para><para><simplesect kind="remark"><para><itemizedlist>
+<listitem><para>In separate <ref refid="classwx_property_grid" kindref="compound">wxPropertyGrid</ref> component this class was known as wxPropertyGridState.</para></listitem><listitem><para>Currently this class is not implemented in wxPython.</para></listitem></itemizedlist>
+</para></simplesect>
+<heading level="2"></heading>
+</para><para>Library:<nonbreakablespace/><nonbreakablespace/><ref refid="page_libs_1page_libs_wxpropgrid" kindref="member">wxPropertyGrid</ref> &lt;&gt;&lt; =&apos;&apos;&gt;:&lt;/&gt;&amp;;&amp;;&lt; =&apos;&apos;&gt;\ &lt;/&gt;&lt;/&gt; </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="5765">
+        <label>wxPropertyGridPageState</label>
+        <link refid="classwx_property_grid_page_state"/>
+      </node>
+      <node id="5766">
+        <label>wxPropertyGridPage</label>
+        <link refid="classwx_property_grid_page"/>
+        <childnode refid="5765" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="interface/wx/propgrid/propgridpagestate.h" line="241" column="1" bodyfile="interface/wx/propgrid/propgridpagestate.h" bodystart="240" bodyend="437"/>
+    <listofallmembers>
+      <member refid="classwx_property_grid_page_state_1ae7f361c10802da58b15f0cded4924092" prot="public" virt="non-virtual"><scope>wxPropertyGridPageState</scope><name>BaseGetPropertyByName</name></member>
+      <member refid="classwx_property_grid_page_state_1ae12d4913e4c999c053dc55bb53dd9a0e" prot="public" virt="non-virtual"><scope>wxPropertyGridPageState</scope><name>CalculateFontAndBitmapStuff</name></member>
+      <member refid="classwx_property_grid_page_state_1a1dae01882c546f21eed099d818c5561a" prot="public" virt="non-virtual"><scope>wxPropertyGridPageState</scope><name>CheckColumnWidths</name></member>
+      <member refid="classwx_property_grid_page_state_1a589adb54d708293337d1e4443b02271a" prot="public" virt="non-virtual"><scope>wxPropertyGridPageState</scope><name>DoAppend</name></member>
+      <member refid="classwx_property_grid_page_state_1a973b71f680b1c92492c6ffbb8a0a57ce" prot="public" virt="non-virtual"><scope>wxPropertyGridPageState</scope><name>DoClear</name></member>
+      <member refid="classwx_property_grid_page_state_1a2ef7ae579ba4e8c80de7d8ff04562fb3" prot="public" virt="non-virtual"><scope>wxPropertyGridPageState</scope><name>DoClearSelection</name></member>
+      <member refid="classwx_property_grid_page_state_1a4a00e9294fd27de60b7e9d44ab656d27" prot="public" virt="non-virtual"><scope>wxPropertyGridPageState</scope><name>DoCollapse</name></member>
+      <member refid="classwx_property_grid_page_state_1adc165a010cd5b0ccdef2855a18cd3823" prot="public" virt="virtual"><scope>wxPropertyGridPageState</scope><name>DoDelete</name></member>
+      <member refid="classwx_property_grid_page_state_1a3351d32817627c0a1f80d495d0ca921d" prot="public" virt="non-virtual"><scope>wxPropertyGridPageState</scope><name>DoExpand</name></member>
+      <member refid="classwx_property_grid_page_state_1aa3ee765f99739507d98b16e81b0fa40c" prot="public" virt="non-virtual"><scope>wxPropertyGridPageState</scope><name>DoFitColumns</name></member>
+      <member refid="classwx_property_grid_page_state_1a22adc81738a671d9ecd258714e7db417" prot="public" virt="non-virtual"><scope>wxPropertyGridPageState</scope><name>DoGetColumnProportion</name></member>
+      <member refid="classwx_property_grid_page_state_1a6dc539ae7fee246d041978a566b637e9" prot="public" virt="non-virtual"><scope>wxPropertyGridPageState</scope><name>DoGetItemAtY</name></member>
+      <member refid="classwx_property_grid_page_state_1a6b1d6ccd3700d1851ae6dba1620946b9" prot="public" virt="non-virtual"><scope>wxPropertyGridPageState</scope><name>DoGetPropertyValues</name></member>
+      <member refid="classwx_property_grid_page_state_1aef4629d700d0985e77371d69bbcf5e18" prot="public" virt="non-virtual"><scope>wxPropertyGridPageState</scope><name>DoGetRoot</name></member>
+      <member refid="classwx_property_grid_page_state_1afac1b0b942bdcc18156f3d85884d664e" prot="public" virt="non-virtual"><scope>wxPropertyGridPageState</scope><name>DoHideProperty</name></member>
+      <member refid="classwx_property_grid_page_state_1a0e6f17db76e2067217320b26219fd035" prot="public" virt="virtual"><scope>wxPropertyGridPageState</scope><name>DoInsert</name></member>
+      <member refid="classwx_property_grid_page_state_1a2774759dc960cf018068add53e5f8163" prot="public" virt="non-virtual"><scope>wxPropertyGridPageState</scope><name>DoIsPropertySelected</name></member>
+      <member refid="classwx_property_grid_page_state_1abf74bf0ee6cddb1bb3030f44cd022fbd" prot="public" virt="non-virtual"><scope>wxPropertyGridPageState</scope><name>DoLimitPropertyEditing</name></member>
+      <member refid="classwx_property_grid_page_state_1a194c16813dc2e3afb8b6d80ac33f356d" prot="public" virt="non-virtual"><scope>wxPropertyGridPageState</scope><name>DoRemoveFromSelection</name></member>
+      <member refid="classwx_property_grid_page_state_1a2ad328a14b687ee4b8bb51658516a4a0" prot="public" virt="non-virtual"><scope>wxPropertyGridPageState</scope><name>DoSelectProperty</name></member>
+      <member refid="classwx_property_grid_page_state_1a00e0d44f1bbf3c6b1a5c2ed4cf1e39d1" prot="public" virt="non-virtual"><scope>wxPropertyGridPageState</scope><name>DoSetColumnProportion</name></member>
+      <member refid="classwx_property_grid_page_state_1adcede99ffbd0b84e0b8b6c3e87b85e87" prot="public" virt="non-virtual"><scope>wxPropertyGridPageState</scope><name>DoSetPropertyName</name></member>
+      <member refid="classwx_property_grid_page_state_1a29319f13777831e1f6ae5cf61fa4aa29" prot="public" virt="non-virtual"><scope>wxPropertyGridPageState</scope><name>DoSetPropertyValue</name></member>
+      <member refid="classwx_property_grid_page_state_1ad9b13803d670af921df18169ce091449" prot="public" virt="non-virtual"><scope>wxPropertyGridPageState</scope><name>DoSetPropertyValues</name></member>
+      <member refid="classwx_property_grid_page_state_1a8c73eb600e15744e336529ecec8ddc69" prot="public" virt="non-virtual"><scope>wxPropertyGridPageState</scope><name>DoSetPropertyValueString</name></member>
+      <member refid="classwx_property_grid_page_state_1a4e95df8f53a7a6025da9ff405a4e8cdd" prot="public" virt="non-virtual"><scope>wxPropertyGridPageState</scope><name>DoSetPropertyValueWxObjectPtr</name></member>
+      <member refid="classwx_property_grid_page_state_1ac0ad611aa0006488b34caa119dae3e6f" prot="public" virt="non-virtual"><scope>wxPropertyGridPageState</scope><name>DoSetSelection</name></member>
+      <member refid="classwx_property_grid_page_state_1a96250a30a56880061536dfafae95c946" prot="public" virt="virtual"><scope>wxPropertyGridPageState</scope><name>DoSetSplitterPosition</name></member>
+      <member refid="classwx_property_grid_page_state_1a2ba3829c38dafa87468511f03e1c1708" prot="public" virt="non-virtual"><scope>wxPropertyGridPageState</scope><name>DoSort</name></member>
+      <member refid="classwx_property_grid_page_state_1a6003ca6182c475a6608b371b3f229a1c" prot="public" virt="non-virtual"><scope>wxPropertyGridPageState</scope><name>DoSortChildren</name></member>
+      <member refid="classwx_property_grid_page_state_1af4a119b240369838ec207d857e2bf323" prot="public" virt="non-virtual"><scope>wxPropertyGridPageState</scope><name>EnableCategories</name></member>
+      <member refid="classwx_property_grid_page_state_1aba5d1eb97eeb4b39f89a2eada9259439" prot="public" virt="non-virtual"><scope>wxPropertyGridPageState</scope><name>EnsureVirtualHeight</name></member>
+      <member refid="classwx_property_grid_page_state_1a19bc9707fdb2c2a30c389c40b4231b73" prot="public" virt="non-virtual"><scope>wxPropertyGridPageState</scope><name>GetActualVirtualHeight</name></member>
+      <member refid="classwx_property_grid_page_state_1a0c5c433c65cf1af8bbc6265f0c496577" prot="public" virt="non-virtual"><scope>wxPropertyGridPageState</scope><name>GetColumnCount</name></member>
+      <member refid="classwx_property_grid_page_state_1a185c12279a4eb5f6a7eef49399f0fdf1" prot="public" virt="non-virtual"><scope>wxPropertyGridPageState</scope><name>GetColumnFitWidth</name></member>
+      <member refid="classwx_property_grid_page_state_1aee548cfcd6b4ddd174fd2eece3edd2ef" prot="public" virt="non-virtual"><scope>wxPropertyGridPageState</scope><name>GetColumnFullWidth</name></member>
+      <member refid="classwx_property_grid_page_state_1a23f5a180cbe0f1e30bf5e9777a6aafbf" prot="public" virt="non-virtual"><scope>wxPropertyGridPageState</scope><name>GetColumnMinWidth</name></member>
+      <member refid="classwx_property_grid_page_state_1ad8e1a1dc580ddda4cfbb4ff0f162ddf1" prot="public" virt="non-virtual"><scope>wxPropertyGridPageState</scope><name>GetColumnWidth</name></member>
+      <member refid="classwx_property_grid_page_state_1a4a0184fdf7881c07fcaf8298f17fb970" prot="public" virt="non-virtual"><scope>wxPropertyGridPageState</scope><name>GetGrid</name></member>
+      <member refid="classwx_property_grid_page_state_1a48a1d0061ac741a670f173e054d6bca8" prot="public" virt="non-virtual"><scope>wxPropertyGridPageState</scope><name>GetLastItem</name></member>
+      <member refid="classwx_property_grid_page_state_1aab6ab7c0f30d02b0482793cb06cd37fc" prot="public" virt="non-virtual"><scope>wxPropertyGridPageState</scope><name>GetLastItem</name></member>
+      <member refid="classwx_property_grid_page_state_1a431b5d8cd0e7e0f79dae98ce65cd6d73" prot="public" virt="non-virtual"><scope>wxPropertyGridPageState</scope><name>GetPropertyByLabel</name></member>
+      <member refid="classwx_property_grid_page_state_1a57152a4cc109b76c09a57f30eb48f902" prot="public" virt="non-virtual"><scope>wxPropertyGridPageState</scope><name>GetPropertyCategory</name></member>
+      <member refid="classwx_property_grid_page_state_1a3168934ddcc270c0ee66fba9b26d4b55" prot="public" virt="non-virtual"><scope>wxPropertyGridPageState</scope><name>GetSelection</name></member>
+      <member refid="classwx_property_grid_page_state_1aeda4f546dc3a3d8f2c5f09c11e06ed8b" prot="public" virt="non-virtual"><scope>wxPropertyGridPageState</scope><name>GetVirtualHeight</name></member>
+      <member refid="classwx_property_grid_page_state_1a985a1adda94b8610caaad1ad2464f11c" prot="public" virt="non-virtual"><scope>wxPropertyGridPageState</scope><name>GetVirtualHeight</name></member>
+      <member refid="classwx_property_grid_page_state_1a32b3b9298a1571f0c15e8759581a3c49" prot="public" virt="non-virtual"><scope>wxPropertyGridPageState</scope><name>GetVirtualWidth</name></member>
+      <member refid="classwx_property_grid_page_state_1a34f0d52ac666579c91d963e6e2ea2a81" prot="public" virt="non-virtual"><scope>wxPropertyGridPageState</scope><name>HitTest</name></member>
+      <member refid="classwx_property_grid_page_state_1a681e22c81fb39f1a0b21ff40c3460d35" prot="public" virt="non-virtual"><scope>wxPropertyGridPageState</scope><name>IsDisplayed</name></member>
+      <member refid="classwx_property_grid_page_state_1a3098eeb4044fe67596b11c405b6f2e5a" prot="public" virt="non-virtual"><scope>wxPropertyGridPageState</scope><name>IsInNonCatMode</name></member>
+      <member refid="classwx_property_grid_page_state_1aa1a59a25013f5b92323ab08b34dceeab" prot="public" virt="non-virtual"><scope>wxPropertyGridPageState</scope><name>OnClientWidthChange</name></member>
+      <member refid="classwx_property_grid_page_state_1a2f7db3792da1e5246dc13f0bce0cde67" prot="public" virt="non-virtual"><scope>wxPropertyGridPageState</scope><name>PrepareAfterItemsAdded</name></member>
+      <member refid="classwx_property_grid_page_state_1a82d60af96e233a9db23df146763e64e9" prot="public" virt="non-virtual"><scope>wxPropertyGridPageState</scope><name>PropagateColSizeDec</name></member>
+      <member refid="classwx_property_grid_page_state_1a728ec026bfb72eb935d176f159437040" prot="public" virt="non-virtual"><scope>wxPropertyGridPageState</scope><name>RecalculateVirtualHeight</name></member>
+      <member refid="classwx_property_grid_page_state_1ac119dd7dc04986e56b1b5b8c996d284d" prot="public" virt="non-virtual"><scope>wxPropertyGridPageState</scope><name>ResetColumnSizes</name></member>
+      <member refid="classwx_property_grid_page_state_1ad9bd6734804f8759a1531cdab47605c1" prot="public" virt="non-virtual"><scope>wxPropertyGridPageState</scope><name>SetColumnCount</name></member>
+      <member refid="classwx_property_grid_page_state_1aeed5e69d2fbea63fd13b8a8e7b8d9a76" prot="public" virt="non-virtual"><scope>wxPropertyGridPageState</scope><name>SetSplitterLeft</name></member>
+      <member refid="classwx_property_grid_page_state_1a34d973f948f773212abb6c66b614873a" prot="public" virt="non-virtual"><scope>wxPropertyGridPageState</scope><name>SetVirtualWidth</name></member>
+      <member refid="classwx_property_grid_page_state_1a317168d90819366d5a9ee57bacefd382" prot="public" virt="non-virtual"><scope>wxPropertyGridPageState</scope><name>VirtualHeightChanged</name></member>
+      <member refid="classwx_property_grid_page_state_1a8660eb95faea7bb4a4fd8fd3cbaae369" prot="public" virt="non-virtual"><scope>wxPropertyGridPageState</scope><name>wxPropertyGridPageState</name></member>
+      <member refid="classwx_property_grid_page_state_1a055f38849ec9f2b08e97eeb42b28b159" prot="public" virt="virtual"><scope>wxPropertyGridPageState</scope><name>~wxPropertyGridPageState</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

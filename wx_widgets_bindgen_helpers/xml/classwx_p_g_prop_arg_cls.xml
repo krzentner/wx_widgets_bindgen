@@ -1,0 +1,251 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_p_g_prop_arg_cls" kind="class" language="C++" prot="public">
+    <compoundname>wxPGPropArgCls</compoundname>
+    <includes local="no">wx/propgrid/propgridiface.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classwx_p_g_prop_arg_cls_1a22c7872ef417aa786fba9accfb4e19c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxPGPropArgCls::wxPGPropArgCls</definition>
+        <argsstring>(const wxPGProperty *property)</argsstring>
+        <name>wxPGPropArgCls</name>
+        <param>
+          <type>const <ref refid="classwx_p_g_property" kindref="compound">wxPGProperty</ref> *</type>
+          <declname>property</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/propgridiface.h" line="18" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_p_g_prop_arg_cls_1a7d994997d12707c4d478c7bc102e6044" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxPGPropArgCls::wxPGPropArgCls</definition>
+        <argsstring>(const wxString &amp;str)</argsstring>
+        <name>wxPGPropArgCls</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/propgridiface.h" line="19" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_p_g_prop_arg_cls_1a6c3f215bd96233fc7ccab5fbd1eeb73d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxPGPropArgCls::wxPGPropArgCls</definition>
+        <argsstring>(const wxPGPropArgCls &amp;id)</argsstring>
+        <name>wxPGPropArgCls</name>
+        <param>
+          <type>const <ref refid="classwx_p_g_prop_arg_cls" kindref="compound">wxPGPropArgCls</ref> &amp;</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/propgridiface.h" line="20" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_p_g_prop_arg_cls_1a4dea57d5b52abf218eeb9e39f1f7c8bf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxPGPropArgCls::wxPGPropArgCls</definition>
+        <argsstring>(wxString *str, bool deallocPtr)</argsstring>
+        <name>wxPGPropArgCls</name>
+        <param>
+          <type><ref refid="classwx_string" kindref="compound">wxString</ref> *</type>
+          <declname>str</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>deallocPtr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/propgridiface.h" line="23" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_p_g_prop_arg_cls_1ab08a0a55a573810e087e2705a0f5fe10" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxPGPropArgCls::~wxPGPropArgCls</definition>
+        <argsstring>()</argsstring>
+        <name>~wxPGPropArgCls</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/propgridiface.h" line="24" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_p_g_prop_arg_cls_1aa5ea5b8307672a6fd50b819fe51d4699" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_p_g_property" kindref="compound">wxPGProperty</ref> *</type>
+        <definition>wxPGProperty* wxPGPropArgCls::GetPtr</definition>
+        <argsstring>() const</argsstring>
+        <name>GetPtr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/propgridiface.h" line="26" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_p_g_prop_arg_cls_1a8d9d79018f41e15642105b90f5decc4c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxPGPropArgCls::wxPGPropArgCls</definition>
+        <argsstring>(const char *str)</argsstring>
+        <name>wxPGPropArgCls</name>
+        <param>
+          <type>const char *</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/propgridiface.h" line="27" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_p_g_prop_arg_cls_1adaae72bd36cc3bfaac8ad5ae837662a1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxPGPropArgCls::wxPGPropArgCls</definition>
+        <argsstring>(const wchar_t *str)</argsstring>
+        <name>wxPGPropArgCls</name>
+        <param>
+          <type>const wchar_t *</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/propgridiface.h" line="28" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_p_g_prop_arg_cls_1ae184dcfef4c92a0e2a4544dc15d204aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxPGPropArgCls::wxPGPropArgCls</definition>
+        <argsstring>(int)</argsstring>
+        <name>wxPGPropArgCls</name>
+        <param>
+          <type>int</type>
+        </param>
+        <briefdescription>
+<para>This constructor is required for NULL. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/propgridiface.h" line="30" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_p_g_prop_arg_cls_1ae845112b8288b182570279d23f3a6c53" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_p_g_property" kindref="compound">wxPGProperty</ref> *</type>
+        <definition>wxPGProperty* wxPGPropArgCls::GetPtr</definition>
+        <argsstring>(wxPropertyGridInterface *iface) const</argsstring>
+        <name>GetPtr</name>
+        <param>
+          <type><ref refid="classwx_property_grid_interface" kindref="compound">wxPropertyGridInterface</ref> *</type>
+          <declname>iface</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/propgridiface.h" line="32" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_p_g_prop_arg_cls_1a21830f81510a84bd814b7fda4a7036ac" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_p_g_property" kindref="compound">wxPGProperty</ref> *</type>
+        <definition>wxPGProperty* wxPGPropArgCls::GetPtr</definition>
+        <argsstring>(const wxPropertyGridInterface *iface) const</argsstring>
+        <name>GetPtr</name>
+        <param>
+          <type>const <ref refid="classwx_property_grid_interface" kindref="compound">wxPropertyGridInterface</ref> *</type>
+          <declname>iface</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/propgridiface.h" line="33" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_p_g_prop_arg_cls_1a98b97f3795206b0f90a289cbca266755" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_p_g_property" kindref="compound">wxPGProperty</ref> *</type>
+        <definition>wxPGProperty* wxPGPropArgCls::GetPtr0</definition>
+        <argsstring>() const</argsstring>
+        <name>GetPtr0</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/propgridiface.h" line="34" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_p_g_prop_arg_cls_1a75c483672fb704853c4506312998a5dd" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxPGPropArgCls::HasName</definition>
+        <argsstring>() const</argsstring>
+        <name>HasName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/propgridiface.h" line="35" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_p_g_prop_arg_cls_1a86dd6b1977db95fe63d4c3f07ea096f3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+        <definition>const wxString&amp; wxPGPropArgCls::GetName</definition>
+        <argsstring>() const</argsstring>
+        <name>GetName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/propgridiface.h" line="36" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Most property grid functions have this type as their argument, as it can convey a property by either a pointer or name. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="interface/wx/propgrid/propgridiface.h" line="16" column="1" bodyfile="interface/wx/propgrid/propgridiface.h" bodystart="15" bodyend="37"/>
+    <listofallmembers>
+      <member refid="classwx_p_g_prop_arg_cls_1a86dd6b1977db95fe63d4c3f07ea096f3" prot="public" virt="non-virtual"><scope>wxPGPropArgCls</scope><name>GetName</name></member>
+      <member refid="classwx_p_g_prop_arg_cls_1aa5ea5b8307672a6fd50b819fe51d4699" prot="public" virt="non-virtual"><scope>wxPGPropArgCls</scope><name>GetPtr</name></member>
+      <member refid="classwx_p_g_prop_arg_cls_1ae845112b8288b182570279d23f3a6c53" prot="public" virt="non-virtual"><scope>wxPGPropArgCls</scope><name>GetPtr</name></member>
+      <member refid="classwx_p_g_prop_arg_cls_1a21830f81510a84bd814b7fda4a7036ac" prot="public" virt="non-virtual"><scope>wxPGPropArgCls</scope><name>GetPtr</name></member>
+      <member refid="classwx_p_g_prop_arg_cls_1a98b97f3795206b0f90a289cbca266755" prot="public" virt="non-virtual"><scope>wxPGPropArgCls</scope><name>GetPtr0</name></member>
+      <member refid="classwx_p_g_prop_arg_cls_1a75c483672fb704853c4506312998a5dd" prot="public" virt="non-virtual"><scope>wxPGPropArgCls</scope><name>HasName</name></member>
+      <member refid="classwx_p_g_prop_arg_cls_1a22c7872ef417aa786fba9accfb4e19c1" prot="public" virt="non-virtual"><scope>wxPGPropArgCls</scope><name>wxPGPropArgCls</name></member>
+      <member refid="classwx_p_g_prop_arg_cls_1a7d994997d12707c4d478c7bc102e6044" prot="public" virt="non-virtual"><scope>wxPGPropArgCls</scope><name>wxPGPropArgCls</name></member>
+      <member refid="classwx_p_g_prop_arg_cls_1a6c3f215bd96233fc7ccab5fbd1eeb73d" prot="public" virt="non-virtual"><scope>wxPGPropArgCls</scope><name>wxPGPropArgCls</name></member>
+      <member refid="classwx_p_g_prop_arg_cls_1a4dea57d5b52abf218eeb9e39f1f7c8bf" prot="public" virt="non-virtual"><scope>wxPGPropArgCls</scope><name>wxPGPropArgCls</name></member>
+      <member refid="classwx_p_g_prop_arg_cls_1a8d9d79018f41e15642105b90f5decc4c" prot="public" virt="non-virtual"><scope>wxPGPropArgCls</scope><name>wxPGPropArgCls</name></member>
+      <member refid="classwx_p_g_prop_arg_cls_1adaae72bd36cc3bfaac8ad5ae837662a1" prot="public" virt="non-virtual"><scope>wxPGPropArgCls</scope><name>wxPGPropArgCls</name></member>
+      <member refid="classwx_p_g_prop_arg_cls_1ae184dcfef4c92a0e2a4544dc15d204aa" prot="public" virt="non-virtual"><scope>wxPGPropArgCls</scope><name>wxPGPropArgCls</name></member>
+      <member refid="classwx_p_g_prop_arg_cls_1ab08a0a55a573810e087e2705a0f5fe10" prot="public" virt="non-virtual"><scope>wxPGPropArgCls</scope><name>~wxPGPropArgCls</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

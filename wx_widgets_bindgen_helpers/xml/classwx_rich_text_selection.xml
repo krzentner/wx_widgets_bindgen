@@ -1,0 +1,839 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_rich_text_selection" kind="class" language="C++" prot="public">
+    <compoundname>wxRichTextSelection</compoundname>
+    <includes local="no">wx/richtext/richtextbuffer.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classwx_rich_text_selection_1adfe90c43fbc16d82fe6c89582b037e81" prot="public" static="no" mutable="no">
+        <type>wxRichTextRangeArray</type>
+        <definition>wxRichTextRangeArray wxRichTextSelection::m_ranges</definition>
+        <argsstring></argsstring>
+        <name>m_ranges</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="1979" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="1979" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classwx_rich_text_selection_1ac250b92e511cf174a8bcddadde124f32" prot="public" static="no" mutable="no">
+        <type><ref refid="classwx_rich_text_paragraph_layout_box" kindref="compound">wxRichTextParagraphLayoutBox</ref> *</type>
+        <definition>wxRichTextParagraphLayoutBox* wxRichTextSelection::m_container</definition>
+        <argsstring></argsstring>
+        <name>m_container</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="1980" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="1980" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classwx_rich_text_selection_1a7e7a049d83c23d030f515b18ead7ee0e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>wxRichTextSelection::wxRichTextSelection</definition>
+        <argsstring>(const wxRichTextSelection &amp;sel)</argsstring>
+        <name>wxRichTextSelection</name>
+        <param>
+          <type>const <ref refid="classwx_rich_text_selection" kindref="compound">wxRichTextSelection</ref> &amp;</type>
+          <declname>sel</declname>
+        </param>
+        <briefdescription>
+<para>Copy constructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="1844" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="1844" bodyend="1844"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_selection_1ae66834a9a81cc17345f642574b6968e2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>wxRichTextSelection::wxRichTextSelection</definition>
+        <argsstring>(const wxRichTextRange &amp;range, wxRichTextParagraphLayoutBox *container)</argsstring>
+        <name>wxRichTextSelection</name>
+        <param>
+          <type>const <ref refid="classwx_rich_text_range" kindref="compound">wxRichTextRange</ref> &amp;</type>
+          <declname>range</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_rich_text_paragraph_layout_box" kindref="compound">wxRichTextParagraphLayoutBox</ref> *</type>
+          <declname>container</declname>
+        </param>
+        <briefdescription>
+<para>Creates a selection from a range and a container. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="1849" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="1849" bodyend="1849"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_selection_1a0c9948643ad1659e32760c5b3f0701c2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>wxRichTextSelection::wxRichTextSelection</definition>
+        <argsstring>()</argsstring>
+        <name>wxRichTextSelection</name>
+        <briefdescription>
+<para>Default constructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="1854" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="1854" bodyend="1854"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_selection_1a002ececab1fb2efe39da25c05925eb3e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxRichTextSelection::Reset</definition>
+        <argsstring>()</argsstring>
+        <name>Reset</name>
+        <briefdescription>
+<para>Resets the selection. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="1859" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="1859" bodyend="1859"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_selection_1adb0fb22f7521fe9d57344d238deb2392" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxRichTextSelection::Set</definition>
+        <argsstring>(const wxRichTextRange &amp;range, wxRichTextParagraphLayoutBox *container)</argsstring>
+        <name>Set</name>
+        <param>
+          <type>const <ref refid="classwx_rich_text_range" kindref="compound">wxRichTextRange</ref> &amp;</type>
+          <declname>range</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_rich_text_paragraph_layout_box" kindref="compound">wxRichTextParagraphLayoutBox</ref> *</type>
+          <declname>container</declname>
+        </param>
+        <briefdescription>
+<para>Sets the selection. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="1865" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="1865" bodyend="1866"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_selection_1a16d6baf2eab484beb068865e70b5bdc1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxRichTextSelection::Add</definition>
+        <argsstring>(const wxRichTextRange &amp;range)</argsstring>
+        <name>Add</name>
+        <param>
+          <type>const <ref refid="classwx_rich_text_range" kindref="compound">wxRichTextRange</ref> &amp;</type>
+          <declname>range</declname>
+        </param>
+        <briefdescription>
+<para>Adds a range to the selection. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="1871" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="1871" bodyend="1872"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_selection_1a1e9ef090e67be170839e67f16ac62496" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxRichTextSelection::Set</definition>
+        <argsstring>(const wxRichTextRangeArray &amp;ranges, wxRichTextParagraphLayoutBox *container)</argsstring>
+        <name>Set</name>
+        <param>
+          <type>const wxRichTextRangeArray &amp;</type>
+          <declname>ranges</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_rich_text_paragraph_layout_box" kindref="compound">wxRichTextParagraphLayoutBox</ref> *</type>
+          <declname>container</declname>
+        </param>
+        <briefdescription>
+<para>Sets the selections from an array of ranges and a container object. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="1877" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="1877" bodyend="1878"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_selection_1ae07115eb6135f60d55fa285203e7094b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxRichTextSelection::Copy</definition>
+        <argsstring>(const wxRichTextSelection &amp;sel)</argsstring>
+        <name>Copy</name>
+        <param>
+          <type>const <ref refid="classwx_rich_text_selection" kindref="compound">wxRichTextSelection</ref> &amp;</type>
+          <declname>sel</declname>
+        </param>
+        <briefdescription>
+<para>Copies from <emphasis>sel</emphasis>. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="1883" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="1883" bodyend="1884"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_selection_1afc0522c7986c8b35b55f9fd27c0ef2d3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxRichTextSelection::operator=</definition>
+        <argsstring>(const wxRichTextSelection &amp;sel)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="classwx_rich_text_selection" kindref="compound">wxRichTextSelection</ref> &amp;</type>
+          <declname>sel</declname>
+        </param>
+        <briefdescription>
+<para>Assignment operator. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="1889" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="1889" bodyend="1889"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_selection_1a05dac4e4cc9e973307ff2b4fac104899" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxRichTextSelection::operator==</definition>
+        <argsstring>(const wxRichTextSelection &amp;sel) const</argsstring>
+        <name>operator==</name>
+        <param>
+          <type>const <ref refid="classwx_rich_text_selection" kindref="compound">wxRichTextSelection</ref> &amp;</type>
+          <declname>sel</declname>
+        </param>
+        <briefdescription>
+<para>Equality operator. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="1894" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_selection_1a21c7a9bfc7c4b525119b1597aa14307b" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classwx_rich_text_range" kindref="compound">wxRichTextRange</ref></type>
+        <definition>wxRichTextRange wxRichTextSelection::operator[]</definition>
+        <argsstring>(size_t i) const</argsstring>
+        <name>operator[]</name>
+        <param>
+          <type>size_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+<para>Index operator. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="1899" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="1899" bodyend="1899"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_selection_1a50ed721b317b23d94e07bea7ddb348d8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>wxRichTextRangeArray &amp;</type>
+        <definition>wxRichTextRangeArray&amp; wxRichTextSelection::GetRanges</definition>
+        <argsstring>()</argsstring>
+        <name>GetRanges</name>
+        <briefdescription>
+<para>Returns the selection ranges. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="1904" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="1904" bodyend="1904"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_selection_1a1ac1d7f6907cf1778b985baa0d4e1233" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const wxRichTextRangeArray &amp;</type>
+        <definition>const wxRichTextRangeArray&amp; wxRichTextSelection::GetRanges</definition>
+        <argsstring>() const</argsstring>
+        <name>GetRanges</name>
+        <briefdescription>
+<para>Returns the selection ranges. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="1909" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="1909" bodyend="1909"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_selection_1a56a967ead8fce1c77c50f7948fcc1940" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxRichTextSelection::SetRanges</definition>
+        <argsstring>(const wxRichTextRangeArray &amp;ranges)</argsstring>
+        <name>SetRanges</name>
+        <param>
+          <type>const wxRichTextRangeArray &amp;</type>
+          <declname>ranges</declname>
+        </param>
+        <briefdescription>
+<para>Sets the selection ranges. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="1914" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="1914" bodyend="1914"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_selection_1aa294cc2cd1b2eb8fc8e25915440a3db4" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t wxRichTextSelection::GetCount</definition>
+        <argsstring>() const</argsstring>
+        <name>GetCount</name>
+        <briefdescription>
+<para>Returns the number of ranges in the selection. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="1919" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="1919" bodyend="1919"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_selection_1a7401b8b320f3957ddd4e097a8bf9455f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classwx_rich_text_range" kindref="compound">wxRichTextRange</ref></type>
+        <definition>wxRichTextRange wxRichTextSelection::GetRange</definition>
+        <argsstring>(size_t i) const</argsstring>
+        <name>GetRange</name>
+        <param>
+          <type>size_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+<para>Returns the range at the given index. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="1925" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="1925" bodyend="1925"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_selection_1a38d06a5a818f0390e7f211154516ec1e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classwx_rich_text_range" kindref="compound">wxRichTextRange</ref></type>
+        <definition>wxRichTextRange wxRichTextSelection::GetRange</definition>
+        <argsstring>() const</argsstring>
+        <name>GetRange</name>
+        <briefdescription>
+<para>Returns the first range if there is one, otherwise wxRICHTEXT_NO_SELECTION. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="1930" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="1930" bodyend="1930"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_selection_1a94997c5b8f59856b202a8a3c078a5fb3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxRichTextSelection::SetRange</definition>
+        <argsstring>(const wxRichTextRange &amp;range)</argsstring>
+        <name>SetRange</name>
+        <param>
+          <type>const <ref refid="classwx_rich_text_range" kindref="compound">wxRichTextRange</ref> &amp;</type>
+          <declname>range</declname>
+        </param>
+        <briefdescription>
+<para>Sets a single range. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="1935" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="1935" bodyend="1935"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_selection_1a53800a4734a71894ac8b9df1708df4c3" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classwx_rich_text_paragraph_layout_box" kindref="compound">wxRichTextParagraphLayoutBox</ref> *</type>
+        <definition>wxRichTextParagraphLayoutBox* wxRichTextSelection::GetContainer</definition>
+        <argsstring>() const</argsstring>
+        <name>GetContainer</name>
+        <briefdescription>
+<para>Returns the container for which the selection is valid. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="1940" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="1940" bodyend="1940"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_selection_1a681f3a01b165dbc38d1902d5c6c3679b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxRichTextSelection::SetContainer</definition>
+        <argsstring>(wxRichTextParagraphLayoutBox *container)</argsstring>
+        <name>SetContainer</name>
+        <param>
+          <type><ref refid="classwx_rich_text_paragraph_layout_box" kindref="compound">wxRichTextParagraphLayoutBox</ref> *</type>
+          <declname>container</declname>
+        </param>
+        <briefdescription>
+<para>Sets the container for which the selection is valid. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="1945" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="1945" bodyend="1945"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_selection_1ada891eda8bb9ea2ca1e4fe58a00ad76d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxRichTextSelection::IsValid</definition>
+        <argsstring>() const</argsstring>
+        <name>IsValid</name>
+        <briefdescription>
+<para>Returns true if the selection is valid. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="1950" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="1950" bodyend="1950"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_selection_1a538b597e9426a8336ce0e78c5a3e6ccd" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>wxRichTextRangeArray</type>
+        <definition>wxRichTextRangeArray wxRichTextSelection::GetSelectionForObject</definition>
+        <argsstring>(wxRichTextObject *obj) const</argsstring>
+        <name>GetSelectionForObject</name>
+        <param>
+          <type><ref refid="classwx_rich_text_object" kindref="compound">wxRichTextObject</ref> *</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+<para>Returns the selection appropriate to the specified object, if any; returns an empty array if none at the level of the object&apos;s container. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="1956" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_selection_1ade62c0c1f36642043a41d0df598e89a4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxRichTextSelection::WithinSelection</definition>
+        <argsstring>(long pos, wxRichTextObject *obj) const</argsstring>
+        <name>WithinSelection</name>
+        <param>
+          <type>long</type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_rich_text_object" kindref="compound">wxRichTextObject</ref> *</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+<para>Returns true if the given position is within the selection. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="1961" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_selection_1ab442ca0a99a260378f84dd2e52f39485" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxRichTextSelection::WithinSelection</definition>
+        <argsstring>(long pos) const</argsstring>
+        <name>WithinSelection</name>
+        <param>
+          <type>long</type>
+          <declname>pos</declname>
+        </param>
+        <briefdescription>
+<para>Returns true if the given position is within the selection. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="1967" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="1967" bodyend="1967"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classwx_rich_text_selection_1add543920b409a5b38e26d7c8aca75adc" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool wxRichTextSelection::WithinSelection</definition>
+        <argsstring>(long pos, const wxRichTextRangeArray &amp;ranges)</argsstring>
+        <name>WithinSelection</name>
+        <param>
+          <type>long</type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>const wxRichTextRangeArray &amp;</type>
+          <declname>ranges</declname>
+        </param>
+        <briefdescription>
+<para>Returns true if the given position is within the selection range. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="1972" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_selection_1a621aa575a6154f2461e6699556d76247" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool wxRichTextSelection::WithinSelection</definition>
+        <argsstring>(const wxRichTextRange &amp;range, const wxRichTextRangeArray &amp;ranges)</argsstring>
+        <name>WithinSelection</name>
+        <param>
+          <type>const <ref refid="classwx_rich_text_range" kindref="compound">wxRichTextRange</ref> &amp;</type>
+          <declname>range</declname>
+        </param>
+        <param>
+          <type>const wxRichTextRangeArray &amp;</type>
+          <declname>ranges</declname>
+        </param>
+        <briefdescription>
+<para>Returns true if the given range is within the selection range. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="1977" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Stores selection information. </para>    </briefdescription>
+    <detaileddescription>
+<para>The selection does not have to be contiguous, though currently non-contiguous selections are only supported for a range of table cells (a geometric block of cells can consist of a set of non-contiguous positions).</para><para>The selection consists of an array of ranges, and the container that is the context for the selection. It follows that a single selection object can only represent ranges with the same parent container.</para><para><heading level="2"></heading>
+</para><para>Library:<nonbreakablespace/><nonbreakablespace/><ref refid="page_libs_1page_libs_wxrichtext" kindref="member">wxRichText</ref> &lt;&gt;&lt; =&apos;&apos;&gt;:&lt;/&gt;&amp;;&amp;;&lt; =&apos;&apos;&gt;\ &lt;/&gt;&lt;/&gt;</para><para><simplesect kind="see"><para><ref refid="classwx_rich_text_buffer" kindref="compound">wxRichTextBuffer</ref>, <ref refid="classwx_rich_text_ctrl" kindref="compound">wxRichTextCtrl</ref> </para></simplesect>
+</para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="6895">
+        <label>wxString</label>
+        <link refid="classwx_string"/>
+      </node>
+      <node id="6910">
+        <label>wxRichTextRenderer</label>
+        <link refid="classwx_rich_text_renderer"/>
+        <childnode refid="6885" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6915">
+        <label>wxCommandProcessor</label>
+        <link refid="classwx_command_processor"/>
+        <childnode refid="6885" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6908">
+        <label>wxArray</label>
+      </node>
+      <node id="6884">
+        <label>wxRichTextObject</label>
+        <link refid="classwx_rich_text_object"/>
+        <childnode refid="6885" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6887" relation="usage">
+          <edgelabel>m_size</edgelabel>
+          <edgelabel>m_minSize</edgelabel>
+          <edgelabel>m_maxSize</edgelabel>
+        </childnode>
+        <childnode refid="6888" relation="usage">
+          <edgelabel>m_pos</edgelabel>
+        </childnode>
+        <childnode refid="6889" relation="usage">
+          <edgelabel>m_attributes</edgelabel>
+        </childnode>
+        <childnode refid="6898" relation="usage">
+          <edgelabel>m_properties</edgelabel>
+        </childnode>
+        <childnode refid="6884" relation="usage">
+          <edgelabel>m_parent</edgelabel>
+        </childnode>
+        <childnode refid="6899" relation="usage">
+          <edgelabel>m_ownRange</edgelabel>
+          <edgelabel>m_range</edgelabel>
+        </childnode>
+      </node>
+      <node id="6897">
+        <label>wxTextAttrBorder</label>
+        <link refid="classwx_text_attr_border"/>
+        <childnode refid="6893" relation="usage">
+          <edgelabel>m_borderWidth</edgelabel>
+        </childnode>
+      </node>
+      <node id="6913">
+        <label>wxRichTextCommand</label>
+        <link refid="classwx_rich_text_command"/>
+        <childnode refid="6914" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6885">
+        <label>wxObject</label>
+        <link refid="classwx_object"/>
+        <childnode refid="6886" relation="usage">
+          <edgelabel>m_refData</edgelabel>
+        </childnode>
+      </node>
+      <node id="6911">
+        <label>wxRichTextStyleSheet</label>
+        <link refid="classwx_rich_text_style_sheet"/>
+        <childnode refid="6885" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6898">
+        <label>wxRichTextProperties</label>
+        <link refid="classwx_rich_text_properties"/>
+        <childnode refid="6885" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6903">
+        <label>wxEvtHandler</label>
+        <link refid="classwx_evt_handler"/>
+        <childnode refid="6885" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6904" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6883">
+        <label>wxRichTextCompositeObject</label>
+        <link refid="classwx_rich_text_composite_object"/>
+        <childnode refid="6884" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6899">
+        <label>wxRichTextRange</label>
+        <link refid="classwx_rich_text_range"/>
+      </node>
+      <node id="6887">
+        <label>wxSize</label>
+        <link refid="classwx_size"/>
+      </node>
+      <node id="6890">
+        <label>wxTextAttr</label>
+        <link refid="classwx_text_attr"/>
+      </node>
+      <node id="6889">
+        <label>wxRichTextAttr</label>
+        <link refid="classwx_rich_text_attr"/>
+        <childnode refid="6890" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6891" relation="usage">
+          <edgelabel>m_textBoxAttr</edgelabel>
+        </childnode>
+      </node>
+      <node id="6904">
+        <label>wxTrackable</label>
+        <link refid="classwx_trackable"/>
+      </node>
+      <node id="6901">
+        <label>wxControl</label>
+        <link refid="classwx_control"/>
+        <childnode refid="6902" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6900">
+        <label>wxRichTextCtrl</label>
+        <link refid="classwx_rich_text_ctrl"/>
+        <childnode refid="6901" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6905" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6906" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6907" relation="usage">
+          <edgelabel>sm_availableFontNames</edgelabel>
+        </childnode>
+        <childnode refid="6881" relation="usage">
+          <edgelabel>m_selection</edgelabel>
+        </childnode>
+        <childnode refid="6909" relation="usage">
+          <edgelabel>m_buffer</edgelabel>
+        </childnode>
+        <childnode refid="6916" relation="usage">
+          <edgelabel>m_fullLayoutTime</edgelabel>
+        </childnode>
+        <childnode refid="6884" relation="usage">
+          <edgelabel>m_selectionAnchorObject</edgelabel>
+        </childnode>
+        <childnode refid="6882" relation="usage">
+          <edgelabel>m_focusObject</edgelabel>
+        </childnode>
+        <childnode refid="6917" relation="usage">
+          <edgelabel>m_textCursor</edgelabel>
+          <edgelabel>m_urlCursor</edgelabel>
+        </childnode>
+        <childnode refid="6919" relation="usage">
+          <edgelabel>m_contextMenu</edgelabel>
+        </childnode>
+        <childnode refid="6920" relation="usage">
+          <edgelabel>m_contextMenuPropertiesInfo</edgelabel>
+        </childnode>
+      </node>
+      <node id="6902">
+        <label>wxWindow</label>
+        <link refid="classwx_window"/>
+        <childnode refid="6903" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6891">
+        <label>wxTextBoxAttr</label>
+        <link refid="classwx_text_box_attr"/>
+        <childnode refid="6892" relation="usage">
+          <edgelabel>m_size</edgelabel>
+          <edgelabel>m_minSize</edgelabel>
+          <edgelabel>m_maxSize</edgelabel>
+        </childnode>
+        <childnode refid="6894" relation="usage">
+          <edgelabel>m_margins</edgelabel>
+          <edgelabel>m_padding</edgelabel>
+          <edgelabel>m_position</edgelabel>
+        </childnode>
+        <childnode refid="6895" relation="usage">
+          <edgelabel>m_boxStyleName</edgelabel>
+        </childnode>
+        <childnode refid="6896" relation="usage">
+          <edgelabel>m_border</edgelabel>
+          <edgelabel>m_outline</edgelabel>
+        </childnode>
+      </node>
+      <node id="6907">
+        <label>wxArrayString</label>
+        <link refid="classwx_array_string"/>
+        <childnode refid="6908" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6905">
+        <label>wxTextCtrlIface</label>
+      </node>
+      <node id="6894">
+        <label>wxTextAttrDimensions</label>
+        <link refid="classwx_text_attr_dimensions"/>
+        <childnode refid="6893" relation="usage">
+          <edgelabel>m_left</edgelabel>
+          <edgelabel>m_bottom</edgelabel>
+          <edgelabel>m_top</edgelabel>
+          <edgelabel>m_right</edgelabel>
+        </childnode>
+      </node>
+      <node id="6892">
+        <label>wxTextAttrSize</label>
+        <link refid="classwx_text_attr_size"/>
+        <childnode refid="6893" relation="usage">
+          <edgelabel>m_width</edgelabel>
+          <edgelabel>m_height</edgelabel>
+        </childnode>
+      </node>
+      <node id="6906">
+        <label>wxScrollHelper</label>
+      </node>
+      <node id="6914">
+        <label>wxCommand</label>
+        <link refid="classwx_command"/>
+        <childnode refid="6885" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6919">
+        <label>wxMenu</label>
+        <link refid="classwx_menu"/>
+        <childnode refid="6903" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6920">
+        <label>wxRichTextContextMenuPropertiesInfo</label>
+        <link refid="classwx_rich_text_context_menu_properties_info"/>
+        <childnode refid="6907" relation="usage">
+          <edgelabel>m_labels</edgelabel>
+        </childnode>
+      </node>
+      <node id="6918">
+        <label>wxGDIObject</label>
+        <link refid="classwx_g_d_i_object"/>
+        <childnode refid="6885" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6893">
+        <label>wxTextAttrDimension</label>
+        <link refid="classwx_text_attr_dimension"/>
+      </node>
+      <node id="6912">
+        <label>wxRichTextFontTable</label>
+        <link refid="classwx_rich_text_font_table"/>
+        <childnode refid="6885" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6916">
+        <label>wxLongLong</label>
+        <link refid="classwx_long_long"/>
+      </node>
+      <node id="6909">
+        <label>wxRichTextBuffer</label>
+        <link refid="classwx_rich_text_buffer"/>
+        <childnode refid="6882" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6910" relation="usage">
+          <edgelabel>sm_renderer</edgelabel>
+        </childnode>
+        <childnode refid="6911" relation="usage">
+          <edgelabel>m_styleSheet</edgelabel>
+        </childnode>
+        <childnode refid="6912" relation="usage">
+          <edgelabel>m_fontTable</edgelabel>
+        </childnode>
+        <childnode refid="6913" relation="usage">
+          <edgelabel>m_batchedCommand</edgelabel>
+        </childnode>
+        <childnode refid="6915" relation="usage">
+          <edgelabel>m_commandProcessor</edgelabel>
+        </childnode>
+        <childnode refid="6895" relation="usage">
+          <edgelabel>m_batchedCommandsName</edgelabel>
+        </childnode>
+      </node>
+      <node id="6888">
+        <label>wxPoint</label>
+        <link refid="classwx_point"/>
+      </node>
+      <node id="6881">
+        <label>wxRichTextSelection</label>
+        <link refid="classwx_rich_text_selection"/>
+        <childnode refid="6882" relation="usage">
+          <edgelabel>m_container</edgelabel>
+        </childnode>
+      </node>
+      <node id="6882">
+        <label>wxRichTextParagraphLayoutBox</label>
+        <link refid="classwx_rich_text_paragraph_layout_box"/>
+        <childnode refid="6883" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6889" relation="usage">
+          <edgelabel>m_defaultAttributes</edgelabel>
+        </childnode>
+        <childnode refid="6899" relation="usage">
+          <edgelabel>m_invalidRange</edgelabel>
+        </childnode>
+        <childnode refid="6900" relation="usage">
+          <edgelabel>m_ctrl</edgelabel>
+        </childnode>
+      </node>
+      <node id="6917">
+        <label>wxCursor</label>
+        <link refid="classwx_cursor"/>
+        <childnode refid="6918" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6896">
+        <label>wxTextAttrBorders</label>
+        <link refid="classwx_text_attr_borders"/>
+        <childnode refid="6897" relation="usage">
+          <edgelabel>m_left</edgelabel>
+          <edgelabel>m_bottom</edgelabel>
+          <edgelabel>m_top</edgelabel>
+          <edgelabel>m_right</edgelabel>
+        </childnode>
+      </node>
+      <node id="6886">
+        <label>wxObjectRefData</label>
+        <link refid="classwx_object_ref_data"/>
+      </node>
+    </collaborationgraph>
+    <location file="interface/wx/richtext/richtextbuffer.h" line="1839" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="1838" bodyend="1981"/>
+    <listofallmembers>
+      <member refid="classwx_rich_text_selection_1a16d6baf2eab484beb068865e70b5bdc1" prot="public" virt="non-virtual"><scope>wxRichTextSelection</scope><name>Add</name></member>
+      <member refid="classwx_rich_text_selection_1ae07115eb6135f60d55fa285203e7094b" prot="public" virt="non-virtual"><scope>wxRichTextSelection</scope><name>Copy</name></member>
+      <member refid="classwx_rich_text_selection_1a53800a4734a71894ac8b9df1708df4c3" prot="public" virt="non-virtual"><scope>wxRichTextSelection</scope><name>GetContainer</name></member>
+      <member refid="classwx_rich_text_selection_1aa294cc2cd1b2eb8fc8e25915440a3db4" prot="public" virt="non-virtual"><scope>wxRichTextSelection</scope><name>GetCount</name></member>
+      <member refid="classwx_rich_text_selection_1a7401b8b320f3957ddd4e097a8bf9455f" prot="public" virt="non-virtual"><scope>wxRichTextSelection</scope><name>GetRange</name></member>
+      <member refid="classwx_rich_text_selection_1a38d06a5a818f0390e7f211154516ec1e" prot="public" virt="non-virtual"><scope>wxRichTextSelection</scope><name>GetRange</name></member>
+      <member refid="classwx_rich_text_selection_1a50ed721b317b23d94e07bea7ddb348d8" prot="public" virt="non-virtual"><scope>wxRichTextSelection</scope><name>GetRanges</name></member>
+      <member refid="classwx_rich_text_selection_1a1ac1d7f6907cf1778b985baa0d4e1233" prot="public" virt="non-virtual"><scope>wxRichTextSelection</scope><name>GetRanges</name></member>
+      <member refid="classwx_rich_text_selection_1a538b597e9426a8336ce0e78c5a3e6ccd" prot="public" virt="non-virtual"><scope>wxRichTextSelection</scope><name>GetSelectionForObject</name></member>
+      <member refid="classwx_rich_text_selection_1ada891eda8bb9ea2ca1e4fe58a00ad76d" prot="public" virt="non-virtual"><scope>wxRichTextSelection</scope><name>IsValid</name></member>
+      <member refid="classwx_rich_text_selection_1ac250b92e511cf174a8bcddadde124f32" prot="public" virt="non-virtual"><scope>wxRichTextSelection</scope><name>m_container</name></member>
+      <member refid="classwx_rich_text_selection_1adfe90c43fbc16d82fe6c89582b037e81" prot="public" virt="non-virtual"><scope>wxRichTextSelection</scope><name>m_ranges</name></member>
+      <member refid="classwx_rich_text_selection_1afc0522c7986c8b35b55f9fd27c0ef2d3" prot="public" virt="non-virtual"><scope>wxRichTextSelection</scope><name>operator=</name></member>
+      <member refid="classwx_rich_text_selection_1a05dac4e4cc9e973307ff2b4fac104899" prot="public" virt="non-virtual"><scope>wxRichTextSelection</scope><name>operator==</name></member>
+      <member refid="classwx_rich_text_selection_1a21c7a9bfc7c4b525119b1597aa14307b" prot="public" virt="non-virtual"><scope>wxRichTextSelection</scope><name>operator[]</name></member>
+      <member refid="classwx_rich_text_selection_1a002ececab1fb2efe39da25c05925eb3e" prot="public" virt="non-virtual"><scope>wxRichTextSelection</scope><name>Reset</name></member>
+      <member refid="classwx_rich_text_selection_1adb0fb22f7521fe9d57344d238deb2392" prot="public" virt="non-virtual"><scope>wxRichTextSelection</scope><name>Set</name></member>
+      <member refid="classwx_rich_text_selection_1a1e9ef090e67be170839e67f16ac62496" prot="public" virt="non-virtual"><scope>wxRichTextSelection</scope><name>Set</name></member>
+      <member refid="classwx_rich_text_selection_1a681f3a01b165dbc38d1902d5c6c3679b" prot="public" virt="non-virtual"><scope>wxRichTextSelection</scope><name>SetContainer</name></member>
+      <member refid="classwx_rich_text_selection_1a94997c5b8f59856b202a8a3c078a5fb3" prot="public" virt="non-virtual"><scope>wxRichTextSelection</scope><name>SetRange</name></member>
+      <member refid="classwx_rich_text_selection_1a56a967ead8fce1c77c50f7948fcc1940" prot="public" virt="non-virtual"><scope>wxRichTextSelection</scope><name>SetRanges</name></member>
+      <member refid="classwx_rich_text_selection_1ade62c0c1f36642043a41d0df598e89a4" prot="public" virt="non-virtual"><scope>wxRichTextSelection</scope><name>WithinSelection</name></member>
+      <member refid="classwx_rich_text_selection_1ab442ca0a99a260378f84dd2e52f39485" prot="public" virt="non-virtual"><scope>wxRichTextSelection</scope><name>WithinSelection</name></member>
+      <member refid="classwx_rich_text_selection_1add543920b409a5b38e26d7c8aca75adc" prot="public" virt="non-virtual"><scope>wxRichTextSelection</scope><name>WithinSelection</name></member>
+      <member refid="classwx_rich_text_selection_1a621aa575a6154f2461e6699556d76247" prot="public" virt="non-virtual"><scope>wxRichTextSelection</scope><name>WithinSelection</name></member>
+      <member refid="classwx_rich_text_selection_1a7e7a049d83c23d030f515b18ead7ee0e" prot="public" virt="non-virtual"><scope>wxRichTextSelection</scope><name>wxRichTextSelection</name></member>
+      <member refid="classwx_rich_text_selection_1ae66834a9a81cc17345f642574b6968e2" prot="public" virt="non-virtual"><scope>wxRichTextSelection</scope><name>wxRichTextSelection</name></member>
+      <member refid="classwx_rich_text_selection_1a0c9948643ad1659e32760c5b3f0701c2" prot="public" virt="non-virtual"><scope>wxRichTextSelection</scope><name>wxRichTextSelection</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

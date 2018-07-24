@@ -1,0 +1,1060 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_trackable" kind="class" language="C++" prot="public">
+    <compoundname>wxTrackable</compoundname>
+    <derivedcompoundref refid="classwx_evt_handler" prot="public" virt="non-virtual">wxEvtHandler</derivedcompoundref>
+    <includes local="no">wx/tracker.h</includes>
+    <briefdescription>
+<para>Add-on base class for a trackable object. </para>    </briefdescription>
+    <detaileddescription>
+<para>This class maintains an internal linked list of classes of type wxTrackerNode and calls OnObjectDestroy() on them if this object is destroyed. The most common usage is by using the <ref refid="classwx_weak_ref_3_01_t_01_4" kindref="compound">wxWeakRef&lt;T&gt;</ref> class template which automates this. This class has no public API. Its only use is by deriving another class from it to make it trackable.</para><para><programlisting><codeline><highlight class="normal">class<sp/>MyClass:<sp/>public<sp/>Foo,<sp/>public<sp/>wxTrackable</highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>//<sp/>whatever</highlight></codeline>
+<codeline><highlight class="normal">}</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">typedef<sp/>wxWeakRef&lt;MyClass&gt;<sp/>MyClassRef;</highlight></codeline>
+</programlisting></para><para><heading level="2"></heading>
+</para><para>Library:<nonbreakablespace/><nonbreakablespace/><ref refid="page_libs_1page_libs_wxbase" kindref="member">wxBase</ref> &lt;&gt;&lt; =&apos;&apos;&gt;:&lt;/&gt;&amp;;&amp;;&lt; =&apos;&apos;&gt;\ &lt;/&gt;&lt;/&gt; </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="8214">
+        <label>wxStaticText</label>
+        <link refid="classwx_static_text"/>
+        <childnode refid="8141" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8210">
+        <label>wxSpinCtrlDouble</label>
+        <link refid="classwx_spin_ctrl_double"/>
+        <childnode refid="8141" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8178">
+        <label>wxGenericDirCtrl</label>
+        <link refid="classwx_generic_dir_ctrl"/>
+        <childnode refid="8141" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8131">
+        <label>wxValidator</label>
+        <link refid="classwx_validator"/>
+        <childnode refid="8116" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8122">
+        <label>wxEventBlocker</label>
+        <link refid="classwx_event_blocker"/>
+        <childnode refid="8116" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8257">
+        <label>wxDocChildFrame</label>
+        <link refid="classwx_doc_child_frame"/>
+        <childnode refid="8255" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8284">
+        <label>wxSashLayoutWindow</label>
+        <link refid="classwx_sash_layout_window"/>
+        <childnode refid="8283" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8143">
+        <label>wxAnimationCtrl</label>
+        <link refid="classwx_animation_ctrl"/>
+        <childnode refid="8141" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8180">
+        <label>wxHeaderCtrlSimple</label>
+        <link refid="classwx_header_ctrl_simple"/>
+        <childnode refid="8179" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8153">
+        <label>wxAuiNotebook</label>
+        <link refid="classwx_aui_notebook"/>
+        <childnode refid="8152" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8165">
+        <label>wxCollapsiblePane</label>
+        <link refid="classwx_collapsible_pane"/>
+        <childnode refid="8141" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8123">
+        <label>wxFileSystemWatcher</label>
+        <link refid="classwx_file_system_watcher"/>
+        <childnode refid="8116" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8208">
+        <label>wxSpinButton</label>
+        <link refid="classwx_spin_button"/>
+        <childnode refid="8141" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8228">
+        <label>wxNonOwnedWindow</label>
+        <link refid="classwx_non_owned_window"/>
+        <childnode refid="8139" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8183">
+        <label>wxListBox</label>
+        <link refid="classwx_list_box"/>
+        <childnode refid="8141" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8270">
+        <label>wxHScrolledWindow</label>
+        <link refid="classwx_h_scrolled_window"/>
+        <childnode refid="8267" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8260">
+        <label>wxMDIChildFrame</label>
+        <link refid="classwx_m_d_i_child_frame"/>
+        <childnode refid="8255" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8148">
+        <label>wxCommandLinkButton</label>
+        <link refid="classwx_command_link_button"/>
+        <childnode refid="8145" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8197">
+        <label>wxRibbonControl</label>
+        <link refid="classwx_ribbon_control"/>
+        <childnode refid="8141" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8182">
+        <label>wxInfoBar</label>
+        <link refid="classwx_info_bar"/>
+        <childnode refid="8141" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8133">
+        <label>wxNumValidator&lt; T &gt;</label>
+        <link refid="classwx_num_validator"/>
+        <childnode refid="8131" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8152">
+        <label>wxBookCtrlBase</label>
+        <link refid="classwx_book_ctrl_base"/>
+        <childnode refid="8141" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8286">
+        <label>wxTipWindow</label>
+        <link refid="classwx_tip_window"/>
+        <childnode refid="8139" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8238">
+        <label>wxGenericProgressDialog</label>
+        <link refid="classwx_generic_progress_dialog"/>
+        <childnode refid="8232" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8268">
+        <label>wxAuiMDIChildFrame</label>
+        <link refid="classwx_aui_m_d_i_child_frame"/>
+        <childnode refid="8267" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8221">
+        <label>wxTreeCtrl</label>
+        <link refid="classwx_tree_ctrl"/>
+        <childnode refid="8141" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8135">
+        <label>wxIntegerValidator&lt; T &gt;</label>
+        <link refid="classwx_integer_validator"/>
+        <childnode refid="8133" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8272">
+        <label>wxPreviewControlBar</label>
+        <link refid="classwx_preview_control_bar"/>
+        <childnode refid="8267" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8256">
+        <label>wxAuiMDIParentFrame</label>
+        <link refid="classwx_aui_m_d_i_parent_frame"/>
+        <childnode refid="8255" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8276">
+        <label>wxVListBox</label>
+        <link refid="classwx_v_list_box"/>
+        <childnode refid="8275" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8138">
+        <label>wxView</label>
+        <link refid="classwx_view"/>
+        <childnode refid="8116" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8127">
+        <label>wxProcess</label>
+        <link refid="classwx_process"/>
+        <childnode refid="8116" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8237">
+        <label>wxFontDialog</label>
+        <link refid="classwx_font_dialog"/>
+        <childnode refid="8232" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8154">
+        <label>wxAuiMDIClientWindow</label>
+        <link refid="classwx_aui_m_d_i_client_window"/>
+        <childnode refid="8153" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8279">
+        <label>wxSimpleHtmlListBox</label>
+        <link refid="classwx_simple_html_list_box"/>
+        <childnode refid="8277" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8206">
+        <label>wxScrollBar</label>
+        <link refid="classwx_scroll_bar"/>
+        <childnode refid="8141" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8275">
+        <label>wxVScrolledWindow</label>
+        <link refid="classwx_v_scrolled_window"/>
+        <childnode refid="8267" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8142">
+        <label>wxActiveXContainer</label>
+        <link refid="classwx_active_x_container"/>
+        <childnode refid="8141" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8218">
+        <label>wxSearchCtrl</label>
+        <link refid="classwx_search_ctrl"/>
+        <childnode refid="8217" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8235">
+        <label>wxFileDialog</label>
+        <link refid="classwx_file_dialog"/>
+        <childnode refid="8232" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8167">
+        <label>wxBitmapComboBox</label>
+        <link refid="classwx_bitmap_combo_box"/>
+        <childnode refid="8166" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8217">
+        <label>wxTextCtrl</label>
+        <link refid="classwx_text_ctrl"/>
+        <childnode refid="8141" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8116">
+        <label>wxEvtHandler</label>
+        <link refid="classwx_evt_handler"/>
+        <childnode refid="8115" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8158">
+        <label>wxSimplebook</label>
+        <link refid="classwx_simplebook"/>
+        <childnode refid="8152" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8267">
+        <label>wxPanel</label>
+        <link refid="classwx_panel"/>
+        <childnode refid="8139" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8196">
+        <label>wxRadioButton</label>
+        <link refid="classwx_radio_button"/>
+        <childnode refid="8141" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8130">
+        <label>wxTimer</label>
+        <link refid="classwx_timer"/>
+        <childnode refid="8116" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8215">
+        <label>wxStatusBar</label>
+        <link refid="classwx_status_bar"/>
+        <childnode refid="8141" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8213">
+        <label>wxStaticLine</label>
+        <link refid="classwx_static_line"/>
+        <childnode refid="8141" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8175">
+        <label>wxDatePickerCtrl</label>
+        <link refid="classwx_date_picker_ctrl"/>
+        <childnode refid="8141" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8282">
+        <label>wxPGMultiButton</label>
+        <link refid="classwx_p_g_multi_button"/>
+        <childnode refid="8139" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8239">
+        <label>wxProgressDialog</label>
+        <link refid="classwx_progress_dialog"/>
+        <childnode refid="8238" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8202">
+        <label>wxRibbonPanel</label>
+        <link refid="classwx_ribbon_panel"/>
+        <childnode refid="8197" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8132">
+        <label>wxGenericValidator</label>
+        <link refid="classwx_generic_validator"/>
+        <childnode refid="8131" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8125">
+        <label>wxMouseEventsManager</label>
+        <link refid="classwx_mouse_events_manager"/>
+        <childnode refid="8116" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8195">
+        <label>wxRadioBox</label>
+        <link refid="classwx_radio_box"/>
+        <childnode refid="8141" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8249">
+        <label>wxRichTextStyleOrganiserDialog</label>
+        <link refid="classwx_rich_text_style_organiser_dialog"/>
+        <childnode refid="8232" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8162">
+        <label>wxCheckBox</label>
+        <link refid="classwx_check_box"/>
+        <childnode refid="8141" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8258">
+        <label>wxDocParentFrame</label>
+        <link refid="classwx_doc_parent_frame"/>
+        <childnode refid="8255" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8149">
+        <label>wxToggleButton</label>
+        <link refid="classwx_toggle_button"/>
+        <childnode refid="8144" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8285">
+        <label>wxSplitterWindow</label>
+        <link refid="classwx_splitter_window"/>
+        <childnode refid="8139" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8174">
+        <label>wxDataViewTreeCtrl</label>
+        <link refid="classwx_data_view_tree_ctrl"/>
+        <childnode refid="8172" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8220">
+        <label>wxToolBar</label>
+        <link refid="classwx_tool_bar"/>
+        <childnode refid="8141" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8242">
+        <label>wxMultiChoiceDialog</label>
+        <link refid="classwx_multi_choice_dialog"/>
+        <childnode refid="8232" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8199">
+        <label>wxRibbonButtonBar</label>
+        <link refid="classwx_ribbon_button_bar"/>
+        <childnode refid="8197" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8160">
+        <label>wxTreebook</label>
+        <link refid="classwx_treebook"/>
+        <childnode refid="8152" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8184">
+        <label>wxCheckListBox</label>
+        <link refid="classwx_check_list_box"/>
+        <childnode refid="8183" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8254">
+        <label>wxWizard</label>
+        <link refid="classwx_wizard"/>
+        <childnode refid="8232" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8173">
+        <label>wxDataViewListCtrl</label>
+        <link refid="classwx_data_view_list_ctrl"/>
+        <childnode refid="8172" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8115">
+        <label>wxTrackable</label>
+        <link refid="classwx_trackable"/>
+      </node>
+      <node id="8185">
+        <label>wxRearrangeList</label>
+        <link refid="classwx_rearrange_list"/>
+        <childnode refid="8184" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8230">
+        <label>wxPopupTransientWindow</label>
+        <link refid="classwx_popup_transient_window"/>
+        <childnode refid="8229" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8245">
+        <label>wxPrintAbortDialog</label>
+        <link refid="classwx_print_abort_dialog"/>
+        <childnode refid="8232" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8156">
+        <label>wxListbook</label>
+        <link refid="classwx_listbook"/>
+        <childnode refid="8152" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8278">
+        <label>wxRichTextStyleListBox</label>
+        <link refid="classwx_rich_text_style_list_box"/>
+        <childnode refid="8277" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8190">
+        <label>wxColourPickerCtrl</label>
+        <link refid="classwx_colour_picker_ctrl"/>
+        <childnode refid="8189" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8181">
+        <label>wxHyperlinkCtrl</label>
+        <link refid="classwx_hyperlink_ctrl"/>
+        <childnode refid="8141" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8141">
+        <label>wxControl</label>
+        <link refid="classwx_control"/>
+        <childnode refid="8139" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8187">
+        <label>wxListView</label>
+        <link refid="classwx_list_view"/>
+        <childnode refid="8186" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8204">
+        <label>wxRichTextCtrl</label>
+        <link refid="classwx_rich_text_ctrl"/>
+        <childnode refid="8141" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8177">
+        <label>wxGauge</label>
+        <link refid="classwx_gauge"/>
+        <childnode refid="8141" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8223">
+        <label>wxWebView</label>
+        <link refid="classwx_web_view"/>
+        <childnode refid="8141" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8139">
+        <label>wxWindow</label>
+        <link refid="classwx_window"/>
+        <childnode refid="8116" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8188">
+        <label>wxMediaCtrl</label>
+        <link refid="classwx_media_ctrl"/>
+        <childnode refid="8141" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8159">
+        <label>wxToolbook</label>
+        <link refid="classwx_toolbook"/>
+        <childnode refid="8152" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8186">
+        <label>wxListCtrl</label>
+        <link refid="classwx_list_ctrl"/>
+        <childnode refid="8141" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8121">
+        <label>wxDocument</label>
+        <link refid="classwx_document"/>
+        <childnode refid="8116" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8263">
+        <label>wxDocMDIParentFrame</label>
+        <link refid="classwx_doc_m_d_i_parent_frame"/>
+        <childnode refid="8262" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8151">
+        <label>wxAuiToolBar</label>
+        <link refid="classwx_aui_tool_bar"/>
+        <childnode refid="8141" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8168">
+        <label>wxComboCtrl</label>
+        <link refid="classwx_combo_ctrl"/>
+        <childnode refid="8141" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8200">
+        <label>wxRibbonGallery</label>
+        <link refid="classwx_ribbon_gallery"/>
+        <childnode refid="8197" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8232">
+        <label>wxDialog</label>
+        <link refid="classwx_dialog"/>
+        <childnode refid="8231" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8241">
+        <label>wxMessageDialog</label>
+        <link refid="classwx_message_dialog"/>
+        <childnode refid="8232" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8236">
+        <label>wxFindReplaceDialog</label>
+        <link refid="classwx_find_replace_dialog"/>
+        <childnode refid="8232" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8150">
+        <label>wxBitmapToggleButton</label>
+        <link refid="classwx_bitmap_toggle_button"/>
+        <childnode refid="8149" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8222">
+        <label>wxWebKitCtrl</label>
+        <link refid="classwx_web_kit_ctrl"/>
+        <childnode refid="8141" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8277">
+        <label>wxHtmlListBox</label>
+        <link refid="classwx_html_list_box"/>
+        <childnode refid="8276" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8192">
+        <label>wxFilePickerCtrl</label>
+        <link refid="classwx_file_picker_ctrl"/>
+        <childnode refid="8189" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8198">
+        <label>wxRibbonBar</label>
+        <link refid="classwx_ribbon_bar"/>
+        <childnode refid="8197" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8209">
+        <label>wxSpinCtrl</label>
+        <link refid="classwx_spin_ctrl"/>
+        <childnode refid="8141" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8163">
+        <label>wxChoice</label>
+        <link refid="classwx_choice"/>
+        <childnode refid="8141" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8166">
+        <label>wxComboBox</label>
+        <link refid="classwx_combo_box"/>
+        <childnode refid="8141" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8126">
+        <label>wxNotificationMessage</label>
+        <link refid="classwx_notification_message"/>
+        <childnode refid="8116" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8216">
+        <label>wxStyledTextCtrl</label>
+        <link refid="classwx_styled_text_ctrl"/>
+        <childnode refid="8141" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8169">
+        <label>wxOwnerDrawnComboBox</label>
+        <link refid="classwx_owner_drawn_combo_box"/>
+        <childnode refid="8168" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8119">
+        <label>wxAuiManager</label>
+        <link refid="classwx_aui_manager"/>
+        <childnode refid="8116" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8255">
+        <label>wxFrame</label>
+        <link refid="classwx_frame"/>
+        <childnode refid="8231" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8226">
+        <label>wxMDIClientWindow</label>
+        <link refid="classwx_m_d_i_client_window"/>
+        <childnode refid="8139" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8227">
+        <label>wxMenuBar</label>
+        <link refid="classwx_menu_bar"/>
+        <childnode refid="8139" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8265">
+        <label>wxPreviewFrame</label>
+        <link refid="classwx_preview_frame"/>
+        <childnode refid="8255" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8271">
+        <label>wxHVScrolledWindow</label>
+        <link refid="classwx_h_v_scrolled_window"/>
+        <childnode refid="8267" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8250">
+        <label>wxSingleChoiceDialog</label>
+        <link refid="classwx_single_choice_dialog"/>
+        <childnode refid="8232" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8170">
+        <label>wxRichTextStyleComboCtrl</label>
+        <link refid="classwx_rich_text_style_combo_ctrl"/>
+        <childnode refid="8168" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8234">
+        <label>wxDirDialog</label>
+        <link refid="classwx_dir_dialog"/>
+        <childnode refid="8232" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8144">
+        <label>wxAnyButton</label>
+        <link refid="classwx_any_button"/>
+        <childnode refid="8141" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8172">
+        <label>wxDataViewCtrl</label>
+        <link refid="classwx_data_view_ctrl"/>
+        <childnode refid="8141" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8145">
+        <label>wxButton</label>
+        <link refid="classwx_button"/>
+        <childnode refid="8144" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8203">
+        <label>wxRibbonToolBar</label>
+        <link refid="classwx_ribbon_tool_bar"/>
+        <childnode refid="8197" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8140">
+        <label>wxBannerWindow</label>
+        <link refid="classwx_banner_window"/>
+        <childnode refid="8139" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8137">
+        <label>wxNumericPropertyValidator</label>
+        <link refid="classwx_numeric_property_validator"/>
+        <childnode refid="8136" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8248">
+        <label>wxRearrangeDialog</label>
+        <link refid="classwx_rearrange_dialog"/>
+        <childnode refid="8232" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8240">
+        <label>wxHtmlHelpDialog</label>
+        <link refid="classwx_html_help_dialog"/>
+        <childnode refid="8232" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8233">
+        <label>wxColourDialog</label>
+        <link refid="classwx_colour_dialog"/>
+        <childnode refid="8232" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8273">
+        <label>wxPropertyGridManager</label>
+        <link refid="classwx_property_grid_manager"/>
+        <childnode refid="8267" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8224">
+        <label>wxGLCanvas</label>
+        <link refid="classwx_g_l_canvas"/>
+        <childnode refid="8139" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8225">
+        <label>wxHtmlHelpWindow</label>
+        <link refid="classwx_html_help_window"/>
+        <childnode refid="8139" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8155">
+        <label>wxChoicebook</label>
+        <link refid="classwx_choicebook"/>
+        <childnode refid="8152" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8229">
+        <label>wxPopupWindow</label>
+        <link refid="classwx_popup_window"/>
+        <childnode refid="8228" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8274">
+        <label>wxRearrangeCtrl</label>
+        <link refid="classwx_rearrange_ctrl"/>
+        <childnode refid="8267" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8171">
+        <label>wxControlWithItems</label>
+        <link refid="classwx_control_with_items"/>
+        <childnode refid="8141" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8264">
+        <label>wxMiniFrame</label>
+        <link refid="classwx_mini_frame"/>
+        <childnode refid="8255" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8194">
+        <label>wxPropertyGrid</label>
+        <link refid="classwx_property_grid"/>
+        <childnode refid="8141" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8205">
+        <label>wxRichTextStyleListCtrl</label>
+        <link refid="classwx_rich_text_style_list_ctrl"/>
+        <childnode refid="8141" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8191">
+        <label>wxDirPickerCtrl</label>
+        <link refid="classwx_dir_picker_ctrl"/>
+        <childnode refid="8189" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8211">
+        <label>wxStaticBitmap</label>
+        <link refid="classwx_static_bitmap"/>
+        <childnode refid="8141" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8118">
+        <label>wxApp</label>
+        <link refid="classwx_app"/>
+        <childnode refid="8117" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8117">
+        <label>wxAppConsole</label>
+        <link refid="classwx_app_console"/>
+        <childnode refid="8116" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8207">
+        <label>wxSlider</label>
+        <link refid="classwx_slider"/>
+        <childnode refid="8141" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8231">
+        <label>wxTopLevelWindow</label>
+        <link refid="classwx_top_level_window"/>
+        <childnode refid="8228" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8164">
+        <label>wxDirFilterListCtrl</label>
+        <link refid="classwx_dir_filter_list_ctrl"/>
+        <childnode refid="8163" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8157">
+        <label>wxNotebook</label>
+        <link refid="classwx_notebook"/>
+        <childnode refid="8152" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8247">
+        <label>wxRichTextFormattingDialog</label>
+        <link refid="classwx_rich_text_formatting_dialog"/>
+        <childnode refid="8246" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8287">
+        <label>wxTreeListCtrl</label>
+        <link refid="classwx_tree_list_ctrl"/>
+        <childnode refid="8139" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8124">
+        <label>wxMenu</label>
+        <link refid="classwx_menu"/>
+        <childnode refid="8116" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8252">
+        <label>wxTextEntryDialog</label>
+        <link refid="classwx_text_entry_dialog"/>
+        <childnode refid="8232" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8281">
+        <label>wxWizardPageSimple</label>
+        <link refid="classwx_wizard_page_simple"/>
+        <childnode refid="8280" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8136">
+        <label>wxTextValidator</label>
+        <link refid="classwx_text_validator"/>
+        <childnode refid="8131" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8128">
+        <label>wxPropertyGridPage</label>
+        <link refid="classwx_property_grid_page"/>
+        <childnode refid="8116" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8259">
+        <label>wxHtmlHelpFrame</label>
+        <link refid="classwx_html_help_frame"/>
+        <childnode refid="8255" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8269">
+        <label>wxEditableListBox</label>
+        <link refid="classwx_editable_list_box"/>
+        <childnode refid="8267" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8146">
+        <label>wxBitmapButton</label>
+        <link refid="classwx_bitmap_button"/>
+        <childnode refid="8145" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8129">
+        <label>wxTaskBarIcon</label>
+        <link refid="classwx_task_bar_icon"/>
+        <childnode refid="8116" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8179">
+        <label>wxHeaderCtrl</label>
+        <link refid="classwx_header_ctrl"/>
+        <childnode refid="8141" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8147">
+        <label>wxContextHelpButton</label>
+        <link refid="classwx_context_help_button"/>
+        <childnode refid="8146" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8266">
+        <label>wxSplashScreen</label>
+        <link refid="classwx_splash_screen"/>
+        <childnode refid="8255" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8262">
+        <label>wxMDIParentFrame</label>
+        <link refid="classwx_m_d_i_parent_frame"/>
+        <childnode refid="8255" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8280">
+        <label>wxWizardPage</label>
+        <link refid="classwx_wizard_page"/>
+        <childnode refid="8267" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8176">
+        <label>wxFileCtrl</label>
+        <link refid="classwx_file_ctrl"/>
+        <childnode refid="8141" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8261">
+        <label>wxDocMDIChildFrame</label>
+        <link refid="classwx_doc_m_d_i_child_frame"/>
+        <childnode refid="8260" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8244">
+        <label>wxPGArrayStringEditorDialog</label>
+        <link refid="classwx_p_g_array_string_editor_dialog"/>
+        <childnode refid="8243" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8243">
+        <label>wxPGArrayEditorDialog</label>
+        <link refid="classwx_p_g_array_editor_dialog"/>
+        <childnode refid="8232" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8120">
+        <label>wxDocManager</label>
+        <link refid="classwx_doc_manager"/>
+        <childnode refid="8116" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8253">
+        <label>wxPasswordEntryDialog</label>
+        <link refid="classwx_password_entry_dialog"/>
+        <childnode refid="8252" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8201">
+        <label>wxRibbonPage</label>
+        <link refid="classwx_ribbon_page"/>
+        <childnode refid="8197" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8251">
+        <label>wxSymbolPickerDialog</label>
+        <link refid="classwx_symbol_picker_dialog"/>
+        <childnode refid="8232" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8134">
+        <label>wxFloatingPointValidator&lt; T &gt;</label>
+        <link refid="classwx_floating_point_validator"/>
+        <childnode refid="8133" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8212">
+        <label>wxStaticBox</label>
+        <link refid="classwx_static_box"/>
+        <childnode refid="8141" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8193">
+        <label>wxFontPickerCtrl</label>
+        <link refid="classwx_font_picker_ctrl"/>
+        <childnode refid="8189" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8246">
+        <label>wxPropertySheetDialog</label>
+        <link refid="classwx_property_sheet_dialog"/>
+        <childnode refid="8232" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8219">
+        <label>wxTimePickerCtrl</label>
+        <link refid="classwx_time_picker_ctrl"/>
+        <childnode refid="8141" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8189">
+        <label>wxPickerBase</label>
+        <link refid="classwx_picker_base"/>
+        <childnode refid="8141" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8283">
+        <label>wxSashWindow</label>
+        <link refid="classwx_sash_window"/>
+        <childnode refid="8139" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8161">
+        <label>wxCalendarCtrl</label>
+        <link refid="classwx_calendar_ctrl"/>
+        <childnode refid="8141" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="interface/wx/tracker.h" line="30" column="1" bodyfile="interface/wx/tracker.h" bodystart="29" bodyend="33"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

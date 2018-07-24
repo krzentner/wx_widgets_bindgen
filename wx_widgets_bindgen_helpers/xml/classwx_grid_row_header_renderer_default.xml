@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_grid_row_header_renderer_default" kind="class" language="C++" prot="public">
+    <compoundname>wxGridRowHeaderRendererDefault</compoundname>
+    <basecompoundref refid="classwx_grid_row_header_renderer" prot="public" virt="non-virtual">wxGridRowHeaderRenderer</basecompoundref>
+    <includes local="no">wx/grid.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classwx_grid_row_header_renderer_default_1a8bbfb9e992fad15feed66a50d6ed6b37" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void wxGridRowHeaderRendererDefault::DrawBorder</definition>
+        <argsstring>(const wxGrid &amp;grid, wxDC &amp;dc, wxRect &amp;rect) const</argsstring>
+        <name>DrawBorder</name>
+        <reimplements refid="classwx_grid_corner_header_renderer_1ae645864cfd4fe4be47522b2151ee2e45">DrawBorder</reimplements>
+        <param>
+          <type>const <ref refid="classwx_grid" kindref="compound">wxGrid</ref> &amp;</type>
+          <declname>grid</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_d_c" kindref="compound">wxDC</ref> &amp;</type>
+          <declname>dc</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_rect" kindref="compound">wxRect</ref> &amp;</type>
+          <declname>rect</declname>
+        </param>
+        <briefdescription>
+<para>Implement border drawing for the row labels. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/grid.h" line="1103" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Default row header renderer. </para>    </briefdescription>
+    <detaileddescription>
+<para>You may derive from this class if you need to only override one of its methods (i.e. either <ref refid="classwx_grid_header_labels_renderer_1ad890e22eaf0a14ed5d11e55304cd60e4" kindref="member">DrawLabel()</ref> or <ref refid="classwx_grid_row_header_renderer_default_1a8bbfb9e992fad15feed66a50d6ed6b37" kindref="member">DrawBorder()</ref>) but continue to use the default implementation for the other one.</para><para><simplesect kind="see"><para><ref refid="classwx_grid_column_header_renderer_default" kindref="compound">wxGridColumnHeaderRendererDefault</ref></para></simplesect>
+<simplesect kind="since"><para>2.9.1 </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="3140">
+        <label>wxGridHeaderLabelsRenderer</label>
+        <link refid="classwx_grid_header_labels_renderer"/>
+        <childnode refid="3141" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3141">
+        <label>wxGridCornerHeaderRenderer</label>
+        <link refid="classwx_grid_corner_header_renderer"/>
+      </node>
+      <node id="3139">
+        <label>wxGridRowHeaderRenderer</label>
+        <link refid="classwx_grid_row_header_renderer"/>
+        <childnode refid="3140" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3138">
+        <label>wxGridRowHeaderRendererDefault</label>
+        <link refid="classwx_grid_row_header_renderer_default"/>
+        <childnode refid="3139" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3144">
+        <label>wxGridHeaderLabelsRenderer</label>
+        <link refid="classwx_grid_header_labels_renderer"/>
+        <childnode refid="3145" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3145">
+        <label>wxGridCornerHeaderRenderer</label>
+        <link refid="classwx_grid_corner_header_renderer"/>
+      </node>
+      <node id="3143">
+        <label>wxGridRowHeaderRenderer</label>
+        <link refid="classwx_grid_row_header_renderer"/>
+        <childnode refid="3144" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3142">
+        <label>wxGridRowHeaderRendererDefault</label>
+        <link refid="classwx_grid_row_header_renderer_default"/>
+        <childnode refid="3143" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="interface/wx/grid.h" line="1100" column="1" bodyfile="interface/wx/grid.h" bodystart="1099" bodyend="1106"/>
+    <listofallmembers>
+      <member refid="classwx_grid_row_header_renderer_default_1a8bbfb9e992fad15feed66a50d6ed6b37" prot="public" virt="virtual"><scope>wxGridRowHeaderRendererDefault</scope><name>DrawBorder</name></member>
+      <member refid="classwx_grid_header_labels_renderer_1ad890e22eaf0a14ed5d11e55304cd60e4" prot="public" virt="virtual"><scope>wxGridRowHeaderRendererDefault</scope><name>DrawLabel</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="dirctrl_8h" kind="file" language="C++">
+    <compoundname>dirctrl.h</compoundname>
+    <innerclass refid="classwx_generic_dir_ctrl" prot="public">wxGenericDirCtrl</innerclass>
+    <innerclass refid="classwx_dir_filter_list_ctrl" prot="public">wxDirFilterListCtrl</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="dirctrl_8h_1abc5c98fcc1211af2b80116dd6e0a035d" prot="public" static="no" strong="no">
+        <type></type>
+        <name>@11</name>
+        <enumvalue id="dirctrl_8h_1abc5c98fcc1211af2b80116dd6e0a035daa435ad1ab60e8a25b57365271e2331ec" prot="public">
+          <name>wxDIRCTRL_DIR_ONLY</name>
+          <initializer>= 0x0010</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="dirctrl_8h_1abc5c98fcc1211af2b80116dd6e0a035daa92ef8eb453bf00d60a86122b8d252f1" prot="public">
+          <name>wxDIRCTRL_SELECT_FIRST</name>
+          <initializer>= 0x0020</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="dirctrl_8h_1abc5c98fcc1211af2b80116dd6e0a035daac6106d6dfb75477604c93faab0c208f" prot="public">
+          <name>wxDIRCTRL_SHOW_FILTERS</name>
+          <initializer>= 0x0040</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="dirctrl_8h_1abc5c98fcc1211af2b80116dd6e0a035da77b611c80fae9776f2b75a5c596904c4" prot="public">
+          <name>wxDIRCTRL_3D_INTERNAL</name>
+          <initializer>= 0x0080</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="dirctrl_8h_1abc5c98fcc1211af2b80116dd6e0a035daa5364c34ddbe263807034d7c10a01d61" prot="public">
+          <name>wxDIRCTRL_EDIT_LABELS</name>
+          <initializer>= 0x0100</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="dirctrl_8h_1abc5c98fcc1211af2b80116dd6e0a035dafc6aa5bc70e67174104abc51f1db751b" prot="public">
+          <name>wxDIRCTRL_MULTIPLE</name>
+          <initializer>= 0x0200</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/dirctrl.h" line="9" column="1" bodyfile="interface/wx/dirctrl.h" bodystart="8" bodyend="22"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="dirctrl_8h_1a6f8f4f40339f9bc325ebdc11c156b5b4" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_DIRCTRL_SELECTIONCHANGED</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_DIRCTRL_SELECTIONCHANGED</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/dirctrl.h" line="286" column="1" bodyfile="interface/wx/dirctrl.h" bodystart="286" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dirctrl_8h_1af8696837101d62f1b0af4e112696abcd" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_DIRCTRL_FILEACTIVATED</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_DIRCTRL_FILEACTIVATED</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/dirctrl.h" line="287" column="1" bodyfile="interface/wx/dirctrl.h" bodystart="287" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="interface/wx/dirctrl.h"/>
+  </compounddef>
+</doxygen>

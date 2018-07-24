@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="indexpage" kind="page">
+    <compoundname>index</compoundname>
+    <title>Documentation</title>
+    <innerpage refid="page_introduction">Introduction</innerpage>
+    <innerpage refid="page_topics">Programming Guides</innerpage>
+    <innerpage refid="page_samples">Samples Overview</innerpage>
+    <innerpage refid="page_introduction">Introduction</innerpage>
+    <innerpage refid="page_topics">Programming Guides</innerpage>
+    <innerpage refid="page_libs">Library List</innerpage>
+    <innerpage refid="page_class_cat">Overview of Available Classes</innerpage>
+    <innerpage refid="overview_changes_since28">Changes Since wxWidgets 2.8</innerpage>
+    <innerpage refid="page_constants">Constants</innerpage>
+    <innerpage refid="page_samples">Samples Overview</innerpage>
+    <innerpage refid="page_utils">Utilities Overview</innerpage>
+    <innerpage refid="page_translations">Translations to Other Languages</innerpage>
+    <innerpage refid="page_multiplatform">Cross-Platform Development Tips</innerpage>
+    <innerpage refid="page_copyright">Copyrights and Licenses</innerpage>
+    <briefdescription>
+<para><linebreak/>
+ </para>    </briefdescription>
+    <detaileddescription>
+<para><linebreak/>
+ <image type="html" name="main_wxlogo.png"></image>
+</para><para><simplesect kind="author"><para>Julian Smart, Vadim Zeitlin, Robin Dunn, Stefan Csomor, Bryan Petty, Francesco Montorsi, Robert Roebling et al</para></simplesect>
+<simplesect kind="date"><para>March 8, 2018</para></simplesect>
+<linebreak/>
+ Welcome to wxWidgets, a stable and powerful open source framework for developing native cross-platform GUI applications in C++!</para><para><linebreak/>
+ If you are new to wxWidgets, please start with the <ref refid="page_introduction" kindref="compound">introduction</ref> and follow with the <ref refid="page_topics" kindref="compound">programming guides</ref>, with maybe a look at <ref refid="page_samples" kindref="compound">the samples</ref> as you go. If you are already familiar with wxWidgets, please read about <ref refid="overview_changes_since28" kindref="compound">the changes</ref> in the latest version compared to 2.8 series. And you can also follow the links in the reference section or jump directly to the <ulink url="classes.html">alphabetical list of classes</ulink> to find out more about the topic you are interested in.</para><sect1 id="index_1manual_user">
+<title>User Manual</title>
+<para><itemizedlist>
+<listitem><para><ref refid="page_introduction" kindref="compound">Introduction</ref> </para></listitem>
+<listitem><para><ref refid="page_topics" kindref="compound">Programming Guides</ref> </para></listitem>
+<listitem><para><ref refid="page_libs" kindref="compound">Library List</ref> </para></listitem>
+<listitem><para><ref refid="page_class_cat" kindref="compound">Overview of Available Classes</ref> </para></listitem>
+<listitem><para><ref refid="overview_changes_since28" kindref="compound">Changes Since wxWidgets 2.8</ref></para></listitem>
+</itemizedlist>
+</para></sect1>
+<sect1 id="index_1manual_reference">
+<title>Reference</title>
+<para><itemizedlist>
+<listitem><para><ref refid="group__group__class" kindref="compound">Class List by Category</ref> </para></listitem>
+<listitem><para><ref refid="group__group__funcmacro" kindref="compound">Functions and Macros by Category</ref> </para></listitem>
+<listitem><para><ref refid="page_constants" kindref="compound">Constants</ref></para></listitem>
+</itemizedlist>
+</para></sect1>
+<sect1 id="index_1manual_misc">
+<title>Other Information</title>
+<para><itemizedlist>
+<listitem><para><ref refid="page_samples" kindref="compound">Samples Overview</ref> </para></listitem>
+<listitem><para><ref refid="page_utils" kindref="compound">Utilities Overview</ref> </para></listitem>
+<listitem><para><ref refid="page_translations" kindref="compound">Translations to Other Languages</ref> </para></listitem>
+<listitem><para><ref refid="page_multiplatform" kindref="compound">Cross-Platform Development Tips</ref> </para></listitem>
+<listitem><para><ref refid="page_copyright" kindref="compound">Copyrights and Licenses</ref> </para></listitem>
+</itemizedlist>
+</para></sect1>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

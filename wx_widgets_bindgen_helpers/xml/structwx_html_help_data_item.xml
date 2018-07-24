@@ -1,0 +1,168 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="structwx_html_help_data_item" kind="class" language="C++" prot="public">
+    <compoundname>wxHtmlHelpDataItem</compoundname>
+    <includes local="no">wx/html/helpdata.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structwx_html_help_data_item_1a3a87974aacc797c25044bac53b5880c3" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int wxHtmlHelpDataItem::level</definition>
+        <argsstring></argsstring>
+        <name>level</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/html/helpdata.h" line="54" column="1" bodyfile="interface/wx/html/helpdata.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwx_html_help_data_item_1a7140a79573b88edbeefbf62e107d3a1e" prot="public" static="no" mutable="no">
+        <type><ref refid="structwx_html_help_data_item" kindref="compound">wxHtmlHelpDataItem</ref> *</type>
+        <definition>wxHtmlHelpDataItem* wxHtmlHelpDataItem::parent</definition>
+        <argsstring></argsstring>
+        <name>parent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/html/helpdata.h" line="55" column="1" bodyfile="interface/wx/html/helpdata.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwx_html_help_data_item_1af9842cf2c0d0a73765bc5d4f4bb25280" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int wxHtmlHelpDataItem::id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/html/helpdata.h" line="56" column="1" bodyfile="interface/wx/html/helpdata.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwx_html_help_data_item_1a805159d52c68f4ba78b8a09361a82f55" prot="public" static="no" mutable="no">
+        <type><ref refid="classwx_string" kindref="compound">wxString</ref></type>
+        <definition>wxString wxHtmlHelpDataItem::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/html/helpdata.h" line="57" column="1" bodyfile="interface/wx/html/helpdata.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwx_html_help_data_item_1aabf748dc16dbda6ee6c68aca1b7570b4" prot="public" static="no" mutable="no">
+        <type><ref refid="classwx_string" kindref="compound">wxString</ref></type>
+        <definition>wxString wxHtmlHelpDataItem::page</definition>
+        <argsstring></argsstring>
+        <name>page</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/html/helpdata.h" line="58" column="1" bodyfile="interface/wx/html/helpdata.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwx_html_help_data_item_1a262573662d3019dfb7ff973e33d61bdc" prot="public" static="no" mutable="no">
+        <type><ref refid="classwx_html_book_record" kindref="compound">wxHtmlBookRecord</ref> *</type>
+        <definition>wxHtmlBookRecord* wxHtmlHelpDataItem::book</definition>
+        <argsstring></argsstring>
+        <name>book</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/html/helpdata.h" line="59" column="1" bodyfile="interface/wx/html/helpdata.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structwx_html_help_data_item_1aed529cc1aa770960edcf359a3df3eae7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxHtmlHelpDataItem::wxHtmlHelpDataItem</definition>
+        <argsstring>()</argsstring>
+        <name>wxHtmlHelpDataItem</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/html/helpdata.h" line="52" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="structwx_html_help_data_item_1a495b099e11ef32f7452384b58a100d2f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_string" kindref="compound">wxString</ref></type>
+        <definition>wxString wxHtmlHelpDataItem::GetFullPath</definition>
+        <argsstring>() const</argsstring>
+        <name>GetFullPath</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/html/helpdata.h" line="62" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="structwx_html_help_data_item_1ae1035142b8db68806bbf0d9437293edb" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_string" kindref="compound">wxString</ref></type>
+        <definition>wxString wxHtmlHelpDataItem::GetIndentedName</definition>
+        <argsstring>() const</argsstring>
+        <name>GetIndentedName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/html/helpdata.h" line="65" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Helper class for <ref refid="classwx_html_help_data" kindref="compound">wxHtmlHelpData</ref>. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="3388">
+        <label>wxString</label>
+        <link refid="classwx_string"/>
+      </node>
+      <node id="3386">
+        <label>wxHtmlHelpDataItem</label>
+        <link refid="structwx_html_help_data_item"/>
+        <childnode refid="3386" relation="usage">
+          <edgelabel>parent</edgelabel>
+        </childnode>
+        <childnode refid="3387" relation="usage">
+          <edgelabel>book</edgelabel>
+        </childnode>
+        <childnode refid="3388" relation="usage">
+          <edgelabel>page</edgelabel>
+          <edgelabel>name</edgelabel>
+        </childnode>
+      </node>
+      <node id="3387">
+        <label>wxHtmlBookRecord</label>
+        <link refid="classwx_html_book_record"/>
+      </node>
+    </collaborationgraph>
+    <location file="interface/wx/html/helpdata.h" line="51" column="1" bodyfile="interface/wx/html/helpdata.h" bodystart="50" bodyend="66"/>
+    <listofallmembers>
+      <member refid="structwx_html_help_data_item_1a262573662d3019dfb7ff973e33d61bdc" prot="public" virt="non-virtual"><scope>wxHtmlHelpDataItem</scope><name>book</name></member>
+      <member refid="structwx_html_help_data_item_1a495b099e11ef32f7452384b58a100d2f" prot="public" virt="non-virtual"><scope>wxHtmlHelpDataItem</scope><name>GetFullPath</name></member>
+      <member refid="structwx_html_help_data_item_1ae1035142b8db68806bbf0d9437293edb" prot="public" virt="non-virtual"><scope>wxHtmlHelpDataItem</scope><name>GetIndentedName</name></member>
+      <member refid="structwx_html_help_data_item_1af9842cf2c0d0a73765bc5d4f4bb25280" prot="public" virt="non-virtual"><scope>wxHtmlHelpDataItem</scope><name>id</name></member>
+      <member refid="structwx_html_help_data_item_1a3a87974aacc797c25044bac53b5880c3" prot="public" virt="non-virtual"><scope>wxHtmlHelpDataItem</scope><name>level</name></member>
+      <member refid="structwx_html_help_data_item_1a805159d52c68f4ba78b8a09361a82f55" prot="public" virt="non-virtual"><scope>wxHtmlHelpDataItem</scope><name>name</name></member>
+      <member refid="structwx_html_help_data_item_1aabf748dc16dbda6ee6c68aca1b7570b4" prot="public" virt="non-virtual"><scope>wxHtmlHelpDataItem</scope><name>page</name></member>
+      <member refid="structwx_html_help_data_item_1a7140a79573b88edbeefbf62e107d3a1e" prot="public" virt="non-virtual"><scope>wxHtmlHelpDataItem</scope><name>parent</name></member>
+      <member refid="structwx_html_help_data_item_1aed529cc1aa770960edcf359a3df3eae7" prot="public" virt="non-virtual"><scope>wxHtmlHelpDataItem</scope><name>wxHtmlHelpDataItem</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

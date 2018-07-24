@@ -1,0 +1,153 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_g_b_span" kind="class" language="C++" prot="public">
+    <compoundname>wxGBSpan</compoundname>
+    <includes local="no">wx/gbsizer.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classwx_g_b_span_1a8f5790cd566fa20328c97420f5317e93" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxGBSpan::wxGBSpan</definition>
+        <argsstring>()</argsstring>
+        <name>wxGBSpan</name>
+        <briefdescription>
+<para>Default constructor, setting the rowspan and colspan to (1,1) meaning that the item occupies one cell in each direction. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/gbsizer.h" line="325" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_g_b_span_1a51a3cdf14f004d4f5b8e33d20b7ea636" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxGBSpan::wxGBSpan</definition>
+        <argsstring>(int rowspan, int colspan)</argsstring>
+        <name>wxGBSpan</name>
+        <param>
+          <type>int</type>
+          <declname>rowspan</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>colspan</declname>
+        </param>
+        <briefdescription>
+<para>Construct a new <ref refid="classwx_g_b_span" kindref="compound">wxGBSpan</ref>, setting the <emphasis>rowspan</emphasis> and <emphasis>colspan</emphasis>. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/gbsizer.h" line="329" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_g_b_span_1af98e9163ab73c7ea375b2e3a4c9e5d99" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int wxGBSpan::GetColspan</definition>
+        <argsstring>() const</argsstring>
+        <name>GetColspan</name>
+        <briefdescription>
+<para>Get the current colspan value. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/gbsizer.h" line="334" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_g_b_span_1a6ea613b4794bd9ce684e4d22a00d8974" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int wxGBSpan::GetRowspan</definition>
+        <argsstring>() const</argsstring>
+        <name>GetRowspan</name>
+        <briefdescription>
+<para>Get the current rowspan value. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/gbsizer.h" line="339" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_g_b_span_1a58a5d23ca81c8053d0ddcec0e9ad79e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxGBSpan::SetColspan</definition>
+        <argsstring>(int colspan)</argsstring>
+        <name>SetColspan</name>
+        <param>
+          <type>int</type>
+          <declname>colspan</declname>
+        </param>
+        <briefdescription>
+<para>Set a new colspan value. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/gbsizer.h" line="344" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_g_b_span_1a3d5755e3cb64405ebbbfc984b38aa287" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxGBSpan::SetRowspan</definition>
+        <argsstring>(int rowspan)</argsstring>
+        <name>SetRowspan</name>
+        <param>
+          <type>int</type>
+          <declname>rowspan</declname>
+        </param>
+        <briefdescription>
+<para>Set a new rowspan value. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/gbsizer.h" line="349" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_g_b_span_1a6c131385757044557da90b574650df07" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxGBSpan::operator!=</definition>
+        <argsstring>(const wxGBSpan &amp;o) const</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type>const <ref refid="classwx_g_b_span" kindref="compound">wxGBSpan</ref> &amp;</type>
+          <declname>o</declname>
+        </param>
+        <briefdescription>
+<para>Compare inequality of two wxGBSpans. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/gbsizer.h" line="354" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_g_b_span_1a55ef73d3e25bd2d01cc326d70a920d32" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxGBSpan::operator==</definition>
+        <argsstring>(const wxGBSpan &amp;o) const</argsstring>
+        <name>operator==</name>
+        <param>
+          <type>const <ref refid="classwx_g_b_span" kindref="compound">wxGBSpan</ref> &amp;</type>
+          <declname>o</declname>
+        </param>
+        <briefdescription>
+<para>Compare equality of two wxGBSpans. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/gbsizer.h" line="359" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class is used to hold the row and column spanning attributes of items in a <ref refid="classwx_grid_bag_sizer" kindref="compound">wxGridBagSizer</ref>. </para>    </briefdescription>
+    <detaileddescription>
+<para><heading level="2"></heading>
+</para><para>Library:<nonbreakablespace/><nonbreakablespace/><ref refid="page_libs_1page_libs_wxcore" kindref="member">wxCore</ref> &lt;&gt;&lt; =&apos;&apos;&gt;:&lt;/&gt;&amp;;&amp;;&lt; =&apos;&apos;&gt;\ &lt;/&gt;&lt;/&gt; </para>    </detaileddescription>
+    <location file="interface/wx/gbsizer.h" line="319" column="1" bodyfile="interface/wx/gbsizer.h" bodystart="318" bodyend="360"/>
+    <listofallmembers>
+      <member refid="classwx_g_b_span_1af98e9163ab73c7ea375b2e3a4c9e5d99" prot="public" virt="non-virtual"><scope>wxGBSpan</scope><name>GetColspan</name></member>
+      <member refid="classwx_g_b_span_1a6ea613b4794bd9ce684e4d22a00d8974" prot="public" virt="non-virtual"><scope>wxGBSpan</scope><name>GetRowspan</name></member>
+      <member refid="classwx_g_b_span_1a6c131385757044557da90b574650df07" prot="public" virt="non-virtual"><scope>wxGBSpan</scope><name>operator!=</name></member>
+      <member refid="classwx_g_b_span_1a55ef73d3e25bd2d01cc326d70a920d32" prot="public" virt="non-virtual"><scope>wxGBSpan</scope><name>operator==</name></member>
+      <member refid="classwx_g_b_span_1a58a5d23ca81c8053d0ddcec0e9ad79e9" prot="public" virt="non-virtual"><scope>wxGBSpan</scope><name>SetColspan</name></member>
+      <member refid="classwx_g_b_span_1a3d5755e3cb64405ebbbfc984b38aa287" prot="public" virt="non-virtual"><scope>wxGBSpan</scope><name>SetRowspan</name></member>
+      <member refid="classwx_g_b_span_1a8f5790cd566fa20328c97420f5317e93" prot="public" virt="non-virtual"><scope>wxGBSpan</scope><name>wxGBSpan</name></member>
+      <member refid="classwx_g_b_span_1a51a3cdf14f004d4f5b8e33d20b7ea636" prot="public" virt="non-virtual"><scope>wxGBSpan</scope><name>wxGBSpan</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

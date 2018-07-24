@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="combo_8h" kind="file" language="C++">
+    <compoundname>combo.h</compoundname>
+    <innerclass refid="classwx_combo_popup" prot="public">wxComboPopup</innerclass>
+    <innerclass refid="structwx_combo_ctrl_features" prot="public">wxComboCtrlFeatures</innerclass>
+    <innerclass refid="classwx_combo_ctrl" prot="public">wxComboCtrl</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="combo_8h_1a0411cd49bb5b71852cecd93bcbf0ca2d" prot="public" static="no" strong="no">
+        <type></type>
+        <name>@7</name>
+        <enumvalue id="combo_8h_1a0411cd49bb5b71852cecd93bcbf0ca2da596e0289ca631129564d211dd5017376" prot="public">
+          <name>wxCC_SPECIAL_DCLICK</name>
+          <initializer>= 0x0100</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="combo_8h_1a0411cd49bb5b71852cecd93bcbf0ca2dab5a1540041b13924476c571de1992d6d" prot="public">
+          <name>wxCC_STD_BUTTON</name>
+          <initializer>= 0x0200</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/combo.h" line="12" column="1" bodyfile="interface/wx/combo.h" bodystart="11" bodyend="19"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="interface/wx/combo.h"/>
+  </compounddef>
+</doxygen>

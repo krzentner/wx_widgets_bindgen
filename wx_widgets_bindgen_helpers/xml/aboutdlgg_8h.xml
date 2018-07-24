@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="aboutdlgg_8h" kind="file" language="C++">
+    <compoundname>aboutdlgg.h</compoundname>
+    <innerclass refid="classwx_generic_about_dialog" prot="public">wxGenericAboutDialog</innerclass>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="aboutdlgg_8h_1a2e27fd9a2a2c11e73030deb83a065d23" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxGenericAboutBox</definition>
+        <argsstring>(const wxAboutDialogInfo &amp;info, wxWindow *parent=NULL)</argsstring>
+        <name>wxGenericAboutBox</name>
+        <param>
+          <type>const <ref refid="classwx_about_dialog_info" kindref="compound">wxAboutDialogInfo</ref> &amp;</type>
+          <declname>info</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_window" kindref="compound">wxWindow</ref> *</type>
+          <declname>parent</declname>
+          <defval>NULL</defval>
+        </param>
+        <briefdescription>
+<para>Show generic about dialog. </para>        </briefdescription>
+        <detaileddescription>
+<para>This function does the same thing as <ref refid="group__group__funcmacro__dialog_1ga6d8198c95b97786f206abfde010a4d8f" kindref="member">wxAboutBox()</ref> except that it always uses the generic wxWidgets version of the dialog instead of the native one. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/generic/aboutdlgg.h" line="117" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="interface/wx/generic/aboutdlgg.h"/>
+  </compounddef>
+</doxygen>

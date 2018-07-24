@@ -1,0 +1,337 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_memory_f_s_handler" kind="class" language="C++" prot="public">
+    <compoundname>wxMemoryFSHandler</compoundname>
+    <basecompoundref refid="classwx_file_system_handler" prot="public" virt="non-virtual">wxFileSystemHandler</basecompoundref>
+    <includes local="no">wx/fs_mem.h</includes>
+      <sectiondef kind="user-defined">
+      <memberdef kind="function" id="classwx_memory_f_s_handler_1a3f492723f5ae6353c6f2ef8ce8af676b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void wxMemoryFSHandler::AddFile</definition>
+        <argsstring>(const wxString &amp;filename, wxImage &amp;image, wxBitmapType type)</argsstring>
+        <name>AddFile</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>filename</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_image" kindref="compound">wxImage</ref> &amp;</type>
+          <declname>image</declname>
+        </param>
+        <param>
+          <type><ref refid="gdicmn_8h_1a90a1eb6d85b5044a99b706fd979f27f5" kindref="member">wxBitmapType</ref></type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+<para>Adds a file to the list of the files stored in memory. </para>        </briefdescription>
+        <detaileddescription>
+<para>Stored data (bitmap, text or raw data) will be copied into private memory stream and available under name <computeroutput>&quot;memory:&quot;</computeroutput> + <emphasis>filename</emphasis>.</para><para><simplesect kind="note"><para>you must use a <emphasis>type</emphasis> value (aka image format) that wxWidgets can save (e.g. JPG, PNG, see <ref refid="classwx_image" kindref="compound">wxImage</ref> documentation)!</para></simplesect>
+<simplesect kind="see"><para><ref refid="classwx_memory_f_s_handler_1a1a4c2fa90f2d747eeaf532decd14eda7" kindref="member">AddFileWithMimeType()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/fs_mem.h" line="91" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_memory_f_s_handler_1adf1fa7dd553e0ae001d458e8114c98b5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void wxMemoryFSHandler::AddFile</definition>
+        <argsstring>(const wxString &amp;filename, const wxBitmap &amp;bitmap, wxBitmapType type)</argsstring>
+        <name>AddFile</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>filename</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_bitmap" kindref="compound">wxBitmap</ref> &amp;</type>
+          <declname>bitmap</declname>
+        </param>
+        <param>
+          <type><ref refid="gdicmn_8h_1a90a1eb6d85b5044a99b706fd979f27f5" kindref="member">wxBitmapType</ref></type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+<para>Adds a file to the list of the files stored in memory. </para>        </briefdescription>
+        <detaileddescription>
+<para>Stored data (bitmap, text or raw data) will be copied into private memory stream and available under name <computeroutput>&quot;memory:&quot;</computeroutput> + <emphasis>filename</emphasis>.</para><para><simplesect kind="note"><para>you must use a <emphasis>type</emphasis> value (aka image format) that wxWidgets can save (e.g. JPG, PNG, see <ref refid="classwx_image" kindref="compound">wxImage</ref> documentation)!</para></simplesect>
+<simplesect kind="see"><para><ref refid="classwx_memory_f_s_handler_1a1a4c2fa90f2d747eeaf532decd14eda7" kindref="member">AddFileWithMimeType()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/fs_mem.h" line="92" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_memory_f_s_handler_1ade9cfc9ef242c0ffeed481ac12f90c06" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void wxMemoryFSHandler::AddFile</definition>
+        <argsstring>(const wxString &amp;filename, const wxString &amp;textdata)</argsstring>
+        <name>AddFile</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>filename</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>textdata</declname>
+        </param>
+        <briefdescription>
+<para>Adds a file to the list of the files stored in memory. </para>        </briefdescription>
+        <detaileddescription>
+<para>Stored data (bitmap, text or raw data) will be copied into private memory stream and available under name <computeroutput>&quot;memory:&quot;</computeroutput> + <emphasis>filename</emphasis>.</para><para><simplesect kind="note"><para>you must use a <emphasis>type</emphasis> value (aka image format) that wxWidgets can save (e.g. JPG, PNG, see <ref refid="classwx_image" kindref="compound">wxImage</ref> documentation)!</para></simplesect>
+<simplesect kind="see"><para><ref refid="classwx_memory_f_s_handler_1a1a4c2fa90f2d747eeaf532decd14eda7" kindref="member">AddFileWithMimeType()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/fs_mem.h" line="93" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_memory_f_s_handler_1aa7182560600cd91c981fdc7a3f45a9ce" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void wxMemoryFSHandler::AddFile</definition>
+        <argsstring>(const wxString &amp;filename, const void *binarydata, size_t size)</argsstring>
+        <name>AddFile</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>filename</declname>
+        </param>
+        <param>
+          <type>const void *</type>
+          <declname>binarydata</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+<para>Adds a file to the list of the files stored in memory. </para>        </briefdescription>
+        <detaileddescription>
+<para>Stored data (bitmap, text or raw data) will be copied into private memory stream and available under name <computeroutput>&quot;memory:&quot;</computeroutput> + <emphasis>filename</emphasis>.</para><para><simplesect kind="note"><para>you must use a <emphasis>type</emphasis> value (aka image format) that wxWidgets can save (e.g. JPG, PNG, see <ref refid="classwx_image" kindref="compound">wxImage</ref> documentation)!</para></simplesect>
+<simplesect kind="see"><para><ref refid="classwx_memory_f_s_handler_1a1a4c2fa90f2d747eeaf532decd14eda7" kindref="member">AddFileWithMimeType()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/fs_mem.h" line="94" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="user-defined">
+      <memberdef kind="function" id="classwx_memory_f_s_handler_1a1a4c2fa90f2d747eeaf532decd14eda7" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void wxMemoryFSHandler::AddFileWithMimeType</definition>
+        <argsstring>(const wxString &amp;filename, const wxString &amp;textdata, const wxString &amp;mimetype)</argsstring>
+        <name>AddFileWithMimeType</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>filename</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>textdata</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>mimetype</declname>
+        </param>
+        <briefdescription>
+<para>Like <ref refid="classwx_memory_f_s_handler_1a3f492723f5ae6353c6f2ef8ce8af676b" kindref="member">AddFile()</ref>, but lets you explicitly specify added file&apos;s MIME type. </para>        </briefdescription>
+        <detaileddescription>
+<para>This version should be used whenever you know the MIME type, because it makes accessing the files faster.</para><para><simplesect kind="since"><para>2.8.5</para></simplesect>
+<simplesect kind="see"><para><ref refid="classwx_memory_f_s_handler_1a3f492723f5ae6353c6f2ef8ce8af676b" kindref="member">AddFile()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/fs_mem.h" line="109" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_memory_f_s_handler_1a1e1d1e096824bb42d787d1c1f42c015a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void wxMemoryFSHandler::AddFileWithMimeType</definition>
+        <argsstring>(const wxString &amp;filename, const void *binarydata, size_t size, const wxString &amp;mimetype)</argsstring>
+        <name>AddFileWithMimeType</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>filename</declname>
+        </param>
+        <param>
+          <type>const void *</type>
+          <declname>binarydata</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>mimetype</declname>
+        </param>
+        <briefdescription>
+<para>Like <ref refid="classwx_memory_f_s_handler_1a3f492723f5ae6353c6f2ef8ce8af676b" kindref="member">AddFile()</ref>, but lets you explicitly specify added file&apos;s MIME type. </para>        </briefdescription>
+        <detaileddescription>
+<para>This version should be used whenever you know the MIME type, because it makes accessing the files faster.</para><para><simplesect kind="since"><para>2.8.5</para></simplesect>
+<simplesect kind="see"><para><ref refid="classwx_memory_f_s_handler_1a3f492723f5ae6353c6f2ef8ce8af676b" kindref="member">AddFile()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/fs_mem.h" line="112" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classwx_memory_f_s_handler_1a246d22b003a3296f2a53c34359bd8094" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxMemoryFSHandler::wxMemoryFSHandler</definition>
+        <argsstring>()</argsstring>
+        <name>wxMemoryFSHandler</name>
+        <briefdescription>
+<para>Constructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/fs_mem.h" line="77" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classwx_memory_f_s_handler_1ac570d507c7e570153a77fadf416ccacd" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void wxMemoryFSHandler::RemoveFile</definition>
+        <argsstring>(const wxString &amp;filename)</argsstring>
+        <name>RemoveFile</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>filename</declname>
+        </param>
+        <briefdescription>
+<para>Removes a file from memory FS and frees the occupied memory. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/fs_mem.h" line="121" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This <ref refid="classwx_file_system" kindref="compound">wxFileSystem</ref> handler can store arbitrary data in memory stream and make them accessible via an URL. </para>    </briefdescription>
+    <detaileddescription>
+<para>It is particularly suitable for storing bitmaps from resources or included XPM files so that they can be used with wxHTML or <ref refid="classwx_web_view" kindref="compound">wxWebView</ref>.</para><para>Filenames are prefixed with <computeroutput>&quot;memory:&quot;</computeroutput>, e.g. <computeroutput>&quot;memory:myfile.html&quot;</computeroutput>.</para><para>Example:</para><para><programlisting><codeline><highlight class="normal">#ifndef<sp/>__WXMSW__</highlight></codeline>
+<codeline><highlight class="normal">#include<sp/>&quot;logo.xpm&quot;</highlight></codeline>
+<codeline><highlight class="normal">#endif</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">void<sp/>MyFrame::OnAbout(wxCommandEvent&amp;)</highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>wxFileSystem::AddHandler(new<sp/>wxMemoryFSHandler);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>wxMemoryFSHandler::AddFile(&quot;logo.png&quot;,<sp/>wxBITMAP(logo),<sp/>wxBITMAP_TYPE_PNG);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>wxMemoryFSHandler::AddFile(&quot;about.htm&quot;,</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&quot;&lt;html&gt;&lt;body&gt;About:<sp/>&quot;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&quot;&lt;img<sp/>src=\&quot;memory:logo.png\&quot;&gt;&lt;/body&gt;&lt;/html&gt;&quot;);</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>wxDialog<sp/>dlg(this,<sp/>-1,<sp/>wxString(_(&quot;About&quot;)));</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>wxBoxSizer<sp/>*topsizer;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>topsizer<sp/>=<sp/>new<sp/>wxBoxSizer(wxVERTICAL);</highlight></codeline>
+<codeline><highlight class="normal">#ifdef<sp/>USE_WEBVIEW</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>wxWebView*<sp/>browser<sp/>=<sp/>wxWebView::New(&amp;dlg,<sp/>wxID_ANY,<sp/>wxWebViewDefaultURLStr,</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>wxDefaultPosition,<sp/>wxSize(380,<sp/>160));</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>browser-&gt;RegisterHandler(wxSharedPtr&lt;wxWebViewHandler&gt;(new<sp/>wxWebViewFSHandler(&quot;memory&quot;)));</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>browser-&gt;LoadURL(&quot;memory:about.htm&quot;);</highlight></codeline>
+<codeline><highlight class="normal">#else<sp/>//<sp/>Use<sp/>wxHtml</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>wxHtmlWindow<sp/>*browser;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>browser<sp/>=<sp/>new<sp/>wxHtmlWindow(&amp;dlg,<sp/>-1,<sp/>wxDefaultPosition,</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>wxSize(380,<sp/>160),<sp/>wxHW_SCROLLBAR_NEVER);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>browser-&gt;SetBorders(0);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>browser-&gt;LoadPage(&quot;memory:about.htm&quot;);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>browser-&gt;SetSize(browser-&gt;GetInternalRepresentation()-&gt;GetWidth(),</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>browser-&gt;GetInternalRepresentation()-&gt;GetHeight());</highlight></codeline>
+<codeline><highlight class="normal">#endif</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>topsizer-&gt;Add(browser,<sp/>1,<sp/>wxALL,<sp/>10);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>topsizer-&gt;Add(new<sp/>wxStaticLine(&amp;dlg,<sp/>-1),<sp/>0,<sp/>wxEXPAND<sp/>|<sp/>wxLEFT<sp/>|<sp/>wxRIGHT,<sp/>10);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>topsizer-&gt;Add(new<sp/>wxButton(&amp;dlg,<sp/>wxID_OK,<sp/>&quot;Ok&quot;),</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0,<sp/>wxALL<sp/>|<sp/>wxALIGN_RIGHT,<sp/>15);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>dlg.SetAutoLayout(true);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>dlg.SetSizer(topsizer);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>topsizer-&gt;Fit(&amp;dlg);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>dlg.Centre();</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>dlg.ShowModal();</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>wxMemoryFSHandler::RemoveFile(&quot;logo.png&quot;);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>wxMemoryFSHandler::RemoveFile(&quot;about.htm&quot;);</highlight></codeline>
+<codeline><highlight class="normal">}</highlight></codeline>
+</programlisting></para><para><heading level="2"></heading>
+</para><para>Library:<nonbreakablespace/><nonbreakablespace/><ref refid="page_libs_1page_libs_wxbase" kindref="member">wxBase</ref> &lt;&gt;&lt; =&apos;&apos;&gt;:&lt;/&gt;&amp;;&amp;;&lt; =&apos;&apos;&gt;\ &lt;/&gt;&lt;/&gt;</para><para><simplesect kind="see"><para><ref refid="classwx_memory_f_s_handler_1a1a4c2fa90f2d747eeaf532decd14eda7" kindref="member">wxMemoryFSHandler::AddFileWithMimeType</ref> </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="4144">
+        <label>wxObject</label>
+        <link refid="classwx_object"/>
+      </node>
+      <node id="4142">
+        <label>wxMemoryFSHandler</label>
+        <link refid="classwx_memory_f_s_handler"/>
+        <childnode refid="4143" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4143">
+        <label>wxFileSystemHandler</label>
+        <link refid="classwx_file_system_handler"/>
+        <childnode refid="4144" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4147">
+        <label>wxObject</label>
+        <link refid="classwx_object"/>
+        <childnode refid="4148" relation="usage">
+          <edgelabel>m_refData</edgelabel>
+        </childnode>
+      </node>
+      <node id="4145">
+        <label>wxMemoryFSHandler</label>
+        <link refid="classwx_memory_f_s_handler"/>
+        <childnode refid="4146" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4146">
+        <label>wxFileSystemHandler</label>
+        <link refid="classwx_file_system_handler"/>
+        <childnode refid="4147" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4148">
+        <label>wxObjectRefData</label>
+        <link refid="classwx_object_ref_data"/>
+      </node>
+    </collaborationgraph>
+    <location file="interface/wx/fs_mem.h" line="72" column="1" bodyfile="interface/wx/fs_mem.h" bodystart="71" bodyend="122"/>
+    <listofallmembers>
+      <member refid="classwx_memory_f_s_handler_1a3f492723f5ae6353c6f2ef8ce8af676b" prot="public" virt="non-virtual"><scope>wxMemoryFSHandler</scope><name>AddFile</name></member>
+      <member refid="classwx_memory_f_s_handler_1adf1fa7dd553e0ae001d458e8114c98b5" prot="public" virt="non-virtual"><scope>wxMemoryFSHandler</scope><name>AddFile</name></member>
+      <member refid="classwx_memory_f_s_handler_1ade9cfc9ef242c0ffeed481ac12f90c06" prot="public" virt="non-virtual"><scope>wxMemoryFSHandler</scope><name>AddFile</name></member>
+      <member refid="classwx_memory_f_s_handler_1aa7182560600cd91c981fdc7a3f45a9ce" prot="public" virt="non-virtual"><scope>wxMemoryFSHandler</scope><name>AddFile</name></member>
+      <member refid="classwx_memory_f_s_handler_1a1a4c2fa90f2d747eeaf532decd14eda7" prot="public" virt="non-virtual"><scope>wxMemoryFSHandler</scope><name>AddFileWithMimeType</name></member>
+      <member refid="classwx_memory_f_s_handler_1a1e1d1e096824bb42d787d1c1f42c015a" prot="public" virt="non-virtual"><scope>wxMemoryFSHandler</scope><name>AddFileWithMimeType</name></member>
+      <member refid="classwx_object_1a60204063f3cc3aa2fa1c7ff5bda9eb13" prot="protected" virt="non-virtual"><scope>wxMemoryFSHandler</scope><name>AllocExclusive</name></member>
+      <member refid="classwx_file_system_handler_1a421720c382a63c7117076757567c762f" prot="public" virt="pure-virtual"><scope>wxMemoryFSHandler</scope><name>CanOpen</name></member>
+      <member refid="classwx_object_1a436fc8fe68cf8a31000296d9cd3d2427" prot="protected" virt="virtual"><scope>wxMemoryFSHandler</scope><name>CloneRefData</name></member>
+      <member refid="classwx_object_1a3f4f497c65cef611e121c41f21dd5ccc" prot="protected" virt="virtual"><scope>wxMemoryFSHandler</scope><name>CreateRefData</name></member>
+      <member refid="classwx_file_system_handler_1a90b7fe424e6c5cd53c9900806b3cacaa" prot="public" virt="virtual"><scope>wxMemoryFSHandler</scope><name>FindFirst</name></member>
+      <member refid="classwx_file_system_handler_1a0c07370b4135460f39228d49c3d297a4" prot="public" virt="virtual"><scope>wxMemoryFSHandler</scope><name>FindNext</name></member>
+      <member refid="classwx_file_system_handler_1a3b928b08cc72f225b94fed6077c37d52" prot="protected" virt="non-virtual"><scope>wxMemoryFSHandler</scope><name>GetAnchor</name></member>
+      <member refid="classwx_object_1ae6d365f2556b26767ced8410c5e839d0" prot="public" virt="virtual"><scope>wxMemoryFSHandler</scope><name>GetClassInfo</name></member>
+      <member refid="classwx_file_system_handler_1a3f56ed8be86e2ddaf3af0d20c17aa067" prot="protected" virt="non-virtual"><scope>wxMemoryFSHandler</scope><name>GetLeftLocation</name></member>
+      <member refid="classwx_file_system_handler_1a95c04756cd89cc2a5d66116bbbb3acdc" prot="public" virt="non-virtual"><scope>wxMemoryFSHandler</scope><name>GetMimeTypeFromExt</name></member>
+      <member refid="classwx_file_system_handler_1adf6e84f1ba33f047c15fb33f343b523a" prot="protected" virt="non-virtual"><scope>wxMemoryFSHandler</scope><name>GetProtocol</name></member>
+      <member refid="classwx_object_1af3c6c76a775864832f1536d3c0de3a2b" prot="public" virt="non-virtual"><scope>wxMemoryFSHandler</scope><name>GetRefData</name></member>
+      <member refid="classwx_file_system_handler_1a759935b4792339bf97d6c6529bffb966" prot="protected" virt="non-virtual"><scope>wxMemoryFSHandler</scope><name>GetRightLocation</name></member>
+      <member refid="classwx_object_1a3c7115ef4132dcee0c4fc34e84d7fced" prot="public" virt="non-virtual"><scope>wxMemoryFSHandler</scope><name>IsKindOf</name></member>
+      <member refid="classwx_object_1a059373c494c2369d7db2a556efef8ecf" prot="public" virt="non-virtual"><scope>wxMemoryFSHandler</scope><name>IsSameAs</name></member>
+      <member refid="classwx_object_1a9e31954530a0abd54982effc443ed2b8" prot="protected" virt="non-virtual"><scope>wxMemoryFSHandler</scope><name>m_refData</name></member>
+      <member refid="classwx_file_system_handler_1a1295897a496f83c538d4dcf8897301e2" prot="public" virt="pure-virtual"><scope>wxMemoryFSHandler</scope><name>OpenFile</name></member>
+      <member refid="classwx_object_1a07b8f34f5afc5743195c5fed052f55d3" prot="public" virt="non-virtual"><scope>wxMemoryFSHandler</scope><name>operator delete</name></member>
+      <member refid="classwx_object_1a96fa423a1dbc212c8227a5d83825971f" prot="public" virt="non-virtual"><scope>wxMemoryFSHandler</scope><name>operator new</name></member>
+      <member refid="classwx_object_1a2f6f1aa51fe9fc2b1415ca4211a90e9e" prot="public" virt="non-virtual"><scope>wxMemoryFSHandler</scope><name>Ref</name></member>
+      <member refid="classwx_memory_f_s_handler_1ac570d507c7e570153a77fadf416ccacd" prot="public" virt="non-virtual"><scope>wxMemoryFSHandler</scope><name>RemoveFile</name></member>
+      <member refid="classwx_object_1afab780710f2adc1bb33310e27590140b" prot="public" virt="non-virtual"><scope>wxMemoryFSHandler</scope><name>SetRefData</name></member>
+      <member refid="classwx_object_1af51efc6b1ae632fc7f0cd7ebbce9fa36" prot="public" virt="non-virtual"><scope>wxMemoryFSHandler</scope><name>UnRef</name></member>
+      <member refid="classwx_object_1a74b40e42d19a4b9e9bec0b57d62a5725" prot="public" virt="non-virtual"><scope>wxMemoryFSHandler</scope><name>UnShare</name></member>
+      <member refid="classwx_file_system_handler_1a81ce16c40bb1309cae25493e90c1bc88" prot="public" virt="non-virtual"><scope>wxMemoryFSHandler</scope><name>wxFileSystemHandler</name></member>
+      <member refid="classwx_memory_f_s_handler_1a246d22b003a3296f2a53c34359bd8094" prot="public" virt="non-virtual"><scope>wxMemoryFSHandler</scope><name>wxMemoryFSHandler</name></member>
+      <member refid="classwx_object_1acaa378363a28af421ab56ad7b46eadf0" prot="public" virt="non-virtual"><scope>wxMemoryFSHandler</scope><name>wxObject</name></member>
+      <member refid="classwx_object_1a4721b4dc9b7aff0f30904ba2ea3954cf" prot="public" virt="non-virtual"><scope>wxMemoryFSHandler</scope><name>wxObject</name></member>
+      <member refid="classwx_object_1a2a51aa8bfbab47ca2f051bcf84b3f35b" prot="public" virt="virtual"><scope>wxMemoryFSHandler</scope><name>~wxObject</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

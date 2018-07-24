@@ -1,0 +1,214 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_p_g_text_ctrl_and_button_editor" kind="class" language="C++" prot="public">
+    <compoundname>wxPGTextCtrlAndButtonEditor</compoundname>
+    <basecompoundref refid="classwx_p_g_text_ctrl_editor" prot="public" virt="non-virtual">wxPGTextCtrlEditor</basecompoundref>
+    <includes local="no">wx/propgrid/editors.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classwx_p_g_text_ctrl_and_button_editor_1afc0606865b978651874d06f5ed5324f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxPGTextCtrlAndButtonEditor::wxPGTextCtrlAndButtonEditor</definition>
+        <argsstring>()</argsstring>
+        <name>wxPGTextCtrlAndButtonEditor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/editors.h" line="325" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_p_g_text_ctrl_and_button_editor_1a5d6c839eef8a88d28f4bcf006cf7b626" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual wxPGTextCtrlAndButtonEditor::~wxPGTextCtrlAndButtonEditor</definition>
+        <argsstring>()</argsstring>
+        <name>~wxPGTextCtrlAndButtonEditor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/editors.h" line="326" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_p_g_text_ctrl_and_button_editor_1a2838945eb6e2221155756031fb0f3b1c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="classwx_string" kindref="compound">wxString</ref></type>
+        <definition>virtual wxString wxPGTextCtrlAndButtonEditor::GetName</definition>
+        <argsstring>() const</argsstring>
+        <name>GetName</name>
+        <reimplements refid="classwx_p_g_text_ctrl_editor_1a4eae3b90d36dabe1674789c5a99dbaf6">GetName</reimplements>
+        <briefdescription>
+<para>Returns pointer to the name of the editor. </para>        </briefdescription>
+        <detaileddescription>
+<para>For example, wxPGEditor_TextCtrl has name &quot;TextCtrl&quot;. If you dont&apos; need to access your custom editor by string name, then you do not need to implement this function. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/editors.h" line="327" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_p_g_text_ctrl_and_button_editor_1a9477d9a1144976030f0718f0d8a120a7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="classwx_p_g_window_list" kindref="compound">wxPGWindowList</ref></type>
+        <definition>virtual wxPGWindowList wxPGTextCtrlAndButtonEditor::CreateControls</definition>
+        <argsstring>(wxPropertyGrid *propgrid, wxPGProperty *property, const wxPoint &amp;pos, const wxSize &amp;size) const</argsstring>
+        <name>CreateControls</name>
+        <reimplements refid="classwx_p_g_text_ctrl_editor_1af461f3421124912ec2d07f7db34ca735">CreateControls</reimplements>
+        <param>
+          <type><ref refid="classwx_property_grid" kindref="compound">wxPropertyGrid</ref> *</type>
+          <declname>propgrid</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_p_g_property" kindref="compound">wxPGProperty</ref> *</type>
+          <declname>property</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_point" kindref="compound">wxPoint</ref> &amp;</type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_size" kindref="compound">wxSize</ref> &amp;</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+<para>Instantiates editor controls. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>propgrid</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="classwx_property_grid" kindref="compound">wxPropertyGrid</ref> to which the property belongs (use as parent for control).</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>property</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Property for which this method is called.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>pos</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Position, inside <ref refid="classwx_property_grid" kindref="compound">wxPropertyGrid</ref>, to create control(s) to.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>size</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Initial size for control(s).</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="remark"><para><itemizedlist>
+<listitem><para>Primary control shall use id wxPG_SUBID1, and secondary (button) control shall use wxPG_SUBID2.</para></listitem><listitem><para>Unlike in previous version of <ref refid="classwx_property_grid" kindref="compound">wxPropertyGrid</ref>, it is no longer necessary to call <ref refid="classwx_evt_handler_1a78719e8b82c9f9c6e4056b3449df1943" kindref="member">wxEvtHandler::Connect()</ref> for interesting editor events. Instead, all events from control are now automatically forwarded to <ref refid="classwx_p_g_editor_1a035fa3bee4ac87e4300df0c637a56261" kindref="member">wxPGEditor::OnEvent()</ref> and <ref refid="classwx_p_g_property_1a16fbe26240bf47ab0a9a02d21781da73" kindref="member">wxPGProperty::OnEvent()</ref>. </para></listitem></itemizedlist>
+</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/editors.h" line="329" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="5433">
+        <label>wxPGTextCtrlEditor</label>
+        <link refid="classwx_p_g_text_ctrl_editor"/>
+        <childnode refid="5434" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5435">
+        <label>wxObject</label>
+        <link refid="classwx_object"/>
+      </node>
+      <node id="5432">
+        <label>wxPGTextCtrlAndButtonEditor</label>
+        <link refid="classwx_p_g_text_ctrl_and_button_editor"/>
+        <childnode refid="5433" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5434">
+        <label>wxPGEditor</label>
+        <link refid="classwx_p_g_editor"/>
+        <childnode refid="5435" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="5437">
+        <label>wxPGTextCtrlEditor</label>
+        <link refid="classwx_p_g_text_ctrl_editor"/>
+        <childnode refid="5438" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5439">
+        <label>wxObject</label>
+        <link refid="classwx_object"/>
+        <childnode refid="5440" relation="usage">
+          <edgelabel>m_refData</edgelabel>
+        </childnode>
+      </node>
+      <node id="5436">
+        <label>wxPGTextCtrlAndButtonEditor</label>
+        <link refid="classwx_p_g_text_ctrl_and_button_editor"/>
+        <childnode refid="5437" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5438">
+        <label>wxPGEditor</label>
+        <link refid="classwx_p_g_editor"/>
+        <childnode refid="5439" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5440">
+        <label>wxObjectRefData</label>
+        <link refid="classwx_object_ref_data"/>
+      </node>
+    </collaborationgraph>
+    <location file="interface/wx/propgrid/editors.h" line="323" column="1" bodyfile="interface/wx/propgrid/editors.h" bodystart="322" bodyend="333"/>
+    <listofallmembers>
+      <member refid="classwx_object_1a60204063f3cc3aa2fa1c7ff5bda9eb13" prot="protected" virt="non-virtual"><scope>wxPGTextCtrlAndButtonEditor</scope><name>AllocExclusive</name></member>
+      <member refid="classwx_p_g_editor_1ab5483cdd96879f78eb31cd1775eac2a8" prot="public" virt="virtual"><scope>wxPGTextCtrlAndButtonEditor</scope><name>CanContainCustomImage</name></member>
+      <member refid="classwx_object_1a436fc8fe68cf8a31000296d9cd3d2427" prot="protected" virt="virtual"><scope>wxPGTextCtrlAndButtonEditor</scope><name>CloneRefData</name></member>
+      <member refid="classwx_p_g_text_ctrl_and_button_editor_1a9477d9a1144976030f0718f0d8a120a7" prot="public" virt="virtual"><scope>wxPGTextCtrlAndButtonEditor</scope><name>CreateControls</name></member>
+      <member refid="classwx_object_1a3f4f497c65cef611e121c41f21dd5ccc" prot="protected" virt="virtual"><scope>wxPGTextCtrlAndButtonEditor</scope><name>CreateRefData</name></member>
+      <member refid="classwx_p_g_editor_1a6d8f77f37726060b95ededf323177478" prot="public" virt="virtual"><scope>wxPGTextCtrlAndButtonEditor</scope><name>DeleteItem</name></member>
+      <member refid="classwx_p_g_editor_1a32a1bd59a5d00b39d35e39f9ee7c1cb3" prot="public" virt="virtual"><scope>wxPGTextCtrlAndButtonEditor</scope><name>DrawValue</name></member>
+      <member refid="classwx_object_1ae6d365f2556b26767ced8410c5e839d0" prot="public" virt="virtual"><scope>wxPGTextCtrlAndButtonEditor</scope><name>GetClassInfo</name></member>
+      <member refid="classwx_p_g_text_ctrl_and_button_editor_1a2838945eb6e2221155756031fb0f3b1c" prot="public" virt="virtual"><scope>wxPGTextCtrlAndButtonEditor</scope><name>GetName</name></member>
+      <member refid="classwx_object_1af3c6c76a775864832f1536d3c0de3a2b" prot="public" virt="non-virtual"><scope>wxPGTextCtrlAndButtonEditor</scope><name>GetRefData</name></member>
+      <member refid="classwx_p_g_text_ctrl_editor_1a3e5fe5f9f1505a732978d58b3c86078d" prot="public" virt="non-virtual"><scope>wxPGTextCtrlAndButtonEditor</scope><name>GetTextCtrlValueFromControl</name></member>
+      <member refid="classwx_p_g_text_ctrl_editor_1a86cd6ebdc261ba50a57159ab3bf381cc" prot="public" virt="virtual"><scope>wxPGTextCtrlAndButtonEditor</scope><name>GetValueFromControl</name></member>
+      <member refid="classwx_p_g_editor_1aa36816d607db13e0daf9c1feb22580ea" prot="public" virt="virtual"><scope>wxPGTextCtrlAndButtonEditor</scope><name>InsertItem</name></member>
+      <member refid="classwx_object_1a3c7115ef4132dcee0c4fc34e84d7fced" prot="public" virt="non-virtual"><scope>wxPGTextCtrlAndButtonEditor</scope><name>IsKindOf</name></member>
+      <member refid="classwx_object_1a059373c494c2369d7db2a556efef8ecf" prot="public" virt="non-virtual"><scope>wxPGTextCtrlAndButtonEditor</scope><name>IsSameAs</name></member>
+      <member refid="classwx_p_g_editor_1ad066c97e851bb86baa6b75f99174cee1" prot="public" virt="non-virtual"><scope>wxPGTextCtrlAndButtonEditor</scope><name>m_clientData</name></member>
+      <member refid="classwx_object_1a9e31954530a0abd54982effc443ed2b8" prot="protected" virt="non-virtual"><scope>wxPGTextCtrlAndButtonEditor</scope><name>m_refData</name></member>
+      <member refid="classwx_p_g_text_ctrl_editor_1ab98f92cf481c80993a246694f237a8f0" prot="public" virt="virtual"><scope>wxPGTextCtrlAndButtonEditor</scope><name>OnEvent</name></member>
+      <member refid="classwx_p_g_text_ctrl_editor_1a2d6d20a887c9568d68d36b9d8e70f348" prot="public" virt="virtual"><scope>wxPGTextCtrlAndButtonEditor</scope><name>OnFocus</name></member>
+      <member refid="classwx_p_g_text_ctrl_editor_1a523cd48878670459e7917f8e45b4703e" prot="public" virt="non-virtual"><scope>wxPGTextCtrlAndButtonEditor</scope><name>OnTextCtrlEvent</name></member>
+      <member refid="classwx_object_1a07b8f34f5afc5743195c5fed052f55d3" prot="public" virt="non-virtual"><scope>wxPGTextCtrlAndButtonEditor</scope><name>operator delete</name></member>
+      <member refid="classwx_object_1a96fa423a1dbc212c8227a5d83825971f" prot="public" virt="non-virtual"><scope>wxPGTextCtrlAndButtonEditor</scope><name>operator new</name></member>
+      <member refid="classwx_object_1a2f6f1aa51fe9fc2b1415ca4211a90e9e" prot="public" virt="non-virtual"><scope>wxPGTextCtrlAndButtonEditor</scope><name>Ref</name></member>
+      <member refid="classwx_p_g_editor_1a475bd60b51f9cd4f08dd7f0d67cc2334" prot="public" virt="virtual"><scope>wxPGTextCtrlAndButtonEditor</scope><name>SetControlAppearance</name></member>
+      <member refid="classwx_p_g_editor_1a98a252a47c070cb8e4e8b7142624777a" prot="public" virt="virtual"><scope>wxPGTextCtrlAndButtonEditor</scope><name>SetControlIntValue</name></member>
+      <member refid="classwx_p_g_text_ctrl_editor_1aa3065181319a4ab719bfaad706bdaf0e" prot="public" virt="virtual"><scope>wxPGTextCtrlAndButtonEditor</scope><name>SetControlStringValue</name></member>
+      <member refid="classwx_object_1afab780710f2adc1bb33310e27590140b" prot="public" virt="non-virtual"><scope>wxPGTextCtrlAndButtonEditor</scope><name>SetRefData</name></member>
+      <member refid="classwx_p_g_editor_1a61941ea05d5c5962e0eea7159a6087fe" prot="public" virt="virtual"><scope>wxPGTextCtrlAndButtonEditor</scope><name>SetValueToUnspecified</name></member>
+      <member refid="classwx_object_1af51efc6b1ae632fc7f0cd7ebbce9fa36" prot="public" virt="non-virtual"><scope>wxPGTextCtrlAndButtonEditor</scope><name>UnRef</name></member>
+      <member refid="classwx_object_1a74b40e42d19a4b9e9bec0b57d62a5725" prot="public" virt="non-virtual"><scope>wxPGTextCtrlAndButtonEditor</scope><name>UnShare</name></member>
+      <member refid="classwx_p_g_text_ctrl_editor_1a5d28cefb10152a2cb97a983ae1add915" prot="public" virt="virtual"><scope>wxPGTextCtrlAndButtonEditor</scope><name>UpdateControl</name></member>
+      <member refid="classwx_object_1acaa378363a28af421ab56ad7b46eadf0" prot="public" virt="non-virtual"><scope>wxPGTextCtrlAndButtonEditor</scope><name>wxObject</name></member>
+      <member refid="classwx_object_1a4721b4dc9b7aff0f30904ba2ea3954cf" prot="public" virt="non-virtual"><scope>wxPGTextCtrlAndButtonEditor</scope><name>wxObject</name></member>
+      <member refid="classwx_p_g_editor_1a31af1e59136a4246e19a4f2792762a1f" prot="public" virt="non-virtual"><scope>wxPGTextCtrlAndButtonEditor</scope><name>wxPGEditor</name></member>
+      <member refid="classwx_p_g_text_ctrl_and_button_editor_1afc0606865b978651874d06f5ed5324f9" prot="public" virt="non-virtual"><scope>wxPGTextCtrlAndButtonEditor</scope><name>wxPGTextCtrlAndButtonEditor</name></member>
+      <member refid="classwx_p_g_text_ctrl_editor_1a312ba0061e0f8486eded1e26191fe612" prot="public" virt="non-virtual"><scope>wxPGTextCtrlAndButtonEditor</scope><name>wxPGTextCtrlEditor</name></member>
+      <member refid="classwx_object_1a2a51aa8bfbab47ca2f051bcf84b3f35b" prot="public" virt="virtual"><scope>wxPGTextCtrlAndButtonEditor</scope><name>~wxObject</name></member>
+      <member refid="classwx_p_g_editor_1a29dc3fd2736e4e4929753e10df3fa01c" prot="public" virt="virtual"><scope>wxPGTextCtrlAndButtonEditor</scope><name>~wxPGEditor</name></member>
+      <member refid="classwx_p_g_text_ctrl_and_button_editor_1a5d6c839eef8a88d28f4bcf006cf7b626" prot="public" virt="virtual"><scope>wxPGTextCtrlAndButtonEditor</scope><name>~wxPGTextCtrlAndButtonEditor</name></member>
+      <member refid="classwx_p_g_text_ctrl_editor_1a4b1b2692cd6dfdae0be0710b274a4f4e" prot="public" virt="virtual"><scope>wxPGTextCtrlAndButtonEditor</scope><name>~wxPGTextCtrlEditor</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

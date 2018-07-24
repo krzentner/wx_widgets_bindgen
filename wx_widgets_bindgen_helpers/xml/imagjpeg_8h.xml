@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="imagjpeg_8h" kind="file" language="C++">
+    <compoundname>imagjpeg.h</compoundname>
+    <innerclass refid="classwx_j_p_e_g_handler" prot="public">wxJPEGHandler</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="interface/wx/imagjpeg.h"/>
+  </compounddef>
+</doxygen>

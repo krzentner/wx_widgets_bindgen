@@ -1,0 +1,305 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_rich_text_list_style_definition" kind="class" language="C++" prot="public">
+    <compoundname>wxRichTextListStyleDefinition</compoundname>
+    <basecompoundref refid="classwx_rich_text_paragraph_style_definition" prot="public" virt="non-virtual">wxRichTextParagraphStyleDefinition</basecompoundref>
+    <includes local="no">wx/richtext/richtextstyles.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classwx_rich_text_list_style_definition_1aa005ac2ab22cb4ae9dde308d514874b3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxRichTextListStyleDefinition::wxRichTextListStyleDefinition</definition>
+        <argsstring>(const wxString &amp;name=wxEmptyString)</argsstring>
+        <name>wxRichTextListStyleDefinition</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>name</declname>
+          <defval><ref refid="interface_2wx_2string_8h_1a9a321d587166a30017b608dd2d234033" kindref="member">wxEmptyString</ref></defval>
+        </param>
+        <briefdescription>
+<para>Constructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextstyles.h" line="493" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_list_style_definition_1ad815b51172c284982126d9ffd5079ba9" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual wxRichTextListStyleDefinition::~wxRichTextListStyleDefinition</definition>
+        <argsstring>()</argsstring>
+        <name>~wxRichTextListStyleDefinition</name>
+        <briefdescription>
+<para>Destructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextstyles.h" line="498" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_list_style_definition_1aed7e3b7e5e39b4a16210b8f2fab0f7f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_rich_text_attr" kindref="compound">wxRichTextAttr</ref></type>
+        <definition>wxRichTextAttr wxRichTextListStyleDefinition::CombineWithParagraphStyle</definition>
+        <argsstring>(int indent, const wxRichTextAttr &amp;paraStyle, wxRichTextStyleSheet *styleSheet=NULL)</argsstring>
+        <name>CombineWithParagraphStyle</name>
+        <param>
+          <type>int</type>
+          <declname>indent</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_rich_text_attr" kindref="compound">wxRichTextAttr</ref> &amp;</type>
+          <declname>paraStyle</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_rich_text_style_sheet" kindref="compound">wxRichTextStyleSheet</ref> *</type>
+          <declname>styleSheet</declname>
+          <defval>NULL</defval>
+        </param>
+        <briefdescription>
+<para>This function combines the given paragraph style with the list style&apos;s base attributes and level style matching the given indent, returning the combined attributes. </para>        </briefdescription>
+        <detaileddescription>
+<para>If <emphasis>styleSheet</emphasis> is specified, the base style for this definition will also be included in the result. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextstyles.h" line="507" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_list_style_definition_1a415934d15dbef880222c52236b13e1ed" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int wxRichTextListStyleDefinition::FindLevelForIndent</definition>
+        <argsstring>(int indent) const</argsstring>
+        <name>FindLevelForIndent</name>
+        <param>
+          <type>int</type>
+          <declname>indent</declname>
+        </param>
+        <briefdescription>
+<para>This function finds the level (from 0 to 9) whose indentation attribute mostly closely matches <emphasis>indent</emphasis> (expressed in tenths of a millimetre). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextstyles.h" line="515" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_list_style_definition_1afd74efc38d34450933ff599d94dd3a11" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_rich_text_attr" kindref="compound">wxRichTextAttr</ref></type>
+        <definition>wxRichTextAttr wxRichTextListStyleDefinition::GetCombinedStyle</definition>
+        <argsstring>(int indent, wxRichTextStyleSheet *styleSheet=NULL)</argsstring>
+        <name>GetCombinedStyle</name>
+        <param>
+          <type>int</type>
+          <declname>indent</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_rich_text_style_sheet" kindref="compound">wxRichTextStyleSheet</ref> *</type>
+          <declname>styleSheet</declname>
+          <defval>NULL</defval>
+        </param>
+        <briefdescription>
+<para>This function combines the list style&apos;s base attributes and the level style matching the given indent, returning the combined attributes. </para>        </briefdescription>
+        <detaileddescription>
+<para>If <emphasis>styleSheet</emphasis> is specified, the base style for this definition will also be included in the result. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextstyles.h" line="524" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_list_style_definition_1aae6f0b8bc0b2f8edb2525917d5999ff9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_rich_text_attr" kindref="compound">wxRichTextAttr</ref></type>
+        <definition>wxRichTextAttr wxRichTextListStyleDefinition::GetCombinedStyleForLevel</definition>
+        <argsstring>(int level, wxRichTextStyleSheet *styleSheet=NULL)</argsstring>
+        <name>GetCombinedStyleForLevel</name>
+        <param>
+          <type>int</type>
+          <declname>level</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_rich_text_style_sheet" kindref="compound">wxRichTextStyleSheet</ref> *</type>
+          <declname>styleSheet</declname>
+          <defval>NULL</defval>
+        </param>
+        <briefdescription>
+<para>This function combines the list style&apos;s base attributes and the style for the specified level, returning the combined attributes. </para>        </briefdescription>
+        <detaileddescription>
+<para>If <emphasis>styleSheet</emphasis> is specified, the base style for this definition will also be included in the result. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextstyles.h" line="535" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_list_style_definition_1ab6536d381619537b4ed46cbd2ebf678e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="classwx_rich_text_attr" kindref="compound">wxRichTextAttr</ref> *</type>
+        <definition>const wxRichTextAttr* wxRichTextListStyleDefinition::GetLevelAttributes</definition>
+        <argsstring>(int level) const</argsstring>
+        <name>GetLevelAttributes</name>
+        <param>
+          <type>int</type>
+          <declname>level</declname>
+        </param>
+        <briefdescription>
+<para>Returns the style for the given level. </para>        </briefdescription>
+        <detaileddescription>
+<para><emphasis>level</emphasis> is a number between 0 and 9. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextstyles.h" line="541" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_list_style_definition_1a299e869f6e0a418e43d7c6279561cd30" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int wxRichTextListStyleDefinition::GetLevelCount</definition>
+        <argsstring>() const</argsstring>
+        <name>GetLevelCount</name>
+        <briefdescription>
+<para>Returns the number of levels. </para>        </briefdescription>
+        <detaileddescription>
+<para>This is hard-wired to 10. Returns the style for the given level. <emphasis>level</emphasis> is a number between 0 and 9. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextstyles.h" line="547" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_list_style_definition_1a6a86da1befc09df0e84132c44c4d4d1c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxRichTextListStyleDefinition::IsNumbered</definition>
+        <argsstring>(int level) const</argsstring>
+        <name>IsNumbered</name>
+        <param>
+          <type>int</type>
+          <declname>level</declname>
+        </param>
+        <briefdescription>
+<para>Returns true if the given level has numbered list attributes. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextstyles.h" line="552" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_list_style_definition_1a1eeb9b22295bfab612f603ed42f7e7c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxRichTextListStyleDefinition::SetLevelAttributes</definition>
+        <argsstring>(int level, const wxRichTextAttr &amp;attr)</argsstring>
+        <name>SetLevelAttributes</name>
+        <param>
+          <type>int</type>
+          <declname>level</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_rich_text_attr" kindref="compound">wxRichTextAttr</ref> &amp;</type>
+          <declname>attr</declname>
+        </param>
+        <briefdescription>
+<para>Sets the style for the given level. </para>        </briefdescription>
+        <detaileddescription>
+<para><emphasis>level</emphasis> is a number between 0 and 9. The first and most flexible form uses a <ref refid="classwx_text_attr" kindref="compound">wxTextAttr</ref> object, while the second form is for convenient setting of the most commonly-used attributes. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextstyles.h" line="559" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class represents a list style definition, usually added to a <ref refid="classwx_rich_text_style_sheet" kindref="compound">wxRichTextStyleSheet</ref>. </para>    </briefdescription>
+    <detaileddescription>
+<para>The class inherits paragraph attributes from wxRichTextStyleParagraphDefinition, and adds 10 further attribute objects, one for each level of a list. When applying a list style to a paragraph, the list style&apos;s base and appropriate level attributes are merged with the paragraph&apos;s existing attributes.</para><para>You can apply a list style to one or more paragraphs using <ref refid="classwx_rich_text_ctrl_1a15e151f9cd434826444ab554dd43bef3" kindref="member">wxRichTextCtrl::SetListStyle</ref>. You can also use the functions <ref refid="classwx_rich_text_ctrl_1a23b8f0b42ba7f128127d749c13ede06e" kindref="member">wxRichTextCtrl::NumberList</ref>, <ref refid="classwx_rich_text_ctrl_1a9dd10bf2c0e23dbd51f4d27cc7f2f9f8" kindref="member">wxRichTextCtrl::PromoteList</ref> and <ref refid="classwx_rich_text_ctrl_1a02d1ffb4bf82f96b041889235c4bc441" kindref="member">wxRichTextCtrl::ClearListStyle</ref>.</para><para>As usual, there are <ref refid="classwx_rich_text_buffer" kindref="compound">wxRichTextBuffer</ref> versions of these functions so that you can apply them directly to a buffer without requiring a control.</para><para><heading level="2"></heading>
+</para><para>Library:<nonbreakablespace/><nonbreakablespace/><ref refid="page_libs_1page_libs_wxrichtext" kindref="member">wxRichText</ref> &lt;&gt;&lt; =&apos;&apos;&gt;:&lt;/&gt;&amp;;&amp;;&lt; =&apos;&apos;&gt;\ &lt;/&gt;&lt;/&gt; </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="6712">
+        <label>wxObject</label>
+        <link refid="classwx_object"/>
+      </node>
+      <node id="6710">
+        <label>wxRichTextParagraphStyleDefinition</label>
+        <link refid="classwx_rich_text_paragraph_style_definition"/>
+        <childnode refid="6711" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6709">
+        <label>wxRichTextListStyleDefinition</label>
+        <link refid="classwx_rich_text_list_style_definition"/>
+        <childnode refid="6710" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6711">
+        <label>wxRichTextStyleDefinition</label>
+        <link refid="classwx_rich_text_style_definition"/>
+        <childnode refid="6712" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="6716">
+        <label>wxObject</label>
+        <link refid="classwx_object"/>
+        <childnode refid="6717" relation="usage">
+          <edgelabel>m_refData</edgelabel>
+        </childnode>
+      </node>
+      <node id="6714">
+        <label>wxRichTextParagraphStyleDefinition</label>
+        <link refid="classwx_rich_text_paragraph_style_definition"/>
+        <childnode refid="6715" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6713">
+        <label>wxRichTextListStyleDefinition</label>
+        <link refid="classwx_rich_text_list_style_definition"/>
+        <childnode refid="6714" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6715">
+        <label>wxRichTextStyleDefinition</label>
+        <link refid="classwx_rich_text_style_definition"/>
+        <childnode refid="6716" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6717">
+        <label>wxObjectRefData</label>
+        <link refid="classwx_object_ref_data"/>
+      </node>
+    </collaborationgraph>
+    <location file="interface/wx/richtext/richtextstyles.h" line="488" column="1" bodyfile="interface/wx/richtext/richtextstyles.h" bodystart="487" bodyend="560"/>
+    <listofallmembers>
+      <member refid="classwx_object_1a60204063f3cc3aa2fa1c7ff5bda9eb13" prot="protected" virt="non-virtual"><scope>wxRichTextListStyleDefinition</scope><name>AllocExclusive</name></member>
+      <member refid="classwx_object_1a436fc8fe68cf8a31000296d9cd3d2427" prot="protected" virt="virtual"><scope>wxRichTextListStyleDefinition</scope><name>CloneRefData</name></member>
+      <member refid="classwx_rich_text_list_style_definition_1aed7e3b7e5e39b4a16210b8f2fab0f7f4" prot="public" virt="non-virtual"><scope>wxRichTextListStyleDefinition</scope><name>CombineWithParagraphStyle</name></member>
+      <member refid="classwx_object_1a3f4f497c65cef611e121c41f21dd5ccc" prot="protected" virt="virtual"><scope>wxRichTextListStyleDefinition</scope><name>CreateRefData</name></member>
+      <member refid="classwx_rich_text_list_style_definition_1a415934d15dbef880222c52236b13e1ed" prot="public" virt="non-virtual"><scope>wxRichTextListStyleDefinition</scope><name>FindLevelForIndent</name></member>
+      <member refid="classwx_rich_text_style_definition_1a12422b8254f05a0aa184d01a91dc6dfe" prot="public" virt="non-virtual"><scope>wxRichTextListStyleDefinition</scope><name>GetBaseStyle</name></member>
+      <member refid="classwx_object_1ae6d365f2556b26767ced8410c5e839d0" prot="public" virt="virtual"><scope>wxRichTextListStyleDefinition</scope><name>GetClassInfo</name></member>
+      <member refid="classwx_rich_text_list_style_definition_1afd74efc38d34450933ff599d94dd3a11" prot="public" virt="non-virtual"><scope>wxRichTextListStyleDefinition</scope><name>GetCombinedStyle</name></member>
+      <member refid="classwx_rich_text_list_style_definition_1aae6f0b8bc0b2f8edb2525917d5999ff9" prot="public" virt="non-virtual"><scope>wxRichTextListStyleDefinition</scope><name>GetCombinedStyleForLevel</name></member>
+      <member refid="classwx_rich_text_style_definition_1a12c0e886a2a9786740016358eabe0bbe" prot="public" virt="non-virtual"><scope>wxRichTextListStyleDefinition</scope><name>GetDescription</name></member>
+      <member refid="classwx_rich_text_list_style_definition_1ab6536d381619537b4ed46cbd2ebf678e" prot="public" virt="non-virtual"><scope>wxRichTextListStyleDefinition</scope><name>GetLevelAttributes</name></member>
+      <member refid="classwx_rich_text_list_style_definition_1a299e869f6e0a418e43d7c6279561cd30" prot="public" virt="non-virtual"><scope>wxRichTextListStyleDefinition</scope><name>GetLevelCount</name></member>
+      <member refid="classwx_rich_text_style_definition_1a840d9f023f279c30d8bb2d60b41f7915" prot="public" virt="non-virtual"><scope>wxRichTextListStyleDefinition</scope><name>GetName</name></member>
+      <member refid="classwx_rich_text_paragraph_style_definition_1a95767e99c490ca803a765f996e032b1c" prot="public" virt="non-virtual"><scope>wxRichTextListStyleDefinition</scope><name>GetNextStyle</name></member>
+      <member refid="classwx_rich_text_style_definition_1ae117b6ea7729085b130c5255d5838233" prot="public" virt="non-virtual"><scope>wxRichTextListStyleDefinition</scope><name>GetProperties</name></member>
+      <member refid="classwx_rich_text_style_definition_1aaaf78bc626254a4580726fa221e42235" prot="public" virt="non-virtual"><scope>wxRichTextListStyleDefinition</scope><name>GetProperties</name></member>
+      <member refid="classwx_object_1af3c6c76a775864832f1536d3c0de3a2b" prot="public" virt="non-virtual"><scope>wxRichTextListStyleDefinition</scope><name>GetRefData</name></member>
+      <member refid="classwx_rich_text_style_definition_1ad0b4202e87a2333493bf8df3566ff433" prot="public" virt="non-virtual"><scope>wxRichTextListStyleDefinition</scope><name>GetStyle</name></member>
+      <member refid="classwx_rich_text_style_definition_1abca1bca4e1d37a3e238c65447c0e5cf3" prot="public" virt="non-virtual"><scope>wxRichTextListStyleDefinition</scope><name>GetStyle</name></member>
+      <member refid="classwx_rich_text_style_definition_1ac85b22a6a436a22e99b94e2551415566" prot="public" virt="virtual"><scope>wxRichTextListStyleDefinition</scope><name>GetStyleMergedWithBase</name></member>
+      <member refid="classwx_object_1a3c7115ef4132dcee0c4fc34e84d7fced" prot="public" virt="non-virtual"><scope>wxRichTextListStyleDefinition</scope><name>IsKindOf</name></member>
+      <member refid="classwx_rich_text_list_style_definition_1a6a86da1befc09df0e84132c44c4d4d1c" prot="public" virt="non-virtual"><scope>wxRichTextListStyleDefinition</scope><name>IsNumbered</name></member>
+      <member refid="classwx_object_1a059373c494c2369d7db2a556efef8ecf" prot="public" virt="non-virtual"><scope>wxRichTextListStyleDefinition</scope><name>IsSameAs</name></member>
+      <member refid="classwx_object_1a9e31954530a0abd54982effc443ed2b8" prot="protected" virt="non-virtual"><scope>wxRichTextListStyleDefinition</scope><name>m_refData</name></member>
+      <member refid="classwx_object_1a07b8f34f5afc5743195c5fed052f55d3" prot="public" virt="non-virtual"><scope>wxRichTextListStyleDefinition</scope><name>operator delete</name></member>
+      <member refid="classwx_object_1a96fa423a1dbc212c8227a5d83825971f" prot="public" virt="non-virtual"><scope>wxRichTextListStyleDefinition</scope><name>operator new</name></member>
+      <member refid="classwx_object_1a2f6f1aa51fe9fc2b1415ca4211a90e9e" prot="public" virt="non-virtual"><scope>wxRichTextListStyleDefinition</scope><name>Ref</name></member>
+      <member refid="classwx_rich_text_style_definition_1a2d4525ac47865887a828b02252855254" prot="public" virt="non-virtual"><scope>wxRichTextListStyleDefinition</scope><name>SetBaseStyle</name></member>
+      <member refid="classwx_rich_text_style_definition_1a6b4c5c3f44f10bd07e58ae2bfc611ec9" prot="public" virt="non-virtual"><scope>wxRichTextListStyleDefinition</scope><name>SetDescription</name></member>
+      <member refid="classwx_rich_text_list_style_definition_1a1eeb9b22295bfab612f603ed42f7e7c0" prot="public" virt="non-virtual"><scope>wxRichTextListStyleDefinition</scope><name>SetLevelAttributes</name></member>
+      <member refid="classwx_rich_text_style_definition_1a7085d485d0892a4f223a8e2c4a78e219" prot="public" virt="non-virtual"><scope>wxRichTextListStyleDefinition</scope><name>SetName</name></member>
+      <member refid="classwx_rich_text_paragraph_style_definition_1a110754bdd505f3d5910235d19e034401" prot="public" virt="non-virtual"><scope>wxRichTextListStyleDefinition</scope><name>SetNextStyle</name></member>
+      <member refid="classwx_rich_text_style_definition_1ab6185fab170213619572cb08c0cd3aa9" prot="public" virt="non-virtual"><scope>wxRichTextListStyleDefinition</scope><name>SetProperties</name></member>
+      <member refid="classwx_object_1afab780710f2adc1bb33310e27590140b" prot="public" virt="non-virtual"><scope>wxRichTextListStyleDefinition</scope><name>SetRefData</name></member>
+      <member refid="classwx_rich_text_style_definition_1a504d45fd917474caa259171778bb98ce" prot="public" virt="non-virtual"><scope>wxRichTextListStyleDefinition</scope><name>SetStyle</name></member>
+      <member refid="classwx_object_1af51efc6b1ae632fc7f0cd7ebbce9fa36" prot="public" virt="non-virtual"><scope>wxRichTextListStyleDefinition</scope><name>UnRef</name></member>
+      <member refid="classwx_object_1a74b40e42d19a4b9e9bec0b57d62a5725" prot="public" virt="non-virtual"><scope>wxRichTextListStyleDefinition</scope><name>UnShare</name></member>
+      <member refid="classwx_object_1acaa378363a28af421ab56ad7b46eadf0" prot="public" virt="non-virtual"><scope>wxRichTextListStyleDefinition</scope><name>wxObject</name></member>
+      <member refid="classwx_object_1a4721b4dc9b7aff0f30904ba2ea3954cf" prot="public" virt="non-virtual"><scope>wxRichTextListStyleDefinition</scope><name>wxObject</name></member>
+      <member refid="classwx_rich_text_list_style_definition_1aa005ac2ab22cb4ae9dde308d514874b3" prot="public" virt="non-virtual"><scope>wxRichTextListStyleDefinition</scope><name>wxRichTextListStyleDefinition</name></member>
+      <member refid="classwx_rich_text_paragraph_style_definition_1ae6417df24707117b8595f92015fc3f14" prot="public" virt="non-virtual"><scope>wxRichTextListStyleDefinition</scope><name>wxRichTextParagraphStyleDefinition</name></member>
+      <member refid="classwx_rich_text_style_definition_1a79c0b73fe76b618cf70b0df85ea46f31" prot="public" virt="non-virtual"><scope>wxRichTextListStyleDefinition</scope><name>wxRichTextStyleDefinition</name></member>
+      <member refid="classwx_object_1a2a51aa8bfbab47ca2f051bcf84b3f35b" prot="public" virt="virtual"><scope>wxRichTextListStyleDefinition</scope><name>~wxObject</name></member>
+      <member refid="classwx_rich_text_list_style_definition_1ad815b51172c284982126d9ffd5079ba9" prot="public" virt="virtual"><scope>wxRichTextListStyleDefinition</scope><name>~wxRichTextListStyleDefinition</name></member>
+      <member refid="classwx_rich_text_paragraph_style_definition_1ad141841d7026afbecee93ec1c3a4b6dc" prot="public" virt="virtual"><scope>wxRichTextListStyleDefinition</scope><name>~wxRichTextParagraphStyleDefinition</name></member>
+      <member refid="classwx_rich_text_style_definition_1a7e0bd7f060d6354104543f7cb6d8e137" prot="public" virt="virtual"><scope>wxRichTextListStyleDefinition</scope><name>~wxRichTextStyleDefinition</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

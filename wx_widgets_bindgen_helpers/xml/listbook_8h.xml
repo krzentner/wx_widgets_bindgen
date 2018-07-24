@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="listbook_8h" kind="file" language="C++">
+    <compoundname>listbook.h</compoundname>
+    <innerclass refid="classwx_listbook" prot="public">wxListbook</innerclass>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="listbook_8h_1abbd9507d5c19a735804622a746da849a" prot="public" static="no">
+        <name>wxLB_DEFAULT</name>
+        <initializer><ref refid="interface_2wx_2bookctrl_8h_1a7e388df7b1f655029adefef1faa6544d" kindref="member">wxBK_DEFAULT</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/listbook.h" line="9" column="9" bodyfile="interface/wx/listbook.h" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="listbook_8h_1aeefe0bddc1b504aed810e190b5be54d9" prot="public" static="no">
+        <name>wxLB_TOP</name>
+        <initializer><ref refid="interface_2wx_2bookctrl_8h_1ad36f889d557af729966b28a9e53f0230" kindref="member">wxBK_TOP</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/listbook.h" line="10" column="9" bodyfile="interface/wx/listbook.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="listbook_8h_1a51de256da7cd382d31dba9fb97948783" prot="public" static="no">
+        <name>wxLB_BOTTOM</name>
+        <initializer><ref refid="interface_2wx_2bookctrl_8h_1ae5e1e857ef24fe84d9ca7d6720e31cc2" kindref="member">wxBK_BOTTOM</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/listbook.h" line="11" column="9" bodyfile="interface/wx/listbook.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="listbook_8h_1a92a76277247f568bc8f3d302ae720be6" prot="public" static="no">
+        <name>wxLB_LEFT</name>
+        <initializer><ref refid="interface_2wx_2bookctrl_8h_1a241a12974cb60b7175e06ddb0df3ac80" kindref="member">wxBK_LEFT</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/listbook.h" line="12" column="9" bodyfile="interface/wx/listbook.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="listbook_8h_1a2931b6a7c55d183c8b722d4ffba07317" prot="public" static="no">
+        <name>wxLB_RIGHT</name>
+        <initializer><ref refid="interface_2wx_2bookctrl_8h_1ad61e5dcc5cbb913956437899963fab2a" kindref="member">wxBK_RIGHT</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/listbook.h" line="13" column="9" bodyfile="interface/wx/listbook.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="listbook_8h_1a2f4db191e78dfe7b181475ea5935ac84" prot="public" static="no">
+        <name>wxLB_ALIGN_MASK</name>
+        <initializer><ref refid="interface_2wx_2bookctrl_8h_1aa9e49fb51efb4c643c46362c43aee118" kindref="member">wxBK_ALIGN_MASK</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/listbook.h" line="14" column="9" bodyfile="interface/wx/listbook.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="listbook_8h_1a41161510d626845dfd1498f17824e872" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_LISTBOOK_PAGE_CHANGED</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_LISTBOOK_PAGE_CHANGED</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/listbook.h" line="16" column="1" bodyfile="interface/wx/listbook.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="listbook_8h_1a706492f2ebd99a6ec509b42f822d1a8b" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_LISTBOOK_PAGE_CHANGING</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_LISTBOOK_PAGE_CHANGING</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/listbook.h" line="17" column="1" bodyfile="interface/wx/listbook.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="interface/wx/listbook.h"/>
+  </compounddef>
+</doxygen>

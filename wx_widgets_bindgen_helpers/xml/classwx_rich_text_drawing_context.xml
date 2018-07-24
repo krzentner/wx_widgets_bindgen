@@ -1,0 +1,608 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_rich_text_drawing_context" kind="class" language="C++" prot="public">
+    <compoundname>wxRichTextDrawingContext</compoundname>
+    <basecompoundref refid="classwx_object" prot="public" virt="non-virtual">wxObject</basecompoundref>
+    <includes local="no">wx/richtext/richtextbuffer.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classwx_rich_text_drawing_context_1a8f26d968169760885355317c6478810a" prot="public" static="no" mutable="no">
+        <type><ref refid="classwx_rich_text_buffer" kindref="compound">wxRichTextBuffer</ref> *</type>
+        <definition>wxRichTextBuffer* wxRichTextDrawingContext::m_buffer</definition>
+        <argsstring></argsstring>
+        <name>m_buffer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="2063" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="2063" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classwx_rich_text_drawing_context_1a23c7f4a3f655d4c762fc78df6633aa0b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxRichTextDrawingContext::wxRichTextDrawingContext</definition>
+        <argsstring>(wxRichTextBuffer *buffer)</argsstring>
+        <name>wxRichTextDrawingContext</name>
+        <param>
+          <type><ref refid="classwx_rich_text_buffer" kindref="compound">wxRichTextBuffer</ref> *</type>
+          <declname>buffer</declname>
+        </param>
+        <briefdescription>
+<para>Pass the buffer to the context so the context can retrieve information such as virtual attributes. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="2002" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_drawing_context_1ad336d20e423e4c086a37f3101ebd6ad5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxRichTextDrawingContext::Init</definition>
+        <argsstring>()</argsstring>
+        <name>Init</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="2004" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_drawing_context_1aefbaaf27a4ff392e6691bbd0f0e8944d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxRichTextDrawingContext::HasVirtualAttributes</definition>
+        <argsstring>(wxRichTextObject *obj) const</argsstring>
+        <name>HasVirtualAttributes</name>
+        <param>
+          <type><ref refid="classwx_rich_text_object" kindref="compound">wxRichTextObject</ref> *</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+<para>Does this object have virtual attributes? Virtual attributes can be provided for visual cues without affecting the actual styling. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="2011" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_drawing_context_1abe083b31b0f9caa99f850b8f7ef3b21a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_rich_text_attr" kindref="compound">wxRichTextAttr</ref></type>
+        <definition>wxRichTextAttr wxRichTextDrawingContext::GetVirtualAttributes</definition>
+        <argsstring>(wxRichTextObject *obj) const</argsstring>
+        <name>GetVirtualAttributes</name>
+        <param>
+          <type><ref refid="classwx_rich_text_object" kindref="compound">wxRichTextObject</ref> *</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+<para>Returns the virtual attributes for this object. </para>        </briefdescription>
+        <detaileddescription>
+<para>Virtual attributes can be provided for visual cues without affecting the actual styling. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="2018" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_drawing_context_1aedc3c6c4235404bb7abc2f642097ddef" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxRichTextDrawingContext::ApplyVirtualAttributes</definition>
+        <argsstring>(wxRichTextAttr &amp;attr, wxRichTextObject *obj) const</argsstring>
+        <name>ApplyVirtualAttributes</name>
+        <param>
+          <type><ref refid="classwx_rich_text_attr" kindref="compound">wxRichTextAttr</ref> &amp;</type>
+          <declname>attr</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_rich_text_object" kindref="compound">wxRichTextObject</ref> *</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+<para>Applies any virtual attributes relevant to this object. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="2023" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_drawing_context_1a7945bc509fcb2fc69e521f1cbf445526" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int wxRichTextDrawingContext::GetVirtualSubobjectAttributesCount</definition>
+        <argsstring>(wxRichTextObject *obj) const</argsstring>
+        <name>GetVirtualSubobjectAttributesCount</name>
+        <param>
+          <type><ref refid="classwx_rich_text_object" kindref="compound">wxRichTextObject</ref> *</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+<para>Gets the count for mixed virtual attributes for individual positions within the object. </para>        </briefdescription>
+        <detaileddescription>
+<para>For example, individual characters within a text object may require special highlighting. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="2029" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_drawing_context_1abc4c993859fa62bd3187c8afa06c1f4e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int wxRichTextDrawingContext::GetVirtualSubobjectAttributes</definition>
+        <argsstring>(wxRichTextObject *obj, wxArrayInt &amp;positions, wxRichTextAttrArray &amp;attributes) const</argsstring>
+        <name>GetVirtualSubobjectAttributes</name>
+        <param>
+          <type><ref refid="classwx_rich_text_object" kindref="compound">wxRichTextObject</ref> *</type>
+          <declname>obj</declname>
+        </param>
+        <param>
+          <type><ref refid="dynarray_8h_1add87f199292e36ee87efd6d7f0d4ee66" kindref="member">wxArrayInt</ref> &amp;</type>
+          <declname>positions</declname>
+        </param>
+        <param>
+          <type>wxRichTextAttrArray &amp;</type>
+          <declname>attributes</declname>
+        </param>
+        <briefdescription>
+<para>Gets the mixed virtual attributes for individual positions within the object. </para>        </briefdescription>
+        <detaileddescription>
+<para>For example, individual characters within a text object may require special highlighting. The function is passed the count returned by GetVirtualSubobjectAttributesCount. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="2036" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_drawing_context_1a23194a4609b8cf9259adfa4d1d5ef9a5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxRichTextDrawingContext::HasVirtualText</definition>
+        <argsstring>(const wxRichTextPlainText *obj) const</argsstring>
+        <name>HasVirtualText</name>
+        <param>
+          <type>const <ref refid="classwx_rich_text_plain_text" kindref="compound">wxRichTextPlainText</ref> *</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+<para>Do we have virtual text for this object? Virtual text allows an application to replace characters in an object for editing and display purposes, for example for highlighting special characters. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="2044" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_drawing_context_1a2ab637289f2e79577b564d446458cbd0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxRichTextDrawingContext::GetVirtualText</definition>
+        <argsstring>(const wxRichTextPlainText *obj, wxString &amp;text) const</argsstring>
+        <name>GetVirtualText</name>
+        <param>
+          <type>const <ref refid="classwx_rich_text_plain_text" kindref="compound">wxRichTextPlainText</ref> *</type>
+          <declname>obj</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>text</declname>
+        </param>
+        <briefdescription>
+<para>Gets the virtual text for this object. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="2049" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_drawing_context_1a0ac4f46514bfa0ef6485f3d15d27060e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxRichTextDrawingContext::EnableVirtualAttributes</definition>
+        <argsstring>(bool b)</argsstring>
+        <name>EnableVirtualAttributes</name>
+        <param>
+          <type>bool</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Enables virtual attribute processing. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="2055" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_drawing_context_1a846e818517a262aecdbe83ea452fb2b1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxRichTextDrawingContext::GetVirtualAttributesEnabled</definition>
+        <argsstring>() const</argsstring>
+        <name>GetVirtualAttributesEnabled</name>
+        <briefdescription>
+<para>Returns true if virtual attribute processing is enabled. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="2061" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>A class for passing information to drawing and measuring functions. </para>    </briefdescription>
+    <detaileddescription>
+<para><heading level="2"></heading>
+</para><para>Library:<nonbreakablespace/><nonbreakablespace/><ref refid="page_libs_1page_libs_wxrichtext" kindref="member">wxRichText</ref> &lt;&gt;&lt; =&apos;&apos;&gt;:&lt;/&gt;&amp;;&amp;;&lt; =&apos;&apos;&gt;\ &lt;/&gt;&lt;/&gt;</para><para><simplesect kind="see"><para><ref refid="classwx_rich_text_buffer" kindref="compound">wxRichTextBuffer</ref>, <ref refid="classwx_rich_text_ctrl" kindref="compound">wxRichTextCtrl</ref> </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="6448">
+        <label>wxObject</label>
+        <link refid="classwx_object"/>
+      </node>
+      <node id="6447">
+        <label>wxRichTextDrawingContext</label>
+        <link refid="classwx_rich_text_drawing_context"/>
+        <childnode refid="6448" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="6464">
+        <label>wxString</label>
+        <link refid="classwx_string"/>
+      </node>
+      <node id="6484">
+        <label>wxRichTextRenderer</label>
+        <link refid="classwx_rich_text_renderer"/>
+        <childnode refid="6450" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6489">
+        <label>wxCommandProcessor</label>
+        <link refid="classwx_command_processor"/>
+        <childnode refid="6450" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6477">
+        <label>wxArray</label>
+      </node>
+      <node id="6455">
+        <label>wxRichTextObject</label>
+        <link refid="classwx_rich_text_object"/>
+        <childnode refid="6450" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6456" relation="usage">
+          <edgelabel>m_size</edgelabel>
+          <edgelabel>m_minSize</edgelabel>
+          <edgelabel>m_maxSize</edgelabel>
+        </childnode>
+        <childnode refid="6457" relation="usage">
+          <edgelabel>m_pos</edgelabel>
+        </childnode>
+        <childnode refid="6458" relation="usage">
+          <edgelabel>m_attributes</edgelabel>
+        </childnode>
+        <childnode refid="6467" relation="usage">
+          <edgelabel>m_properties</edgelabel>
+        </childnode>
+        <childnode refid="6455" relation="usage">
+          <edgelabel>m_parent</edgelabel>
+        </childnode>
+        <childnode refid="6468" relation="usage">
+          <edgelabel>m_ownRange</edgelabel>
+          <edgelabel>m_range</edgelabel>
+        </childnode>
+      </node>
+      <node id="6466">
+        <label>wxTextAttrBorder</label>
+        <link refid="classwx_text_attr_border"/>
+        <childnode refid="6462" relation="usage">
+          <edgelabel>m_borderWidth</edgelabel>
+        </childnode>
+      </node>
+      <node id="6487">
+        <label>wxRichTextCommand</label>
+        <link refid="classwx_rich_text_command"/>
+        <childnode refid="6488" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6450">
+        <label>wxObject</label>
+        <link refid="classwx_object"/>
+        <childnode refid="6451" relation="usage">
+          <edgelabel>m_refData</edgelabel>
+        </childnode>
+      </node>
+      <node id="6485">
+        <label>wxRichTextStyleSheet</label>
+        <link refid="classwx_rich_text_style_sheet"/>
+        <childnode refid="6450" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6467">
+        <label>wxRichTextProperties</label>
+        <link refid="classwx_rich_text_properties"/>
+        <childnode refid="6450" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6472">
+        <label>wxEvtHandler</label>
+        <link refid="classwx_evt_handler"/>
+        <childnode refid="6450" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6473" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6454">
+        <label>wxRichTextCompositeObject</label>
+        <link refid="classwx_rich_text_composite_object"/>
+        <childnode refid="6455" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6468">
+        <label>wxRichTextRange</label>
+        <link refid="classwx_rich_text_range"/>
+      </node>
+      <node id="6456">
+        <label>wxSize</label>
+        <link refid="classwx_size"/>
+      </node>
+      <node id="6459">
+        <label>wxTextAttr</label>
+        <link refid="classwx_text_attr"/>
+      </node>
+      <node id="6458">
+        <label>wxRichTextAttr</label>
+        <link refid="classwx_rich_text_attr"/>
+        <childnode refid="6459" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6460" relation="usage">
+          <edgelabel>m_textBoxAttr</edgelabel>
+        </childnode>
+      </node>
+      <node id="6473">
+        <label>wxTrackable</label>
+        <link refid="classwx_trackable"/>
+      </node>
+      <node id="6470">
+        <label>wxControl</label>
+        <link refid="classwx_control"/>
+        <childnode refid="6471" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6469">
+        <label>wxRichTextCtrl</label>
+        <link refid="classwx_rich_text_ctrl"/>
+        <childnode refid="6470" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6474" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6475" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6476" relation="usage">
+          <edgelabel>sm_availableFontNames</edgelabel>
+        </childnode>
+        <childnode refid="6478" relation="usage">
+          <edgelabel>m_selection</edgelabel>
+        </childnode>
+        <childnode refid="6452" relation="usage">
+          <edgelabel>m_buffer</edgelabel>
+        </childnode>
+        <childnode refid="6479" relation="usage">
+          <edgelabel>m_fullLayoutTime</edgelabel>
+        </childnode>
+        <childnode refid="6455" relation="usage">
+          <edgelabel>m_selectionAnchorObject</edgelabel>
+        </childnode>
+        <childnode refid="6453" relation="usage">
+          <edgelabel>m_focusObject</edgelabel>
+        </childnode>
+        <childnode refid="6480" relation="usage">
+          <edgelabel>m_textCursor</edgelabel>
+          <edgelabel>m_urlCursor</edgelabel>
+        </childnode>
+        <childnode refid="6482" relation="usage">
+          <edgelabel>m_contextMenu</edgelabel>
+        </childnode>
+        <childnode refid="6483" relation="usage">
+          <edgelabel>m_contextMenuPropertiesInfo</edgelabel>
+        </childnode>
+      </node>
+      <node id="6471">
+        <label>wxWindow</label>
+        <link refid="classwx_window"/>
+        <childnode refid="6472" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6460">
+        <label>wxTextBoxAttr</label>
+        <link refid="classwx_text_box_attr"/>
+        <childnode refid="6461" relation="usage">
+          <edgelabel>m_size</edgelabel>
+          <edgelabel>m_minSize</edgelabel>
+          <edgelabel>m_maxSize</edgelabel>
+        </childnode>
+        <childnode refid="6463" relation="usage">
+          <edgelabel>m_margins</edgelabel>
+          <edgelabel>m_padding</edgelabel>
+          <edgelabel>m_position</edgelabel>
+        </childnode>
+        <childnode refid="6464" relation="usage">
+          <edgelabel>m_boxStyleName</edgelabel>
+        </childnode>
+        <childnode refid="6465" relation="usage">
+          <edgelabel>m_border</edgelabel>
+          <edgelabel>m_outline</edgelabel>
+        </childnode>
+      </node>
+      <node id="6476">
+        <label>wxArrayString</label>
+        <link refid="classwx_array_string"/>
+        <childnode refid="6477" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6474">
+        <label>wxTextCtrlIface</label>
+      </node>
+      <node id="6463">
+        <label>wxTextAttrDimensions</label>
+        <link refid="classwx_text_attr_dimensions"/>
+        <childnode refid="6462" relation="usage">
+          <edgelabel>m_left</edgelabel>
+          <edgelabel>m_bottom</edgelabel>
+          <edgelabel>m_top</edgelabel>
+          <edgelabel>m_right</edgelabel>
+        </childnode>
+      </node>
+      <node id="6461">
+        <label>wxTextAttrSize</label>
+        <link refid="classwx_text_attr_size"/>
+        <childnode refid="6462" relation="usage">
+          <edgelabel>m_width</edgelabel>
+          <edgelabel>m_height</edgelabel>
+        </childnode>
+      </node>
+      <node id="6449">
+        <label>wxRichTextDrawingContext</label>
+        <link refid="classwx_rich_text_drawing_context"/>
+        <childnode refid="6450" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6452" relation="usage">
+          <edgelabel>m_buffer</edgelabel>
+        </childnode>
+      </node>
+      <node id="6475">
+        <label>wxScrollHelper</label>
+      </node>
+      <node id="6488">
+        <label>wxCommand</label>
+        <link refid="classwx_command"/>
+        <childnode refid="6450" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6482">
+        <label>wxMenu</label>
+        <link refid="classwx_menu"/>
+        <childnode refid="6472" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6483">
+        <label>wxRichTextContextMenuPropertiesInfo</label>
+        <link refid="classwx_rich_text_context_menu_properties_info"/>
+        <childnode refid="6476" relation="usage">
+          <edgelabel>m_labels</edgelabel>
+        </childnode>
+      </node>
+      <node id="6481">
+        <label>wxGDIObject</label>
+        <link refid="classwx_g_d_i_object"/>
+        <childnode refid="6450" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6462">
+        <label>wxTextAttrDimension</label>
+        <link refid="classwx_text_attr_dimension"/>
+      </node>
+      <node id="6486">
+        <label>wxRichTextFontTable</label>
+        <link refid="classwx_rich_text_font_table"/>
+        <childnode refid="6450" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6479">
+        <label>wxLongLong</label>
+        <link refid="classwx_long_long"/>
+      </node>
+      <node id="6452">
+        <label>wxRichTextBuffer</label>
+        <link refid="classwx_rich_text_buffer"/>
+        <childnode refid="6453" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6484" relation="usage">
+          <edgelabel>sm_renderer</edgelabel>
+        </childnode>
+        <childnode refid="6485" relation="usage">
+          <edgelabel>m_styleSheet</edgelabel>
+        </childnode>
+        <childnode refid="6486" relation="usage">
+          <edgelabel>m_fontTable</edgelabel>
+        </childnode>
+        <childnode refid="6487" relation="usage">
+          <edgelabel>m_batchedCommand</edgelabel>
+        </childnode>
+        <childnode refid="6489" relation="usage">
+          <edgelabel>m_commandProcessor</edgelabel>
+        </childnode>
+        <childnode refid="6464" relation="usage">
+          <edgelabel>m_batchedCommandsName</edgelabel>
+        </childnode>
+      </node>
+      <node id="6457">
+        <label>wxPoint</label>
+        <link refid="classwx_point"/>
+      </node>
+      <node id="6478">
+        <label>wxRichTextSelection</label>
+        <link refid="classwx_rich_text_selection"/>
+        <childnode refid="6453" relation="usage">
+          <edgelabel>m_container</edgelabel>
+        </childnode>
+      </node>
+      <node id="6453">
+        <label>wxRichTextParagraphLayoutBox</label>
+        <link refid="classwx_rich_text_paragraph_layout_box"/>
+        <childnode refid="6454" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6458" relation="usage">
+          <edgelabel>m_defaultAttributes</edgelabel>
+        </childnode>
+        <childnode refid="6468" relation="usage">
+          <edgelabel>m_invalidRange</edgelabel>
+        </childnode>
+        <childnode refid="6469" relation="usage">
+          <edgelabel>m_ctrl</edgelabel>
+        </childnode>
+      </node>
+      <node id="6480">
+        <label>wxCursor</label>
+        <link refid="classwx_cursor"/>
+        <childnode refid="6481" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6465">
+        <label>wxTextAttrBorders</label>
+        <link refid="classwx_text_attr_borders"/>
+        <childnode refid="6466" relation="usage">
+          <edgelabel>m_left</edgelabel>
+          <edgelabel>m_bottom</edgelabel>
+          <edgelabel>m_top</edgelabel>
+          <edgelabel>m_right</edgelabel>
+        </childnode>
+      </node>
+      <node id="6451">
+        <label>wxObjectRefData</label>
+        <link refid="classwx_object_ref_data"/>
+      </node>
+    </collaborationgraph>
+    <location file="interface/wx/richtext/richtextbuffer.h" line="1995" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="1994" bodyend="2064"/>
+    <listofallmembers>
+      <member refid="classwx_object_1a60204063f3cc3aa2fa1c7ff5bda9eb13" prot="protected" virt="non-virtual"><scope>wxRichTextDrawingContext</scope><name>AllocExclusive</name></member>
+      <member refid="classwx_rich_text_drawing_context_1aedc3c6c4235404bb7abc2f642097ddef" prot="public" virt="non-virtual"><scope>wxRichTextDrawingContext</scope><name>ApplyVirtualAttributes</name></member>
+      <member refid="classwx_object_1a436fc8fe68cf8a31000296d9cd3d2427" prot="protected" virt="virtual"><scope>wxRichTextDrawingContext</scope><name>CloneRefData</name></member>
+      <member refid="classwx_object_1a3f4f497c65cef611e121c41f21dd5ccc" prot="protected" virt="virtual"><scope>wxRichTextDrawingContext</scope><name>CreateRefData</name></member>
+      <member refid="classwx_rich_text_drawing_context_1a0ac4f46514bfa0ef6485f3d15d27060e" prot="public" virt="non-virtual"><scope>wxRichTextDrawingContext</scope><name>EnableVirtualAttributes</name></member>
+      <member refid="classwx_object_1ae6d365f2556b26767ced8410c5e839d0" prot="public" virt="virtual"><scope>wxRichTextDrawingContext</scope><name>GetClassInfo</name></member>
+      <member refid="classwx_object_1af3c6c76a775864832f1536d3c0de3a2b" prot="public" virt="non-virtual"><scope>wxRichTextDrawingContext</scope><name>GetRefData</name></member>
+      <member refid="classwx_rich_text_drawing_context_1abe083b31b0f9caa99f850b8f7ef3b21a" prot="public" virt="non-virtual"><scope>wxRichTextDrawingContext</scope><name>GetVirtualAttributes</name></member>
+      <member refid="classwx_rich_text_drawing_context_1a846e818517a262aecdbe83ea452fb2b1" prot="public" virt="non-virtual"><scope>wxRichTextDrawingContext</scope><name>GetVirtualAttributesEnabled</name></member>
+      <member refid="classwx_rich_text_drawing_context_1abc4c993859fa62bd3187c8afa06c1f4e" prot="public" virt="non-virtual"><scope>wxRichTextDrawingContext</scope><name>GetVirtualSubobjectAttributes</name></member>
+      <member refid="classwx_rich_text_drawing_context_1a7945bc509fcb2fc69e521f1cbf445526" prot="public" virt="non-virtual"><scope>wxRichTextDrawingContext</scope><name>GetVirtualSubobjectAttributesCount</name></member>
+      <member refid="classwx_rich_text_drawing_context_1a2ab637289f2e79577b564d446458cbd0" prot="public" virt="non-virtual"><scope>wxRichTextDrawingContext</scope><name>GetVirtualText</name></member>
+      <member refid="classwx_rich_text_drawing_context_1aefbaaf27a4ff392e6691bbd0f0e8944d" prot="public" virt="non-virtual"><scope>wxRichTextDrawingContext</scope><name>HasVirtualAttributes</name></member>
+      <member refid="classwx_rich_text_drawing_context_1a23194a4609b8cf9259adfa4d1d5ef9a5" prot="public" virt="non-virtual"><scope>wxRichTextDrawingContext</scope><name>HasVirtualText</name></member>
+      <member refid="classwx_rich_text_drawing_context_1ad336d20e423e4c086a37f3101ebd6ad5" prot="public" virt="non-virtual"><scope>wxRichTextDrawingContext</scope><name>Init</name></member>
+      <member refid="classwx_object_1a3c7115ef4132dcee0c4fc34e84d7fced" prot="public" virt="non-virtual"><scope>wxRichTextDrawingContext</scope><name>IsKindOf</name></member>
+      <member refid="classwx_object_1a059373c494c2369d7db2a556efef8ecf" prot="public" virt="non-virtual"><scope>wxRichTextDrawingContext</scope><name>IsSameAs</name></member>
+      <member refid="classwx_rich_text_drawing_context_1a8f26d968169760885355317c6478810a" prot="public" virt="non-virtual"><scope>wxRichTextDrawingContext</scope><name>m_buffer</name></member>
+      <member refid="classwx_object_1a9e31954530a0abd54982effc443ed2b8" prot="protected" virt="non-virtual"><scope>wxRichTextDrawingContext</scope><name>m_refData</name></member>
+      <member refid="classwx_object_1a07b8f34f5afc5743195c5fed052f55d3" prot="public" virt="non-virtual"><scope>wxRichTextDrawingContext</scope><name>operator delete</name></member>
+      <member refid="classwx_object_1a96fa423a1dbc212c8227a5d83825971f" prot="public" virt="non-virtual"><scope>wxRichTextDrawingContext</scope><name>operator new</name></member>
+      <member refid="classwx_object_1a2f6f1aa51fe9fc2b1415ca4211a90e9e" prot="public" virt="non-virtual"><scope>wxRichTextDrawingContext</scope><name>Ref</name></member>
+      <member refid="classwx_object_1afab780710f2adc1bb33310e27590140b" prot="public" virt="non-virtual"><scope>wxRichTextDrawingContext</scope><name>SetRefData</name></member>
+      <member refid="classwx_object_1af51efc6b1ae632fc7f0cd7ebbce9fa36" prot="public" virt="non-virtual"><scope>wxRichTextDrawingContext</scope><name>UnRef</name></member>
+      <member refid="classwx_object_1a74b40e42d19a4b9e9bec0b57d62a5725" prot="public" virt="non-virtual"><scope>wxRichTextDrawingContext</scope><name>UnShare</name></member>
+      <member refid="classwx_object_1acaa378363a28af421ab56ad7b46eadf0" prot="public" virt="non-virtual"><scope>wxRichTextDrawingContext</scope><name>wxObject</name></member>
+      <member refid="classwx_object_1a4721b4dc9b7aff0f30904ba2ea3954cf" prot="public" virt="non-virtual"><scope>wxRichTextDrawingContext</scope><name>wxObject</name></member>
+      <member refid="classwx_rich_text_drawing_context_1a23c7f4a3f655d4c762fc78df6633aa0b" prot="public" virt="non-virtual"><scope>wxRichTextDrawingContext</scope><name>wxRichTextDrawingContext</name></member>
+      <member refid="classwx_object_1a2a51aa8bfbab47ca2f051bcf84b3f35b" prot="public" virt="virtual"><scope>wxRichTextDrawingContext</scope><name>~wxObject</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

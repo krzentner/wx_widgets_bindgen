@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="automtn_8h" kind="file" language="C++">
+    <compoundname>automtn.h</compoundname>
+    <innerclass refid="classwx_variant_data_currency" prot="public">wxVariantDataCurrency</innerclass>
+    <innerclass refid="classwx_variant_data_error_code" prot="public">wxVariantDataErrorCode</innerclass>
+    <innerclass refid="classwx_variant_data_safe_array" prot="public">wxVariantDataSafeArray</innerclass>
+    <innerclass refid="classwx_automation_object" prot="public">wxAutomationObject</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="automtn_8h_1a2a632c1c7e22d8092a8f94b3ac95909e" prot="public" static="no" strong="no">
+        <type></type>
+        <name>wxAutomationInstanceFlags</name>
+        <enumvalue id="automtn_8h_1a2a632c1c7e22d8092a8f94b3ac95909ea8120fd2336a124a46ed7ebef64ccdd49" prot="public">
+          <name>wxAutomationInstance_UseExistingOnly</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+<para>Only use the existing instance, never create a new one. </para>          </briefdescription>
+          <detaileddescription>
+<para>This flag can be used to forbid the creation of a new instance if none is currently running. </para>          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="automtn_8h_1a2a632c1c7e22d8092a8f94b3ac95909eafb46c31acfe0ee3c33b6f1235fb30e12" prot="public">
+          <name>wxAutomationInstance_CreateIfNeeded</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+<para>Create a new instance if there are no existing ones. </para>          </briefdescription>
+          <detaileddescription>
+<para>This flag corresponds to the default behaviour of <ref refid="classwx_automation_object_1af95603ec766f4813e4cea6687a210e45" kindref="member">wxAutomationObject::GetInstance()</ref> and means that if getting an existing instance failed, we should call <ref refid="classwx_automation_object_1af2bc6bd3ff45bec003c135292ba2a877" kindref="member">wxAutomationObject::CreateInstance()</ref> to create a new one. </para>          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="automtn_8h_1a2a632c1c7e22d8092a8f94b3ac95909ea2260f400957b888f733d66fa507ff103" prot="public">
+          <name>wxAutomationInstance_SilentIfNone</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+<para>Do not show an error message if no existing instance is currently running. </para>          </briefdescription>
+          <detaileddescription>
+<para>All other errors will still be reported as usual. </para>          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Automation object creation flags. </para>        </briefdescription>
+        <detaileddescription>
+<para>These flags can be used with <ref refid="classwx_automation_object_1af95603ec766f4813e4cea6687a210e45" kindref="member">wxAutomationObject::GetInstance()</ref>.</para><para><simplesect kind="since"><para>2.9.2 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/msw/ole/automtn.h" line="16" column="1" bodyfile="interface/wx/msw/ole/automtn.h" bodystart="15" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="enum" id="automtn_8h_1abc7384fa01c6eb0bda9f6daba63b5f19" prot="public" static="no" strong="no">
+        <type></type>
+        <name>wxOleConvertVariantFlags</name>
+        <enumvalue id="automtn_8h_1abc7384fa01c6eb0bda9f6daba63b5f19aa1349835207204f3b4ba60c2aae37181" prot="public">
+          <name>wxOleConvertVariant_Default</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+<para>Default value. </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="automtn_8h_1abc7384fa01c6eb0bda9f6daba63b5f19ac9eb2d8b9ff34bf523694dfc2c7481f0" prot="public">
+          <name>wxOleConvertVariant_ReturnSafeArrays</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+<para>If this flag is used, SAFEARRAYs contained in OLE VARIANTs will be returned as wxVariants with <ref refid="classwx_variant_data_safe_array" kindref="compound">wxVariantDataSafeArray</ref> type instead of wxVariants with the list type containing the (flattened) SAFEARRAY&apos;s elements. </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Flags used for conversions between <ref refid="classwx_variant" kindref="compound">wxVariant</ref> and OLE VARIANT. </para>        </briefdescription>
+        <detaileddescription>
+<para>These flags are used by <ref refid="classwx_automation_object" kindref="compound">wxAutomationObject</ref> for its wxConvertOleToVariant() calls. They can be obtained by <ref refid="classwx_automation_object_1af8565d70c2e0370bc0dac5a86d4afeb0" kindref="member">wxAutomationObject::GetConvertVariantFlags()</ref> and set by <ref refid="classwx_automation_object_1af68c1dfd67c9c018983e0da3c0385fae" kindref="member">wxAutomationObject::SetConvertVariantFlags()</ref>.</para><para><simplesect kind="since"><para>3.0</para></simplesect>
+Include file:<linebreak/>
+ <verbatim>#include &lt;wx/msw/ole/oleutils.h&gt; </verbatim> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/msw/ole/automtn.h" line="56" column="1" bodyfile="interface/wx/msw/ole/automtn.h" bodystart="55" bodyend="69"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="interface/wx/msw/ole/automtn.h"/>
+  </compounddef>
+</doxygen>

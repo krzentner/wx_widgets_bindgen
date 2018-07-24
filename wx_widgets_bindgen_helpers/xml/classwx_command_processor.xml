@@ -1,0 +1,456 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_command_processor" kind="class" language="C++" prot="public">
+    <compoundname>wxCommandProcessor</compoundname>
+    <basecompoundref refid="classwx_object" prot="public" virt="non-virtual">wxObject</basecompoundref>
+    <includes local="no">wx/cmdproc.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classwx_command_processor_1a8f0b55885b6ea95037e81bbe76e28d74" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxCommandProcessor::wxCommandProcessor</definition>
+        <argsstring>(int maxCommands=-1)</argsstring>
+        <name>wxCommandProcessor</name>
+        <param>
+          <type>int</type>
+          <declname>maxCommands</declname>
+          <defval>-1</defval>
+        </param>
+        <briefdescription>
+<para>Constructor. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>maxCommands</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>May be set to a positive integer to limit the number of commands stored to it, otherwise (and by default) the list of commands can grow arbitrarily. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/cmdproc.h" line="115" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_command_processor_1a6a23f73d01bf378ef0ea92c5ab5ac7b9" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual wxCommandProcessor::~wxCommandProcessor</definition>
+        <argsstring>()</argsstring>
+        <name>~wxCommandProcessor</name>
+        <briefdescription>
+<para>Destructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/cmdproc.h" line="120" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_command_processor_1a69e81fc811ca19833bd7b684ecf2da12" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool wxCommandProcessor::CanUndo</definition>
+        <argsstring>() const</argsstring>
+        <name>CanUndo</name>
+        <briefdescription>
+<para>Returns true if the currently-active command can be undone, false otherwise. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/cmdproc.h" line="126" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_command_processor_1aeb9ad26a1ad14936db1bb1497e58e59a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool wxCommandProcessor::CanRedo</definition>
+        <argsstring>() const</argsstring>
+        <name>CanRedo</name>
+        <briefdescription>
+<para>Returns true if the currently-active command can be redone, false otherwise. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/cmdproc.h" line="132" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_command_processor_1a9d315d50c36aa91195f7954984b4cd9d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void wxCommandProcessor::ClearCommands</definition>
+        <argsstring>()</argsstring>
+        <name>ClearCommands</name>
+        <briefdescription>
+<para>Deletes all commands in the list and sets the current command pointer to NULL. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/cmdproc.h" line="138" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_command_processor_1a74dc1071ae546b2f27280154887c99b9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>wxList &amp;</type>
+        <definition>wxList&amp; wxCommandProcessor::GetCommands</definition>
+        <argsstring>()</argsstring>
+        <name>GetCommands</name>
+        <briefdescription>
+<para>Returns the list of commands. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/cmdproc.h" line="143" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_command_processor_1a931597d2762058938799b64709345073" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_command" kindref="compound">wxCommand</ref> *</type>
+        <definition>wxCommand* wxCommandProcessor::GetCurrentCommand</definition>
+        <argsstring>() const</argsstring>
+        <name>GetCurrentCommand</name>
+        <briefdescription>
+<para>Returns the current command. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/cmdproc.h" line="148" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_command_processor_1a6b16837b4115f9564b105494e82f6513" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_menu" kindref="compound">wxMenu</ref> *</type>
+        <definition>wxMenu* wxCommandProcessor::GetEditMenu</definition>
+        <argsstring>() const</argsstring>
+        <name>GetEditMenu</name>
+        <briefdescription>
+<para>Returns the edit menu associated with the command processor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/cmdproc.h" line="153" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_command_processor_1a9f540ccdea952ee0f80301c5b179579d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int wxCommandProcessor::GetMaxCommands</definition>
+        <argsstring>() const</argsstring>
+        <name>GetMaxCommands</name>
+        <briefdescription>
+<para>Returns the maximum number of commands that the command processor stores. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/cmdproc.h" line="159" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_command_processor_1ae1917612b5a44e0ae01da20cf2262ad5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+        <definition>const wxString&amp; wxCommandProcessor::GetRedoAccelerator</definition>
+        <argsstring>() const</argsstring>
+        <name>GetRedoAccelerator</name>
+        <briefdescription>
+<para>Returns the string that will be appended to the Redo menu item. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/cmdproc.h" line="164" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_command_processor_1aecf786d0eaf85b36ed83f3296dbf97b2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_string" kindref="compound">wxString</ref></type>
+        <definition>wxString wxCommandProcessor::GetRedoMenuLabel</definition>
+        <argsstring>() const</argsstring>
+        <name>GetRedoMenuLabel</name>
+        <briefdescription>
+<para>Returns the string that will be shown for the redo menu item. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/cmdproc.h" line="169" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_command_processor_1a863918bdfffa0ee61a4c8b8bd213c001" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+        <definition>const wxString&amp; wxCommandProcessor::GetUndoAccelerator</definition>
+        <argsstring>() const</argsstring>
+        <name>GetUndoAccelerator</name>
+        <briefdescription>
+<para>Returns the string that will be appended to the Undo menu item. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/cmdproc.h" line="174" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_command_processor_1abd868af91e716f06d46e936fdb682ff9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_string" kindref="compound">wxString</ref></type>
+        <definition>wxString wxCommandProcessor::GetUndoMenuLabel</definition>
+        <argsstring>() const</argsstring>
+        <name>GetUndoMenuLabel</name>
+        <briefdescription>
+<para>Returns the string that will be shown for the undo menu item. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/cmdproc.h" line="179" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_command_processor_1a2ca9168da9f416cfd39307f4d9686612" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void wxCommandProcessor::Initialize</definition>
+        <argsstring>()</argsstring>
+        <name>Initialize</name>
+        <briefdescription>
+<para>Initializes the command processor, setting the current command to the last in the list (if any), and updating the edit menu (if one has been specified). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/cmdproc.h" line="186" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_command_processor_1a5d4297924743ae662c4bda5150682215" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool wxCommandProcessor::IsDirty</definition>
+        <argsstring>() const</argsstring>
+        <name>IsDirty</name>
+        <briefdescription>
+<para>Returns a boolean value that indicates if changes have been made since the last save operation. </para>        </briefdescription>
+        <detaileddescription>
+<para>This only works if <ref refid="classwx_command_processor_1a5ab022fc24cbc1ebd86a0c2edb4b4de8" kindref="member">MarkAsSaved()</ref> is called whenever the project is saved. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/cmdproc.h" line="193" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_command_processor_1a5ab022fc24cbc1ebd86a0c2edb4b4de8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxCommandProcessor::MarkAsSaved</definition>
+        <argsstring>()</argsstring>
+        <name>MarkAsSaved</name>
+        <briefdescription>
+<para>You must call this method whenever the project is saved if you plan to use <ref refid="classwx_command_processor_1a5d4297924743ae662c4bda5150682215" kindref="member">IsDirty()</ref>. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/cmdproc.h" line="199" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_command_processor_1a5f51b031f29220385f7e270f7d08afc4" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool wxCommandProcessor::Redo</definition>
+        <argsstring>()</argsstring>
+        <name>Redo</name>
+        <briefdescription>
+<para>Executes (redoes) the current command (the command that has just been undone if any). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/cmdproc.h" line="205" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_command_processor_1ac165f00d1d87bf0814be4156503ef954" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxCommandProcessor::SetEditMenu</definition>
+        <argsstring>(wxMenu *menu)</argsstring>
+        <name>SetEditMenu</name>
+        <param>
+          <type><ref refid="classwx_menu" kindref="compound">wxMenu</ref> *</type>
+          <declname>menu</declname>
+        </param>
+        <briefdescription>
+<para>Tells the command processor to update the Undo and Redo items on this menu as appropriate. </para>        </briefdescription>
+        <detaileddescription>
+<para>Set this to NULL if the menu is about to be destroyed and command operations may still be performed, or the command processor may try to access an invalid pointer. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/cmdproc.h" line="213" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_command_processor_1a186f43c64bc8154da368504ccc83cfc7" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void wxCommandProcessor::SetMenuStrings</definition>
+        <argsstring>()</argsstring>
+        <name>SetMenuStrings</name>
+        <briefdescription>
+<para>Sets the menu labels according to the currently set menu and the current command state. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/cmdproc.h" line="219" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_command_processor_1a1561f0d451067751bcd0d774213fb365" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxCommandProcessor::SetRedoAccelerator</definition>
+        <argsstring>(const wxString &amp;accel)</argsstring>
+        <name>SetRedoAccelerator</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>accel</declname>
+        </param>
+        <briefdescription>
+<para>Sets the string that will be appended to the Redo menu item. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/cmdproc.h" line="224" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_command_processor_1a258a7fd2a1250220e119849eafe55934" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxCommandProcessor::SetUndoAccelerator</definition>
+        <argsstring>(const wxString &amp;accel)</argsstring>
+        <name>SetUndoAccelerator</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>accel</declname>
+        </param>
+        <briefdescription>
+<para>Sets the string that will be appended to the Undo menu item. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/cmdproc.h" line="229" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_command_processor_1a5c4a270152e0ca5d57d4e0c0c5e9e34a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool wxCommandProcessor::Submit</definition>
+        <argsstring>(wxCommand *command, bool storeIt=true)</argsstring>
+        <name>Submit</name>
+        <param>
+          <type><ref refid="classwx_command" kindref="compound">wxCommand</ref> *</type>
+          <declname>command</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>storeIt</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+<para>Submits a new command to the command processor. </para>        </briefdescription>
+        <detaileddescription>
+<para>The command processor calls <ref refid="classwx_command_1a858fb8c1b0ab1d3400b9bc2605a5e5f7" kindref="member">wxCommand::Do()</ref> to execute the command; if it succeeds, the command is stored in the history list, and the associated edit menu (if any) updated appropriately. If it fails, the command is deleted immediately. Once <ref refid="classwx_command_processor_1a5c4a270152e0ca5d57d4e0c0c5e9e34a" kindref="member">Submit()</ref> has been called, the passed command should not be deleted directly by the application.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>command</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The command to submit </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>storeIt</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Indicates whether the successful command should be stored in the history list. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/cmdproc.h" line="246" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_command_processor_1a3b3264402f092540ad075aba0f4d2352" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void wxCommandProcessor::Store</definition>
+        <argsstring>(wxCommand *command)</argsstring>
+        <name>Store</name>
+        <param>
+          <type><ref refid="classwx_command" kindref="compound">wxCommand</ref> *</type>
+          <declname>command</declname>
+        </param>
+        <briefdescription>
+<para>Just store the command without executing it. </para>        </briefdescription>
+        <detaileddescription>
+<para>The command is stored in the history list, and the associated edit menu (if any) updated appropriately. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/cmdproc.h" line="252" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_command_processor_1af26a98ba5b9d0a3f9c290714aab28891" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool wxCommandProcessor::Undo</definition>
+        <argsstring>()</argsstring>
+        <name>Undo</name>
+        <briefdescription>
+<para>Undoes the last command executed. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/cmdproc.h" line="257" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="classwx_command_processor" kindref="compound">wxCommandProcessor</ref> is a class that maintains a history of wxCommands, with undo/redo functionality built-in. </para>    </briefdescription>
+    <detaileddescription>
+<para>Derive a new class from this if you want different behaviour.</para><para><heading level="2"></heading>
+</para><para>Library:<nonbreakablespace/><nonbreakablespace/><ref refid="page_libs_1page_libs_wxcore" kindref="member">wxCore</ref> &lt;&gt;&lt; =&apos;&apos;&gt;:&lt;/&gt;&amp;;&amp;;&lt; =&apos;&apos;&gt;\ &lt;/&gt;&lt;/&gt;</para><para><simplesect kind="see"><para><ref refid="overview_docview_1overview_docview_wxcommandproc" kindref="member">wxCommandProcessor Overview</ref>, <ref refid="classwx_command" kindref="compound">wxCommand</ref> </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="1074">
+        <label>wxCommandProcessor</label>
+        <link refid="classwx_command_processor"/>
+        <childnode refid="1075" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1075">
+        <label>wxObject</label>
+        <link refid="classwx_object"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1076">
+        <label>wxCommandProcessor</label>
+        <link refid="classwx_command_processor"/>
+        <childnode refid="1077" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1077">
+        <label>wxObject</label>
+        <link refid="classwx_object"/>
+        <childnode refid="1078" relation="usage">
+          <edgelabel>m_refData</edgelabel>
+        </childnode>
+      </node>
+      <node id="1078">
+        <label>wxObjectRefData</label>
+        <link refid="classwx_object_ref_data"/>
+      </node>
+    </collaborationgraph>
+    <location file="interface/wx/cmdproc.h" line="105" column="1" bodyfile="interface/wx/cmdproc.h" bodystart="104" bodyend="258"/>
+    <listofallmembers>
+      <member refid="classwx_object_1a60204063f3cc3aa2fa1c7ff5bda9eb13" prot="protected" virt="non-virtual"><scope>wxCommandProcessor</scope><name>AllocExclusive</name></member>
+      <member refid="classwx_command_processor_1aeb9ad26a1ad14936db1bb1497e58e59a" prot="public" virt="virtual"><scope>wxCommandProcessor</scope><name>CanRedo</name></member>
+      <member refid="classwx_command_processor_1a69e81fc811ca19833bd7b684ecf2da12" prot="public" virt="virtual"><scope>wxCommandProcessor</scope><name>CanUndo</name></member>
+      <member refid="classwx_command_processor_1a9d315d50c36aa91195f7954984b4cd9d" prot="public" virt="virtual"><scope>wxCommandProcessor</scope><name>ClearCommands</name></member>
+      <member refid="classwx_object_1a436fc8fe68cf8a31000296d9cd3d2427" prot="protected" virt="virtual"><scope>wxCommandProcessor</scope><name>CloneRefData</name></member>
+      <member refid="classwx_object_1a3f4f497c65cef611e121c41f21dd5ccc" prot="protected" virt="virtual"><scope>wxCommandProcessor</scope><name>CreateRefData</name></member>
+      <member refid="classwx_object_1ae6d365f2556b26767ced8410c5e839d0" prot="public" virt="virtual"><scope>wxCommandProcessor</scope><name>GetClassInfo</name></member>
+      <member refid="classwx_command_processor_1a74dc1071ae546b2f27280154887c99b9" prot="public" virt="non-virtual"><scope>wxCommandProcessor</scope><name>GetCommands</name></member>
+      <member refid="classwx_command_processor_1a931597d2762058938799b64709345073" prot="public" virt="non-virtual"><scope>wxCommandProcessor</scope><name>GetCurrentCommand</name></member>
+      <member refid="classwx_command_processor_1a6b16837b4115f9564b105494e82f6513" prot="public" virt="non-virtual"><scope>wxCommandProcessor</scope><name>GetEditMenu</name></member>
+      <member refid="classwx_command_processor_1a9f540ccdea952ee0f80301c5b179579d" prot="public" virt="non-virtual"><scope>wxCommandProcessor</scope><name>GetMaxCommands</name></member>
+      <member refid="classwx_command_processor_1ae1917612b5a44e0ae01da20cf2262ad5" prot="public" virt="non-virtual"><scope>wxCommandProcessor</scope><name>GetRedoAccelerator</name></member>
+      <member refid="classwx_command_processor_1aecf786d0eaf85b36ed83f3296dbf97b2" prot="public" virt="non-virtual"><scope>wxCommandProcessor</scope><name>GetRedoMenuLabel</name></member>
+      <member refid="classwx_object_1af3c6c76a775864832f1536d3c0de3a2b" prot="public" virt="non-virtual"><scope>wxCommandProcessor</scope><name>GetRefData</name></member>
+      <member refid="classwx_command_processor_1a863918bdfffa0ee61a4c8b8bd213c001" prot="public" virt="non-virtual"><scope>wxCommandProcessor</scope><name>GetUndoAccelerator</name></member>
+      <member refid="classwx_command_processor_1abd868af91e716f06d46e936fdb682ff9" prot="public" virt="non-virtual"><scope>wxCommandProcessor</scope><name>GetUndoMenuLabel</name></member>
+      <member refid="classwx_command_processor_1a2ca9168da9f416cfd39307f4d9686612" prot="public" virt="virtual"><scope>wxCommandProcessor</scope><name>Initialize</name></member>
+      <member refid="classwx_command_processor_1a5d4297924743ae662c4bda5150682215" prot="public" virt="virtual"><scope>wxCommandProcessor</scope><name>IsDirty</name></member>
+      <member refid="classwx_object_1a3c7115ef4132dcee0c4fc34e84d7fced" prot="public" virt="non-virtual"><scope>wxCommandProcessor</scope><name>IsKindOf</name></member>
+      <member refid="classwx_object_1a059373c494c2369d7db2a556efef8ecf" prot="public" virt="non-virtual"><scope>wxCommandProcessor</scope><name>IsSameAs</name></member>
+      <member refid="classwx_object_1a9e31954530a0abd54982effc443ed2b8" prot="protected" virt="non-virtual"><scope>wxCommandProcessor</scope><name>m_refData</name></member>
+      <member refid="classwx_command_processor_1a5ab022fc24cbc1ebd86a0c2edb4b4de8" prot="public" virt="non-virtual"><scope>wxCommandProcessor</scope><name>MarkAsSaved</name></member>
+      <member refid="classwx_object_1a07b8f34f5afc5743195c5fed052f55d3" prot="public" virt="non-virtual"><scope>wxCommandProcessor</scope><name>operator delete</name></member>
+      <member refid="classwx_object_1a96fa423a1dbc212c8227a5d83825971f" prot="public" virt="non-virtual"><scope>wxCommandProcessor</scope><name>operator new</name></member>
+      <member refid="classwx_command_processor_1a5f51b031f29220385f7e270f7d08afc4" prot="public" virt="virtual"><scope>wxCommandProcessor</scope><name>Redo</name></member>
+      <member refid="classwx_object_1a2f6f1aa51fe9fc2b1415ca4211a90e9e" prot="public" virt="non-virtual"><scope>wxCommandProcessor</scope><name>Ref</name></member>
+      <member refid="classwx_command_processor_1ac165f00d1d87bf0814be4156503ef954" prot="public" virt="non-virtual"><scope>wxCommandProcessor</scope><name>SetEditMenu</name></member>
+      <member refid="classwx_command_processor_1a186f43c64bc8154da368504ccc83cfc7" prot="public" virt="virtual"><scope>wxCommandProcessor</scope><name>SetMenuStrings</name></member>
+      <member refid="classwx_command_processor_1a1561f0d451067751bcd0d774213fb365" prot="public" virt="non-virtual"><scope>wxCommandProcessor</scope><name>SetRedoAccelerator</name></member>
+      <member refid="classwx_object_1afab780710f2adc1bb33310e27590140b" prot="public" virt="non-virtual"><scope>wxCommandProcessor</scope><name>SetRefData</name></member>
+      <member refid="classwx_command_processor_1a258a7fd2a1250220e119849eafe55934" prot="public" virt="non-virtual"><scope>wxCommandProcessor</scope><name>SetUndoAccelerator</name></member>
+      <member refid="classwx_command_processor_1a3b3264402f092540ad075aba0f4d2352" prot="public" virt="virtual"><scope>wxCommandProcessor</scope><name>Store</name></member>
+      <member refid="classwx_command_processor_1a5c4a270152e0ca5d57d4e0c0c5e9e34a" prot="public" virt="virtual"><scope>wxCommandProcessor</scope><name>Submit</name></member>
+      <member refid="classwx_command_processor_1af26a98ba5b9d0a3f9c290714aab28891" prot="public" virt="virtual"><scope>wxCommandProcessor</scope><name>Undo</name></member>
+      <member refid="classwx_object_1af51efc6b1ae632fc7f0cd7ebbce9fa36" prot="public" virt="non-virtual"><scope>wxCommandProcessor</scope><name>UnRef</name></member>
+      <member refid="classwx_object_1a74b40e42d19a4b9e9bec0b57d62a5725" prot="public" virt="non-virtual"><scope>wxCommandProcessor</scope><name>UnShare</name></member>
+      <member refid="classwx_command_processor_1a8f0b55885b6ea95037e81bbe76e28d74" prot="public" virt="non-virtual"><scope>wxCommandProcessor</scope><name>wxCommandProcessor</name></member>
+      <member refid="classwx_object_1acaa378363a28af421ab56ad7b46eadf0" prot="public" virt="non-virtual"><scope>wxCommandProcessor</scope><name>wxObject</name></member>
+      <member refid="classwx_object_1a4721b4dc9b7aff0f30904ba2ea3954cf" prot="public" virt="non-virtual"><scope>wxCommandProcessor</scope><name>wxObject</name></member>
+      <member refid="classwx_command_processor_1a6a23f73d01bf378ef0ea92c5ab5ac7b9" prot="public" virt="virtual"><scope>wxCommandProcessor</scope><name>~wxCommandProcessor</name></member>
+      <member refid="classwx_object_1a2a51aa8bfbab47ca2f051bcf84b3f35b" prot="public" virt="virtual"><scope>wxCommandProcessor</scope><name>~wxObject</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

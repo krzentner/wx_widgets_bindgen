@@ -1,0 +1,216 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_rich_tool_tip" kind="class" language="C++" prot="public">
+    <compoundname>wxRichToolTip</compoundname>
+    <includes local="no">wx/richtooltip.h</includes>
+      <sectiondef kind="user-defined">
+      <memberdef kind="function" id="classwx_rich_tool_tip_1a51e540bf634f3e0fdd457f49abb11021" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxRichToolTip::SetIcon</definition>
+        <argsstring>(int icon=wxICON_INFORMATION)</argsstring>
+        <name>SetIcon</name>
+        <param>
+          <type>int</type>
+          <declname>icon</declname>
+          <defval><ref refid="defs_8h_1a6ad4380c48ee0854f49c171b1a2514eb" kindref="member">wxICON_INFORMATION</ref></defval>
+        </param>
+        <briefdescription>
+<para>Set the small icon to show. </para>        </briefdescription>
+        <detaileddescription>
+<para>The icon can be either one of the standard information/warning/error ones, i.e. wxICON_INFORMATION, wxICON_WARNING or wxICON_ERROR respectively (the question icon doesn&apos;t make sense for a tooltip so wxICON_QUESTION can&apos;t be used here) or a custom icon. The latter is unsupported by the native MSW implementation of this class so the use of a standard icon is preferred. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtooltip.h" line="130" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_tool_tip_1ac47b9f9896867acf933326e64e9cd260" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxRichToolTip::SetIcon</definition>
+        <argsstring>(const wxIcon &amp;icon)</argsstring>
+        <name>SetIcon</name>
+        <param>
+          <type>const <ref refid="classwx_icon" kindref="compound">wxIcon</ref> &amp;</type>
+          <declname>icon</declname>
+        </param>
+        <briefdescription>
+<para>Set the small icon to show. </para>        </briefdescription>
+        <detaileddescription>
+<para>The icon can be either one of the standard information/warning/error ones, i.e. wxICON_INFORMATION, wxICON_WARNING or wxICON_ERROR respectively (the question icon doesn&apos;t make sense for a tooltip so wxICON_QUESTION can&apos;t be used here) or a custom icon. The latter is unsupported by the native MSW implementation of this class so the use of a standard icon is preferred. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtooltip.h" line="131" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classwx_rich_tool_tip_1ada22072c75eaca6de3de2e89e66a352f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxRichToolTip::wxRichToolTip</definition>
+        <argsstring>(const wxString &amp;title, const wxString &amp;message)</argsstring>
+        <name>wxRichToolTip</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>title</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+<para>Constructor must specify the tooltip title and main message. </para>        </briefdescription>
+        <detaileddescription>
+<para>The main message can contain embedded new lines. Both the title and message must be non-empty.</para><para>Additional attributes can be set later. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtooltip.h" line="104" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_tool_tip_1abc2ac6aff7ca4404622b8e5a24a7d6df" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxRichToolTip::SetBackgroundColour</definition>
+        <argsstring>(const wxColour &amp;col, const wxColour &amp;colEnd=wxColour())</argsstring>
+        <name>SetBackgroundColour</name>
+        <param>
+          <type>const <ref refid="classwx_colour" kindref="compound">wxColour</ref> &amp;</type>
+          <declname>col</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_colour" kindref="compound">wxColour</ref> &amp;</type>
+          <declname>colEnd</declname>
+          <defval><ref refid="classwx_colour" kindref="compound">wxColour</ref>()</defval>
+        </param>
+        <briefdescription>
+<para>Set the background colour. </para>        </briefdescription>
+        <detaileddescription>
+<para>If two colours are specified, the background is drawn using a gradient from top to bottom, otherwise a single solid colour is used.</para><para>By default the colour or colours most appropriate for the current platform are used. If a colour is explicitly set, native MSW version won&apos;t be used as it doesn&apos;t support setting the colour. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtooltip.h" line="116" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_tool_tip_1a9a35b1014b4ce263a639e16252617e4b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxRichToolTip::SetTimeout</definition>
+        <argsstring>(unsigned millisecondsTimeout, unsigned millisecondsDelay=0)</argsstring>
+        <name>SetTimeout</name>
+        <param>
+          <type>unsigned</type>
+          <declname>millisecondsTimeout</declname>
+        </param>
+        <param>
+          <type>unsigned</type>
+          <declname>millisecondsDelay</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>Set timeout after which the tooltip should disappear and optionally set a delay before the tooltip is shown, in milliseconds. </para>        </briefdescription>
+        <detaileddescription>
+<para>By default the tooltip is shown immediately and hidden after a system-dependent interval of time elapses. This method can be used to change this or also disable hiding the tooltip automatically entirely by passing 0 in this parameter (but doing this will prevent the native MSW version from being used).</para><para>Notice that the tooltip will always be hidden if the user presses a key or clicks a mouse button.</para><para>Parameter <emphasis>millisecondsDelay</emphasis> is new since wxWidgets 2.9.5. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtooltip.h" line="149" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_tool_tip_1aaac181d1f2eb1cc1c962c9d27528b6dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxRichToolTip::SetTipKind</definition>
+        <argsstring>(wxTipKind tipKind)</argsstring>
+        <name>SetTipKind</name>
+        <param>
+          <type><ref refid="richtooltip_8h_1a8a5ba062634414b8e1c5432469ec26e6" kindref="member">wxTipKind</ref></type>
+          <declname>tipKind</declname>
+        </param>
+        <briefdescription>
+<para>Choose the tip kind, possibly none. </para>        </briefdescription>
+        <detaileddescription>
+<para>See wxTipKind documentation for the possible choices here.</para><para>By default the tip is positioned automatically, as if wxTipKind_Auto was used. Native MSW implementation doesn&apos;t support setting the tip kind explicitly and won&apos;t be used if this method is called with any value other than wxTipKind_Auto.</para><para>Notice that using non automatic tooltip kind may result in the tooltip being positioned partially off screen and it&apos;s the callers responsibility to ensure that this doesn&apos;t happen in this case. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtooltip.h" line="165" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_tool_tip_1a3268339723ba6bf65c0eb3809b9914eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxRichToolTip::SetTitleFont</definition>
+        <argsstring>(const wxFont &amp;font)</argsstring>
+        <name>SetTitleFont</name>
+        <param>
+          <type>const <ref refid="classwx_font" kindref="compound">wxFont</ref> &amp;</type>
+          <declname>font</declname>
+        </param>
+        <briefdescription>
+<para>Set the title text font. </para>        </briefdescription>
+        <detaileddescription>
+<para>By default it&apos;s emphasized using the font style or colour appropriate for the current platform. Calling this method prevents the native MSW implementation from being used as it doesn&apos;t support changing the font. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtooltip.h" line="174" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_tool_tip_1a29712741409510978cbddec974c9b87b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxRichToolTip::ShowFor</definition>
+        <argsstring>(wxWindow *win, const wxRect *rect=NULL)</argsstring>
+        <name>ShowFor</name>
+        <param>
+          <type><ref refid="classwx_window" kindref="compound">wxWindow</ref> *</type>
+          <declname>win</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_rect" kindref="compound">wxRect</ref> *</type>
+          <declname>rect</declname>
+          <defval>NULL</defval>
+        </param>
+        <briefdescription>
+<para>Show the tooltip for the given window and optionally specify where to show the tooltip. </para>        </briefdescription>
+        <detaileddescription>
+<para>By default the tooltip tip points to the (middle of the) specified window which must be non-NULL or, if <emphasis>rect</emphasis> is non-NULL, the middle of the specified <ref refid="classwx_rect" kindref="compound">wxRect</ref>.</para><para>The coordinates of the <emphasis>rect</emphasis> parameter are relative to the given window.</para><para>Currently the native MSW implementation is used only if <emphasis>win</emphasis> is a <ref refid="classwx_text_ctrl" kindref="compound">wxTextCtrl</ref> and <emphasis>rect</emphasis> is NULL. This limitation may be removed in the future.</para><para>Parameter <emphasis>rect</emphasis> is new since wxWidgets 2.9.5. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtooltip.h" line="192" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_tool_tip_1a5181e48b3834ca6d834b9a2399a64a8e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxRichToolTip::~wxRichToolTip</definition>
+        <argsstring>()</argsstring>
+        <name>~wxRichToolTip</name>
+        <briefdescription>
+<para>Destructor. </para>        </briefdescription>
+        <detaileddescription>
+<para>Notice that destroying this object does not hide the tooltip if it&apos;s currently shown, it will be hidden and destroyed when the user dismisses it or the timeout expires.</para><para>The destructor is non-virtual as this class is not supposed to be derived from. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtooltip.h" line="204" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Allows to show a tool tip with more customizations than <ref refid="classwx_tool_tip" kindref="compound">wxToolTip</ref>. </para>    </briefdescription>
+    <detaileddescription>
+<para>Using this class is very simple, to give a standard warning for a password text control if the password was entered correctly you could simply do: <programlisting><codeline><highlight class="normal">wxTextCtrl*<sp/>password<sp/>=<sp/>new<sp/>wxTextCtrl(...,<sp/>wxTE_PASSWORD);</highlight></codeline>
+<codeline><highlight class="normal">...</highlight></codeline>
+<codeline><highlight class="normal">wxRichToolTip<sp/>tip(&quot;Caps<sp/>Lock<sp/>is<sp/>on&quot;,</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&quot;You<sp/>might<sp/>have<sp/>made<sp/>an<sp/>error<sp/>in<sp/>your<sp/>password\n&quot;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&quot;entry<sp/>because<sp/>Caps<sp/>Lock<sp/>is<sp/>turned<sp/>on.\n&quot;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&quot;\n&quot;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&quot;Press<sp/>Caps<sp/>Lock<sp/>key<sp/>to<sp/>turn<sp/>it<sp/>off.&quot;);</highlight></codeline>
+<codeline><highlight class="normal">tip.SetIcon(wxICON_WARNING);</highlight></codeline>
+<codeline><highlight class="normal">tip.ShowFor(password);</highlight></codeline>
+</programlisting></para><para>Currently this class has generic implementation that can be used with any window and implements all the functionality but doesn&apos;t exactly match the appearance of the native tooltips (even though it makes some efforts to use the style most appropriate for the current platform) and a native MSW version which can be only used with text controls and doesn&apos;t provide as much in the way of customization. Because of this, it&apos;s inadvisable to customize the tooltips unnecessarily as doing this turns off auto-detection of the native style in the generic version and may prevent the native MSW version from being used at all.</para><para>Notice that this class is not derived from <ref refid="classwx_window" kindref="compound">wxWindow</ref> and hence doesn&apos;t represent a window, even if its <ref refid="classwx_rich_tool_tip_1a29712741409510978cbddec974c9b87b" kindref="member">ShowFor()</ref> method does create one internally to show the tooltip.</para><para>The images below show some examples of rich tooltips on different platforms, with various customizations applied.</para><para><heading level="2"></heading>
+</para><para>Library:<nonbreakablespace/><nonbreakablespace/><ref refid="page_libs_1page_libs_wxadv" kindref="member">wxAdvanced</ref> &lt;&gt;&lt; =&apos;&apos;&gt;:&lt;/&gt;&amp;;&amp;;&lt; =&apos;&apos;&gt;\ &lt;/&gt;&lt;/&gt; <linebreak/>
+<image type="html" name="appear-richtooltip-msw.png">wxMSW Appearance</image>
+<linebreak/>
+<linebreak/>
+<image type="html" name="appear-richtooltip-gtk.png">wxGTK Appearance</image>
+<linebreak/>
+<linebreak/>
+<image type="html" name="appear-richtooltip-mac.png">wxOSX Appearance</image>
+<linebreak/>
+</para><para><simplesect kind="since"><para>2.9.3 </para></simplesect>
+</para>    </detaileddescription>
+    <location file="interface/wx/richtooltip.h" line="94" column="1" bodyfile="interface/wx/richtooltip.h" bodystart="93" bodyend="205"/>
+    <listofallmembers>
+      <member refid="classwx_rich_tool_tip_1abc2ac6aff7ca4404622b8e5a24a7d6df" prot="public" virt="non-virtual"><scope>wxRichToolTip</scope><name>SetBackgroundColour</name></member>
+      <member refid="classwx_rich_tool_tip_1a51e540bf634f3e0fdd457f49abb11021" prot="public" virt="non-virtual"><scope>wxRichToolTip</scope><name>SetIcon</name></member>
+      <member refid="classwx_rich_tool_tip_1ac47b9f9896867acf933326e64e9cd260" prot="public" virt="non-virtual"><scope>wxRichToolTip</scope><name>SetIcon</name></member>
+      <member refid="classwx_rich_tool_tip_1a9a35b1014b4ce263a639e16252617e4b" prot="public" virt="non-virtual"><scope>wxRichToolTip</scope><name>SetTimeout</name></member>
+      <member refid="classwx_rich_tool_tip_1aaac181d1f2eb1cc1c962c9d27528b6dc" prot="public" virt="non-virtual"><scope>wxRichToolTip</scope><name>SetTipKind</name></member>
+      <member refid="classwx_rich_tool_tip_1a3268339723ba6bf65c0eb3809b9914eb" prot="public" virt="non-virtual"><scope>wxRichToolTip</scope><name>SetTitleFont</name></member>
+      <member refid="classwx_rich_tool_tip_1a29712741409510978cbddec974c9b87b" prot="public" virt="non-virtual"><scope>wxRichToolTip</scope><name>ShowFor</name></member>
+      <member refid="classwx_rich_tool_tip_1ada22072c75eaca6de3de2e89e66a352f" prot="public" virt="non-virtual"><scope>wxRichToolTip</scope><name>wxRichToolTip</name></member>
+      <member refid="classwx_rich_tool_tip_1a5181e48b3834ca6d834b9a2399a64a8e" prot="public" virt="non-virtual"><scope>wxRichToolTip</scope><name>~wxRichToolTip</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

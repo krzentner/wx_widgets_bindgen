@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="structwx_combo_ctrl_features" kind="struct" language="C++" prot="public">
+    <compoundname>wxComboCtrlFeatures</compoundname>
+    <includes local="no">wx/combo.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="structwx_combo_ctrl_features_1a6e6d4502fb8c5e41dea6ac32116050fa" prot="public" static="no" strong="no">
+        <type></type>
+        <name>@8</name>
+        <enumvalue id="structwx_combo_ctrl_features_1a6e6d4502fb8c5e41dea6ac32116050faa648a01e26ba1fded0d388c2ecf261ce9" prot="public">
+          <name>MovableButton</name>
+          <initializer>= 0x0001</initializer>
+          <briefdescription>
+<para>Button can be on either side of control. </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structwx_combo_ctrl_features_1a6e6d4502fb8c5e41dea6ac32116050faafa55aa1e09f5b7e16d05c0a812974ada" prot="public">
+          <name>BitmapButton</name>
+          <initializer>= 0x0002</initializer>
+          <briefdescription>
+<para>Button may be replaced with bitmap. </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structwx_combo_ctrl_features_1a6e6d4502fb8c5e41dea6ac32116050faae25f5b37fa57ba77bacffaa7c53d9102" prot="public">
+          <name>ButtonSpacing</name>
+          <initializer>= 0x0004</initializer>
+          <briefdescription>
+<para>Button can have spacing from the edge of the control. </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structwx_combo_ctrl_features_1a6e6d4502fb8c5e41dea6ac32116050faae2bdb81415edb3da2ad99e152a98ddfc" prot="public">
+          <name>TextIndent</name>
+          <initializer>= 0x0008</initializer>
+          <briefdescription>
+<para><ref refid="classwx_combo_ctrl_1ae2b983f401d92ccc38f2bed47fb4d76b" kindref="member">wxComboCtrl::SetMargins()</ref> can be used. </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structwx_combo_ctrl_features_1a6e6d4502fb8c5e41dea6ac32116050faafbeabb7796f180744de4353a79d9fc2e" prot="public">
+          <name>PaintControl</name>
+          <initializer>= 0x0010</initializer>
+          <briefdescription>
+<para>Combo control itself can be custom painted. </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structwx_combo_ctrl_features_1a6e6d4502fb8c5e41dea6ac32116050faaef5478c7dd721da5f94ad5449e8d55fc" prot="public">
+          <name>PaintWritable</name>
+          <initializer>= 0x0020</initializer>
+          <briefdescription>
+<para>A variable-width area in front of writable combo control&apos;s textctrl can be custom painted. </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structwx_combo_ctrl_features_1a6e6d4502fb8c5e41dea6ac32116050faac6e917785d07dbda8a16dce9da6aabf0" prot="public">
+          <name>Borderless</name>
+          <initializer>= 0x0040</initializer>
+          <briefdescription>
+<para>wxNO_BORDER window style works. </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structwx_combo_ctrl_features_1a6e6d4502fb8c5e41dea6ac32116050faacaa43f10213b83ade45de5f76c9575bd" prot="public">
+          <name>All</name>
+          <initializer>= MovableButton | BitmapButton | ButtonSpacing |
+                          TextIndent | PaintControl | PaintWritable |
+                          Borderless</initializer>
+          <briefdescription>
+<para>All features. </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/combo.h" line="201" column="1" bodyfile="interface/wx/combo.h" bodystart="200" bodyend="216"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Features enabled for <ref refid="classwx_combo_ctrl" kindref="compound">wxComboCtrl</ref>. </para>    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="see"><para><ref refid="classwx_combo_ctrl_1a10be4d02e6e2bb6a3708aa19ebf45b97" kindref="member">wxComboCtrl::GetFeatures()</ref> </para></simplesect>
+</para>    </detaileddescription>
+    <location file="interface/wx/combo.h" line="199" column="1" bodyfile="interface/wx/combo.h" bodystart="198" bodyend="217"/>
+    <listofallmembers>
+      <member refid="structwx_combo_ctrl_features_1a6e6d4502fb8c5e41dea6ac32116050faacaa43f10213b83ade45de5f76c9575bd" prot="public" virt="non-virtual"><scope>wxComboCtrlFeatures</scope><name>All</name></member>
+      <member refid="structwx_combo_ctrl_features_1a6e6d4502fb8c5e41dea6ac32116050faafa55aa1e09f5b7e16d05c0a812974ada" prot="public" virt="non-virtual"><scope>wxComboCtrlFeatures</scope><name>BitmapButton</name></member>
+      <member refid="structwx_combo_ctrl_features_1a6e6d4502fb8c5e41dea6ac32116050faac6e917785d07dbda8a16dce9da6aabf0" prot="public" virt="non-virtual"><scope>wxComboCtrlFeatures</scope><name>Borderless</name></member>
+      <member refid="structwx_combo_ctrl_features_1a6e6d4502fb8c5e41dea6ac32116050faae25f5b37fa57ba77bacffaa7c53d9102" prot="public" virt="non-virtual"><scope>wxComboCtrlFeatures</scope><name>ButtonSpacing</name></member>
+      <member refid="structwx_combo_ctrl_features_1a6e6d4502fb8c5e41dea6ac32116050faa648a01e26ba1fded0d388c2ecf261ce9" prot="public" virt="non-virtual"><scope>wxComboCtrlFeatures</scope><name>MovableButton</name></member>
+      <member refid="structwx_combo_ctrl_features_1a6e6d4502fb8c5e41dea6ac32116050faafbeabb7796f180744de4353a79d9fc2e" prot="public" virt="non-virtual"><scope>wxComboCtrlFeatures</scope><name>PaintControl</name></member>
+      <member refid="structwx_combo_ctrl_features_1a6e6d4502fb8c5e41dea6ac32116050faaef5478c7dd721da5f94ad5449e8d55fc" prot="public" virt="non-virtual"><scope>wxComboCtrlFeatures</scope><name>PaintWritable</name></member>
+      <member refid="structwx_combo_ctrl_features_1a6e6d4502fb8c5e41dea6ac32116050faae2bdb81415edb3da2ad99e152a98ddfc" prot="public" virt="non-virtual"><scope>wxComboCtrlFeatures</scope><name>TextIndent</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="interface_2wx_2dnd_8h" kind="file" language="C++">
+    <compoundname>dnd.h</compoundname>
+    <innerclass refid="classwx_drop_target" prot="public">wxDropTarget</innerclass>
+    <innerclass refid="classwx_drop_source" prot="public">wxDropSource</innerclass>
+    <innerclass refid="classwx_text_drop_target" prot="public">wxTextDropTarget</innerclass>
+    <innerclass refid="classwx_file_drop_target" prot="public">wxFileDropTarget</innerclass>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="group__group__funcmacro__gdi_1gafd3af54dd770553f30cfde5971c0cce4" prot="public" static="no">
+        <name>wxDROP_ICON</name>
+        <param><defname>name</defname></param>
+        <briefdescription>
+<para>This macro creates either a cursor (MSW) or an icon (elsewhere) with the given <emphasis>name</emphasis> (of type <computeroutput>const char*</computeroutput>). </para>        </briefdescription>
+        <detaileddescription>
+<para>Under MSW, the cursor is loaded from the resource file and the icon is loaded from XPM file under other platforms.</para><para>This macro should be used with <ref refid="classwx_drop_source_1a0534684be549317b7a14ce27d5afc699" kindref="member">wxDropSource::wxDropSource()</ref>.</para><para><simplesect kind="return"><para><ref refid="classwx_cursor" kindref="compound">wxCursor</ref> on MSW, otherwise returns a <ref refid="classwx_icon" kindref="compound">wxIcon</ref></para></simplesect>
+Include file:<linebreak/>
+ <verbatim>#include &lt;wx/dnd.h&gt; </verbatim> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/dnd.h" line="446" column="9" bodyfile="interface/wx/dnd.h" bodystart="446" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="interface_2wx_2dnd_8h_1ac36f475ca5b446f4fde4c9b90bec77c8" prot="public" static="no" strong="no">
+        <type></type>
+        <name>@12</name>
+        <enumvalue id="interface_2wx_2dnd_8h_1ac36f475ca5b446f4fde4c9b90bec77c8a97a0902f009ddd6c58eab2e6f5cff100" prot="public">
+          <name>wxDrag_CopyOnly</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+<para>Allow only copying. </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="interface_2wx_2dnd_8h_1ac36f475ca5b446f4fde4c9b90bec77c8a1557b04adc6f4e8f5cc70e615878f268" prot="public">
+          <name>wxDrag_AllowMove</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+<para>Allow moving too (copying is always allowed). </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="interface_2wx_2dnd_8h_1ac36f475ca5b446f4fde4c9b90bec77c8ae68db1f805abe2bc979adde62d3953ed" prot="public">
+          <name>wxDrag_DefaultMove</name>
+          <initializer>= 3</initializer>
+          <briefdescription>
+<para>Allow moving and make it default operation. </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Possible flags for drag and drop operations. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/dnd.h" line="12" column="1" bodyfile="interface/wx/dnd.h" bodystart="11" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="enum" id="interface_2wx_2dnd_8h_1adbd4b292582eebbc9a6ce3dee31c2afb" prot="public" static="no" strong="no">
+        <type></type>
+        <name>wxDragResult</name>
+        <enumvalue id="interface_2wx_2dnd_8h_1adbd4b292582eebbc9a6ce3dee31c2afba6e047db1c3c5a5c66c4d980e273693cf" prot="public">
+          <name>wxDragError</name>
+          <briefdescription>
+<para>Error prevented the D&amp;D operation from completing. </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="interface_2wx_2dnd_8h_1adbd4b292582eebbc9a6ce3dee31c2afba8324e9ee208c50276f8c2cad7d3fd548" prot="public">
+          <name>wxDragNone</name>
+          <briefdescription>
+<para>Drag target didn&apos;t accept the data. </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="interface_2wx_2dnd_8h_1adbd4b292582eebbc9a6ce3dee31c2afba736c04c59caf8154a096e0d350492fc1" prot="public">
+          <name>wxDragCopy</name>
+          <briefdescription>
+<para>The data was successfully copied. </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="interface_2wx_2dnd_8h_1adbd4b292582eebbc9a6ce3dee31c2afba8b2ba916ca49cc93ef34a5e20684d18e" prot="public">
+          <name>wxDragMove</name>
+          <briefdescription>
+<para>The data was successfully moved (MSW only). </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="interface_2wx_2dnd_8h_1adbd4b292582eebbc9a6ce3dee31c2afba0fcf552d173325c0fecee2b18926305b" prot="public">
+          <name>wxDragLink</name>
+          <briefdescription>
+<para>Operation is a drag-link. </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="interface_2wx_2dnd_8h_1adbd4b292582eebbc9a6ce3dee31c2afbaa74d0419e74230f16c9d8ec46e071b43" prot="public">
+          <name>wxDragCancel</name>
+          <briefdescription>
+<para>The operation was cancelled by user (not an error). </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Result returned from a <ref refid="classwx_drop_source_1a7053f3286614a78d0fd8c282c286778d" kindref="member">wxDropSource::DoDragDrop()</ref> call. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/dnd.h" line="22" column="1" bodyfile="interface/wx/dnd.h" bodystart="21" bodyend="29"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="group__group__funcmacro__gdi_1ga8470515f9717f1cd01cf33d8e246b9a1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxIsDragResultOk</definition>
+        <argsstring>(wxDragResult res)</argsstring>
+        <name>wxIsDragResultOk</name>
+        <param>
+          <type><ref refid="interface_2wx_2dnd_8h_1adbd4b292582eebbc9a6ce3dee31c2afb" kindref="member">wxDragResult</ref></type>
+          <declname>res</declname>
+        </param>
+        <briefdescription>
+<para>Returns true if res indicates that something was done during a DnD operation, i.e. </para>        </briefdescription>
+        <detaileddescription>
+<para>is neither error nor none nor cancel. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/dnd.h" line="452" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="interface/wx/dnd.h"/>
+  </compounddef>
+</doxygen>

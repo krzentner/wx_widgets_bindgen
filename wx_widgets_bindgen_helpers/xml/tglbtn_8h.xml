@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="tglbtn_8h" kind="file" language="C++">
+    <compoundname>tglbtn.h</compoundname>
+    <innerclass refid="classwx_toggle_button" prot="public">wxToggleButton</innerclass>
+    <innerclass refid="classwx_bitmap_toggle_button" prot="public">wxBitmapToggleButton</innerclass>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="tglbtn_8h_1ac71767e082f35dbec1a42abe09872c95" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_TOGGLEBUTTON</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_TOGGLEBUTTON</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/tglbtn.h" line="9" column="1" bodyfile="interface/wx/tglbtn.h" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="interface/wx/tglbtn.h"/>
+  </compounddef>
+</doxygen>

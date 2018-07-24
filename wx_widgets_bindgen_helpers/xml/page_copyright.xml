@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="page_copyright" kind="page">
+    <compoundname>page_copyright</compoundname>
+    <title>Copyrights and Licenses</title>
+    <innerpage refid="page_copyright_wxlicense">wxWindows Library Licence</innerpage>
+    <innerpage refid="page_copyright_gnulicense">GNU Library General Public License</innerpage>
+    <innerpage refid="page_copyright_xserver">The Open Group and DEC License</innerpage>
+    <briefdescription>
+<para><linebreak/>
+ </para>    </briefdescription>
+    <detaileddescription>
+<para><linebreak/>
+</para><sect1 id="page_copyright_1section_copyright">
+<title>wxWidgets Copyrights and Licenses</title>
+<para>Copyright (c) 1992-2017 Julian Smart, Vadim Zeitlin, Stefan Csomor, Robert Roebling, and other members of the wxWidgets team, please see the acknowledgements section below.</para><para>Portions (c) 1996 Artificial Intelligence Applications Institute</para><para>Please also see the wxWindows licence files (preamble.txt, lgpl.txt, gpl.txt, licence.txt, licendoc.txt) for conditions of software and documentation use. Note that we use the old name wxWindows in the licence, pending recognition of the new name by OSI.</para><para><itemizedlist>
+<listitem><para><ref refid="page_copyright_wxlicense" kindref="compound">wxWindows Library Licence</ref> </para></listitem>
+<listitem><para><ref refid="page_copyright_gnulicense" kindref="compound">GNU Library General Public License</ref> </para></listitem>
+<listitem><para><ref refid="page_copyright_xserver" kindref="compound">The Open Group and DEC License</ref></para></listitem>
+</itemizedlist>
+</para></sect1>
+<sect1 id="page_copyright_1section_acknowledgements">
+<title>Acknowledgements</title>
+<para>The following is the list of the core, active developers of wxWidgets which keep it running and have provided an invaluable, extensive and high-quality amount of changes over the many of years of wxWidgets&apos; life:</para><para><itemizedlist>
+<listitem><para>Julian Smart </para></listitem>
+<listitem><para>Vadim Zeitlin </para></listitem>
+<listitem><para>Robert Roebling </para></listitem>
+<listitem><para>Robin Dunn </para></listitem>
+<listitem><para>Stefan Csomor </para></listitem>
+<listitem><para>Vaclav Slavik </para></listitem>
+<listitem><para>Paul Cornett </para></listitem>
+<listitem><para>Wlodzimierz <lsquo/>ABX<rsquo/> Skiba </para></listitem>
+<listitem><para>Chris Elliott </para></listitem>
+<listitem><para>David Elliott </para></listitem>
+<listitem><para>Kevin Hock </para></listitem>
+<listitem><para>Stefan Neis </para></listitem>
+<listitem><para>Michael Wetherell</para></listitem>
+</itemizedlist>
+We would particularly like to thank the following peoples for their contributions to wxWidgets, and the many others who have been involved in the project over the years. Apologies for any unintentional omissions from this alphabetic list:</para><para>Yiorgos Adamopoulos, Jamshid Afshar, Alejandro Aguilar-Sierra, AIAI, Patrick Albert, Karsten Ballueder, Mattia Barbon, Michael Bedward, Kai Bendorf, Yura Bidus, Keith Gary Boyce, Chris Breeze, Pete Britton, Ian Brown, C. Buckley, Marco Cavallini, Dmitri Chubraev, Robin Corbet, Cecil Coupe, Andrew Davison, Gilles Depeyrot, Neil Dudman, Hermann Dunkel, Jos van Eijndhoven, Tom Felici, Thomas Fettig, Matthew Flatt, Pasquale Foggia, Josep Fortiana, Todd Fries, Dominic Gallagher, Guillermo Rodriguez Garcia, Wolfram Gloger, Norbert Grotz, Stefan Gunter, Bill Hale, Patrick Halke, Stefan Hammes, Guillaume Helle, Harco de Hilster, Cord Hockemeyer, Markus Holzem, Olaf Klein, Leif Jensen, Bart Jourquin, Guilhem Lavaux, Ron Lee, Jan Lessner, Nicholas Liebmann, Torsten Liermann, Per Lindqvist, Francesco Montorsi, Thomas Runge, Tatu M<aumlaut/>nnist<oumlaut/>, Scott Maxwell, Thomas Myers, Oliver Niedung, Ryan Norton, Hernan Otero, Ian Perrigo, Timothy Peters, Giordano Pezzoli, Harri Pasanen, Thomaso Paoletti, Garrett Potts, Marcel Rasche, Dino Scaringella, Jobst Schmalenbach, Arthur Seaton, Paul Shirley, Stein Somers, Petr Smilauer, Neil Smith, Kari Syst<aumlaut/>, George Tasker, Arthur Tetzlaff-Deas, Jonathan Tonberg, Jyrki Tuomi, Janos Vegh, Andrea Venturoli, David Webster, Otto Wyss, Xiaokun Zhu, Edward Zimmermann.</para><para>Many thanks also to AIAI for being willing to release the original version of wxWidgets into the public domain, and to our patient partners.</para><para><lsquo/>Graphplace<rsquo/>, the basis for the wxGraphLayout library, is copyright Dr. Jos T.J. van Eijndhoven of Eindhoven University of Technology. The code has been used in wxGraphLayout (not in wxWidgets anymore) with his permission.</para><para>We also acknowledge the author of XFIG, the excellent Unix drawing tool, from the source of which we have borrowed some spline drawing code. His copyright is included below.</para><para><emphasis> XFig2.1 is copyright (c) 1985 by Supoj Sutanthavibul. Permission to use, copy, modify, distribute, and sell this software and its documentation for any purpose is hereby granted without fee, provided that the above copyright notice appear in all copies and that both that copyright notice and this permission notice appear in supporting documentation, and that the name of M.I.T. not be used in advertising or publicity pertaining to distribution of the software without specific, written prior permission. M.I.T. makes no representations about the suitability of this software for any purpose. It is provided `<lsquo/>as is<rsquo/>&apos; without express or implied warranty. </emphasis> </para></sect1>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

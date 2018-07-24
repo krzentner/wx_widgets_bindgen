@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="overview_splitterwindow" kind="page">
+    <compoundname>overview_splitterwindow</compoundname>
+    <title>wxSplitterWindow Overview</title>
+    <tableofcontents/>
+    <briefdescription>
+<para><linebreak/>
+ </para>    </briefdescription>
+    <detaileddescription>
+<para><linebreak/>
+</para><para><simplesect kind="see"><para><ref refid="classwx_splitter_window" kindref="compound">wxSplitterWindow</ref></para></simplesect>
+</para><sect1 id="overview_splitterwindow_1overview_splitterwindow_appearance">
+<title>Appearance</title>
+<para>The following screenshot shows the appearance of a splitter window with a horizontal split.</para><para>The style wxSP_3D has been used to show a 3D border and 3D sash.</para><para><image type="html" name="overview_splitter_3d.png"></image>
+</para></sect1>
+<sect1 id="overview_splitterwindow_1overview_splitterwindow_example">
+<title>Example</title>
+<para>The following fragment shows how to create a splitter window, creating two subwindows and hiding one of them.</para><para><programlisting><codeline><highlight class="normal">splitter<sp/>=<sp/>new<sp/>wxSplitterWindow(this,<sp/>-1,<sp/>wxPoint(0,<sp/>0),</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>wxSize(400,<sp/>400),<sp/>wxSP_3D);</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">leftWindow<sp/>=<sp/>new<sp/>MyWindow(splitter);</highlight></codeline>
+<codeline><highlight class="normal">leftWindow-&gt;SetScrollbars(20,<sp/>20,<sp/>50,<sp/>50);</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">rightWindow<sp/>=<sp/>new<sp/>MyWindow(splitter);</highlight></codeline>
+<codeline><highlight class="normal">rightWindow-&gt;SetScrollbars(20,<sp/>20,<sp/>50,<sp/>50);</highlight></codeline>
+<codeline><highlight class="normal">rightWindow-&gt;Show(false);</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">splitter-&gt;Initialize(leftWindow);</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">//<sp/>Set<sp/>this<sp/>to<sp/>prevent<sp/>unsplitting</highlight></codeline>
+<codeline><highlight class="normal">//<sp/>splitter-&gt;SetMinimumPaneSize(20);</highlight></codeline>
+</programlisting></para><para>The next fragment shows how the splitter window can be manipulated after creation.</para><para><programlisting><codeline><highlight class="normal">void<sp/>MyFrame::OnSplitVertical(wxCommandEvent&amp;<sp/>event)</highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>if<sp/>(<sp/>splitter-&gt;IsSplit()<sp/>)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>splitter-&gt;Unsplit();</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>leftWindow-&gt;Show(true);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>rightWindow-&gt;Show(true);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>splitter-&gt;SplitVertically(<sp/>leftWindow,<sp/>rightWindow<sp/>);</highlight></codeline>
+<codeline><highlight class="normal">}</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">void<sp/>MyFrame::OnSplitHorizontal(wxCommandEvent&amp;<sp/>event)</highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>if<sp/>(<sp/>splitter-&gt;IsSplit()<sp/>)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>splitter-&gt;Unsplit();</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>leftWindow-&gt;Show(true);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>rightWindow-&gt;Show(true);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>splitter-&gt;SplitHorizontally(<sp/>leftWindow,<sp/>rightWindow<sp/>);</highlight></codeline>
+<codeline><highlight class="normal">}</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">void<sp/>MyFrame::OnUnsplit(wxCommandEvent&amp;<sp/>event)</highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>if<sp/>(<sp/>splitter-&gt;IsSplit()<sp/>)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>splitter-&gt;Unsplit();</highlight></codeline>
+<codeline><highlight class="normal">}</highlight></codeline>
+</programlisting> </para></sect1>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

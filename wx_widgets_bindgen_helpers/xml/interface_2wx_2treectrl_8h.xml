@@ -1,0 +1,288 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="interface_2wx_2treectrl_8h" kind="file" language="C++">
+    <compoundname>treectrl.h</compoundname>
+    <innerclass refid="classwx_tree_ctrl" prot="public">wxTreeCtrl</innerclass>
+    <innerclass refid="classwx_tree_event" prot="public">wxTreeEvent</innerclass>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="interface_2wx_2treectrl_8h_1add1b28654ef4846a9f5223ee0e88084f" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_TREE_BEGIN_DRAG</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_TREE_BEGIN_DRAG</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/treectrl.h" line="1127" column="1" bodyfile="interface/wx/treectrl.h" bodystart="1127" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="interface_2wx_2treectrl_8h_1aaf0655153dbfefcc70b7e56700581054" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_TREE_BEGIN_RDRAG</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_TREE_BEGIN_RDRAG</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/treectrl.h" line="1128" column="1" bodyfile="interface/wx/treectrl.h" bodystart="1128" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="interface_2wx_2treectrl_8h_1a6d009d0b1b80ae47cab849a28075af3c" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_TREE_BEGIN_LABEL_EDIT</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_TREE_BEGIN_LABEL_EDIT</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/treectrl.h" line="1129" column="1" bodyfile="interface/wx/treectrl.h" bodystart="1129" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="interface_2wx_2treectrl_8h_1af550b2342920d026b4f1527bcb9b75b8" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_TREE_END_LABEL_EDIT</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_TREE_END_LABEL_EDIT</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/treectrl.h" line="1130" column="1" bodyfile="interface/wx/treectrl.h" bodystart="1130" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="interface_2wx_2treectrl_8h_1adb3b7feb21968105cc48ee55dd4b4884" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_TREE_DELETE_ITEM</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_TREE_DELETE_ITEM</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/treectrl.h" line="1131" column="1" bodyfile="interface/wx/treectrl.h" bodystart="1131" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="interface_2wx_2treectrl_8h_1a3b13490439bc4fae334c203cb9cfefd3" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_TREE_GET_INFO</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_TREE_GET_INFO</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/treectrl.h" line="1132" column="1" bodyfile="interface/wx/treectrl.h" bodystart="1132" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="interface_2wx_2treectrl_8h_1a77dfa81ef6611bedd14bc6edb23f4379" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_TREE_SET_INFO</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_TREE_SET_INFO</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/treectrl.h" line="1133" column="1" bodyfile="interface/wx/treectrl.h" bodystart="1133" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="interface_2wx_2treectrl_8h_1a0a5985a8a8ae8d17094c527065974269" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_TREE_ITEM_EXPANDED</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_TREE_ITEM_EXPANDED</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/treectrl.h" line="1134" column="1" bodyfile="interface/wx/treectrl.h" bodystart="1134" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="interface_2wx_2treectrl_8h_1a734de22eb2c71d157e1ed9cc06c90254" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_TREE_ITEM_EXPANDING</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_TREE_ITEM_EXPANDING</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/treectrl.h" line="1135" column="1" bodyfile="interface/wx/treectrl.h" bodystart="1135" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="interface_2wx_2treectrl_8h_1abf0f6c5684f14e1d693277a17d916f79" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_TREE_ITEM_COLLAPSED</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_TREE_ITEM_COLLAPSED</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/treectrl.h" line="1136" column="1" bodyfile="interface/wx/treectrl.h" bodystart="1136" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="interface_2wx_2treectrl_8h_1ac6240ff798f326452ebce00bdf297819" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_TREE_ITEM_COLLAPSING</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_TREE_ITEM_COLLAPSING</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/treectrl.h" line="1137" column="1" bodyfile="interface/wx/treectrl.h" bodystart="1137" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="interface_2wx_2treectrl_8h_1a030b263e6f9093fe54b277f5d7e6423c" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_TREE_SEL_CHANGED</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_TREE_SEL_CHANGED</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/treectrl.h" line="1138" column="1" bodyfile="interface/wx/treectrl.h" bodystart="1138" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="interface_2wx_2treectrl_8h_1ad5a3510386626ddeb3990292ac4535c1" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_TREE_SEL_CHANGING</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_TREE_SEL_CHANGING</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/treectrl.h" line="1139" column="1" bodyfile="interface/wx/treectrl.h" bodystart="1139" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="interface_2wx_2treectrl_8h_1adb561f77d6990a538f761ebbf40b6130" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_TREE_KEY_DOWN</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_TREE_KEY_DOWN</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/treectrl.h" line="1140" column="1" bodyfile="interface/wx/treectrl.h" bodystart="1140" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="interface_2wx_2treectrl_8h_1a1dd02f664a82facdfc776bf9310d8f15" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_TREE_ITEM_ACTIVATED</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_TREE_ITEM_ACTIVATED</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/treectrl.h" line="1141" column="1" bodyfile="interface/wx/treectrl.h" bodystart="1141" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="interface_2wx_2treectrl_8h_1aaa7a48a9aae384a059312b3e222b7bf7" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_TREE_ITEM_RIGHT_CLICK</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_TREE_ITEM_RIGHT_CLICK</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/treectrl.h" line="1142" column="1" bodyfile="interface/wx/treectrl.h" bodystart="1142" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="interface_2wx_2treectrl_8h_1ae70dd44ebeb4962d3a01c3ac9eb3e488" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_TREE_ITEM_MIDDLE_CLICK</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_TREE_ITEM_MIDDLE_CLICK</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/treectrl.h" line="1143" column="1" bodyfile="interface/wx/treectrl.h" bodystart="1143" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="interface_2wx_2treectrl_8h_1afb57189af2a042845cbafccbda0ce121" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_TREE_END_DRAG</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_TREE_END_DRAG</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/treectrl.h" line="1144" column="1" bodyfile="interface/wx/treectrl.h" bodystart="1144" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="interface_2wx_2treectrl_8h_1a75516aa0f3b8cda43cdf8e7beea553bf" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_TREE_STATE_IMAGE_CLICK</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_TREE_STATE_IMAGE_CLICK</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/treectrl.h" line="1145" column="1" bodyfile="interface/wx/treectrl.h" bodystart="1145" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="interface_2wx_2treectrl_8h_1a9e0834da20d2e4cb84c6e20b57996554" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_TREE_ITEM_GETTOOLTIP</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_TREE_ITEM_GETTOOLTIP</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/treectrl.h" line="1146" column="1" bodyfile="interface/wx/treectrl.h" bodystart="1146" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="interface_2wx_2treectrl_8h_1a5fc875790a29cb057a4d617e5c6c664e" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_TREE_ITEM_MENU</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_TREE_ITEM_MENU</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/treectrl.h" line="1147" column="1" bodyfile="interface/wx/treectrl.h" bodystart="1147" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="interface/wx/treectrl.h"/>
+  </compounddef>
+</doxygen>

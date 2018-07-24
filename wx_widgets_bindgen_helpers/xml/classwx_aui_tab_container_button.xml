@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_aui_tab_container_button" kind="class" language="C++" prot="public">
+    <compoundname>wxAuiTabContainerButton</compoundname>
+    <includes local="no">wx/aui/auibook.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classwx_aui_tab_container_button_1af04db78685d45b7181e79ab260150012" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int wxAuiTabContainerButton::id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <briefdescription>
+<para>button&apos;s id </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/auibook.h" line="443" column="1" bodyfile="interface/wx/aui/auibook.h" bodystart="443" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classwx_aui_tab_container_button_1aabfe73c57bb5379dad3b83ea36818350" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int wxAuiTabContainerButton::curState</definition>
+        <argsstring></argsstring>
+        <name>curState</name>
+        <briefdescription>
+<para>current state (normal, hover, pressed, etc.) </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/auibook.h" line="445" column="1" bodyfile="interface/wx/aui/auibook.h" bodystart="445" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classwx_aui_tab_container_button_1a3e41e0496041b71233462675345ef494" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int wxAuiTabContainerButton::location</definition>
+        <argsstring></argsstring>
+        <name>location</name>
+        <briefdescription>
+<para>buttons location (wxLEFT, wxRIGHT, or wxCENTER) </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/auibook.h" line="447" column="1" bodyfile="interface/wx/aui/auibook.h" bodystart="447" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classwx_aui_tab_container_button_1a8f918186e33dc9e2550ccd34ec88245e" prot="public" static="no" mutable="no">
+        <type><ref refid="classwx_bitmap" kindref="compound">wxBitmap</ref></type>
+        <definition>wxBitmap wxAuiTabContainerButton::bitmap</definition>
+        <argsstring></argsstring>
+        <name>bitmap</name>
+        <briefdescription>
+<para>button&apos;s hover bitmap </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/auibook.h" line="449" column="1" bodyfile="interface/wx/aui/auibook.h" bodystart="449" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classwx_aui_tab_container_button_1a87cbb126ba3c5683949e0015020f874b" prot="public" static="no" mutable="no">
+        <type><ref refid="classwx_bitmap" kindref="compound">wxBitmap</ref></type>
+        <definition>wxBitmap wxAuiTabContainerButton::disBitmap</definition>
+        <argsstring></argsstring>
+        <name>disBitmap</name>
+        <briefdescription>
+<para>button&apos;s disabled bitmap </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/auibook.h" line="451" column="1" bodyfile="interface/wx/aui/auibook.h" bodystart="451" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classwx_aui_tab_container_button_1a3d2627e6b400c4a570be1fd0c88ccb91" prot="public" static="no" mutable="no">
+        <type><ref refid="classwx_rect" kindref="compound">wxRect</ref></type>
+        <definition>wxRect wxAuiTabContainerButton::rect</definition>
+        <argsstring></argsstring>
+        <name>rect</name>
+        <briefdescription>
+<para>button&apos;s hit rectangle </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/auibook.h" line="453" column="1" bodyfile="interface/wx/aui/auibook.h" bodystart="453" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>A simple class which holds information about <ref refid="classwx_aui_notebook" kindref="compound">wxAuiNotebook</ref> tab buttons and their state. </para>    </briefdescription>
+    <detaileddescription>
+<para><heading level="2"></heading>
+</para><para>Library:<nonbreakablespace/><nonbreakablespace/><ref refid="page_libs_1page_libs_wxaui" kindref="member">wxAui</ref> &lt;&gt;&lt; =&apos;&apos;&gt;:&lt;/&gt;&amp;;&amp;;&lt; =&apos;&apos;&gt;\ &lt;/&gt;&lt;/&gt; </para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="406">
+        <label>wxObject</label>
+        <link refid="classwx_object"/>
+        <childnode refid="407" relation="usage">
+          <edgelabel>m_refData</edgelabel>
+        </childnode>
+      </node>
+      <node id="404">
+        <label>wxBitmap</label>
+        <link refid="classwx_bitmap"/>
+        <childnode refid="405" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="402">
+        <label>wxAuiTabContainerButton</label>
+        <link refid="classwx_aui_tab_container_button"/>
+        <childnode refid="403" relation="usage">
+          <edgelabel>rect</edgelabel>
+        </childnode>
+        <childnode refid="404" relation="usage">
+          <edgelabel>disBitmap</edgelabel>
+          <edgelabel>bitmap</edgelabel>
+        </childnode>
+      </node>
+      <node id="405">
+        <label>wxGDIObject</label>
+        <link refid="classwx_g_d_i_object"/>
+        <childnode refid="406" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="403">
+        <label>wxRect</label>
+        <link refid="classwx_rect"/>
+      </node>
+      <node id="407">
+        <label>wxObjectRefData</label>
+        <link refid="classwx_object_ref_data"/>
+      </node>
+    </collaborationgraph>
+    <location file="interface/wx/aui/auibook.h" line="440" column="1" bodyfile="interface/wx/aui/auibook.h" bodystart="439" bodyend="454"/>
+    <listofallmembers>
+      <member refid="classwx_aui_tab_container_button_1a8f918186e33dc9e2550ccd34ec88245e" prot="public" virt="non-virtual"><scope>wxAuiTabContainerButton</scope><name>bitmap</name></member>
+      <member refid="classwx_aui_tab_container_button_1aabfe73c57bb5379dad3b83ea36818350" prot="public" virt="non-virtual"><scope>wxAuiTabContainerButton</scope><name>curState</name></member>
+      <member refid="classwx_aui_tab_container_button_1a87cbb126ba3c5683949e0015020f874b" prot="public" virt="non-virtual"><scope>wxAuiTabContainerButton</scope><name>disBitmap</name></member>
+      <member refid="classwx_aui_tab_container_button_1af04db78685d45b7181e79ab260150012" prot="public" virt="non-virtual"><scope>wxAuiTabContainerButton</scope><name>id</name></member>
+      <member refid="classwx_aui_tab_container_button_1a3e41e0496041b71233462675345ef494" prot="public" virt="non-virtual"><scope>wxAuiTabContainerButton</scope><name>location</name></member>
+      <member refid="classwx_aui_tab_container_button_1a3d2627e6b400c4a570be1fd0c88ccb91" prot="public" virt="non-virtual"><scope>wxAuiTabContainerButton</scope><name>rect</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,229 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_client_data_container" kind="class" language="C++" prot="public">
+    <compoundname>wxClientDataContainer</compoundname>
+    <derivedcompoundref refid="classwx_grid_cell_attr" prot="public" virt="non-virtual">wxGridCellAttr</derivedcompoundref>
+    <derivedcompoundref refid="classwx_grid_cell_attr_provider" prot="public" virt="non-virtual">wxGridCellAttrProvider</derivedcompoundref>
+    <derivedcompoundref refid="classwx_grid_cell_editor" prot="public" virt="non-virtual">wxGridCellEditor</derivedcompoundref>
+    <derivedcompoundref refid="classwx_grid_cell_renderer" prot="public" virt="non-virtual">wxGridCellRenderer</derivedcompoundref>
+    <includes local="no">wx/clntdata.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classwx_client_data_container_1a7de68b5dc45762f7507840d9deac511b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxClientDataContainer::wxClientDataContainer</definition>
+        <argsstring>()</argsstring>
+        <name>wxClientDataContainer</name>
+        <briefdescription>
+<para>Default constructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/clntdata.h" line="32" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_client_data_container_1a20946ab7128a84681ccb7d5da52ba695" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual wxClientDataContainer::~wxClientDataContainer</definition>
+        <argsstring>()</argsstring>
+        <name>~wxClientDataContainer</name>
+        <briefdescription>
+<para>Destructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/clntdata.h" line="37" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_client_data_container_1aad41cd81b3f64bfd10f9bd89ce758dec" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void *</type>
+        <definition>void* wxClientDataContainer::GetClientData</definition>
+        <argsstring>() const</argsstring>
+        <name>GetClientData</name>
+        <briefdescription>
+<para>Get the untyped client data. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/clntdata.h" line="42" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_client_data_container_1a1845f232b64e6ca3907620f991f427f3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_client_data" kindref="compound">wxClientData</ref> *</type>
+        <definition>wxClientData* wxClientDataContainer::GetClientObject</definition>
+        <argsstring>() const</argsstring>
+        <name>GetClientObject</name>
+        <briefdescription>
+<para>Get a pointer to the client data object. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/clntdata.h" line="47" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_client_data_container_1a3b291dde8d851583b00e6917af539d13" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxClientDataContainer::SetClientData</definition>
+        <argsstring>(void *data)</argsstring>
+        <name>SetClientData</name>
+        <param>
+          <type>void *</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+<para>Set the untyped client data. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/clntdata.h" line="52" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_client_data_container_1afc03e080cc61dd9acaac86b76965cbb5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxClientDataContainer::SetClientObject</definition>
+        <argsstring>(wxClientData *data)</argsstring>
+        <name>SetClientObject</name>
+        <param>
+          <type><ref refid="classwx_client_data" kindref="compound">wxClientData</ref> *</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+<para>Set the client data object. </para>        </briefdescription>
+        <detaileddescription>
+<para>Any previous object will be deleted. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/clntdata.h" line="57" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class is a mixin that provides storage and management of &quot;client data&quot;. </para>    </briefdescription>
+    <detaileddescription>
+<para>This data can either be of type void - in which case the data <emphasis>container</emphasis> does not take care of freeing the data again or it is of type <ref refid="classwx_client_data" kindref="compound">wxClientData</ref> or its derivatives. In that case the container will free the memory itself later. Note that you <emphasis>must</emphasis> not assign both void data and data derived from the <ref refid="classwx_client_data" kindref="compound">wxClientData</ref> class to a container.</para><para><simplesect kind="note"><para>This functionality is currently duplicated in <ref refid="classwx_evt_handler" kindref="compound">wxEvtHandler</ref> in order to avoid having more than one vtable in that class hierarchy.</para></simplesect>
+<heading level="2"></heading>
+</para><para>Library:<nonbreakablespace/><nonbreakablespace/><ref refid="page_libs_1page_libs_wxbase" kindref="member">wxBase</ref> &lt;&gt;&lt; =&apos;&apos;&gt;:&lt;/&gt;&amp;;&amp;;&lt; =&apos;&apos;&gt;\ &lt;/&gt;&lt;/&gt;</para><para><simplesect kind="see"><para><ref refid="classwx_evt_handler" kindref="compound">wxEvtHandler</ref>, <ref refid="classwx_client_data" kindref="compound">wxClientData</ref> </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="801">
+        <label>wxGridCellEnumEditor</label>
+        <link refid="classwx_grid_cell_enum_editor"/>
+        <childnode refid="800" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="805">
+        <label>wxGridCellNumberEditor</label>
+        <link refid="classwx_grid_cell_number_editor"/>
+        <childnode refid="802" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="807">
+        <label>wxGridCellBoolRenderer</label>
+        <link refid="classwx_grid_cell_bool_renderer"/>
+        <childnode refid="806" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="802">
+        <label>wxGridCellTextEditor</label>
+        <link refid="classwx_grid_cell_text_editor"/>
+        <childnode refid="798" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="811">
+        <label>wxGridCellEnumRenderer</label>
+        <link refid="classwx_grid_cell_enum_renderer"/>
+        <childnode refid="808" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="795">
+        <label>wxClientDataContainer</label>
+        <link refid="classwx_client_data_container"/>
+      </node>
+      <node id="810">
+        <label>wxGridCellDateTimeRenderer</label>
+        <link refid="classwx_grid_cell_date_time_renderer"/>
+        <childnode refid="808" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="798">
+        <label>wxGridCellEditor</label>
+        <link refid="classwx_grid_cell_editor"/>
+        <childnode refid="795" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="813">
+        <label>wxGridCellNumberRenderer</label>
+        <link refid="classwx_grid_cell_number_renderer"/>
+        <childnode refid="808" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="809">
+        <label>wxGridCellAutoWrapStringRenderer</label>
+        <link refid="classwx_grid_cell_auto_wrap_string_renderer"/>
+        <childnode refid="808" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="796">
+        <label>wxGridCellAttr</label>
+        <link refid="classwx_grid_cell_attr"/>
+        <childnode refid="795" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="800">
+        <label>wxGridCellChoiceEditor</label>
+        <link refid="classwx_grid_cell_choice_editor"/>
+        <childnode refid="798" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="803">
+        <label>wxGridCellAutoWrapStringEditor</label>
+        <link refid="classwx_grid_cell_auto_wrap_string_editor"/>
+        <childnode refid="802" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="799">
+        <label>wxGridCellBoolEditor</label>
+        <link refid="classwx_grid_cell_bool_editor"/>
+        <childnode refid="798" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="812">
+        <label>wxGridCellFloatRenderer</label>
+        <link refid="classwx_grid_cell_float_renderer"/>
+        <childnode refid="808" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="806">
+        <label>wxGridCellRenderer</label>
+        <link refid="classwx_grid_cell_renderer"/>
+        <childnode refid="795" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="797">
+        <label>wxGridCellAttrProvider</label>
+        <link refid="classwx_grid_cell_attr_provider"/>
+        <childnode refid="795" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="808">
+        <label>wxGridCellStringRenderer</label>
+        <link refid="classwx_grid_cell_string_renderer"/>
+        <childnode refid="806" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="804">
+        <label>wxGridCellFloatEditor</label>
+        <link refid="classwx_grid_cell_float_editor"/>
+        <childnode refid="802" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="interface/wx/clntdata.h" line="27" column="1" bodyfile="interface/wx/clntdata.h" bodystart="26" bodyend="58"/>
+    <listofallmembers>
+      <member refid="classwx_client_data_container_1aad41cd81b3f64bfd10f9bd89ce758dec" prot="public" virt="non-virtual"><scope>wxClientDataContainer</scope><name>GetClientData</name></member>
+      <member refid="classwx_client_data_container_1a1845f232b64e6ca3907620f991f427f3" prot="public" virt="non-virtual"><scope>wxClientDataContainer</scope><name>GetClientObject</name></member>
+      <member refid="classwx_client_data_container_1a3b291dde8d851583b00e6917af539d13" prot="public" virt="non-virtual"><scope>wxClientDataContainer</scope><name>SetClientData</name></member>
+      <member refid="classwx_client_data_container_1afc03e080cc61dd9acaac86b76965cbb5" prot="public" virt="non-virtual"><scope>wxClientDataContainer</scope><name>SetClientObject</name></member>
+      <member refid="classwx_client_data_container_1a7de68b5dc45762f7507840d9deac511b" prot="public" virt="non-virtual"><scope>wxClientDataContainer</scope><name>wxClientDataContainer</name></member>
+      <member refid="classwx_client_data_container_1a20946ab7128a84681ccb7d5da52ba695" prot="public" virt="virtual"><scope>wxClientDataContainer</scope><name>~wxClientDataContainer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

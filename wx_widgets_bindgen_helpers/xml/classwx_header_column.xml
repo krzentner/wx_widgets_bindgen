@@ -1,0 +1,253 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_header_column" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>wxHeaderColumn</compoundname>
+    <derivedcompoundref refid="classwx_settable_header_column" prot="public" virt="non-virtual">wxSettableHeaderColumn</derivedcompoundref>
+    <includes local="no">wx/headercol.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classwx_header_column_1a47d57c9babac44df16e1f5581156a3ce" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type><ref refid="classwx_string" kindref="compound">wxString</ref></type>
+        <definition>virtual wxString wxHeaderColumn::GetTitle</definition>
+        <argsstring>() const =0</argsstring>
+        <name>GetTitle</name>
+        <reimplementedby refid="classwx_header_column_simple_1a519c2f39257becbbada59945ba6ebd7d">GetTitle</reimplementedby>
+        <briefdescription>
+<para>Get the text shown in the column header. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/headercol.h" line="78" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_header_column_1aca4d183177667dd1f6f20a61127109af" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type><ref refid="classwx_bitmap" kindref="compound">wxBitmap</ref></type>
+        <definition>virtual wxBitmap wxHeaderColumn::GetBitmap</definition>
+        <argsstring>() const =0</argsstring>
+        <name>GetBitmap</name>
+        <reimplementedby refid="classwx_header_column_simple_1a96c3ac6e090960c81ec1cd86109be2f9">GetBitmap</reimplementedby>
+        <briefdescription>
+<para>Returns the bitmap in the header of the column, if any. </para>        </briefdescription>
+        <detaileddescription>
+<para>If the column has no associated bitmap, wxNullBitmap should be returned. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/headercol.h" line="85" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_header_column_1a992a31984563a35b0222adf5a06b0a77" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>int</type>
+        <definition>virtual int wxHeaderColumn::GetWidth</definition>
+        <argsstring>() const =0</argsstring>
+        <name>GetWidth</name>
+        <reimplementedby refid="classwx_header_column_simple_1a40dcac8b24c0cb4f5b3fa019da170f66">GetWidth</reimplementedby>
+        <briefdescription>
+<para>Returns the current width of the column. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Width of the column in pixels, never wxCOL_WIDTH_DEFAULT or wxCOL_WIDTH_AUTOSIZE. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/headercol.h" line="94" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_header_column_1a8a7c17e7f634570246b734cf2eb63fbb" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>int</type>
+        <definition>virtual int wxHeaderColumn::GetMinWidth</definition>
+        <argsstring>() const =0</argsstring>
+        <name>GetMinWidth</name>
+        <reimplementedby refid="classwx_header_column_simple_1a9c1c8f2f8ffe5bce036286b44e066717">GetMinWidth</reimplementedby>
+        <briefdescription>
+<para>Return the minimal column width. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The minimal width such that the user can&apos;t resize the column to lesser size (notice that it is still possible to set the column width to smaller value from the program code). Return 0 from here to allow resizing the column to arbitrarily small size. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/headercol.h" line="105" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_header_column_1afc7728e0def849ecb6a2b074f2ea0eb8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type><ref refid="defs_8h_1a543dd017a172dc316253a8a1f351dde9" kindref="member">wxAlignment</ref></type>
+        <definition>virtual wxAlignment wxHeaderColumn::GetAlignment</definition>
+        <argsstring>() const =0</argsstring>
+        <name>GetAlignment</name>
+        <reimplementedby refid="classwx_header_column_simple_1a740be480d844d56d5ce7876a920f299f">GetAlignment</reimplementedby>
+        <briefdescription>
+<para>Returns the current column alignment. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>One of wxALIGN_CENTRE, wxALIGN_LEFT or wxALIGN_RIGHT. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/headercol.h" line="113" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_header_column_1a5026f8cf3dde67ab2003da8ec8a892ab" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>int</type>
+        <definition>virtual int wxHeaderColumn::GetFlags</definition>
+        <argsstring>() const =0</argsstring>
+        <name>GetFlags</name>
+        <reimplementedby refid="classwx_header_column_simple_1a22943c29f9ca58e5499dda29636ef4eb">GetFlags</reimplementedby>
+        <briefdescription>
+<para>Get the column flags. </para>        </briefdescription>
+        <detaileddescription>
+<para>This method retrieves all the flags at once, you can also use <ref refid="classwx_header_column_1ad9ca1aaba092ae89b0e4efcacc243b12" kindref="member">HasFlag()</ref> to test for any individual flag or <ref refid="classwx_header_column_1a5d5bade6f1ade844355fe2a4ee680471" kindref="member">IsResizeable()</ref>, <ref refid="classwx_header_column_1a48e7b0b4c63cfc778b9fc87f0074fb62" kindref="member">IsSortable()</ref>, <ref refid="classwx_header_column_1a40f94597100d0d1852b61124d32ab871" kindref="member">IsReorderable()</ref> and <ref refid="classwx_header_column_1a010ab3ccff0b3c58a1e19b93b0eb09ac" kindref="member">IsHidden()</ref> to test for particular flags. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/headercol.h" line="123" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_header_column_1ad9ca1aaba092ae89b0e4efcacc243b12" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxHeaderColumn::HasFlag</definition>
+        <argsstring>(int flag) const</argsstring>
+        <name>HasFlag</name>
+        <param>
+          <type>int</type>
+          <declname>flag</declname>
+        </param>
+        <briefdescription>
+<para>Return true if the specified flag is currently set for this column. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/headercol.h" line="128" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_header_column_1a5d5bade6f1ade844355fe2a4ee680471" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool wxHeaderColumn::IsResizeable</definition>
+        <argsstring>() const</argsstring>
+        <name>IsResizeable</name>
+        <briefdescription>
+<para>Return true if the column can be resized by the user. </para>        </briefdescription>
+        <detaileddescription>
+<para>Equivalent to HasFlag(wxCOL_RESIZABLE). </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/headercol.h" line="136" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_header_column_1a48e7b0b4c63cfc778b9fc87f0074fb62" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool wxHeaderColumn::IsSortable</definition>
+        <argsstring>() const</argsstring>
+        <name>IsSortable</name>
+        <briefdescription>
+<para>Returns true if the column can be clicked by user to sort the control contents by the field in this column. </para>        </briefdescription>
+        <detaileddescription>
+<para>This corresponds to wxCOL_SORTABLE flag which is off by default. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/headercol.h" line="144" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_header_column_1a40f94597100d0d1852b61124d32ab871" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool wxHeaderColumn::IsReorderable</definition>
+        <argsstring>() const</argsstring>
+        <name>IsReorderable</name>
+        <briefdescription>
+<para>Returns true if the column can be dragged by user to change its order. </para>        </briefdescription>
+        <detaileddescription>
+<para>This corresponds to wxCOL_REORDERABLE flag which is on by default. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/headercol.h" line="151" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_header_column_1a010ab3ccff0b3c58a1e19b93b0eb09ac" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool wxHeaderColumn::IsHidden</definition>
+        <argsstring>() const</argsstring>
+        <name>IsHidden</name>
+        <briefdescription>
+<para>Returns true if the column is currently hidden. </para>        </briefdescription>
+        <detaileddescription>
+<para>This corresponds to wxCOL_HIDDEN flag which is off by default. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/headercol.h" line="158" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_header_column_1a14d520b2b990069ea2df289cc346ba44" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxHeaderColumn::IsShown</definition>
+        <argsstring>() const</argsstring>
+        <name>IsShown</name>
+        <briefdescription>
+<para>Returns true if the column is currently shown. </para>        </briefdescription>
+        <detaileddescription>
+<para>This corresponds to the absence of wxCOL_HIDDEN flag. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/headercol.h" line="165" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_header_column_1a95645523fc113008d66d626bc06c7dd1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>bool</type>
+        <definition>virtual bool wxHeaderColumn::IsSortKey</definition>
+        <argsstring>() const =0</argsstring>
+        <name>IsSortKey</name>
+        <reimplementedby refid="classwx_header_column_simple_1ade591ab263b9d890cc61da48ddc8171c">IsSortKey</reimplementedby>
+        <briefdescription>
+<para>Returns true if the column is currently used for sorting. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/headercol.h" line="171" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_header_column_1a30e41f28c017812c4f53e4b66c62cd4c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>bool</type>
+        <definition>virtual bool wxHeaderColumn::IsSortOrderAscending</definition>
+        <argsstring>() const =0</argsstring>
+        <name>IsSortOrderAscending</name>
+        <reimplementedby refid="classwx_header_column_simple_1ab6efe003f23318e06a8174d52305fc4f">IsSortOrderAscending</reimplementedby>
+        <briefdescription>
+<para>Returns true, if the sort order is ascending. </para>        </briefdescription>
+        <detaileddescription>
+<para>Notice that it only makes sense to call this function if the column is used for sorting at all, i.e. if <ref refid="classwx_header_column_1a95645523fc113008d66d626bc06c7dd1" kindref="member">IsSortKey()</ref> returns true. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/headercol.h" line="179" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Represents a column header in controls displaying tabular data such as <ref refid="classwx_data_view_ctrl" kindref="compound">wxDataViewCtrl</ref> or <ref refid="classwx_grid" kindref="compound">wxGrid</ref>. </para>    </briefdescription>
+    <detaileddescription>
+<para>Notice that this is an abstract base class which is implemented (usually using the information stored in the associated control) by the different controls using <ref refid="classwx_header_ctrl" kindref="compound">wxHeaderCtrl</ref>. As the control only needs to retrieve the information about the column, this class defines only the methods for accessing the various column properties but not for changing them as the setters might not be needed at all, e.g. if the column attributes can only be changed via the methods of the main associated control (this is the case for <ref refid="classwx_grid" kindref="compound">wxGrid</ref> for example). If you do want to allow changing them directly using the column itself, you should inherit from <ref refid="classwx_settable_header_column" kindref="compound">wxSettableHeaderColumn</ref> instead of this class.</para><para>Finally, if you don&apos;t already store the column information at all anywhere, you should use the concrete <ref refid="classwx_header_column_simple" kindref="compound">wxHeaderColumnSimple</ref> class and <ref refid="classwx_header_ctrl_simple" kindref="compound">wxHeaderCtrlSimple</ref>.</para><para><heading level="2"></heading>
+</para><para>Library:<nonbreakablespace/><nonbreakablespace/><ref refid="page_libs_1page_libs_wxcore" kindref="member">wxCore</ref> &lt;&gt;&lt; =&apos;&apos;&gt;:&lt;/&gt;&amp;;&amp;;&lt; =&apos;&apos;&gt;\ &lt;/&gt;&lt;/&gt; </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="3208">
+        <label>wxSettableHeaderColumn</label>
+        <link refid="classwx_settable_header_column"/>
+        <childnode refid="3207" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3207">
+        <label>wxHeaderColumn</label>
+        <link refid="classwx_header_column"/>
+      </node>
+      <node id="3209">
+        <label>wxDataViewColumn</label>
+        <link refid="classwx_data_view_column"/>
+        <childnode refid="3208" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3210">
+        <label>wxHeaderColumnSimple</label>
+        <link refid="classwx_header_column_simple"/>
+        <childnode refid="3208" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="interface/wx/headercol.h" line="73" column="1" bodyfile="interface/wx/headercol.h" bodystart="72" bodyend="180"/>
+    <listofallmembers>
+      <member refid="classwx_header_column_1afc7728e0def849ecb6a2b074f2ea0eb8" prot="public" virt="pure-virtual"><scope>wxHeaderColumn</scope><name>GetAlignment</name></member>
+      <member refid="classwx_header_column_1aca4d183177667dd1f6f20a61127109af" prot="public" virt="pure-virtual"><scope>wxHeaderColumn</scope><name>GetBitmap</name></member>
+      <member refid="classwx_header_column_1a5026f8cf3dde67ab2003da8ec8a892ab" prot="public" virt="pure-virtual"><scope>wxHeaderColumn</scope><name>GetFlags</name></member>
+      <member refid="classwx_header_column_1a8a7c17e7f634570246b734cf2eb63fbb" prot="public" virt="pure-virtual"><scope>wxHeaderColumn</scope><name>GetMinWidth</name></member>
+      <member refid="classwx_header_column_1a47d57c9babac44df16e1f5581156a3ce" prot="public" virt="pure-virtual"><scope>wxHeaderColumn</scope><name>GetTitle</name></member>
+      <member refid="classwx_header_column_1a992a31984563a35b0222adf5a06b0a77" prot="public" virt="pure-virtual"><scope>wxHeaderColumn</scope><name>GetWidth</name></member>
+      <member refid="classwx_header_column_1ad9ca1aaba092ae89b0e4efcacc243b12" prot="public" virt="non-virtual"><scope>wxHeaderColumn</scope><name>HasFlag</name></member>
+      <member refid="classwx_header_column_1a010ab3ccff0b3c58a1e19b93b0eb09ac" prot="public" virt="virtual"><scope>wxHeaderColumn</scope><name>IsHidden</name></member>
+      <member refid="classwx_header_column_1a40f94597100d0d1852b61124d32ab871" prot="public" virt="virtual"><scope>wxHeaderColumn</scope><name>IsReorderable</name></member>
+      <member refid="classwx_header_column_1a5d5bade6f1ade844355fe2a4ee680471" prot="public" virt="virtual"><scope>wxHeaderColumn</scope><name>IsResizeable</name></member>
+      <member refid="classwx_header_column_1a14d520b2b990069ea2df289cc346ba44" prot="public" virt="non-virtual"><scope>wxHeaderColumn</scope><name>IsShown</name></member>
+      <member refid="classwx_header_column_1a48e7b0b4c63cfc778b9fc87f0074fb62" prot="public" virt="virtual"><scope>wxHeaderColumn</scope><name>IsSortable</name></member>
+      <member refid="classwx_header_column_1a95645523fc113008d66d626bc06c7dd1" prot="public" virt="pure-virtual"><scope>wxHeaderColumn</scope><name>IsSortKey</name></member>
+      <member refid="classwx_header_column_1a30e41f28c017812c4f53e4b66c62cd4c" prot="public" virt="pure-virtual"><scope>wxHeaderColumn</scope><name>IsSortOrderAscending</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

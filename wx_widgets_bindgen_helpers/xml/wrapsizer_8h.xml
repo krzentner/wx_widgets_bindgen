@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="wrapsizer_8h" kind="file" language="C++">
+    <compoundname>wrapsizer.h</compoundname>
+    <innerclass refid="classwx_wrap_sizer" prot="public">wxWrapSizer</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="wrapsizer_8h_1ae6dceca96ec2c7a1b4aa211264a87ef6" prot="public" static="no" strong="no">
+        <type></type>
+        <name>@58</name>
+        <enumvalue id="wrapsizer_8h_1ae6dceca96ec2c7a1b4aa211264a87ef6ad506117318cea82c1019b7ae37b63b5b" prot="public">
+          <name>wxEXTEND_LAST_ON_EACH_LINE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="wrapsizer_8h_1ae6dceca96ec2c7a1b4aa211264a87ef6a0e0fc36ca329e79a6dd14314abefc437" prot="public">
+          <name>wxREMOVE_LEADING_SPACES</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="wrapsizer_8h_1ae6dceca96ec2c7a1b4aa211264a87ef6ab1da419f2b505b5fd2450f49b997ce39" prot="public">
+          <name>wxWRAPSIZER_DEFAULT_FLAGS</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/wrapsizer.h" line="10" column="1" bodyfile="interface/wx/wrapsizer.h" bodystart="9" bodyend="14"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="interface/wx/wrapsizer.h"/>
+  </compounddef>
+</doxygen>

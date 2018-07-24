@@ -1,0 +1,224 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_html_book_record" kind="class" language="C++" prot="public">
+    <compoundname>wxHtmlBookRecord</compoundname>
+    <includes local="no">wx/html/helpdata.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classwx_html_book_record_1a5062422cb517176cb7947a484dd5e0f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxHtmlBookRecord::wxHtmlBookRecord</definition>
+        <argsstring>(const wxString &amp;bookfile, const wxString &amp;basepath, const wxString &amp;title, const wxString &amp;start)</argsstring>
+        <name>wxHtmlBookRecord</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>bookfile</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>basepath</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>title</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>start</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/html/helpdata.h" line="16" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_html_book_record_1a9f69b179553f660deaa2cb920de82a2a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_string" kindref="compound">wxString</ref></type>
+        <definition>wxString wxHtmlBookRecord::GetBookFile</definition>
+        <argsstring>() const</argsstring>
+        <name>GetBookFile</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/html/helpdata.h" line="19" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_html_book_record_1af3cfa99fecd5bc47345deabd407df1b6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_string" kindref="compound">wxString</ref></type>
+        <definition>wxString wxHtmlBookRecord::GetTitle</definition>
+        <argsstring>() const</argsstring>
+        <name>GetTitle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/html/helpdata.h" line="20" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_html_book_record_1a4fbd1898e331a41d85249678cb68a006" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_string" kindref="compound">wxString</ref></type>
+        <definition>wxString wxHtmlBookRecord::GetStart</definition>
+        <argsstring>() const</argsstring>
+        <name>GetStart</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/html/helpdata.h" line="21" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_html_book_record_1aa012ca0de5514b41da7ebe5079b2f583" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_string" kindref="compound">wxString</ref></type>
+        <definition>wxString wxHtmlBookRecord::GetBasePath</definition>
+        <argsstring>() const</argsstring>
+        <name>GetBasePath</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/html/helpdata.h" line="22" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_html_book_record_1a8083e27d0e8476302e247d134b73d9be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxHtmlBookRecord::SetContentsRange</definition>
+        <argsstring>(int start, int end)</argsstring>
+        <name>SetContentsRange</name>
+        <param>
+          <type>int</type>
+          <declname>start</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>end</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/html/helpdata.h" line="29" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_html_book_record_1ae9595178fa0b367ce64c670fffceabe1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int wxHtmlBookRecord::GetContentsStart</definition>
+        <argsstring>() const</argsstring>
+        <name>GetContentsStart</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/html/helpdata.h" line="30" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_html_book_record_1af60a2afb4db5e5020817ec9908130eaa" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int wxHtmlBookRecord::GetContentsEnd</definition>
+        <argsstring>() const</argsstring>
+        <name>GetContentsEnd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/html/helpdata.h" line="31" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_html_book_record_1af88f23b61629b983757c7fd86a58b808" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxHtmlBookRecord::SetTitle</definition>
+        <argsstring>(const wxString &amp;title)</argsstring>
+        <name>SetTitle</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>title</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/html/helpdata.h" line="33" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_html_book_record_1a45cc4055dad010205b86cbc2ecc13b39" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxHtmlBookRecord::SetBasePath</definition>
+        <argsstring>(const wxString &amp;path)</argsstring>
+        <name>SetBasePath</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/html/helpdata.h" line="34" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_html_book_record_1a2a65058db729fc688694afdc5827f1b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxHtmlBookRecord::SetStart</definition>
+        <argsstring>(const wxString &amp;start)</argsstring>
+        <name>SetStart</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>start</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/html/helpdata.h" line="35" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_html_book_record_1aad8e96493eff9fa803f075085b51d58b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_string" kindref="compound">wxString</ref></type>
+        <definition>wxString wxHtmlBookRecord::GetFullPath</definition>
+        <argsstring>(const wxString &amp;page) const</argsstring>
+        <name>GetFullPath</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>page</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/html/helpdata.h" line="40" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Helper class for <ref refid="classwx_html_help_data" kindref="compound">wxHtmlHelpData</ref>. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="interface/wx/html/helpdata.h" line="14" column="1" bodyfile="interface/wx/html/helpdata.h" bodystart="13" bodyend="41"/>
+    <listofallmembers>
+      <member refid="classwx_html_book_record_1aa012ca0de5514b41da7ebe5079b2f583" prot="public" virt="non-virtual"><scope>wxHtmlBookRecord</scope><name>GetBasePath</name></member>
+      <member refid="classwx_html_book_record_1a9f69b179553f660deaa2cb920de82a2a" prot="public" virt="non-virtual"><scope>wxHtmlBookRecord</scope><name>GetBookFile</name></member>
+      <member refid="classwx_html_book_record_1af60a2afb4db5e5020817ec9908130eaa" prot="public" virt="non-virtual"><scope>wxHtmlBookRecord</scope><name>GetContentsEnd</name></member>
+      <member refid="classwx_html_book_record_1ae9595178fa0b367ce64c670fffceabe1" prot="public" virt="non-virtual"><scope>wxHtmlBookRecord</scope><name>GetContentsStart</name></member>
+      <member refid="classwx_html_book_record_1aad8e96493eff9fa803f075085b51d58b" prot="public" virt="non-virtual"><scope>wxHtmlBookRecord</scope><name>GetFullPath</name></member>
+      <member refid="classwx_html_book_record_1a4fbd1898e331a41d85249678cb68a006" prot="public" virt="non-virtual"><scope>wxHtmlBookRecord</scope><name>GetStart</name></member>
+      <member refid="classwx_html_book_record_1af3cfa99fecd5bc47345deabd407df1b6" prot="public" virt="non-virtual"><scope>wxHtmlBookRecord</scope><name>GetTitle</name></member>
+      <member refid="classwx_html_book_record_1a45cc4055dad010205b86cbc2ecc13b39" prot="public" virt="non-virtual"><scope>wxHtmlBookRecord</scope><name>SetBasePath</name></member>
+      <member refid="classwx_html_book_record_1a8083e27d0e8476302e247d134b73d9be" prot="public" virt="non-virtual"><scope>wxHtmlBookRecord</scope><name>SetContentsRange</name></member>
+      <member refid="classwx_html_book_record_1a2a65058db729fc688694afdc5827f1b7" prot="public" virt="non-virtual"><scope>wxHtmlBookRecord</scope><name>SetStart</name></member>
+      <member refid="classwx_html_book_record_1af88f23b61629b983757c7fd86a58b808" prot="public" virt="non-virtual"><scope>wxHtmlBookRecord</scope><name>SetTitle</name></member>
+      <member refid="classwx_html_book_record_1a5062422cb517176cb7947a484dd5e0f4" prot="public" virt="non-virtual"><scope>wxHtmlBookRecord</scope><name>wxHtmlBookRecord</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_html_rendering_info" kind="class" language="C++" prot="public">
+    <compoundname>wxHtmlRenderingInfo</compoundname>
+    <includes local="no">wx/html/htmlcell.h</includes>
+      <sectiondef kind="user-defined">
+      <memberdef kind="function" id="classwx_html_rendering_info_1ab102ce8d36ec824c6e891e9c6a7ff60d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxHtmlRenderingInfo::SetSelection</definition>
+        <argsstring>(wxHtmlSelection *s)</argsstring>
+        <name>SetSelection</name>
+        <param>
+          <type><ref refid="classwx_html_selection" kindref="compound">wxHtmlSelection</ref> *</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+<para>Accessors. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/html/htmlcell.h" line="135" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_html_rendering_info_1adb860dbf0c948d9b1c40e987689deaea" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_html_selection" kindref="compound">wxHtmlSelection</ref> *</type>
+        <definition>wxHtmlSelection* wxHtmlRenderingInfo::GetSelection</definition>
+        <argsstring>() const</argsstring>
+        <name>GetSelection</name>
+        <briefdescription>
+<para>Accessors. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/html/htmlcell.h" line="136" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_html_rendering_info_1abb8aa12ea7d1baa40feb3ff3fe88abed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxHtmlRenderingInfo::SetStyle</definition>
+        <argsstring>(wxHtmlRenderingStyle *style)</argsstring>
+        <name>SetStyle</name>
+        <param>
+          <type><ref refid="classwx_html_rendering_style" kindref="compound">wxHtmlRenderingStyle</ref> *</type>
+          <declname>style</declname>
+        </param>
+        <briefdescription>
+<para>Accessors. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/html/htmlcell.h" line="138" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_html_rendering_info_1a87db7ff84e3f115c18b65314a0d472cb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_html_rendering_style" kindref="compound">wxHtmlRenderingStyle</ref> &amp;</type>
+        <definition>wxHtmlRenderingStyle&amp; wxHtmlRenderingInfo::GetStyle</definition>
+        <argsstring>()</argsstring>
+        <name>GetStyle</name>
+        <briefdescription>
+<para>Accessors. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/html/htmlcell.h" line="139" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_html_rendering_info_1a5d2ba6eacc8fe0933a3e57fe4a8a596f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_html_rendering_state" kindref="compound">wxHtmlRenderingState</ref> &amp;</type>
+        <definition>wxHtmlRenderingState&amp; wxHtmlRenderingInfo::GetState</definition>
+        <argsstring>()</argsstring>
+        <name>GetState</name>
+        <briefdescription>
+<para>Accessors. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/html/htmlcell.h" line="141" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classwx_html_rendering_info_1ace3fb2f845ec29952e5dfe8ad97b92da" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxHtmlRenderingInfo::wxHtmlRenderingInfo</definition>
+        <argsstring>()</argsstring>
+        <name>wxHtmlRenderingInfo</name>
+        <briefdescription>
+<para>Default ctor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/html/htmlcell.h" line="129" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class contains information given to cells when drawing them. </para>    </briefdescription>
+    <detaileddescription>
+<para>Contains rendering state, selection information and rendering style object that can be used to customize the output.</para><para><heading level="2"></heading>
+</para><para>Library:<nonbreakablespace/><nonbreakablespace/><ref refid="page_libs_1page_libs_wxhtml" kindref="member">wxHTML</ref> &lt;&gt;&lt; =&apos;&apos;&gt;:&lt;/&gt;&amp;;&amp;;&lt; =&apos;&apos;&gt;\ &lt;/&gt;&lt;/&gt;</para><para><simplesect kind="see"><para><ref refid="overview_html_1overview_html_cells" kindref="member">Cells and Containers</ref>, <ref refid="classwx_html_cell" kindref="compound">wxHtmlCell</ref> </para></simplesect>
+</para>    </detaileddescription>
+    <location file="interface/wx/html/htmlcell.h" line="124" column="1" bodyfile="interface/wx/html/htmlcell.h" bodystart="123" bodyend="143"/>
+    <listofallmembers>
+      <member refid="classwx_html_rendering_info_1adb860dbf0c948d9b1c40e987689deaea" prot="public" virt="non-virtual"><scope>wxHtmlRenderingInfo</scope><name>GetSelection</name></member>
+      <member refid="classwx_html_rendering_info_1a5d2ba6eacc8fe0933a3e57fe4a8a596f" prot="public" virt="non-virtual"><scope>wxHtmlRenderingInfo</scope><name>GetState</name></member>
+      <member refid="classwx_html_rendering_info_1a87db7ff84e3f115c18b65314a0d472cb" prot="public" virt="non-virtual"><scope>wxHtmlRenderingInfo</scope><name>GetStyle</name></member>
+      <member refid="classwx_html_rendering_info_1ab102ce8d36ec824c6e891e9c6a7ff60d" prot="public" virt="non-virtual"><scope>wxHtmlRenderingInfo</scope><name>SetSelection</name></member>
+      <member refid="classwx_html_rendering_info_1abb8aa12ea7d1baa40feb3ff3fe88abed" prot="public" virt="non-virtual"><scope>wxHtmlRenderingInfo</scope><name>SetStyle</name></member>
+      <member refid="classwx_html_rendering_info_1ace3fb2f845ec29952e5dfe8ad97b92da" prot="public" virt="non-virtual"><scope>wxHtmlRenderingInfo</scope><name>wxHtmlRenderingInfo</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,312 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="filename_8h" kind="file" language="C++">
+    <compoundname>filename.h</compoundname>
+    <innerclass refid="classwx_file_name" prot="public">wxFileName</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="filename_8h_1a0f0d9c04938ef2820d1ff7ed6b97bf00" prot="public" static="no" strong="no">
+        <type></type>
+        <name>wxPathFormat</name>
+        <enumvalue id="filename_8h_1a0f0d9c04938ef2820d1ff7ed6b97bf00a82373989c22bc22b15025a7900f4324e" prot="public">
+          <name>wxPATH_NATIVE</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+<para>the path format for the current platform. </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="filename_8h_1a0f0d9c04938ef2820d1ff7ed6b97bf00ab9a436c00a44a1d87078804130b6946a" prot="public">
+          <name>wxPATH_UNIX</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="filename_8h_1a0f0d9c04938ef2820d1ff7ed6b97bf00a48968859fc717ddf85f56d4af0bcc364" prot="public">
+          <name>wxPATH_BEOS</name>
+          <initializer>= wxPATH_UNIX</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="filename_8h_1a0f0d9c04938ef2820d1ff7ed6b97bf00a60c7e7594c3c7e60b072757eb0b7c2cf" prot="public">
+          <name>wxPATH_MAC</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="filename_8h_1a0f0d9c04938ef2820d1ff7ed6b97bf00a25c76338f8ff203b1797ddb7ac7ec56f" prot="public">
+          <name>wxPATH_DOS</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="filename_8h_1a0f0d9c04938ef2820d1ff7ed6b97bf00a376ff406108f95d85b00f9774dfdd5cb" prot="public">
+          <name>wxPATH_WIN</name>
+          <initializer>= wxPATH_DOS</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="filename_8h_1a0f0d9c04938ef2820d1ff7ed6b97bf00a671e7c57077047b17622e1784b53a90d" prot="public">
+          <name>wxPATH_OS2</name>
+          <initializer>= wxPATH_DOS</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="filename_8h_1a0f0d9c04938ef2820d1ff7ed6b97bf00a28858824260230f16f88ea4a3702e774" prot="public">
+          <name>wxPATH_VMS</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="filename_8h_1a0f0d9c04938ef2820d1ff7ed6b97bf00a1a5c68ce6065614a1cd35949c98799de" prot="public">
+          <name>wxPATH_MAX</name>
+          <briefdescription>
+<para>Not a valid value for specifying path format. </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>The various values for the path format: this mainly affects the path separator but also whether or not the path has the drive part (as under Windows). </para>        </briefdescription>
+        <detaileddescription>
+<para>See <ref refid="classwx_file_name" kindref="compound">wxFileName</ref> for more info. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/filename.h" line="17" column="1" bodyfile="interface/wx/filename.h" bodystart="16" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="enum" id="filename_8h_1a75d2cf906e06263544e2ec219c91388e" prot="public" static="no" strong="no">
+        <type></type>
+        <name>wxSizeConvention</name>
+        <enumvalue id="filename_8h_1a75d2cf906e06263544e2ec219c91388eabead856096774187fea063d24c9323ae" prot="public">
+          <name>wxSIZE_CONV_TRADITIONAL</name>
+          <briefdescription>
+<para>1024 bytes = 1KB. </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="filename_8h_1a75d2cf906e06263544e2ec219c91388ea15b4db7cb472f8434fa274f72c1e22bf" prot="public">
+          <name>wxSIZE_CONV_IEC</name>
+          <briefdescription>
+<para>1024 bytes = 1KiB. </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="filename_8h_1a75d2cf906e06263544e2ec219c91388ea412361d3271fb33b2adea0addae277e6" prot="public">
+          <name>wxSIZE_CONV_SI</name>
+          <briefdescription>
+<para>1000 bytes = 1KB. </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Different conventions for human readable sizes. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="see"><para><ref refid="classwx_file_name_1ab9ade6d6f9dc732fda789992e238cdc6" kindref="member">wxFileName::GetHumanReadableSize()</ref>.</para></simplesect>
+<simplesect kind="since"><para>2.9.1 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/filename.h" line="38" column="1" bodyfile="interface/wx/filename.h" bodystart="37" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="enum" id="filename_8h_1a18dd81e40b3fad4a089077e28e5dce22" prot="public" static="no" strong="no">
+        <type></type>
+        <name>wxPathNormalize</name>
+        <enumvalue id="filename_8h_1a18dd81e40b3fad4a089077e28e5dce22abbef459f086e433d5d40cc35aa56ff25" prot="public">
+          <name>wxPATH_NORM_ENV_VARS</name>
+          <initializer>= 0x0001</initializer>
+          <briefdescription>
+<para>Replace environment variables with their values. </para>          </briefdescription>
+          <detaileddescription>
+<para><ref refid="classwx_file_name" kindref="compound">wxFileName</ref> understands both Unix and Windows (but only under Windows) environment variables expansion: i.e. <computeroutput>&quot;$var&quot;</computeroutput>, <computeroutput>&quot;$(var)&quot;</computeroutput> and <computeroutput>&quot;${var}&quot;</computeroutput> are always understood and in addition under Windows <computeroutput>&quot;%var%&quot;</computeroutput> is also. </para>          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="filename_8h_1a18dd81e40b3fad4a089077e28e5dce22a6bffe1a3462787d537fcd92bb049a864" prot="public">
+          <name>wxPATH_NORM_DOTS</name>
+          <initializer>= 0x0002</initializer>
+          <briefdescription>
+<para>Squeeze all <computeroutput>&quot;..&quot;</computeroutput> and <computeroutput>&quot;.&quot;</computeroutput>. </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="filename_8h_1a18dd81e40b3fad4a089077e28e5dce22aecd07046a3594acac74acc9ac650a02a" prot="public">
+          <name>wxPATH_NORM_TILDE</name>
+          <initializer>= 0x0004</initializer>
+          <briefdescription>
+<para>Replace <computeroutput>&quot;~&quot;</computeroutput> and <computeroutput>&quot;~user&quot;</computeroutput> (Unix only). </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="filename_8h_1a18dd81e40b3fad4a089077e28e5dce22a7f91c6e46ed8ee5a6f99113923c8d5e9" prot="public">
+          <name>wxPATH_NORM_CASE</name>
+          <initializer>= 0x0008</initializer>
+          <briefdescription>
+<para>If the platform is case insensitive, make lowercase the path. </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="filename_8h_1a18dd81e40b3fad4a089077e28e5dce22a2c0029fffea115ef1506b1dd7522e06c" prot="public">
+          <name>wxPATH_NORM_ABSOLUTE</name>
+          <initializer>= 0x0010</initializer>
+          <briefdescription>
+<para>Make the path absolute. </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="filename_8h_1a18dd81e40b3fad4a089077e28e5dce22a2e0a4224acf272c1a4f6660a3d301386" prot="public">
+          <name>wxPATH_NORM_LONG</name>
+          <initializer>=     0x0020</initializer>
+          <briefdescription>
+<para>Expand the path to the &quot;long&quot; form (Windows only). </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="filename_8h_1a18dd81e40b3fad4a089077e28e5dce22a15e8ddcc41e5db893e97093a12b1fd07" prot="public">
+          <name>wxPATH_NORM_SHORTCUT</name>
+          <initializer>= 0x0040</initializer>
+          <briefdescription>
+<para>Resolve the shortcut, if it is a shortcut (Windows only). </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="filename_8h_1a18dd81e40b3fad4a089077e28e5dce22a2536bd2a88a78917a66b501c724cbf39" prot="public">
+          <name>wxPATH_NORM_ALL</name>
+          <initializer>= 0x00ff &amp; ~wxPATH_NORM_CASE</initializer>
+          <briefdescription>
+<para>A value indicating all normalization flags except for <computeroutput>wxPATH_NORM_CASE</computeroutput>. </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>The kind of normalization to do with the file name: these values can be or&apos;d together to perform several operations at once. </para>        </briefdescription>
+        <detaileddescription>
+<para>See <ref refid="classwx_file_name_1a2db3fcc42863daa265619de0d5f390df" kindref="member">wxFileName::Normalize()</ref> for more info. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/filename.h" line="56" column="1" bodyfile="interface/wx/filename.h" bodystart="55" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="enum" id="filename_8h_1af9bdc3014f3d54c426b6d2df10de4960" prot="public" static="no" strong="no">
+        <type></type>
+        <name>@19</name>
+        <enumvalue id="filename_8h_1af9bdc3014f3d54c426b6d2df10de4960a9bfadc684497b4dd6091efec6a3897bd" prot="public">
+          <name>wxPATH_RMDIR_FULL</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+<para>Delete the specified directory and its subdirectories if they are empty. </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="filename_8h_1af9bdc3014f3d54c426b6d2df10de4960a3bc777142a75311521173019221b33ab" prot="public">
+          <name>wxPATH_RMDIR_RECURSIVE</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+<para>Delete the specified directory and all the files and subdirectories in it recursively. </para>          </briefdescription>
+          <detaileddescription>
+<para>This flag is obviously <bold>dangerous</bold> and should be used with care and after asking the user for confirmation. </para>          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Flags for <ref refid="classwx_file_name_1a55d5f2f9af1a6430a74dfd75ec538028" kindref="member">wxFileName::Rmdir()</ref>. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/filename.h" line="78" column="1" bodyfile="interface/wx/filename.h" bodystart="77" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="enum" id="filename_8h_1adb49720dc49f7d4e4cf9adbf2948e409" prot="public" static="no" strong="no">
+        <type></type>
+        <name>@20</name>
+        <enumvalue id="filename_8h_1adb49720dc49f7d4e4cf9adbf2948e409a2c3e677e83f2305cb67bf4a0454f03fe" prot="public">
+          <name>wxFILE_EXISTS_REGULAR</name>
+          <initializer>= 0x0001</initializer>
+          <briefdescription>
+<para>Check for existence of a regular file. </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="filename_8h_1adb49720dc49f7d4e4cf9adbf2948e409a34c26079ab72e26790f5afb666e8fcf6" prot="public">
+          <name>wxFILE_EXISTS_DIR</name>
+          <initializer>= 0x0002</initializer>
+          <briefdescription>
+<para>Check for existence of a directory. </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="filename_8h_1adb49720dc49f7d4e4cf9adbf2948e409ab3edc0d3cb9f55b2bae3be1d6c609d91" prot="public">
+          <name>wxFILE_EXISTS_SYMLINK</name>
+          <initializer>= 0x1004</initializer>
+          <briefdescription>
+<para>Check for existence of a symlink. </para>          </briefdescription>
+          <detaileddescription>
+<para>Notice that this flag also sets <ref refid="filename_8h_1adb49720dc49f7d4e4cf9adbf2948e409af25ea89f406e5c6a876aae3f6909f041" kindref="member">wxFILE_EXISTS_NO_FOLLOW</ref>, otherwise it would never be satisfied as <ref refid="classwx_file_name_1a3a67a151411ee2e7eabbcd6087691ee4" kindref="member">wxFileName::Exists()</ref> would be checking for the existence of the symlink target and not the symlink itself. </para>          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="filename_8h_1adb49720dc49f7d4e4cf9adbf2948e409ad2bf8341003ddce1b2175d17d5328ed6" prot="public">
+          <name>wxFILE_EXISTS_DEVICE</name>
+          <initializer>= 0x0008</initializer>
+          <briefdescription>
+<para>Check for existence of a device. </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="filename_8h_1adb49720dc49f7d4e4cf9adbf2948e409a4c3ad761404dc8fee01cc226213acbe7" prot="public">
+          <name>wxFILE_EXISTS_FIFO</name>
+          <initializer>= 0x0016</initializer>
+          <briefdescription>
+<para>Check for existence of a FIFO. </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="filename_8h_1adb49720dc49f7d4e4cf9adbf2948e409ad0cdbb5b0b02b60cde2c1a1926c0eadd" prot="public">
+          <name>wxFILE_EXISTS_SOCKET</name>
+          <initializer>= 0x0032</initializer>
+          <briefdescription>
+<para>Check for existence of a socket. </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="filename_8h_1adb49720dc49f7d4e4cf9adbf2948e409af25ea89f406e5c6a876aae3f6909f041" prot="public">
+          <name>wxFILE_EXISTS_NO_FOLLOW</name>
+          <initializer>= 0x1000
+    wxFILE_EXISTS_ANY       = 0x1FFF</initializer>
+          <briefdescription>
+<para>Don&apos;t dereference a contained symbolic link. </para>          </briefdescription>
+          <detaileddescription>
+<para>Check for existence of anything </para>          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Flags for <ref refid="classwx_file_name_1a3a67a151411ee2e7eabbcd6087691ee4" kindref="member">wxFileName::Exists()</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="since"><para>2.9.5 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/filename.h" line="98" column="1" bodyfile="interface/wx/filename.h" bodystart="97" bodyend="114"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="filename_8h_1a454ab49e582fff5adb3cec515d03b162" prot="public" static="no" mutable="no">
+        <type><ref refid="classwx_u_long_long" kindref="compound">wxULongLong</ref></type>
+        <definition>wxULongLong wxInvalidSize</definition>
+        <argsstring></argsstring>
+        <name>wxInvalidSize</name>
+        <briefdescription>
+<para>The return value of <ref refid="classwx_file_name_1ab16fbe187dd2d53db3f237a298243c04" kindref="member">wxFileName::GetSize()</ref> in case of error. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/filename.h" line="119" column="1" bodyfile="interface/wx/filename.h" bodystart="119" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="interface/wx/filename.h"/>
+  </compounddef>
+</doxygen>

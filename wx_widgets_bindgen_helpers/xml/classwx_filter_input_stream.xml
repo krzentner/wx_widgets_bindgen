@@ -1,0 +1,164 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_filter_input_stream" kind="class" language="C++" prot="public">
+    <compoundname>wxFilterInputStream</compoundname>
+    <basecompoundref refid="classwx_input_stream" prot="public" virt="non-virtual">wxInputStream</basecompoundref>
+    <derivedcompoundref refid="classwx_archive_input_stream" prot="public" virt="non-virtual">wxArchiveInputStream</derivedcompoundref>
+    <derivedcompoundref refid="classwx_buffered_input_stream" prot="public" virt="non-virtual">wxBufferedInputStream</derivedcompoundref>
+    <derivedcompoundref refid="classwx_wrapper_input_stream" prot="public" virt="non-virtual">wxWrapperInputStream</derivedcompoundref>
+    <derivedcompoundref refid="classwx_zlib_input_stream" prot="public" virt="non-virtual">wxZlibInputStream</derivedcompoundref>
+    <includes local="no">wx/stream.h</includes>
+      <sectiondef kind="user-defined">
+      <memberdef kind="function" id="classwx_filter_input_stream_1a21dda00003313a92200677f2d9c78d99" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxFilterInputStream::wxFilterInputStream</definition>
+        <argsstring>(wxInputStream &amp;stream)</argsstring>
+        <name>wxFilterInputStream</name>
+        <param>
+          <type><ref refid="classwx_input_stream" kindref="compound">wxInputStream</ref> &amp;</type>
+          <declname>stream</declname>
+        </param>
+        <briefdescription>
+<para>Initializes a &quot;filter&quot; stream. </para>        </briefdescription>
+        <detaileddescription>
+<para>If the parent stream is passed as a pointer then the new filter stream takes ownership of it. If it is passed by reference then it does not. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/stream.h" line="1030" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_filter_input_stream_1a64c3433e69bcec829fec8e0381a24847" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxFilterInputStream::wxFilterInputStream</definition>
+        <argsstring>(wxInputStream *stream)</argsstring>
+        <name>wxFilterInputStream</name>
+        <param>
+          <type><ref refid="classwx_input_stream" kindref="compound">wxInputStream</ref> *</type>
+          <declname>stream</declname>
+        </param>
+        <briefdescription>
+<para>Initializes a &quot;filter&quot; stream. </para>        </briefdescription>
+        <detaileddescription>
+<para>If the parent stream is passed as a pointer then the new filter stream takes ownership of it. If it is passed by reference then it does not. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/stream.h" line="1031" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>A filter stream has the capability of a normal stream but it can be placed on top of another stream. </para>    </briefdescription>
+    <detaileddescription>
+<para>So, for example, it can uncompress or decrypt the data which are read from another stream and pass it to the requester.</para><para><simplesect kind="note"><para>The interface of this class is the same as that of <ref refid="classwx_input_stream" kindref="compound">wxInputStream</ref>. Only a constructor differs and it is documented below.</para></simplesect>
+<heading level="2"></heading>
+</para><para>Library:<nonbreakablespace/><nonbreakablespace/><ref refid="page_libs_1page_libs_wxbase" kindref="member">wxBase</ref> &lt;&gt;&lt; =&apos;&apos;&gt;:&lt;/&gt;&amp;;&amp;;&lt; =&apos;&apos;&gt;\ &lt;/&gt;&lt;/&gt;</para><para><simplesect kind="see"><para><ref refid="classwx_filter_class_factory" kindref="compound">wxFilterClassFactory</ref>, <ref refid="classwx_filter_output_stream" kindref="compound">wxFilterOutputStream</ref> </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="2466">
+        <label>wxInputStream</label>
+        <link refid="classwx_input_stream"/>
+        <childnode refid="2467" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2474">
+        <label>wxZlibInputStream</label>
+        <link refid="classwx_zlib_input_stream"/>
+        <childnode refid="2465" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2472">
+        <label>wxWrapperInputStream</label>
+        <link refid="classwx_wrapper_input_stream"/>
+        <childnode refid="2465" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2468">
+        <label>wxArchiveInputStream</label>
+        <link refid="classwx_archive_input_stream"/>
+        <childnode refid="2465" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2473">
+        <label>wxFSInputStream</label>
+        <link refid="classwx_f_s_input_stream"/>
+        <childnode refid="2472" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2467">
+        <label>wxStreamBase</label>
+        <link refid="classwx_stream_base"/>
+      </node>
+      <node id="2465">
+        <label>wxFilterInputStream</label>
+        <link refid="classwx_filter_input_stream"/>
+        <childnode refid="2466" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2469">
+        <label>wxTarInputStream</label>
+        <link refid="classwx_tar_input_stream"/>
+        <childnode refid="2468" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2471">
+        <label>wxBufferedInputStream</label>
+        <link refid="classwx_buffered_input_stream"/>
+        <childnode refid="2465" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2470">
+        <label>wxZipInputStream</label>
+        <link refid="classwx_zip_input_stream"/>
+        <childnode refid="2468" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2476">
+        <label>wxInputStream</label>
+        <link refid="classwx_input_stream"/>
+        <childnode refid="2477" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2477">
+        <label>wxStreamBase</label>
+        <link refid="classwx_stream_base"/>
+      </node>
+      <node id="2475">
+        <label>wxFilterInputStream</label>
+        <link refid="classwx_filter_input_stream"/>
+        <childnode refid="2476" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="interface/wx/stream.h" line="1021" column="1" bodyfile="interface/wx/stream.h" bodystart="1020" bodyend="1033"/>
+    <listofallmembers>
+      <member refid="classwx_input_stream_1ab081191ca94cf4bc511850471cd090f1" prot="public" virt="virtual"><scope>wxFilterInputStream</scope><name>CanRead</name></member>
+      <member refid="classwx_input_stream_1a632ef01c45abc66f6e39db9b25f5ebde" prot="public" virt="virtual"><scope>wxFilterInputStream</scope><name>Eof</name></member>
+      <member refid="classwx_input_stream_1a98462fa7198b5c9dca1c71acf6148e0b" prot="public" virt="non-virtual"><scope>wxFilterInputStream</scope><name>GetC</name></member>
+      <member refid="classwx_stream_base_1a33440c8ea3f8df382adecd7d188a1662" prot="public" virt="non-virtual"><scope>wxFilterInputStream</scope><name>GetLastError</name></member>
+      <member refid="classwx_stream_base_1a052d67c85f63873fabb45ecd108ea615" prot="public" virt="virtual"><scope>wxFilterInputStream</scope><name>GetLength</name></member>
+      <member refid="classwx_stream_base_1aae8094702c3aee35c38e3e06e052479c" prot="public" virt="virtual"><scope>wxFilterInputStream</scope><name>GetSize</name></member>
+      <member refid="classwx_stream_base_1ad33abd694469e858fc3bbb0163a7fc4b" prot="public" virt="virtual"><scope>wxFilterInputStream</scope><name>IsOk</name></member>
+      <member refid="classwx_stream_base_1a927368a32e940a11b96dbfb617d9afda" prot="public" virt="virtual"><scope>wxFilterInputStream</scope><name>IsSeekable</name></member>
+      <member refid="classwx_input_stream_1aae3e3341d71b3441eb4b723f5a6a518f" prot="public" virt="virtual"><scope>wxFilterInputStream</scope><name>LastRead</name></member>
+      <member refid="classwx_input_stream_1a8ebacd18964a4b169a62ad9190cab4d5" prot="protected" virt="pure-virtual"><scope>wxFilterInputStream</scope><name>OnSysRead</name></member>
+      <member refid="classwx_stream_base_1ae38e82c374f82d39993909f0a5d3017e" prot="protected" virt="virtual"><scope>wxFilterInputStream</scope><name>OnSysSeek</name></member>
+      <member refid="classwx_stream_base_1a7131a1f866ea911e90bb85bc1937d29b" prot="protected" virt="virtual"><scope>wxFilterInputStream</scope><name>OnSysTell</name></member>
+      <member refid="classwx_stream_base_1a2559b4fcfc7f7173259d703b39cb0d33" prot="public" virt="non-virtual"><scope>wxFilterInputStream</scope><name>operator!</name></member>
+      <member refid="classwx_input_stream_1a42dc4394276b726b9877faf2c71ae408" prot="public" virt="virtual"><scope>wxFilterInputStream</scope><name>Peek</name></member>
+      <member refid="classwx_input_stream_1a72f24d0f50c7f07bb68dedf5e8690f4e" prot="public" virt="virtual"><scope>wxFilterInputStream</scope><name>Read</name></member>
+      <member refid="classwx_input_stream_1a05cc7b25c9df86f00157a34ee9809bd5" prot="public" virt="non-virtual"><scope>wxFilterInputStream</scope><name>Read</name></member>
+      <member refid="classwx_input_stream_1a80d84e864b277719a3034c15cdd5a017" prot="public" virt="non-virtual"><scope>wxFilterInputStream</scope><name>ReadAll</name></member>
+      <member refid="classwx_stream_base_1a52353ac42f72538b2022a84f416e5fe2" prot="public" virt="non-virtual"><scope>wxFilterInputStream</scope><name>Reset</name></member>
+      <member refid="classwx_input_stream_1a989ed0f85fe7340cc0996bbcee03822d" prot="public" virt="virtual"><scope>wxFilterInputStream</scope><name>SeekI</name></member>
+      <member refid="classwx_input_stream_1abd1262a929619d476c255669a192bc2c" prot="public" virt="virtual"><scope>wxFilterInputStream</scope><name>TellI</name></member>
+      <member refid="classwx_input_stream_1a503ff01720f51c4fb170aa78a296be9d" prot="public" virt="non-virtual"><scope>wxFilterInputStream</scope><name>Ungetch</name></member>
+      <member refid="classwx_input_stream_1a7fe847c79f8d2e1b98bb129c23e549c7" prot="public" virt="non-virtual"><scope>wxFilterInputStream</scope><name>Ungetch</name></member>
+      <member refid="classwx_filter_input_stream_1a21dda00003313a92200677f2d9c78d99" prot="public" virt="non-virtual"><scope>wxFilterInputStream</scope><name>wxFilterInputStream</name></member>
+      <member refid="classwx_filter_input_stream_1a64c3433e69bcec829fec8e0381a24847" prot="public" virt="non-virtual"><scope>wxFilterInputStream</scope><name>wxFilterInputStream</name></member>
+      <member refid="classwx_input_stream_1aeb3e1146260cabcfbe631ff3493ee851" prot="public" virt="non-virtual"><scope>wxFilterInputStream</scope><name>wxInputStream</name></member>
+      <member refid="classwx_stream_base_1a2bdb01f1ccd34d551d3cfc848054bf1e" prot="public" virt="non-virtual"><scope>wxFilterInputStream</scope><name>wxStreamBase</name></member>
+      <member refid="classwx_input_stream_1a30fea51e11bbf042f29bdf82bc052ab2" prot="public" virt="virtual"><scope>wxFilterInputStream</scope><name>~wxInputStream</name></member>
+      <member refid="classwx_stream_base_1aebba32b4da79c60933fa997735a8bfe5" prot="public" virt="virtual"><scope>wxFilterInputStream</scope><name>~wxStreamBase</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

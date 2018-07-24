@@ -1,0 +1,135 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_preferences_editor" kind="class" language="C++" prot="public">
+    <compoundname>wxPreferencesEditor</compoundname>
+    <includes local="no">wx/preferences.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classwx_preferences_editor_1a763bc5d60aef3ebf4ee296fb14634de3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxPreferencesEditor::wxPreferencesEditor</definition>
+        <argsstring>(const wxString &amp;title=wxString())</argsstring>
+        <name>wxPreferencesEditor</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>title</declname>
+          <defval><ref refid="classwx_string" kindref="compound">wxString</ref>()</defval>
+        </param>
+        <briefdescription>
+<para>Constructor. </para>        </briefdescription>
+        <detaileddescription>
+<para>Creates an empty editor, use <ref refid="classwx_preferences_editor_1a3f5102fccc200964eb2ea4890b334c29" kindref="member">AddPage()</ref> to add controls to it.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>title</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The title overriding the default title of the top level window used by the editor. It is recommended to not specify this parameter to use the native convention for the preferences dialogs instead. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/preferences.h" line="46" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_preferences_editor_1aeea552f6dab4f2a6402e122a9866386a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxPreferencesEditor::~wxPreferencesEditor</definition>
+        <argsstring>()</argsstring>
+        <name>~wxPreferencesEditor</name>
+        <briefdescription>
+<para>Destructor. </para>        </briefdescription>
+        <detaileddescription>
+<para>Destroying this object hides the associated preferences window if it is open at the moment.</para><para>The destructor is non-virtual as this class is not supposed to be derived from. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/preferences.h" line="57" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_preferences_editor_1a3f5102fccc200964eb2ea4890b334c29" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxPreferencesEditor::AddPage</definition>
+        <argsstring>(wxPreferencesPage *page)</argsstring>
+        <name>AddPage</name>
+        <param>
+          <type><ref refid="classwx_preferences_page" kindref="compound">wxPreferencesPage</ref> *</type>
+          <declname>page</declname>
+        </param>
+        <briefdescription>
+<para>Add a new page to the editor. </para>        </briefdescription>
+        <detaileddescription>
+<para>The editor takes ownership of the page and will delete it from its destructor (but not sooner).</para><para><simplesect kind="see"><para><ref refid="classwx_preferences_page" kindref="compound">wxPreferencesPage</ref>, <ref refid="classwx_stock_preferences_page" kindref="compound">wxStockPreferencesPage</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/preferences.h" line="67" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_preferences_editor_1a626cdcd775e6e1150901d64b63c34819" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void wxPreferencesEditor::Show</definition>
+        <argsstring>(wxWindow *parent)</argsstring>
+        <name>Show</name>
+        <param>
+          <type><ref refid="classwx_window" kindref="compound">wxWindow</ref> *</type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+<para>Show the preferences dialog or bring it to the top if it&apos;s already shown. </para>        </briefdescription>
+        <detaileddescription>
+<para>Notice that this method may or may not block depending on the platform, i.e. depending on whether the dialog is modal or not.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>parent</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The window that invokes the preferences. Call <ref refid="classwx_preferences_editor_1acdecd2b18a9d3171e04cdc561848635b" kindref="member">Dismiss()</ref> before it&apos;s destroyed. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/preferences.h" line="79" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_preferences_editor_1acdecd2b18a9d3171e04cdc561848635b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxPreferencesEditor::Dismiss</definition>
+        <argsstring>()</argsstring>
+        <name>Dismiss</name>
+        <briefdescription>
+<para>Hide the currently shown dialog, if any. </para>        </briefdescription>
+        <detaileddescription>
+<para>This is typically called to dismiss the dialog if the object whose preferences it is editing was closed. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/preferences.h" line="87" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classwx_preferences_editor_1aab8c4d9dfd585acbecdc92f5ddd8432b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool wxPreferencesEditor::ShouldApplyChangesImmediately</definition>
+        <argsstring>() static bool ShownModally()</argsstring>
+        <name>ShouldApplyChangesImmediately</name>
+        <briefdescription>
+<para>Returns whether changes to values in preferences pages should be applied immediately or only when the user clicks the OK button. </para>        </briefdescription>
+        <detaileddescription>
+<para>Currently, changes are applied immediately on OS X and GTK+.</para><para>The preprocessor macro <computeroutput>wxHAS_PREF_EDITOR_APPLY_IMMEDIATELY</computeroutput> is defined in this case as well. Returns whether the preferences dialog is shown modally.</para><para>If this method returns false, as it currently does in wxGTK and wxOSX, <ref refid="classwx_preferences_editor_1a626cdcd775e6e1150901d64b63c34819" kindref="member">Show()</ref> simply makes the dialog visible and returns immediately. If it returns true, as it does in wxMSW and under the other platforms, then the dialog is shown modally, i.e. <ref refid="classwx_preferences_editor_1a626cdcd775e6e1150901d64b63c34819" kindref="member">Show()</ref> blocks until the user dismisses it.</para><para>Notice that it isn&apos;t necessary to test the return value of this method to use this class normally, its interface is designed to work in both cases. However it can sometimes be necessary to call it if the program needs to handle modal dialogs specially, e.g. perhaps to block some periodic background update operation while a modal dialog is shown. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/preferences.h" line="98" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Manage preferences dialog. </para>    </briefdescription>
+    <detaileddescription>
+<para>This class encapsulates the differences <ndash/> both in appearance and behaviour <ndash/> between preferences dialogs on different platforms. In particular, OS X preferences look very different from the typical notebook control used on other platforms, and both OS X and GTK+ preferences windows are modeless unlike Windows options dialogs that are typically modal.</para><para><ref refid="classwx_preferences_editor" kindref="compound">wxPreferencesEditor</ref> is able to hide the differences by hiding the creation of preferences window from the API. Instead, you create an instance of <ref refid="classwx_preferences_editor" kindref="compound">wxPreferencesEditor</ref> and add page descriptions in the form of <ref refid="classwx_preferences_page" kindref="compound">wxPreferencesPage</ref> using its <ref refid="classwx_preferences_editor_1a3f5102fccc200964eb2ea4890b334c29" kindref="member">AddPage()</ref> method. After setting up the editor object, you must call <ref refid="classwx_preferences_editor_1a626cdcd775e6e1150901d64b63c34819" kindref="member">Show()</ref> to present preferences to the user.</para><para><simplesect kind="note"><para>Notice that this class is not derived from <ref refid="classwx_window" kindref="compound">wxWindow</ref> and hence doesn&apos;t represent a window, even if its <ref refid="classwx_preferences_editor_1a626cdcd775e6e1150901d64b63c34819" kindref="member">Show()</ref> method does create one internally.</para></simplesect>
+<heading level="2"></heading>
+</para><para>Library:<nonbreakablespace/><nonbreakablespace/><ref refid="page_libs_1page_libs_wxcore" kindref="member">wxCore</ref></para><para><simplesect kind="since"><para>2.9.5 </para></simplesect>
+</para>    </detaileddescription>
+    <location file="interface/wx/preferences.h" line="34" column="1" bodyfile="interface/wx/preferences.h" bodystart="33" bodyend="116"/>
+    <listofallmembers>
+      <member refid="classwx_preferences_editor_1a3f5102fccc200964eb2ea4890b334c29" prot="public" virt="non-virtual"><scope>wxPreferencesEditor</scope><name>AddPage</name></member>
+      <member refid="classwx_preferences_editor_1acdecd2b18a9d3171e04cdc561848635b" prot="public" virt="non-virtual"><scope>wxPreferencesEditor</scope><name>Dismiss</name></member>
+      <member refid="classwx_preferences_editor_1aab8c4d9dfd585acbecdc92f5ddd8432b" prot="public" virt="non-virtual"><scope>wxPreferencesEditor</scope><name>ShouldApplyChangesImmediately</name></member>
+      <member refid="classwx_preferences_editor_1a626cdcd775e6e1150901d64b63c34819" prot="public" virt="virtual"><scope>wxPreferencesEditor</scope><name>Show</name></member>
+      <member refid="classwx_preferences_editor_1a763bc5d60aef3ebf4ee296fb14634de3" prot="public" virt="non-virtual"><scope>wxPreferencesEditor</scope><name>wxPreferencesEditor</name></member>
+      <member refid="classwx_preferences_editor_1aeea552f6dab4f2a6402e122a9866386a" prot="public" virt="non-virtual"><scope>wxPreferencesEditor</scope><name>~wxPreferencesEditor</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

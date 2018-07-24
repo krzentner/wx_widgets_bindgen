@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="nonownedwnd_8h" kind="file" language="C++">
+    <compoundname>nonownedwnd.h</compoundname>
+    <innerclass refid="classwx_non_owned_window" prot="public">wxNonOwnedWindow</innerclass>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="nonownedwnd_8h_1ac74362dcf295ce0370dc9691ac8dbd4b" prot="public" static="no">
+        <name>wxFRAME_SHAPED</name>
+        <initializer>0x0010</initializer>
+        <briefdescription>
+<para>Styles that can be used with any <ref refid="classwx_non_owned_window" kindref="compound">wxNonOwnedWindow</ref>: </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/nonownedwnd.h" line="14" column="9" bodyfile="interface/wx/nonownedwnd.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="interface/wx/nonownedwnd.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="page_constants" kind="page">
+    <compoundname>page_constants</compoundname>
+    <title>Constants</title>
+    <innerpage refid="page_stdevtid">Standard Event Identifiers</innerpage>
+    <innerpage refid="page_stockitems">Stock Items</innerpage>
+    <innerpage refid="page_cppconst">Preprocessor Symbols</innerpage>
+    <innerpage refid="page_wxusedef">wxUSE Preprocessor Symbols</innerpage>
+    <briefdescription>
+<para><linebreak/>
+ This chapter describes the constants defined by wxWidgets. </para>    </briefdescription>
+    <detaileddescription>
+<para><linebreak/>
+ This chapter describes the constants defined by wxWidgets.</para><para><itemizedlist>
+<listitem><para><ref refid="page_stdevtid" kindref="compound">Standard Event Identifiers</ref> </para></listitem>
+<listitem><para><ref refid="page_stockitems" kindref="compound">Stock Items</ref> </para></listitem>
+<listitem><para><ref refid="page_cppconst" kindref="compound">Preprocessor Symbols</ref> </para></listitem>
+<listitem><para><ref refid="page_wxusedef" kindref="compound">wxUSE Preprocessor Symbols</ref> </para></listitem>
+</itemizedlist>
+</para>    </detaileddescription>
+  </compounddef>
+</doxygen>

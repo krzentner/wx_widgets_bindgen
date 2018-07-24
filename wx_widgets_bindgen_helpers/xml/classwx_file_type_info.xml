@@ -1,0 +1,347 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_file_type_info" kind="class" language="C++" prot="public">
+    <compoundname>wxFileTypeInfo</compoundname>
+    <includes local="no">wx/mimetype.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classwx_file_type_info_1a7bf087485908c64f1240b81e640fb8bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxFileTypeInfo::wxFileTypeInfo</definition>
+        <argsstring>()</argsstring>
+        <name>wxFileTypeInfo</name>
+        <briefdescription>
+<para>Default constructor creates an invalid file type info object. </para>        </briefdescription>
+        <detaileddescription>
+<para>Such invalid/empty object should be used to terminate the list of file types passed to <ref refid="classwx_mime_types_manager_1a5a34d689e57c8c0d9f8032e1302f9e0f" kindref="member">wxMimeTypesManager::AddFallbacks()</ref>. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/mimetype.h" line="406" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_file_type_info_1ae6e659e7965b31a5606553ff3453f7a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxFileTypeInfo::wxFileTypeInfo</definition>
+        <argsstring>(const wxString &amp;mimeType)</argsstring>
+        <name>wxFileTypeInfo</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>mimeType</declname>
+        </param>
+        <briefdescription>
+<para>Constructor specifying just the MIME type name. </para>        </briefdescription>
+        <detaileddescription>
+<para>Use the various setter methods below to fully initialize the object.</para><para><simplesect kind="since"><para>2.9.2 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/mimetype.h" line="415" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_file_type_info_1a33aa5094ec288d2ea5905202da743e76" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxFileTypeInfo::wxFileTypeInfo</definition>
+        <argsstring>(const wxString &amp;mimeType, const wxString &amp;openCmd, const wxString &amp;printCmd, const wxString &amp;description, const wxString &amp;extension,...)</argsstring>
+        <name>wxFileTypeInfo</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>mimeType</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>openCmd</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>printCmd</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>description</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>extension</declname>
+        </param>
+        <param>
+          <type>...</type>
+        </param>
+        <briefdescription>
+<para>Constructor allowing to specify all the fields at once. </para>        </briefdescription>
+        <detaileddescription>
+<para>This is a vararg constructor taking an arbitrary number of extensions after the first four required parameters. The list must be terminated by <computeroutput>wxNullPtr</computeroutput>, notice that <computeroutput>NULL</computeroutput> can&apos;t be used here in portable code (C++0x <computeroutput>nullptr</computeroutput> can be used as well if your compiler supports it). </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/mimetype.h" line="426" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_file_type_info_1abf0e8a53262565c360e258a46661c1e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxFileTypeInfo::wxFileTypeInfo</definition>
+        <argsstring>(const wxArrayString &amp;sArray)</argsstring>
+        <name>wxFileTypeInfo</name>
+        <param>
+          <type>const <ref refid="classwx_array_string" kindref="compound">wxArrayString</ref> &amp;</type>
+          <declname>sArray</declname>
+        </param>
+        <briefdescription>
+<para>Constuctor using an array of string elements corresponding to the parameters of the ctor above in the same order. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/mimetype.h" line="437" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_file_type_info_1a65fec384c5469da3e619640e70aeaafa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxFileTypeInfo::AddExtension</definition>
+        <argsstring>(const wxString &amp;ext)</argsstring>
+        <name>AddExtension</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>ext</declname>
+        </param>
+        <briefdescription>
+<para>Add another extension associated with this file type. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="since"><para>2.9.2 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/mimetype.h" line="444" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_file_type_info_1a977b36c986aaa161bd7521e07144a06a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxFileTypeInfo::SetDescription</definition>
+        <argsstring>(const wxString &amp;description)</argsstring>
+        <name>SetDescription</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>description</declname>
+        </param>
+        <briefdescription>
+<para>Set the file type description. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="since"><para>2.9.2 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/mimetype.h" line="451" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_file_type_info_1a281940822fdbcf6c1f819b0617810771" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxFileTypeInfo::SetOpenCommand</definition>
+        <argsstring>(const wxString &amp;command)</argsstring>
+        <name>SetOpenCommand</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>command</declname>
+        </param>
+        <briefdescription>
+<para>Set the command to be used for opening files of this type. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="since"><para>2.9.2 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/mimetype.h" line="458" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_file_type_info_1a6ed88ec73e856ac1e9000f4e3c2a81f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxFileTypeInfo::SetPrintCommand</definition>
+        <argsstring>(const wxString &amp;command)</argsstring>
+        <name>SetPrintCommand</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>command</declname>
+        </param>
+        <briefdescription>
+<para>Set the command to be used for printing files of this type. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="since"><para>2.9.2 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/mimetype.h" line="465" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_file_type_info_1a18e2f19fac946548a8f9119e1db3b2c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxFileTypeInfo::SetShortDesc</definition>
+        <argsstring>(const wxString &amp;shortDesc)</argsstring>
+        <name>SetShortDesc</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>shortDesc</declname>
+        </param>
+        <briefdescription>
+<para>Set the short description for the files of this type. </para>        </briefdescription>
+        <detaileddescription>
+<para>This is only used under MSW for some of the registry keys used for the file type registration. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/mimetype.h" line="473" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_file_type_info_1aa92318b3c0385f3eadde94f840714c0d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxFileTypeInfo::SetIcon</definition>
+        <argsstring>(const wxString &amp;iconFile, int iconIndex=0)</argsstring>
+        <name>SetIcon</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>iconFile</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>iconIndex</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>Set the icon information. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/mimetype.h" line="478" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_file_type_info_1aeaf08200cb0192126ed3adcebf7242bc" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+        <definition>const wxString&amp; wxFileTypeInfo::GetMimeType</definition>
+        <argsstring>() const</argsstring>
+        <name>GetMimeType</name>
+        <briefdescription>
+<para>Get the MIME type. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/mimetype.h" line="483" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_file_type_info_1aecc9b465573035b492ce4641b3d91aae" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+        <definition>const wxString&amp; wxFileTypeInfo::GetOpenCommand</definition>
+        <argsstring>() const</argsstring>
+        <name>GetOpenCommand</name>
+        <briefdescription>
+<para>Get the open command. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/mimetype.h" line="488" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_file_type_info_1a6ccae4b080bcc83c078794ae660abedf" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+        <definition>const wxString&amp; wxFileTypeInfo::GetPrintCommand</definition>
+        <argsstring>() const</argsstring>
+        <name>GetPrintCommand</name>
+        <briefdescription>
+<para>Get the print command. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/mimetype.h" line="493" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_file_type_info_1a3ee5fb91c648917f7b04ed99a83e7069" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+        <definition>const wxString&amp; wxFileTypeInfo::GetShortDesc</definition>
+        <argsstring>() const</argsstring>
+        <name>GetShortDesc</name>
+        <briefdescription>
+<para>Get the short description (only used under Win32 so far) </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/mimetype.h" line="498" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_file_type_info_1afcf1c324e91fe9d3469619ef5143512e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+        <definition>const wxString&amp; wxFileTypeInfo::GetDescription</definition>
+        <argsstring>() const</argsstring>
+        <name>GetDescription</name>
+        <briefdescription>
+<para>Get the long, user visible description. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/mimetype.h" line="503" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_file_type_info_1a61854c0324abd54d37eb672aaa0596ae" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="classwx_array_string" kindref="compound">wxArrayString</ref> &amp;</type>
+        <definition>const wxArrayString&amp; wxFileTypeInfo::GetExtensions</definition>
+        <argsstring>() const</argsstring>
+        <name>GetExtensions</name>
+        <briefdescription>
+<para>Get the array of all extensions. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/mimetype.h" line="508" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_file_type_info_1a885081219daa0ac298e8817c87c40083" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t wxFileTypeInfo::GetExtensionsCount</definition>
+        <argsstring>() const</argsstring>
+        <name>GetExtensionsCount</name>
+        <briefdescription>
+<para>Get the number of extensions. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/mimetype.h" line="513" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_file_type_info_1a6aad2dc348c2fa37ab52579a330567ce" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+        <definition>const wxString&amp; wxFileTypeInfo::GetIconFile</definition>
+        <argsstring>() const</argsstring>
+        <name>GetIconFile</name>
+        <briefdescription>
+<para>Get the icon filename. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/mimetype.h" line="518" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_file_type_info_1a42f9289ee94034285fb9a9b0206ddb57" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int wxFileTypeInfo::GetIconIndex</definition>
+        <argsstring>() const</argsstring>
+        <name>GetIconIndex</name>
+        <briefdescription>
+<para>Get the index of the icon within the icon file. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/mimetype.h" line="523" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Container of information about <ref refid="classwx_file_type" kindref="compound">wxFileType</ref>. </para>    </briefdescription>
+    <detaileddescription>
+<para>This class simply stores information associated with the file type. It doesn&apos;t do anything on its own and is used only to allow constructing <ref refid="classwx_file_type" kindref="compound">wxFileType</ref> from it (instead of specifying all the constituent pieces separately) and also with <ref refid="classwx_mime_types_manager_1a5a34d689e57c8c0d9f8032e1302f9e0f" kindref="member">wxMimeTypesManager::AddFallbacks()</ref>. </para>    </detaileddescription>
+    <location file="interface/wx/mimetype.h" line="398" column="1" bodyfile="interface/wx/mimetype.h" bodystart="397" bodyend="525"/>
+    <listofallmembers>
+      <member refid="classwx_file_type_info_1a65fec384c5469da3e619640e70aeaafa" prot="public" virt="non-virtual"><scope>wxFileTypeInfo</scope><name>AddExtension</name></member>
+      <member refid="classwx_file_type_info_1afcf1c324e91fe9d3469619ef5143512e" prot="public" virt="non-virtual"><scope>wxFileTypeInfo</scope><name>GetDescription</name></member>
+      <member refid="classwx_file_type_info_1a61854c0324abd54d37eb672aaa0596ae" prot="public" virt="non-virtual"><scope>wxFileTypeInfo</scope><name>GetExtensions</name></member>
+      <member refid="classwx_file_type_info_1a885081219daa0ac298e8817c87c40083" prot="public" virt="non-virtual"><scope>wxFileTypeInfo</scope><name>GetExtensionsCount</name></member>
+      <member refid="classwx_file_type_info_1a6aad2dc348c2fa37ab52579a330567ce" prot="public" virt="non-virtual"><scope>wxFileTypeInfo</scope><name>GetIconFile</name></member>
+      <member refid="classwx_file_type_info_1a42f9289ee94034285fb9a9b0206ddb57" prot="public" virt="non-virtual"><scope>wxFileTypeInfo</scope><name>GetIconIndex</name></member>
+      <member refid="classwx_file_type_info_1aeaf08200cb0192126ed3adcebf7242bc" prot="public" virt="non-virtual"><scope>wxFileTypeInfo</scope><name>GetMimeType</name></member>
+      <member refid="classwx_file_type_info_1aecc9b465573035b492ce4641b3d91aae" prot="public" virt="non-virtual"><scope>wxFileTypeInfo</scope><name>GetOpenCommand</name></member>
+      <member refid="classwx_file_type_info_1a6ccae4b080bcc83c078794ae660abedf" prot="public" virt="non-virtual"><scope>wxFileTypeInfo</scope><name>GetPrintCommand</name></member>
+      <member refid="classwx_file_type_info_1a3ee5fb91c648917f7b04ed99a83e7069" prot="public" virt="non-virtual"><scope>wxFileTypeInfo</scope><name>GetShortDesc</name></member>
+      <member refid="classwx_file_type_info_1a977b36c986aaa161bd7521e07144a06a" prot="public" virt="non-virtual"><scope>wxFileTypeInfo</scope><name>SetDescription</name></member>
+      <member refid="classwx_file_type_info_1aa92318b3c0385f3eadde94f840714c0d" prot="public" virt="non-virtual"><scope>wxFileTypeInfo</scope><name>SetIcon</name></member>
+      <member refid="classwx_file_type_info_1a281940822fdbcf6c1f819b0617810771" prot="public" virt="non-virtual"><scope>wxFileTypeInfo</scope><name>SetOpenCommand</name></member>
+      <member refid="classwx_file_type_info_1a6ed88ec73e856ac1e9000f4e3c2a81f6" prot="public" virt="non-virtual"><scope>wxFileTypeInfo</scope><name>SetPrintCommand</name></member>
+      <member refid="classwx_file_type_info_1a18e2f19fac946548a8f9119e1db3b2c2" prot="public" virt="non-virtual"><scope>wxFileTypeInfo</scope><name>SetShortDesc</name></member>
+      <member refid="classwx_file_type_info_1a7bf087485908c64f1240b81e640fb8bb" prot="public" virt="non-virtual"><scope>wxFileTypeInfo</scope><name>wxFileTypeInfo</name></member>
+      <member refid="classwx_file_type_info_1ae6e659e7965b31a5606553ff3453f7a3" prot="public" virt="non-virtual"><scope>wxFileTypeInfo</scope><name>wxFileTypeInfo</name></member>
+      <member refid="classwx_file_type_info_1a33aa5094ec288d2ea5905202da743e76" prot="public" virt="non-virtual"><scope>wxFileTypeInfo</scope><name>wxFileTypeInfo</name></member>
+      <member refid="classwx_file_type_info_1abf0e8a53262565c360e258a46661c1e2" prot="public" virt="non-virtual"><scope>wxFileTypeInfo</scope><name>wxFileTypeInfo</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

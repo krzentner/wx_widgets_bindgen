@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="editors_8h" kind="file" language="C++">
+    <compoundname>editors.h</compoundname>
+    <innerclass refid="classwx_p_g_window_list" prot="public">wxPGWindowList</innerclass>
+    <innerclass refid="classwx_p_g_editor" prot="public">wxPGEditor</innerclass>
+    <innerclass refid="classwx_p_g_text_ctrl_editor" prot="public">wxPGTextCtrlEditor</innerclass>
+    <innerclass refid="classwx_p_g_choice_editor" prot="public">wxPGChoiceEditor</innerclass>
+    <innerclass refid="classwx_p_g_combo_box_editor" prot="public">wxPGComboBoxEditor</innerclass>
+    <innerclass refid="classwx_p_g_choice_and_button_editor" prot="public">wxPGChoiceAndButtonEditor</innerclass>
+    <innerclass refid="classwx_p_g_text_ctrl_and_button_editor" prot="public">wxPGTextCtrlAndButtonEditor</innerclass>
+    <innerclass refid="classwx_p_g_check_box_editor" prot="public">wxPGCheckBoxEditor</innerclass>
+    <innerclass refid="classwx_p_g_editor_dialog_adapter" prot="public">wxPGEditorDialogAdapter</innerclass>
+    <innerclass refid="classwx_p_g_multi_button" prot="public">wxPGMultiButton</innerclass>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="editors_8h_1a4a5093a311588600c86be890d8c90938" prot="public" static="no" mutable="no">
+        <type><ref refid="classwx_p_g_editor" kindref="compound">wxPGEditor</ref> *</type>
+        <definition>wxPGEditor* wxPGEditor_TextCtrl</definition>
+        <argsstring></argsstring>
+        <name>wxPGEditor_TextCtrl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/editors.h" line="581" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="editors_8h_1a1e9c4567136f83c1f9c7fdb7f9ff958a" prot="public" static="no" mutable="no">
+        <type><ref refid="classwx_p_g_editor" kindref="compound">wxPGEditor</ref> *</type>
+        <definition>wxPGEditor* wxPGEditor_Choice</definition>
+        <argsstring></argsstring>
+        <name>wxPGEditor_Choice</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/editors.h" line="582" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="editors_8h_1afb2b123b3318198a005d399d9dbb156f" prot="public" static="no" mutable="no">
+        <type><ref refid="classwx_p_g_editor" kindref="compound">wxPGEditor</ref> *</type>
+        <definition>wxPGEditor* wxPGEditor_ComboBox</definition>
+        <argsstring></argsstring>
+        <name>wxPGEditor_ComboBox</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/editors.h" line="583" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="editors_8h_1a83dbb62c2d7b6768b6b95f17e22b9e36" prot="public" static="no" mutable="no">
+        <type><ref refid="classwx_p_g_editor" kindref="compound">wxPGEditor</ref> *</type>
+        <definition>wxPGEditor* wxPGEditor_TextCtrlAndButton</definition>
+        <argsstring></argsstring>
+        <name>wxPGEditor_TextCtrlAndButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/editors.h" line="584" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="editors_8h_1af89dc8732d6e9f16ab2bfe699032e57f" prot="public" static="no" mutable="no">
+        <type><ref refid="classwx_p_g_editor" kindref="compound">wxPGEditor</ref> *</type>
+        <definition>wxPGEditor* wxPGEditor_CheckBox</definition>
+        <argsstring></argsstring>
+        <name>wxPGEditor_CheckBox</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/editors.h" line="585" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="editors_8h_1a19e0348230466e7f0309f2595a39632a" prot="public" static="no" mutable="no">
+        <type><ref refid="classwx_p_g_editor" kindref="compound">wxPGEditor</ref> *</type>
+        <definition>wxPGEditor* wxPGEditor_ChoiceAndButton</definition>
+        <argsstring></argsstring>
+        <name>wxPGEditor_ChoiceAndButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/editors.h" line="586" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="interface/wx/propgrid/editors.h"/>
+  </compounddef>
+</doxygen>

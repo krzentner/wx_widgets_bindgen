@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_socket_output_stream" kind="class" language="C++" prot="public">
+    <compoundname>wxSocketOutputStream</compoundname>
+    <basecompoundref refid="classwx_output_stream" prot="public" virt="non-virtual">wxOutputStream</basecompoundref>
+    <includes local="no">wx/sckstrm.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classwx_socket_output_stream_1a6ef4b524a3255bfe9c717d2efc94be92" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxSocketOutputStream::wxSocketOutputStream</definition>
+        <argsstring>(wxSocketBase &amp;s)</argsstring>
+        <name>wxSocketOutputStream</name>
+        <param>
+          <type><ref refid="classwx_socket_base" kindref="compound">wxSocketBase</ref> &amp;</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+<para>Creates a new write-only socket stream using the specified initialized socket connection. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/sckstrm.h" line="27" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class implements an output stream which writes data from a connected socket. </para>    </briefdescription>
+    <detaileddescription>
+<para>Note that this stream is purely sequential and it does not support seeking.</para><para><heading level="2"></heading>
+</para><para>Library:<nonbreakablespace/><nonbreakablespace/><ref refid="page_libs_1page_libs_wxnet" kindref="member">wxNet</ref> &lt;&gt;&lt; =&apos;&apos;&gt;:&lt;/&gt;&amp;;&amp;;&lt; =&apos;&apos;&gt;\ , \ &lt;/&gt;&lt;/&gt;</para><para><simplesect kind="see"><para><ref refid="classwx_socket_base" kindref="compound">wxSocketBase</ref> </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="7368">
+        <label>wxStreamBase</label>
+        <link refid="classwx_stream_base"/>
+      </node>
+      <node id="7367">
+        <label>wxOutputStream</label>
+        <link refid="classwx_output_stream"/>
+        <childnode refid="7368" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7366">
+        <label>wxSocketOutputStream</label>
+        <link refid="classwx_socket_output_stream"/>
+        <childnode refid="7367" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="7371">
+        <label>wxStreamBase</label>
+        <link refid="classwx_stream_base"/>
+      </node>
+      <node id="7370">
+        <label>wxOutputStream</label>
+        <link refid="classwx_output_stream"/>
+        <childnode refid="7371" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7369">
+        <label>wxSocketOutputStream</label>
+        <link refid="classwx_socket_output_stream"/>
+        <childnode refid="7370" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="interface/wx/sckstrm.h" line="21" column="1" bodyfile="interface/wx/sckstrm.h" bodystart="20" bodyend="28"/>
+    <listofallmembers>
+      <member refid="classwx_output_stream_1a1c306ce99990d525921f8f6ae8432083" prot="public" virt="virtual"><scope>wxSocketOutputStream</scope><name>Close</name></member>
+      <member refid="classwx_stream_base_1a33440c8ea3f8df382adecd7d188a1662" prot="public" virt="non-virtual"><scope>wxSocketOutputStream</scope><name>GetLastError</name></member>
+      <member refid="classwx_stream_base_1a052d67c85f63873fabb45ecd108ea615" prot="public" virt="virtual"><scope>wxSocketOutputStream</scope><name>GetLength</name></member>
+      <member refid="classwx_stream_base_1aae8094702c3aee35c38e3e06e052479c" prot="public" virt="virtual"><scope>wxSocketOutputStream</scope><name>GetSize</name></member>
+      <member refid="classwx_stream_base_1ad33abd694469e858fc3bbb0163a7fc4b" prot="public" virt="virtual"><scope>wxSocketOutputStream</scope><name>IsOk</name></member>
+      <member refid="classwx_stream_base_1a927368a32e940a11b96dbfb617d9afda" prot="public" virt="virtual"><scope>wxSocketOutputStream</scope><name>IsSeekable</name></member>
+      <member refid="classwx_output_stream_1ac21c598e20937355e538fdf2e2926164" prot="public" virt="virtual"><scope>wxSocketOutputStream</scope><name>LastWrite</name></member>
+      <member refid="classwx_stream_base_1ae38e82c374f82d39993909f0a5d3017e" prot="protected" virt="virtual"><scope>wxSocketOutputStream</scope><name>OnSysSeek</name></member>
+      <member refid="classwx_stream_base_1a7131a1f866ea911e90bb85bc1937d29b" prot="protected" virt="virtual"><scope>wxSocketOutputStream</scope><name>OnSysTell</name></member>
+      <member refid="classwx_output_stream_1a41773bceb97b1981cbc3d69c596df929" prot="protected" virt="non-virtual"><scope>wxSocketOutputStream</scope><name>OnSysWrite</name></member>
+      <member refid="classwx_stream_base_1a2559b4fcfc7f7173259d703b39cb0d33" prot="public" virt="non-virtual"><scope>wxSocketOutputStream</scope><name>operator!</name></member>
+      <member refid="classwx_output_stream_1a526dbd35592b0280659cf96c0a77e804" prot="public" virt="non-virtual"><scope>wxSocketOutputStream</scope><name>PutC</name></member>
+      <member refid="classwx_stream_base_1a52353ac42f72538b2022a84f416e5fe2" prot="public" virt="non-virtual"><scope>wxSocketOutputStream</scope><name>Reset</name></member>
+      <member refid="classwx_output_stream_1ac898dd36e44e5f4785a6658f470e9752" prot="public" virt="virtual"><scope>wxSocketOutputStream</scope><name>SeekO</name></member>
+      <member refid="classwx_output_stream_1a468208f94273630dcbdb0c692645e42c" prot="public" virt="virtual"><scope>wxSocketOutputStream</scope><name>TellO</name></member>
+      <member refid="classwx_output_stream_1a22154f02408431ffe8b1590407c3b011" prot="public" virt="virtual"><scope>wxSocketOutputStream</scope><name>Write</name></member>
+      <member refid="classwx_output_stream_1aacced095d3e9b19b4f6264d94c85cf8f" prot="public" virt="non-virtual"><scope>wxSocketOutputStream</scope><name>Write</name></member>
+      <member refid="classwx_output_stream_1aa82aca41108fba5cebbba951c84431f0" prot="public" virt="non-virtual"><scope>wxSocketOutputStream</scope><name>WriteAll</name></member>
+      <member refid="classwx_output_stream_1ab2391df744df6ec2d4e4e3f561c51118" prot="public" virt="non-virtual"><scope>wxSocketOutputStream</scope><name>wxOutputStream</name></member>
+      <member refid="classwx_socket_output_stream_1a6ef4b524a3255bfe9c717d2efc94be92" prot="public" virt="non-virtual"><scope>wxSocketOutputStream</scope><name>wxSocketOutputStream</name></member>
+      <member refid="classwx_stream_base_1a2bdb01f1ccd34d551d3cfc848054bf1e" prot="public" virt="non-virtual"><scope>wxSocketOutputStream</scope><name>wxStreamBase</name></member>
+      <member refid="classwx_output_stream_1aadf4d69a6ab7430e99ecb8d02feecfd3" prot="public" virt="virtual"><scope>wxSocketOutputStream</scope><name>~wxOutputStream</name></member>
+      <member refid="classwx_stream_base_1aebba32b4da79c60933fa997735a8bfe5" prot="public" virt="virtual"><scope>wxSocketOutputStream</scope><name>~wxStreamBase</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

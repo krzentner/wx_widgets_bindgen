@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="advprops_8h" kind="file" language="C++">
+    <compoundname>advprops.h</compoundname>
+    <innerclass refid="classwx_colour_property_value" prot="public">wxColourPropertyValue</innerclass>
+    <innerclass refid="classwx_font_property" prot="public">wxFontProperty</innerclass>
+    <innerclass refid="classwx_system_colour_property" prot="public">wxSystemColourProperty</innerclass>
+    <innerclass refid="classwx_colour_property" prot="public">wxColourProperty</innerclass>
+    <innerclass refid="classwx_cursor_property" prot="public">wxCursorProperty</innerclass>
+    <innerclass refid="classwx_image_file_property" prot="public">wxImageFileProperty</innerclass>
+    <innerclass refid="classwx_multi_choice_property" prot="public">wxMultiChoiceProperty</innerclass>
+    <innerclass refid="classwx_date_property" prot="public">wxDateProperty</innerclass>
+    <innerclass refid="classwx_p_g_spin_ctrl_editor" prot="public">wxPGSpinCtrlEditor</innerclass>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="advprops_8h_1a65445f85c4c6050d3bb6356d3544022c" prot="public" static="no">
+        <name>wxPG_COLOUR_WEB_BASE</name>
+        <initializer>0x10000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/advprops.h" line="13" column="9" bodyfile="interface/wx/propgrid/advprops.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="advprops_8h_1a4513c79ebb0b6315aeccaa35f33e5457" prot="public" static="no">
+        <name>wxPG_COLOUR_CUSTOM</name>
+        <initializer>0xFFFFFF</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/advprops.h" line="16" column="9" bodyfile="interface/wx/propgrid/advprops.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="advprops_8h_1a1ce18d85c6443a281ad5c99d6a04e8fe" prot="public" static="no">
+        <name>wxPG_COLOUR_UNSPECIFIED</name>
+        <initializer>(<ref refid="advprops_8h_1a4513c79ebb0b6315aeccaa35f33e5457" kindref="member">wxPG_COLOUR_CUSTOM</ref>+1)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/advprops.h" line="17" column="9" bodyfile="interface/wx/propgrid/advprops.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="advprops_8h_1a989b10f0112c58f47960b7c3793dcedc" prot="public" static="no">
+        <name>wxPG_PROP_TRANSLATE_CUSTOM</name>
+        <initializer><ref refid="property_8h_1a2aac85b6d4e1018849f0026b62f1b751a34b5ec724cfcb6f22bca2ec03fe92ecd" kindref="member">wxPG_PROP_CLASS_SPECIFIC_1</ref></initializer>
+        <briefdescription>
+<para>If set, then match from list is searched for a custom colour. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/advprops.h" line="91" column="9" bodyfile="interface/wx/propgrid/advprops.h" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="advprops_8h_1a714c191fefe0558b40c0a8887794c426" prot="public" static="no" mutable="no">
+        <type><ref refid="classwx_p_g_editor" kindref="compound">wxPGEditor</ref> *</type>
+        <definition>wxPGEditor* wxPGEditor_SpinCtrl</definition>
+        <argsstring></argsstring>
+        <name>wxPGEditor_SpinCtrl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/advprops.h" line="350" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="advprops_8h_1af4b22775c393d200aabe7a641d78f120" prot="public" static="no" mutable="no">
+        <type><ref refid="classwx_p_g_editor" kindref="compound">wxPGEditor</ref> *</type>
+        <definition>wxPGEditor* wxPGEditor_DatePickerCtrl</definition>
+        <argsstring></argsstring>
+        <name>wxPGEditor_DatePickerCtrl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/advprops.h" line="351" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="advprops_8h_1a406939b8f26c70bee86a814d61fe2049" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+        <definition>const wxString&amp; wxPGGetDefaultImageWildcard</definition>
+        <argsstring>()</argsstring>
+        <name>wxPGGetDefaultImageWildcard</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/advprops.h" line="206" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="interface/wx/propgrid/advprops.h"/>
+  </compounddef>
+</doxygen>

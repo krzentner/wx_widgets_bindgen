@@ -1,0 +1,1494 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_control" kind="class" language="C++" prot="public">
+    <compoundname>wxControl</compoundname>
+    <basecompoundref refid="classwx_window" prot="public" virt="non-virtual">wxWindow</basecompoundref>
+    <derivedcompoundref refid="classwx_active_x_container" prot="public" virt="non-virtual">wxActiveXContainer</derivedcompoundref>
+    <derivedcompoundref refid="classwx_animation_ctrl" prot="public" virt="non-virtual">wxAnimationCtrl</derivedcompoundref>
+    <derivedcompoundref refid="classwx_any_button" prot="public" virt="non-virtual">wxAnyButton</derivedcompoundref>
+    <derivedcompoundref refid="classwx_aui_tool_bar" prot="public" virt="non-virtual">wxAuiToolBar</derivedcompoundref>
+    <derivedcompoundref refid="classwx_book_ctrl_base" prot="public" virt="non-virtual">wxBookCtrlBase</derivedcompoundref>
+    <derivedcompoundref refid="classwx_calendar_ctrl" prot="public" virt="non-virtual">wxCalendarCtrl</derivedcompoundref>
+    <derivedcompoundref refid="classwx_check_box" prot="public" virt="non-virtual">wxCheckBox</derivedcompoundref>
+    <derivedcompoundref refid="classwx_choice" prot="public" virt="non-virtual">wxChoice</derivedcompoundref>
+    <derivedcompoundref refid="classwx_collapsible_pane" prot="public" virt="non-virtual">wxCollapsiblePane</derivedcompoundref>
+    <derivedcompoundref refid="classwx_combo_box" prot="public" virt="non-virtual">wxComboBox</derivedcompoundref>
+    <derivedcompoundref refid="classwx_combo_ctrl" prot="public" virt="non-virtual">wxComboCtrl</derivedcompoundref>
+    <derivedcompoundref refid="classwx_control_with_items" prot="public" virt="non-virtual">wxControlWithItems</derivedcompoundref>
+    <derivedcompoundref refid="classwx_data_view_ctrl" prot="public" virt="non-virtual">wxDataViewCtrl</derivedcompoundref>
+    <derivedcompoundref refid="classwx_date_picker_ctrl" prot="public" virt="non-virtual">wxDatePickerCtrl</derivedcompoundref>
+    <derivedcompoundref refid="classwx_file_ctrl" prot="public" virt="non-virtual">wxFileCtrl</derivedcompoundref>
+    <derivedcompoundref refid="classwx_gauge" prot="public" virt="non-virtual">wxGauge</derivedcompoundref>
+    <derivedcompoundref refid="classwx_generic_dir_ctrl" prot="public" virt="non-virtual">wxGenericDirCtrl</derivedcompoundref>
+    <derivedcompoundref refid="classwx_header_ctrl" prot="public" virt="non-virtual">wxHeaderCtrl</derivedcompoundref>
+    <derivedcompoundref refid="classwx_hyperlink_ctrl" prot="public" virt="non-virtual">wxHyperlinkCtrl</derivedcompoundref>
+    <derivedcompoundref refid="classwx_info_bar" prot="public" virt="non-virtual">wxInfoBar</derivedcompoundref>
+    <derivedcompoundref refid="classwx_list_box" prot="public" virt="non-virtual">wxListBox</derivedcompoundref>
+    <derivedcompoundref refid="classwx_list_ctrl" prot="public" virt="non-virtual">wxListCtrl</derivedcompoundref>
+    <derivedcompoundref refid="classwx_media_ctrl" prot="public" virt="non-virtual">wxMediaCtrl</derivedcompoundref>
+    <derivedcompoundref refid="classwx_picker_base" prot="public" virt="non-virtual">wxPickerBase</derivedcompoundref>
+    <derivedcompoundref refid="classwx_property_grid" prot="public" virt="non-virtual">wxPropertyGrid</derivedcompoundref>
+    <derivedcompoundref refid="classwx_radio_box" prot="public" virt="non-virtual">wxRadioBox</derivedcompoundref>
+    <derivedcompoundref refid="classwx_radio_button" prot="public" virt="non-virtual">wxRadioButton</derivedcompoundref>
+    <derivedcompoundref refid="classwx_ribbon_control" prot="public" virt="non-virtual">wxRibbonControl</derivedcompoundref>
+    <derivedcompoundref refid="classwx_rich_text_ctrl" prot="public" virt="non-virtual">wxRichTextCtrl</derivedcompoundref>
+    <derivedcompoundref refid="classwx_rich_text_style_list_ctrl" prot="public" virt="non-virtual">wxRichTextStyleListCtrl</derivedcompoundref>
+    <derivedcompoundref refid="classwx_scroll_bar" prot="public" virt="non-virtual">wxScrollBar</derivedcompoundref>
+    <derivedcompoundref refid="classwx_slider" prot="public" virt="non-virtual">wxSlider</derivedcompoundref>
+    <derivedcompoundref refid="classwx_spin_button" prot="public" virt="non-virtual">wxSpinButton</derivedcompoundref>
+    <derivedcompoundref refid="classwx_spin_ctrl" prot="public" virt="non-virtual">wxSpinCtrl</derivedcompoundref>
+    <derivedcompoundref refid="classwx_spin_ctrl_double" prot="public" virt="non-virtual">wxSpinCtrlDouble</derivedcompoundref>
+    <derivedcompoundref refid="classwx_static_bitmap" prot="public" virt="non-virtual">wxStaticBitmap</derivedcompoundref>
+    <derivedcompoundref refid="classwx_static_box" prot="public" virt="non-virtual">wxStaticBox</derivedcompoundref>
+    <derivedcompoundref refid="classwx_static_line" prot="public" virt="non-virtual">wxStaticLine</derivedcompoundref>
+    <derivedcompoundref refid="classwx_static_text" prot="public" virt="non-virtual">wxStaticText</derivedcompoundref>
+    <derivedcompoundref refid="classwx_status_bar" prot="public" virt="non-virtual">wxStatusBar</derivedcompoundref>
+    <derivedcompoundref refid="classwx_styled_text_ctrl" prot="public" virt="non-virtual">wxStyledTextCtrl</derivedcompoundref>
+    <derivedcompoundref refid="classwx_text_ctrl" prot="public" virt="non-virtual">wxTextCtrl</derivedcompoundref>
+    <derivedcompoundref refid="classwx_time_picker_ctrl" prot="public" virt="non-virtual">wxTimePickerCtrl</derivedcompoundref>
+    <derivedcompoundref refid="classwx_tool_bar" prot="public" virt="non-virtual">wxToolBar</derivedcompoundref>
+    <derivedcompoundref refid="classwx_tree_ctrl" prot="public" virt="non-virtual">wxTreeCtrl</derivedcompoundref>
+    <derivedcompoundref refid="classwx_web_kit_ctrl" prot="public" virt="non-virtual">wxWebKitCtrl</derivedcompoundref>
+    <derivedcompoundref refid="classwx_web_view" prot="public" virt="non-virtual">wxWebView</derivedcompoundref>
+    <includes local="no">wx/control.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classwx_control_1adb8f3edf807efa9159de826bf92d6a44" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxControl::wxControl</definition>
+        <argsstring>(wxWindow *parent, wxWindowID id, const wxPoint &amp;pos=wxDefaultPosition, const wxSize &amp;size=wxDefaultSize, long style=0, const wxValidator &amp;validator=wxDefaultValidator, const wxString &amp;name=wxControlNameStr)</argsstring>
+        <name>wxControl</name>
+        <param>
+          <type><ref refid="classwx_window" kindref="compound">wxWindow</ref> *</type>
+          <declname>parent</declname>
+        </param>
+        <param>
+          <type><ref refid="windowid_8h_1ae8091432cc2cb2485d45f2302fb51133" kindref="member">wxWindowID</ref></type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_point" kindref="compound">wxPoint</ref> &amp;</type>
+          <declname>pos</declname>
+          <defval><ref refid="gdicmn_8h_1af5a90c753eaf3d3e3e5068a19ec3c1d0" kindref="member">wxDefaultPosition</ref></defval>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_size" kindref="compound">wxSize</ref> &amp;</type>
+          <declname>size</declname>
+          <defval><ref refid="gdicmn_8h_1a33a012cdb075e9f78c93f63bec2dc27b" kindref="member">wxDefaultSize</ref></defval>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>style</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_validator" kindref="compound">wxValidator</ref> &amp;</type>
+          <declname>validator</declname>
+          <defval><ref refid="validate_8h_1af1e90d8aa1824fd2ce4024ef7e40703c" kindref="member">wxDefaultValidator</ref></defval>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>name</declname>
+          <defval>wxControlNameStr</defval>
+        </param>
+        <briefdescription>
+<para>Constructs a control. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>parent</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Pointer to a parent window. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Control identifier. If wxID_ANY, will automatically create an identifier. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>pos</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Control position. wxDefaultPosition indicates that wxWidgets should generate a default position for the control. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>size</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Control size. wxDefaultSize indicates that wxWidgets should generate a default size for the window. If no suitable size can be found, the window will be sized to 20x20 pixels so that the window is visible but obviously not correctly sized. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>style</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Control style. For generic window styles, please see <ref refid="classwx_window" kindref="compound">wxWindow</ref>. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>validator</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Control validator. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Control name. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/control.h" line="111" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_control_1a08428de2ba5cc988a86fe17071d49522" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxControl::wxControl</definition>
+        <argsstring>()</argsstring>
+        <name>wxControl</name>
+        <briefdescription>
+<para>Default constructor to allow 2-phase creation. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/control.h" line="120" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_control_1abe23789c94c86907463a0e8434be822a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxControl::Create</definition>
+        <argsstring>(wxWindow *parent, wxWindowID id, const wxPoint &amp;pos=wxDefaultPosition, const wxSize &amp;size=wxDefaultSize, long style=0, const wxValidator &amp;validator=wxDefaultValidator, const wxString &amp;name=wxControlNameStr)</argsstring>
+        <name>Create</name>
+        <param>
+          <type><ref refid="classwx_window" kindref="compound">wxWindow</ref> *</type>
+          <declname>parent</declname>
+        </param>
+        <param>
+          <type><ref refid="windowid_8h_1ae8091432cc2cb2485d45f2302fb51133" kindref="member">wxWindowID</ref></type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_point" kindref="compound">wxPoint</ref> &amp;</type>
+          <declname>pos</declname>
+          <defval><ref refid="gdicmn_8h_1af5a90c753eaf3d3e3e5068a19ec3c1d0" kindref="member">wxDefaultPosition</ref></defval>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_size" kindref="compound">wxSize</ref> &amp;</type>
+          <declname>size</declname>
+          <defval><ref refid="gdicmn_8h_1a33a012cdb075e9f78c93f63bec2dc27b" kindref="member">wxDefaultSize</ref></defval>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>style</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_validator" kindref="compound">wxValidator</ref> &amp;</type>
+          <declname>validator</declname>
+          <defval><ref refid="validate_8h_1af1e90d8aa1824fd2ce4024ef7e40703c" kindref="member">wxDefaultValidator</ref></defval>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>name</declname>
+          <defval>wxControlNameStr</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/control.h" line="122" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_control_1a8cd7ac81debaf506d6d146528c3d9a82" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void wxControl::Command</definition>
+        <argsstring>(wxCommandEvent &amp;event)</argsstring>
+        <name>Command</name>
+        <reimplementedby refid="classwx_rich_text_ctrl_1aa291a708fcaee8fe695cabd92d460b53">Command</reimplementedby>
+        <param>
+          <type><ref refid="classwx_command_event" kindref="compound">wxCommandEvent</ref> &amp;</type>
+          <declname>event</declname>
+        </param>
+        <briefdescription>
+<para>Simulates the effect of the user issuing a command to the item. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="see"><para><ref refid="classwx_command_event" kindref="compound">wxCommandEvent</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/control.h" line="133" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_control_1a9d03cd7f44c4bb1722f39fbc7a5d8cbd" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="classwx_string" kindref="compound">wxString</ref></type>
+        <definition>wxString wxControl::GetLabel</definition>
+        <argsstring>() const</argsstring>
+        <name>GetLabel</name>
+        <reimplements refid="classwx_window_1a50db82dadf3cfaee41dd40a9b90ae339">GetLabel</reimplements>
+        <briefdescription>
+<para>Returns the control&apos;s label, as it was passed to <ref refid="classwx_control_1a2c2ae20554e7db5e765f163022ce09c0" kindref="member">SetLabel()</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para>Note that the returned string may contains mnemonics (&quot;&amp;&quot; characters) if they were passed to the <ref refid="classwx_control_1a2c2ae20554e7db5e765f163022ce09c0" kindref="member">SetLabel()</ref> function; use <ref refid="classwx_control_1a4ec6a7ee61553cd1df77d50491cee820" kindref="member">GetLabelText()</ref> if they are undesired.</para><para>Also note that the returned string is always the string which was passed to <ref refid="classwx_control_1a2c2ae20554e7db5e765f163022ce09c0" kindref="member">SetLabel()</ref> but may be different from the string passed to <ref refid="classwx_control_1ae092899c3fe658831a9c796755a65eb7" kindref="member">SetLabelText()</ref> (since this last one escapes mnemonic characters). </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/control.h" line="145" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_control_1a4ec6a7ee61553cd1df77d50491cee820" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_string" kindref="compound">wxString</ref></type>
+        <definition>wxString wxControl::GetLabelText</definition>
+        <argsstring>() const</argsstring>
+        <name>GetLabelText</name>
+        <briefdescription>
+<para>Returns the control&apos;s label without mnemonics. </para>        </briefdescription>
+        <detaileddescription>
+<para>Note that because of the stripping of the mnemonics the returned string may differ from the string which was passed to <ref refid="classwx_control_1a2c2ae20554e7db5e765f163022ce09c0" kindref="member">SetLabel()</ref> but should always be the same which was passed to <ref refid="classwx_control_1ae092899c3fe658831a9c796755a65eb7" kindref="member">SetLabelText()</ref>. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/control.h" line="154" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_control_1a252c7408d6dfa8d70e8dbe88cea9695d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_size" kindref="compound">wxSize</ref></type>
+        <definition>wxSize wxControl::GetSizeFromTextSize</definition>
+        <argsstring>(int xlen, int ylen=-1) const</argsstring>
+        <name>GetSizeFromTextSize</name>
+        <param>
+          <type>int</type>
+          <declname>xlen</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ylen</declname>
+          <defval>-1</defval>
+        </param>
+        <briefdescription>
+<para>Determine the size needed by the control to leave the given area for its text. </para>        </briefdescription>
+        <detaileddescription>
+<para>This function is mostly useful with control displaying short amounts of text that can be edited by the user, e.g. <ref refid="classwx_text_ctrl" kindref="compound">wxTextCtrl</ref>, <ref refid="classwx_combo_box" kindref="compound">wxComboBox</ref>, <ref refid="classwx_search_ctrl" kindref="compound">wxSearchCtrl</ref> etc. Typically it is used to size these controls for the maximal amount of input they are supposed to contain, for example: <programlisting><codeline><highlight class="normal">//<sp/>Create<sp/>a<sp/>control<sp/>for<sp/>post<sp/>code<sp/>entry.</highlight></codeline>
+<codeline><highlight class="normal">wxTextCtrl*<sp/>postcode<sp/>=<sp/>new<sp/>wxTextCtrl(this,<sp/>...);</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">//<sp/>And<sp/>set<sp/>its<sp/>initial<sp/>and<sp/>minimal<sp/>size<sp/>to<sp/>be<sp/>big<sp/>enough<sp/>for</highlight></codeline>
+<codeline><highlight class="normal">//<sp/>entering<sp/>5<sp/>digits.</highlight></codeline>
+<codeline><highlight class="normal">postcode-&gt;SetInitialSize(</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>postcode-&gt;GetSizeFromTextSize(</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>postcode-&gt;GetTextExtent(&quot;99999&quot;)));</highlight></codeline>
+</programlisting></para><para>Currently this method is only implemented for <ref refid="classwx_text_ctrl" kindref="compound">wxTextCtrl</ref>, <ref refid="classwx_combo_box" kindref="compound">wxComboBox</ref> and <ref refid="classwx_choice" kindref="compound">wxChoice</ref> in wxMSW and wxGTK.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>xlen</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The horizontal extent of the area to leave for text, in pixels. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ylen</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The vertical extent of the area to leave for text, in pixels. By default -1 meaning that the vertical component of the returned size should be the default height of this control. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The size that the control should have to leave the area of the specified size for its text. May return wxDefaultSize if this method is not implemented for this particular control under the current platform.</para></simplesect>
+<simplesect kind="since"><para>2.9.5 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/control.h" line="190" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_control_1a4d9169af074418aa3528f7b5fca61f94" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_size" kindref="compound">wxSize</ref></type>
+        <definition>wxSize wxControl::GetSizeFromTextSize</definition>
+        <argsstring>(const wxSize &amp;tsize) const</argsstring>
+        <name>GetSizeFromTextSize</name>
+        <param>
+          <type>const <ref refid="classwx_size" kindref="compound">wxSize</ref> &amp;</type>
+          <declname>tsize</declname>
+        </param>
+        <briefdescription>
+<para>This is an overloaded member function, provided for convenience. It differs from the above function only in what argument(s) it accepts. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/control.h" line="195" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_control_1a2c2ae20554e7db5e765f163022ce09c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void wxControl::SetLabel</definition>
+        <argsstring>(const wxString &amp;label)</argsstring>
+        <name>SetLabel</name>
+        <reimplements refid="classwx_window_1aa00ffea9f53587f29ae343adde033b8e">SetLabel</reimplements>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>label</declname>
+        </param>
+        <briefdescription>
+<para>Sets the control&apos;s label. </para>        </briefdescription>
+        <detaileddescription>
+<para>All &quot;&amp;&quot; characters in the <emphasis>label</emphasis> are special and indicate that the following character is a <emphasis>mnemonic</emphasis> for this control and can be used to activate it from the keyboard (typically by using <emphasis>Alt</emphasis> key in combination with it). To insert a literal ampersand character, you need to double it, i.e. use &quot;&amp;&amp;&quot;. If this behaviour is undesirable, use <ref refid="classwx_control_1ae092899c3fe658831a9c796755a65eb7" kindref="member">SetLabelText()</ref> instead. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/control.h" line="207" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_control_1ae092899c3fe658831a9c796755a65eb7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxControl::SetLabelText</definition>
+        <argsstring>(const wxString &amp;text)</argsstring>
+        <name>SetLabelText</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>text</declname>
+        </param>
+        <briefdescription>
+<para>Sets the control&apos;s label to exactly the given string. </para>        </briefdescription>
+        <detaileddescription>
+<para>Unlike <ref refid="classwx_control_1a2c2ae20554e7db5e765f163022ce09c0" kindref="member">SetLabel()</ref>, this function shows exactly the <emphasis>text</emphasis> passed to it in the control, without interpreting ampersands in it in any way. Notice that it means that the control can&apos;t have any mnemonic defined for it using this function.</para><para><simplesect kind="see"><para><ref refid="classwx_control_1abdbd9c0684856546671e759dd95b23d4" kindref="member">EscapeMnemonics()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/control.h" line="219" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_control_1afeb308dc3b54d8d735b33cb250395503" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxControl::SetLabelMarkup</definition>
+        <argsstring>(const wxString &amp;markup)</argsstring>
+        <name>SetLabelMarkup</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>markup</declname>
+        </param>
+        <briefdescription>
+<para>Sets the controls label to a string using markup. </para>        </briefdescription>
+        <detaileddescription>
+<para>Simple markup supported by this function can be used to apply different fonts or colours to different parts of the control label when supported. If markup is not supported by the control or platform, it is simply stripped and <ref refid="classwx_control_1a2c2ae20554e7db5e765f163022ce09c0" kindref="member">SetLabel()</ref> is used with the resulting string.</para><para>For example, <programlisting><codeline><highlight class="normal">wxStaticText<sp/>*text;</highlight></codeline>
+<codeline><highlight class="normal">...</highlight></codeline>
+<codeline><highlight class="normal">text-&gt;SetLabelMarkup(&quot;&lt;b&gt;&amp;amp;Bed&lt;/b&gt;<sp/>&amp;amp;mp;<sp/>&quot;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&quot;&lt;span<sp/>foreground=&apos;red&apos;&gt;breakfast&lt;/span&gt;<sp/>&quot;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&quot;available<sp/>&lt;big&gt;HERE&lt;/big&gt;&quot;);</highlight></codeline>
+</programlisting> would show the string using bold, red and big for the corresponding words under wxGTK but will simply show the string &quot;Bed &amp;amp; breakfast
+available HERE&quot; on the other platforms. In any case, the &quot;B&quot; of &quot;Bed&quot; will be underlined to indicate that it can be used as a mnemonic for this control.</para><para>The supported tags are: <table rows="9" cols="2"><row>
+<entry thead="no"><para><bold>Tag</bold> </para></entry><entry thead="no"><para><bold>Description</bold>  </para></entry></row>
+<row>
+<entry thead="no"><para>&lt;b&gt; </para></entry><entry thead="no"><para>bold text  </para></entry></row>
+<row>
+<entry thead="no"><para>&lt;big&gt; </para></entry><entry thead="no"><para>bigger text  </para></entry></row>
+<row>
+<entry thead="no"><para>&lt;i&gt; </para></entry><entry thead="no"><para>italic text  </para></entry></row>
+<row>
+<entry thead="no"><para>&lt;s&gt; </para></entry><entry thead="no"><para>strike-through text  </para></entry></row>
+<row>
+<entry thead="no"><para>&lt;small&gt; </para></entry><entry thead="no"><para>smaller text  </para></entry></row>
+<row>
+<entry thead="no"><para>&lt;tt&gt; </para></entry><entry thead="no"><para>monospaced text  </para></entry></row>
+<row>
+<entry thead="no"><para>&lt;u&gt; </para></entry><entry thead="no"><para>underlined text  </para></entry></row>
+<row>
+<entry thead="no"><para>&lt;span&gt; </para></entry><entry thead="no"><para>generic formatter tag, see the table below for supported attributes.   </para></entry></row>
+</table>
+</para><para>Supported <computeroutput>&lt;span&gt;</computeroutput> attributes: <table rows="7" cols="2"><row>
+<entry thead="no"><para><bold>Name</bold> </para></entry><entry thead="no"><para><bold>Description</bold>  </para></entry></row>
+<row>
+<entry thead="no"><para>foreground, fgcolor, color </para></entry><entry thead="no"><para>Foreground text colour, can be a name or RGB value.  </para></entry></row>
+<row>
+<entry thead="no"><para>background, bgcolor </para></entry><entry thead="no"><para>Background text colour, can be a name or RGB value.  </para></entry></row>
+<row>
+<entry thead="no"><para>font_family, face </para></entry><entry thead="no"><para>Font face name.  </para></entry></row>
+<row>
+<entry thead="no"><para>font_weight, weight </para></entry><entry thead="no"><para>Numeric value in 0..900 range or one of &quot;ultralight&quot;, &quot;light&quot;, &quot;normal&quot; (all meaning non-bold), &quot;bold&quot;, &quot;ultrabold&quot; and &quot;heavy&quot; (all meaning bold).  </para></entry></row>
+<row>
+<entry thead="no"><para>font_style, style </para></entry><entry thead="no"><para>Either &quot;oblique&quot; or &quot;italic&quot; (both with the same meaning) or &quot;normal&quot;.  </para></entry></row>
+<row>
+<entry thead="no"><para>size </para></entry><entry thead="no"><para>The font size can be specified either as &quot;smaller&quot; or &quot;larger&quot; relatively to the current font, as a CSS font size name (&quot;xx-small&quot;, &quot;x-small&quot;, &quot;small&quot;, &quot;medium&quot;, &quot;large&quot;, &quot;x-large&quot; or &quot;xx-large&quot;) or as a number giving font size in 1024th parts of a point, i.e. 10240 for a 10pt font.  </para></entry></row>
+</table>
+</para><para>This markup language is a strict subset of Pango markup (described at <ulink url="http://library.gnome.org/devel/pango/unstable/PangoMarkupFormat.html">http://library.gnome.org/devel/pango/unstable/PangoMarkupFormat.html</ulink>) and any tags and span attributes not documented above can&apos;t be used under non-GTK platforms.</para><para>Also note that you need to escape the following special characters: <table rows="6" cols="2"><row>
+<entry thead="no"><para><bold>Special character</bold> </para></entry><entry thead="no"><para><bold>Escape as</bold>  </para></entry></row>
+<row>
+<entry thead="no"><para><computeroutput>&amp;</computeroutput>  </para></entry><entry thead="no"><para><computeroutput>&amp;amp</computeroutput>; or as <computeroutput>&amp;&amp;</computeroutput>   </para></entry></row>
+<row>
+<entry thead="no"><para><computeroutput>'</computeroutput>  </para></entry><entry thead="no"><para><computeroutput>&amp;apos</computeroutput>;  </para></entry></row>
+<row>
+<entry thead="no"><para><computeroutput>"</computeroutput>  </para></entry><entry thead="no"><para><computeroutput>&amp;quot</computeroutput>;  </para></entry></row>
+<row>
+<entry thead="no"><para><computeroutput>&lt;</computeroutput>  </para></entry><entry thead="no"><para><computeroutput>&amp;lt</computeroutput>;  </para></entry></row>
+<row>
+<entry thead="no"><para><computeroutput>&gt;</computeroutput>  </para></entry><entry thead="no"><para><computeroutput>&amp;gt</computeroutput>;  </para></entry></row>
+</table>
+</para><para>The non-escaped ampersand <computeroutput>&amp;</computeroutput> characters are interpreted as mnemonics as with <ref refid="classwx_control_1a2c2ae20554e7db5e765f163022ce09c0" kindref="member">wxControl::SetLabel</ref>.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>markup</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>String containing markup for the label. It may contain markup tags described above and newline characters but currently only wxGTK and wxOSX support multiline labels with markup, the generic implementation (also used in wxMSW) only handles single line markup labels. Notice that the string must be well-formed (e.g. all tags must be correctly closed) and won&apos;t be shown at all otherwise. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true if the new label was set (even if markup in it was ignored) or false if we failed to parse the markup. In this case the label remains unchanged.</para></simplesect>
+Currently <ref refid="classwx_button" kindref="compound">wxButton</ref> supports markup in all major ports (wxMSW, wxGTK and wxOSX/Cocoa) while <ref refid="classwx_static_text" kindref="compound">wxStaticText</ref> supports it in wxGTK and wxOSX and its generic version (which can be used under MSW if markup support is required). Extending support to more controls is planned in the future.</para><para><simplesect kind="since"><para>2.9.2 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/control.h" line="385" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classwx_control_1ae892fefe6b88168c158e11e975633665" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_string" kindref="compound">wxString</ref></type>
+        <definition>static wxString wxControl::GetLabelText</definition>
+        <argsstring>(const wxString &amp;label)</argsstring>
+        <name>GetLabelText</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>label</declname>
+        </param>
+        <briefdescription>
+<para>Returns the given <emphasis>label</emphasis> string without mnemonics (&quot;&amp;&quot; characters). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/control.h" line="393" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_control_1ab7df4ca0dfde3a6409833cf470ee02e6" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_string" kindref="compound">wxString</ref></type>
+        <definition>static wxString wxControl::RemoveMnemonics</definition>
+        <argsstring>(const wxString &amp;str)</argsstring>
+        <name>RemoveMnemonics</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+<para>Returns the given <emphasis>str</emphasis> string without mnemonics (&quot;&amp;&quot; characters). </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="note"><para>This function is identical to <ref refid="classwx_control_1a4ec6a7ee61553cd1df77d50491cee820" kindref="member">GetLabelText()</ref> and is provided mostly for symmetry with <ref refid="classwx_control_1abdbd9c0684856546671e759dd95b23d4" kindref="member">EscapeMnemonics()</ref>. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/control.h" line="401" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_control_1abdbd9c0684856546671e759dd95b23d4" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_string" kindref="compound">wxString</ref></type>
+        <definition>static wxString wxControl::EscapeMnemonics</definition>
+        <argsstring>(const wxString &amp;text)</argsstring>
+        <name>EscapeMnemonics</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>text</declname>
+        </param>
+        <briefdescription>
+<para>Escapes the special mnemonics characters (&quot;&amp;&quot;) in the given string. </para>        </briefdescription>
+        <detaileddescription>
+<para>This function can be helpful if you need to set the controls label to a user-provided string. If the string contains ampersands, they wouldn&apos;t appear on the display but be used instead to indicate that the character following the first of them can be used as a control mnemonic. While this can sometimes be desirable (e.g. to allow the user to configure mnemonics of the controls), more often you will want to use this function before passing a user-defined string to <ref refid="classwx_control_1a2c2ae20554e7db5e765f163022ce09c0" kindref="member">SetLabel()</ref>. Alternatively, if the label is entirely user-defined, you can just call <ref refid="classwx_control_1ae092899c3fe658831a9c796755a65eb7" kindref="member">SetLabelText()</ref> directly <ndash/> but this function must be used if the label is a combination of a part defined by program containing the control mnemonics and a user-defined part.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>text</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The string such as it should appear on the display. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The same string with the ampersands in it doubled. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/control.h" line="423" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_control_1a0bb834cae2a8986aceddb89f84ef4ed1" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_string" kindref="compound">wxString</ref></type>
+        <definition>static wxString wxControl::Ellipsize</definition>
+        <argsstring>(const wxString &amp;label, const wxDC &amp;dc, wxEllipsizeMode mode, int maxWidth, int flags=wxELLIPSIZE_FLAGS_DEFAULT)</argsstring>
+        <name>Ellipsize</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>label</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_d_c" kindref="compound">wxDC</ref> &amp;</type>
+          <declname>dc</declname>
+        </param>
+        <param>
+          <type><ref refid="control_8h_1a0293befa07fe89f6efd8caec89c3b489" kindref="member">wxEllipsizeMode</ref></type>
+          <declname>mode</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>maxWidth</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>flags</declname>
+          <defval><ref refid="control_8h_1ad7c89373a31bffb2388cfa2b98abea39acf249cd72de81f7da28aecb146975722" kindref="member">wxELLIPSIZE_FLAGS_DEFAULT</ref></defval>
+        </param>
+        <briefdescription>
+<para>Replaces parts of the <emphasis>label</emphasis> string with ellipsis, if needed, so that it fits into <emphasis>maxWidth</emphasis> pixels if possible. </para>        </briefdescription>
+        <detaileddescription>
+<para>Note that this function does <emphasis>not</emphasis> guarantee that the returned string will always be shorter than <emphasis>maxWidth</emphasis>; if <emphasis>maxWidth</emphasis> is extremely small, ellipsized text may be larger.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>label</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The string to ellipsize </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The DC used to retrieve the character widths through the <ref refid="classwx_d_c_1a9caf42966be72457715b3188fe285220" kindref="member">wxDC::GetPartialTextExtents()</ref> function. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>mode</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The ellipsization mode. This is the setting which determines which part of the string should be replaced by the ellipsis. See <ref refid="control_8h_1a0293befa07fe89f6efd8caec89c3b489" kindref="member">wxEllipsizeMode</ref> enumeration values for more info. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>maxWidth</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The maximum width of the returned string in pixels. This argument determines how much characters of the string need to be removed (and replaced by ellipsis). </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>flags</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>One or more of the <ref refid="control_8h_1ad7c89373a31bffb2388cfa2b98abea39" kindref="member">wxEllipsizeFlags</ref> enumeration values combined. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/control.h" line="449" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This is the base class for a control or &quot;widget&quot;. </para>    </briefdescription>
+    <detaileddescription>
+<para>A control is generally a small window which processes user input and/or displays one or more item of data.</para><para><linebreak/>
+<heading level="2">Events emitted by this class</heading>
+</para><para>The following event handler macros redirect the events to member function handlers &apos;<bold>func</bold>&apos; with prototypes like: void<nonbreakablespace/>handlerFuncName(<ref refid="classwx_clipboard_text_event" kindref="compound">wxClipboardTextEvent</ref>&amp;<nonbreakablespace/>event)</para><para>Event macros for events emitted by this class: <itemizedlist>
+<listitem><para>EVT_TEXT_COPY(id,  func): Some or all of the controls content was copied to the clipboard. </para></listitem>
+<listitem><para>EVT_TEXT_CUT(id,  func): Some or all of the controls content was cut (i.e. copied and deleted). </para></listitem>
+<listitem><para>EVT_TEXT_PASTE(id,  func): Clipboard content was pasted into the control. <linebreak/>
+ <heading level="2"></heading>
+</para></listitem>
+</itemizedlist>
+Library:<nonbreakablespace/><nonbreakablespace/><ref refid="page_libs_1page_libs_wxcore" kindref="member">wxCore</ref> &lt;&gt;&lt; =&apos;&apos;&gt;:&lt;/&gt;&amp;;&amp;;&lt; =&apos;&apos;&gt;\ &lt;/&gt;&lt;/&gt;</para><para><simplesect kind="see"><para><ref refid="classwx_validator" kindref="compound">wxValidator</ref> </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="1211">
+        <label>wxStaticText</label>
+        <link refid="classwx_static_text"/>
+        <childnode refid="1134" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1207">
+        <label>wxSpinCtrlDouble</label>
+        <link refid="classwx_spin_ctrl_double"/>
+        <childnode refid="1134" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1175">
+        <label>wxGenericDirCtrl</label>
+        <link refid="classwx_generic_dir_ctrl"/>
+        <childnode refid="1134" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1140">
+        <label>wxAnimationCtrl</label>
+        <link refid="classwx_animation_ctrl"/>
+        <childnode refid="1134" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1177">
+        <label>wxHeaderCtrlSimple</label>
+        <link refid="classwx_header_ctrl_simple"/>
+        <childnode refid="1176" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1150">
+        <label>wxAuiNotebook</label>
+        <link refid="classwx_aui_notebook"/>
+        <childnode refid="1149" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1162">
+        <label>wxCollapsiblePane</label>
+        <link refid="classwx_collapsible_pane"/>
+        <childnode refid="1134" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1205">
+        <label>wxSpinButton</label>
+        <link refid="classwx_spin_button"/>
+        <childnode refid="1134" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1180">
+        <label>wxListBox</label>
+        <link refid="classwx_list_box"/>
+        <childnode refid="1134" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1145">
+        <label>wxCommandLinkButton</label>
+        <link refid="classwx_command_link_button"/>
+        <childnode refid="1142" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1194">
+        <label>wxRibbonControl</label>
+        <link refid="classwx_ribbon_control"/>
+        <childnode refid="1134" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1179">
+        <label>wxInfoBar</label>
+        <link refid="classwx_info_bar"/>
+        <childnode refid="1134" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1149">
+        <label>wxBookCtrlBase</label>
+        <link refid="classwx_book_ctrl_base"/>
+        <childnode refid="1134" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1218">
+        <label>wxTreeCtrl</label>
+        <link refid="classwx_tree_ctrl"/>
+        <childnode refid="1134" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1137">
+        <label>wxObject</label>
+        <link refid="classwx_object"/>
+      </node>
+      <node id="1151">
+        <label>wxAuiMDIClientWindow</label>
+        <link refid="classwx_aui_m_d_i_client_window"/>
+        <childnode refid="1150" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1203">
+        <label>wxScrollBar</label>
+        <link refid="classwx_scroll_bar"/>
+        <childnode refid="1134" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1139">
+        <label>wxActiveXContainer</label>
+        <link refid="classwx_active_x_container"/>
+        <childnode refid="1134" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1215">
+        <label>wxSearchCtrl</label>
+        <link refid="classwx_search_ctrl"/>
+        <childnode refid="1214" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1164">
+        <label>wxBitmapComboBox</label>
+        <link refid="classwx_bitmap_combo_box"/>
+        <childnode refid="1163" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1214">
+        <label>wxTextCtrl</label>
+        <link refid="classwx_text_ctrl"/>
+        <childnode refid="1134" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1136">
+        <label>wxEvtHandler</label>
+        <link refid="classwx_evt_handler"/>
+        <childnode refid="1137" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1138" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1155">
+        <label>wxSimplebook</label>
+        <link refid="classwx_simplebook"/>
+        <childnode refid="1149" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1193">
+        <label>wxRadioButton</label>
+        <link refid="classwx_radio_button"/>
+        <childnode refid="1134" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1212">
+        <label>wxStatusBar</label>
+        <link refid="classwx_status_bar"/>
+        <childnode refid="1134" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1210">
+        <label>wxStaticLine</label>
+        <link refid="classwx_static_line"/>
+        <childnode refid="1134" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1172">
+        <label>wxDatePickerCtrl</label>
+        <link refid="classwx_date_picker_ctrl"/>
+        <childnode refid="1134" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1199">
+        <label>wxRibbonPanel</label>
+        <link refid="classwx_ribbon_panel"/>
+        <childnode refid="1194" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1192">
+        <label>wxRadioBox</label>
+        <link refid="classwx_radio_box"/>
+        <childnode refid="1134" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1159">
+        <label>wxCheckBox</label>
+        <link refid="classwx_check_box"/>
+        <childnode refid="1134" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1146">
+        <label>wxToggleButton</label>
+        <link refid="classwx_toggle_button"/>
+        <childnode refid="1141" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1171">
+        <label>wxDataViewTreeCtrl</label>
+        <link refid="classwx_data_view_tree_ctrl"/>
+        <childnode refid="1169" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1217">
+        <label>wxToolBar</label>
+        <link refid="classwx_tool_bar"/>
+        <childnode refid="1134" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1196">
+        <label>wxRibbonButtonBar</label>
+        <link refid="classwx_ribbon_button_bar"/>
+        <childnode refid="1194" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1157">
+        <label>wxTreebook</label>
+        <link refid="classwx_treebook"/>
+        <childnode refid="1149" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1181">
+        <label>wxCheckListBox</label>
+        <link refid="classwx_check_list_box"/>
+        <childnode refid="1180" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1170">
+        <label>wxDataViewListCtrl</label>
+        <link refid="classwx_data_view_list_ctrl"/>
+        <childnode refid="1169" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1138">
+        <label>wxTrackable</label>
+        <link refid="classwx_trackable"/>
+      </node>
+      <node id="1182">
+        <label>wxRearrangeList</label>
+        <link refid="classwx_rearrange_list"/>
+        <childnode refid="1181" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1153">
+        <label>wxListbook</label>
+        <link refid="classwx_listbook"/>
+        <childnode refid="1149" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1187">
+        <label>wxColourPickerCtrl</label>
+        <link refid="classwx_colour_picker_ctrl"/>
+        <childnode refid="1186" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1178">
+        <label>wxHyperlinkCtrl</label>
+        <link refid="classwx_hyperlink_ctrl"/>
+        <childnode refid="1134" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1134">
+        <label>wxControl</label>
+        <link refid="classwx_control"/>
+        <childnode refid="1135" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1184">
+        <label>wxListView</label>
+        <link refid="classwx_list_view"/>
+        <childnode refid="1183" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1201">
+        <label>wxRichTextCtrl</label>
+        <link refid="classwx_rich_text_ctrl"/>
+        <childnode refid="1134" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1174">
+        <label>wxGauge</label>
+        <link refid="classwx_gauge"/>
+        <childnode refid="1134" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1220">
+        <label>wxWebView</label>
+        <link refid="classwx_web_view"/>
+        <childnode refid="1134" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1135">
+        <label>wxWindow</label>
+        <link refid="classwx_window"/>
+        <childnode refid="1136" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1185">
+        <label>wxMediaCtrl</label>
+        <link refid="classwx_media_ctrl"/>
+        <childnode refid="1134" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1156">
+        <label>wxToolbook</label>
+        <link refid="classwx_toolbook"/>
+        <childnode refid="1149" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1183">
+        <label>wxListCtrl</label>
+        <link refid="classwx_list_ctrl"/>
+        <childnode refid="1134" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1148">
+        <label>wxAuiToolBar</label>
+        <link refid="classwx_aui_tool_bar"/>
+        <childnode refid="1134" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1165">
+        <label>wxComboCtrl</label>
+        <link refid="classwx_combo_ctrl"/>
+        <childnode refid="1134" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1197">
+        <label>wxRibbonGallery</label>
+        <link refid="classwx_ribbon_gallery"/>
+        <childnode refid="1194" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1147">
+        <label>wxBitmapToggleButton</label>
+        <link refid="classwx_bitmap_toggle_button"/>
+        <childnode refid="1146" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1219">
+        <label>wxWebKitCtrl</label>
+        <link refid="classwx_web_kit_ctrl"/>
+        <childnode refid="1134" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1189">
+        <label>wxFilePickerCtrl</label>
+        <link refid="classwx_file_picker_ctrl"/>
+        <childnode refid="1186" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1195">
+        <label>wxRibbonBar</label>
+        <link refid="classwx_ribbon_bar"/>
+        <childnode refid="1194" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1206">
+        <label>wxSpinCtrl</label>
+        <link refid="classwx_spin_ctrl"/>
+        <childnode refid="1134" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1160">
+        <label>wxChoice</label>
+        <link refid="classwx_choice"/>
+        <childnode refid="1134" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1163">
+        <label>wxComboBox</label>
+        <link refid="classwx_combo_box"/>
+        <childnode refid="1134" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1213">
+        <label>wxStyledTextCtrl</label>
+        <link refid="classwx_styled_text_ctrl"/>
+        <childnode refid="1134" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1166">
+        <label>wxOwnerDrawnComboBox</label>
+        <link refid="classwx_owner_drawn_combo_box"/>
+        <childnode refid="1165" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1167">
+        <label>wxRichTextStyleComboCtrl</label>
+        <link refid="classwx_rich_text_style_combo_ctrl"/>
+        <childnode refid="1165" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1141">
+        <label>wxAnyButton</label>
+        <link refid="classwx_any_button"/>
+        <childnode refid="1134" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1169">
+        <label>wxDataViewCtrl</label>
+        <link refid="classwx_data_view_ctrl"/>
+        <childnode refid="1134" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1142">
+        <label>wxButton</label>
+        <link refid="classwx_button"/>
+        <childnode refid="1141" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1200">
+        <label>wxRibbonToolBar</label>
+        <link refid="classwx_ribbon_tool_bar"/>
+        <childnode refid="1194" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1152">
+        <label>wxChoicebook</label>
+        <link refid="classwx_choicebook"/>
+        <childnode refid="1149" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1168">
+        <label>wxControlWithItems</label>
+        <link refid="classwx_control_with_items"/>
+        <childnode refid="1134" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1191">
+        <label>wxPropertyGrid</label>
+        <link refid="classwx_property_grid"/>
+        <childnode refid="1134" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1202">
+        <label>wxRichTextStyleListCtrl</label>
+        <link refid="classwx_rich_text_style_list_ctrl"/>
+        <childnode refid="1134" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1188">
+        <label>wxDirPickerCtrl</label>
+        <link refid="classwx_dir_picker_ctrl"/>
+        <childnode refid="1186" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1208">
+        <label>wxStaticBitmap</label>
+        <link refid="classwx_static_bitmap"/>
+        <childnode refid="1134" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1204">
+        <label>wxSlider</label>
+        <link refid="classwx_slider"/>
+        <childnode refid="1134" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1161">
+        <label>wxDirFilterListCtrl</label>
+        <link refid="classwx_dir_filter_list_ctrl"/>
+        <childnode refid="1160" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1154">
+        <label>wxNotebook</label>
+        <link refid="classwx_notebook"/>
+        <childnode refid="1149" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1143">
+        <label>wxBitmapButton</label>
+        <link refid="classwx_bitmap_button"/>
+        <childnode refid="1142" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1176">
+        <label>wxHeaderCtrl</label>
+        <link refid="classwx_header_ctrl"/>
+        <childnode refid="1134" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1144">
+        <label>wxContextHelpButton</label>
+        <link refid="classwx_context_help_button"/>
+        <childnode refid="1143" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1173">
+        <label>wxFileCtrl</label>
+        <link refid="classwx_file_ctrl"/>
+        <childnode refid="1134" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1198">
+        <label>wxRibbonPage</label>
+        <link refid="classwx_ribbon_page"/>
+        <childnode refid="1194" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1209">
+        <label>wxStaticBox</label>
+        <link refid="classwx_static_box"/>
+        <childnode refid="1134" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1190">
+        <label>wxFontPickerCtrl</label>
+        <link refid="classwx_font_picker_ctrl"/>
+        <childnode refid="1186" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1216">
+        <label>wxTimePickerCtrl</label>
+        <link refid="classwx_time_picker_ctrl"/>
+        <childnode refid="1134" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1186">
+        <label>wxPickerBase</label>
+        <link refid="classwx_picker_base"/>
+        <childnode refid="1134" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1158">
+        <label>wxCalendarCtrl</label>
+        <link refid="classwx_calendar_ctrl"/>
+        <childnode refid="1134" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1224">
+        <label>wxObject</label>
+        <link refid="classwx_object"/>
+        <childnode refid="1225" relation="usage">
+          <edgelabel>m_refData</edgelabel>
+        </childnode>
+      </node>
+      <node id="1223">
+        <label>wxEvtHandler</label>
+        <link refid="classwx_evt_handler"/>
+        <childnode refid="1224" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1226" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1226">
+        <label>wxTrackable</label>
+        <link refid="classwx_trackable"/>
+      </node>
+      <node id="1221">
+        <label>wxControl</label>
+        <link refid="classwx_control"/>
+        <childnode refid="1222" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1222">
+        <label>wxWindow</label>
+        <link refid="classwx_window"/>
+        <childnode refid="1223" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1225">
+        <label>wxObjectRefData</label>
+        <link refid="classwx_object_ref_data"/>
+      </node>
+    </collaborationgraph>
+    <location file="interface/wx/control.h" line="86" column="1" bodyfile="interface/wx/control.h" bodystart="85" bodyend="452"/>
+    <listofallmembers>
+      <member refid="classwx_window_1a1da8baa734b9872d0c085b86a7b5d817" prot="public" virt="virtual"><scope>wxControl</scope><name>AcceptsFocus</name></member>
+      <member refid="classwx_window_1a3a0cb3bd5e82462b19df9f24ad6d9ac4" prot="public" virt="virtual"><scope>wxControl</scope><name>AcceptsFocusFromKeyboard</name></member>
+      <member refid="classwx_window_1af0c30b930ecf57f94b8cfc8871e8fd94" prot="public" virt="virtual"><scope>wxControl</scope><name>AcceptsFocusRecursively</name></member>
+      <member refid="classwx_window_1abf60159278059a5bb397eb8647227bb3" prot="public" virt="virtual"><scope>wxControl</scope><name>AddChild</name></member>
+      <member refid="classwx_evt_handler_1a7dc3c701781f4044372049de5004137e" prot="public" virt="non-virtual"><scope>wxControl</scope><name>AddFilter</name></member>
+      <member refid="classwx_window_1a774b5b5548a6258727b5e2099e63ae9a" prot="protected" virt="virtual"><scope>wxControl</scope><name>AddPendingEvent</name></member>
+      <member refid="classwx_window_1a71d1daa71f1ad1f6cbaac54db7e71af3" prot="public" virt="virtual"><scope>wxControl</scope><name>AdjustForLayoutDirection</name></member>
+      <member refid="classwx_object_1a60204063f3cc3aa2fa1c7ff5bda9eb13" prot="protected" virt="non-virtual"><scope>wxControl</scope><name>AllocExclusive</name></member>
+      <member refid="classwx_window_1aae29552806a328c6a55ef8f07647f5ba" prot="public" virt="virtual"><scope>wxControl</scope><name>AlwaysShowScrollbars</name></member>
+      <member refid="classwx_window_1ab4cea6ace96193b5c4282e097a6fbfee" prot="public" virt="non-virtual"><scope>wxControl</scope><name>BeginRepositioningChildren</name></member>
+      <member refid="classwx_evt_handler_1a0f30c8fa5583b4a5f661897d63de3b62" prot="public" virt="non-virtual"><scope>wxControl</scope><name>Bind</name></member>
+      <member refid="classwx_evt_handler_1a03cc68ca201fb79c7e837919025be71a" prot="public" virt="non-virtual"><scope>wxControl</scope><name>Bind</name></member>
+      <member refid="classwx_window_1a11b5d8d94efd0ab52eb2c95a6aa88cdf" prot="public" virt="non-virtual"><scope>wxControl</scope><name>CacheBestSize</name></member>
+      <member refid="classwx_evt_handler_1a63c7351618fd77330d80a250b3719519" prot="public" virt="non-virtual"><scope>wxControl</scope><name>CallAfter</name></member>
+      <member refid="classwx_evt_handler_1a910416e4d0b1f38cec02213b8a0c6a12" prot="public" virt="non-virtual"><scope>wxControl</scope><name>CallAfter</name></member>
+      <member refid="classwx_window_1acc4e456ed056a27ec61cd296b96c1e3e" prot="public" virt="non-virtual"><scope>wxControl</scope><name>CanAcceptFocus</name></member>
+      <member refid="classwx_window_1ade15bb13dc6d51a8e6ecd49eb3f0f99b" prot="public" virt="non-virtual"><scope>wxControl</scope><name>CanAcceptFocusFromKeyboard</name></member>
+      <member refid="classwx_window_1a6b5bbd3bf890f98897187879152ad97a" prot="public" virt="non-virtual"><scope>wxControl</scope><name>CanScroll</name></member>
+      <member refid="classwx_window_1a64f7f6fb75bf4b7281e1d33542d523c7" prot="public" virt="virtual"><scope>wxControl</scope><name>CanSetTransparent</name></member>
+      <member refid="classwx_window_1a5c72c6260a73ef77bb0b1f7ec85fcfef" prot="public" virt="non-virtual"><scope>wxControl</scope><name>CaptureMouse</name></member>
+      <member refid="classwx_window_1a06c0ecb262995b40083bfb446a6cff99" prot="public" virt="non-virtual"><scope>wxControl</scope><name>Center</name></member>
+      <member refid="classwx_window_1a2dc4e0a85d33fc55cc9650eaea1da0a4" prot="public" virt="non-virtual"><scope>wxControl</scope><name>CenterOnParent</name></member>
+      <member refid="classwx_window_1a4a1819eeee3f2143cdde4f329ffde787" prot="public" virt="non-virtual"><scope>wxControl</scope><name>Centre</name></member>
+      <member refid="classwx_window_1ab8e9b91b0e2db344fd71259616dfd433" prot="public" virt="non-virtual"><scope>wxControl</scope><name>CentreOnParent</name></member>
+      <member refid="classwx_window_1a61e833684ee5c89775e91e88be1a9a52" prot="public" virt="virtual"><scope>wxControl</scope><name>ClearBackground</name></member>
+      <member refid="classwx_window_1af5e852c8695297c0328f1dfe3908605a" prot="public" virt="non-virtual"><scope>wxControl</scope><name>ClientToScreen</name></member>
+      <member refid="classwx_window_1add6f5472d0d8fe0074145a886568721c" prot="public" virt="non-virtual"><scope>wxControl</scope><name>ClientToScreen</name></member>
+      <member refid="classwx_window_1a5c72ca7de40d4e99aff55e79aad3962e" prot="public" virt="virtual"><scope>wxControl</scope><name>ClientToWindowSize</name></member>
+      <member refid="classwx_object_1a436fc8fe68cf8a31000296d9cd3d2427" prot="protected" virt="virtual"><scope>wxControl</scope><name>CloneRefData</name></member>
+      <member refid="classwx_window_1a3e44f4a494fc9ef4346c4fba70c8de0c" prot="public" virt="non-virtual"><scope>wxControl</scope><name>Close</name></member>
+      <member refid="classwx_control_1a8cd7ac81debaf506d6d146528c3d9a82" prot="public" virt="virtual"><scope>wxControl</scope><name>Command</name></member>
+      <member refid="classwx_evt_handler_1a78719e8b82c9f9c6e4056b3449df1943" prot="public" virt="non-virtual"><scope>wxControl</scope><name>Connect</name></member>
+      <member refid="classwx_evt_handler_1a1e8b5fc4c7e7f6d32d40bc00d4108ba4" prot="public" virt="non-virtual"><scope>wxControl</scope><name>Connect</name></member>
+      <member refid="classwx_evt_handler_1aa290d9b67348e74c1da8497955a4e35c" prot="public" virt="non-virtual"><scope>wxControl</scope><name>Connect</name></member>
+      <member refid="classwx_window_1a3dbe034120d742c4f5f6d64dc5d69590" prot="public" virt="non-virtual"><scope>wxControl</scope><name>ConvertDialogToPixels</name></member>
+      <member refid="classwx_window_1ad70d63964459bb21f81bc0b1f09e84f4" prot="public" virt="non-virtual"><scope>wxControl</scope><name>ConvertDialogToPixels</name></member>
+      <member refid="classwx_window_1a321de67666eff37b39556802c8029201" prot="public" virt="non-virtual"><scope>wxControl</scope><name>ConvertPixelsToDialog</name></member>
+      <member refid="classwx_window_1a533552c4673c7a11f05bf9261b4dff5c" prot="public" virt="non-virtual"><scope>wxControl</scope><name>ConvertPixelsToDialog</name></member>
+      <member refid="classwx_control_1abe23789c94c86907463a0e8434be822a" prot="public" virt="non-virtual"><scope>wxControl</scope><name>Create</name></member>
+      <member refid="classwx_window_1a95b7ca8faa033f5ab35458887c07bf38" prot="public" virt="non-virtual" ambiguityscope="wxWindow::"><scope>wxControl</scope><name>Create</name></member>
+      <member refid="classwx_object_1a3f4f497c65cef611e121c41f21dd5ccc" prot="protected" virt="virtual"><scope>wxControl</scope><name>CreateRefData</name></member>
+      <member refid="classwx_evt_handler_1a6e7f9cf4ebd0623c1d94979855d096f8" prot="public" virt="non-virtual"><scope>wxControl</scope><name>DeletePendingEvents</name></member>
+      <member refid="classwx_window_1a6bf0c5be864544d9ce0560087667b7fc" prot="public" virt="virtual"><scope>wxControl</scope><name>Destroy</name></member>
+      <member refid="classwx_window_1aff47b32c8d42d515ea0bb6a6c2fea917" prot="public" virt="non-virtual"><scope>wxControl</scope><name>DestroyChildren</name></member>
+      <member refid="classwx_window_1a26d7329a9a753fa0445501f01f66c41e" prot="public" virt="non-virtual"><scope>wxControl</scope><name>Disable</name></member>
+      <member refid="classwx_evt_handler_1a13061cf0ed01ac10a804ac057ef4bdbc" prot="public" virt="non-virtual"><scope>wxControl</scope><name>Disconnect</name></member>
+      <member refid="classwx_evt_handler_1a2f171e19444b9c4034c5e11f24fa9c91" prot="public" virt="non-virtual"><scope>wxControl</scope><name>Disconnect</name></member>
+      <member refid="classwx_evt_handler_1a16a6f823853e4b74b43dd9a2cf3abee6" prot="public" virt="non-virtual"><scope>wxControl</scope><name>Disconnect</name></member>
+      <member refid="classwx_window_1a2d10b472a4962d1c852c83d55252c44b" prot="protected" virt="virtual"><scope>wxControl</scope><name>DoCentre</name></member>
+      <member refid="classwx_window_1ae07ab0b5cabb750f4e396b6c95e4abf7" prot="protected" virt="virtual"><scope>wxControl</scope><name>DoGetBestClientHeight</name></member>
+      <member refid="classwx_window_1a68f3ec28a29b2a514b20c3e80255d82e" prot="protected" virt="virtual"><scope>wxControl</scope><name>DoGetBestClientSize</name></member>
+      <member refid="classwx_window_1ac68cb9912dc456e2faa8c745b2437b75" prot="protected" virt="virtual"><scope>wxControl</scope><name>DoGetBestClientWidth</name></member>
+      <member refid="classwx_window_1aac6408f1814dce3f8332cc69fe5104f1" prot="protected" virt="virtual"><scope>wxControl</scope><name>DoGetBestSize</name></member>
+      <member refid="classwx_window_1ae8a84a80645e99f4d24a22e5c386f626" prot="public" virt="virtual"><scope>wxControl</scope><name>DoUpdateWindowUI</name></member>
+      <member refid="classwx_window_1a7e7015bc61bd79b6821d2dccaecf9eda" prot="public" virt="virtual"><scope>wxControl</scope><name>DragAcceptFiles</name></member>
+      <member refid="classwx_control_1a0bb834cae2a8986aceddb89f84ef4ed1" prot="public" virt="non-virtual"><scope>wxControl</scope><name>Ellipsize</name></member>
+      <member refid="classwx_window_1a4e933aa891f42fbb3b87438057c573af" prot="public" virt="virtual"><scope>wxControl</scope><name>Enable</name></member>
+      <member refid="classwx_window_1a1203fbd238d781253b44e0e459532301" prot="public" virt="non-virtual"><scope>wxControl</scope><name>EndRepositioningChildren</name></member>
+      <member refid="classwx_control_1abdbd9c0684856546671e759dd95b23d4" prot="public" virt="non-virtual"><scope>wxControl</scope><name>EscapeMnemonics</name></member>
+      <member refid="classwx_window_1a777258379a3eef1b0530f12db6b77cab" prot="public" virt="non-virtual"><scope>wxControl</scope><name>FindFocus</name></member>
+      <member refid="classwx_window_1a619b5743645b86054aa3fff12ba4c7ce" prot="public" virt="non-virtual"><scope>wxControl</scope><name>FindWindow</name></member>
+      <member refid="classwx_window_1a3b2f2c9b6346bdb3dcba0edfd9a7f224" prot="public" virt="non-virtual"><scope>wxControl</scope><name>FindWindow</name></member>
+      <member refid="classwx_window_1a101201b12ccd5fba49fa06ed19b5c6fb" prot="public" virt="non-virtual"><scope>wxControl</scope><name>FindWindowById</name></member>
+      <member refid="classwx_window_1ab8eb148fffae109e0fac86e88d569670" prot="public" virt="non-virtual"><scope>wxControl</scope><name>FindWindowByLabel</name></member>
+      <member refid="classwx_window_1adbe4eea02f615313c12a2c00557a44c3" prot="public" virt="non-virtual"><scope>wxControl</scope><name>FindWindowByName</name></member>
+      <member refid="classwx_window_1a2bf38a6cbd1f82fb46f274396f482994" prot="public" virt="virtual"><scope>wxControl</scope><name>Fit</name></member>
+      <member refid="classwx_window_1a55aca401aab29d59f7cc53f89ba2e38d" prot="public" virt="virtual"><scope>wxControl</scope><name>FitInside</name></member>
+      <member refid="classwx_window_1a15c678314cfc1d807196bc298b713ed3" prot="public" virt="non-virtual"><scope>wxControl</scope><name>Freeze</name></member>
+      <member refid="classwx_window_1aefc02d7275010ebb8d5b66569e7287c4" prot="public" virt="non-virtual"><scope>wxControl</scope><name>GetAcceleratorTable</name></member>
+      <member refid="classwx_window_1ae0469b554e9c501b356b3ed4b6d8a3af" prot="public" virt="non-virtual"><scope>wxControl</scope><name>GetAccessible</name></member>
+      <member refid="classwx_window_1a64e3f936ab812d24966827ea4e0f15c0" prot="public" virt="non-virtual"><scope>wxControl</scope><name>GetAutoLayout</name></member>
+      <member refid="classwx_window_1af51668ec32e9e44db45574a15ec215b4" prot="public" virt="non-virtual"><scope>wxControl</scope><name>GetBackgroundColour</name></member>
+      <member refid="classwx_window_1a4f09e6a20858a0667df3dda44715d6b9" prot="public" virt="virtual"><scope>wxControl</scope><name>GetBackgroundStyle</name></member>
+      <member refid="classwx_window_1a9ec151255cbb44935136d9bbff31a082" prot="public" virt="non-virtual"><scope>wxControl</scope><name>GetBestHeight</name></member>
+      <member refid="classwx_window_1ae507a81d682023383e465d8e913595b6" prot="public" virt="non-virtual"><scope>wxControl</scope><name>GetBestSize</name></member>
+      <member refid="classwx_window_1a1e4b09c35c0e5495905da45c1580709d" prot="public" virt="virtual"><scope>wxControl</scope><name>GetBestVirtualSize</name></member>
+      <member refid="classwx_window_1a5c797a38418a6f2fb79f800112ec73b0" prot="public" virt="non-virtual"><scope>wxControl</scope><name>GetBestWidth</name></member>
+      <member refid="classwx_window_1a42908ba076f2a93ee81201dc151c3b23" prot="public" virt="non-virtual"><scope>wxControl</scope><name>GetBorder</name></member>
+      <member refid="classwx_window_1a94e3a0ce6c1aae57562678996adbf2fd" prot="public" virt="non-virtual"><scope>wxControl</scope><name>GetBorder</name></member>
+      <member refid="classwx_window_1a483d3f73925bd38c3964dad058672f0a" prot="public" virt="non-virtual"><scope>wxControl</scope><name>GetCapture</name></member>
+      <member refid="classwx_window_1a2ee3eba6dbfb37944ed0ce03383bfc34" prot="public" virt="non-virtual"><scope>wxControl</scope><name>GetCaret</name></member>
+      <member refid="classwx_window_1aa488520238094f858bea3c3a2c6b9809" prot="public" virt="virtual"><scope>wxControl</scope><name>GetCharHeight</name></member>
+      <member refid="classwx_window_1a8f92c15635a44b85392d16f5906c31ef" prot="public" virt="virtual"><scope>wxControl</scope><name>GetCharWidth</name></member>
+      <member refid="classwx_window_1ad500085ad0511879b5e018706c91a494" prot="public" virt="non-virtual"><scope>wxControl</scope><name>GetChildren</name></member>
+      <member refid="classwx_window_1afcd1cf1f16e375d00b8d0885997adc90" prot="public" virt="non-virtual"><scope>wxControl</scope><name>GetChildren</name></member>
+      <member refid="classwx_window_1a170d85e4aa0cbacbfcdd0728120e1417" prot="public" virt="non-virtual"><scope>wxControl</scope><name>GetClassDefaultAttributes</name></member>
+      <member refid="classwx_object_1ae6d365f2556b26767ced8410c5e839d0" prot="public" virt="virtual"><scope>wxControl</scope><name>GetClassInfo</name></member>
+      <member refid="classwx_window_1a4a1b567002d1039bc630885fc09808ae" prot="public" virt="virtual"><scope>wxControl</scope><name>GetClientAreaOrigin</name></member>
+      <member refid="classwx_evt_handler_1a291bc92c1bea8abfff276a8e333d46db" prot="public" virt="non-virtual"><scope>wxControl</scope><name>GetClientData</name></member>
+      <member refid="classwx_evt_handler_1a371742bda1686e82065f3a1f2acb31c8" prot="public" virt="non-virtual"><scope>wxControl</scope><name>GetClientObject</name></member>
+      <member refid="classwx_window_1a5c6428c6aa8634b5c5963d1d0eaa75c7" prot="public" virt="non-virtual"><scope>wxControl</scope><name>GetClientRect</name></member>
+      <member refid="classwx_window_1ad34d4bbd6d3064aa56e7a2cc3ee97be3" prot="public" virt="non-virtual"><scope>wxControl</scope><name>GetClientSize</name></member>
+      <member refid="classwx_window_1a13d04f24ab78611f895bc40776118e90" prot="public" virt="non-virtual"><scope>wxControl</scope><name>GetClientSize</name></member>
+      <member refid="classwx_window_1ade068146db3eea2adcde2533de17473b" prot="public" virt="non-virtual"><scope>wxControl</scope><name>GetConstraints</name></member>
+      <member refid="classwx_window_1aec50a3057efbfb35ad16f433603f6f00" prot="public" virt="non-virtual"><scope>wxControl</scope><name>GetContainingSizer</name></member>
+      <member refid="classwx_window_1a7070700104b0f739260a8d803c64e0e1" prot="public" virt="virtual"><scope>wxControl</scope><name>GetContentScaleFactor</name></member>
+      <member refid="classwx_window_1aa467591bdb0ae14a625045553e62a120" prot="public" virt="non-virtual"><scope>wxControl</scope><name>GetCursor</name></member>
+      <member refid="classwx_window_1a377de92ac032b60a9241fab88efdbf11" prot="public" virt="virtual"><scope>wxControl</scope><name>GetDefaultAttributes</name></member>
+      <member refid="classwx_window_1ae4bec3096f7e13eec8a537aa24cd6112" prot="public" virt="virtual"><scope>wxControl</scope><name>GetDropTarget</name></member>
+      <member refid="classwx_window_1aa88f6c4946d1ae4821aca652efbf7c62" prot="public" virt="virtual"><scope>wxControl</scope><name>GetEffectiveMinSize</name></member>
+      <member refid="classwx_window_1ad54b0c1662006da89d7e5bf8a64f93eb" prot="public" virt="non-virtual"><scope>wxControl</scope><name>GetEventHandler</name></member>
+      <member refid="classwx_evt_handler_1a7742d81c5eb7849a0ad75b9de8575153" prot="public" virt="non-virtual"><scope>wxControl</scope><name>GetEvtHandlerEnabled</name></member>
+      <member refid="classwx_window_1a0db5cd18ab5166b44da9d07f92bb5070" prot="public" virt="non-virtual"><scope>wxControl</scope><name>GetExtraStyle</name></member>
+      <member refid="classwx_window_1af25f8a799106d61b50d3ee796ba43728" prot="public" virt="non-virtual"><scope>wxControl</scope><name>GetFont</name></member>
+      <member refid="classwx_window_1ad9a607b86d9175d395f245ecbe00f38b" prot="public" virt="non-virtual"><scope>wxControl</scope><name>GetForegroundColour</name></member>
+      <member refid="classwx_window_1abe0d47e5d63394b098bdad64eb1a60d2" prot="public" virt="non-virtual"><scope>wxControl</scope><name>GetGrandParent</name></member>
+      <member refid="classwx_window_1a108426e918ac377fef17662885a7a459" prot="public" virt="virtual"><scope>wxControl</scope><name>GetHandle</name></member>
+      <member refid="classwx_window_1acb28971fe25abd1f5c6d768e203a042a" prot="public" virt="non-virtual"><scope>wxControl</scope><name>GetHelpText</name></member>
+      <member refid="classwx_window_1a7d11a419fede5049d7c12c337e5f5dfc" prot="public" virt="virtual"><scope>wxControl</scope><name>GetHelpTextAtPoint</name></member>
+      <member refid="classwx_window_1a79037f68b290bba5811628ec67bf3b24" prot="public" virt="non-virtual"><scope>wxControl</scope><name>GetId</name></member>
+      <member refid="classwx_control_1a9d03cd7f44c4bb1722f39fbc7a5d8cbd" prot="public" virt="virtual"><scope>wxControl</scope><name>GetLabel</name></member>
+      <member refid="classwx_control_1a4ec6a7ee61553cd1df77d50491cee820" prot="public" virt="non-virtual"><scope>wxControl</scope><name>GetLabelText</name></member>
+      <member refid="classwx_control_1ae892fefe6b88168c158e11e975633665" prot="public" virt="non-virtual"><scope>wxControl</scope><name>GetLabelText</name></member>
+      <member refid="classwx_window_1afafd17cbb5dd6d899b25360255e0bdae" prot="public" virt="virtual"><scope>wxControl</scope><name>GetLayoutDirection</name></member>
+      <member refid="classwx_window_1a6690ee82a5a246e070bf0a7dc4bcb5b3" prot="public" virt="virtual"><scope>wxControl</scope><name>GetMaxClientSize</name></member>
+      <member refid="classwx_window_1a98bbe53eddb91b508b0082783402d954" prot="public" virt="non-virtual"><scope>wxControl</scope><name>GetMaxHeight</name></member>
+      <member refid="classwx_window_1a107966aa1b2d50107b3b95cf0d7d9901" prot="public" virt="virtual"><scope>wxControl</scope><name>GetMaxSize</name></member>
+      <member refid="classwx_window_1afde7288b24e48f2d0b5d2c7376f10426" prot="public" virt="non-virtual"><scope>wxControl</scope><name>GetMaxWidth</name></member>
+      <member refid="classwx_window_1a24d22aacd834cbe6cd5b252fa91c3bd9" prot="public" virt="virtual"><scope>wxControl</scope><name>GetMinClientSize</name></member>
+      <member refid="classwx_window_1a81bfd762272d33850c0511d65d896ca3" prot="public" virt="non-virtual"><scope>wxControl</scope><name>GetMinHeight</name></member>
+      <member refid="classwx_window_1a90ce6ffc8e0af7476157c9e1e6b616df" prot="public" virt="virtual"><scope>wxControl</scope><name>GetMinSize</name></member>
+      <member refid="classwx_window_1a327e1a8054d604a34cc5473a8c415e4d" prot="public" virt="non-virtual"><scope>wxControl</scope><name>GetMinWidth</name></member>
+      <member refid="classwx_window_1a93b9ec7d9eaf152c17f3bf2698551ef4" prot="public" virt="virtual"><scope>wxControl</scope><name>GetName</name></member>
+      <member refid="classwx_evt_handler_1addedbed1c9f970c2b1e2893a42805b6a" prot="public" virt="non-virtual"><scope>wxControl</scope><name>GetNextHandler</name></member>
+      <member refid="classwx_window_1ad256ad684063935d897956a87c932b38" prot="public" virt="non-virtual"><scope>wxControl</scope><name>GetNextSibling</name></member>
+      <member refid="classwx_window_1a6cd311a6c6ca7329714b969834f679f9" prot="public" virt="non-virtual"><scope>wxControl</scope><name>GetParent</name></member>
+      <member refid="classwx_window_1a9b7de6ea85ca926b668ba0682a61a93e" prot="public" virt="non-virtual"><scope>wxControl</scope><name>GetPopupMenuSelectionFromUser</name></member>
+      <member refid="classwx_window_1a00f5cb3cac003205317a565a33d4bb27" prot="public" virt="non-virtual"><scope>wxControl</scope><name>GetPopupMenuSelectionFromUser</name></member>
+      <member refid="classwx_window_1ac2eece00a4b4b83e1433b59a5d31584f" prot="public" virt="non-virtual"><scope>wxControl</scope><name>GetPosition</name></member>
+      <member refid="classwx_window_1abfeeca6db664c24603f6371811397e0d" prot="public" virt="non-virtual"><scope>wxControl</scope><name>GetPosition</name></member>
+      <member refid="classwx_evt_handler_1a69bfde9623d89eb91e363c53616e4587" prot="public" virt="non-virtual"><scope>wxControl</scope><name>GetPreviousHandler</name></member>
+      <member refid="classwx_window_1a02b3a109f926c86fa1f34a00c1b5ec67" prot="public" virt="non-virtual"><scope>wxControl</scope><name>GetPrevSibling</name></member>
+      <member refid="classwx_window_1a68e83a724887b18525fdbd947b2d8c88" prot="public" virt="non-virtual"><scope>wxControl</scope><name>GetRect</name></member>
+      <member refid="classwx_object_1af3c6c76a775864832f1536d3c0de3a2b" prot="public" virt="non-virtual"><scope>wxControl</scope><name>GetRefData</name></member>
+      <member refid="classwx_window_1a285a81f00ed59fa09938343708938566" prot="public" virt="non-virtual"><scope>wxControl</scope><name>GetScreenPosition</name></member>
+      <member refid="classwx_window_1a5786c420fd2958bde726c923621700aa" prot="public" virt="non-virtual"><scope>wxControl</scope><name>GetScreenPosition</name></member>
+      <member refid="classwx_window_1ae8f6c4a201650ad63bb5ebe4f35eb41e" prot="public" virt="non-virtual"><scope>wxControl</scope><name>GetScreenRect</name></member>
+      <member refid="classwx_window_1add5f4e225e16154f9148451a7d32d0b3" prot="public" virt="virtual"><scope>wxControl</scope><name>GetScrollPos</name></member>
+      <member refid="classwx_window_1a23b41cf939ab67a002d8f404ac4cf76b" prot="public" virt="virtual"><scope>wxControl</scope><name>GetScrollRange</name></member>
+      <member refid="classwx_window_1ac34f47fef73e3a178e8c335aa38ce567" prot="public" virt="virtual"><scope>wxControl</scope><name>GetScrollThumb</name></member>
+      <member refid="classwx_window_1a36ea282508dd55d6f3981ec205ed0449" prot="public" virt="non-virtual"><scope>wxControl</scope><name>GetSize</name></member>
+      <member refid="classwx_window_1a36bf1ac809da1b0cd9c67fd806c4d9b5" prot="public" virt="non-virtual"><scope>wxControl</scope><name>GetSize</name></member>
+      <member refid="classwx_control_1a252c7408d6dfa8d70e8dbe88cea9695d" prot="public" virt="non-virtual"><scope>wxControl</scope><name>GetSizeFromTextSize</name></member>
+      <member refid="classwx_control_1a4d9169af074418aa3528f7b5fca61f94" prot="public" virt="non-virtual"><scope>wxControl</scope><name>GetSizeFromTextSize</name></member>
+      <member refid="classwx_window_1a01e9d43576615166ee309f4358bdd26d" prot="public" virt="non-virtual"><scope>wxControl</scope><name>GetSizer</name></member>
+      <member refid="classwx_window_1a4220668e42f3a173bf29d335da4db2c3" prot="public" virt="non-virtual"><scope>wxControl</scope><name>GetTextExtent</name></member>
+      <member refid="classwx_window_1a69fc79069821a633eba9c5d917fd8b7b" prot="public" virt="non-virtual"><scope>wxControl</scope><name>GetTextExtent</name></member>
+      <member refid="classwx_window_1a578145344f92cfee755a9c87f6703432" prot="public" virt="virtual"><scope>wxControl</scope><name>GetThemeEnabled</name></member>
+      <member refid="classwx_window_1a44eecb46979b528c184e26ce6c52b3fa" prot="public" virt="non-virtual"><scope>wxControl</scope><name>GetToolTip</name></member>
+      <member refid="classwx_window_1a7e7c9a92f9efbb47073704646db1344e" prot="public" virt="non-virtual"><scope>wxControl</scope><name>GetToolTipText</name></member>
+      <member refid="classwx_window_1a23370688a951ed60ac25146af854d2ec" prot="public" virt="non-virtual"><scope>wxControl</scope><name>GetUpdateClientRect</name></member>
+      <member refid="classwx_window_1a522f73fd32e54b11466284acc43f76f3" prot="public" virt="non-virtual"><scope>wxControl</scope><name>GetUpdateRegion</name></member>
+      <member refid="classwx_window_1a6a332586346cb9ece4a8fe058a7b88c4" prot="public" virt="virtual"><scope>wxControl</scope><name>GetValidator</name></member>
+      <member refid="classwx_window_1a557f92e6c66b6654c95315d4461d0e11" prot="public" virt="non-virtual"><scope>wxControl</scope><name>GetVirtualSize</name></member>
+      <member refid="classwx_window_1a24cefbb69173899ec4d62460b2932ed9" prot="public" virt="non-virtual"><scope>wxControl</scope><name>GetVirtualSize</name></member>
+      <member refid="classwx_window_1a21c97d5bcf61c4c664bd33066f5567b1" prot="public" virt="virtual"><scope>wxControl</scope><name>GetWindowBorderSize</name></member>
+      <member refid="classwx_window_1a418007123fec131b47d9841ac6d34891" prot="public" virt="non-virtual"><scope>wxControl</scope><name>GetWindowStyle</name></member>
+      <member refid="classwx_window_1ad67a731cd937a21e561593d4a0c44979" prot="public" virt="virtual"><scope>wxControl</scope><name>GetWindowStyleFlag</name></member>
+      <member refid="classwx_window_1a9027305e391de617259407f2c12a54bf" prot="public" virt="non-virtual"><scope>wxControl</scope><name>GetWindowVariant</name></member>
+      <member refid="classwx_window_1a89d1b079de97aac170e999692095872c" prot="public" virt="non-virtual"><scope>wxControl</scope><name>HandleAsNavigationKey</name></member>
+      <member refid="classwx_window_1a89816f1b78c125c59418463caea35c9a" prot="public" virt="non-virtual"><scope>wxControl</scope><name>HandleWindowEvent</name></member>
+      <member refid="classwx_window_1a41e1b77ac82c7420d34b8030d5f26046" prot="public" virt="virtual"><scope>wxControl</scope><name>HasCapture</name></member>
+      <member refid="classwx_window_1aeee5333e672a3a510db48d2af37ddee9" prot="public" virt="non-virtual"><scope>wxControl</scope><name>HasExtraStyle</name></member>
+      <member refid="classwx_window_1a3d1d00b4cd51fa3c187e9d609d022aa4" prot="public" virt="non-virtual"><scope>wxControl</scope><name>HasFlag</name></member>
+      <member refid="classwx_window_1adaf042744bdbb8a5f9feccbe7749468a" prot="public" virt="virtual"><scope>wxControl</scope><name>HasFocus</name></member>
+      <member refid="classwx_window_1a55c7b73596f2eec2694e8f512013ee81" prot="public" virt="virtual"><scope>wxControl</scope><name>HasMultiplePages</name></member>
+      <member refid="classwx_window_1ae50c259b165d9366729734bc124cf184" prot="public" virt="non-virtual"><scope>wxControl</scope><name>HasScrollbar</name></member>
+      <member refid="classwx_window_1ab9cbcb6d6f4a272c2f0342e69a13b59a" prot="public" virt="virtual"><scope>wxControl</scope><name>HasTransparentBackground</name></member>
+      <member refid="classwx_window_1a7ed103df04014cb3c59c6a3fb4d95328" prot="public" virt="non-virtual"><scope>wxControl</scope><name>Hide</name></member>
+      <member refid="classwx_window_1a5326fbb26557a224507a1c06e5640e89" prot="public" virt="virtual"><scope>wxControl</scope><name>HideWithEffect</name></member>
+      <member refid="classwx_window_1ae8705e241daca73105921b72326258b5" prot="public" virt="non-virtual"><scope>wxControl</scope><name>HitTest</name></member>
+      <member refid="classwx_window_1ace65f76df096662bd15722d10c1905c9" prot="public" virt="non-virtual"><scope>wxControl</scope><name>HitTest</name></member>
+      <member refid="classwx_window_1a9fd5b6520c1b30eb8e82bb5d56bc24c0" prot="public" virt="virtual"><scope>wxControl</scope><name>InformFirstDirection</name></member>
+      <member refid="classwx_window_1a6b1bf9e099704e7a493b8c4666b1f7f7" prot="public" virt="virtual"><scope>wxControl</scope><name>InheritAttributes</name></member>
+      <member refid="classwx_window_1af05b95cfeed0bee6f44797572367b26e" prot="public" virt="non-virtual"><scope>wxControl</scope><name>InheritsBackgroundColour</name></member>
+      <member refid="classwx_window_1aa90a260c0a835a133043460b7d0024a8" prot="public" virt="virtual"><scope>wxControl</scope><name>InitDialog</name></member>
+      <member refid="classwx_window_1ae1b56ca87d8590ee5e576012229a380a" prot="public" virt="non-virtual"><scope>wxControl</scope><name>InvalidateBestSize</name></member>
+      <member refid="classwx_window_1a5fd3fba5d43efb67a834c0483a9c3d0e" prot="public" virt="non-virtual"><scope>wxControl</scope><name>IsBeingDeleted</name></member>
+      <member refid="classwx_window_1ab7f60a0c4acdd832a46aabf0d09cd54a" prot="public" virt="non-virtual"><scope>wxControl</scope><name>IsDescendant</name></member>
+      <member refid="classwx_window_1abe7a8c61796262b517f5e0765374cc2b" prot="public" virt="virtual"><scope>wxControl</scope><name>IsDoubleBuffered</name></member>
+      <member refid="classwx_window_1a0c186513884fb2020c6af3c62f0913d2" prot="public" virt="non-virtual"><scope>wxControl</scope><name>IsEnabled</name></member>
+      <member refid="classwx_window_1a687120c4b7095481bbc6d483187d0c56" prot="public" virt="non-virtual"><scope>wxControl</scope><name>IsExposed</name></member>
+      <member refid="classwx_window_1afde1844b856787b95afbb686aaaa206d" prot="public" virt="non-virtual"><scope>wxControl</scope><name>IsExposed</name></member>
+      <member refid="classwx_window_1a3017e9cdde376d567ee37b2a96913eca" prot="public" virt="non-virtual"><scope>wxControl</scope><name>IsExposed</name></member>
+      <member refid="classwx_window_1ac4653d89376b9e88afbec8c342d32530" prot="public" virt="non-virtual"><scope>wxControl</scope><name>IsExposed</name></member>
+      <member refid="classwx_window_1ad78eb073c4fe8271caa4c65301a24ee2" prot="public" virt="non-virtual"><scope>wxControl</scope><name>IsFocusable</name></member>
+      <member refid="classwx_window_1adf34f121a9a94fd7159a8818355f2b67" prot="public" virt="non-virtual"><scope>wxControl</scope><name>IsFrozen</name></member>
+      <member refid="classwx_object_1a3c7115ef4132dcee0c4fc34e84d7fced" prot="public" virt="non-virtual"><scope>wxControl</scope><name>IsKindOf</name></member>
+      <member refid="classwx_window_1a77443cb35d15b5006b96a8c5ea0944f6" prot="public" virt="virtual"><scope>wxControl</scope><name>IsRetained</name></member>
+      <member refid="classwx_object_1a059373c494c2369d7db2a556efef8ecf" prot="public" virt="non-virtual"><scope>wxControl</scope><name>IsSameAs</name></member>
+      <member refid="classwx_window_1abf4f5068ebf648197ed9ca8ca58f38df" prot="public" virt="virtual"><scope>wxControl</scope><name>IsScrollbarAlwaysShown</name></member>
+      <member refid="classwx_window_1ad3544f9c364b7952ac0676217e400061" prot="public" virt="virtual"><scope>wxControl</scope><name>IsShown</name></member>
+      <member refid="classwx_window_1ac2722709783e89e76b2eeb7f9f93236a" prot="public" virt="virtual"><scope>wxControl</scope><name>IsShownOnScreen</name></member>
+      <member refid="classwx_window_1a1c6a83e5421bb7cfb8a9ad804d251b65" prot="public" virt="non-virtual"><scope>wxControl</scope><name>IsThisEnabled</name></member>
+      <member refid="classwx_window_1afe04dba2155b58429d6c4e0a5a5e1664" prot="public" virt="virtual"><scope>wxControl</scope><name>IsTopLevel</name></member>
+      <member refid="classwx_window_1a21c6e2be327062520d9d0aae55b1e8b0" prot="public" virt="virtual"><scope>wxControl</scope><name>IsTransparentBackgroundSupported</name></member>
+      <member refid="classwx_evt_handler_1ac0734578a8d929b8b0be440ce0b53ad6" prot="public" virt="non-virtual"><scope>wxControl</scope><name>IsUnlinked</name></member>
+      <member refid="classwx_window_1a1b143c3e72bd0af533b76db4830a6113" prot="public" virt="virtual"><scope>wxControl</scope><name>Layout</name></member>
+      <member refid="classwx_window_1ade808784f0e64d9985e2f279b5ca8c02" prot="public" virt="non-virtual"><scope>wxControl</scope><name>LineDown</name></member>
+      <member refid="classwx_window_1afc0816a174ceee6d36d1995c6824a273" prot="public" virt="non-virtual"><scope>wxControl</scope><name>LineUp</name></member>
+      <member refid="classwx_window_1a124944524f36b71385dad8fddaad8ded" prot="public" virt="virtual"><scope>wxControl</scope><name>Lower</name></member>
+      <member refid="classwx_object_1a9e31954530a0abd54982effc443ed2b8" prot="protected" virt="non-virtual"><scope>wxControl</scope><name>m_refData</name></member>
+      <member refid="classwx_window_1ab1cb98c8d25b9e6ff7b706b1446c3df7" prot="public" virt="non-virtual"><scope>wxControl</scope><name>Move</name></member>
+      <member refid="classwx_window_1a22a22c1e23ca05776707e7999d8047fe" prot="public" virt="non-virtual"><scope>wxControl</scope><name>Move</name></member>
+      <member refid="classwx_window_1a79e66079125e8420de269811bdb6f2b6" prot="public" virt="non-virtual"><scope>wxControl</scope><name>MoveAfterInTabOrder</name></member>
+      <member refid="classwx_window_1af2b92f61cd9f9e2e0efe4cce307e25b1" prot="public" virt="non-virtual"><scope>wxControl</scope><name>MoveBeforeInTabOrder</name></member>
+      <member refid="classwx_window_1a86904f6785df4af6036b33383490a805" prot="public" virt="non-virtual"><scope>wxControl</scope><name>Navigate</name></member>
+      <member refid="classwx_window_1aa58039c8fc65e19160becf510ee1d1d5" prot="public" virt="non-virtual"><scope>wxControl</scope><name>NavigateIn</name></member>
+      <member refid="classwx_window_1a8175da594e6045635a1d1cfe775cdddb" prot="public" virt="non-virtual"><scope>wxControl</scope><name>NewControlId</name></member>
+      <member refid="classwx_window_1a6b5654c0c6c6245d592c279521f7099c" prot="public" virt="virtual"><scope>wxControl</scope><name>OnInternalIdle</name></member>
+      <member refid="classwx_object_1a07b8f34f5afc5743195c5fed052f55d3" prot="public" virt="non-virtual"><scope>wxControl</scope><name>operator delete</name></member>
+      <member refid="classwx_object_1a96fa423a1dbc212c8227a5d83825971f" prot="public" virt="non-virtual"><scope>wxControl</scope><name>operator new</name></member>
+      <member refid="classwx_window_1a61e78cb48ece3e9e989e37b475ac1e35" prot="public" virt="non-virtual"><scope>wxControl</scope><name>PageDown</name></member>
+      <member refid="classwx_window_1aa7c2bbc480d8863d9f139c01d7abc1b1" prot="public" virt="non-virtual"><scope>wxControl</scope><name>PageUp</name></member>
+      <member refid="classwx_window_1ac45c1f4cf96c70779764c14cf528790b" prot="public" virt="non-virtual"><scope>wxControl</scope><name>PopEventHandler</name></member>
+      <member refid="classwx_window_1a8f715d238cf74a845488b0e2645e98df" prot="public" virt="non-virtual"><scope>wxControl</scope><name>PopupMenu</name></member>
+      <member refid="classwx_window_1a834bcdfd41f5e5370ebd9ea401c92900" prot="public" virt="non-virtual"><scope>wxControl</scope><name>PopupMenu</name></member>
+      <member refid="classwx_window_1ab1943463e6661f97e072b43337c6cc09" prot="public" virt="non-virtual"><scope>wxControl</scope><name>PostSizeEvent</name></member>
+      <member refid="classwx_window_1aa080d8dcda58bcc6ea2abd8bea592e3e" prot="public" virt="non-virtual"><scope>wxControl</scope><name>PostSizeEventToParent</name></member>
+      <member refid="classwx_window_1a5ebdbd87c28644149a07f1742996df96" prot="protected" virt="virtual"><scope>wxControl</scope><name>ProcessEvent</name></member>
+      <member refid="classwx_evt_handler_1ac0f5d2cb29a04c1f7f82eb6b351f79fb" prot="public" virt="non-virtual"><scope>wxControl</scope><name>ProcessEventLocally</name></member>
+      <member refid="classwx_window_1a7cbee38944dab02d753a4dba74230443" prot="protected" virt="non-virtual"><scope>wxControl</scope><name>ProcessPendingEvents</name></member>
+      <member refid="classwx_window_1a9350b3a9c2e380707eaea92cedad12a5" prot="protected" virt="non-virtual"><scope>wxControl</scope><name>ProcessThreadEvent</name></member>
+      <member refid="classwx_window_1a0a76891d726ad5f9a729e27e4eab2b57" prot="public" virt="non-virtual"><scope>wxControl</scope><name>ProcessWindowEvent</name></member>
+      <member refid="classwx_window_1a0a11aa4a50491d051f947e2618e52178" prot="public" virt="non-virtual"><scope>wxControl</scope><name>ProcessWindowEventLocally</name></member>
+      <member refid="classwx_window_1a398c11ab9af7956067a964f560d1978c" prot="public" virt="non-virtual"><scope>wxControl</scope><name>PushEventHandler</name></member>
+      <member refid="classwx_window_1a69e450f21b0d7013269ec1a4771f043b" prot="protected" virt="virtual"><scope>wxControl</scope><name>QueueEvent</name></member>
+      <member refid="classwx_window_1a54808c933f22a891c5db646f6209fa4d" prot="public" virt="virtual"><scope>wxControl</scope><name>Raise</name></member>
+      <member refid="classwx_object_1a2f6f1aa51fe9fc2b1415ca4211a90e9e" prot="public" virt="non-virtual"><scope>wxControl</scope><name>Ref</name></member>
+      <member refid="classwx_window_1a29dc7251746154c821b17841b9877830" prot="public" virt="virtual"><scope>wxControl</scope><name>Refresh</name></member>
+      <member refid="classwx_window_1ab0ae6b9898cd261c39ebeb2891aa3d67" prot="public" virt="non-virtual"><scope>wxControl</scope><name>RefreshRect</name></member>
+      <member refid="classwx_window_1a53ca57872dac5851ea6ba55a494b899b" prot="public" virt="virtual"><scope>wxControl</scope><name>RegisterHotKey</name></member>
+      <member refid="classwx_window_1adcc538819c11ecb3bd3e4e5d13c5ba7a" prot="public" virt="non-virtual"><scope>wxControl</scope><name>ReleaseMouse</name></member>
+      <member refid="classwx_window_1acee332ed4368d26e8bc3db5767c1240a" prot="public" virt="virtual"><scope>wxControl</scope><name>RemoveChild</name></member>
+      <member refid="classwx_window_1aacbfe424fa527966b954229a1db96ab5" prot="public" virt="non-virtual"><scope>wxControl</scope><name>RemoveEventHandler</name></member>
+      <member refid="classwx_evt_handler_1a67a57b759c447b121bf70a7c9804c8f2" prot="public" virt="non-virtual"><scope>wxControl</scope><name>RemoveFilter</name></member>
+      <member refid="classwx_control_1ab7df4ca0dfde3a6409833cf470ee02e6" prot="public" virt="non-virtual"><scope>wxControl</scope><name>RemoveMnemonics</name></member>
+      <member refid="classwx_window_1a7977b749284e65aecfed2ce146799cb9" prot="public" virt="virtual"><scope>wxControl</scope><name>Reparent</name></member>
+      <member refid="classwx_window_1a0f9814efc50316b4c57b7ec2bf78b716" prot="protected" virt="non-virtual"><scope>wxControl</scope><name>SafelyProcessEvent</name></member>
+      <member refid="classwx_window_1a09aca554d41d6e771d3dc72f26b9cacc" prot="public" virt="non-virtual"><scope>wxControl</scope><name>ScreenToClient</name></member>
+      <member refid="classwx_window_1a5f4dab599fda780823841bb2fe5f2f99" prot="public" virt="non-virtual"><scope>wxControl</scope><name>ScreenToClient</name></member>
+      <member refid="classwx_window_1aa5c5b683bd11a0d9771bd2fcdf643c64" prot="public" virt="virtual"><scope>wxControl</scope><name>ScrollLines</name></member>
+      <member refid="classwx_window_1adc0ed5e1c4925223cb901ced14b8343d" prot="public" virt="virtual"><scope>wxControl</scope><name>ScrollPages</name></member>
+      <member refid="classwx_window_1ab7be4956ff22da37fff2b8aaa581045c" prot="public" virt="virtual"><scope>wxControl</scope><name>ScrollWindow</name></member>
+      <member refid="classwx_evt_handler_1a3c07426130d2868a5ae7fa918a251f49" prot="public" virt="virtual"><scope>wxControl</scope><name>SearchEventTable</name></member>
+      <member refid="classwx_window_1a7e21eb6a0819281b29134a6432d064fe" prot="protected" virt="non-virtual"><scope>wxControl</scope><name>SendDestroyEvent</name></member>
+      <member refid="classwx_window_1a1afc1653413957537073c074dcc3eade" prot="public" virt="virtual"><scope>wxControl</scope><name>SendIdleEvents</name></member>
+      <member refid="classwx_window_1a237f739b21937d3e8f1bff5fa82ba4c2" prot="public" virt="virtual"><scope>wxControl</scope><name>SendSizeEvent</name></member>
+      <member refid="classwx_window_1af7987987978fd8a93df88b29b19a6388" prot="public" virt="non-virtual"><scope>wxControl</scope><name>SendSizeEventToParent</name></member>
+      <member refid="classwx_window_1a0af5e9aa4dee6a4e92c0700f92605642" prot="public" virt="virtual"><scope>wxControl</scope><name>SetAcceleratorTable</name></member>
+      <member refid="classwx_window_1a413220ead41f05a2ec2cfe10b3d573df" prot="public" virt="non-virtual"><scope>wxControl</scope><name>SetAccessible</name></member>
+      <member refid="classwx_window_1ad369fe1db5c20f9d9edff7b5eb1f7226" prot="public" virt="non-virtual"><scope>wxControl</scope><name>SetAutoLayout</name></member>
+      <member refid="classwx_window_1a37219df52734626e23401fd83b25d8a0" prot="public" virt="virtual"><scope>wxControl</scope><name>SetBackgroundColour</name></member>
+      <member refid="classwx_window_1af14f8fd2ed2d30a9bbb5d4f9fd6594ec" prot="public" virt="virtual"><scope>wxControl</scope><name>SetBackgroundStyle</name></member>
+      <member refid="classwx_window_1a2b8b2e99231a0ec1a05f5066f1b7f3d8" prot="public" virt="virtual"><scope>wxControl</scope><name>SetCanFocus</name></member>
+      <member refid="classwx_window_1acfef5e1cada92c73e2937b84ff57ff57" prot="public" virt="non-virtual"><scope>wxControl</scope><name>SetCaret</name></member>
+      <member refid="classwx_evt_handler_1a82c74f2cebfa02cb3c1563d459c872bf" prot="public" virt="non-virtual"><scope>wxControl</scope><name>SetClientData</name></member>
+      <member refid="classwx_evt_handler_1af1e33a06087b8b2ddc43c7d15a91b326" prot="public" virt="non-virtual"><scope>wxControl</scope><name>SetClientObject</name></member>
+      <member refid="classwx_window_1aa59f715217fffa5bcf14cd97f92e7840" prot="public" virt="non-virtual"><scope>wxControl</scope><name>SetClientSize</name></member>
+      <member refid="classwx_window_1ab2aadc857ee7f55f47ab9a8669e3beb7" prot="public" virt="non-virtual"><scope>wxControl</scope><name>SetClientSize</name></member>
+      <member refid="classwx_window_1a582d4d1f60a3f777627773b2da0bb2ef" prot="public" virt="non-virtual"><scope>wxControl</scope><name>SetClientSize</name></member>
+      <member refid="classwx_window_1afa75d111bbd9a68f837101a5fbed60a7" prot="public" virt="non-virtual"><scope>wxControl</scope><name>SetConstraints</name></member>
+      <member refid="classwx_window_1a0ccf78fe06722b500adfb7f36b8ce443" prot="public" virt="non-virtual"><scope>wxControl</scope><name>SetContainingSizer</name></member>
+      <member refid="classwx_window_1ad83f9c51c6f31e0e05f598b47a19ed98" prot="public" virt="virtual"><scope>wxControl</scope><name>SetCursor</name></member>
+      <member refid="classwx_window_1a5477a89c17fdcc3ec6c90274796eb1c3" prot="public" virt="non-virtual"><scope>wxControl</scope><name>SetDoubleBuffered</name></member>
+      <member refid="classwx_window_1ae34b4d45433ca8287df0e47d46411e58" prot="public" virt="virtual"><scope>wxControl</scope><name>SetDropTarget</name></member>
+      <member refid="classwx_window_1af6c84b7679183b377ba27a52a2f708b4" prot="public" virt="non-virtual"><scope>wxControl</scope><name>SetEventHandler</name></member>
+      <member refid="classwx_evt_handler_1a7388ae19c8657e5656471b658c320036" prot="public" virt="non-virtual"><scope>wxControl</scope><name>SetEvtHandlerEnabled</name></member>
+      <member refid="classwx_window_1ae9655f7c35ce7ac89cac2f6c0054b103" prot="public" virt="virtual"><scope>wxControl</scope><name>SetExtraStyle</name></member>
+      <member refid="classwx_window_1a697f9f8d3ff389790f1c74b59bcb1d75" prot="public" virt="virtual"><scope>wxControl</scope><name>SetFocus</name></member>
+      <member refid="classwx_window_1a6fa03f82d7917dff482754d0d2e2b1c8" prot="public" virt="virtual"><scope>wxControl</scope><name>SetFocusFromKbd</name></member>
+      <member refid="classwx_window_1a9ab11e7da57a1d08918aa75fc33f6ad3" prot="public" virt="virtual"><scope>wxControl</scope><name>SetFont</name></member>
+      <member refid="classwx_window_1a69f1e1c7ddd370d72e68c70f13ac8de9" prot="public" virt="virtual"><scope>wxControl</scope><name>SetForegroundColour</name></member>
+      <member refid="classwx_window_1a4c1a2cbc7363237b3a7c70af4e702c72" prot="public" virt="non-virtual"><scope>wxControl</scope><name>SetHelpText</name></member>
+      <member refid="classwx_window_1a7f27d0faed14effa013381bdc40e1bcd" prot="public" virt="non-virtual"><scope>wxControl</scope><name>SetId</name></member>
+      <member refid="classwx_window_1ae6dfe0b0d4a8c666b21ce8df8d96727b" prot="protected" virt="virtual"><scope>wxControl</scope><name>SetInitialBestSize</name></member>
+      <member refid="classwx_window_1a1b309ca50ba87e34f968c83b79af1397" prot="public" virt="non-virtual"><scope>wxControl</scope><name>SetInitialSize</name></member>
+      <member refid="classwx_control_1a2c2ae20554e7db5e765f163022ce09c0" prot="public" virt="virtual"><scope>wxControl</scope><name>SetLabel</name></member>
+      <member refid="classwx_control_1afeb308dc3b54d8d735b33cb250395503" prot="public" virt="non-virtual"><scope>wxControl</scope><name>SetLabelMarkup</name></member>
+      <member refid="classwx_control_1ae092899c3fe658831a9c796755a65eb7" prot="public" virt="non-virtual"><scope>wxControl</scope><name>SetLabelText</name></member>
+      <member refid="classwx_window_1a7d494549f7fcfed44af95f8ee364c1f9" prot="public" virt="virtual"><scope>wxControl</scope><name>SetLayoutDirection</name></member>
+      <member refid="classwx_window_1a664e5b2ddd817d9c58788269fe1d8479" prot="public" virt="virtual"><scope>wxControl</scope><name>SetMaxClientSize</name></member>
+      <member refid="classwx_window_1a38b496214d728a3212afadee5ed51606" prot="public" virt="virtual"><scope>wxControl</scope><name>SetMaxSize</name></member>
+      <member refid="classwx_window_1a6e35ba44b97e374dfffa460d41d94b31" prot="public" virt="virtual"><scope>wxControl</scope><name>SetMinClientSize</name></member>
+      <member refid="classwx_window_1a3fc066f4d8083319f004ac43811d545d" prot="public" virt="virtual"><scope>wxControl</scope><name>SetMinSize</name></member>
+      <member refid="classwx_window_1af80875cda5e1af98dcd7c8e712e3c800" prot="public" virt="virtual"><scope>wxControl</scope><name>SetName</name></member>
+      <member refid="classwx_window_1aeab905f61df7004c1b76a3351dca9e96" prot="public" virt="virtual"><scope>wxControl</scope><name>SetNextHandler</name></member>
+      <member refid="classwx_window_1a9a3f9d8477aab1d9176cd66ee56e75d9" prot="public" virt="non-virtual"><scope>wxControl</scope><name>SetOwnBackgroundColour</name></member>
+      <member refid="classwx_window_1a89a4f62f23c1e7c845b8d07cecae4c43" prot="public" virt="non-virtual"><scope>wxControl</scope><name>SetOwnFont</name></member>
+      <member refid="classwx_window_1a53f4a878e4e2d440bd00543f8014aaaa" prot="public" virt="non-virtual"><scope>wxControl</scope><name>SetOwnForegroundColour</name></member>
+      <member refid="classwx_window_1aee57358435d6bd33f598c81354b47425" prot="public" virt="non-virtual"><scope>wxControl</scope><name>SetPalette</name></member>
+      <member refid="classwx_window_1a81f23590239934fa10fded0566a65d8c" prot="public" virt="non-virtual"><scope>wxControl</scope><name>SetPosition</name></member>
+      <member refid="classwx_window_1a07f5f7ed3f78e0ef7b3dee3f4da81001" prot="public" virt="virtual"><scope>wxControl</scope><name>SetPreviousHandler</name></member>
+      <member refid="classwx_object_1afab780710f2adc1bb33310e27590140b" prot="public" virt="non-virtual"><scope>wxControl</scope><name>SetRefData</name></member>
+      <member refid="classwx_window_1aa842d59529f873683e55cd8392ec46e9" prot="public" virt="virtual"><scope>wxControl</scope><name>SetScrollbar</name></member>
+      <member refid="classwx_window_1afbf4dc9064cf70cfe6884554b97a27bf" prot="public" virt="virtual"><scope>wxControl</scope><name>SetScrollPos</name></member>
+      <member refid="classwx_window_1a180312d5ad4a4a5ad805b8d52d67a74e" prot="public" virt="non-virtual"><scope>wxControl</scope><name>SetSize</name></member>
+      <member refid="classwx_window_1a8e383bc6d5ca008965922a36c676aea0" prot="public" virt="non-virtual"><scope>wxControl</scope><name>SetSize</name></member>
+      <member refid="classwx_window_1a030a928cd854de3def97c5720f14695b" prot="public" virt="non-virtual"><scope>wxControl</scope><name>SetSize</name></member>
+      <member refid="classwx_window_1a2ea9b25296d591aea4470c8fd99ff7cb" prot="public" virt="non-virtual"><scope>wxControl</scope><name>SetSize</name></member>
+      <member refid="classwx_window_1a307329dc3b10f5584aeb2cbce9293ffd" prot="public" virt="virtual"><scope>wxControl</scope><name>SetSizeHints</name></member>
+      <member refid="classwx_window_1ae813c640e1e2bc6014423247050846cf" prot="public" virt="virtual"><scope>wxControl</scope><name>SetSizeHints</name></member>
+      <member refid="classwx_window_1abc95691b45e29a52c24aa9d33d46dec1" prot="public" virt="non-virtual"><scope>wxControl</scope><name>SetSizer</name></member>
+      <member refid="classwx_window_1a29938af9828fd35da666536cdfb6b73c" prot="public" virt="non-virtual"><scope>wxControl</scope><name>SetSizerAndFit</name></member>
+      <member refid="classwx_window_1a41dd19ed8809fd8ec662e2aa2a9579c3" prot="public" virt="virtual"><scope>wxControl</scope><name>SetThemeEnabled</name></member>
+      <member refid="classwx_window_1a81a9fb74e3c6c7f4416e882f5e589b8c" prot="public" virt="non-virtual"><scope>wxControl</scope><name>SetToolTip</name></member>
+      <member refid="classwx_window_1a494e0b7cfca9299caa40e847767e7357" prot="public" virt="non-virtual"><scope>wxControl</scope><name>SetToolTip</name></member>
+      <member refid="classwx_window_1ac8cf4398cec50ac36634760f45a0656f" prot="public" virt="virtual"><scope>wxControl</scope><name>SetTransparent</name></member>
+      <member refid="classwx_window_1a00066c70049a7be3ce6b648d206e6432" prot="public" virt="virtual"><scope>wxControl</scope><name>SetValidator</name></member>
+      <member refid="classwx_window_1a37f293b7904bc6668b86cccb0aea5669" prot="public" virt="non-virtual"><scope>wxControl</scope><name>SetVirtualSize</name></member>
+      <member refid="classwx_window_1a8e95201edebe43b9623bd3bdc555af4d" prot="public" virt="non-virtual"><scope>wxControl</scope><name>SetVirtualSize</name></member>
+      <member refid="classwx_window_1a306af30adec68689f74ed537b4f9d5fd" prot="public" virt="non-virtual"><scope>wxControl</scope><name>SetWindowStyle</name></member>
+      <member refid="classwx_window_1aee2cf342f80523432e7f2299d299451b" prot="public" virt="virtual"><scope>wxControl</scope><name>SetWindowStyleFlag</name></member>
+      <member refid="classwx_window_1acd955418c336e73b3e32cadf1ca46e29" prot="public" virt="non-virtual"><scope>wxControl</scope><name>SetWindowVariant</name></member>
+      <member refid="classwx_window_1aa51b169745cda1746c1a45b4ffe3217a" prot="public" virt="virtual"><scope>wxControl</scope><name>ShouldInheritColours</name></member>
+      <member refid="classwx_window_1a7fbc92ce240a8d4f6956b6e0276ef07f" prot="public" virt="virtual"><scope>wxControl</scope><name>Show</name></member>
+      <member refid="classwx_window_1a596b1715edfc7609f352b2e000ecbaec" prot="public" virt="virtual"><scope>wxControl</scope><name>ShowWithEffect</name></member>
+      <member refid="classwx_window_1a279a532124073261b28131b6afb59a1e" prot="public" virt="non-virtual"><scope>wxControl</scope><name>Thaw</name></member>
+      <member refid="classwx_window_1a8a4fa47129de552bfec37db8c69688a2" prot="public" virt="non-virtual"><scope>wxControl</scope><name>ToggleWindowStyle</name></member>
+      <member refid="classwx_window_1ab8e51f36e7d8790b361c8d8c6f37b1ad" prot="public" virt="virtual"><scope>wxControl</scope><name>TransferDataFromWindow</name></member>
+      <member refid="classwx_window_1a88cc65e424a129d9b0057756cdb67ec9" prot="public" virt="virtual"><scope>wxControl</scope><name>TransferDataToWindow</name></member>
+      <member refid="classwx_evt_handler_1a5e25fece1cb6cbc11fd1d41ec140319c" prot="protected" virt="virtual"><scope>wxControl</scope><name>TryAfter</name></member>
+      <member refid="classwx_evt_handler_1ad4b0eac704dd005ac6a88fdb1e673c13" prot="protected" virt="virtual"><scope>wxControl</scope><name>TryBefore</name></member>
+      <member refid="classwx_evt_handler_1a2b7df8272075a96daea78cdd799c00da" prot="public" virt="non-virtual"><scope>wxControl</scope><name>Unbind</name></member>
+      <member refid="classwx_evt_handler_1aa49f9c4ad4462456b4fe4bd1ab53533d" prot="public" virt="non-virtual"><scope>wxControl</scope><name>Unbind</name></member>
+      <member refid="classwx_evt_handler_1a22e5db2ec1d19c8252c056fd116975d7" prot="public" virt="non-virtual"><scope>wxControl</scope><name>Unlink</name></member>
+      <member refid="classwx_object_1af51efc6b1ae632fc7f0cd7ebbce9fa36" prot="public" virt="non-virtual"><scope>wxControl</scope><name>UnRef</name></member>
+      <member refid="classwx_window_1a695f60d65f8f6c12e3c3645ad9c0c35b" prot="public" virt="virtual"><scope>wxControl</scope><name>UnregisterHotKey</name></member>
+      <member refid="classwx_window_1ad9bc342d1e38d221e37f0f6396950c8c" prot="public" virt="non-virtual"><scope>wxControl</scope><name>UnreserveControlId</name></member>
+      <member refid="classwx_window_1ae75712451673658b0a533480bf5eeaa4" prot="public" virt="non-virtual"><scope>wxControl</scope><name>UnsetToolTip</name></member>
+      <member refid="classwx_object_1a74b40e42d19a4b9e9bec0b57d62a5725" prot="public" virt="non-virtual"><scope>wxControl</scope><name>UnShare</name></member>
+      <member refid="classwx_window_1abaf28f1a075fd1b10f761a8febe597ec" prot="public" virt="virtual"><scope>wxControl</scope><name>Update</name></member>
+      <member refid="classwx_window_1adf0a4987728bd0bf69f922641b3efbfc" prot="public" virt="virtual"><scope>wxControl</scope><name>UpdateWindowUI</name></member>
+      <member refid="classwx_window_1a9131e424ddc3b332a08377e5ad713c60" prot="public" virt="non-virtual"><scope>wxControl</scope><name>UseBgCol</name></member>
+      <member refid="classwx_window_1ac87f253253a0c5eb498871c83afa40fd" prot="public" virt="virtual"><scope>wxControl</scope><name>Validate</name></member>
+      <member refid="classwx_window_1ac500152d1eca3a2ee98a68e7ea7372b5" prot="public" virt="virtual"><scope>wxControl</scope><name>WarpPointer</name></member>
+      <member refid="classwx_window_1a75e9c29023e441305574056cd5a725ff" prot="public" virt="virtual"><scope>wxControl</scope><name>WindowToClientSize</name></member>
+      <member refid="classwx_control_1adb8f3edf807efa9159de826bf92d6a44" prot="public" virt="non-virtual"><scope>wxControl</scope><name>wxControl</name></member>
+      <member refid="classwx_control_1a08428de2ba5cc988a86fe17071d49522" prot="public" virt="non-virtual"><scope>wxControl</scope><name>wxControl</name></member>
+      <member refid="classwx_evt_handler_1a3f0166c4154227d05575b01eb2c8d4be" prot="public" virt="non-virtual"><scope>wxControl</scope><name>wxEvtHandler</name></member>
+      <member refid="classwx_object_1acaa378363a28af421ab56ad7b46eadf0" prot="public" virt="non-virtual"><scope>wxControl</scope><name>wxObject</name></member>
+      <member refid="classwx_object_1a4721b4dc9b7aff0f30904ba2ea3954cf" prot="public" virt="non-virtual"><scope>wxControl</scope><name>wxObject</name></member>
+      <member refid="classwx_window_1a695200a4915b934926dcf32afa44544c" prot="public" virt="non-virtual"><scope>wxControl</scope><name>wxWindow</name></member>
+      <member refid="classwx_window_1a7799009b10d1765d1bbb6db4994f922e" prot="public" virt="non-virtual"><scope>wxControl</scope><name>wxWindow</name></member>
+      <member refid="classwx_evt_handler_1a372d2239d91521eddc8fd2715fcab584" prot="public" virt="virtual"><scope>wxControl</scope><name>~wxEvtHandler</name></member>
+      <member refid="classwx_object_1a2a51aa8bfbab47ca2f051bcf84b3f35b" prot="public" virt="virtual"><scope>wxControl</scope><name>~wxObject</name></member>
+      <member refid="classwx_window_1a0c2a46181a89c349327f0b276f5ef8d7" prot="public" virt="virtual"><scope>wxControl</scope><name>~wxWindow</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

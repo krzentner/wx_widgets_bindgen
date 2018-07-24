@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="htmprint_8h" kind="file" language="C++">
+    <compoundname>htmprint.h</compoundname>
+    <innerclass refid="classwx_html_d_c_renderer" prot="public">wxHtmlDCRenderer</innerclass>
+    <innerclass refid="classwx_html_easy_printing" prot="public">wxHtmlEasyPrinting</innerclass>
+    <innerclass refid="classwx_html_printout" prot="public">wxHtmlPrintout</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="htmprint_8h_1aabfcbcb5ac86a1edac4035264bc7d2b8" prot="public" static="no" strong="no">
+        <type></type>
+        <name>@27</name>
+        <enumvalue id="htmprint_8h_1aabfcbcb5ac86a1edac4035264bc7d2b8a3ff85cb7535cee67218bdd92dcb8e2b8" prot="public">
+          <name>wxPAGE_ODD</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="htmprint_8h_1aabfcbcb5ac86a1edac4035264bc7d2b8a9033401c4a7095e038330e11d3356e4a" prot="public">
+          <name>wxPAGE_EVEN</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="htmprint_8h_1aabfcbcb5ac86a1edac4035264bc7d2b8a17882150df571491253c22493f48a855" prot="public">
+          <name>wxPAGE_ALL</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/html/htmprint.h" line="350" column="1" bodyfile="interface/wx/html/htmprint.h" bodystart="350" bodyend="354"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="interface/wx/html/htmprint.h"/>
+  </compounddef>
+</doxygen>

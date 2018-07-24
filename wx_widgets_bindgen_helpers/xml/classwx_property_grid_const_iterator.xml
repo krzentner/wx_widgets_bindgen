@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_property_grid_const_iterator" kind="class" language="C++" prot="public">
+    <compoundname>wxPropertyGridConstIterator</compoundname>
+    <basecompoundref refid="classwx_property_grid_iterator_base" prot="public" virt="non-virtual">wxPropertyGridIteratorBase</basecompoundref>
+    <includes local="no">wx/propgrid/propgridpagestate.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classwx_property_grid_const_iterator_1a3febd6159dd499340a2705c153633292" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxPropertyGridConstIterator::wxPropertyGridConstIterator</definition>
+        <argsstring>()</argsstring>
+        <name>wxPropertyGridConstIterator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/propgridpagestate.h" line="187" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_property_grid_const_iterator_1a6719a806389d59a1a705eef7be2e6776" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxPropertyGridConstIterator::wxPropertyGridConstIterator</definition>
+        <argsstring>(const wxPropertyGridPageState *state, int flags=wxPG_ITERATE_DEFAULT, const wxPGProperty *property=NULL, int dir=1)</argsstring>
+        <name>wxPropertyGridConstIterator</name>
+        <param>
+          <type>const <ref refid="classwx_property_grid_page_state" kindref="compound">wxPropertyGridPageState</ref> *</type>
+          <declname>state</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>flags</declname>
+          <defval><ref refid="propgridpagestate_8h_1a307ba26bf1eeb9d76108893f4f723b0aaa73795625ba7549869c0a194d17846dd" kindref="member">wxPG_ITERATE_DEFAULT</ref></defval>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_p_g_property" kindref="compound">wxPGProperty</ref> *</type>
+          <declname>property</declname>
+          <defval>NULL</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dir</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/propgridpagestate.h" line="188" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_property_grid_const_iterator_1a07019871f0bb5ed70d1b44c164043fbd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxPropertyGridConstIterator::wxPropertyGridConstIterator</definition>
+        <argsstring>(wxPropertyGridPageState *state, int flags, int startPos, int dir=0)</argsstring>
+        <name>wxPropertyGridConstIterator</name>
+        <param>
+          <type><ref refid="classwx_property_grid_page_state" kindref="compound">wxPropertyGridPageState</ref> *</type>
+          <declname>state</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>flags</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>startPos</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dir</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/propgridpagestate.h" line="191" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_property_grid_const_iterator_1a6d0ac5e5ceaed98498c51b17295c751c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxPropertyGridConstIterator::wxPropertyGridConstIterator</definition>
+        <argsstring>(const wxPropertyGridConstIterator &amp;it)</argsstring>
+        <name>wxPropertyGridConstIterator</name>
+        <param>
+          <type>const <ref refid="classwx_property_grid_const_iterator" kindref="compound">wxPropertyGridConstIterator</ref> &amp;</type>
+          <declname>it</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/propgridpagestate.h" line="193" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_property_grid_const_iterator_1a3423579a0c7695398edca50caa9f4a06" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxPropertyGridConstIterator::~wxPropertyGridConstIterator</definition>
+        <argsstring>()</argsstring>
+        <name>~wxPropertyGridConstIterator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/propgridpagestate.h" line="194" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="5710">
+        <label>wxPropertyGridIteratorBase</label>
+        <link refid="classwx_property_grid_iterator_base"/>
+      </node>
+      <node id="5709">
+        <label>wxPropertyGridConstIterator</label>
+        <link refid="classwx_property_grid_const_iterator"/>
+        <childnode refid="5710" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="5712">
+        <label>wxPropertyGridIteratorBase</label>
+        <link refid="classwx_property_grid_iterator_base"/>
+      </node>
+      <node id="5711">
+        <label>wxPropertyGridConstIterator</label>
+        <link refid="classwx_property_grid_const_iterator"/>
+        <childnode refid="5712" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="interface/wx/propgrid/propgridpagestate.h" line="184" column="1" bodyfile="interface/wx/propgrid/propgridpagestate.h" bodystart="183" bodyend="195"/>
+    <listofallmembers>
+      <member refid="classwx_property_grid_iterator_base_1a5301ffabe9500fbffee659c140526d10" prot="public" virt="non-virtual"><scope>wxPropertyGridConstIterator</scope><name>Assign</name></member>
+      <member refid="classwx_property_grid_iterator_base_1a24d736ab34e4cd308e073767fe129371" prot="public" virt="non-virtual"><scope>wxPropertyGridConstIterator</scope><name>AtEnd</name></member>
+      <member refid="classwx_property_grid_iterator_base_1a25a6d9fc3246477c32e2ae933cc8c83c" prot="public" virt="non-virtual"><scope>wxPropertyGridConstIterator</scope><name>GetProperty</name></member>
+      <member refid="classwx_property_grid_iterator_base_1a663579d5c685f774a6b07c4ca5c5a122" prot="public" virt="non-virtual"><scope>wxPropertyGridConstIterator</scope><name>Init</name></member>
+      <member refid="classwx_property_grid_iterator_base_1aa4a638e1ac578e951189d10b00a47fda" prot="public" virt="non-virtual"><scope>wxPropertyGridConstIterator</scope><name>Init</name></member>
+      <member refid="classwx_property_grid_iterator_base_1a61901e57bfcf4ae8ac0da9f3720de846" prot="public" virt="non-virtual"><scope>wxPropertyGridConstIterator</scope><name>Next</name></member>
+      <member refid="classwx_property_grid_iterator_base_1acaae60068affbcb9ce3460ef1765f2fc" prot="public" virt="non-virtual"><scope>wxPropertyGridConstIterator</scope><name>Prev</name></member>
+      <member refid="classwx_property_grid_iterator_base_1a977efae9f3a591603f25e6acc55509b9" prot="public" virt="non-virtual"><scope>wxPropertyGridConstIterator</scope><name>SetBaseParent</name></member>
+      <member refid="classwx_property_grid_const_iterator_1a3febd6159dd499340a2705c153633292" prot="public" virt="non-virtual"><scope>wxPropertyGridConstIterator</scope><name>wxPropertyGridConstIterator</name></member>
+      <member refid="classwx_property_grid_const_iterator_1a6719a806389d59a1a705eef7be2e6776" prot="public" virt="non-virtual"><scope>wxPropertyGridConstIterator</scope><name>wxPropertyGridConstIterator</name></member>
+      <member refid="classwx_property_grid_const_iterator_1a07019871f0bb5ed70d1b44c164043fbd" prot="public" virt="non-virtual"><scope>wxPropertyGridConstIterator</scope><name>wxPropertyGridConstIterator</name></member>
+      <member refid="classwx_property_grid_const_iterator_1a6d0ac5e5ceaed98498c51b17295c751c" prot="public" virt="non-virtual"><scope>wxPropertyGridConstIterator</scope><name>wxPropertyGridConstIterator</name></member>
+      <member refid="classwx_property_grid_iterator_base_1ad3218b0e7179b07705d180a8cd3212db" prot="public" virt="non-virtual"><scope>wxPropertyGridConstIterator</scope><name>wxPropertyGridIteratorBase</name></member>
+      <member refid="classwx_property_grid_const_iterator_1a3423579a0c7695398edca50caa9f4a06" prot="public" virt="non-virtual"><scope>wxPropertyGridConstIterator</scope><name>~wxPropertyGridConstIterator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

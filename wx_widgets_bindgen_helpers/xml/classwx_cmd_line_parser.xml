@@ -1,0 +1,799 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_cmd_line_parser" kind="class" language="C++" prot="public">
+    <compoundname>wxCmdLineParser</compoundname>
+    <includes local="no">wx/cmdline.h</includes>
+      <sectiondef kind="user-defined">
+      <memberdef kind="function" id="classwx_cmd_line_parser_1ab38495b944060a2434b97068dea04824" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxCmdLineParser::SetCmdLine</definition>
+        <argsstring>(int argc, char **argv)</argsstring>
+        <name>SetCmdLine</name>
+        <param>
+          <type>int</type>
+          <declname>argc</declname>
+        </param>
+        <param>
+          <type>char **</type>
+          <declname>argv</declname>
+        </param>
+        <briefdescription>
+<para>Set the command line to parse after using one of the constructors which don&apos;t do it. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/cmdline.h" line="516" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_cmd_line_parser_1a5f9179bbfa468e833d507e9cccd14f88" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxCmdLineParser::SetCmdLine</definition>
+        <argsstring>(int argc, wchar_t **argv)</argsstring>
+        <name>SetCmdLine</name>
+        <param>
+          <type>int</type>
+          <declname>argc</declname>
+        </param>
+        <param>
+          <type>wchar_t **</type>
+          <declname>argv</declname>
+        </param>
+        <briefdescription>
+<para>Set the command line to parse after using one of the constructors which don&apos;t do it. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/cmdline.h" line="517" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_cmd_line_parser_1aefe037c833460769d82e27d63be87623" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxCmdLineParser::SetCmdLine</definition>
+        <argsstring>(const wxString &amp;cmdline)</argsstring>
+        <name>SetCmdLine</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>cmdline</declname>
+        </param>
+        <briefdescription>
+<para>Set the command line to parse after using one of the constructors which don&apos;t do it. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/cmdline.h" line="518" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classwx_cmd_line_parser_1ab70ad5b828a14094e6f4e2a0d6cbd6a5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxCmdLineParser::wxCmdLineParser</definition>
+        <argsstring>()</argsstring>
+        <name>wxCmdLineParser</name>
+        <briefdescription>
+<para>Default constructor, you must use <ref refid="classwx_cmd_line_parser_1ab38495b944060a2434b97068dea04824" kindref="member">SetCmdLine()</ref> later. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/cmdline.h" line="280" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_cmd_line_parser_1a6eb6f75eecbf45f608c6fbd16a0b21d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxCmdLineParser::wxCmdLineParser</definition>
+        <argsstring>(int argc, char **argv)</argsstring>
+        <name>wxCmdLineParser</name>
+        <param>
+          <type>int</type>
+          <declname>argc</declname>
+        </param>
+        <param>
+          <type>char **</type>
+          <declname>argv</declname>
+        </param>
+        <briefdescription>
+<para>Constructor which specifies the command line to parse. </para>        </briefdescription>
+        <detaileddescription>
+<para>This is the traditional (Unix) command line format. The parameters <emphasis>argc</emphasis> and <emphasis>argv</emphasis> have the same meaning as the typical <computeroutput>main()</computeroutput> function.</para><para>This constructor is available in both ANSI and Unicode modes because under some platforms the command line arguments are passed as ASCII strings even to Unicode programs. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/cmdline.h" line="291" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_cmd_line_parser_1adcd642a8b6ccb4c7c683725d2535e3a1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxCmdLineParser::wxCmdLineParser</definition>
+        <argsstring>(int argc, wchar_t **argv)</argsstring>
+        <name>wxCmdLineParser</name>
+        <param>
+          <type>int</type>
+          <declname>argc</declname>
+        </param>
+        <param>
+          <type>wchar_t **</type>
+          <declname>argv</declname>
+        </param>
+        <briefdescription>
+<para>Constructor which specifies the command line to parse. </para>        </briefdescription>
+        <detaileddescription>
+<para>This is the traditional (Unix) command line format.</para><para>The parameters <emphasis>argc</emphasis> and <emphasis>argv</emphasis> have the same meaning as the typical <computeroutput>main()</computeroutput> function.</para><para>This constructor is only available in Unicode build. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/cmdline.h" line="302" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_cmd_line_parser_1a95102f8f3ba8246c90e400ed91a6a9e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxCmdLineParser::wxCmdLineParser</definition>
+        <argsstring>(const wxString &amp;cmdline)</argsstring>
+        <name>wxCmdLineParser</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>cmdline</declname>
+        </param>
+        <briefdescription>
+<para>Constructor which specify the command line to parse in Windows format. </para>        </briefdescription>
+        <detaileddescription>
+<para>The parameter cmdline has the same meaning as the corresponding parameter of <computeroutput>WinMain()</computeroutput>. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/cmdline.h" line="309" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_cmd_line_parser_1a748e26a8155fa216483837a7144532ad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxCmdLineParser::wxCmdLineParser</definition>
+        <argsstring>(const wxCmdLineEntryDesc *desc)</argsstring>
+        <name>wxCmdLineParser</name>
+        <param>
+          <type>const <ref refid="structwx_cmd_line_entry_desc" kindref="compound">wxCmdLineEntryDesc</ref> *</type>
+          <declname>desc</declname>
+        </param>
+        <briefdescription>
+<para>Specifies the <ref refid="classwx_cmd_line_parser_1ac7281e9d5dfb7e41c1bf5f9fb959bbee" kindref="member">command line description</ref> but not the command line. </para>        </briefdescription>
+        <detaileddescription>
+<para>You must use <ref refid="classwx_cmd_line_parser_1ab38495b944060a2434b97068dea04824" kindref="member">SetCmdLine()</ref> later. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/cmdline.h" line="315" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_cmd_line_parser_1acdc4d2ce68032f412b1251f879f204c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxCmdLineParser::wxCmdLineParser</definition>
+        <argsstring>(const wxCmdLineEntryDesc *desc, int argc, char **argv)</argsstring>
+        <name>wxCmdLineParser</name>
+        <param>
+          <type>const <ref refid="structwx_cmd_line_entry_desc" kindref="compound">wxCmdLineEntryDesc</ref> *</type>
+          <declname>desc</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>argc</declname>
+        </param>
+        <param>
+          <type>char **</type>
+          <declname>argv</declname>
+        </param>
+        <briefdescription>
+<para>Specifies both the command line (in Unix format) and the <ref refid="classwx_cmd_line_parser_1ac7281e9d5dfb7e41c1bf5f9fb959bbee" kindref="member">command line description</ref>. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/cmdline.h" line="321" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_cmd_line_parser_1a6be47a28300ac3d1a0085f51f5aac8b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxCmdLineParser::wxCmdLineParser</definition>
+        <argsstring>(const wxCmdLineEntryDesc *desc, const wxString &amp;cmdline)</argsstring>
+        <name>wxCmdLineParser</name>
+        <param>
+          <type>const <ref refid="structwx_cmd_line_entry_desc" kindref="compound">wxCmdLineEntryDesc</ref> *</type>
+          <declname>desc</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>cmdline</declname>
+        </param>
+        <briefdescription>
+<para>Specifies both the command line (in Windows format) and the <ref refid="classwx_cmd_line_parser_1ac7281e9d5dfb7e41c1bf5f9fb959bbee" kindref="member">command line description</ref>. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/cmdline.h" line="327" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_cmd_line_parser_1aa100e0bcaa58595e99ba5907434dc1fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxCmdLineParser::~wxCmdLineParser</definition>
+        <argsstring>()</argsstring>
+        <name>~wxCmdLineParser</name>
+        <briefdescription>
+<para>Frees resources allocated by the object. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="note"><para>This destructor is not virtual, don&apos;t use this class polymorphically. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/cmdline.h" line="336" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_cmd_line_parser_1aa2a6c2690987a27868204c81fb4d9f10" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxCmdLineParser::AddLongOption</definition>
+        <argsstring>(const wxString &amp;lng, const wxString &amp;desc=wxEmptyString, wxCmdLineParamType type=wxCMD_LINE_VAL_STRING, int flags=0)</argsstring>
+        <name>AddLongOption</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>lng</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>desc</declname>
+          <defval><ref refid="interface_2wx_2string_8h_1a9a321d587166a30017b608dd2d234033" kindref="member">wxEmptyString</ref></defval>
+        </param>
+        <param>
+          <type><ref refid="cmdline_8h_1a25a5da7d58fcc0da36cd70c859306994" kindref="member">wxCmdLineParamType</ref></type>
+          <declname>type</declname>
+          <defval><ref refid="cmdline_8h_1a25a5da7d58fcc0da36cd70c859306994a7220d647869c6dbf642d08c0bf9bcbee" kindref="member">wxCMD_LINE_VAL_STRING</ref></defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>flags</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>Adds an option with only long form. </para>        </briefdescription>
+        <detaileddescription>
+<para>This is just a convenient wrapper for <ref refid="classwx_cmd_line_parser_1ab23a85663e5234be569469220d00a7d1" kindref="member">AddOption()</ref> passing an empty string as short option name.</para><para><simplesect kind="since"><para>2.9.3 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/cmdline.h" line="346" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_cmd_line_parser_1a8536e782a5cf4e14b664df216f6623e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxCmdLineParser::AddLongSwitch</definition>
+        <argsstring>(const wxString &amp;lng, const wxString &amp;desc=wxEmptyString, int flags=0)</argsstring>
+        <name>AddLongSwitch</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>lng</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>desc</declname>
+          <defval><ref refid="interface_2wx_2string_8h_1a9a321d587166a30017b608dd2d234033" kindref="member">wxEmptyString</ref></defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>flags</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>Adds a switch with only long form. </para>        </briefdescription>
+        <detaileddescription>
+<para>This is just a convenient wrapper for <ref refid="classwx_cmd_line_parser_1a0574f1a3ae51a374da9a570a3237ad3b" kindref="member">AddSwitch()</ref> passing an empty string as short switch name.</para><para><simplesect kind="since"><para>2.9.3 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/cmdline.h" line="360" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_cmd_line_parser_1ab23a85663e5234be569469220d00a7d1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxCmdLineParser::AddOption</definition>
+        <argsstring>(const wxString &amp;name, const wxString &amp;lng=wxEmptyString, const wxString &amp;desc=wxEmptyString, wxCmdLineParamType type=wxCMD_LINE_VAL_STRING, int flags=0)</argsstring>
+        <name>AddOption</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>lng</declname>
+          <defval><ref refid="interface_2wx_2string_8h_1a9a321d587166a30017b608dd2d234033" kindref="member">wxEmptyString</ref></defval>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>desc</declname>
+          <defval><ref refid="interface_2wx_2string_8h_1a9a321d587166a30017b608dd2d234033" kindref="member">wxEmptyString</ref></defval>
+        </param>
+        <param>
+          <type><ref refid="cmdline_8h_1a25a5da7d58fcc0da36cd70c859306994" kindref="member">wxCmdLineParamType</ref></type>
+          <declname>type</declname>
+          <defval><ref refid="cmdline_8h_1a25a5da7d58fcc0da36cd70c859306994a7220d647869c6dbf642d08c0bf9bcbee" kindref="member">wxCMD_LINE_VAL_STRING</ref></defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>flags</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>Add an option <emphasis>name</emphasis> with an optional long name <emphasis>lng</emphasis> (no long name if it is empty, which is default) taking a value of the given type (string by default) to the command line description. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/cmdline.h" line="369" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_cmd_line_parser_1a61a92fe66e0c11af3405ba1b63bbe28d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxCmdLineParser::AddParam</definition>
+        <argsstring>(const wxString &amp;desc=wxEmptyString, wxCmdLineParamType type=wxCMD_LINE_VAL_STRING, int flags=0)</argsstring>
+        <name>AddParam</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>desc</declname>
+          <defval><ref refid="interface_2wx_2string_8h_1a9a321d587166a30017b608dd2d234033" kindref="member">wxEmptyString</ref></defval>
+        </param>
+        <param>
+          <type><ref refid="cmdline_8h_1a25a5da7d58fcc0da36cd70c859306994" kindref="member">wxCmdLineParamType</ref></type>
+          <declname>type</declname>
+          <defval><ref refid="cmdline_8h_1a25a5da7d58fcc0da36cd70c859306994a7220d647869c6dbf642d08c0bf9bcbee" kindref="member">wxCMD_LINE_VAL_STRING</ref></defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>flags</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>Add a parameter of the given <emphasis>type</emphasis> to the command line description. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/cmdline.h" line="378" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_cmd_line_parser_1a0574f1a3ae51a374da9a570a3237ad3b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxCmdLineParser::AddSwitch</definition>
+        <argsstring>(const wxString &amp;name, const wxString &amp;lng=wxEmptyString, const wxString &amp;desc=wxEmptyString, int flags=0)</argsstring>
+        <name>AddSwitch</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>lng</declname>
+          <defval><ref refid="interface_2wx_2string_8h_1a9a321d587166a30017b608dd2d234033" kindref="member">wxEmptyString</ref></defval>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>desc</declname>
+          <defval><ref refid="interface_2wx_2string_8h_1a9a321d587166a30017b608dd2d234033" kindref="member">wxEmptyString</ref></defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>flags</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>Add a switch <emphasis>name</emphasis> with an optional long name <emphasis>lng</emphasis> (no long name if it is empty, which is default), description <emphasis>desc</emphasis> and flags <emphasis>flags</emphasis> to the command line description. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/cmdline.h" line="387" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_cmd_line_parser_1a25201f90d6d3175847f366dd81fede75" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxCmdLineParser::AddUsageText</definition>
+        <argsstring>(const wxString &amp;text)</argsstring>
+        <name>AddUsageText</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>text</declname>
+        </param>
+        <briefdescription>
+<para>Add a string <emphasis>text</emphasis> to the command line description shown by <ref refid="classwx_cmd_line_parser_1a55c8fbb0608b2415963516bdb86deb33" kindref="member">Usage()</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="since"><para>2.9.0 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/cmdline.h" line="397" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_cmd_line_parser_1adc06db22e9fe56fe9ee6d183515f5dfe" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxCmdLineParser::AreLongOptionsEnabled</definition>
+        <argsstring>() const</argsstring>
+        <name>AreLongOptionsEnabled</name>
+        <briefdescription>
+<para>Returns true if long options are enabled, otherwise false. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="see"><para><ref refid="classwx_cmd_line_parser_1a3817650ce71cb38be279f0a2029def3b" kindref="member">EnableLongOptions()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/cmdline.h" line="404" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_cmd_line_parser_1a4a885843cba2f51115c7d1238daef425" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxCmdLineParser::DisableLongOptions</definition>
+        <argsstring>()</argsstring>
+        <name>DisableLongOptions</name>
+        <briefdescription>
+<para>Identical to EnableLongOptions(false). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/cmdline.h" line="425" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_cmd_line_parser_1a3817650ce71cb38be279f0a2029def3b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxCmdLineParser::EnableLongOptions</definition>
+        <argsstring>(bool enable=true)</argsstring>
+        <name>EnableLongOptions</name>
+        <param>
+          <type>bool</type>
+          <declname>enable</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+<para>Enable or disable support for the long options. </para>        </briefdescription>
+        <detaileddescription>
+<para>As long options are not (yet) POSIX-compliant, this option allows to disable them.</para><para><simplesect kind="see"><para><ref refid="classwx_cmd_line_parser_1cmdlineparser_customization" kindref="member">Customization</ref> and <ref refid="classwx_cmd_line_parser_1adc06db22e9fe56fe9ee6d183515f5dfe" kindref="member">AreLongOptionsEnabled()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/cmdline.h" line="435" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_cmd_line_parser_1a49c52947dc41575d3d29134fccef681b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxCmdLineParser::Found</definition>
+        <argsstring>(const wxString &amp;name) const</argsstring>
+        <name>Found</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+<para>Returns true if the given switch was found, false otherwise. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/cmdline.h" line="440" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_cmd_line_parser_1a362804d9466b1d125bf36a40714b264f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="cmdline_8h_1a221be5db9115bb24981adcb2837d0889" kindref="member">wxCmdLineSwitchState</ref></type>
+        <definition>wxCmdLineSwitchState wxCmdLineParser::FoundSwitch</definition>
+        <argsstring>(const wxString &amp;name) const</argsstring>
+        <name>FoundSwitch</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+<para>Returns whether the switch was found on the command line and whether it was negated. </para>        </briefdescription>
+        <detaileddescription>
+<para>This method can be used for any kind of switch but is especially useful for switches that can be negated, i.e. were added with wxCMD_LINE_SWITCH_NEGATABLE flag, as otherwise <ref refid="classwx_cmd_line_parser_1a49c52947dc41575d3d29134fccef681b" kindref="member">Found()</ref> is simpler to use.</para><para>However <ref refid="classwx_cmd_line_parser_1a49c52947dc41575d3d29134fccef681b" kindref="member">Found()</ref> doesn&apos;t allow to distinguish between switch specified normally, i.e. without dash following it, and negated switch, i.e. with the following dash. This method will return <computeroutput>wxCMD_SWITCH_ON</computeroutput> or <computeroutput>wxCMD_SWITCH_OFF</computeroutput> depending on whether the switch was negated or not. And if the switch was not found at all, <computeroutput>wxCMD_SWITCH_NOT_FOUND</computeroutput> is returned.</para><para><simplesect kind="since"><para>2.9.2 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/cmdline.h" line="460" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_cmd_line_parser_1a8f7397d95ebec177aca96d0677caff7e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxCmdLineParser::Found</definition>
+        <argsstring>(const wxString &amp;name, wxString *value) const</argsstring>
+        <name>Found</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_string" kindref="compound">wxString</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Returns true if an option taking a string value was found and stores the value in the provided pointer (which should not be NULL). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/cmdline.h" line="466" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_cmd_line_parser_1ae876d759d843eec66d2344abc92e1f56" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxCmdLineParser::Found</definition>
+        <argsstring>(const wxString &amp;name, long *value) const</argsstring>
+        <name>Found</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>long *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Returns true if an option taking an integer value was found and stores the value in the provided pointer (which should not be NULL). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/cmdline.h" line="472" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_cmd_line_parser_1a76000b24a14096b58dc2c408d320f585" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxCmdLineParser::Found</definition>
+        <argsstring>(const wxString &amp;name, double *value) const</argsstring>
+        <name>Found</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Returns true if an option taking a float value was found and stores the value in the provided pointer (which should not be NULL). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/cmdline.h" line="478" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_cmd_line_parser_1a45a409a259d22fecf3777a55d34e6ab7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxCmdLineParser::Found</definition>
+        <argsstring>(const wxString &amp;name, wxDateTime *value) const</argsstring>
+        <name>Found</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_date_time" kindref="compound">wxDateTime</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Returns true if an option taking a date value was found and stores the value in the provided pointer (which should not be NULL). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/cmdline.h" line="484" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_cmd_line_parser_1aa5614a72e8720df483a898d2623a0468" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_string" kindref="compound">wxString</ref></type>
+        <definition>wxString wxCmdLineParser::GetParam</definition>
+        <argsstring>(size_t n=0) const</argsstring>
+        <name>GetParam</name>
+        <param>
+          <type>size_t</type>
+          <declname>n</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>Returns the value of Nth parameter (as string only). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/cmdline.h" line="489" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_cmd_line_parser_1a0a0e581c8f4aef235f776a0f2841e84f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t wxCmdLineParser::GetParamCount</definition>
+        <argsstring>() const</argsstring>
+        <name>GetParamCount</name>
+        <briefdescription>
+<para>Returns the number of parameters found. </para>        </briefdescription>
+        <detaileddescription>
+<para>This function makes sense mostly if you had used <computeroutput>wxCMD_LINE_PARAM_MULTIPLE</computeroutput> flag. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/cmdline.h" line="495" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_cmd_line_parser_1a80547a4638d7a16cbf6191e47fe7f82c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int wxCmdLineParser::Parse</definition>
+        <argsstring>(bool giveUsage=true)</argsstring>
+        <name>Parse</name>
+        <param>
+          <type>bool</type>
+          <declname>giveUsage</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+<para>Parse the command line, return 0 if ok, -1 if <computeroutput>&quot;-h&quot;</computeroutput> or <computeroutput>&quot;\--help&quot;</computeroutput> option was encountered and the help message was given or a positive value if a syntax error occurred. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>giveUsage</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>If true (default), the usage message is given if a syntax error was encountered while parsing the command line or if help was requested. If false, only error messages about possible syntax errors are given, use Usage to show the usage message from the caller if needed. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/cmdline.h" line="509" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_cmd_line_parser_1ac7281e9d5dfb7e41c1bf5f9fb959bbee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxCmdLineParser::SetDesc</definition>
+        <argsstring>(const wxCmdLineEntryDesc *desc)</argsstring>
+        <name>SetDesc</name>
+        <param>
+          <type>const <ref refid="structwx_cmd_line_entry_desc" kindref="compound">wxCmdLineEntryDesc</ref> *</type>
+          <declname>desc</declname>
+        </param>
+        <briefdescription>
+<para>Constructs the command line description. </para>        </briefdescription>
+        <detaileddescription>
+<para>Take the command line description from the wxCMD_LINE_NONE terminated table.</para><para>Example of usage:</para><para><programlisting><codeline><highlight class="normal">static<sp/>const<sp/>wxCmdLineEntryDesc<sp/>cmdLineDesc[]<sp/>=</highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/>wxCMD_LINE_SWITCH,<sp/>&quot;v&quot;,<sp/>&quot;verbose&quot;,<sp/>&quot;be<sp/>verbose&quot;<sp/>},</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/>wxCMD_LINE_SWITCH,<sp/>&quot;q&quot;,<sp/>&quot;quiet&quot;,<sp/><sp/><sp/>&quot;be<sp/>quiet&quot;<sp/>},</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/>wxCMD_LINE_OPTION,<sp/>&quot;o&quot;,<sp/>&quot;output&quot;,<sp/><sp/>&quot;output<sp/>file&quot;<sp/>},</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/>wxCMD_LINE_OPTION,<sp/>&quot;i&quot;,<sp/>&quot;input&quot;,<sp/><sp/><sp/>&quot;input<sp/>dir&quot;<sp/>},</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/>wxCMD_LINE_OPTION,<sp/>&quot;s&quot;,<sp/>&quot;size&quot;,<sp/><sp/><sp/><sp/>&quot;output<sp/>block<sp/>size&quot;,<sp/>wxCMD_LINE_VAL_NUMBER<sp/>},</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/>wxCMD_LINE_OPTION,<sp/>&quot;d&quot;,<sp/>&quot;date&quot;,<sp/><sp/><sp/><sp/>&quot;output<sp/>file<sp/>date&quot;,<sp/>wxCMD_LINE_VAL_DATE<sp/>},</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/>wxCMD_LINE_PARAM,<sp/><sp/>NULL,<sp/>NULL,<sp/>&quot;input<sp/>file&quot;,<sp/>wxCMD_LINE_VAL_STRING,<sp/>wxCMD_LINE_PARAM_MULTIPLE<sp/>},</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/>wxCMD_LINE_NONE<sp/>}</highlight></codeline>
+<codeline><highlight class="normal">};</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">wxCmdLineParser<sp/>parser;</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">parser.SetDesc(cmdLineDesc);</highlight></codeline>
+</programlisting> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/cmdline.h" line="550" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_cmd_line_parser_1acb89b52769bfe4e897098b17cd1855bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxCmdLineParser::SetLogo</definition>
+        <argsstring>(const wxString &amp;logo)</argsstring>
+        <name>SetLogo</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>logo</declname>
+        </param>
+        <briefdescription>
+<para>The <emphasis>logo</emphasis> is some extra text which will be shown by <ref refid="classwx_cmd_line_parser_1a55c8fbb0608b2415963516bdb86deb33" kindref="member">Usage()</ref> method. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/cmdline.h" line="555" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_cmd_line_parser_1a060ffe4abbbe7f40127b62a8e9c96f2f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxCmdLineParser::SetSwitchChars</definition>
+        <argsstring>(const wxString &amp;switchChars)</argsstring>
+        <name>SetSwitchChars</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>switchChars</declname>
+        </param>
+        <briefdescription>
+<para><emphasis>switchChars</emphasis> contains all characters with which an option or switch may start. </para>        </briefdescription>
+        <detaileddescription>
+<para>Default is <computeroutput>&quot;-&quot;</computeroutput> for Unix, <computeroutput>&quot;-/&quot;</computeroutput> for Windows. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/cmdline.h" line="561" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_cmd_line_parser_1a55c8fbb0608b2415963516bdb86deb33" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxCmdLineParser::Usage</definition>
+        <argsstring>() const</argsstring>
+        <name>Usage</name>
+        <briefdescription>
+<para>Give the standard usage message describing all program options. </para>        </briefdescription>
+        <detaileddescription>
+<para>It will use the options and parameters descriptions specified earlier, so the resulting message will not be helpful to the user unless the descriptions were indeed specified.</para><para><simplesect kind="see"><para><ref refid="classwx_cmd_line_parser_1acb89b52769bfe4e897098b17cd1855bb" kindref="member">SetLogo()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/cmdline.h" line="571" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_cmd_line_parser_1ad9de0fee1f4d5875bd4b0abd44b99631" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_string" kindref="compound">wxString</ref></type>
+        <definition>wxString wxCmdLineParser::GetUsageString</definition>
+        <argsstring>() const</argsstring>
+        <name>GetUsageString</name>
+        <briefdescription>
+<para>Return the string containing the program usage description. </para>        </briefdescription>
+        <detaileddescription>
+<para>Call <ref refid="classwx_cmd_line_parser_1a55c8fbb0608b2415963516bdb86deb33" kindref="member">Usage()</ref> to directly show this string to the user. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/cmdline.h" line="578" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classwx_cmd_line_parser_1a50901a46e0a5eba5224e8b28f9b83e66" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_array_string" kindref="compound">wxArrayString</ref></type>
+        <definition>static wxArrayString wxCmdLineParser::ConvertStringToArgs</definition>
+        <argsstring>(const wxString &amp;cmdline, wxCmdLineSplitType flags=wxCMD_LINE_SPLIT_DOS)</argsstring>
+        <name>ConvertStringToArgs</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>cmdline</declname>
+        </param>
+        <param>
+          <type><ref refid="cmdline_8h_1acc276a64e55895c17ba9f7b0d235b22c" kindref="member">wxCmdLineSplitType</ref></type>
+          <declname>flags</declname>
+          <defval><ref refid="cmdline_8h_1acc276a64e55895c17ba9f7b0d235b22ca04c3c43bdaec24974489a8c0313213cf" kindref="member">wxCMD_LINE_SPLIT_DOS</ref></defval>
+        </param>
+        <briefdescription>
+<para>Breaks down the string containing the full command line in words. </para>        </briefdescription>
+        <detaileddescription>
+<para>Words are separated by whitespace and double quotes can be used to preserve the spaces inside the words.</para><para>By default, this function uses Windows-like word splitting algorithm, i.e. single quotes have no special meaning and backslash can&apos;t be used to escape spaces neither. With <computeroutput>wxCMD_LINE_SPLIT_UNIX</computeroutput> flag Unix semantics is used, i.e. both single and double quotes can be used and backslash can be used to escape all the other special characters. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/cmdline.h" line="419" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="classwx_cmd_line_parser" kindref="compound">wxCmdLineParser</ref> is a class for parsing the command line. </para>    </briefdescription>
+    <detaileddescription>
+<para>It has the following features:</para><para><itemizedlist>
+<listitem><para>distinguishes options, switches and parameters</para></listitem><listitem><para>allows option grouping</para></listitem><listitem><para>allows both short and long options</para></listitem><listitem><para>automatically generates the usage message from the command line description</para></listitem><listitem><para>checks types of the options values (number, date, ...).</para></listitem></itemizedlist>
+</para><para>To use it you should follow these steps:</para><para><orderedlist>
+<listitem><para><ref refid="classwx_cmd_line_parser_1cmdlineparser_construction" kindref="member">Construct</ref> an object of this class giving it the command line to parse and optionally its description or use the <computeroutput>AddXXX()</computeroutput> functions later.</para></listitem><listitem><para>Call <ref refid="classwx_cmd_line_parser_1a80547a4638d7a16cbf6191e47fe7f82c" kindref="member">Parse()</ref>.</para></listitem><listitem><para>Use <ref refid="classwx_cmd_line_parser_1a49c52947dc41575d3d29134fccef681b" kindref="member">Found()</ref> to retrieve the results.</para></listitem></orderedlist>
+</para><para>You can also use <ref refid="classwx_app" kindref="compound">wxApp</ref>&apos;s default command line processing just overriding <ref refid="classwx_app_console_1a1708aeb916cbc3dc4a3333f1a6f33e04" kindref="member">wxAppConsole::OnInitCmdLine()</ref> and <ref refid="classwx_app_console_1aa6a309dbbaec2f75720df2d5743cf0e0" kindref="member">wxAppConsole::OnCmdLineParsed()</ref>.</para><para>In the documentation below the following terminology is used:</para><para><itemizedlist>
+<listitem><para><bold>switch:</bold> a boolean option which can be given or not, but which doesn&apos;t have any value. We use the word <emphasis>switch</emphasis> to distinguish such boolean options from more generic options like those described below. For example, <computeroutput>&quot;-v&quot;</computeroutput> might be a switch meaning &quot;enable verbose mode&quot;.</para></listitem><listitem><para><bold>option:</bold> a switch with a value associated to it. For example, <computeroutput>&quot;-o filename&quot;</computeroutput> might be an option for specifying the name of the output file.</para></listitem><listitem><para><bold>parameter:</bold> a required program argument.</para></listitem></itemizedlist>
+</para><sect1 id="classwx_cmd_line_parser_1cmdlineparser_construction">
+<title>Construction</title>
+<para>Before <ref refid="classwx_cmd_line_parser_1a80547a4638d7a16cbf6191e47fe7f82c" kindref="member">Parse()</ref> can be called, the command line parser object must have the command line to parse and also the rules saying which switches, options and parameters are valid - this is called command line description in what follows.</para><para>You have complete freedom of choice as to when specify the required information, the only restriction is that it must be done before calling <ref refid="classwx_cmd_line_parser_1a80547a4638d7a16cbf6191e47fe7f82c" kindref="member">Parse()</ref>.</para><para>To specify the command line to parse you may use either one of constructors accepting it (<ref refid="classwx_cmd_line_parser_1a6eb6f75eecbf45f608c6fbd16a0b21d6" kindref="member">wxCmdLineParser(int, char**)</ref> or <ref refid="classwx_cmd_line_parser_1a95102f8f3ba8246c90e400ed91a6a9e8" kindref="member">wxCmdLineParser(const wxString&amp;)</ref> usually) or, if you use the default constructor, you can do it later by calling <ref refid="classwx_cmd_line_parser_1ab38495b944060a2434b97068dea04824" kindref="member">SetCmdLine()</ref>.</para><para>The same holds for command line description: it can be specified either in the constructor (with or without the command line itself) or constructed later using either <ref refid="classwx_cmd_line_parser_1ac7281e9d5dfb7e41c1bf5f9fb959bbee" kindref="member">SetDesc()</ref> or combination of <ref refid="classwx_cmd_line_parser_1a0574f1a3ae51a374da9a570a3237ad3b" kindref="member">AddSwitch()</ref>, <ref refid="classwx_cmd_line_parser_1ab23a85663e5234be569469220d00a7d1" kindref="member">AddOption()</ref>, <ref refid="classwx_cmd_line_parser_1a61a92fe66e0c11af3405ba1b63bbe28d" kindref="member">AddParam()</ref> and <ref refid="classwx_cmd_line_parser_1a25201f90d6d3175847f366dd81fede75" kindref="member">AddUsageText()</ref> methods.</para><para>Using constructors or <ref refid="classwx_cmd_line_parser_1ac7281e9d5dfb7e41c1bf5f9fb959bbee" kindref="member">SetDesc()</ref> uses a (usually const static) table containing the command line description. If you want to decide which options to accept during the run-time, using one of the AddXXX() functions above might be preferable.</para></sect1>
+<sect1 id="classwx_cmd_line_parser_1cmdlineparser_customization">
+<title>Customization</title>
+<para><ref refid="classwx_cmd_line_parser" kindref="compound">wxCmdLineParser</ref> has several global options which may be changed by the application. All of the functions described in this section should be called before <ref refid="classwx_cmd_line_parser_1a80547a4638d7a16cbf6191e47fe7f82c" kindref="member">Parse()</ref>.</para><para>First global option is the support for long (also known as GNU-style) options. The long options are the ones which start with two dashes and look like &quot;\--verbose&quot;, i.e. they generally are complete words and not some abbreviations of them. As long options are used by more and more applications, they are enabled by default, but may be disabled with <ref refid="classwx_cmd_line_parser_1a4a885843cba2f51115c7d1238daef425" kindref="member">DisableLongOptions()</ref>.</para><para>Another global option is the set of characters which may be used to start an option (otherwise, the word on the command line is assumed to be a parameter). Under Unix, <computeroutput>&quot;-&quot;</computeroutput> is always used, but Windows has at least two common choices for this: <computeroutput>&quot;-&quot;</computeroutput> and <computeroutput>&quot;/&quot;</computeroutput>. Some programs also use &quot;+&quot;. The default is to use what suits most the current platform, but may be changed with <ref refid="classwx_cmd_line_parser_1a060ffe4abbbe7f40127b62a8e9c96f2f" kindref="member">SetSwitchChars()</ref> method.</para><para>Finally, <ref refid="classwx_cmd_line_parser_1acb89b52769bfe4e897098b17cd1855bb" kindref="member">SetLogo()</ref> can be used to show some application-specific text before the explanation given by <ref refid="classwx_cmd_line_parser_1a55c8fbb0608b2415963516bdb86deb33" kindref="member">Usage()</ref> function.</para></sect1>
+<sect1 id="classwx_cmd_line_parser_1cmdlineparser_parsing">
+<title>Parsing the Command Line</title>
+<para>After the command line description was constructed and the desired options were set, you can finally call <ref refid="classwx_cmd_line_parser_1a80547a4638d7a16cbf6191e47fe7f82c" kindref="member">Parse()</ref> method. It returns 0 if the command line was correct and was parsed, -1 if the help option was specified (this is a separate case as, normally, the program will terminate after this) or a positive number if there was an error during the command line parsing.</para><para>In the latter case, the appropriate error message and usage information are logged by <ref refid="classwx_cmd_line_parser" kindref="compound">wxCmdLineParser</ref> itself using the standard wxWidgets logging functions.</para></sect1>
+<sect1 id="classwx_cmd_line_parser_1cmdlineparser_results">
+<title>Getting Results</title>
+<para>After calling <ref refid="classwx_cmd_line_parser_1a80547a4638d7a16cbf6191e47fe7f82c" kindref="member">Parse()</ref> (and if it returned 0), you may access the results of parsing using one of overloaded <ref refid="classwx_cmd_line_parser_1a49c52947dc41575d3d29134fccef681b" kindref="member">Found()</ref> methods.</para><para>For a simple switch, you will simply call Found to determine if the switch was given or not, for an option or a parameter, you will call a version of <ref refid="classwx_cmd_line_parser_1a49c52947dc41575d3d29134fccef681b" kindref="member">Found()</ref> which also returns the associated value in the provided variable. All <ref refid="classwx_cmd_line_parser_1a49c52947dc41575d3d29134fccef681b" kindref="member">Found()</ref> functions return true if the switch or option were found in the command line or false if they were not specified.</para><para><heading level="2"></heading>
+</para><para>Library:<nonbreakablespace/><nonbreakablespace/><ref refid="page_libs_1page_libs_wxbase" kindref="member">wxBase</ref> &lt;&gt;&lt; =&apos;&apos;&gt;:&lt;/&gt;&amp;;&amp;;&lt; =&apos;&apos;&gt;\ &lt;/&gt;&lt;/&gt;</para><para><simplesect kind="see"><para><ref refid="classwx_app_console_1a18d2288273cee260ff047831a5e8bfc5" kindref="member">wxApp::argc</ref>, <ref refid="classwx_app_console_1aec036ffd2b28e72ca36cb0f7ef6a3b37" kindref="member">wxApp::argv</ref>, <ref refid="page_samples_1page_samples_console" kindref="member">Console Program Sample</ref> </para></simplesect>
+</para></sect1>
+    </detaileddescription>
+    <location file="interface/wx/cmdline.h" line="275" column="1" bodyfile="interface/wx/cmdline.h" bodystart="274" bodyend="579"/>
+    <listofallmembers>
+      <member refid="classwx_cmd_line_parser_1aa2a6c2690987a27868204c81fb4d9f10" prot="public" virt="non-virtual"><scope>wxCmdLineParser</scope><name>AddLongOption</name></member>
+      <member refid="classwx_cmd_line_parser_1a8536e782a5cf4e14b664df216f6623e4" prot="public" virt="non-virtual"><scope>wxCmdLineParser</scope><name>AddLongSwitch</name></member>
+      <member refid="classwx_cmd_line_parser_1ab23a85663e5234be569469220d00a7d1" prot="public" virt="non-virtual"><scope>wxCmdLineParser</scope><name>AddOption</name></member>
+      <member refid="classwx_cmd_line_parser_1a61a92fe66e0c11af3405ba1b63bbe28d" prot="public" virt="non-virtual"><scope>wxCmdLineParser</scope><name>AddParam</name></member>
+      <member refid="classwx_cmd_line_parser_1a0574f1a3ae51a374da9a570a3237ad3b" prot="public" virt="non-virtual"><scope>wxCmdLineParser</scope><name>AddSwitch</name></member>
+      <member refid="classwx_cmd_line_parser_1a25201f90d6d3175847f366dd81fede75" prot="public" virt="non-virtual"><scope>wxCmdLineParser</scope><name>AddUsageText</name></member>
+      <member refid="classwx_cmd_line_parser_1adc06db22e9fe56fe9ee6d183515f5dfe" prot="public" virt="non-virtual"><scope>wxCmdLineParser</scope><name>AreLongOptionsEnabled</name></member>
+      <member refid="classwx_cmd_line_parser_1a50901a46e0a5eba5224e8b28f9b83e66" prot="public" virt="non-virtual"><scope>wxCmdLineParser</scope><name>ConvertStringToArgs</name></member>
+      <member refid="classwx_cmd_line_parser_1a4a885843cba2f51115c7d1238daef425" prot="public" virt="non-virtual"><scope>wxCmdLineParser</scope><name>DisableLongOptions</name></member>
+      <member refid="classwx_cmd_line_parser_1a3817650ce71cb38be279f0a2029def3b" prot="public" virt="non-virtual"><scope>wxCmdLineParser</scope><name>EnableLongOptions</name></member>
+      <member refid="classwx_cmd_line_parser_1a49c52947dc41575d3d29134fccef681b" prot="public" virt="non-virtual"><scope>wxCmdLineParser</scope><name>Found</name></member>
+      <member refid="classwx_cmd_line_parser_1a8f7397d95ebec177aca96d0677caff7e" prot="public" virt="non-virtual"><scope>wxCmdLineParser</scope><name>Found</name></member>
+      <member refid="classwx_cmd_line_parser_1ae876d759d843eec66d2344abc92e1f56" prot="public" virt="non-virtual"><scope>wxCmdLineParser</scope><name>Found</name></member>
+      <member refid="classwx_cmd_line_parser_1a76000b24a14096b58dc2c408d320f585" prot="public" virt="non-virtual"><scope>wxCmdLineParser</scope><name>Found</name></member>
+      <member refid="classwx_cmd_line_parser_1a45a409a259d22fecf3777a55d34e6ab7" prot="public" virt="non-virtual"><scope>wxCmdLineParser</scope><name>Found</name></member>
+      <member refid="classwx_cmd_line_parser_1a362804d9466b1d125bf36a40714b264f" prot="public" virt="non-virtual"><scope>wxCmdLineParser</scope><name>FoundSwitch</name></member>
+      <member refid="classwx_cmd_line_parser_1aa5614a72e8720df483a898d2623a0468" prot="public" virt="non-virtual"><scope>wxCmdLineParser</scope><name>GetParam</name></member>
+      <member refid="classwx_cmd_line_parser_1a0a0e581c8f4aef235f776a0f2841e84f" prot="public" virt="non-virtual"><scope>wxCmdLineParser</scope><name>GetParamCount</name></member>
+      <member refid="classwx_cmd_line_parser_1ad9de0fee1f4d5875bd4b0abd44b99631" prot="public" virt="non-virtual"><scope>wxCmdLineParser</scope><name>GetUsageString</name></member>
+      <member refid="classwx_cmd_line_parser_1a80547a4638d7a16cbf6191e47fe7f82c" prot="public" virt="non-virtual"><scope>wxCmdLineParser</scope><name>Parse</name></member>
+      <member refid="classwx_cmd_line_parser_1ab38495b944060a2434b97068dea04824" prot="public" virt="non-virtual"><scope>wxCmdLineParser</scope><name>SetCmdLine</name></member>
+      <member refid="classwx_cmd_line_parser_1a5f9179bbfa468e833d507e9cccd14f88" prot="public" virt="non-virtual"><scope>wxCmdLineParser</scope><name>SetCmdLine</name></member>
+      <member refid="classwx_cmd_line_parser_1aefe037c833460769d82e27d63be87623" prot="public" virt="non-virtual"><scope>wxCmdLineParser</scope><name>SetCmdLine</name></member>
+      <member refid="classwx_cmd_line_parser_1ac7281e9d5dfb7e41c1bf5f9fb959bbee" prot="public" virt="non-virtual"><scope>wxCmdLineParser</scope><name>SetDesc</name></member>
+      <member refid="classwx_cmd_line_parser_1acb89b52769bfe4e897098b17cd1855bb" prot="public" virt="non-virtual"><scope>wxCmdLineParser</scope><name>SetLogo</name></member>
+      <member refid="classwx_cmd_line_parser_1a060ffe4abbbe7f40127b62a8e9c96f2f" prot="public" virt="non-virtual"><scope>wxCmdLineParser</scope><name>SetSwitchChars</name></member>
+      <member refid="classwx_cmd_line_parser_1a55c8fbb0608b2415963516bdb86deb33" prot="public" virt="non-virtual"><scope>wxCmdLineParser</scope><name>Usage</name></member>
+      <member refid="classwx_cmd_line_parser_1ab70ad5b828a14094e6f4e2a0d6cbd6a5" prot="public" virt="non-virtual"><scope>wxCmdLineParser</scope><name>wxCmdLineParser</name></member>
+      <member refid="classwx_cmd_line_parser_1a6eb6f75eecbf45f608c6fbd16a0b21d6" prot="public" virt="non-virtual"><scope>wxCmdLineParser</scope><name>wxCmdLineParser</name></member>
+      <member refid="classwx_cmd_line_parser_1adcd642a8b6ccb4c7c683725d2535e3a1" prot="public" virt="non-virtual"><scope>wxCmdLineParser</scope><name>wxCmdLineParser</name></member>
+      <member refid="classwx_cmd_line_parser_1a95102f8f3ba8246c90e400ed91a6a9e8" prot="public" virt="non-virtual"><scope>wxCmdLineParser</scope><name>wxCmdLineParser</name></member>
+      <member refid="classwx_cmd_line_parser_1a748e26a8155fa216483837a7144532ad" prot="public" virt="non-virtual"><scope>wxCmdLineParser</scope><name>wxCmdLineParser</name></member>
+      <member refid="classwx_cmd_line_parser_1acdc4d2ce68032f412b1251f879f204c0" prot="public" virt="non-virtual"><scope>wxCmdLineParser</scope><name>wxCmdLineParser</name></member>
+      <member refid="classwx_cmd_line_parser_1a6be47a28300ac3d1a0085f51f5aac8b2" prot="public" virt="non-virtual"><scope>wxCmdLineParser</scope><name>wxCmdLineParser</name></member>
+      <member refid="classwx_cmd_line_parser_1aa100e0bcaa58595e99ba5907434dc1fa" prot="public" virt="non-virtual"><scope>wxCmdLineParser</scope><name>~wxCmdLineParser</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

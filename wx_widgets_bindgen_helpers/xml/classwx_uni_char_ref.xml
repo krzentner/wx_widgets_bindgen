@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_uni_char_ref" kind="class" language="C++" prot="public">
+    <compoundname>wxUniCharRef</compoundname>
+    <includes local="no">wx/unichar.h</includes>
+    <briefdescription>
+<para>Writeable reference to a character in <ref refid="classwx_string" kindref="compound">wxString</ref>. </para>    </briefdescription>
+    <detaileddescription>
+<para>This class can be used in the same way wxChar is used, except that changing its value updates the underlying string object.</para><para><heading level="2"></heading>
+</para><para>Library:<nonbreakablespace/><nonbreakablespace/><ref refid="page_libs_1page_libs_wxbase" kindref="member">wxBase</ref> &lt;&gt;&lt; =&apos;&apos;&gt;:&lt;/&gt;&amp;;&amp;;&lt; =&apos;&apos;&gt;\ &lt;/&gt;&lt;/&gt; </para>    </detaileddescription>
+    <location file="interface/wx/unichar.h" line="138" column="1" bodyfile="interface/wx/unichar.h" bodystart="137" bodyend="140"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

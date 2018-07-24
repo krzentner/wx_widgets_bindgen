@@ -1,0 +1,354 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="auibook_8h" kind="file" language="C++">
+    <compoundname>auibook.h</compoundname>
+    <innerclass refid="classwx_aui_notebook" prot="public">wxAuiNotebook</innerclass>
+    <innerclass refid="classwx_aui_notebook_page" prot="public">wxAuiNotebookPage</innerclass>
+    <innerclass refid="classwx_aui_tab_container_button" prot="public">wxAuiTabContainerButton</innerclass>
+    <innerclass refid="classwx_aui_tab_container" prot="public">wxAuiTabContainer</innerclass>
+    <innerclass refid="classwx_aui_tab_art" prot="public">wxAuiTabArt</innerclass>
+    <innerclass refid="classwx_aui_notebook_event" prot="public">wxAuiNotebookEvent</innerclass>
+    <innerclass refid="classwx_aui_default_tab_art" prot="public">wxAuiDefaultTabArt</innerclass>
+    <innerclass refid="classwx_aui_simple_tab_art" prot="public">wxAuiSimpleTabArt</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="auibook_8h_1a4cbe749dd7778062eeca81d6b1e57195" prot="public" static="no" strong="no">
+        <type></type>
+        <name>wxAuiNotebookOption</name>
+        <enumvalue id="auibook_8h_1a4cbe749dd7778062eeca81d6b1e57195a820b88ca1f4525d896f83c7b73854de6" prot="public">
+          <name>wxAUI_NB_TOP</name>
+          <initializer>= 1 &lt;&lt; 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="auibook_8h_1a4cbe749dd7778062eeca81d6b1e57195a1537c2723fd1b55aa3911e44e7546874" prot="public">
+          <name>wxAUI_NB_LEFT</name>
+          <initializer>= 1 &lt;&lt; 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="auibook_8h_1a4cbe749dd7778062eeca81d6b1e57195ac1f686854855ccc7e84cb3821f433fe1" prot="public">
+          <name>wxAUI_NB_RIGHT</name>
+          <initializer>= 1 &lt;&lt; 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="auibook_8h_1a4cbe749dd7778062eeca81d6b1e57195a1250d91ec1738b5c29ca3884e07fabbd" prot="public">
+          <name>wxAUI_NB_BOTTOM</name>
+          <initializer>= 1 &lt;&lt; 3</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="auibook_8h_1a4cbe749dd7778062eeca81d6b1e57195aa657b19b80fbf0aeb09be90fe41cd02e" prot="public">
+          <name>wxAUI_NB_TAB_SPLIT</name>
+          <initializer>= 1 &lt;&lt; 4</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="auibook_8h_1a4cbe749dd7778062eeca81d6b1e57195af054937baac34bba093dfd039a0ba116" prot="public">
+          <name>wxAUI_NB_TAB_MOVE</name>
+          <initializer>= 1 &lt;&lt; 5</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="auibook_8h_1a4cbe749dd7778062eeca81d6b1e57195a2756d0f0cee2143a0341d45140d78744" prot="public">
+          <name>wxAUI_NB_TAB_EXTERNAL_MOVE</name>
+          <initializer>= 1 &lt;&lt; 6</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="auibook_8h_1a4cbe749dd7778062eeca81d6b1e57195af25445e34f7079613da3709b2d513e8e" prot="public">
+          <name>wxAUI_NB_TAB_FIXED_WIDTH</name>
+          <initializer>= 1 &lt;&lt; 7</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="auibook_8h_1a4cbe749dd7778062eeca81d6b1e57195a9b15f5ccf6c50e2e23f4ecbb7ee63851" prot="public">
+          <name>wxAUI_NB_SCROLL_BUTTONS</name>
+          <initializer>= 1 &lt;&lt; 8</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="auibook_8h_1a4cbe749dd7778062eeca81d6b1e57195af33a3e05e961e10f55de2b4d5f710804" prot="public">
+          <name>wxAUI_NB_WINDOWLIST_BUTTON</name>
+          <initializer>= 1 &lt;&lt; 9</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="auibook_8h_1a4cbe749dd7778062eeca81d6b1e57195a2875b09c1b14b201260fafe5bf17f099" prot="public">
+          <name>wxAUI_NB_CLOSE_BUTTON</name>
+          <initializer>= 1 &lt;&lt; 10</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="auibook_8h_1a4cbe749dd7778062eeca81d6b1e57195a7ffe52ef6dcbedbd33125815cee76379" prot="public">
+          <name>wxAUI_NB_CLOSE_ON_ACTIVE_TAB</name>
+          <initializer>= 1 &lt;&lt; 11</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="auibook_8h_1a4cbe749dd7778062eeca81d6b1e57195aec247c41f7bce84d7d0445eafcd6c163" prot="public">
+          <name>wxAUI_NB_CLOSE_ON_ALL_TABS</name>
+          <initializer>= 1 &lt;&lt; 12</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="auibook_8h_1a4cbe749dd7778062eeca81d6b1e57195aeaf629ffc7ff85bcd7c1bd3d041a8aed" prot="public">
+          <name>wxAUI_NB_MIDDLE_CLICK_CLOSE</name>
+          <initializer>= 1 &lt;&lt; 13</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="auibook_8h_1a4cbe749dd7778062eeca81d6b1e57195a71bc7230853bae9235f0a757b72b3727" prot="public">
+          <name>wxAUI_NB_DEFAULT_STYLE</name>
+          <initializer>= wxAUI_NB_TOP |
+                             wxAUI_NB_TAB_SPLIT |
+                             wxAUI_NB_TAB_MOVE |
+                             wxAUI_NB_SCROLL_BUTTONS |
+                             wxAUI_NB_CLOSE_ON_ACTIVE_TAB |
+                             wxAUI_NB_MIDDLE_CLICK_CLOSE</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/auibook.h" line="9" column="1" bodyfile="interface/wx/aui/auibook.h" bodystart="8" bodyend="31"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="auibook_8h_1affc356a3a30143dcb80ac4afe35a84f9" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_AUINOTEBOOK_PAGE_CLOSE</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_AUINOTEBOOK_PAGE_CLOSE</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/auibook.h" line="710" column="1" bodyfile="interface/wx/aui/auibook.h" bodystart="710" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="auibook_8h_1a33cd8e375d68fc747423a21a8d1cfd35" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_AUINOTEBOOK_PAGE_CLOSED</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_AUINOTEBOOK_PAGE_CLOSED</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/auibook.h" line="711" column="1" bodyfile="interface/wx/aui/auibook.h" bodystart="711" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="auibook_8h_1af4a1e362a1aff5e76388251ecd0e28b8" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_AUINOTEBOOK_PAGE_CHANGED</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_AUINOTEBOOK_PAGE_CHANGED</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/auibook.h" line="712" column="1" bodyfile="interface/wx/aui/auibook.h" bodystart="712" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="auibook_8h_1a32b6e4036d421e02f0115d1e0e949901" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_AUINOTEBOOK_PAGE_CHANGING</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_AUINOTEBOOK_PAGE_CHANGING</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/auibook.h" line="713" column="1" bodyfile="interface/wx/aui/auibook.h" bodystart="713" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="auibook_8h_1a63352b40b48a6908003ab0676eebfa31" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_AUINOTEBOOK_BUTTON</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_AUINOTEBOOK_BUTTON</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/auibook.h" line="714" column="1" bodyfile="interface/wx/aui/auibook.h" bodystart="714" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="auibook_8h_1a55755f7a72fead9be654470ff5fc2bac" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_AUINOTEBOOK_BEGIN_DRAG</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_AUINOTEBOOK_BEGIN_DRAG</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/auibook.h" line="715" column="1" bodyfile="interface/wx/aui/auibook.h" bodystart="715" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="auibook_8h_1ab5a79cf863449687f8c8141440bd4f83" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_AUINOTEBOOK_END_DRAG</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_AUINOTEBOOK_END_DRAG</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/auibook.h" line="716" column="1" bodyfile="interface/wx/aui/auibook.h" bodystart="716" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="auibook_8h_1a07417e837911363f1100fb271b8bb40d" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_AUINOTEBOOK_DRAG_MOTION</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_AUINOTEBOOK_DRAG_MOTION</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/auibook.h" line="717" column="1" bodyfile="interface/wx/aui/auibook.h" bodystart="717" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="auibook_8h_1ad48fdd892f1b45c5f243c28861bd17c6" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_AUINOTEBOOK_ALLOW_DND</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_AUINOTEBOOK_ALLOW_DND</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/auibook.h" line="718" column="1" bodyfile="interface/wx/aui/auibook.h" bodystart="718" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="auibook_8h_1aab0202186955fc42a36404b3fb7793b1" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_AUINOTEBOOK_DRAG_DONE</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_AUINOTEBOOK_DRAG_DONE</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/auibook.h" line="719" column="1" bodyfile="interface/wx/aui/auibook.h" bodystart="719" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="auibook_8h_1a57bf0536e18585e387c21030c7a5425a" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_AUINOTEBOOK_TAB_MIDDLE_DOWN</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_AUINOTEBOOK_TAB_MIDDLE_DOWN</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/auibook.h" line="720" column="1" bodyfile="interface/wx/aui/auibook.h" bodystart="720" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="auibook_8h_1aefa35cc7c068aa438891d0a5fbfb3b78" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_AUINOTEBOOK_TAB_MIDDLE_UP</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_AUINOTEBOOK_TAB_MIDDLE_UP</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/auibook.h" line="721" column="1" bodyfile="interface/wx/aui/auibook.h" bodystart="721" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="auibook_8h_1ac29c35d2aef066a81189ff4dc37bf135" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_AUINOTEBOOK_TAB_RIGHT_DOWN</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_AUINOTEBOOK_TAB_RIGHT_DOWN</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/auibook.h" line="722" column="1" bodyfile="interface/wx/aui/auibook.h" bodystart="722" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="auibook_8h_1a6f72398ad77103f15c3400592ad387e8" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_AUINOTEBOOK_TAB_RIGHT_UP</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_AUINOTEBOOK_TAB_RIGHT_UP</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/auibook.h" line="723" column="1" bodyfile="interface/wx/aui/auibook.h" bodystart="723" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="auibook_8h_1a523ae5a90cac22663d5c95ae894c189b" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_AUINOTEBOOK_BG_DCLICK</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_AUINOTEBOOK_BG_DCLICK</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/auibook.h" line="724" column="1" bodyfile="interface/wx/aui/auibook.h" bodystart="724" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="interface/wx/aui/auibook.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_persistent_t_l_w" kind="class" language="C++" prot="public">
+    <compoundname>wxPersistentTLW</compoundname>
+    <basecompoundref refid="classwx_persistent_window" prot="public" virt="non-virtual">wxPersistentWindow&lt; wxTopLevelWindow &gt;</basecompoundref>
+    <includes local="no">wx/persist/toplevel.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classwx_persistent_t_l_w_1af849d554268f7c4ca4a34aebfb783a87" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxPersistentTLW::wxPersistentTLW</definition>
+        <argsstring>(wxTopLevelWindow *book)</argsstring>
+        <name>wxPersistentTLW</name>
+        <param>
+          <type><ref refid="classwx_top_level_window" kindref="compound">wxTopLevelWindow</ref> *</type>
+          <declname>book</declname>
+        </param>
+        <briefdescription>
+<para>Constructor. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>book</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The associated window. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/persist/toplevel.h" line="27" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_persistent_t_l_w_1ada1c69648b3ee9799b0003b430d90cb6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void wxPersistentTLW::Save</definition>
+        <argsstring>() const</argsstring>
+        <name>Save</name>
+        <reimplements refid="classwx_persistent_object_1a93e351e08f224fbe7a2ab110458ba9cc">Save</reimplements>
+        <briefdescription>
+<para>Save the current window geometry. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/persist/toplevel.h" line="32" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_persistent_t_l_w_1ab32aa061f7548f6ccc4ed4820f73d2e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool wxPersistentTLW::Restore</definition>
+        <argsstring>()</argsstring>
+        <name>Restore</name>
+        <reimplements refid="classwx_persistent_object_1a04f9a557b8dd17c60c83cb29102e093e">Restore</reimplements>
+        <briefdescription>
+<para>Restore the window geometry. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/persist/toplevel.h" line="37" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Persistence adapter for <ref refid="classwx_top_level_window" kindref="compound">wxTopLevelWindow</ref>. </para>    </briefdescription>
+    <detaileddescription>
+<para>This adapter saves and restores the geometry (i.e. position and size) and the state (iconized, maximized or normal) of top level windows. It can be used with both <ref refid="classwx_frame" kindref="compound">wxFrame</ref> and <ref refid="classwx_dialog" kindref="compound">wxDialog</ref>.</para><para>Note that it does <emphasis>not</emphasis> save nor restore the window visibility. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="5204">
+        <label>wxPersistentTLW</label>
+        <link refid="classwx_persistent_t_l_w"/>
+        <childnode refid="5205" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5205">
+        <label>wxPersistentWindow&lt; wxTopLevelWindow &gt;</label>
+        <link refid="classwx_persistent_window"/>
+        <childnode refid="5206" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5206">
+        <label>wxPersistentObject</label>
+        <link refid="classwx_persistent_object"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="5207">
+        <label>wxPersistentTLW</label>
+        <link refid="classwx_persistent_t_l_w"/>
+        <childnode refid="5208" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5208">
+        <label>wxPersistentWindow&lt; wxTopLevelWindow &gt;</label>
+        <link refid="classwx_persistent_window"/>
+        <childnode refid="5209" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5209">
+        <label>wxPersistentObject</label>
+        <link refid="classwx_persistent_object"/>
+      </node>
+    </collaborationgraph>
+    <location file="interface/wx/persist/toplevel.h" line="19" column="1" bodyfile="interface/wx/persist/toplevel.h" bodystart="18" bodyend="38"/>
+    <listofallmembers>
+      <member refid="classwx_persistent_window_1a4c351429beca46124779663e17311d70" prot="public" virt="non-virtual"><scope>wxPersistentTLW</scope><name>Get</name></member>
+      <member refid="classwx_persistent_object_1a53d730bbfe3fdf57c9c553987f1096f8" prot="public" virt="pure-virtual"><scope>wxPersistentTLW</scope><name>GetKind</name></member>
+      <member refid="classwx_persistent_window_1a261c7aef57887305fc94eba8c2661ff0" prot="public" virt="virtual"><scope>wxPersistentTLW</scope><name>GetName</name></member>
+      <member refid="classwx_persistent_object_1a0b0fbd22151149d2c45aca62c2c738bf" prot="public" virt="non-virtual"><scope>wxPersistentTLW</scope><name>GetObject</name></member>
+      <member refid="classwx_persistent_t_l_w_1ab32aa061f7548f6ccc4ed4820f73d2e5" prot="public" virt="virtual"><scope>wxPersistentTLW</scope><name>Restore</name></member>
+      <member refid="classwx_persistent_object_1a7dd10ed5914be1d60f9104f0a80bafe5" prot="protected" virt="non-virtual"><scope>wxPersistentTLW</scope><name>RestoreValue</name></member>
+      <member refid="classwx_persistent_t_l_w_1ada1c69648b3ee9799b0003b430d90cb6" prot="public" virt="virtual"><scope>wxPersistentTLW</scope><name>Save</name></member>
+      <member refid="classwx_persistent_object_1ac1fcea880e365018189ae3534c50a80f" prot="protected" virt="non-virtual"><scope>wxPersistentTLW</scope><name>SaveValue</name></member>
+      <member refid="classwx_persistent_window_1aae880a18a0619852354e0c416474d066" prot="public" virt="non-virtual"><scope>wxPersistentTLW</scope><name>WindowType</name></member>
+      <member refid="classwx_persistent_object_1aa400f4ce8ec1eed2498dd5dd1a385942" prot="public" virt="non-virtual"><scope>wxPersistentTLW</scope><name>wxPersistentObject</name></member>
+      <member refid="classwx_persistent_t_l_w_1af849d554268f7c4ca4a34aebfb783a87" prot="public" virt="non-virtual"><scope>wxPersistentTLW</scope><name>wxPersistentTLW</name></member>
+      <member refid="classwx_persistent_window_1a92e849fad0fdefa08880d87a7a8d7e48" prot="public" virt="non-virtual"><scope>wxPersistentTLW</scope><name>wxPersistentWindow</name></member>
+      <member refid="classwx_persistent_object_1accfdecb17fa0e67708e0c9057cc91041" prot="public" virt="virtual"><scope>wxPersistentTLW</scope><name>~wxPersistentObject</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

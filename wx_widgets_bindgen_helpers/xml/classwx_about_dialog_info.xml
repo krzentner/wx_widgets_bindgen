@@ -1,0 +1,666 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_about_dialog_info" kind="class" language="C++" prot="public">
+    <compoundname>wxAboutDialogInfo</compoundname>
+    <includes local="no">wx/aboutdlg.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classwx_about_dialog_info_1ab58b7d0d7bb3aa40eca4531c4f8c1e6f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxAboutDialogInfo::wxAboutDialogInfo</definition>
+        <argsstring>()</argsstring>
+        <name>wxAboutDialogInfo</name>
+        <briefdescription>
+<para>Default constructor leaves all fields are initially uninitialized, in general you should call at least <ref refid="classwx_about_dialog_info_1aac5029cab6b04b34dbf8cd6b66fff251" kindref="member">SetVersion()</ref>, <ref refid="classwx_about_dialog_info_1a10f5d9b8ca9ed69754e54fd2e03c4538" kindref="member">SetCopyright()</ref> and <ref refid="classwx_about_dialog_info_1a47bd84aa96af70cb304a76c6cf3428e3" kindref="member">SetDescription()</ref>. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aboutdlg.h" line="60" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_about_dialog_info_1a48d616165e8a0614f7a063f898c69f8b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxAboutDialogInfo::AddArtist</definition>
+        <argsstring>(const wxString &amp;artist)</argsstring>
+        <name>AddArtist</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>artist</declname>
+        </param>
+        <briefdescription>
+<para>Adds an artist name to be shown in the program credits. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="see"><para><ref refid="classwx_about_dialog_info_1ab0bf3125a82ea0acef226d37aa54879d" kindref="member">SetArtists()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aboutdlg.h" line="67" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_about_dialog_info_1a26dba3b09941ae3761c452b78d37165f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxAboutDialogInfo::AddDeveloper</definition>
+        <argsstring>(const wxString &amp;developer)</argsstring>
+        <name>AddDeveloper</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>developer</declname>
+        </param>
+        <briefdescription>
+<para>Adds a developer name to be shown in the program credits. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="see"><para><ref refid="classwx_about_dialog_info_1a2bde3b28eb55f653e8229ea534775c24" kindref="member">SetDevelopers()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aboutdlg.h" line="74" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_about_dialog_info_1ab4d85602b53de48169bbdb4d0cf9c67a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxAboutDialogInfo::AddDocWriter</definition>
+        <argsstring>(const wxString &amp;docwriter)</argsstring>
+        <name>AddDocWriter</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>docwriter</declname>
+        </param>
+        <briefdescription>
+<para>Adds a documentation writer name to be shown in the program credits. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="see"><para><ref refid="classwx_about_dialog_info_1ad268df6e3fd75d9e9c02a463c87bdab6" kindref="member">SetDocWriters()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aboutdlg.h" line="81" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_about_dialog_info_1aeaa05b49f9c1df2b1ee6304d64426843" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxAboutDialogInfo::AddTranslator</definition>
+        <argsstring>(const wxString &amp;translator)</argsstring>
+        <name>AddTranslator</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>translator</declname>
+        </param>
+        <briefdescription>
+<para>Adds a translator name to be shown in the program credits. </para>        </briefdescription>
+        <detaileddescription>
+<para>Notice that if no translator names are specified explicitly, <ref refid="group__group__funcmacro__dialog_1ga6d8198c95b97786f206abfde010a4d8f" kindref="member">wxAboutBox()</ref> will try to use the translation of the string <computeroutput>translator-credits</computeroutput> from the currently used message catalog <ndash/> this can be used to show just the name of the translator of the program in the current language.</para><para><simplesect kind="see"><para><ref refid="classwx_about_dialog_info_1a1deb2e1d6a68f87857aa9cd10d666221" kindref="member">SetTranslators()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aboutdlg.h" line="92" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_about_dialog_info_1a3bd339e4b28c4cb49a40a17765bb741d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_string" kindref="compound">wxString</ref></type>
+        <definition>wxString wxAboutDialogInfo::GetName</definition>
+        <argsstring>() const</argsstring>
+        <name>GetName</name>
+        <briefdescription>
+<para>Get the name of the program. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Name of the program </para></simplesect>
+<simplesect kind="see"><para><ref refid="classwx_about_dialog_info_1a5fef05c5e61acb59d9554bda8de26eef" kindref="member">SetName()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aboutdlg.h" line="100" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_about_dialog_info_1abf020f899343483c2a66b3cbe5c48eb2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxAboutDialogInfo::HasDescription</definition>
+        <argsstring>() const</argsstring>
+        <name>HasDescription</name>
+        <briefdescription>
+<para>Returns true if a description string has been specified. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="see"><para><ref refid="classwx_about_dialog_info_1a79033d197f932f82dcf9d3925f8a4b0e" kindref="member">GetDescription()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aboutdlg.h" line="107" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_about_dialog_info_1a79033d197f932f82dcf9d3925f8a4b0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+        <definition>const wxString&amp; wxAboutDialogInfo::GetDescription</definition>
+        <argsstring>()</argsstring>
+        <name>GetDescription</name>
+        <briefdescription>
+<para>Get the description string. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The description string, free-form. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aboutdlg.h" line="114" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_about_dialog_info_1a9ae57445d46b6e827c710fb7cfed980b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxAboutDialogInfo::HasCopyright</definition>
+        <argsstring>() const</argsstring>
+        <name>HasCopyright</name>
+        <briefdescription>
+<para>Returns true if a copyright string has been specified. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="see"><para><ref refid="classwx_about_dialog_info_1a44392ad29ef7311c16fd4971ebbf524b" kindref="member">GetCopyright()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aboutdlg.h" line="121" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_about_dialog_info_1a44392ad29ef7311c16fd4971ebbf524b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+        <definition>const wxString&amp; wxAboutDialogInfo::GetCopyright</definition>
+        <argsstring>() const</argsstring>
+        <name>GetCopyright</name>
+        <briefdescription>
+<para>Get the copyright string. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The copyright string </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aboutdlg.h" line="128" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_about_dialog_info_1ab0bf3125a82ea0acef226d37aa54879d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxAboutDialogInfo::SetArtists</definition>
+        <argsstring>(const wxArrayString &amp;artists)</argsstring>
+        <name>SetArtists</name>
+        <param>
+          <type>const <ref refid="classwx_array_string" kindref="compound">wxArrayString</ref> &amp;</type>
+          <declname>artists</declname>
+        </param>
+        <briefdescription>
+<para>Sets the list of artists to be shown in the program credits. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="see"><para><ref refid="classwx_about_dialog_info_1a48d616165e8a0614f7a063f898c69f8b" kindref="member">AddArtist()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aboutdlg.h" line="135" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_about_dialog_info_1a10f5d9b8ca9ed69754e54fd2e03c4538" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxAboutDialogInfo::SetCopyright</definition>
+        <argsstring>(const wxString &amp;copyright)</argsstring>
+        <name>SetCopyright</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>copyright</declname>
+        </param>
+        <briefdescription>
+<para>Set the short string containing the program copyright information. </para>        </briefdescription>
+        <detaileddescription>
+<para>Notice that any occurrences of <computeroutput>&quot;(C)&quot;</computeroutput> in <emphasis>copyright</emphasis> will be replaced by the copyright symbol (circled C) automatically, which means that you can avoid using this symbol in the program source code which can be problematic, </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aboutdlg.h" line="143" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_about_dialog_info_1a47bd84aa96af70cb304a76c6cf3428e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxAboutDialogInfo::SetDescription</definition>
+        <argsstring>(const wxString &amp;desc)</argsstring>
+        <name>SetDescription</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>desc</declname>
+        </param>
+        <briefdescription>
+<para>Set brief, but possibly multiline, description of the program. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aboutdlg.h" line="148" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_about_dialog_info_1a2bde3b28eb55f653e8229ea534775c24" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxAboutDialogInfo::SetDevelopers</definition>
+        <argsstring>(const wxArrayString &amp;developers)</argsstring>
+        <name>SetDevelopers</name>
+        <param>
+          <type>const <ref refid="classwx_array_string" kindref="compound">wxArrayString</ref> &amp;</type>
+          <declname>developers</declname>
+        </param>
+        <briefdescription>
+<para>Set the list of developers of the program. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="see"><para><ref refid="classwx_about_dialog_info_1a26dba3b09941ae3761c452b78d37165f" kindref="member">AddDeveloper()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aboutdlg.h" line="155" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_about_dialog_info_1ad268df6e3fd75d9e9c02a463c87bdab6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxAboutDialogInfo::SetDocWriters</definition>
+        <argsstring>(const wxArrayString &amp;docwriters)</argsstring>
+        <name>SetDocWriters</name>
+        <param>
+          <type>const <ref refid="classwx_array_string" kindref="compound">wxArrayString</ref> &amp;</type>
+          <declname>docwriters</declname>
+        </param>
+        <briefdescription>
+<para>Set the list of documentation writers. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="see"><para><ref refid="classwx_about_dialog_info_1ab4d85602b53de48169bbdb4d0cf9c67a" kindref="member">AddDocWriter()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aboutdlg.h" line="162" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_about_dialog_info_1a8189b1afc9d836050c0296e4de7ba32b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxAboutDialogInfo::HasIcon</definition>
+        <argsstring>() const</argsstring>
+        <name>HasIcon</name>
+        <briefdescription>
+<para>Returns true if an icon has been set for the about dialog. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aboutdlg.h" line="167" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_about_dialog_info_1aa6c5a14ab0ed2dfd2bf7d3e62703796e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_icon" kindref="compound">wxIcon</ref></type>
+        <definition>wxIcon wxAboutDialogInfo::GetIcon</definition>
+        <argsstring>() const</argsstring>
+        <name>GetIcon</name>
+        <briefdescription>
+<para>Returns the icon set by <ref refid="classwx_about_dialog_info_1a949bb4edf09f05b9aa36ea6d1828f5b5" kindref="member">SetIcon()</ref>. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aboutdlg.h" line="172" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_about_dialog_info_1a949bb4edf09f05b9aa36ea6d1828f5b5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxAboutDialogInfo::SetIcon</definition>
+        <argsstring>(const wxIcon &amp;icon)</argsstring>
+        <name>SetIcon</name>
+        <param>
+          <type>const <ref refid="classwx_icon" kindref="compound">wxIcon</ref> &amp;</type>
+          <declname>icon</declname>
+        </param>
+        <briefdescription>
+<para>Set the icon to be shown in the dialog. </para>        </briefdescription>
+        <detaileddescription>
+<para>By default the icon of the main frame will be shown if the native about dialog supports custom icons. If it doesn&apos;t but a valid icon is specified using this method, the generic about dialog is used instead so you should avoid calling this function for maximally native look and feel. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aboutdlg.h" line="181" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_about_dialog_info_1a4eb70085ef9895583493ceb95682c465" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxAboutDialogInfo::HasLicence</definition>
+        <argsstring>() const</argsstring>
+        <name>HasLicence</name>
+        <briefdescription>
+<para>Returns true if the licence string has been set. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aboutdlg.h" line="186" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_about_dialog_info_1a455f22071c5e1524421d40363b8c7098" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+        <definition>const wxString&amp; wxAboutDialogInfo::GetLicence</definition>
+        <argsstring>() const</argsstring>
+        <name>GetLicence</name>
+        <briefdescription>
+<para>Returns the licence string. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="see"><para><ref refid="classwx_about_dialog_info_1ae0e88ab74655d5cdd9eef68e019309c1" kindref="member">SetLicence()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aboutdlg.h" line="193" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_about_dialog_info_1ae0e88ab74655d5cdd9eef68e019309c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxAboutDialogInfo::SetLicence</definition>
+        <argsstring>(const wxString &amp;licence)</argsstring>
+        <name>SetLicence</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>licence</declname>
+        </param>
+        <briefdescription>
+<para>Set the long, multiline string containing the text of the program licence. </para>        </briefdescription>
+        <detaileddescription>
+<para>Only GTK+ version supports showing the licence text in the native about dialog currently so the generic version will be used under all the other platforms if this method is called. To preserve the native look and feel it is advised that you do not call this method but provide a separate menu item in the <computeroutput>&quot;Help&quot;</computeroutput> menu for displaying the text of your program licence. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aboutdlg.h" line="204" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_about_dialog_info_1a02df2d9f14171914609f8401ca3f1ea2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxAboutDialogInfo::SetLicense</definition>
+        <argsstring>(const wxString &amp;licence)</argsstring>
+        <name>SetLicense</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>licence</declname>
+        </param>
+        <briefdescription>
+<para>This is the same as <ref refid="classwx_about_dialog_info_1ae0e88ab74655d5cdd9eef68e019309c1" kindref="member">SetLicence()</ref>. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aboutdlg.h" line="209" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_about_dialog_info_1a5fef05c5e61acb59d9554bda8de26eef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxAboutDialogInfo::SetName</definition>
+        <argsstring>(const wxString &amp;name)</argsstring>
+        <name>SetName</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+<para>Set the name of the program. </para>        </briefdescription>
+        <detaileddescription>
+<para>If this method is not called, the string returned by <ref refid="classwx_app_console_1a228d7699a00845219744c08e8c78b889" kindref="member">wxApp::GetAppName</ref> will be shown in the dialog. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aboutdlg.h" line="215" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_about_dialog_info_1a1deb2e1d6a68f87857aa9cd10d666221" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxAboutDialogInfo::SetTranslators</definition>
+        <argsstring>(const wxArrayString &amp;translators)</argsstring>
+        <name>SetTranslators</name>
+        <param>
+          <type>const <ref refid="classwx_array_string" kindref="compound">wxArrayString</ref> &amp;</type>
+          <declname>translators</declname>
+        </param>
+        <briefdescription>
+<para>Set the list of translators. </para>        </briefdescription>
+        <detaileddescription>
+<para>Please see <ref refid="classwx_about_dialog_info_1aeaa05b49f9c1df2b1ee6304d64426843" kindref="member">AddTranslator()</ref> for additional discussion. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aboutdlg.h" line="221" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_about_dialog_info_1aac5029cab6b04b34dbf8cd6b66fff251" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxAboutDialogInfo::SetVersion</definition>
+        <argsstring>(const wxString &amp;version, const wxString &amp;longVersion=wxString())</argsstring>
+        <name>SetVersion</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>version</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>longVersion</declname>
+          <defval><ref refid="classwx_string" kindref="compound">wxString</ref>()</defval>
+        </param>
+        <briefdescription>
+<para>Set the version of the program. </para>        </briefdescription>
+        <detaileddescription>
+<para>The word &quot;version&quot; shouldn&apos;t be included in <emphasis>version</emphasis>. Example <emphasis>version</emphasis> values: &quot;1.2&quot; and &quot;RC2&quot;. In about dialogs with more space set aside for version information, <emphasis>longVersion</emphasis> is used. Example <emphasis>longVersion</emphasis> values: &quot;Version 1.2&quot; and &quot;Release Candidate 2&quot;. If <emphasis>version</emphasis> is non-empty but <emphasis>longVersion</emphasis> is empty, a long version is constructed automatically, using <emphasis>version</emphasis> (by simply prepending &quot;Version &quot; to <emphasis>version</emphasis>).</para><para>The generic about dialog and native GTK+ dialog use <emphasis>version</emphasis> only, as a suffix to the program name. The native MSW and OS X about dialogs use the long version. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aboutdlg.h" line="236" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_about_dialog_info_1a30984934d3e7b8553c17ef583b09f1c3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+        <definition>const wxString&amp; wxAboutDialogInfo::GetVersion</definition>
+        <argsstring>() const</argsstring>
+        <name>GetVersion</name>
+        <briefdescription>
+<para>Return the short version string. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="see"><para><ref refid="classwx_about_dialog_info_1aac5029cab6b04b34dbf8cd6b66fff251" kindref="member">SetVersion()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aboutdlg.h" line="243" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_about_dialog_info_1a98e1fd7377ea1f6c73e63d3467b15748" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+        <definition>const wxString&amp; wxAboutDialogInfo::GetLongVersion</definition>
+        <argsstring>() const</argsstring>
+        <name>GetLongVersion</name>
+        <briefdescription>
+<para>Return the long version string if set. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="see"><para><ref refid="classwx_about_dialog_info_1aac5029cab6b04b34dbf8cd6b66fff251" kindref="member">SetVersion()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aboutdlg.h" line="250" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_about_dialog_info_1a35e4680c9b1c76af71daf57ce881e813" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxAboutDialogInfo::HasWebSite</definition>
+        <argsstring>() const</argsstring>
+        <name>HasWebSite</name>
+        <briefdescription>
+<para>Returns true if the website info has been set. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aboutdlg.h" line="255" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_about_dialog_info_1a245bc01ee1e8710b18d2ef900b74b7cd" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+        <definition>const wxString&amp; wxAboutDialogInfo::GetWebSiteURL</definition>
+        <argsstring>() const</argsstring>
+        <name>GetWebSiteURL</name>
+        <briefdescription>
+<para>Returns the website URL set for the dialog. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aboutdlg.h" line="260" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_about_dialog_info_1a9aec6370a810cdc7b46a7a66fe6866ef" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+        <definition>const wxString&amp; wxAboutDialogInfo::GetWebSiteDescription</definition>
+        <argsstring>() const</argsstring>
+        <name>GetWebSiteDescription</name>
+        <briefdescription>
+<para>Returns the description of the website URL set for the dialog. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aboutdlg.h" line="265" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_about_dialog_info_1ab6104e724f64b936ee2ff0727e8e797a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxAboutDialogInfo::SetWebSite</definition>
+        <argsstring>(const wxString &amp;url, const wxString &amp;desc=wxEmptyString)</argsstring>
+        <name>SetWebSite</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>url</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>desc</declname>
+          <defval><ref refid="interface_2wx_2string_8h_1a9a321d587166a30017b608dd2d234033" kindref="member">wxEmptyString</ref></defval>
+        </param>
+        <briefdescription>
+<para>Set the web site for the program and its description (which defaults to <emphasis>url</emphasis> itself if empty). </para>        </briefdescription>
+        <detaileddescription>
+<para>Please notice that only GTK+ version currently supports showing the link in the native about dialog so if this method is called, the generic version will be used under all the other platforms. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aboutdlg.h" line="275" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_about_dialog_info_1abc58092538dc37f506d10eeeb3113fe7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxAboutDialogInfo::HasDevelopers</definition>
+        <argsstring>() const</argsstring>
+        <name>HasDevelopers</name>
+        <briefdescription>
+<para>Returns true if developers have been set in the dialog info. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aboutdlg.h" line="282" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_about_dialog_info_1a9eb673a38df837ac2ba2c8477a39cbd0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="classwx_array_string" kindref="compound">wxArrayString</ref> &amp;</type>
+        <definition>const wxArrayString&amp; wxAboutDialogInfo::GetDevelopers</definition>
+        <argsstring>() const</argsstring>
+        <name>GetDevelopers</name>
+        <briefdescription>
+<para>Returns an array of the developer strings set in the dialog info. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aboutdlg.h" line="287" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_about_dialog_info_1ad25618c17a096fb947cb859de49917c9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxAboutDialogInfo::HasDocWriters</definition>
+        <argsstring>() const</argsstring>
+        <name>HasDocWriters</name>
+        <briefdescription>
+<para>Returns true if writers have been set in the dialog info. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aboutdlg.h" line="292" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_about_dialog_info_1ae6a260ff6216861987578df4155a3be4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="classwx_array_string" kindref="compound">wxArrayString</ref> &amp;</type>
+        <definition>const wxArrayString&amp; wxAboutDialogInfo::GetDocWriters</definition>
+        <argsstring>() const</argsstring>
+        <name>GetDocWriters</name>
+        <briefdescription>
+<para>Returns an array of the writer strings set in the dialog info. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aboutdlg.h" line="297" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_about_dialog_info_1aadc4e032c6fa9d1b2cc7e067da0f8c41" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxAboutDialogInfo::HasArtists</definition>
+        <argsstring>() const</argsstring>
+        <name>HasArtists</name>
+        <briefdescription>
+<para>Returns true if artists have been set in the dialog info. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aboutdlg.h" line="302" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_about_dialog_info_1a1e7a92e1435191239db9f6de68ba1332" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="classwx_array_string" kindref="compound">wxArrayString</ref> &amp;</type>
+        <definition>const wxArrayString&amp; wxAboutDialogInfo::GetArtists</definition>
+        <argsstring>() const</argsstring>
+        <name>GetArtists</name>
+        <briefdescription>
+<para>Returns an array of the artist strings set in the dialog info. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aboutdlg.h" line="307" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_about_dialog_info_1a486aff07a28b8e73675df128333a3fdb" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxAboutDialogInfo::HasTranslators</definition>
+        <argsstring>() const</argsstring>
+        <name>HasTranslators</name>
+        <briefdescription>
+<para>Returns true if translators have been set in the dialog info. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aboutdlg.h" line="312" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_about_dialog_info_1a1e9a367506f3da4c22bbcde1bc13d7bc" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="classwx_array_string" kindref="compound">wxArrayString</ref> &amp;</type>
+        <definition>const wxArrayString&amp; wxAboutDialogInfo::GetTranslators</definition>
+        <argsstring>() const</argsstring>
+        <name>GetTranslators</name>
+        <briefdescription>
+<para>Returns an array of the translator strings set in the dialog info. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aboutdlg.h" line="317" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="classwx_about_dialog_info" kindref="compound">wxAboutDialogInfo</ref> contains information shown in the standard <emphasis>About</emphasis> dialog displayed by the <ref refid="group__group__funcmacro__dialog_1ga6d8198c95b97786f206abfde010a4d8f" kindref="member">wxAboutBox()</ref> function. </para>    </briefdescription>
+    <detaileddescription>
+<para>This class contains the general information about the program, such as its name, version, copyright and so on, as well as lists of the program developers, documentation writers, artists and translators. The simple properties from the former group are represented as a string with the exception of the program icon and the program web site, while the lists from the latter group are stored as <ref refid="classwx_array_string" kindref="compound">wxArrayString</ref> and can be either set entirely at once using <ref refid="classwx_about_dialog_info_1a2bde3b28eb55f653e8229ea534775c24" kindref="member">wxAboutDialogInfo::SetDevelopers</ref> and similar functions or built one by one using <ref refid="classwx_about_dialog_info_1a26dba3b09941ae3761c452b78d37165f" kindref="member">wxAboutDialogInfo::AddDeveloper</ref> etc.</para><para>Please also notice that while all the main platforms have the native implementation of the about dialog, they are often more limited than the generic version provided by wxWidgets and so the generic version is used if <ref refid="classwx_about_dialog_info" kindref="compound">wxAboutDialogInfo</ref> has any fields not supported by the native version. Currently GTK+ version supports all the possible fields natively but MSW and Mac versions don&apos;t support URLs, licence text nor custom icons in the about dialog and if either of those is used, <ref refid="group__group__funcmacro__dialog_1ga6d8198c95b97786f206abfde010a4d8f" kindref="member">wxAboutBox()</ref> will automatically use the generic version so you should avoid specifying these fields to achieve more native look and feel.</para><para>Example of usage: <programlisting><codeline><highlight class="normal">void<sp/>MyFrame::OnAbout(wxCommandEvent&amp;<sp/>WXUNUSED(event))</highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>wxAboutDialogInfo<sp/>aboutInfo;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>aboutInfo.SetName(&quot;MyApp&quot;);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>aboutInfo.SetVersion(MY_APP_VERSION_STRING);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>aboutInfo.SetDescription(_(&quot;My<sp/>wxWidgets-based<sp/>application!&quot;));</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>aboutInfo.SetCopyright(&quot;(C)<sp/>1992-2010&quot;);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>aboutInfo.SetWebSite(&quot;http://myapp.org&quot;);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>aboutInfo.AddDeveloper(&quot;My<sp/>Self&quot;);</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>wxAboutBox(aboutInfo);</highlight></codeline>
+<codeline><highlight class="normal">}</highlight></codeline>
+</programlisting></para><para><heading level="2"></heading>
+</para><para>Library:<nonbreakablespace/><nonbreakablespace/><ref refid="page_libs_1page_libs_wxadv" kindref="member">wxAdvanced</ref> &lt;&gt;&lt; =&apos;&apos;&gt;:&lt;/&gt;&amp;;&amp;;&lt; =&apos;&apos;&gt;\ , \ &lt;/&gt;&lt;/&gt;</para><para><simplesect kind="see"><para><ref refid="classwx_about_dialog_info_1ab0bf3125a82ea0acef226d37aa54879d" kindref="member">wxAboutDialogInfo::SetArtists</ref> </para></simplesect>
+</para>    </detaileddescription>
+    <location file="interface/wx/aboutdlg.h" line="54" column="1" bodyfile="interface/wx/aboutdlg.h" bodystart="53" bodyend="320"/>
+    <listofallmembers>
+      <member refid="classwx_about_dialog_info_1a48d616165e8a0614f7a063f898c69f8b" prot="public" virt="non-virtual"><scope>wxAboutDialogInfo</scope><name>AddArtist</name></member>
+      <member refid="classwx_about_dialog_info_1a26dba3b09941ae3761c452b78d37165f" prot="public" virt="non-virtual"><scope>wxAboutDialogInfo</scope><name>AddDeveloper</name></member>
+      <member refid="classwx_about_dialog_info_1ab4d85602b53de48169bbdb4d0cf9c67a" prot="public" virt="non-virtual"><scope>wxAboutDialogInfo</scope><name>AddDocWriter</name></member>
+      <member refid="classwx_about_dialog_info_1aeaa05b49f9c1df2b1ee6304d64426843" prot="public" virt="non-virtual"><scope>wxAboutDialogInfo</scope><name>AddTranslator</name></member>
+      <member refid="classwx_about_dialog_info_1a1e7a92e1435191239db9f6de68ba1332" prot="public" virt="non-virtual"><scope>wxAboutDialogInfo</scope><name>GetArtists</name></member>
+      <member refid="classwx_about_dialog_info_1a44392ad29ef7311c16fd4971ebbf524b" prot="public" virt="non-virtual"><scope>wxAboutDialogInfo</scope><name>GetCopyright</name></member>
+      <member refid="classwx_about_dialog_info_1a79033d197f932f82dcf9d3925f8a4b0e" prot="public" virt="non-virtual"><scope>wxAboutDialogInfo</scope><name>GetDescription</name></member>
+      <member refid="classwx_about_dialog_info_1a9eb673a38df837ac2ba2c8477a39cbd0" prot="public" virt="non-virtual"><scope>wxAboutDialogInfo</scope><name>GetDevelopers</name></member>
+      <member refid="classwx_about_dialog_info_1ae6a260ff6216861987578df4155a3be4" prot="public" virt="non-virtual"><scope>wxAboutDialogInfo</scope><name>GetDocWriters</name></member>
+      <member refid="classwx_about_dialog_info_1aa6c5a14ab0ed2dfd2bf7d3e62703796e" prot="public" virt="non-virtual"><scope>wxAboutDialogInfo</scope><name>GetIcon</name></member>
+      <member refid="classwx_about_dialog_info_1a455f22071c5e1524421d40363b8c7098" prot="public" virt="non-virtual"><scope>wxAboutDialogInfo</scope><name>GetLicence</name></member>
+      <member refid="classwx_about_dialog_info_1a98e1fd7377ea1f6c73e63d3467b15748" prot="public" virt="non-virtual"><scope>wxAboutDialogInfo</scope><name>GetLongVersion</name></member>
+      <member refid="classwx_about_dialog_info_1a3bd339e4b28c4cb49a40a17765bb741d" prot="public" virt="non-virtual"><scope>wxAboutDialogInfo</scope><name>GetName</name></member>
+      <member refid="classwx_about_dialog_info_1a1e9a367506f3da4c22bbcde1bc13d7bc" prot="public" virt="non-virtual"><scope>wxAboutDialogInfo</scope><name>GetTranslators</name></member>
+      <member refid="classwx_about_dialog_info_1a30984934d3e7b8553c17ef583b09f1c3" prot="public" virt="non-virtual"><scope>wxAboutDialogInfo</scope><name>GetVersion</name></member>
+      <member refid="classwx_about_dialog_info_1a9aec6370a810cdc7b46a7a66fe6866ef" prot="public" virt="non-virtual"><scope>wxAboutDialogInfo</scope><name>GetWebSiteDescription</name></member>
+      <member refid="classwx_about_dialog_info_1a245bc01ee1e8710b18d2ef900b74b7cd" prot="public" virt="non-virtual"><scope>wxAboutDialogInfo</scope><name>GetWebSiteURL</name></member>
+      <member refid="classwx_about_dialog_info_1aadc4e032c6fa9d1b2cc7e067da0f8c41" prot="public" virt="non-virtual"><scope>wxAboutDialogInfo</scope><name>HasArtists</name></member>
+      <member refid="classwx_about_dialog_info_1a9ae57445d46b6e827c710fb7cfed980b" prot="public" virt="non-virtual"><scope>wxAboutDialogInfo</scope><name>HasCopyright</name></member>
+      <member refid="classwx_about_dialog_info_1abf020f899343483c2a66b3cbe5c48eb2" prot="public" virt="non-virtual"><scope>wxAboutDialogInfo</scope><name>HasDescription</name></member>
+      <member refid="classwx_about_dialog_info_1abc58092538dc37f506d10eeeb3113fe7" prot="public" virt="non-virtual"><scope>wxAboutDialogInfo</scope><name>HasDevelopers</name></member>
+      <member refid="classwx_about_dialog_info_1ad25618c17a096fb947cb859de49917c9" prot="public" virt="non-virtual"><scope>wxAboutDialogInfo</scope><name>HasDocWriters</name></member>
+      <member refid="classwx_about_dialog_info_1a8189b1afc9d836050c0296e4de7ba32b" prot="public" virt="non-virtual"><scope>wxAboutDialogInfo</scope><name>HasIcon</name></member>
+      <member refid="classwx_about_dialog_info_1a4eb70085ef9895583493ceb95682c465" prot="public" virt="non-virtual"><scope>wxAboutDialogInfo</scope><name>HasLicence</name></member>
+      <member refid="classwx_about_dialog_info_1a486aff07a28b8e73675df128333a3fdb" prot="public" virt="non-virtual"><scope>wxAboutDialogInfo</scope><name>HasTranslators</name></member>
+      <member refid="classwx_about_dialog_info_1a35e4680c9b1c76af71daf57ce881e813" prot="public" virt="non-virtual"><scope>wxAboutDialogInfo</scope><name>HasWebSite</name></member>
+      <member refid="classwx_about_dialog_info_1ab0bf3125a82ea0acef226d37aa54879d" prot="public" virt="non-virtual"><scope>wxAboutDialogInfo</scope><name>SetArtists</name></member>
+      <member refid="classwx_about_dialog_info_1a10f5d9b8ca9ed69754e54fd2e03c4538" prot="public" virt="non-virtual"><scope>wxAboutDialogInfo</scope><name>SetCopyright</name></member>
+      <member refid="classwx_about_dialog_info_1a47bd84aa96af70cb304a76c6cf3428e3" prot="public" virt="non-virtual"><scope>wxAboutDialogInfo</scope><name>SetDescription</name></member>
+      <member refid="classwx_about_dialog_info_1a2bde3b28eb55f653e8229ea534775c24" prot="public" virt="non-virtual"><scope>wxAboutDialogInfo</scope><name>SetDevelopers</name></member>
+      <member refid="classwx_about_dialog_info_1ad268df6e3fd75d9e9c02a463c87bdab6" prot="public" virt="non-virtual"><scope>wxAboutDialogInfo</scope><name>SetDocWriters</name></member>
+      <member refid="classwx_about_dialog_info_1a949bb4edf09f05b9aa36ea6d1828f5b5" prot="public" virt="non-virtual"><scope>wxAboutDialogInfo</scope><name>SetIcon</name></member>
+      <member refid="classwx_about_dialog_info_1ae0e88ab74655d5cdd9eef68e019309c1" prot="public" virt="non-virtual"><scope>wxAboutDialogInfo</scope><name>SetLicence</name></member>
+      <member refid="classwx_about_dialog_info_1a02df2d9f14171914609f8401ca3f1ea2" prot="public" virt="non-virtual"><scope>wxAboutDialogInfo</scope><name>SetLicense</name></member>
+      <member refid="classwx_about_dialog_info_1a5fef05c5e61acb59d9554bda8de26eef" prot="public" virt="non-virtual"><scope>wxAboutDialogInfo</scope><name>SetName</name></member>
+      <member refid="classwx_about_dialog_info_1a1deb2e1d6a68f87857aa9cd10d666221" prot="public" virt="non-virtual"><scope>wxAboutDialogInfo</scope><name>SetTranslators</name></member>
+      <member refid="classwx_about_dialog_info_1aac5029cab6b04b34dbf8cd6b66fff251" prot="public" virt="non-virtual"><scope>wxAboutDialogInfo</scope><name>SetVersion</name></member>
+      <member refid="classwx_about_dialog_info_1ab6104e724f64b936ee2ff0727e8e797a" prot="public" virt="non-virtual"><scope>wxAboutDialogInfo</scope><name>SetWebSite</name></member>
+      <member refid="classwx_about_dialog_info_1ab58b7d0d7bb3aa40eca4531c4f8c1e6f" prot="public" virt="non-virtual"><scope>wxAboutDialogInfo</scope><name>wxAboutDialogInfo</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

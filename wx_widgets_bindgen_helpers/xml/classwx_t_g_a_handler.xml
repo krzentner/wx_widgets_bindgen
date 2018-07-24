@@ -1,0 +1,247 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_t_g_a_handler" kind="class" language="C++" prot="public">
+    <compoundname>wxTGAHandler</compoundname>
+    <basecompoundref refid="classwx_image_handler" prot="public" virt="non-virtual">wxImageHandler</basecompoundref>
+    <includes local="no">wx/imagtga.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classwx_t_g_a_handler_1a5258c1de737fd77d505c06a7f822000a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxTGAHandler::wxTGAHandler</definition>
+        <argsstring>()</argsstring>
+        <name>wxTGAHandler</name>
+        <briefdescription>
+<para>Default constructor for <ref refid="classwx_t_g_a_handler" kindref="compound">wxTGAHandler</ref>. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/imagtga.h" line="24" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_t_g_a_handler_1ac4acd2b4652945a0cca2c1daa36762f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool wxTGAHandler::LoadFile</definition>
+        <argsstring>(wxImage *image, wxInputStream &amp;stream, bool verbose=true, int index=-1)</argsstring>
+        <name>LoadFile</name>
+        <reimplements refid="classwx_image_handler_1a39793e7d6c1e0138330b4c6727e26861">LoadFile</reimplements>
+        <param>
+          <type><ref refid="classwx_image" kindref="compound">wxImage</ref> *</type>
+          <declname>image</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_input_stream" kindref="compound">wxInputStream</ref> &amp;</type>
+          <declname>stream</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>verbose</declname>
+          <defval>true</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+          <defval>-1</defval>
+        </param>
+        <briefdescription>
+<para>Loads a image from a stream, putting the resulting data into <emphasis>image</emphasis>. </para>        </briefdescription>
+        <detaileddescription>
+<para>If the image file contains more than one image and the image handler is capable of retrieving these individually, <emphasis>index</emphasis> indicates which image to read from the stream.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>image</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The image object which is to be affected by this operation. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>stream</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Opened input stream for reading image data. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>verbose</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>If set to true, errors reported by the image handler will produce wxLogMessages. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The index of the image in the file (starting from zero).</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true if the operation succeeded, false otherwise.</para></simplesect>
+<simplesect kind="see"><para><ref refid="classwx_image_1aa249e657259fe6518d68a5208b9043d0" kindref="member">wxImage::LoadFile</ref>, <ref refid="classwx_image_1adcfbb6157c79bc142811d0faf6a85b2c" kindref="member">wxImage::SaveFile</ref>, <ref refid="classwx_t_g_a_handler_1aaa08d47eb689577d7c11cc65daa957a4" kindref="member">SaveFile()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/imagtga.h" line="27" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_t_g_a_handler_1aaa08d47eb689577d7c11cc65daa957a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool wxTGAHandler::SaveFile</definition>
+        <argsstring>(wxImage *image, wxOutputStream &amp;stream, bool verbose=true)</argsstring>
+        <name>SaveFile</name>
+        <reimplements refid="classwx_image_handler_1a165394d021a199f207ae2910a3ba72e8">SaveFile</reimplements>
+        <param>
+          <type><ref refid="classwx_image" kindref="compound">wxImage</ref> *</type>
+          <declname>image</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_output_stream" kindref="compound">wxOutputStream</ref> &amp;</type>
+          <declname>stream</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>verbose</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+<para>Saves a image in the output stream. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>image</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The image object which is to be affected by this operation. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>stream</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Opened output stream for writing the data. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>verbose</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>If set to true, errors reported by the image handler will produce wxLogMessages.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true if the operation succeeded, false otherwise.</para></simplesect>
+<simplesect kind="see"><para><ref refid="classwx_image_1aa249e657259fe6518d68a5208b9043d0" kindref="member">wxImage::LoadFile</ref>, <ref refid="classwx_image_1adcfbb6157c79bc142811d0faf6a85b2c" kindref="member">wxImage::SaveFile</ref>, <ref refid="classwx_t_g_a_handler_1ac4acd2b4652945a0cca2c1daa36762f2" kindref="member">LoadFile()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/imagtga.h" line="28" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classwx_t_g_a_handler_1a2956c4dbbf8f6fd9d786dba24ccf1d9f" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool wxTGAHandler::DoCanRead</definition>
+        <argsstring>(wxInputStream &amp;stream)</argsstring>
+        <name>DoCanRead</name>
+        <reimplements refid="classwx_image_handler_1a50207075524b48089e3fa6dd455e18a3">DoCanRead</reimplements>
+        <param>
+          <type><ref refid="classwx_input_stream" kindref="compound">wxInputStream</ref> &amp;</type>
+          <declname>stream</declname>
+        </param>
+        <briefdescription>
+<para>Called to test if this handler can read an image from the given stream. </para>        </briefdescription>
+        <detaileddescription>
+<para>NOTE: this function is allowed to change the current stream position since CallDoCanRead() will take care of restoring it later </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/imagtga.h" line="31" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This is the image handler for the TGA format. </para>    </briefdescription>
+    <detaileddescription>
+<para><heading level="2"></heading>
+</para><para>Library:<nonbreakablespace/><nonbreakablespace/>page_libs_core &lt;&gt;&lt; =&apos;&apos;&gt;:&lt;/&gt;&amp;;&amp;;&lt; =&apos;&apos;&gt;\ &lt;/&gt;&lt;/&gt;</para><para><simplesect kind="see"><para><ref refid="classwx_image" kindref="compound">wxImage</ref>, <ref refid="classwx_image_handler" kindref="compound">wxImageHandler</ref>, <ref refid="group__group__funcmacro__appinitterm_1ga27f6c78d5d13374a28022b7bd44c6823" kindref="member">wxInitAllImageHandlers()</ref> </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="7942">
+        <label>wxObject</label>
+        <link refid="classwx_object"/>
+      </node>
+      <node id="7941">
+        <label>wxImageHandler</label>
+        <link refid="classwx_image_handler"/>
+        <childnode refid="7942" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7940">
+        <label>wxTGAHandler</label>
+        <link refid="classwx_t_g_a_handler"/>
+        <childnode refid="7941" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="7945">
+        <label>wxObject</label>
+        <link refid="classwx_object"/>
+        <childnode refid="7946" relation="usage">
+          <edgelabel>m_refData</edgelabel>
+        </childnode>
+      </node>
+      <node id="7944">
+        <label>wxImageHandler</label>
+        <link refid="classwx_image_handler"/>
+        <childnode refid="7945" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7943">
+        <label>wxTGAHandler</label>
+        <link refid="classwx_t_g_a_handler"/>
+        <childnode refid="7944" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7946">
+        <label>wxObjectRefData</label>
+        <link refid="classwx_object_ref_data"/>
+      </node>
+    </collaborationgraph>
+    <location file="interface/wx/imagtga.h" line="19" column="1" bodyfile="interface/wx/imagtga.h" bodystart="18" bodyend="32"/>
+    <listofallmembers>
+      <member refid="classwx_object_1a60204063f3cc3aa2fa1c7ff5bda9eb13" prot="protected" virt="non-virtual"><scope>wxTGAHandler</scope><name>AllocExclusive</name></member>
+      <member refid="classwx_image_handler_1a7c886c9f2192699183e480066e386133" prot="public" virt="non-virtual"><scope>wxTGAHandler</scope><name>CanRead</name></member>
+      <member refid="classwx_image_handler_1a91fadb9ace6a42e8cf3c66061e4bbfc9" prot="public" virt="non-virtual"><scope>wxTGAHandler</scope><name>CanRead</name></member>
+      <member refid="classwx_object_1a436fc8fe68cf8a31000296d9cd3d2427" prot="protected" virt="virtual"><scope>wxTGAHandler</scope><name>CloneRefData</name></member>
+      <member refid="classwx_object_1a3f4f497c65cef611e121c41f21dd5ccc" prot="protected" virt="virtual"><scope>wxTGAHandler</scope><name>CreateRefData</name></member>
+      <member refid="classwx_t_g_a_handler_1a2956c4dbbf8f6fd9d786dba24ccf1d9f" prot="protected" virt="virtual"><scope>wxTGAHandler</scope><name>DoCanRead</name></member>
+      <member refid="classwx_image_handler_1a92168f0f5b267a6088f4b7aecda4176e" prot="protected" virt="virtual"><scope>wxTGAHandler</scope><name>DoGetImageCount</name></member>
+      <member refid="classwx_image_handler_1a3401bbf4bab5b4593794660e8523d758" prot="public" virt="non-virtual"><scope>wxTGAHandler</scope><name>GetAltExtensions</name></member>
+      <member refid="classwx_object_1ae6d365f2556b26767ced8410c5e839d0" prot="public" virt="virtual"><scope>wxTGAHandler</scope><name>GetClassInfo</name></member>
+      <member refid="classwx_image_handler_1ae83a46decf9aa936adb33c0177610872" prot="public" virt="non-virtual"><scope>wxTGAHandler</scope><name>GetExtension</name></member>
+      <member refid="classwx_image_handler_1a06a38c24bf48bff1745f042c3b1cd16b" prot="public" virt="virtual"><scope>wxTGAHandler</scope><name>GetImageCount</name></member>
+      <member refid="classwx_image_handler_1a85a8588775b08206bac6b75be8e29cb3" prot="public" virt="non-virtual"><scope>wxTGAHandler</scope><name>GetLibraryVersionInfo</name></member>
+      <member refid="classwx_image_handler_1a3f2665c847ed37e990bf34c09a2546b6" prot="public" virt="non-virtual"><scope>wxTGAHandler</scope><name>GetMimeType</name></member>
+      <member refid="classwx_image_handler_1ae461754c8b40dcb60b0af1cb4c375b82" prot="public" virt="non-virtual"><scope>wxTGAHandler</scope><name>GetName</name></member>
+      <member refid="classwx_object_1af3c6c76a775864832f1536d3c0de3a2b" prot="public" virt="non-virtual"><scope>wxTGAHandler</scope><name>GetRefData</name></member>
+      <member refid="classwx_image_handler_1af784615c328076f89a1999bdaa3b6918" prot="public" virt="non-virtual"><scope>wxTGAHandler</scope><name>GetType</name></member>
+      <member refid="classwx_object_1a3c7115ef4132dcee0c4fc34e84d7fced" prot="public" virt="non-virtual"><scope>wxTGAHandler</scope><name>IsKindOf</name></member>
+      <member refid="classwx_object_1a059373c494c2369d7db2a556efef8ecf" prot="public" virt="non-virtual"><scope>wxTGAHandler</scope><name>IsSameAs</name></member>
+      <member refid="classwx_t_g_a_handler_1ac4acd2b4652945a0cca2c1daa36762f2" prot="public" virt="virtual"><scope>wxTGAHandler</scope><name>LoadFile</name></member>
+      <member refid="classwx_object_1a9e31954530a0abd54982effc443ed2b8" prot="protected" virt="non-virtual"><scope>wxTGAHandler</scope><name>m_refData</name></member>
+      <member refid="classwx_object_1a07b8f34f5afc5743195c5fed052f55d3" prot="public" virt="non-virtual"><scope>wxTGAHandler</scope><name>operator delete</name></member>
+      <member refid="classwx_object_1a96fa423a1dbc212c8227a5d83825971f" prot="public" virt="non-virtual"><scope>wxTGAHandler</scope><name>operator new</name></member>
+      <member refid="classwx_object_1a2f6f1aa51fe9fc2b1415ca4211a90e9e" prot="public" virt="non-virtual"><scope>wxTGAHandler</scope><name>Ref</name></member>
+      <member refid="classwx_t_g_a_handler_1aaa08d47eb689577d7c11cc65daa957a4" prot="public" virt="virtual"><scope>wxTGAHandler</scope><name>SaveFile</name></member>
+      <member refid="classwx_image_handler_1a65ba010611387392913569867ff60fc2" prot="public" virt="non-virtual"><scope>wxTGAHandler</scope><name>SetAltExtensions</name></member>
+      <member refid="classwx_image_handler_1abe9bfbb83e7f883f3d053264e3283f61" prot="public" virt="non-virtual"><scope>wxTGAHandler</scope><name>SetExtension</name></member>
+      <member refid="classwx_image_handler_1a0bcdad1b9948249f511f461323c8a4c9" prot="public" virt="non-virtual"><scope>wxTGAHandler</scope><name>SetMimeType</name></member>
+      <member refid="classwx_image_handler_1aec863a8d58771b3c103551cf7a41eaf2" prot="public" virt="non-virtual"><scope>wxTGAHandler</scope><name>SetName</name></member>
+      <member refid="classwx_object_1afab780710f2adc1bb33310e27590140b" prot="public" virt="non-virtual"><scope>wxTGAHandler</scope><name>SetRefData</name></member>
+      <member refid="classwx_image_handler_1a8d0a852fa5ebb73fe7659876d67cfbdd" prot="public" virt="non-virtual"><scope>wxTGAHandler</scope><name>SetType</name></member>
+      <member refid="classwx_object_1af51efc6b1ae632fc7f0cd7ebbce9fa36" prot="public" virt="non-virtual"><scope>wxTGAHandler</scope><name>UnRef</name></member>
+      <member refid="classwx_object_1a74b40e42d19a4b9e9bec0b57d62a5725" prot="public" virt="non-virtual"><scope>wxTGAHandler</scope><name>UnShare</name></member>
+      <member refid="classwx_image_handler_1ac5f51e6ef58ba775b2fa272c00f65e69" prot="public" virt="non-virtual"><scope>wxTGAHandler</scope><name>wxImageHandler</name></member>
+      <member refid="classwx_object_1acaa378363a28af421ab56ad7b46eadf0" prot="public" virt="non-virtual"><scope>wxTGAHandler</scope><name>wxObject</name></member>
+      <member refid="classwx_object_1a4721b4dc9b7aff0f30904ba2ea3954cf" prot="public" virt="non-virtual"><scope>wxTGAHandler</scope><name>wxObject</name></member>
+      <member refid="classwx_t_g_a_handler_1a5258c1de737fd77d505c06a7f822000a" prot="public" virt="non-virtual"><scope>wxTGAHandler</scope><name>wxTGAHandler</name></member>
+      <member refid="classwx_image_handler_1ae3b15d01c280c91e49a633e857cfd214" prot="public" virt="virtual"><scope>wxTGAHandler</scope><name>~wxImageHandler</name></member>
+      <member refid="classwx_object_1a2a51aa8bfbab47ca2f051bcf84b3f35b" prot="public" virt="virtual"><scope>wxTGAHandler</scope><name>~wxObject</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

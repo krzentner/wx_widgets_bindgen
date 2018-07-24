@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_preferences_page" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>wxPreferencesPage</compoundname>
+    <derivedcompoundref refid="classwx_stock_preferences_page" prot="public" virt="non-virtual">wxStockPreferencesPage</derivedcompoundref>
+    <includes local="no">wx/preferences.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classwx_preferences_page_1a75e85f05d5c78a918dc85a891b8f4c51" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxPreferencesPage::wxPreferencesPage</definition>
+        <argsstring>()</argsstring>
+        <name>wxPreferencesPage</name>
+        <briefdescription>
+<para>Constructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/preferences.h" line="136" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_preferences_page_1ae0f9be588887bf27451efdb1400d262e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual wxPreferencesPage::~wxPreferencesPage</definition>
+        <argsstring>()</argsstring>
+        <name>~wxPreferencesPage</name>
+        <briefdescription>
+<para>Destructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/preferences.h" line="139" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_preferences_page_1aaf3db462208f700fff0fd99c66afd8d7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type><ref refid="classwx_string" kindref="compound">wxString</ref></type>
+        <definition>virtual wxString wxPreferencesPage::GetName</definition>
+        <argsstring>() const =0</argsstring>
+        <name>GetName</name>
+        <reimplementedby refid="classwx_stock_preferences_page_1a2fbb3a80b61a66e4b8e4ac752c953d20">GetName</reimplementedby>
+        <briefdescription>
+<para>Return name of the page. </para>        </briefdescription>
+        <detaileddescription>
+<para>The name is used for notebook tab&apos;s label, icon label etc., depending on the platform. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/preferences.h" line="147" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_preferences_page_1a05880595e8507b60eaea11d5addc71e6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type><ref refid="classwx_bitmap" kindref="compound">wxBitmap</ref></type>
+        <definition>virtual wxBitmap wxPreferencesPage::GetLargeIcon</definition>
+        <argsstring>() const =0</argsstring>
+        <name>GetLargeIcon</name>
+        <reimplementedby refid="classwx_stock_preferences_page_1a4caa4c4dcfd648abe36452baa0864138">GetLargeIcon</reimplementedby>
+        <briefdescription>
+<para>Return 32x32 icon used for the page on some platforms. </para>        </briefdescription>
+        <detaileddescription>
+<para>Currently only used on OS X.</para><para><simplesect kind="note"><para>This method is only pure virtual on platforms that require it (OS X). On other platforms, it has default implementation that returns an invalid bitmap. The preprocessor symbol <computeroutput>wxHAS_PREF_EDITOR_ICONS</computeroutput> is defined if this method must be implemented. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/preferences.h" line="160" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_preferences_page_1a5b1dabcb4d9e86ce3613f7f32803b7e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type><ref refid="classwx_window" kindref="compound">wxWindow</ref> *</type>
+        <definition>virtual wxWindow* wxPreferencesPage::CreateWindow</definition>
+        <argsstring>(wxWindow *parent)=0</argsstring>
+        <name>CreateWindow</name>
+        <param>
+          <type><ref refid="classwx_window" kindref="compound">wxWindow</ref> *</type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+<para>Create a window for this page. </para>        </briefdescription>
+        <detaileddescription>
+<para>The window will be placed into the preferences dialog in platform-specific manner. Depending on the platform, this method may be called before showing the preferences window, when switching to its tab or even more than once. Don&apos;t make assumptions about the number of times or the specific time when it is called.</para><para>The caller takes ownership of the window.</para><para><ref refid="classwx_panel" kindref="compound">wxPanel</ref> is usually used, but doesn&apos;t have to be.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>parent</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Parent window to use. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/preferences.h" line="177" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>One page of preferences dialog. </para>    </briefdescription>
+    <detaileddescription>
+<para>This is the base class for implementation of application&apos;s preferences. Its methods return various properties of the page, such as title or icon. The actual page is created by <ref refid="classwx_preferences_page_1a5b1dabcb4d9e86ce3613f7f32803b7e5" kindref="member">CreateWindow()</ref>.</para><para><simplesect kind="see"><para><ref refid="classwx_stock_preferences_page" kindref="compound">wxStockPreferencesPage</ref></para></simplesect>
+<heading level="2"></heading>
+</para><para>Library:<nonbreakablespace/><nonbreakablespace/><ref refid="page_libs_1page_libs_wxcore" kindref="member">wxCore</ref></para><para><simplesect kind="since"><para>2.9.5 </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="5552">
+        <label>wxStockPreferencesPage</label>
+        <link refid="classwx_stock_preferences_page"/>
+        <childnode refid="5551" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5551">
+        <label>wxPreferencesPage</label>
+        <link refid="classwx_preferences_page"/>
+      </node>
+    </inheritancegraph>
+    <location file="interface/wx/preferences.h" line="133" column="1" bodyfile="interface/wx/preferences.h" bodystart="132" bodyend="178"/>
+    <listofallmembers>
+      <member refid="classwx_preferences_page_1a5b1dabcb4d9e86ce3613f7f32803b7e5" prot="public" virt="pure-virtual"><scope>wxPreferencesPage</scope><name>CreateWindow</name></member>
+      <member refid="classwx_preferences_page_1a05880595e8507b60eaea11d5addc71e6" prot="public" virt="pure-virtual"><scope>wxPreferencesPage</scope><name>GetLargeIcon</name></member>
+      <member refid="classwx_preferences_page_1aaf3db462208f700fff0fd99c66afd8d7" prot="public" virt="pure-virtual"><scope>wxPreferencesPage</scope><name>GetName</name></member>
+      <member refid="classwx_preferences_page_1a75e85f05d5c78a918dc85a891b8f4c51" prot="public" virt="non-virtual"><scope>wxPreferencesPage</scope><name>wxPreferencesPage</name></member>
+      <member refid="classwx_preferences_page_1ae0f9be588887bf27451efdb1400d262e" prot="public" virt="virtual"><scope>wxPreferencesPage</scope><name>~wxPreferencesPage</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,244 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_html_selection" kind="class" language="C++" prot="public">
+    <compoundname>wxHtmlSelection</compoundname>
+    <includes local="no">wx/html/htmlcell.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classwx_html_selection_1ac8f760ef6273c6c2db6a6c722840efad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxHtmlSelection::wxHtmlSelection</definition>
+        <argsstring>()</argsstring>
+        <name>wxHtmlSelection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/html/htmlcell.h" line="22" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_html_selection_1a527fc6eabe63abe42e9abdce5f64b388" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxHtmlSelection::Set</definition>
+        <argsstring>(const wxPoint &amp;fromPos, const wxHtmlCell *fromCell, const wxPoint &amp;toPos, const wxHtmlCell *toCell)</argsstring>
+        <name>Set</name>
+        <param>
+          <type>const <ref refid="classwx_point" kindref="compound">wxPoint</ref> &amp;</type>
+          <declname>fromPos</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_html_cell" kindref="compound">wxHtmlCell</ref> *</type>
+          <declname>fromCell</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_point" kindref="compound">wxPoint</ref> &amp;</type>
+          <declname>toPos</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_html_cell" kindref="compound">wxHtmlCell</ref> *</type>
+          <declname>toCell</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/html/htmlcell.h" line="25" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_html_selection_1a9f2981ef710f274f11fd380538ce1908" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxHtmlSelection::Set</definition>
+        <argsstring>(const wxHtmlCell *fromCell, const wxHtmlCell *toCell)</argsstring>
+        <name>Set</name>
+        <param>
+          <type>const <ref refid="classwx_html_cell" kindref="compound">wxHtmlCell</ref> *</type>
+          <declname>fromCell</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_html_cell" kindref="compound">wxHtmlCell</ref> *</type>
+          <declname>toCell</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/html/htmlcell.h" line="27" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_html_selection_1a5f0e09e0f094d3ce31a3dc61f876c80a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="classwx_html_cell" kindref="compound">wxHtmlCell</ref> *</type>
+        <definition>const wxHtmlCell* wxHtmlSelection::GetFromCell</definition>
+        <argsstring>() const</argsstring>
+        <name>GetFromCell</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/html/htmlcell.h" line="29" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_html_selection_1af7d098d0dd3d5a3ee440794870d6f2b9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="classwx_html_cell" kindref="compound">wxHtmlCell</ref> *</type>
+        <definition>const wxHtmlCell* wxHtmlSelection::GetToCell</definition>
+        <argsstring>() const</argsstring>
+        <name>GetToCell</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/html/htmlcell.h" line="30" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_html_selection_1af5385e50343067230a0a06b0772589d9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="classwx_point" kindref="compound">wxPoint</ref> &amp;</type>
+        <definition>const wxPoint&amp; wxHtmlSelection::GetFromPos</definition>
+        <argsstring>() const</argsstring>
+        <name>GetFromPos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/html/htmlcell.h" line="33" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_html_selection_1ad8b59292726137c5d6e072132e2aa1d5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="classwx_point" kindref="compound">wxPoint</ref> &amp;</type>
+        <definition>const wxPoint&amp; wxHtmlSelection::GetToPos</definition>
+        <argsstring>() const</argsstring>
+        <name>GetToPos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/html/htmlcell.h" line="34" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_html_selection_1a39044d108b6ec2f511ef25450d2f309d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxHtmlSelection::ClearFromToCharacterPos</definition>
+        <argsstring>()</argsstring>
+        <name>ClearFromToCharacterPos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/html/htmlcell.h" line="37" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_html_selection_1ab12974f53f0f184ecf3daca66418bb03" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxHtmlSelection::AreFromToCharacterPosSet</definition>
+        <argsstring>() const</argsstring>
+        <name>AreFromToCharacterPosSet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/html/htmlcell.h" line="38" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_html_selection_1a2dbc044991882bc37eb5cdb0da7ea4aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxHtmlSelection::SetFromCharacterPos</definition>
+        <argsstring>(wxCoord pos)</argsstring>
+        <name>SetFromCharacterPos</name>
+        <param>
+          <type><ref refid="defs_8h_1a11f6efc0e8d8d680f3ec8e82aa4f1770" kindref="member">wxCoord</ref></type>
+          <declname>pos</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/html/htmlcell.h" line="40" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_html_selection_1a579909f2ffdfe89e68a3de9802f1e35f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxHtmlSelection::SetToCharacterPos</definition>
+        <argsstring>(wxCoord pos)</argsstring>
+        <name>SetToCharacterPos</name>
+        <param>
+          <type><ref refid="defs_8h_1a11f6efc0e8d8d680f3ec8e82aa4f1770" kindref="member">wxCoord</ref></type>
+          <declname>pos</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/html/htmlcell.h" line="41" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_html_selection_1acc2fe84c0fc18c0dd1b8d9c78a3e44aa" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="defs_8h_1a11f6efc0e8d8d680f3ec8e82aa4f1770" kindref="member">wxCoord</ref></type>
+        <definition>wxCoord wxHtmlSelection::GetFromCharacterPos</definition>
+        <argsstring>() const</argsstring>
+        <name>GetFromCharacterPos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/html/htmlcell.h" line="42" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_html_selection_1af5acf483472821da9bfe2b9ba37fb7fb" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="defs_8h_1a11f6efc0e8d8d680f3ec8e82aa4f1770" kindref="member">wxCoord</ref></type>
+        <definition>wxCoord wxHtmlSelection::GetToCharacterPos</definition>
+        <argsstring>() const</argsstring>
+        <name>GetToCharacterPos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/html/htmlcell.h" line="43" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_html_selection_1ae273872b9f8b99bf1d3d3d7696592f71" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxHtmlSelection::IsEmpty</definition>
+        <argsstring>() const</argsstring>
+        <name>IsEmpty</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/html/htmlcell.h" line="45" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="interface/wx/html/htmlcell.h" line="20" column="1" bodyfile="interface/wx/html/htmlcell.h" bodystart="19" bodyend="46"/>
+    <listofallmembers>
+      <member refid="classwx_html_selection_1ab12974f53f0f184ecf3daca66418bb03" prot="public" virt="non-virtual"><scope>wxHtmlSelection</scope><name>AreFromToCharacterPosSet</name></member>
+      <member refid="classwx_html_selection_1a39044d108b6ec2f511ef25450d2f309d" prot="public" virt="non-virtual"><scope>wxHtmlSelection</scope><name>ClearFromToCharacterPos</name></member>
+      <member refid="classwx_html_selection_1a5f0e09e0f094d3ce31a3dc61f876c80a" prot="public" virt="non-virtual"><scope>wxHtmlSelection</scope><name>GetFromCell</name></member>
+      <member refid="classwx_html_selection_1acc2fe84c0fc18c0dd1b8d9c78a3e44aa" prot="public" virt="non-virtual"><scope>wxHtmlSelection</scope><name>GetFromCharacterPos</name></member>
+      <member refid="classwx_html_selection_1af5385e50343067230a0a06b0772589d9" prot="public" virt="non-virtual"><scope>wxHtmlSelection</scope><name>GetFromPos</name></member>
+      <member refid="classwx_html_selection_1af7d098d0dd3d5a3ee440794870d6f2b9" prot="public" virt="non-virtual"><scope>wxHtmlSelection</scope><name>GetToCell</name></member>
+      <member refid="classwx_html_selection_1af5acf483472821da9bfe2b9ba37fb7fb" prot="public" virt="non-virtual"><scope>wxHtmlSelection</scope><name>GetToCharacterPos</name></member>
+      <member refid="classwx_html_selection_1ad8b59292726137c5d6e072132e2aa1d5" prot="public" virt="non-virtual"><scope>wxHtmlSelection</scope><name>GetToPos</name></member>
+      <member refid="classwx_html_selection_1ae273872b9f8b99bf1d3d3d7696592f71" prot="public" virt="non-virtual"><scope>wxHtmlSelection</scope><name>IsEmpty</name></member>
+      <member refid="classwx_html_selection_1a527fc6eabe63abe42e9abdce5f64b388" prot="public" virt="non-virtual"><scope>wxHtmlSelection</scope><name>Set</name></member>
+      <member refid="classwx_html_selection_1a9f2981ef710f274f11fd380538ce1908" prot="public" virt="non-virtual"><scope>wxHtmlSelection</scope><name>Set</name></member>
+      <member refid="classwx_html_selection_1a2dbc044991882bc37eb5cdb0da7ea4aa" prot="public" virt="non-virtual"><scope>wxHtmlSelection</scope><name>SetFromCharacterPos</name></member>
+      <member refid="classwx_html_selection_1a579909f2ffdfe89e68a3de9802f1e35f" prot="public" virt="non-virtual"><scope>wxHtmlSelection</scope><name>SetToCharacterPos</name></member>
+      <member refid="classwx_html_selection_1ac8f760ef6273c6c2db6a6c722840efad" prot="public" virt="non-virtual"><scope>wxHtmlSelection</scope><name>wxHtmlSelection</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

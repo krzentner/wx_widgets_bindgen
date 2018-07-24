@@ -1,0 +1,593 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_rich_text_file_handler" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>wxRichTextFileHandler</compoundname>
+    <basecompoundref refid="classwx_object" prot="public" virt="non-virtual">wxObject</basecompoundref>
+    <derivedcompoundref refid="classwx_rich_text_h_t_m_l_handler" prot="public" virt="non-virtual">wxRichTextHTMLHandler</derivedcompoundref>
+    <derivedcompoundref refid="classwx_rich_text_plain_text_handler" prot="public" virt="non-virtual">wxRichTextPlainTextHandler</derivedcompoundref>
+    <derivedcompoundref refid="classwx_rich_text_x_m_l_handler" prot="public" virt="non-virtual">wxRichTextXMLHandler</derivedcompoundref>
+    <includes local="no">wx/richtext/richtextbuffer.h</includes>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classwx_rich_text_file_handler_1a440e405a19e949e64c031341506c44e8" prot="protected" static="no" mutable="no">
+        <type><ref refid="classwx_string" kindref="compound">wxString</ref></type>
+        <definition>wxString wxRichTextFileHandler::m_name</definition>
+        <argsstring></argsstring>
+        <name>m_name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="6237" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="6237" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classwx_rich_text_file_handler_1aaa173104e3a7bc529308d0edffb9ddef" prot="protected" static="no" mutable="no">
+        <type><ref refid="classwx_string" kindref="compound">wxString</ref></type>
+        <definition>wxString wxRichTextFileHandler::m_encoding</definition>
+        <argsstring></argsstring>
+        <name>m_encoding</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="6238" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="6238" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classwx_rich_text_file_handler_1a656539a2bd2705781baf24775ca9a7c5" prot="protected" static="no" mutable="no">
+        <type><ref refid="classwx_string" kindref="compound">wxString</ref></type>
+        <definition>wxString wxRichTextFileHandler::m_extension</definition>
+        <argsstring></argsstring>
+        <name>m_extension</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="6239" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="6239" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classwx_rich_text_file_handler_1a262dbf7446f35720ebaadba74ecd9593" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int wxRichTextFileHandler::m_type</definition>
+        <argsstring></argsstring>
+        <name>m_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="6240" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="6240" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classwx_rich_text_file_handler_1ace5bfb1a7a7d46d1d2a10fbb72f53813" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int wxRichTextFileHandler::m_flags</definition>
+        <argsstring></argsstring>
+        <name>m_flags</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="6241" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="6241" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classwx_rich_text_file_handler_1a73bf7d7c2dd7b29c1abc9333b9b68a77" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool wxRichTextFileHandler::m_visible</definition>
+        <argsstring></argsstring>
+        <name>m_visible</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="6242" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="6242" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classwx_rich_text_file_handler_1a536779d805d21199a6bccfac49bf1156" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>wxRichTextFileHandler::wxRichTextFileHandler</definition>
+        <argsstring>(const wxString &amp;name=wxEmptyString, const wxString &amp;ext=wxEmptyString, int type=0)</argsstring>
+        <name>wxRichTextFileHandler</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>name</declname>
+          <defval><ref refid="interface_2wx_2string_8h_1a9a321d587166a30017b608dd2d234033" kindref="member">wxEmptyString</ref></defval>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>ext</declname>
+          <defval><ref refid="interface_2wx_2string_8h_1a9a321d587166a30017b608dd2d234033" kindref="member">wxEmptyString</ref></defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>type</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>Creates a file handler object. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="6114" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="6114" bodyend="6116"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_file_handler_1a926537b520ddca22e6c770dbcc91c3f4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxRichTextFileHandler::LoadFile</definition>
+        <argsstring>(wxRichTextBuffer *buffer, wxInputStream &amp;stream)</argsstring>
+        <name>LoadFile</name>
+        <param>
+          <type><ref refid="classwx_rich_text_buffer" kindref="compound">wxRichTextBuffer</ref> *</type>
+          <declname>buffer</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_input_stream" kindref="compound">wxInputStream</ref> &amp;</type>
+          <declname>stream</declname>
+        </param>
+        <briefdescription>
+<para>Loads the buffer from a stream. </para>        </briefdescription>
+        <detaileddescription>
+<para>Not all handlers will implement file loading. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="6122" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="6122" bodyend="6123"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_file_handler_1a93f83b7d467c423bd243ab9eb4ddbaa4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxRichTextFileHandler::SaveFile</definition>
+        <argsstring>(wxRichTextBuffer *buffer, wxOutputStream &amp;stream)</argsstring>
+        <name>SaveFile</name>
+        <param>
+          <type><ref refid="classwx_rich_text_buffer" kindref="compound">wxRichTextBuffer</ref> *</type>
+          <declname>buffer</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_output_stream" kindref="compound">wxOutputStream</ref> &amp;</type>
+          <declname>stream</declname>
+        </param>
+        <briefdescription>
+<para>Saves the buffer to a stream. </para>        </briefdescription>
+        <detaileddescription>
+<para>Not all handlers will implement file saving. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="6129" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="6129" bodyend="6130"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_file_handler_1a26154421ceab43b02cb713bba69a60cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool wxRichTextFileHandler::LoadFile</definition>
+        <argsstring>(wxRichTextBuffer *buffer, const wxString &amp;filename)</argsstring>
+        <name>LoadFile</name>
+        <param>
+          <type><ref refid="classwx_rich_text_buffer" kindref="compound">wxRichTextBuffer</ref> *</type>
+          <declname>buffer</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>filename</declname>
+        </param>
+        <briefdescription>
+<para>Loads the buffer from a file. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="6135" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_file_handler_1ac28d68a18c605f8d7536fb5ab82e8d94" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool wxRichTextFileHandler::SaveFile</definition>
+        <argsstring>(wxRichTextBuffer *buffer, const wxString &amp;filename)</argsstring>
+        <name>SaveFile</name>
+        <param>
+          <type><ref refid="classwx_rich_text_buffer" kindref="compound">wxRichTextBuffer</ref> *</type>
+          <declname>buffer</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>filename</declname>
+        </param>
+        <briefdescription>
+<para>Saves the buffer to a file. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="6140" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_file_handler_1a89b3bf669d4b760a41e1d97e048851ee" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool wxRichTextFileHandler::CanHandle</definition>
+        <argsstring>(const wxString &amp;filename) const</argsstring>
+        <name>CanHandle</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>filename</declname>
+        </param>
+        <briefdescription>
+<para>Returns true if we handle this filename (if using files). </para>        </briefdescription>
+        <detaileddescription>
+<para>By default, checks the extension. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="6145" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_file_handler_1a5c0cbc3224f28bbc4b8ca3aed7e4a736" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool wxRichTextFileHandler::CanSave</definition>
+        <argsstring>() const</argsstring>
+        <name>CanSave</name>
+        <reimplementedby refid="classwx_rich_text_x_m_l_handler_1abef94be4e88e7e7d03a7f8c74513b555">CanSave</reimplementedby>
+        <reimplementedby refid="classwx_rich_text_plain_text_handler_1a15ff5c3362bac7572a9fc62f7c2c1bf9">CanSave</reimplementedby>
+        <briefdescription>
+<para>Returns true if we can save using this handler. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="6150" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="6150" bodyend="6150"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_file_handler_1a19a7adf6de8ac290680e6f730ce30193" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool wxRichTextFileHandler::CanLoad</definition>
+        <argsstring>() const</argsstring>
+        <name>CanLoad</name>
+        <reimplementedby refid="classwx_rich_text_x_m_l_handler_1a6f51de2acc81fd639dbc98a56e55f3f1">CanLoad</reimplementedby>
+        <reimplementedby refid="classwx_rich_text_plain_text_handler_1a0692211e3c1107daa30d788c2d295676">CanLoad</reimplementedby>
+        <briefdescription>
+<para>Returns true if we can load using this handler. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="6155" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="6155" bodyend="6155"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_file_handler_1a752002a3c93b6b3e1ed68aa07f0c1a2b" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool wxRichTextFileHandler::IsVisible</definition>
+        <argsstring>() const</argsstring>
+        <name>IsVisible</name>
+        <briefdescription>
+<para>Returns true if this handler should be visible to the user. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="6160" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="6160" bodyend="6160"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_file_handler_1ac0491f2ec0616b73c2fbd469f5f65ed2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void wxRichTextFileHandler::SetVisible</definition>
+        <argsstring>(bool visible)</argsstring>
+        <name>SetVisible</name>
+        <param>
+          <type>bool</type>
+          <declname>visible</declname>
+        </param>
+        <briefdescription>
+<para>Sets whether the handler should be visible to the user (via the application&apos;s load and save dialogs). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="6166" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="6166" bodyend="6166"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_file_handler_1a1559f89c91e446ef004e9784057fc2a9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxRichTextFileHandler::SetName</definition>
+        <argsstring>(const wxString &amp;name)</argsstring>
+        <name>SetName</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+<para>Sets the name of the handler. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="6171" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="6171" bodyend="6171"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_file_handler_1a1e3b96a63ad2c00ecbfd579c1deeacce" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classwx_string" kindref="compound">wxString</ref></type>
+        <definition>wxString wxRichTextFileHandler::GetName</definition>
+        <argsstring>() const</argsstring>
+        <name>GetName</name>
+        <briefdescription>
+<para>Returns the name of the handler. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="6176" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="6176" bodyend="6176"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_file_handler_1a76d4eab35af696b50712e925c9e4082a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxRichTextFileHandler::SetExtension</definition>
+        <argsstring>(const wxString &amp;ext)</argsstring>
+        <name>SetExtension</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>ext</declname>
+        </param>
+        <briefdescription>
+<para>Sets the default extension to recognise. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="6181" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="6181" bodyend="6181"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_file_handler_1ab284a241c1a30c34283238d0b32b344c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classwx_string" kindref="compound">wxString</ref></type>
+        <definition>wxString wxRichTextFileHandler::GetExtension</definition>
+        <argsstring>() const</argsstring>
+        <name>GetExtension</name>
+        <briefdescription>
+<para>Returns the default extension to recognise. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="6186" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="6186" bodyend="6186"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_file_handler_1ac27e7b08fda35574f23db8b33b6febf3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxRichTextFileHandler::SetType</definition>
+        <argsstring>(int type)</argsstring>
+        <name>SetType</name>
+        <param>
+          <type>int</type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+<para>Sets the handler type. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="6191" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="6191" bodyend="6191"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_file_handler_1adee80020c483471c10e1c83abc217b39" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int wxRichTextFileHandler::GetType</definition>
+        <argsstring>() const</argsstring>
+        <name>GetType</name>
+        <briefdescription>
+<para>Returns the handler type. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="6196" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="6196" bodyend="6196"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_file_handler_1adb45b2376036729d68f9d572f8d1b15f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxRichTextFileHandler::SetFlags</definition>
+        <argsstring>(int flags)</argsstring>
+        <name>SetFlags</name>
+        <param>
+          <type>int</type>
+          <declname>flags</declname>
+        </param>
+        <briefdescription>
+<para>Sets flags that change the behaviour of loading or saving. </para>        </briefdescription>
+        <detaileddescription>
+<para>See the documentation for each handler class to see what flags are relevant for each handler.</para><para>You call this function directly if you are using a file handler explicitly (without going through the text control or buffer LoadFile/SaveFile API). Or, you can call the control or buffer&apos;s SetHandlerFlags function to set the flags that will be used for subsequent load and save operations. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="6208" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="6208" bodyend="6208"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_file_handler_1acd57cbe10864aeca101094c9a858cfcc" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int wxRichTextFileHandler::GetFlags</definition>
+        <argsstring>() const</argsstring>
+        <name>GetFlags</name>
+        <briefdescription>
+<para>Returns flags controlling how loading and saving is done. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="6213" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="6213" bodyend="6213"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_file_handler_1ae4ef62e9f8ffc36c6f410c0d58e15fe8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxRichTextFileHandler::SetEncoding</definition>
+        <argsstring>(const wxString &amp;encoding)</argsstring>
+        <name>SetEncoding</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>encoding</declname>
+        </param>
+        <briefdescription>
+<para>Sets the encoding to use when saving a file. </para>        </briefdescription>
+        <detaileddescription>
+<para>If empty, a suitable encoding is chosen. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="6218" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="6218" bodyend="6218"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_file_handler_1a5e5d1560c790406c00981ed70c0c108a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+        <definition>const wxString&amp; wxRichTextFileHandler::GetEncoding</definition>
+        <argsstring>() const</argsstring>
+        <name>GetEncoding</name>
+        <briefdescription>
+<para>Returns the encoding to use when saving a file. </para>        </briefdescription>
+        <detaileddescription>
+<para>If empty, a suitable encoding is chosen. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="6223" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="6223" bodyend="6223"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classwx_rich_text_file_handler_1af5dc1360f668e4f3439b2bfff52cc84c" prot="protected" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>bool</type>
+        <definition>virtual bool wxRichTextFileHandler::DoLoadFile</definition>
+        <argsstring>(wxRichTextBuffer *buffer, wxInputStream &amp;stream)=0</argsstring>
+        <name>DoLoadFile</name>
+        <reimplementedby refid="classwx_rich_text_x_m_l_handler_1a355cba06c7e8d0f5296020a8ce27af26">DoLoadFile</reimplementedby>
+        <reimplementedby refid="classwx_rich_text_plain_text_handler_1acd593a1c4c892fbcc26b726dc9b6ab8c">DoLoadFile</reimplementedby>
+        <param>
+          <type><ref refid="classwx_rich_text_buffer" kindref="compound">wxRichTextBuffer</ref> *</type>
+          <declname>buffer</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_input_stream" kindref="compound">wxInputStream</ref> &amp;</type>
+          <declname>stream</declname>
+        </param>
+        <briefdescription>
+<para>Override to load content from <emphasis>stream</emphasis> into <emphasis>buffer</emphasis>. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="6230" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_file_handler_1afc26918b48fea71631cbd54ad2dec905" prot="protected" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>bool</type>
+        <definition>virtual bool wxRichTextFileHandler::DoSaveFile</definition>
+        <argsstring>(wxRichTextBuffer *buffer, wxOutputStream &amp;stream)=0</argsstring>
+        <name>DoSaveFile</name>
+        <reimplementedby refid="classwx_rich_text_x_m_l_handler_1afbc34a2378e267afb05bf8e593695c0a">DoSaveFile</reimplementedby>
+        <reimplementedby refid="classwx_rich_text_h_t_m_l_handler_1a54212fee09047adbd3fa1092bf46cd6b">DoSaveFile</reimplementedby>
+        <reimplementedby refid="classwx_rich_text_plain_text_handler_1aa43e67d6b0fcf01451d65678461e04c7">DoSaveFile</reimplementedby>
+        <param>
+          <type><ref refid="classwx_rich_text_buffer" kindref="compound">wxRichTextBuffer</ref> *</type>
+          <declname>buffer</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_output_stream" kindref="compound">wxOutputStream</ref> &amp;</type>
+          <declname>stream</declname>
+        </param>
+        <briefdescription>
+<para>Override to save content to <emphasis>stream</emphasis> from <emphasis>buffer</emphasis>. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="6235" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>The base class for file handlers. </para>    </briefdescription>
+    <detaileddescription>
+<para><heading level="2"></heading>
+</para><para>Library:<nonbreakablespace/><nonbreakablespace/><ref refid="page_libs_1page_libs_wxrichtext" kindref="member">wxRichText</ref> &lt;&gt;&lt; =&apos;&apos;&gt;:&lt;/&gt;&amp;;&amp;;&lt; =&apos;&apos;&gt;\ &lt;/&gt;&lt;/&gt;</para><para><simplesect kind="see"><para><ref refid="classwx_rich_text_buffer" kindref="compound">wxRichTextBuffer</ref>, <ref refid="classwx_rich_text_ctrl" kindref="compound">wxRichTextCtrl</ref> </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="6614">
+        <label>wxRichTextXMLHandler</label>
+        <link refid="classwx_rich_text_x_m_l_handler"/>
+        <childnode refid="6610" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6610">
+        <label>wxRichTextFileHandler</label>
+        <link refid="classwx_rich_text_file_handler"/>
+        <childnode refid="6611" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6612">
+        <label>wxRichTextHTMLHandler</label>
+        <link refid="classwx_rich_text_h_t_m_l_handler"/>
+        <childnode refid="6610" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6611">
+        <label>wxObject</label>
+        <link refid="classwx_object"/>
+      </node>
+      <node id="6613">
+        <label>wxRichTextPlainTextHandler</label>
+        <link refid="classwx_rich_text_plain_text_handler"/>
+        <childnode refid="6610" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="6618">
+        <label>wxString</label>
+        <link refid="classwx_string"/>
+      </node>
+      <node id="6615">
+        <label>wxRichTextFileHandler</label>
+        <link refid="classwx_rich_text_file_handler"/>
+        <childnode refid="6616" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6618" relation="usage">
+          <edgelabel>m_encoding</edgelabel>
+          <edgelabel>m_extension</edgelabel>
+          <edgelabel>m_name</edgelabel>
+        </childnode>
+      </node>
+      <node id="6616">
+        <label>wxObject</label>
+        <link refid="classwx_object"/>
+        <childnode refid="6617" relation="usage">
+          <edgelabel>m_refData</edgelabel>
+        </childnode>
+      </node>
+      <node id="6617">
+        <label>wxObjectRefData</label>
+        <link refid="classwx_object_ref_data"/>
+      </node>
+    </collaborationgraph>
+    <location file="interface/wx/richtext/richtextbuffer.h" line="6109" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="6108" bodyend="6243"/>
+    <listofallmembers>
+      <member refid="classwx_object_1a60204063f3cc3aa2fa1c7ff5bda9eb13" prot="protected" virt="non-virtual"><scope>wxRichTextFileHandler</scope><name>AllocExclusive</name></member>
+      <member refid="classwx_rich_text_file_handler_1a89b3bf669d4b760a41e1d97e048851ee" prot="public" virt="virtual"><scope>wxRichTextFileHandler</scope><name>CanHandle</name></member>
+      <member refid="classwx_rich_text_file_handler_1a19a7adf6de8ac290680e6f730ce30193" prot="public" virt="virtual"><scope>wxRichTextFileHandler</scope><name>CanLoad</name></member>
+      <member refid="classwx_rich_text_file_handler_1a5c0cbc3224f28bbc4b8ca3aed7e4a736" prot="public" virt="virtual"><scope>wxRichTextFileHandler</scope><name>CanSave</name></member>
+      <member refid="classwx_object_1a436fc8fe68cf8a31000296d9cd3d2427" prot="protected" virt="virtual"><scope>wxRichTextFileHandler</scope><name>CloneRefData</name></member>
+      <member refid="classwx_object_1a3f4f497c65cef611e121c41f21dd5ccc" prot="protected" virt="virtual"><scope>wxRichTextFileHandler</scope><name>CreateRefData</name></member>
+      <member refid="classwx_rich_text_file_handler_1af5dc1360f668e4f3439b2bfff52cc84c" prot="protected" virt="pure-virtual"><scope>wxRichTextFileHandler</scope><name>DoLoadFile</name></member>
+      <member refid="classwx_rich_text_file_handler_1afc26918b48fea71631cbd54ad2dec905" prot="protected" virt="pure-virtual"><scope>wxRichTextFileHandler</scope><name>DoSaveFile</name></member>
+      <member refid="classwx_object_1ae6d365f2556b26767ced8410c5e839d0" prot="public" virt="virtual"><scope>wxRichTextFileHandler</scope><name>GetClassInfo</name></member>
+      <member refid="classwx_rich_text_file_handler_1a5e5d1560c790406c00981ed70c0c108a" prot="public" virt="non-virtual"><scope>wxRichTextFileHandler</scope><name>GetEncoding</name></member>
+      <member refid="classwx_rich_text_file_handler_1ab284a241c1a30c34283238d0b32b344c" prot="public" virt="non-virtual"><scope>wxRichTextFileHandler</scope><name>GetExtension</name></member>
+      <member refid="classwx_rich_text_file_handler_1acd57cbe10864aeca101094c9a858cfcc" prot="public" virt="non-virtual"><scope>wxRichTextFileHandler</scope><name>GetFlags</name></member>
+      <member refid="classwx_rich_text_file_handler_1a1e3b96a63ad2c00ecbfd579c1deeacce" prot="public" virt="non-virtual"><scope>wxRichTextFileHandler</scope><name>GetName</name></member>
+      <member refid="classwx_object_1af3c6c76a775864832f1536d3c0de3a2b" prot="public" virt="non-virtual"><scope>wxRichTextFileHandler</scope><name>GetRefData</name></member>
+      <member refid="classwx_rich_text_file_handler_1adee80020c483471c10e1c83abc217b39" prot="public" virt="non-virtual"><scope>wxRichTextFileHandler</scope><name>GetType</name></member>
+      <member refid="classwx_object_1a3c7115ef4132dcee0c4fc34e84d7fced" prot="public" virt="non-virtual"><scope>wxRichTextFileHandler</scope><name>IsKindOf</name></member>
+      <member refid="classwx_object_1a059373c494c2369d7db2a556efef8ecf" prot="public" virt="non-virtual"><scope>wxRichTextFileHandler</scope><name>IsSameAs</name></member>
+      <member refid="classwx_rich_text_file_handler_1a752002a3c93b6b3e1ed68aa07f0c1a2b" prot="public" virt="virtual"><scope>wxRichTextFileHandler</scope><name>IsVisible</name></member>
+      <member refid="classwx_rich_text_file_handler_1a926537b520ddca22e6c770dbcc91c3f4" prot="public" virt="non-virtual"><scope>wxRichTextFileHandler</scope><name>LoadFile</name></member>
+      <member refid="classwx_rich_text_file_handler_1a26154421ceab43b02cb713bba69a60cd" prot="public" virt="virtual"><scope>wxRichTextFileHandler</scope><name>LoadFile</name></member>
+      <member refid="classwx_rich_text_file_handler_1aaa173104e3a7bc529308d0edffb9ddef" prot="protected" virt="non-virtual"><scope>wxRichTextFileHandler</scope><name>m_encoding</name></member>
+      <member refid="classwx_rich_text_file_handler_1a656539a2bd2705781baf24775ca9a7c5" prot="protected" virt="non-virtual"><scope>wxRichTextFileHandler</scope><name>m_extension</name></member>
+      <member refid="classwx_rich_text_file_handler_1ace5bfb1a7a7d46d1d2a10fbb72f53813" prot="protected" virt="non-virtual"><scope>wxRichTextFileHandler</scope><name>m_flags</name></member>
+      <member refid="classwx_rich_text_file_handler_1a440e405a19e949e64c031341506c44e8" prot="protected" virt="non-virtual"><scope>wxRichTextFileHandler</scope><name>m_name</name></member>
+      <member refid="classwx_object_1a9e31954530a0abd54982effc443ed2b8" prot="protected" virt="non-virtual"><scope>wxRichTextFileHandler</scope><name>m_refData</name></member>
+      <member refid="classwx_rich_text_file_handler_1a262dbf7446f35720ebaadba74ecd9593" prot="protected" virt="non-virtual"><scope>wxRichTextFileHandler</scope><name>m_type</name></member>
+      <member refid="classwx_rich_text_file_handler_1a73bf7d7c2dd7b29c1abc9333b9b68a77" prot="protected" virt="non-virtual"><scope>wxRichTextFileHandler</scope><name>m_visible</name></member>
+      <member refid="classwx_object_1a07b8f34f5afc5743195c5fed052f55d3" prot="public" virt="non-virtual"><scope>wxRichTextFileHandler</scope><name>operator delete</name></member>
+      <member refid="classwx_object_1a96fa423a1dbc212c8227a5d83825971f" prot="public" virt="non-virtual"><scope>wxRichTextFileHandler</scope><name>operator new</name></member>
+      <member refid="classwx_object_1a2f6f1aa51fe9fc2b1415ca4211a90e9e" prot="public" virt="non-virtual"><scope>wxRichTextFileHandler</scope><name>Ref</name></member>
+      <member refid="classwx_rich_text_file_handler_1a93f83b7d467c423bd243ab9eb4ddbaa4" prot="public" virt="non-virtual"><scope>wxRichTextFileHandler</scope><name>SaveFile</name></member>
+      <member refid="classwx_rich_text_file_handler_1ac28d68a18c605f8d7536fb5ab82e8d94" prot="public" virt="virtual"><scope>wxRichTextFileHandler</scope><name>SaveFile</name></member>
+      <member refid="classwx_rich_text_file_handler_1ae4ef62e9f8ffc36c6f410c0d58e15fe8" prot="public" virt="non-virtual"><scope>wxRichTextFileHandler</scope><name>SetEncoding</name></member>
+      <member refid="classwx_rich_text_file_handler_1a76d4eab35af696b50712e925c9e4082a" prot="public" virt="non-virtual"><scope>wxRichTextFileHandler</scope><name>SetExtension</name></member>
+      <member refid="classwx_rich_text_file_handler_1adb45b2376036729d68f9d572f8d1b15f" prot="public" virt="non-virtual"><scope>wxRichTextFileHandler</scope><name>SetFlags</name></member>
+      <member refid="classwx_rich_text_file_handler_1a1559f89c91e446ef004e9784057fc2a9" prot="public" virt="non-virtual"><scope>wxRichTextFileHandler</scope><name>SetName</name></member>
+      <member refid="classwx_object_1afab780710f2adc1bb33310e27590140b" prot="public" virt="non-virtual"><scope>wxRichTextFileHandler</scope><name>SetRefData</name></member>
+      <member refid="classwx_rich_text_file_handler_1ac27e7b08fda35574f23db8b33b6febf3" prot="public" virt="non-virtual"><scope>wxRichTextFileHandler</scope><name>SetType</name></member>
+      <member refid="classwx_rich_text_file_handler_1ac0491f2ec0616b73c2fbd469f5f65ed2" prot="public" virt="virtual"><scope>wxRichTextFileHandler</scope><name>SetVisible</name></member>
+      <member refid="classwx_object_1af51efc6b1ae632fc7f0cd7ebbce9fa36" prot="public" virt="non-virtual"><scope>wxRichTextFileHandler</scope><name>UnRef</name></member>
+      <member refid="classwx_object_1a74b40e42d19a4b9e9bec0b57d62a5725" prot="public" virt="non-virtual"><scope>wxRichTextFileHandler</scope><name>UnShare</name></member>
+      <member refid="classwx_object_1acaa378363a28af421ab56ad7b46eadf0" prot="public" virt="non-virtual"><scope>wxRichTextFileHandler</scope><name>wxObject</name></member>
+      <member refid="classwx_object_1a4721b4dc9b7aff0f30904ba2ea3954cf" prot="public" virt="non-virtual"><scope>wxRichTextFileHandler</scope><name>wxObject</name></member>
+      <member refid="classwx_rich_text_file_handler_1a536779d805d21199a6bccfac49bf1156" prot="public" virt="non-virtual"><scope>wxRichTextFileHandler</scope><name>wxRichTextFileHandler</name></member>
+      <member refid="classwx_object_1a2a51aa8bfbab47ca2f051bcf84b3f35b" prot="public" virt="virtual"><scope>wxRichTextFileHandler</scope><name>~wxObject</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

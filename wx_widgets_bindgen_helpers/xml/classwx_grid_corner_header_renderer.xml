@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_grid_corner_header_renderer" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>wxGridCornerHeaderRenderer</compoundname>
+    <derivedcompoundref refid="classwx_grid_corner_header_renderer_default" prot="public" virt="non-virtual">wxGridCornerHeaderRendererDefault</derivedcompoundref>
+    <derivedcompoundref refid="classwx_grid_header_labels_renderer" prot="public" virt="non-virtual">wxGridHeaderLabelsRenderer</derivedcompoundref>
+    <includes local="no">wx/grid.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classwx_grid_corner_header_renderer_1ae645864cfd4fe4be47522b2151ee2e45" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void wxGridCornerHeaderRenderer::DrawBorder</definition>
+        <argsstring>(const wxGrid &amp;grid, wxDC &amp;dc, wxRect &amp;rect) const =0</argsstring>
+        <name>DrawBorder</name>
+        <reimplementedby refid="classwx_grid_row_header_renderer_default_1a8bbfb9e992fad15feed66a50d6ed6b37">DrawBorder</reimplementedby>
+        <reimplementedby refid="classwx_grid_column_header_renderer_default_1ad7f191cdea657bb4a98c08ce05a4457c">DrawBorder</reimplementedby>
+        <reimplementedby refid="classwx_grid_corner_header_renderer_default_1ae66310b740d2ee151f72b68cd20d6d10">DrawBorder</reimplementedby>
+        <param>
+          <type>const <ref refid="classwx_grid" kindref="compound">wxGrid</ref> &amp;</type>
+          <declname>grid</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_d_c" kindref="compound">wxDC</ref> &amp;</type>
+          <declname>dc</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_rect" kindref="compound">wxRect</ref> &amp;</type>
+          <declname>rect</declname>
+        </param>
+        <briefdescription>
+<para>Called by the grid to draw the corner window border. </para>        </briefdescription>
+        <detaileddescription>
+<para>This method is responsible for drawing the border inside the given <emphasis>rect</emphasis> and adjusting the rectangle size to correspond to the area inside the border, i.e. usually call <ref refid="classwx_rect_1ae06d8b6c01e87c37b6b1c6f71a2c1533" kindref="member">wxRect::Deflate()</ref> to account for the border width.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>grid</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The grid whose corner window is being drawn. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The device context to use for drawing. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>rect</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Input/output parameter which contains the border rectangle on input and should be updated to contain the area inside the border on function return. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/grid.h" line="1023" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Base class for corner window renderer. </para>    </briefdescription>
+    <detaileddescription>
+<para>This is the simplest of all header renderers and only has a single function.</para><para><simplesect kind="see"><para><ref refid="classwx_grid_cell_attr_provider_1a38f0ec7a7f0e0311f8e79751d432bb4e" kindref="member">wxGridCellAttrProvider::GetCornerRenderer()</ref></para></simplesect>
+<simplesect kind="since"><para>2.9.1 </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="3082">
+        <label>wxGridHeaderLabelsRenderer</label>
+        <link refid="classwx_grid_header_labels_renderer"/>
+        <childnode refid="3080" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3080">
+        <label>wxGridCornerHeaderRenderer</label>
+        <link refid="classwx_grid_corner_header_renderer"/>
+      </node>
+      <node id="3081">
+        <label>wxGridCornerHeaderRendererDefault</label>
+        <link refid="classwx_grid_corner_header_renderer_default"/>
+        <childnode refid="3080" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3083">
+        <label>wxGridColumnHeaderRenderer</label>
+        <link refid="classwx_grid_column_header_renderer"/>
+        <childnode refid="3082" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3085">
+        <label>wxGridRowHeaderRenderer</label>
+        <link refid="classwx_grid_row_header_renderer"/>
+        <childnode refid="3082" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3086">
+        <label>wxGridRowHeaderRendererDefault</label>
+        <link refid="classwx_grid_row_header_renderer_default"/>
+        <childnode refid="3085" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3084">
+        <label>wxGridColumnHeaderRendererDefault</label>
+        <link refid="classwx_grid_column_header_renderer_default"/>
+        <childnode refid="3083" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="interface/wx/grid.h" line="1004" column="1" bodyfile="interface/wx/grid.h" bodystart="1003" bodyend="1026"/>
+    <listofallmembers>
+      <member refid="classwx_grid_corner_header_renderer_1ae645864cfd4fe4be47522b2151ee2e45" prot="public" virt="pure-virtual"><scope>wxGridCornerHeaderRenderer</scope><name>DrawBorder</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

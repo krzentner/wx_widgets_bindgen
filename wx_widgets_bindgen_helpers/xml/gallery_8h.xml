@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="gallery_8h" kind="file" language="C++">
+    <compoundname>gallery.h</compoundname>
+    <innerclass refid="classwx_ribbon_gallery" prot="public">wxRibbonGallery</innerclass>
+    <innerclass refid="classwx_ribbon_gallery_event" prot="public">wxRibbonGalleryEvent</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="gallery_8h_1a5f74710c9dd8307b9f67ff4972c9c5c0" prot="public" static="no" strong="no">
+        <type></type>
+        <name>wxRibbonGalleryButtonState</name>
+        <enumvalue id="gallery_8h_1a5f74710c9dd8307b9f67ff4972c9c5c0ae9a8b2a8466cdf5dd4c977bb292c26ba" prot="public">
+          <name>wxRIBBON_GALLERY_BUTTON_NORMAL</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="gallery_8h_1a5f74710c9dd8307b9f67ff4972c9c5c0a3ba7c81beecec564f306f92c199b44d3" prot="public">
+          <name>wxRIBBON_GALLERY_BUTTON_HOVERED</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="gallery_8h_1a5f74710c9dd8307b9f67ff4972c9c5c0aed51d9f8af7c5820f0d877ec9293dbf4" prot="public">
+          <name>wxRIBBON_GALLERY_BUTTON_ACTIVE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="gallery_8h_1a5f74710c9dd8307b9f67ff4972c9c5c0a34e3a12de3beaf4a633c6cf50c341089" prot="public">
+          <name>wxRIBBON_GALLERY_BUTTON_DISABLED</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/ribbon/gallery.h" line="9" column="1" bodyfile="interface/wx/ribbon/gallery.h" bodystart="8" bodyend="14"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="gallery_8h_1ac309373b9d25ba0110391c26371050ea" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_RIBBONGALLERY_HOVER_CHANGED</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_RIBBONGALLERY_HOVER_CHANGED</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/ribbon/gallery.h" line="302" column="1" bodyfile="interface/wx/ribbon/gallery.h" bodystart="302" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="gallery_8h_1aeb581356cca17c664e298b1e2cd54309" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_RIBBONGALLERY_SELECTED</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_RIBBONGALLERY_SELECTED</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/ribbon/gallery.h" line="303" column="1" bodyfile="interface/wx/ribbon/gallery.h" bodystart="303" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="gallery_8h_1a615b98f3230cadd1800460e8dcd25d1a" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_RIBBONGALLERY_CLICKED</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_RIBBONGALLERY_CLICKED</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/ribbon/gallery.h" line="304" column="1" bodyfile="interface/wx/ribbon/gallery.h" bodystart="304" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="interface/wx/ribbon/gallery.h"/>
+  </compounddef>
+</doxygen>

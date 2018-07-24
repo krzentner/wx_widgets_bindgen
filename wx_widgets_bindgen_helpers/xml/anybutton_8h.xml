@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="anybutton_8h" kind="file" language="C++">
+    <compoundname>anybutton.h</compoundname>
+    <innerclass refid="classwx_any_button" prot="public">wxAnyButton</innerclass>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="anybutton_8h_1ae67ecc00c231d74d292bd7086dd17457" prot="public" static="no">
+        <name>wxBU_LEFT</name>
+        <initializer>0x0040</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/anybutton.h" line="8" column="9" bodyfile="interface/wx/anybutton.h" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="anybutton_8h_1afe88776600ca26e7f5f4f51888b1ed12" prot="public" static="no">
+        <name>wxBU_TOP</name>
+        <initializer>0x0080</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/anybutton.h" line="9" column="9" bodyfile="interface/wx/anybutton.h" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="anybutton_8h_1afaed7ada979032a4fe3379af36abd2b4" prot="public" static="no">
+        <name>wxBU_RIGHT</name>
+        <initializer>0x0100</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/anybutton.h" line="10" column="9" bodyfile="interface/wx/anybutton.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="anybutton_8h_1a01f821da1d833be3a76972035130a324" prot="public" static="no">
+        <name>wxBU_BOTTOM</name>
+        <initializer>0x0200</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/anybutton.h" line="11" column="9" bodyfile="interface/wx/anybutton.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="anybutton_8h_1a63ec8d11ee74f8d3b22d06d2bdcfe191" prot="public" static="no">
+        <name>wxBU_ALIGN_MASK</name>
+        <initializer>( <ref refid="anybutton_8h_1ae67ecc00c231d74d292bd7086dd17457" kindref="member">wxBU_LEFT</ref> | <ref refid="anybutton_8h_1afe88776600ca26e7f5f4f51888b1ed12" kindref="member">wxBU_TOP</ref> | <ref refid="anybutton_8h_1afaed7ada979032a4fe3379af36abd2b4" kindref="member">wxBU_RIGHT</ref> | <ref refid="anybutton_8h_1a01f821da1d833be3a76972035130a324" kindref="member">wxBU_BOTTOM</ref> )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/anybutton.h" line="12" column="9" bodyfile="interface/wx/anybutton.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="anybutton_8h_1a5073dbd4ce3a849b19d8dfc22ca91904" prot="public" static="no">
+        <name>wxBU_EXACTFIT</name>
+        <initializer>0x0001</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/anybutton.h" line="14" column="9" bodyfile="interface/wx/anybutton.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="anybutton_8h_1adeb61e2e16cee5d78b1899718e0ed95e" prot="public" static="no">
+        <name>wxBU_NOTEXT</name>
+        <initializer>0x0002</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/anybutton.h" line="15" column="9" bodyfile="interface/wx/anybutton.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="anybutton_8h_1ac428088f5c2c41db50c65ab244eff1a0" prot="public" static="no">
+        <name>wxBU_AUTODRAW</name>
+        <initializer>0x0004</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/anybutton.h" line="16" column="9" bodyfile="interface/wx/anybutton.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="interface/wx/anybutton.h"/>
+  </compounddef>
+</doxygen>

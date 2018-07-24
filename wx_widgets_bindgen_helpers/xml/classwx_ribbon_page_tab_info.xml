@@ -1,0 +1,219 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_ribbon_page_tab_info" kind="class" language="C++" prot="public">
+    <compoundname>wxRibbonPageTabInfo</compoundname>
+    <includes local="no">wx/ribbon/bar.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classwx_ribbon_page_tab_info_1a6c9101edb965daae0300d393435d6c86" prot="public" static="no" mutable="no">
+        <type><ref refid="classwx_rect" kindref="compound">wxRect</ref></type>
+        <definition>wxRect wxRibbonPageTabInfo::rect</definition>
+        <argsstring></argsstring>
+        <name>rect</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/ribbon/bar.h" line="102" column="1" bodyfile="interface/wx/ribbon/bar.h" bodystart="102" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classwx_ribbon_page_tab_info_1a2cf5ebd701b27e28447c5d72ab35ee67" prot="public" static="no" mutable="no">
+        <type><ref refid="classwx_ribbon_page" kindref="compound">wxRibbonPage</ref> *</type>
+        <definition>wxRibbonPage* wxRibbonPageTabInfo::page</definition>
+        <argsstring></argsstring>
+        <name>page</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/ribbon/bar.h" line="103" column="1" bodyfile="interface/wx/ribbon/bar.h" bodystart="103" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classwx_ribbon_page_tab_info_1a2c2e1968cfbb684c4ea487fad3e5cc10" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int wxRibbonPageTabInfo::ideal_width</definition>
+        <argsstring></argsstring>
+        <name>ideal_width</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/ribbon/bar.h" line="104" column="1" bodyfile="interface/wx/ribbon/bar.h" bodystart="104" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classwx_ribbon_page_tab_info_1acc4ef9148f8f3b2cd986309b1cde38ae" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int wxRibbonPageTabInfo::small_begin_need_separator_width</definition>
+        <argsstring></argsstring>
+        <name>small_begin_need_separator_width</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/ribbon/bar.h" line="105" column="1" bodyfile="interface/wx/ribbon/bar.h" bodystart="105" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classwx_ribbon_page_tab_info_1aa4e5e7e35df8215733b310532bef354f" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int wxRibbonPageTabInfo::small_must_have_separator_width</definition>
+        <argsstring></argsstring>
+        <name>small_must_have_separator_width</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/ribbon/bar.h" line="106" column="1" bodyfile="interface/wx/ribbon/bar.h" bodystart="106" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classwx_ribbon_page_tab_info_1a2f2b3be1d24d2195a13a0db57fd150bf" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int wxRibbonPageTabInfo::minimum_width</definition>
+        <argsstring></argsstring>
+        <name>minimum_width</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/ribbon/bar.h" line="107" column="1" bodyfile="interface/wx/ribbon/bar.h" bodystart="107" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classwx_ribbon_page_tab_info_1a79e027a4fb717e50002937cf0c621d2c" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool wxRibbonPageTabInfo::active</definition>
+        <argsstring></argsstring>
+        <name>active</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/ribbon/bar.h" line="108" column="1" bodyfile="interface/wx/ribbon/bar.h" bodystart="108" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classwx_ribbon_page_tab_info_1ad1c56cf7e1c816cb77d0312ac78a9cb8" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool wxRibbonPageTabInfo::hovered</definition>
+        <argsstring></argsstring>
+        <name>hovered</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/ribbon/bar.h" line="109" column="1" bodyfile="interface/wx/ribbon/bar.h" bodystart="109" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classwx_ribbon_page_tab_info_1a2f560cea03aa33ac68129442729954af" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool wxRibbonPageTabInfo::highlight</definition>
+        <argsstring></argsstring>
+        <name>highlight</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/ribbon/bar.h" line="110" column="1" bodyfile="interface/wx/ribbon/bar.h" bodystart="110" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classwx_ribbon_page_tab_info_1a5e1fe2b0eac3479bcf270e4717fd568b" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool wxRibbonPageTabInfo::shown</definition>
+        <argsstring></argsstring>
+        <name>shown</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/ribbon/bar.h" line="111" column="1" bodyfile="interface/wx/ribbon/bar.h" bodystart="111" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="6093">
+        <label>wxRibbonControl</label>
+        <link refid="classwx_ribbon_control"/>
+        <childnode refid="6094" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6097">
+        <label>wxObject</label>
+        <link refid="classwx_object"/>
+        <childnode refid="6098" relation="usage">
+          <edgelabel>m_refData</edgelabel>
+        </childnode>
+      </node>
+      <node id="6096">
+        <label>wxEvtHandler</label>
+        <link refid="classwx_evt_handler"/>
+        <childnode refid="6097" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6099" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6099">
+        <label>wxTrackable</label>
+        <link refid="classwx_trackable"/>
+      </node>
+      <node id="6094">
+        <label>wxControl</label>
+        <link refid="classwx_control"/>
+        <childnode refid="6095" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6095">
+        <label>wxWindow</label>
+        <link refid="classwx_window"/>
+        <childnode refid="6096" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6090">
+        <label>wxRibbonPageTabInfo</label>
+        <link refid="classwx_ribbon_page_tab_info"/>
+        <childnode refid="6091" relation="usage">
+          <edgelabel>rect</edgelabel>
+        </childnode>
+        <childnode refid="6092" relation="usage">
+          <edgelabel>page</edgelabel>
+        </childnode>
+      </node>
+      <node id="6091">
+        <label>wxRect</label>
+        <link refid="classwx_rect"/>
+      </node>
+      <node id="6092">
+        <label>wxRibbonPage</label>
+        <link refid="classwx_ribbon_page"/>
+        <childnode refid="6093" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6098">
+        <label>wxObjectRefData</label>
+        <link refid="classwx_object_ref_data"/>
+      </node>
+    </collaborationgraph>
+    <location file="interface/wx/ribbon/bar.h" line="100" column="1" bodyfile="interface/wx/ribbon/bar.h" bodystart="99" bodyend="112"/>
+    <listofallmembers>
+      <member refid="classwx_ribbon_page_tab_info_1a79e027a4fb717e50002937cf0c621d2c" prot="public" virt="non-virtual"><scope>wxRibbonPageTabInfo</scope><name>active</name></member>
+      <member refid="classwx_ribbon_page_tab_info_1a2f560cea03aa33ac68129442729954af" prot="public" virt="non-virtual"><scope>wxRibbonPageTabInfo</scope><name>highlight</name></member>
+      <member refid="classwx_ribbon_page_tab_info_1ad1c56cf7e1c816cb77d0312ac78a9cb8" prot="public" virt="non-virtual"><scope>wxRibbonPageTabInfo</scope><name>hovered</name></member>
+      <member refid="classwx_ribbon_page_tab_info_1a2c2e1968cfbb684c4ea487fad3e5cc10" prot="public" virt="non-virtual"><scope>wxRibbonPageTabInfo</scope><name>ideal_width</name></member>
+      <member refid="classwx_ribbon_page_tab_info_1a2f2b3be1d24d2195a13a0db57fd150bf" prot="public" virt="non-virtual"><scope>wxRibbonPageTabInfo</scope><name>minimum_width</name></member>
+      <member refid="classwx_ribbon_page_tab_info_1a2cf5ebd701b27e28447c5d72ab35ee67" prot="public" virt="non-virtual"><scope>wxRibbonPageTabInfo</scope><name>page</name></member>
+      <member refid="classwx_ribbon_page_tab_info_1a6c9101edb965daae0300d393435d6c86" prot="public" virt="non-virtual"><scope>wxRibbonPageTabInfo</scope><name>rect</name></member>
+      <member refid="classwx_ribbon_page_tab_info_1a5e1fe2b0eac3479bcf270e4717fd568b" prot="public" virt="non-virtual"><scope>wxRibbonPageTabInfo</scope><name>shown</name></member>
+      <member refid="classwx_ribbon_page_tab_info_1acc4ef9148f8f3b2cd986309b1cde38ae" prot="public" virt="non-virtual"><scope>wxRibbonPageTabInfo</scope><name>small_begin_need_separator_width</name></member>
+      <member refid="classwx_ribbon_page_tab_info_1aa4e5e7e35df8215733b310532bef354f" prot="public" virt="non-virtual"><scope>wxRibbonPageTabInfo</scope><name>small_must_have_separator_width</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,191 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_grid_table_message" kind="class" language="C++" prot="public">
+    <compoundname>wxGridTableMessage</compoundname>
+    <includes local="no">wx/grid.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classwx_grid_table_message_1aa62889571c757a37e591790c8a2d36bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxGridTableMessage::wxGridTableMessage</definition>
+        <argsstring>()</argsstring>
+        <name>wxGridTableMessage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/grid.h" line="1785" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_grid_table_message_1a0971862ba1ce1f2f5a1971beba770330" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxGridTableMessage::wxGridTableMessage</definition>
+        <argsstring>(wxGridTableBase *table, int id, int comInt1=-1, int comInt2=-1)</argsstring>
+        <name>wxGridTableMessage</name>
+        <param>
+          <type><ref refid="classwx_grid_table_base" kindref="compound">wxGridTableBase</ref> *</type>
+          <declname>table</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>comInt1</declname>
+          <defval>-1</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>comInt2</declname>
+          <defval>-1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/grid.h" line="1786" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_grid_table_message_1a38878038d4fdb04758c1ef85168db493" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxGridTableMessage::SetTableObject</definition>
+        <argsstring>(wxGridTableBase *table)</argsstring>
+        <name>SetTableObject</name>
+        <param>
+          <type><ref refid="classwx_grid_table_base" kindref="compound">wxGridTableBase</ref> *</type>
+          <declname>table</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/grid.h" line="1790" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_grid_table_message_1a4665b95b7573c92b3157424f4844d1d6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_grid_table_base" kindref="compound">wxGridTableBase</ref> *</type>
+        <definition>wxGridTableBase* wxGridTableMessage::GetTableObject</definition>
+        <argsstring>() const</argsstring>
+        <name>GetTableObject</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/grid.h" line="1791" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_grid_table_message_1a47f5119033d3efdec726f8865d6e0558" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxGridTableMessage::SetId</definition>
+        <argsstring>(int id)</argsstring>
+        <name>SetId</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/grid.h" line="1792" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_grid_table_message_1a126e574b8f202c554b9e49d7ebc0e84d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int wxGridTableMessage::GetId</definition>
+        <argsstring>()</argsstring>
+        <name>GetId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/grid.h" line="1793" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_grid_table_message_1a1c0ca1320dcbd72312ea98f66a335f31" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxGridTableMessage::SetCommandInt</definition>
+        <argsstring>(int comInt1)</argsstring>
+        <name>SetCommandInt</name>
+        <param>
+          <type>int</type>
+          <declname>comInt1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/grid.h" line="1794" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_grid_table_message_1a226709b34670c7f46fe1a8aa40127122" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int wxGridTableMessage::GetCommandInt</definition>
+        <argsstring>()</argsstring>
+        <name>GetCommandInt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/grid.h" line="1795" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_grid_table_message_1aacb735229bf5be62f156e16dde2f099e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxGridTableMessage::SetCommandInt2</definition>
+        <argsstring>(int comInt2)</argsstring>
+        <name>SetCommandInt2</name>
+        <param>
+          <type>int</type>
+          <declname>comInt2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/grid.h" line="1796" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_grid_table_message_1a7be90d4ebbfbeab1e731d32251aba758" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int wxGridTableMessage::GetCommandInt2</definition>
+        <argsstring>()</argsstring>
+        <name>GetCommandInt2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/grid.h" line="1797" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>A simple class used to pass messages from the table to the grid. </para>    </briefdescription>
+    <detaileddescription>
+<para><heading level="2"></heading>
+</para><para>Library:<nonbreakablespace/><nonbreakablespace/><ref refid="page_libs_1page_libs_wxadv" kindref="member">wxAdvanced</ref> &lt;&gt;&lt; =&apos;&apos;&gt;:&lt;/&gt;&amp;;&amp;;&lt; =&apos;&apos;&gt;\ &lt;/&gt;&lt;/&gt; </para>    </detaileddescription>
+    <location file="interface/wx/grid.h" line="1783" column="1" bodyfile="interface/wx/grid.h" bodystart="1782" bodyend="1798"/>
+    <listofallmembers>
+      <member refid="classwx_grid_table_message_1a226709b34670c7f46fe1a8aa40127122" prot="public" virt="non-virtual"><scope>wxGridTableMessage</scope><name>GetCommandInt</name></member>
+      <member refid="classwx_grid_table_message_1a7be90d4ebbfbeab1e731d32251aba758" prot="public" virt="non-virtual"><scope>wxGridTableMessage</scope><name>GetCommandInt2</name></member>
+      <member refid="classwx_grid_table_message_1a126e574b8f202c554b9e49d7ebc0e84d" prot="public" virt="non-virtual"><scope>wxGridTableMessage</scope><name>GetId</name></member>
+      <member refid="classwx_grid_table_message_1a4665b95b7573c92b3157424f4844d1d6" prot="public" virt="non-virtual"><scope>wxGridTableMessage</scope><name>GetTableObject</name></member>
+      <member refid="classwx_grid_table_message_1a1c0ca1320dcbd72312ea98f66a335f31" prot="public" virt="non-virtual"><scope>wxGridTableMessage</scope><name>SetCommandInt</name></member>
+      <member refid="classwx_grid_table_message_1aacb735229bf5be62f156e16dde2f099e" prot="public" virt="non-virtual"><scope>wxGridTableMessage</scope><name>SetCommandInt2</name></member>
+      <member refid="classwx_grid_table_message_1a47f5119033d3efdec726f8865d6e0558" prot="public" virt="non-virtual"><scope>wxGridTableMessage</scope><name>SetId</name></member>
+      <member refid="classwx_grid_table_message_1a38878038d4fdb04758c1ef85168db493" prot="public" virt="non-virtual"><scope>wxGridTableMessage</scope><name>SetTableObject</name></member>
+      <member refid="classwx_grid_table_message_1aa62889571c757a37e591790c8a2d36bc" prot="public" virt="non-virtual"><scope>wxGridTableMessage</scope><name>wxGridTableMessage</name></member>
+      <member refid="classwx_grid_table_message_1a0971862ba1ce1f2f5a1971beba770330" prot="public" virt="non-virtual"><scope>wxGridTableMessage</scope><name>wxGridTableMessage</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

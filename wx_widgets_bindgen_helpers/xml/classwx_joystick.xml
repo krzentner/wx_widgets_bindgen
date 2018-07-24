@@ -1,0 +1,746 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_joystick" kind="class" language="C++" prot="public">
+    <compoundname>wxJoystick</compoundname>
+    <basecompoundref refid="classwx_object" prot="public" virt="non-virtual">wxObject</basecompoundref>
+    <includes local="no">wx/joystick.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classwx_joystick_1a1edf7ce57b38477b8840285a8715d45a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxJoystick::wxJoystick</definition>
+        <argsstring>(int joystick=wxJOYSTICK1)</argsstring>
+        <name>wxJoystick</name>
+        <param>
+          <type>int</type>
+          <declname>joystick</declname>
+          <defval><ref refid="event_8h_1a05589fbab0657f08285ebdfe93f5ec9eac7f084f0db172184ab98ac6fe41c7874" kindref="member">wxJOYSTICK1</ref></defval>
+        </param>
+        <briefdescription>
+<para>Constructor. </para>        </briefdescription>
+        <detaileddescription>
+<para><emphasis>joystick</emphasis> may be one of wxJOYSTICK1, wxJOYSTICK2, indicating the joystick controller of interest. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/joystick.h" line="27" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_joystick_1a7c6f5add6cf806697aed6232211e447e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual wxJoystick::~wxJoystick</definition>
+        <argsstring>()</argsstring>
+        <name>~wxJoystick</name>
+        <briefdescription>
+<para>Destroys the <ref refid="classwx_joystick" kindref="compound">wxJoystick</ref> object. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/joystick.h" line="32" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_joystick_1a22a958c150850afa7d5edee889a0ceb9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int wxJoystick::GetButtonState</definition>
+        <argsstring>() const</argsstring>
+        <name>GetButtonState</name>
+        <briefdescription>
+<para>Returns the state of the joystick buttons. </para>        </briefdescription>
+        <detaileddescription>
+<para>Every button is mapped to a single bit in the returned integer, with the first button being mapped to the least significant bit, and so on.</para><para>A bitlist of wxJOY_BUTTONn identifiers, where n is 1, 2, 3 or 4 is available for historical reasons. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/joystick.h" line="42" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_joystick_1afe2ac3a9679b64250b2d20b8e47d67ed" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxJoystick::GetButtonState</definition>
+        <argsstring>(unsigned int id) const</argsstring>
+        <name>GetButtonState</name>
+        <param>
+          <type>unsigned int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+<para>Returns the state of the specified joystick button. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The button id to report, from 0 to <ref refid="classwx_joystick_1af45098f9c35be34a3742c705bc4dbcb2" kindref="member">GetNumberButtons()</ref> - 1 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/joystick.h" line="50" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_joystick_1a881188cc3f63067a31db76ce255fdafd" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int wxJoystick::GetManufacturerId</definition>
+        <argsstring>() const</argsstring>
+        <name>GetManufacturerId</name>
+        <briefdescription>
+<para>Returns the manufacturer id. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/joystick.h" line="55" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_joystick_1a643efa4064b88fc0607bbc1fecc86994" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int wxJoystick::GetMovementThreshold</definition>
+        <argsstring>() const</argsstring>
+        <name>GetMovementThreshold</name>
+        <briefdescription>
+<para>Returns the movement threshold, the number of steps outside which the joystick is deemed to have moved. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/joystick.h" line="62" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_joystick_1a56a2905023dcb4772c3c1465a8a13500" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int wxJoystick::GetNumberAxes</definition>
+        <argsstring>() const</argsstring>
+        <name>GetNumberAxes</name>
+        <briefdescription>
+<para>Returns the number of axes for this joystick. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/joystick.h" line="67" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_joystick_1af45098f9c35be34a3742c705bc4dbcb2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int wxJoystick::GetNumberButtons</definition>
+        <argsstring>() const</argsstring>
+        <name>GetNumberButtons</name>
+        <briefdescription>
+<para>Returns the number of buttons for this joystick. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/joystick.h" line="72" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_joystick_1a9e90c0053ea90117c3abd689e7155f62" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int wxJoystick::GetPOVCTSPosition</definition>
+        <argsstring>() const</argsstring>
+        <name>GetPOVCTSPosition</name>
+        <briefdescription>
+<para>Returns the point-of-view position, expressed in continuous, one-hundredth of a degree units. </para>        </briefdescription>
+        <detaileddescription>
+<para>Returns -1 on error. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/joystick.h" line="85" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_joystick_1adfe343326b51ec06bb4dfe0427accc80" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int wxJoystick::GetPOVPosition</definition>
+        <argsstring>() const</argsstring>
+        <name>GetPOVPosition</name>
+        <briefdescription>
+<para>Returns the point-of-view position, expressed in continuous, one-hundredth of a degree units, but limited to return 0, 9000, 18000 or 27000. </para>        </briefdescription>
+        <detaileddescription>
+<para>Returns -1 on error. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/joystick.h" line="93" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_joystick_1a3dd6754231387e99be8beb24b2bb378e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int wxJoystick::GetPollingMax</definition>
+        <argsstring>() const</argsstring>
+        <name>GetPollingMax</name>
+        <briefdescription>
+<para>Returns the maximum polling frequency. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/joystick.h" line="98" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_joystick_1a791199441c9ff589586e2143893355a3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int wxJoystick::GetPollingMin</definition>
+        <argsstring>() const</argsstring>
+        <name>GetPollingMin</name>
+        <briefdescription>
+<para>Returns the minimum polling frequency. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/joystick.h" line="103" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_joystick_1a6d54df2f03f679cde7226bf12eb41ad1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_point" kindref="compound">wxPoint</ref></type>
+        <definition>wxPoint wxJoystick::GetPosition</definition>
+        <argsstring>() const</argsstring>
+        <name>GetPosition</name>
+        <briefdescription>
+<para>Returns the x, y position of the joystick. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/joystick.h" line="108" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_joystick_1a90a6c1053f599844d50fef4068b05c7e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int wxJoystick::GetPosition</definition>
+        <argsstring>(unsigned int axis) const</argsstring>
+        <name>GetPosition</name>
+        <param>
+          <type>unsigned int</type>
+          <declname>axis</declname>
+        </param>
+        <briefdescription>
+<para>Returns the position of the specified joystick axis. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>axis</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The joystick axis to report, from 0 to <ref refid="classwx_joystick_1a56a2905023dcb4772c3c1465a8a13500" kindref="member">GetNumberAxes()</ref> - 1. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/joystick.h" line="116" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_joystick_1a8b8e7c74107c0f2c28295094f36aed3e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int wxJoystick::GetProductId</definition>
+        <argsstring>() const</argsstring>
+        <name>GetProductId</name>
+        <briefdescription>
+<para>Returns the product id for the joystick. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/joystick.h" line="121" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_joystick_1aacd04da4adf8574e508ebab3d733f0a6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_string" kindref="compound">wxString</ref></type>
+        <definition>wxString wxJoystick::GetProductName</definition>
+        <argsstring>() const</argsstring>
+        <name>GetProductName</name>
+        <briefdescription>
+<para>Returns the product name for the joystick. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/joystick.h" line="126" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_joystick_1a1a6bca61065c7b0971197235bd57eb8f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int wxJoystick::GetRudderMax</definition>
+        <argsstring>() const</argsstring>
+        <name>GetRudderMax</name>
+        <briefdescription>
+<para>Returns the maximum rudder position. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/joystick.h" line="131" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_joystick_1a1b7b6fef1e5cb3772be4b6fcfc0231d0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int wxJoystick::GetRudderMin</definition>
+        <argsstring>() const</argsstring>
+        <name>GetRudderMin</name>
+        <briefdescription>
+<para>Returns the minimum rudder position. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/joystick.h" line="136" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_joystick_1a32d3ecbd88abf11ab9fab9949de64fa1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int wxJoystick::GetRudderPosition</definition>
+        <argsstring>() const</argsstring>
+        <name>GetRudderPosition</name>
+        <briefdescription>
+<para>Returns the rudder position. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/joystick.h" line="141" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_joystick_1a4966e95513c93807b2d31c7882dce3ab" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int wxJoystick::GetUMax</definition>
+        <argsstring>() const</argsstring>
+        <name>GetUMax</name>
+        <briefdescription>
+<para>Returns the maximum U position. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/joystick.h" line="146" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_joystick_1a754b1137f7d4c5489c8c0f164661c90c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int wxJoystick::GetUMin</definition>
+        <argsstring>() const</argsstring>
+        <name>GetUMin</name>
+        <briefdescription>
+<para>Returns the minimum U position. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/joystick.h" line="151" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_joystick_1a7070c8461b841d500837bccd601dfe99" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int wxJoystick::GetUPosition</definition>
+        <argsstring>() const</argsstring>
+        <name>GetUPosition</name>
+        <briefdescription>
+<para>Gets the position of the fifth axis of the joystick, if it exists. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/joystick.h" line="156" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_joystick_1ad38993d09cb5fff5e375e0b99753c631" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int wxJoystick::GetVMax</definition>
+        <argsstring>() const</argsstring>
+        <name>GetVMax</name>
+        <briefdescription>
+<para>Returns the maximum V position. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/joystick.h" line="161" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_joystick_1ada3d161391c6aea8d7b934587f200fea" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int wxJoystick::GetVMin</definition>
+        <argsstring>() const</argsstring>
+        <name>GetVMin</name>
+        <briefdescription>
+<para>Returns the minimum V position. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/joystick.h" line="166" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_joystick_1a55df92794e92aac5e485c49e7f4e3ae0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int wxJoystick::GetVPosition</definition>
+        <argsstring>() const</argsstring>
+        <name>GetVPosition</name>
+        <briefdescription>
+<para>Gets the position of the sixth axis of the joystick, if it exists. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/joystick.h" line="171" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_joystick_1a5e923f3d69b47e7d418e4cdbe66b8159" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int wxJoystick::GetXMax</definition>
+        <argsstring>() const</argsstring>
+        <name>GetXMax</name>
+        <briefdescription>
+<para>Returns the maximum x position. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/joystick.h" line="176" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_joystick_1af8d6d10bdba174bcf693278e64b2159c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int wxJoystick::GetXMin</definition>
+        <argsstring>() const</argsstring>
+        <name>GetXMin</name>
+        <briefdescription>
+<para>Returns the minimum x position. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/joystick.h" line="181" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_joystick_1a7e6d5ee46a9543e9c3dc90d2b08f4288" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int wxJoystick::GetYMax</definition>
+        <argsstring>() const</argsstring>
+        <name>GetYMax</name>
+        <briefdescription>
+<para>Returns the maximum y position. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/joystick.h" line="186" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_joystick_1a003442325a7625d3fe6245ecea02a78d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int wxJoystick::GetYMin</definition>
+        <argsstring>() const</argsstring>
+        <name>GetYMin</name>
+        <briefdescription>
+<para>Returns the minimum y position. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/joystick.h" line="191" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_joystick_1a04996504c6152dfc1e1c5e941681a847" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int wxJoystick::GetZMax</definition>
+        <argsstring>() const</argsstring>
+        <name>GetZMax</name>
+        <briefdescription>
+<para>Returns the maximum z position. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/joystick.h" line="196" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_joystick_1a8d780476087f73eb03a3d417a95adf19" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int wxJoystick::GetZMin</definition>
+        <argsstring>() const</argsstring>
+        <name>GetZMin</name>
+        <briefdescription>
+<para>Returns the minimum z position. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/joystick.h" line="201" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_joystick_1afca60739797fc0c54cdba5039eb38e73" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int wxJoystick::GetZPosition</definition>
+        <argsstring>() const</argsstring>
+        <name>GetZPosition</name>
+        <briefdescription>
+<para>Returns the z position of the joystick. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/joystick.h" line="206" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_joystick_1ac4df513819ebcc418602c180277abdb7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxJoystick::HasPOV</definition>
+        <argsstring>() const</argsstring>
+        <name>HasPOV</name>
+        <briefdescription>
+<para>Returns true if the joystick has a point of view control. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/joystick.h" line="211" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_joystick_1ad10525ff0a87461e40a1e5ab27113ff1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxJoystick::HasPOV4Dir</definition>
+        <argsstring>() const</argsstring>
+        <name>HasPOV4Dir</name>
+        <briefdescription>
+<para>Returns true if the joystick point-of-view supports discrete values (centered, forward, backward, left, and right). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/joystick.h" line="217" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_joystick_1a7e81695646f177c8982a74db82285a0b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxJoystick::HasPOVCTS</definition>
+        <argsstring>() const</argsstring>
+        <name>HasPOVCTS</name>
+        <briefdescription>
+<para>Returns true if the joystick point-of-view supports continuous degree bearings. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/joystick.h" line="222" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_joystick_1a01b67bfce966fd52acd5a951525ff0b9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxJoystick::HasRudder</definition>
+        <argsstring>() const</argsstring>
+        <name>HasRudder</name>
+        <briefdescription>
+<para>Returns true if there is a rudder attached to the computer. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/joystick.h" line="227" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_joystick_1a94ac4cf931893e0b35cee2494e465c90" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxJoystick::HasU</definition>
+        <argsstring>() const</argsstring>
+        <name>HasU</name>
+        <briefdescription>
+<para>Returns true if the joystick has a U axis. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/joystick.h" line="232" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_joystick_1a01d78a2b6e81755111114b7065d2d615" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxJoystick::HasV</definition>
+        <argsstring>() const</argsstring>
+        <name>HasV</name>
+        <briefdescription>
+<para>Returns true if the joystick has a V axis. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/joystick.h" line="237" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_joystick_1aecd990a9fd7604716732d1a00ca2b99b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxJoystick::HasZ</definition>
+        <argsstring>() const</argsstring>
+        <name>HasZ</name>
+        <briefdescription>
+<para>Returns true if the joystick has a Z axis. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/joystick.h" line="242" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_joystick_1a7c2296fe9f64b1f4db3ffd4a0d5305cd" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxJoystick::IsOk</definition>
+        <argsstring>() const</argsstring>
+        <name>IsOk</name>
+        <briefdescription>
+<para>Returns true if the joystick is functioning. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/joystick.h" line="247" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_joystick_1a8932a9f532d7c785a47ff7a37b3b6767" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxJoystick::ReleaseCapture</definition>
+        <argsstring>()</argsstring>
+        <name>ReleaseCapture</name>
+        <briefdescription>
+<para>Releases the capture set by <bold>SetCapture</bold>. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>true if the capture release succeeded.</para></simplesect>
+<simplesect kind="see"><para><ref refid="classwx_joystick_1a274ee12cdcaac2a37ca63206e85d920c" kindref="member">SetCapture()</ref>, <ref refid="classwx_joystick_event" kindref="compound">wxJoystickEvent</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/joystick.h" line="256" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_joystick_1a274ee12cdcaac2a37ca63206e85d920c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxJoystick::SetCapture</definition>
+        <argsstring>(wxWindow *win, int pollingFreq=0)</argsstring>
+        <name>SetCapture</name>
+        <param>
+          <type><ref refid="classwx_window" kindref="compound">wxWindow</ref> *</type>
+          <declname>win</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>pollingFreq</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>Sets the capture to direct joystick events to <emphasis>win</emphasis>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>win</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The window that will receive joystick events. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>pollingFreq</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>If zero, movement events are sent when above the threshold. If greater than zero, events are received every <emphasis>pollingFreq</emphasis> milliseconds.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true if the capture succeeded.</para></simplesect>
+<simplesect kind="see"><para><ref refid="classwx_joystick_1a8932a9f532d7c785a47ff7a37b3b6767" kindref="member">ReleaseCapture()</ref>, <ref refid="classwx_joystick_event" kindref="compound">wxJoystickEvent</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/joystick.h" line="271" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_joystick_1add489d32cd2b1ff1c752297cc790c3db" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxJoystick::SetMovementThreshold</definition>
+        <argsstring>(int threshold)</argsstring>
+        <name>SetMovementThreshold</name>
+        <param>
+          <type>int</type>
+          <declname>threshold</declname>
+        </param>
+        <briefdescription>
+<para>Sets the movement threshold, the number of steps outside which the joystick is deemed to have moved. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/joystick.h" line="277" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classwx_joystick_1a9a8af1fbf95a8b0f8d5559a1cd27ba02" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>static int wxJoystick::GetNumberJoysticks</definition>
+        <argsstring>()</argsstring>
+        <name>GetNumberJoysticks</name>
+        <briefdescription>
+<para>Returns the number of joysticks currently attached to the computer. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/joystick.h" line="77" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="classwx_joystick" kindref="compound">wxJoystick</ref> allows an application to control one or more joysticks. </para>    </briefdescription>
+    <detaileddescription>
+<para><heading level="2"></heading>
+</para><para>Library:<nonbreakablespace/><nonbreakablespace/><ref refid="page_libs_1page_libs_wxadv" kindref="member">wxAdvanced</ref> &lt;&gt;&lt; =&apos;&apos;&gt;:&lt;/&gt;&amp;;&amp;;&lt; =&apos;&apos;&gt;\ &lt;/&gt;&lt;/&gt;</para><para><simplesect kind="see"><para><ref refid="classwx_joystick_event" kindref="compound">wxJoystickEvent</ref> </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="3808">
+        <label>wxObject</label>
+        <link refid="classwx_object"/>
+      </node>
+      <node id="3807">
+        <label>wxJoystick</label>
+        <link refid="classwx_joystick"/>
+        <childnode refid="3808" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3810">
+        <label>wxObject</label>
+        <link refid="classwx_object"/>
+        <childnode refid="3811" relation="usage">
+          <edgelabel>m_refData</edgelabel>
+        </childnode>
+      </node>
+      <node id="3809">
+        <label>wxJoystick</label>
+        <link refid="classwx_joystick"/>
+        <childnode refid="3810" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3811">
+        <label>wxObjectRefData</label>
+        <link refid="classwx_object_ref_data"/>
+      </node>
+    </collaborationgraph>
+    <location file="interface/wx/joystick.h" line="19" column="1" bodyfile="interface/wx/joystick.h" bodystart="18" bodyend="278"/>
+    <listofallmembers>
+      <member refid="classwx_object_1a60204063f3cc3aa2fa1c7ff5bda9eb13" prot="protected" virt="non-virtual"><scope>wxJoystick</scope><name>AllocExclusive</name></member>
+      <member refid="classwx_object_1a436fc8fe68cf8a31000296d9cd3d2427" prot="protected" virt="virtual"><scope>wxJoystick</scope><name>CloneRefData</name></member>
+      <member refid="classwx_object_1a3f4f497c65cef611e121c41f21dd5ccc" prot="protected" virt="virtual"><scope>wxJoystick</scope><name>CreateRefData</name></member>
+      <member refid="classwx_joystick_1a22a958c150850afa7d5edee889a0ceb9" prot="public" virt="non-virtual"><scope>wxJoystick</scope><name>GetButtonState</name></member>
+      <member refid="classwx_joystick_1afe2ac3a9679b64250b2d20b8e47d67ed" prot="public" virt="non-virtual"><scope>wxJoystick</scope><name>GetButtonState</name></member>
+      <member refid="classwx_object_1ae6d365f2556b26767ced8410c5e839d0" prot="public" virt="virtual"><scope>wxJoystick</scope><name>GetClassInfo</name></member>
+      <member refid="classwx_joystick_1a881188cc3f63067a31db76ce255fdafd" prot="public" virt="non-virtual"><scope>wxJoystick</scope><name>GetManufacturerId</name></member>
+      <member refid="classwx_joystick_1a643efa4064b88fc0607bbc1fecc86994" prot="public" virt="non-virtual"><scope>wxJoystick</scope><name>GetMovementThreshold</name></member>
+      <member refid="classwx_joystick_1a56a2905023dcb4772c3c1465a8a13500" prot="public" virt="non-virtual"><scope>wxJoystick</scope><name>GetNumberAxes</name></member>
+      <member refid="classwx_joystick_1af45098f9c35be34a3742c705bc4dbcb2" prot="public" virt="non-virtual"><scope>wxJoystick</scope><name>GetNumberButtons</name></member>
+      <member refid="classwx_joystick_1a9a8af1fbf95a8b0f8d5559a1cd27ba02" prot="public" virt="non-virtual"><scope>wxJoystick</scope><name>GetNumberJoysticks</name></member>
+      <member refid="classwx_joystick_1a3dd6754231387e99be8beb24b2bb378e" prot="public" virt="non-virtual"><scope>wxJoystick</scope><name>GetPollingMax</name></member>
+      <member refid="classwx_joystick_1a791199441c9ff589586e2143893355a3" prot="public" virt="non-virtual"><scope>wxJoystick</scope><name>GetPollingMin</name></member>
+      <member refid="classwx_joystick_1a6d54df2f03f679cde7226bf12eb41ad1" prot="public" virt="non-virtual"><scope>wxJoystick</scope><name>GetPosition</name></member>
+      <member refid="classwx_joystick_1a90a6c1053f599844d50fef4068b05c7e" prot="public" virt="non-virtual"><scope>wxJoystick</scope><name>GetPosition</name></member>
+      <member refid="classwx_joystick_1a9e90c0053ea90117c3abd689e7155f62" prot="public" virt="non-virtual"><scope>wxJoystick</scope><name>GetPOVCTSPosition</name></member>
+      <member refid="classwx_joystick_1adfe343326b51ec06bb4dfe0427accc80" prot="public" virt="non-virtual"><scope>wxJoystick</scope><name>GetPOVPosition</name></member>
+      <member refid="classwx_joystick_1a8b8e7c74107c0f2c28295094f36aed3e" prot="public" virt="non-virtual"><scope>wxJoystick</scope><name>GetProductId</name></member>
+      <member refid="classwx_joystick_1aacd04da4adf8574e508ebab3d733f0a6" prot="public" virt="non-virtual"><scope>wxJoystick</scope><name>GetProductName</name></member>
+      <member refid="classwx_object_1af3c6c76a775864832f1536d3c0de3a2b" prot="public" virt="non-virtual"><scope>wxJoystick</scope><name>GetRefData</name></member>
+      <member refid="classwx_joystick_1a1a6bca61065c7b0971197235bd57eb8f" prot="public" virt="non-virtual"><scope>wxJoystick</scope><name>GetRudderMax</name></member>
+      <member refid="classwx_joystick_1a1b7b6fef1e5cb3772be4b6fcfc0231d0" prot="public" virt="non-virtual"><scope>wxJoystick</scope><name>GetRudderMin</name></member>
+      <member refid="classwx_joystick_1a32d3ecbd88abf11ab9fab9949de64fa1" prot="public" virt="non-virtual"><scope>wxJoystick</scope><name>GetRudderPosition</name></member>
+      <member refid="classwx_joystick_1a4966e95513c93807b2d31c7882dce3ab" prot="public" virt="non-virtual"><scope>wxJoystick</scope><name>GetUMax</name></member>
+      <member refid="classwx_joystick_1a754b1137f7d4c5489c8c0f164661c90c" prot="public" virt="non-virtual"><scope>wxJoystick</scope><name>GetUMin</name></member>
+      <member refid="classwx_joystick_1a7070c8461b841d500837bccd601dfe99" prot="public" virt="non-virtual"><scope>wxJoystick</scope><name>GetUPosition</name></member>
+      <member refid="classwx_joystick_1ad38993d09cb5fff5e375e0b99753c631" prot="public" virt="non-virtual"><scope>wxJoystick</scope><name>GetVMax</name></member>
+      <member refid="classwx_joystick_1ada3d161391c6aea8d7b934587f200fea" prot="public" virt="non-virtual"><scope>wxJoystick</scope><name>GetVMin</name></member>
+      <member refid="classwx_joystick_1a55df92794e92aac5e485c49e7f4e3ae0" prot="public" virt="non-virtual"><scope>wxJoystick</scope><name>GetVPosition</name></member>
+      <member refid="classwx_joystick_1a5e923f3d69b47e7d418e4cdbe66b8159" prot="public" virt="non-virtual"><scope>wxJoystick</scope><name>GetXMax</name></member>
+      <member refid="classwx_joystick_1af8d6d10bdba174bcf693278e64b2159c" prot="public" virt="non-virtual"><scope>wxJoystick</scope><name>GetXMin</name></member>
+      <member refid="classwx_joystick_1a7e6d5ee46a9543e9c3dc90d2b08f4288" prot="public" virt="non-virtual"><scope>wxJoystick</scope><name>GetYMax</name></member>
+      <member refid="classwx_joystick_1a003442325a7625d3fe6245ecea02a78d" prot="public" virt="non-virtual"><scope>wxJoystick</scope><name>GetYMin</name></member>
+      <member refid="classwx_joystick_1a04996504c6152dfc1e1c5e941681a847" prot="public" virt="non-virtual"><scope>wxJoystick</scope><name>GetZMax</name></member>
+      <member refid="classwx_joystick_1a8d780476087f73eb03a3d417a95adf19" prot="public" virt="non-virtual"><scope>wxJoystick</scope><name>GetZMin</name></member>
+      <member refid="classwx_joystick_1afca60739797fc0c54cdba5039eb38e73" prot="public" virt="non-virtual"><scope>wxJoystick</scope><name>GetZPosition</name></member>
+      <member refid="classwx_joystick_1ac4df513819ebcc418602c180277abdb7" prot="public" virt="non-virtual"><scope>wxJoystick</scope><name>HasPOV</name></member>
+      <member refid="classwx_joystick_1ad10525ff0a87461e40a1e5ab27113ff1" prot="public" virt="non-virtual"><scope>wxJoystick</scope><name>HasPOV4Dir</name></member>
+      <member refid="classwx_joystick_1a7e81695646f177c8982a74db82285a0b" prot="public" virt="non-virtual"><scope>wxJoystick</scope><name>HasPOVCTS</name></member>
+      <member refid="classwx_joystick_1a01b67bfce966fd52acd5a951525ff0b9" prot="public" virt="non-virtual"><scope>wxJoystick</scope><name>HasRudder</name></member>
+      <member refid="classwx_joystick_1a94ac4cf931893e0b35cee2494e465c90" prot="public" virt="non-virtual"><scope>wxJoystick</scope><name>HasU</name></member>
+      <member refid="classwx_joystick_1a01d78a2b6e81755111114b7065d2d615" prot="public" virt="non-virtual"><scope>wxJoystick</scope><name>HasV</name></member>
+      <member refid="classwx_joystick_1aecd990a9fd7604716732d1a00ca2b99b" prot="public" virt="non-virtual"><scope>wxJoystick</scope><name>HasZ</name></member>
+      <member refid="classwx_object_1a3c7115ef4132dcee0c4fc34e84d7fced" prot="public" virt="non-virtual"><scope>wxJoystick</scope><name>IsKindOf</name></member>
+      <member refid="classwx_joystick_1a7c2296fe9f64b1f4db3ffd4a0d5305cd" prot="public" virt="non-virtual"><scope>wxJoystick</scope><name>IsOk</name></member>
+      <member refid="classwx_object_1a059373c494c2369d7db2a556efef8ecf" prot="public" virt="non-virtual"><scope>wxJoystick</scope><name>IsSameAs</name></member>
+      <member refid="classwx_object_1a9e31954530a0abd54982effc443ed2b8" prot="protected" virt="non-virtual"><scope>wxJoystick</scope><name>m_refData</name></member>
+      <member refid="classwx_object_1a07b8f34f5afc5743195c5fed052f55d3" prot="public" virt="non-virtual"><scope>wxJoystick</scope><name>operator delete</name></member>
+      <member refid="classwx_object_1a96fa423a1dbc212c8227a5d83825971f" prot="public" virt="non-virtual"><scope>wxJoystick</scope><name>operator new</name></member>
+      <member refid="classwx_object_1a2f6f1aa51fe9fc2b1415ca4211a90e9e" prot="public" virt="non-virtual"><scope>wxJoystick</scope><name>Ref</name></member>
+      <member refid="classwx_joystick_1a8932a9f532d7c785a47ff7a37b3b6767" prot="public" virt="non-virtual"><scope>wxJoystick</scope><name>ReleaseCapture</name></member>
+      <member refid="classwx_joystick_1a274ee12cdcaac2a37ca63206e85d920c" prot="public" virt="non-virtual"><scope>wxJoystick</scope><name>SetCapture</name></member>
+      <member refid="classwx_joystick_1add489d32cd2b1ff1c752297cc790c3db" prot="public" virt="non-virtual"><scope>wxJoystick</scope><name>SetMovementThreshold</name></member>
+      <member refid="classwx_object_1afab780710f2adc1bb33310e27590140b" prot="public" virt="non-virtual"><scope>wxJoystick</scope><name>SetRefData</name></member>
+      <member refid="classwx_object_1af51efc6b1ae632fc7f0cd7ebbce9fa36" prot="public" virt="non-virtual"><scope>wxJoystick</scope><name>UnRef</name></member>
+      <member refid="classwx_object_1a74b40e42d19a4b9e9bec0b57d62a5725" prot="public" virt="non-virtual"><scope>wxJoystick</scope><name>UnShare</name></member>
+      <member refid="classwx_joystick_1a1edf7ce57b38477b8840285a8715d45a" prot="public" virt="non-virtual"><scope>wxJoystick</scope><name>wxJoystick</name></member>
+      <member refid="classwx_object_1acaa378363a28af421ab56ad7b46eadf0" prot="public" virt="non-virtual"><scope>wxJoystick</scope><name>wxObject</name></member>
+      <member refid="classwx_object_1a4721b4dc9b7aff0f30904ba2ea3954cf" prot="public" virt="non-virtual"><scope>wxJoystick</scope><name>wxObject</name></member>
+      <member refid="classwx_joystick_1a7c6f5add6cf806697aed6232211e447e" prot="public" virt="virtual"><scope>wxJoystick</scope><name>~wxJoystick</name></member>
+      <member refid="classwx_object_1a2a51aa8bfbab47ca2f051bcf84b3f35b" prot="public" virt="virtual"><scope>wxJoystick</scope><name>~wxObject</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

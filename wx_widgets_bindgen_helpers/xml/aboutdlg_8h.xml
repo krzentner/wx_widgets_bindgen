@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="aboutdlg_8h" kind="file" language="C++">
+    <compoundname>aboutdlg.h</compoundname>
+    <innerclass refid="classwx_about_dialog_info" prot="public">wxAboutDialogInfo</innerclass>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="group__group__funcmacro__dialog_1ga6d8198c95b97786f206abfde010a4d8f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxAboutBox</definition>
+        <argsstring>(const wxAboutDialogInfo &amp;info, wxWindow *parent=NULL)</argsstring>
+        <name>wxAboutBox</name>
+        <param>
+          <type>const <ref refid="classwx_about_dialog_info" kindref="compound">wxAboutDialogInfo</ref> &amp;</type>
+          <declname>info</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_window" kindref="compound">wxWindow</ref> *</type>
+          <declname>parent</declname>
+          <defval>NULL</defval>
+        </param>
+        <briefdescription>
+<para>This function shows the standard about dialog containing the information specified in <emphasis>info</emphasis>. </para>        </briefdescription>
+        <detaileddescription>
+<para>If the current platform has a native about dialog which is capable of showing all the fields in <emphasis>info</emphasis>, the native dialog is used, otherwise the function falls back to the generic wxWidgets version of the dialog, i.e. does the same thing as wxGenericAboutBox.</para><para>Here is an example of how this function may be used:</para><para><programlisting><codeline><highlight class="normal">void<sp/>MyFrame::ShowSimpleAboutDialog(wxCommandEvent&amp;<sp/>WXUNUSED(event))</highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>wxAboutDialogInfo<sp/>info;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>info.SetName(_(&quot;My<sp/>Program&quot;));</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>info.SetVersion(_(&quot;1.2.3<sp/>Beta&quot;));</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>info.SetDescription(_(&quot;This<sp/>program<sp/>does<sp/>something<sp/>great.&quot;));</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>info.SetCopyright(wxT(&quot;(C)<sp/>2007<sp/>Me<sp/>&lt;my@email.addre.ss&gt;&quot;));</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>wxAboutBox(info);</highlight></codeline>
+<codeline><highlight class="normal">}</highlight></codeline>
+</programlisting></para><para>Please see the <ref refid="page_samples_1page_samples_dialogs" kindref="member">Dialogs Sample</ref> for more examples of using this function and <ref refid="classwx_about_dialog_info" kindref="compound">wxAboutDialogInfo</ref> for the description of the information which can be shown in the about dialog.</para><para>Include file:<linebreak/>
+ <verbatim>#include &lt;wx/aboutdlg.h&gt; </verbatim> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aboutdlg.h" line="358" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="group__group__funcmacro__dialog_1ga2e27fd9a2a2c11e73030deb83a065d23" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxGenericAboutBox</definition>
+        <argsstring>(const wxAboutDialogInfo &amp;info, wxWindow *parent=NULL)</argsstring>
+        <name>wxGenericAboutBox</name>
+        <param>
+          <type>const <ref refid="classwx_about_dialog_info" kindref="compound">wxAboutDialogInfo</ref> &amp;</type>
+          <declname>info</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_window" kindref="compound">wxWindow</ref> *</type>
+          <declname>parent</declname>
+          <defval>NULL</defval>
+        </param>
+        <briefdescription>
+<para>This function does the same thing as <ref refid="group__group__funcmacro__dialog_1ga6d8198c95b97786f206abfde010a4d8f" kindref="member">wxAboutBox()</ref> except that it always uses the generic wxWidgets version of the dialog instead of the native one. </para>        </briefdescription>
+        <detaileddescription>
+<para>This is mainly useful if you need to customize the dialog by e.g. adding custom controls to it (customizing the native dialog is not currently supported).</para><para>See the <ref refid="page_samples_1page_samples_dialogs" kindref="member">Dialogs Sample</ref> for an example of about dialog customization.</para><para><simplesect kind="see"><para><ref refid="classwx_about_dialog_info" kindref="compound">wxAboutDialogInfo</ref></para></simplesect>
+Include file:<linebreak/>
+ <verbatim>#include &lt;wx/aboutdlg.h&gt; </verbatim> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aboutdlg.h" line="375" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="interface/wx/aboutdlg.h"/>
+  </compounddef>
+</doxygen>

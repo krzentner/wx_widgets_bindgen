@@ -1,0 +1,823 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_html_help_window" kind="class" language="C++" prot="public">
+    <compoundname>wxHtmlHelpWindow</compoundname>
+    <basecompoundref refid="classwx_window" prot="public" virt="non-virtual">wxWindow</basecompoundref>
+    <includes local="no">wx/html/helpwnd.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classwx_html_help_window_1a96d90a254e3ad02bf134e108c4656d67" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxHtmlHelpWindow::wxHtmlHelpWindow</definition>
+        <argsstring>(wxHtmlHelpData *data=NULL)</argsstring>
+        <name>wxHtmlHelpWindow</name>
+        <param>
+          <type><ref refid="classwx_html_help_data" kindref="compound">wxHtmlHelpData</ref> *</type>
+          <declname>data</declname>
+          <defval>NULL</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/html/helpwnd.h" line="72" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_html_help_window_1a3ebfda5a9cecd778ae414067524b06e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxHtmlHelpWindow::wxHtmlHelpWindow</definition>
+        <argsstring>(wxWindow *parent, int wxWindowID, const wxPoint &amp;pos=wxDefaultPosition, const wxSize &amp;size=wxDefaultSize, int style=wxTAB_TRAVERSAL|wxBORDER_NONE, int helpStyle=wxHF_DEFAULT_STYLE, wxHtmlHelpData *data=NULL)</argsstring>
+        <name>wxHtmlHelpWindow</name>
+        <param>
+          <type><ref refid="classwx_window" kindref="compound">wxWindow</ref> *</type>
+          <declname>parent</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>wxWindowID</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_point" kindref="compound">wxPoint</ref> &amp;</type>
+          <declname>pos</declname>
+          <defval><ref refid="gdicmn_8h_1af5a90c753eaf3d3e3e5068a19ec3c1d0" kindref="member">wxDefaultPosition</ref></defval>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_size" kindref="compound">wxSize</ref> &amp;</type>
+          <declname>size</declname>
+          <defval><ref refid="gdicmn_8h_1a33a012cdb075e9f78c93f63bec2dc27b" kindref="member">wxDefaultSize</ref></defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>style</declname>
+          <defval><ref refid="defs_8h_1a80617961a7712edd27988dffbe0e8cca" kindref="member">wxTAB_TRAVERSAL</ref>|<ref refid="defs_8h_1af63c94dff4e3f25a3c5e9d2874456edfaefc06a089c4d7317026613fd8bdf3e22" kindref="member">wxBORDER_NONE</ref></defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>helpStyle</declname>
+          <defval><ref refid="helpfrm_8h_1a7d83d91fe679669c492f4bf19136545e" kindref="member">wxHF_DEFAULT_STYLE</ref></defval>
+        </param>
+        <param>
+          <type><ref refid="classwx_html_help_data" kindref="compound">wxHtmlHelpData</ref> *</type>
+          <declname>data</declname>
+          <defval>NULL</defval>
+        </param>
+        <briefdescription>
+<para>Constructor. </para>        </briefdescription>
+        <detaileddescription>
+<para>For the values of <emphasis>helpStyle</emphasis>, please see the documentation for <ref refid="classwx_html_help_controller" kindref="compound">wxHtmlHelpController</ref>. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/html/helpwnd.h" line="80" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_html_help_window_1acd8ae117f58797802f1f7568c56568de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxHtmlHelpWindow::Create</definition>
+        <argsstring>(wxWindow *parent, wxWindowID id, const wxPoint &amp;pos=wxDefaultPosition, const wxSize &amp;size=wxDefaultSize, int style=wxTAB_TRAVERSAL|wxBORDER_NONE, int helpStyle=wxHF_DEFAULT_STYLE)</argsstring>
+        <name>Create</name>
+        <param>
+          <type><ref refid="classwx_window" kindref="compound">wxWindow</ref> *</type>
+          <declname>parent</declname>
+        </param>
+        <param>
+          <type><ref refid="windowid_8h_1ae8091432cc2cb2485d45f2302fb51133" kindref="member">wxWindowID</ref></type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_point" kindref="compound">wxPoint</ref> &amp;</type>
+          <declname>pos</declname>
+          <defval><ref refid="gdicmn_8h_1af5a90c753eaf3d3e3e5068a19ec3c1d0" kindref="member">wxDefaultPosition</ref></defval>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_size" kindref="compound">wxSize</ref> &amp;</type>
+          <declname>size</declname>
+          <defval><ref refid="gdicmn_8h_1a33a012cdb075e9f78c93f63bec2dc27b" kindref="member">wxDefaultSize</ref></defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>style</declname>
+          <defval><ref refid="defs_8h_1a80617961a7712edd27988dffbe0e8cca" kindref="member">wxTAB_TRAVERSAL</ref>|<ref refid="defs_8h_1af63c94dff4e3f25a3c5e9d2874456edfaefc06a089c4d7317026613fd8bdf3e22" kindref="member">wxBORDER_NONE</ref></defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>helpStyle</declname>
+          <defval><ref refid="helpfrm_8h_1a7d83d91fe679669c492f4bf19136545e" kindref="member">wxHF_DEFAULT_STYLE</ref></defval>
+        </param>
+        <briefdescription>
+<para>Creates the help window. </para>        </briefdescription>
+        <detaileddescription>
+<para>See <ref refid="classwx_html_help_window_1a96d90a254e3ad02bf134e108c4656d67" kindref="member">the constructor</ref> for a description of the parameters. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/html/helpwnd.h" line="91" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_html_help_window_1a413d870f3de08f7fd5c2a79721fc3eda" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxHtmlHelpWindow::Display</definition>
+        <argsstring>(const wxString &amp;x)</argsstring>
+        <name>Display</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+<para>Displays page x. </para>        </briefdescription>
+        <detaileddescription>
+<para>If not found it will give the user the choice of searching books. Looking for the page runs in these steps:<orderedlist>
+<listitem><para>try to locate file named x (if x is for example &quot;doc/howto.htm&quot;)</para></listitem><listitem><para>try to open starting page of book x</para></listitem><listitem><para>try to find x in contents (if x is for example &quot;How To ...&quot;)</para></listitem><listitem><para>try to find x in index (if x is for example &quot;How To ...&quot;) </para></listitem></orderedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/html/helpwnd.h" line="105" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_html_help_window_1a454309b31fa1f0124a3a7f9c56425d14" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxHtmlHelpWindow::Display</definition>
+        <argsstring>(const int id)</argsstring>
+        <name>Display</name>
+        <param>
+          <type>const int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+<para>This is an overloaded member function, provided for convenience. It differs from the above function only in what argument(s) it accepts.</para><para>This form takes numeric ID as the parameter (uses an extension to MS format, param name=&quot;ID&quot; value=id). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/html/helpwnd.h" line="113" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_html_help_window_1aa403995f7cace5a6d5a39404f0018c3a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxHtmlHelpWindow::DisplayContents</definition>
+        <argsstring>()</argsstring>
+        <name>DisplayContents</name>
+        <briefdescription>
+<para>Displays contents panel. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/html/helpwnd.h" line="118" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_html_help_window_1ac96f89f4b976c4958115493a71167893" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxHtmlHelpWindow::DisplayIndex</definition>
+        <argsstring>()</argsstring>
+        <name>DisplayIndex</name>
+        <briefdescription>
+<para>Displays index panel. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/html/helpwnd.h" line="123" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_html_help_window_1a89179a3c6e7c5b7a8c9f0ba7dd87b79f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_html_help_data" kindref="compound">wxHtmlHelpData</ref> *</type>
+        <definition>wxHtmlHelpData* wxHtmlHelpWindow::GetData</definition>
+        <argsstring>()</argsstring>
+        <name>GetData</name>
+        <briefdescription>
+<para>Returns the <ref refid="classwx_html_help_data" kindref="compound">wxHtmlHelpData</ref> object, which is usually a pointer to the controller&apos;s data. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/html/helpwnd.h" line="129" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_html_help_window_1ae8be7fbc1a5b5d0bb23008a181ab4c9b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxHtmlHelpWindow::KeywordSearch</definition>
+        <argsstring>(const wxString &amp;keyword, wxHelpSearchMode mode=wxHELP_SEARCH_ALL)</argsstring>
+        <name>KeywordSearch</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>keyword</declname>
+        </param>
+        <param>
+          <type><ref refid="help_8h_1a6545e1763e46507e94ca603a9b75ead9" kindref="member">wxHelpSearchMode</ref></type>
+          <declname>mode</declname>
+          <defval><ref refid="help_8h_1a6545e1763e46507e94ca603a9b75ead9aa0d270468c352bcf71beda6a6fd543b9" kindref="member">wxHELP_SEARCH_ALL</ref></defval>
+        </param>
+        <briefdescription>
+<para>Search for given keyword. </para>        </briefdescription>
+        <detaileddescription>
+<para>Optionally it searches through the index (mode = <computeroutput>wxHELP_SEARCH_INDEX</computeroutput>), default the content (mode = <computeroutput>wxHELP_SEARCH_ALL</computeroutput>). </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/html/helpwnd.h" line="135" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_html_help_window_1ac6aea76ccecc25ec4ba91cdc31c1a830" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxHtmlHelpWindow::ReadCustomization</definition>
+        <argsstring>(wxConfigBase *cfg, const wxString &amp;path=wxEmptyString)</argsstring>
+        <name>ReadCustomization</name>
+        <param>
+          <type><ref refid="classwx_config_base" kindref="compound">wxConfigBase</ref> *</type>
+          <declname>cfg</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>path</declname>
+          <defval><ref refid="interface_2wx_2string_8h_1a9a321d587166a30017b608dd2d234033" kindref="member">wxEmptyString</ref></defval>
+        </param>
+        <briefdescription>
+<para>Reads the user&apos;s settings for this window. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="see"><para><ref refid="classwx_html_help_controller_1a35f8138cb4de3d9310a7abbe18c264e5" kindref="member">wxHtmlHelpController::ReadCustomization</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/html/helpwnd.h" line="143" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_html_help_window_1ab511f9f0cbb96b77d8231fd066805c6e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxHtmlHelpWindow::UseConfig</definition>
+        <argsstring>(wxConfigBase *config, const wxString &amp;rootpath=wxEmptyString)</argsstring>
+        <name>UseConfig</name>
+        <param>
+          <type><ref refid="classwx_config_base" kindref="compound">wxConfigBase</ref> *</type>
+          <declname>config</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>rootpath</declname>
+          <defval><ref refid="interface_2wx_2string_8h_1a9a321d587166a30017b608dd2d234033" kindref="member">wxEmptyString</ref></defval>
+        </param>
+        <briefdescription>
+<para>Associates a wxConfig object with the help window. </para>        </briefdescription>
+        <detaileddescription>
+<para>It is recommended that you use <ref refid="classwx_html_help_controller_1a9b7e458493b103a45539aeb379f0ef40" kindref="member">wxHtmlHelpController::UseConfig</ref> instead. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/html/helpwnd.h" line="150" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_html_help_window_1ace0635e5da464e5aea047d409bbd759b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxHtmlHelpWindow::WriteCustomization</definition>
+        <argsstring>(wxConfigBase *cfg, const wxString &amp;path=wxEmptyString)</argsstring>
+        <name>WriteCustomization</name>
+        <param>
+          <type><ref refid="classwx_config_base" kindref="compound">wxConfigBase</ref> *</type>
+          <declname>cfg</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>path</declname>
+          <defval><ref refid="interface_2wx_2string_8h_1a9a321d587166a30017b608dd2d234033" kindref="member">wxEmptyString</ref></defval>
+        </param>
+        <briefdescription>
+<para>Saves the user&apos;s settings for this window. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="see"><para><ref refid="classwx_html_help_controller_1aa561b0bd6052588c4b75cc61779c3148" kindref="member">wxHtmlHelpController::WriteCustomization</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/html/helpwnd.h" line="158" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_html_help_window_1a2f8117dccdd9b8b61ceaf4174f67c97a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxHtmlHelpWindow::RefreshLists</definition>
+        <argsstring>()</argsstring>
+        <name>RefreshLists</name>
+        <briefdescription>
+<para>Refresh all panels. </para>        </briefdescription>
+        <detaileddescription>
+<para>This is necessary if a new book was added. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/html/helpwnd.h" line="164" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_html_help_window_1a79a3a628f16344f65ddfcac89b19c282" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_html_help_controller" kindref="compound">wxHtmlHelpController</ref> *</type>
+        <definition>wxHtmlHelpController* wxHtmlHelpWindow::GetController</definition>
+        <argsstring>() const</argsstring>
+        <name>GetController</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/html/helpwnd.h" line="167" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_html_help_window_1ae5bbb868de29ed87331d7fbab535595e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxHtmlHelpWindow::SetController</definition>
+        <argsstring>(wxHtmlHelpController *controller)</argsstring>
+        <name>SetController</name>
+        <param>
+          <type><ref refid="classwx_html_help_controller" kindref="compound">wxHtmlHelpController</ref> *</type>
+          <declname>controller</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/html/helpwnd.h" line="168" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classwx_html_help_window_1a97c9f19ed241d1dac6b5a22252f10e44" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxHtmlHelpWindow::CreateSearch</definition>
+        <argsstring>()</argsstring>
+        <name>CreateSearch</name>
+        <briefdescription>
+<para>Creates search panel. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/html/helpwnd.h" line="175" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_html_help_window_1a0fb3852dc32914ab9b9d155ab11f0988" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void wxHtmlHelpWindow::AddToolbarButtons</definition>
+        <argsstring>(wxToolBar *toolBar, int style)</argsstring>
+        <name>AddToolbarButtons</name>
+        <param>
+          <type><ref refid="classwx_tool_bar" kindref="compound">wxToolBar</ref> *</type>
+          <declname>toolBar</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>style</declname>
+        </param>
+        <briefdescription>
+<para>You may override this virtual method to add more buttons to the help window&apos;s toolbar. </para>        </briefdescription>
+        <detaileddescription>
+<para><emphasis>toolBar</emphasis> is a pointer to the toolbar and <emphasis>style</emphasis> is the style flag as passed to the <ref refid="classwx_html_help_window_1acd8ae117f58797802f1f7568c56568de" kindref="member">Create()</ref> method.</para><para><ref refid="classwx_tool_bar_1abb31ce337a2d3c1e30e8e3748905ecbf" kindref="member">wxToolBar::Realize</ref> is called immediately after returning from this function. See <computeroutput>samples/html/helpview</computeroutput> for an example. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/html/helpwnd.h" line="185" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_html_help_window_1ac780aa3aa6e6be5962d3b92f4f3abfa7" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxHtmlHelpWindow::CreateContents</definition>
+        <argsstring>()</argsstring>
+        <name>CreateContents</name>
+        <briefdescription>
+<para>Creates contents panel. </para>        </briefdescription>
+        <detaileddescription>
+<para>(May take some time.) </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/html/helpwnd.h" line="190" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_html_help_window_1a47218e2661b7b6a7d77a658acbbcfd38" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxHtmlHelpWindow::CreateIndex</definition>
+        <argsstring>()</argsstring>
+        <name>CreateIndex</name>
+        <briefdescription>
+<para>Creates index panel. </para>        </briefdescription>
+        <detaileddescription>
+<para>(May take some time.) </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/html/helpwnd.h" line="195" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class is used by <ref refid="classwx_html_help_controller" kindref="compound">wxHtmlHelpController</ref> to display help within a frame or dialog, but you can use it yourself to create an embedded HTML help window. </para>    </briefdescription>
+    <detaileddescription>
+<para>For example: <programlisting><codeline><highlight class="normal">//<sp/>m_embeddedHelpWindow<sp/>is<sp/>a<sp/>wxHtmlHelpWindow</highlight></codeline>
+<codeline><highlight class="normal">//<sp/>m_embeddedHtmlHelp<sp/>is<sp/>a<sp/>wxHtmlHelpController</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">//<sp/>Create<sp/>embedded<sp/>HTML<sp/>Help<sp/>window</highlight></codeline>
+<codeline><highlight class="normal">m_embeddedHelpWindow<sp/>=<sp/>new<sp/>wxHtmlHelpWindow;</highlight></codeline>
+<codeline><highlight class="normal">m_embeddedHtmlHelp.UseConfig(config,<sp/>rootPath);<sp/>//<sp/>Set<sp/>your<sp/>own<sp/>config<sp/>object<sp/>here</highlight></codeline>
+<codeline><highlight class="normal">m_embeddedHtmlHelp.SetHelpWindow(m_embeddedHelpWindow);</highlight></codeline>
+<codeline><highlight class="normal">m_embeddedHelpWindow-&gt;Create(this,<sp/>wxID_ANY,<sp/>wxDefaultPosition,<sp/>GetClientSize(),</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>wxTAB_TRAVERSAL|wxBORDER_NONE,<sp/>wxHF_DEFAULT_STYLE);</highlight></codeline>
+<codeline><highlight class="normal">m_embeddedHtmlHelp.AddBook(wxFileName(wxT(&quot;doc.zip&quot;)));</highlight></codeline>
+</programlisting></para><para>You should pass the style wxHF_EMBEDDED to the style parameter of <ref refid="classwx_html_help_controller" kindref="compound">wxHtmlHelpController</ref> to allow the embedded window to be destroyed independently of the help controller.</para><para><heading level="2"></heading>
+</para><para>Library:<nonbreakablespace/><nonbreakablespace/><ref refid="page_libs_1page_libs_wxhtml" kindref="member">wxHTML</ref> &lt;&gt;&lt; =&apos;&apos;&gt;:&lt;/&gt;&amp;;&amp;;&lt; =&apos;&apos;&gt;\ , \ &lt;/&gt;&lt;/&gt; </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="3426">
+        <label>wxObject</label>
+        <link refid="classwx_object"/>
+      </node>
+      <node id="3425">
+        <label>wxEvtHandler</label>
+        <link refid="classwx_evt_handler"/>
+        <childnode refid="3426" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3427" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3427">
+        <label>wxTrackable</label>
+        <link refid="classwx_trackable"/>
+      </node>
+      <node id="3424">
+        <label>wxWindow</label>
+        <link refid="classwx_window"/>
+        <childnode refid="3425" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3423">
+        <label>wxHtmlHelpWindow</label>
+        <link refid="classwx_html_help_window"/>
+        <childnode refid="3424" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3431">
+        <label>wxObject</label>
+        <link refid="classwx_object"/>
+        <childnode refid="3432" relation="usage">
+          <edgelabel>m_refData</edgelabel>
+        </childnode>
+      </node>
+      <node id="3430">
+        <label>wxEvtHandler</label>
+        <link refid="classwx_evt_handler"/>
+        <childnode refid="3431" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3433" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3433">
+        <label>wxTrackable</label>
+        <link refid="classwx_trackable"/>
+      </node>
+      <node id="3429">
+        <label>wxWindow</label>
+        <link refid="classwx_window"/>
+        <childnode refid="3430" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3428">
+        <label>wxHtmlHelpWindow</label>
+        <link refid="classwx_html_help_window"/>
+        <childnode refid="3429" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3432">
+        <label>wxObjectRefData</label>
+        <link refid="classwx_object_ref_data"/>
+      </node>
+    </collaborationgraph>
+    <location file="interface/wx/html/helpwnd.h" line="70" column="1" bodyfile="interface/wx/html/helpwnd.h" bodystart="69" bodyend="196"/>
+    <listofallmembers>
+      <member refid="classwx_window_1a1da8baa734b9872d0c085b86a7b5d817" prot="public" virt="virtual"><scope>wxHtmlHelpWindow</scope><name>AcceptsFocus</name></member>
+      <member refid="classwx_window_1a3a0cb3bd5e82462b19df9f24ad6d9ac4" prot="public" virt="virtual"><scope>wxHtmlHelpWindow</scope><name>AcceptsFocusFromKeyboard</name></member>
+      <member refid="classwx_window_1af0c30b930ecf57f94b8cfc8871e8fd94" prot="public" virt="virtual"><scope>wxHtmlHelpWindow</scope><name>AcceptsFocusRecursively</name></member>
+      <member refid="classwx_window_1abf60159278059a5bb397eb8647227bb3" prot="public" virt="virtual"><scope>wxHtmlHelpWindow</scope><name>AddChild</name></member>
+      <member refid="classwx_evt_handler_1a7dc3c701781f4044372049de5004137e" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>AddFilter</name></member>
+      <member refid="classwx_window_1a774b5b5548a6258727b5e2099e63ae9a" prot="protected" virt="virtual"><scope>wxHtmlHelpWindow</scope><name>AddPendingEvent</name></member>
+      <member refid="classwx_html_help_window_1a0fb3852dc32914ab9b9d155ab11f0988" prot="protected" virt="virtual"><scope>wxHtmlHelpWindow</scope><name>AddToolbarButtons</name></member>
+      <member refid="classwx_window_1a71d1daa71f1ad1f6cbaac54db7e71af3" prot="public" virt="virtual"><scope>wxHtmlHelpWindow</scope><name>AdjustForLayoutDirection</name></member>
+      <member refid="classwx_object_1a60204063f3cc3aa2fa1c7ff5bda9eb13" prot="protected" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>AllocExclusive</name></member>
+      <member refid="classwx_window_1aae29552806a328c6a55ef8f07647f5ba" prot="public" virt="virtual"><scope>wxHtmlHelpWindow</scope><name>AlwaysShowScrollbars</name></member>
+      <member refid="classwx_window_1ab4cea6ace96193b5c4282e097a6fbfee" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>BeginRepositioningChildren</name></member>
+      <member refid="classwx_evt_handler_1a0f30c8fa5583b4a5f661897d63de3b62" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>Bind</name></member>
+      <member refid="classwx_evt_handler_1a03cc68ca201fb79c7e837919025be71a" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>Bind</name></member>
+      <member refid="classwx_window_1a11b5d8d94efd0ab52eb2c95a6aa88cdf" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>CacheBestSize</name></member>
+      <member refid="classwx_evt_handler_1a63c7351618fd77330d80a250b3719519" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>CallAfter</name></member>
+      <member refid="classwx_evt_handler_1a910416e4d0b1f38cec02213b8a0c6a12" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>CallAfter</name></member>
+      <member refid="classwx_window_1acc4e456ed056a27ec61cd296b96c1e3e" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>CanAcceptFocus</name></member>
+      <member refid="classwx_window_1ade15bb13dc6d51a8e6ecd49eb3f0f99b" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>CanAcceptFocusFromKeyboard</name></member>
+      <member refid="classwx_window_1a6b5bbd3bf890f98897187879152ad97a" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>CanScroll</name></member>
+      <member refid="classwx_window_1a64f7f6fb75bf4b7281e1d33542d523c7" prot="public" virt="virtual"><scope>wxHtmlHelpWindow</scope><name>CanSetTransparent</name></member>
+      <member refid="classwx_window_1a5c72c6260a73ef77bb0b1f7ec85fcfef" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>CaptureMouse</name></member>
+      <member refid="classwx_window_1a06c0ecb262995b40083bfb446a6cff99" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>Center</name></member>
+      <member refid="classwx_window_1a2dc4e0a85d33fc55cc9650eaea1da0a4" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>CenterOnParent</name></member>
+      <member refid="classwx_window_1a4a1819eeee3f2143cdde4f329ffde787" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>Centre</name></member>
+      <member refid="classwx_window_1ab8e9b91b0e2db344fd71259616dfd433" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>CentreOnParent</name></member>
+      <member refid="classwx_window_1a61e833684ee5c89775e91e88be1a9a52" prot="public" virt="virtual"><scope>wxHtmlHelpWindow</scope><name>ClearBackground</name></member>
+      <member refid="classwx_window_1af5e852c8695297c0328f1dfe3908605a" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>ClientToScreen</name></member>
+      <member refid="classwx_window_1add6f5472d0d8fe0074145a886568721c" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>ClientToScreen</name></member>
+      <member refid="classwx_window_1a5c72ca7de40d4e99aff55e79aad3962e" prot="public" virt="virtual"><scope>wxHtmlHelpWindow</scope><name>ClientToWindowSize</name></member>
+      <member refid="classwx_object_1a436fc8fe68cf8a31000296d9cd3d2427" prot="protected" virt="virtual"><scope>wxHtmlHelpWindow</scope><name>CloneRefData</name></member>
+      <member refid="classwx_window_1a3e44f4a494fc9ef4346c4fba70c8de0c" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>Close</name></member>
+      <member refid="classwx_evt_handler_1a78719e8b82c9f9c6e4056b3449df1943" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>Connect</name></member>
+      <member refid="classwx_evt_handler_1a1e8b5fc4c7e7f6d32d40bc00d4108ba4" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>Connect</name></member>
+      <member refid="classwx_evt_handler_1aa290d9b67348e74c1da8497955a4e35c" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>Connect</name></member>
+      <member refid="classwx_window_1a3dbe034120d742c4f5f6d64dc5d69590" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>ConvertDialogToPixels</name></member>
+      <member refid="classwx_window_1ad70d63964459bb21f81bc0b1f09e84f4" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>ConvertDialogToPixels</name></member>
+      <member refid="classwx_window_1a321de67666eff37b39556802c8029201" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>ConvertPixelsToDialog</name></member>
+      <member refid="classwx_window_1a533552c4673c7a11f05bf9261b4dff5c" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>ConvertPixelsToDialog</name></member>
+      <member refid="classwx_html_help_window_1acd8ae117f58797802f1f7568c56568de" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>Create</name></member>
+      <member refid="classwx_window_1a95b7ca8faa033f5ab35458887c07bf38" prot="public" virt="non-virtual" ambiguityscope="wxWindow::"><scope>wxHtmlHelpWindow</scope><name>Create</name></member>
+      <member refid="classwx_html_help_window_1ac780aa3aa6e6be5962d3b92f4f3abfa7" prot="protected" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>CreateContents</name></member>
+      <member refid="classwx_html_help_window_1a47218e2661b7b6a7d77a658acbbcfd38" prot="protected" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>CreateIndex</name></member>
+      <member refid="classwx_object_1a3f4f497c65cef611e121c41f21dd5ccc" prot="protected" virt="virtual"><scope>wxHtmlHelpWindow</scope><name>CreateRefData</name></member>
+      <member refid="classwx_html_help_window_1a97c9f19ed241d1dac6b5a22252f10e44" prot="protected" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>CreateSearch</name></member>
+      <member refid="classwx_evt_handler_1a6e7f9cf4ebd0623c1d94979855d096f8" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>DeletePendingEvents</name></member>
+      <member refid="classwx_window_1a6bf0c5be864544d9ce0560087667b7fc" prot="public" virt="virtual"><scope>wxHtmlHelpWindow</scope><name>Destroy</name></member>
+      <member refid="classwx_window_1aff47b32c8d42d515ea0bb6a6c2fea917" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>DestroyChildren</name></member>
+      <member refid="classwx_window_1a26d7329a9a753fa0445501f01f66c41e" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>Disable</name></member>
+      <member refid="classwx_evt_handler_1a13061cf0ed01ac10a804ac057ef4bdbc" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>Disconnect</name></member>
+      <member refid="classwx_evt_handler_1a2f171e19444b9c4034c5e11f24fa9c91" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>Disconnect</name></member>
+      <member refid="classwx_evt_handler_1a16a6f823853e4b74b43dd9a2cf3abee6" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>Disconnect</name></member>
+      <member refid="classwx_html_help_window_1a413d870f3de08f7fd5c2a79721fc3eda" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>Display</name></member>
+      <member refid="classwx_html_help_window_1a454309b31fa1f0124a3a7f9c56425d14" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>Display</name></member>
+      <member refid="classwx_html_help_window_1aa403995f7cace5a6d5a39404f0018c3a" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>DisplayContents</name></member>
+      <member refid="classwx_html_help_window_1ac96f89f4b976c4958115493a71167893" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>DisplayIndex</name></member>
+      <member refid="classwx_window_1a2d10b472a4962d1c852c83d55252c44b" prot="protected" virt="virtual"><scope>wxHtmlHelpWindow</scope><name>DoCentre</name></member>
+      <member refid="classwx_window_1ae07ab0b5cabb750f4e396b6c95e4abf7" prot="protected" virt="virtual"><scope>wxHtmlHelpWindow</scope><name>DoGetBestClientHeight</name></member>
+      <member refid="classwx_window_1a68f3ec28a29b2a514b20c3e80255d82e" prot="protected" virt="virtual"><scope>wxHtmlHelpWindow</scope><name>DoGetBestClientSize</name></member>
+      <member refid="classwx_window_1ac68cb9912dc456e2faa8c745b2437b75" prot="protected" virt="virtual"><scope>wxHtmlHelpWindow</scope><name>DoGetBestClientWidth</name></member>
+      <member refid="classwx_window_1aac6408f1814dce3f8332cc69fe5104f1" prot="protected" virt="virtual"><scope>wxHtmlHelpWindow</scope><name>DoGetBestSize</name></member>
+      <member refid="classwx_window_1ae8a84a80645e99f4d24a22e5c386f626" prot="public" virt="virtual"><scope>wxHtmlHelpWindow</scope><name>DoUpdateWindowUI</name></member>
+      <member refid="classwx_window_1a7e7015bc61bd79b6821d2dccaecf9eda" prot="public" virt="virtual"><scope>wxHtmlHelpWindow</scope><name>DragAcceptFiles</name></member>
+      <member refid="classwx_window_1a4e933aa891f42fbb3b87438057c573af" prot="public" virt="virtual"><scope>wxHtmlHelpWindow</scope><name>Enable</name></member>
+      <member refid="classwx_window_1a1203fbd238d781253b44e0e459532301" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>EndRepositioningChildren</name></member>
+      <member refid="classwx_window_1a777258379a3eef1b0530f12db6b77cab" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>FindFocus</name></member>
+      <member refid="classwx_window_1a619b5743645b86054aa3fff12ba4c7ce" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>FindWindow</name></member>
+      <member refid="classwx_window_1a3b2f2c9b6346bdb3dcba0edfd9a7f224" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>FindWindow</name></member>
+      <member refid="classwx_window_1a101201b12ccd5fba49fa06ed19b5c6fb" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>FindWindowById</name></member>
+      <member refid="classwx_window_1ab8eb148fffae109e0fac86e88d569670" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>FindWindowByLabel</name></member>
+      <member refid="classwx_window_1adbe4eea02f615313c12a2c00557a44c3" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>FindWindowByName</name></member>
+      <member refid="classwx_window_1a2bf38a6cbd1f82fb46f274396f482994" prot="public" virt="virtual"><scope>wxHtmlHelpWindow</scope><name>Fit</name></member>
+      <member refid="classwx_window_1a55aca401aab29d59f7cc53f89ba2e38d" prot="public" virt="virtual"><scope>wxHtmlHelpWindow</scope><name>FitInside</name></member>
+      <member refid="classwx_window_1a15c678314cfc1d807196bc298b713ed3" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>Freeze</name></member>
+      <member refid="classwx_window_1aefc02d7275010ebb8d5b66569e7287c4" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>GetAcceleratorTable</name></member>
+      <member refid="classwx_window_1ae0469b554e9c501b356b3ed4b6d8a3af" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>GetAccessible</name></member>
+      <member refid="classwx_window_1a64e3f936ab812d24966827ea4e0f15c0" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>GetAutoLayout</name></member>
+      <member refid="classwx_window_1af51668ec32e9e44db45574a15ec215b4" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>GetBackgroundColour</name></member>
+      <member refid="classwx_window_1a4f09e6a20858a0667df3dda44715d6b9" prot="public" virt="virtual"><scope>wxHtmlHelpWindow</scope><name>GetBackgroundStyle</name></member>
+      <member refid="classwx_window_1a9ec151255cbb44935136d9bbff31a082" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>GetBestHeight</name></member>
+      <member refid="classwx_window_1ae507a81d682023383e465d8e913595b6" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>GetBestSize</name></member>
+      <member refid="classwx_window_1a1e4b09c35c0e5495905da45c1580709d" prot="public" virt="virtual"><scope>wxHtmlHelpWindow</scope><name>GetBestVirtualSize</name></member>
+      <member refid="classwx_window_1a5c797a38418a6f2fb79f800112ec73b0" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>GetBestWidth</name></member>
+      <member refid="classwx_window_1a42908ba076f2a93ee81201dc151c3b23" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>GetBorder</name></member>
+      <member refid="classwx_window_1a94e3a0ce6c1aae57562678996adbf2fd" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>GetBorder</name></member>
+      <member refid="classwx_window_1a483d3f73925bd38c3964dad058672f0a" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>GetCapture</name></member>
+      <member refid="classwx_window_1a2ee3eba6dbfb37944ed0ce03383bfc34" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>GetCaret</name></member>
+      <member refid="classwx_window_1aa488520238094f858bea3c3a2c6b9809" prot="public" virt="virtual"><scope>wxHtmlHelpWindow</scope><name>GetCharHeight</name></member>
+      <member refid="classwx_window_1a8f92c15635a44b85392d16f5906c31ef" prot="public" virt="virtual"><scope>wxHtmlHelpWindow</scope><name>GetCharWidth</name></member>
+      <member refid="classwx_window_1ad500085ad0511879b5e018706c91a494" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>GetChildren</name></member>
+      <member refid="classwx_window_1afcd1cf1f16e375d00b8d0885997adc90" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>GetChildren</name></member>
+      <member refid="classwx_window_1a170d85e4aa0cbacbfcdd0728120e1417" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>GetClassDefaultAttributes</name></member>
+      <member refid="classwx_object_1ae6d365f2556b26767ced8410c5e839d0" prot="public" virt="virtual"><scope>wxHtmlHelpWindow</scope><name>GetClassInfo</name></member>
+      <member refid="classwx_window_1a4a1b567002d1039bc630885fc09808ae" prot="public" virt="virtual"><scope>wxHtmlHelpWindow</scope><name>GetClientAreaOrigin</name></member>
+      <member refid="classwx_evt_handler_1a291bc92c1bea8abfff276a8e333d46db" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>GetClientData</name></member>
+      <member refid="classwx_evt_handler_1a371742bda1686e82065f3a1f2acb31c8" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>GetClientObject</name></member>
+      <member refid="classwx_window_1a5c6428c6aa8634b5c5963d1d0eaa75c7" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>GetClientRect</name></member>
+      <member refid="classwx_window_1ad34d4bbd6d3064aa56e7a2cc3ee97be3" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>GetClientSize</name></member>
+      <member refid="classwx_window_1a13d04f24ab78611f895bc40776118e90" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>GetClientSize</name></member>
+      <member refid="classwx_window_1ade068146db3eea2adcde2533de17473b" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>GetConstraints</name></member>
+      <member refid="classwx_window_1aec50a3057efbfb35ad16f433603f6f00" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>GetContainingSizer</name></member>
+      <member refid="classwx_window_1a7070700104b0f739260a8d803c64e0e1" prot="public" virt="virtual"><scope>wxHtmlHelpWindow</scope><name>GetContentScaleFactor</name></member>
+      <member refid="classwx_html_help_window_1a79a3a628f16344f65ddfcac89b19c282" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>GetController</name></member>
+      <member refid="classwx_window_1aa467591bdb0ae14a625045553e62a120" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>GetCursor</name></member>
+      <member refid="classwx_html_help_window_1a89179a3c6e7c5b7a8c9f0ba7dd87b79f" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>GetData</name></member>
+      <member refid="classwx_window_1a377de92ac032b60a9241fab88efdbf11" prot="public" virt="virtual"><scope>wxHtmlHelpWindow</scope><name>GetDefaultAttributes</name></member>
+      <member refid="classwx_window_1ae4bec3096f7e13eec8a537aa24cd6112" prot="public" virt="virtual"><scope>wxHtmlHelpWindow</scope><name>GetDropTarget</name></member>
+      <member refid="classwx_window_1aa88f6c4946d1ae4821aca652efbf7c62" prot="public" virt="virtual"><scope>wxHtmlHelpWindow</scope><name>GetEffectiveMinSize</name></member>
+      <member refid="classwx_window_1ad54b0c1662006da89d7e5bf8a64f93eb" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>GetEventHandler</name></member>
+      <member refid="classwx_evt_handler_1a7742d81c5eb7849a0ad75b9de8575153" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>GetEvtHandlerEnabled</name></member>
+      <member refid="classwx_window_1a0db5cd18ab5166b44da9d07f92bb5070" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>GetExtraStyle</name></member>
+      <member refid="classwx_window_1af25f8a799106d61b50d3ee796ba43728" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>GetFont</name></member>
+      <member refid="classwx_window_1ad9a607b86d9175d395f245ecbe00f38b" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>GetForegroundColour</name></member>
+      <member refid="classwx_window_1abe0d47e5d63394b098bdad64eb1a60d2" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>GetGrandParent</name></member>
+      <member refid="classwx_window_1a108426e918ac377fef17662885a7a459" prot="public" virt="virtual"><scope>wxHtmlHelpWindow</scope><name>GetHandle</name></member>
+      <member refid="classwx_window_1acb28971fe25abd1f5c6d768e203a042a" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>GetHelpText</name></member>
+      <member refid="classwx_window_1a7d11a419fede5049d7c12c337e5f5dfc" prot="public" virt="virtual"><scope>wxHtmlHelpWindow</scope><name>GetHelpTextAtPoint</name></member>
+      <member refid="classwx_window_1a79037f68b290bba5811628ec67bf3b24" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>GetId</name></member>
+      <member refid="classwx_window_1a50db82dadf3cfaee41dd40a9b90ae339" prot="public" virt="virtual"><scope>wxHtmlHelpWindow</scope><name>GetLabel</name></member>
+      <member refid="classwx_window_1afafd17cbb5dd6d899b25360255e0bdae" prot="public" virt="virtual"><scope>wxHtmlHelpWindow</scope><name>GetLayoutDirection</name></member>
+      <member refid="classwx_window_1a6690ee82a5a246e070bf0a7dc4bcb5b3" prot="public" virt="virtual"><scope>wxHtmlHelpWindow</scope><name>GetMaxClientSize</name></member>
+      <member refid="classwx_window_1a98bbe53eddb91b508b0082783402d954" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>GetMaxHeight</name></member>
+      <member refid="classwx_window_1a107966aa1b2d50107b3b95cf0d7d9901" prot="public" virt="virtual"><scope>wxHtmlHelpWindow</scope><name>GetMaxSize</name></member>
+      <member refid="classwx_window_1afde7288b24e48f2d0b5d2c7376f10426" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>GetMaxWidth</name></member>
+      <member refid="classwx_window_1a24d22aacd834cbe6cd5b252fa91c3bd9" prot="public" virt="virtual"><scope>wxHtmlHelpWindow</scope><name>GetMinClientSize</name></member>
+      <member refid="classwx_window_1a81bfd762272d33850c0511d65d896ca3" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>GetMinHeight</name></member>
+      <member refid="classwx_window_1a90ce6ffc8e0af7476157c9e1e6b616df" prot="public" virt="virtual"><scope>wxHtmlHelpWindow</scope><name>GetMinSize</name></member>
+      <member refid="classwx_window_1a327e1a8054d604a34cc5473a8c415e4d" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>GetMinWidth</name></member>
+      <member refid="classwx_window_1a93b9ec7d9eaf152c17f3bf2698551ef4" prot="public" virt="virtual"><scope>wxHtmlHelpWindow</scope><name>GetName</name></member>
+      <member refid="classwx_evt_handler_1addedbed1c9f970c2b1e2893a42805b6a" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>GetNextHandler</name></member>
+      <member refid="classwx_window_1ad256ad684063935d897956a87c932b38" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>GetNextSibling</name></member>
+      <member refid="classwx_window_1a6cd311a6c6ca7329714b969834f679f9" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>GetParent</name></member>
+      <member refid="classwx_window_1a9b7de6ea85ca926b668ba0682a61a93e" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>GetPopupMenuSelectionFromUser</name></member>
+      <member refid="classwx_window_1a00f5cb3cac003205317a565a33d4bb27" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>GetPopupMenuSelectionFromUser</name></member>
+      <member refid="classwx_window_1ac2eece00a4b4b83e1433b59a5d31584f" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>GetPosition</name></member>
+      <member refid="classwx_window_1abfeeca6db664c24603f6371811397e0d" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>GetPosition</name></member>
+      <member refid="classwx_evt_handler_1a69bfde9623d89eb91e363c53616e4587" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>GetPreviousHandler</name></member>
+      <member refid="classwx_window_1a02b3a109f926c86fa1f34a00c1b5ec67" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>GetPrevSibling</name></member>
+      <member refid="classwx_window_1a68e83a724887b18525fdbd947b2d8c88" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>GetRect</name></member>
+      <member refid="classwx_object_1af3c6c76a775864832f1536d3c0de3a2b" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>GetRefData</name></member>
+      <member refid="classwx_window_1a285a81f00ed59fa09938343708938566" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>GetScreenPosition</name></member>
+      <member refid="classwx_window_1a5786c420fd2958bde726c923621700aa" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>GetScreenPosition</name></member>
+      <member refid="classwx_window_1ae8f6c4a201650ad63bb5ebe4f35eb41e" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>GetScreenRect</name></member>
+      <member refid="classwx_window_1add5f4e225e16154f9148451a7d32d0b3" prot="public" virt="virtual"><scope>wxHtmlHelpWindow</scope><name>GetScrollPos</name></member>
+      <member refid="classwx_window_1a23b41cf939ab67a002d8f404ac4cf76b" prot="public" virt="virtual"><scope>wxHtmlHelpWindow</scope><name>GetScrollRange</name></member>
+      <member refid="classwx_window_1ac34f47fef73e3a178e8c335aa38ce567" prot="public" virt="virtual"><scope>wxHtmlHelpWindow</scope><name>GetScrollThumb</name></member>
+      <member refid="classwx_window_1a36ea282508dd55d6f3981ec205ed0449" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>GetSize</name></member>
+      <member refid="classwx_window_1a36bf1ac809da1b0cd9c67fd806c4d9b5" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>GetSize</name></member>
+      <member refid="classwx_window_1a01e9d43576615166ee309f4358bdd26d" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>GetSizer</name></member>
+      <member refid="classwx_window_1a4220668e42f3a173bf29d335da4db2c3" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>GetTextExtent</name></member>
+      <member refid="classwx_window_1a69fc79069821a633eba9c5d917fd8b7b" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>GetTextExtent</name></member>
+      <member refid="classwx_window_1a578145344f92cfee755a9c87f6703432" prot="public" virt="virtual"><scope>wxHtmlHelpWindow</scope><name>GetThemeEnabled</name></member>
+      <member refid="classwx_window_1a44eecb46979b528c184e26ce6c52b3fa" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>GetToolTip</name></member>
+      <member refid="classwx_window_1a7e7c9a92f9efbb47073704646db1344e" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>GetToolTipText</name></member>
+      <member refid="classwx_window_1a23370688a951ed60ac25146af854d2ec" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>GetUpdateClientRect</name></member>
+      <member refid="classwx_window_1a522f73fd32e54b11466284acc43f76f3" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>GetUpdateRegion</name></member>
+      <member refid="classwx_window_1a6a332586346cb9ece4a8fe058a7b88c4" prot="public" virt="virtual"><scope>wxHtmlHelpWindow</scope><name>GetValidator</name></member>
+      <member refid="classwx_window_1a557f92e6c66b6654c95315d4461d0e11" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>GetVirtualSize</name></member>
+      <member refid="classwx_window_1a24cefbb69173899ec4d62460b2932ed9" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>GetVirtualSize</name></member>
+      <member refid="classwx_window_1a21c97d5bcf61c4c664bd33066f5567b1" prot="public" virt="virtual"><scope>wxHtmlHelpWindow</scope><name>GetWindowBorderSize</name></member>
+      <member refid="classwx_window_1a418007123fec131b47d9841ac6d34891" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>GetWindowStyle</name></member>
+      <member refid="classwx_window_1ad67a731cd937a21e561593d4a0c44979" prot="public" virt="virtual"><scope>wxHtmlHelpWindow</scope><name>GetWindowStyleFlag</name></member>
+      <member refid="classwx_window_1a9027305e391de617259407f2c12a54bf" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>GetWindowVariant</name></member>
+      <member refid="classwx_window_1a89d1b079de97aac170e999692095872c" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>HandleAsNavigationKey</name></member>
+      <member refid="classwx_window_1a89816f1b78c125c59418463caea35c9a" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>HandleWindowEvent</name></member>
+      <member refid="classwx_window_1a41e1b77ac82c7420d34b8030d5f26046" prot="public" virt="virtual"><scope>wxHtmlHelpWindow</scope><name>HasCapture</name></member>
+      <member refid="classwx_window_1aeee5333e672a3a510db48d2af37ddee9" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>HasExtraStyle</name></member>
+      <member refid="classwx_window_1a3d1d00b4cd51fa3c187e9d609d022aa4" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>HasFlag</name></member>
+      <member refid="classwx_window_1adaf042744bdbb8a5f9feccbe7749468a" prot="public" virt="virtual"><scope>wxHtmlHelpWindow</scope><name>HasFocus</name></member>
+      <member refid="classwx_window_1a55c7b73596f2eec2694e8f512013ee81" prot="public" virt="virtual"><scope>wxHtmlHelpWindow</scope><name>HasMultiplePages</name></member>
+      <member refid="classwx_window_1ae50c259b165d9366729734bc124cf184" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>HasScrollbar</name></member>
+      <member refid="classwx_window_1ab9cbcb6d6f4a272c2f0342e69a13b59a" prot="public" virt="virtual"><scope>wxHtmlHelpWindow</scope><name>HasTransparentBackground</name></member>
+      <member refid="classwx_window_1a7ed103df04014cb3c59c6a3fb4d95328" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>Hide</name></member>
+      <member refid="classwx_window_1a5326fbb26557a224507a1c06e5640e89" prot="public" virt="virtual"><scope>wxHtmlHelpWindow</scope><name>HideWithEffect</name></member>
+      <member refid="classwx_window_1ae8705e241daca73105921b72326258b5" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>HitTest</name></member>
+      <member refid="classwx_window_1ace65f76df096662bd15722d10c1905c9" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>HitTest</name></member>
+      <member refid="classwx_window_1a9fd5b6520c1b30eb8e82bb5d56bc24c0" prot="public" virt="virtual"><scope>wxHtmlHelpWindow</scope><name>InformFirstDirection</name></member>
+      <member refid="classwx_window_1a6b1bf9e099704e7a493b8c4666b1f7f7" prot="public" virt="virtual"><scope>wxHtmlHelpWindow</scope><name>InheritAttributes</name></member>
+      <member refid="classwx_window_1af05b95cfeed0bee6f44797572367b26e" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>InheritsBackgroundColour</name></member>
+      <member refid="classwx_window_1aa90a260c0a835a133043460b7d0024a8" prot="public" virt="virtual"><scope>wxHtmlHelpWindow</scope><name>InitDialog</name></member>
+      <member refid="classwx_window_1ae1b56ca87d8590ee5e576012229a380a" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>InvalidateBestSize</name></member>
+      <member refid="classwx_window_1a5fd3fba5d43efb67a834c0483a9c3d0e" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>IsBeingDeleted</name></member>
+      <member refid="classwx_window_1ab7f60a0c4acdd832a46aabf0d09cd54a" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>IsDescendant</name></member>
+      <member refid="classwx_window_1abe7a8c61796262b517f5e0765374cc2b" prot="public" virt="virtual"><scope>wxHtmlHelpWindow</scope><name>IsDoubleBuffered</name></member>
+      <member refid="classwx_window_1a0c186513884fb2020c6af3c62f0913d2" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>IsEnabled</name></member>
+      <member refid="classwx_window_1a687120c4b7095481bbc6d483187d0c56" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>IsExposed</name></member>
+      <member refid="classwx_window_1afde1844b856787b95afbb686aaaa206d" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>IsExposed</name></member>
+      <member refid="classwx_window_1a3017e9cdde376d567ee37b2a96913eca" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>IsExposed</name></member>
+      <member refid="classwx_window_1ac4653d89376b9e88afbec8c342d32530" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>IsExposed</name></member>
+      <member refid="classwx_window_1ad78eb073c4fe8271caa4c65301a24ee2" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>IsFocusable</name></member>
+      <member refid="classwx_window_1adf34f121a9a94fd7159a8818355f2b67" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>IsFrozen</name></member>
+      <member refid="classwx_object_1a3c7115ef4132dcee0c4fc34e84d7fced" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>IsKindOf</name></member>
+      <member refid="classwx_window_1a77443cb35d15b5006b96a8c5ea0944f6" prot="public" virt="virtual"><scope>wxHtmlHelpWindow</scope><name>IsRetained</name></member>
+      <member refid="classwx_object_1a059373c494c2369d7db2a556efef8ecf" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>IsSameAs</name></member>
+      <member refid="classwx_window_1abf4f5068ebf648197ed9ca8ca58f38df" prot="public" virt="virtual"><scope>wxHtmlHelpWindow</scope><name>IsScrollbarAlwaysShown</name></member>
+      <member refid="classwx_window_1ad3544f9c364b7952ac0676217e400061" prot="public" virt="virtual"><scope>wxHtmlHelpWindow</scope><name>IsShown</name></member>
+      <member refid="classwx_window_1ac2722709783e89e76b2eeb7f9f93236a" prot="public" virt="virtual"><scope>wxHtmlHelpWindow</scope><name>IsShownOnScreen</name></member>
+      <member refid="classwx_window_1a1c6a83e5421bb7cfb8a9ad804d251b65" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>IsThisEnabled</name></member>
+      <member refid="classwx_window_1afe04dba2155b58429d6c4e0a5a5e1664" prot="public" virt="virtual"><scope>wxHtmlHelpWindow</scope><name>IsTopLevel</name></member>
+      <member refid="classwx_window_1a21c6e2be327062520d9d0aae55b1e8b0" prot="public" virt="virtual"><scope>wxHtmlHelpWindow</scope><name>IsTransparentBackgroundSupported</name></member>
+      <member refid="classwx_evt_handler_1ac0734578a8d929b8b0be440ce0b53ad6" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>IsUnlinked</name></member>
+      <member refid="classwx_html_help_window_1ae8be7fbc1a5b5d0bb23008a181ab4c9b" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>KeywordSearch</name></member>
+      <member refid="classwx_window_1a1b143c3e72bd0af533b76db4830a6113" prot="public" virt="virtual"><scope>wxHtmlHelpWindow</scope><name>Layout</name></member>
+      <member refid="classwx_window_1ade808784f0e64d9985e2f279b5ca8c02" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>LineDown</name></member>
+      <member refid="classwx_window_1afc0816a174ceee6d36d1995c6824a273" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>LineUp</name></member>
+      <member refid="classwx_window_1a124944524f36b71385dad8fddaad8ded" prot="public" virt="virtual"><scope>wxHtmlHelpWindow</scope><name>Lower</name></member>
+      <member refid="classwx_object_1a9e31954530a0abd54982effc443ed2b8" prot="protected" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>m_refData</name></member>
+      <member refid="classwx_window_1ab1cb98c8d25b9e6ff7b706b1446c3df7" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>Move</name></member>
+      <member refid="classwx_window_1a22a22c1e23ca05776707e7999d8047fe" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>Move</name></member>
+      <member refid="classwx_window_1a79e66079125e8420de269811bdb6f2b6" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>MoveAfterInTabOrder</name></member>
+      <member refid="classwx_window_1af2b92f61cd9f9e2e0efe4cce307e25b1" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>MoveBeforeInTabOrder</name></member>
+      <member refid="classwx_window_1a86904f6785df4af6036b33383490a805" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>Navigate</name></member>
+      <member refid="classwx_window_1aa58039c8fc65e19160becf510ee1d1d5" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>NavigateIn</name></member>
+      <member refid="classwx_window_1a8175da594e6045635a1d1cfe775cdddb" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>NewControlId</name></member>
+      <member refid="classwx_window_1a6b5654c0c6c6245d592c279521f7099c" prot="public" virt="virtual"><scope>wxHtmlHelpWindow</scope><name>OnInternalIdle</name></member>
+      <member refid="classwx_object_1a07b8f34f5afc5743195c5fed052f55d3" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>operator delete</name></member>
+      <member refid="classwx_object_1a96fa423a1dbc212c8227a5d83825971f" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>operator new</name></member>
+      <member refid="classwx_window_1a61e78cb48ece3e9e989e37b475ac1e35" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>PageDown</name></member>
+      <member refid="classwx_window_1aa7c2bbc480d8863d9f139c01d7abc1b1" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>PageUp</name></member>
+      <member refid="classwx_window_1ac45c1f4cf96c70779764c14cf528790b" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>PopEventHandler</name></member>
+      <member refid="classwx_window_1a8f715d238cf74a845488b0e2645e98df" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>PopupMenu</name></member>
+      <member refid="classwx_window_1a834bcdfd41f5e5370ebd9ea401c92900" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>PopupMenu</name></member>
+      <member refid="classwx_window_1ab1943463e6661f97e072b43337c6cc09" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>PostSizeEvent</name></member>
+      <member refid="classwx_window_1aa080d8dcda58bcc6ea2abd8bea592e3e" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>PostSizeEventToParent</name></member>
+      <member refid="classwx_window_1a5ebdbd87c28644149a07f1742996df96" prot="protected" virt="virtual"><scope>wxHtmlHelpWindow</scope><name>ProcessEvent</name></member>
+      <member refid="classwx_evt_handler_1ac0f5d2cb29a04c1f7f82eb6b351f79fb" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>ProcessEventLocally</name></member>
+      <member refid="classwx_window_1a7cbee38944dab02d753a4dba74230443" prot="protected" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>ProcessPendingEvents</name></member>
+      <member refid="classwx_window_1a9350b3a9c2e380707eaea92cedad12a5" prot="protected" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>ProcessThreadEvent</name></member>
+      <member refid="classwx_window_1a0a76891d726ad5f9a729e27e4eab2b57" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>ProcessWindowEvent</name></member>
+      <member refid="classwx_window_1a0a11aa4a50491d051f947e2618e52178" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>ProcessWindowEventLocally</name></member>
+      <member refid="classwx_window_1a398c11ab9af7956067a964f560d1978c" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>PushEventHandler</name></member>
+      <member refid="classwx_window_1a69e450f21b0d7013269ec1a4771f043b" prot="protected" virt="virtual"><scope>wxHtmlHelpWindow</scope><name>QueueEvent</name></member>
+      <member refid="classwx_window_1a54808c933f22a891c5db646f6209fa4d" prot="public" virt="virtual"><scope>wxHtmlHelpWindow</scope><name>Raise</name></member>
+      <member refid="classwx_html_help_window_1ac6aea76ccecc25ec4ba91cdc31c1a830" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>ReadCustomization</name></member>
+      <member refid="classwx_object_1a2f6f1aa51fe9fc2b1415ca4211a90e9e" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>Ref</name></member>
+      <member refid="classwx_window_1a29dc7251746154c821b17841b9877830" prot="public" virt="virtual"><scope>wxHtmlHelpWindow</scope><name>Refresh</name></member>
+      <member refid="classwx_html_help_window_1a2f8117dccdd9b8b61ceaf4174f67c97a" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>RefreshLists</name></member>
+      <member refid="classwx_window_1ab0ae6b9898cd261c39ebeb2891aa3d67" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>RefreshRect</name></member>
+      <member refid="classwx_window_1a53ca57872dac5851ea6ba55a494b899b" prot="public" virt="virtual"><scope>wxHtmlHelpWindow</scope><name>RegisterHotKey</name></member>
+      <member refid="classwx_window_1adcc538819c11ecb3bd3e4e5d13c5ba7a" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>ReleaseMouse</name></member>
+      <member refid="classwx_window_1acee332ed4368d26e8bc3db5767c1240a" prot="public" virt="virtual"><scope>wxHtmlHelpWindow</scope><name>RemoveChild</name></member>
+      <member refid="classwx_window_1aacbfe424fa527966b954229a1db96ab5" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>RemoveEventHandler</name></member>
+      <member refid="classwx_evt_handler_1a67a57b759c447b121bf70a7c9804c8f2" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>RemoveFilter</name></member>
+      <member refid="classwx_window_1a7977b749284e65aecfed2ce146799cb9" prot="public" virt="virtual"><scope>wxHtmlHelpWindow</scope><name>Reparent</name></member>
+      <member refid="classwx_window_1a0f9814efc50316b4c57b7ec2bf78b716" prot="protected" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>SafelyProcessEvent</name></member>
+      <member refid="classwx_window_1a09aca554d41d6e771d3dc72f26b9cacc" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>ScreenToClient</name></member>
+      <member refid="classwx_window_1a5f4dab599fda780823841bb2fe5f2f99" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>ScreenToClient</name></member>
+      <member refid="classwx_window_1aa5c5b683bd11a0d9771bd2fcdf643c64" prot="public" virt="virtual"><scope>wxHtmlHelpWindow</scope><name>ScrollLines</name></member>
+      <member refid="classwx_window_1adc0ed5e1c4925223cb901ced14b8343d" prot="public" virt="virtual"><scope>wxHtmlHelpWindow</scope><name>ScrollPages</name></member>
+      <member refid="classwx_window_1ab7be4956ff22da37fff2b8aaa581045c" prot="public" virt="virtual"><scope>wxHtmlHelpWindow</scope><name>ScrollWindow</name></member>
+      <member refid="classwx_evt_handler_1a3c07426130d2868a5ae7fa918a251f49" prot="public" virt="virtual"><scope>wxHtmlHelpWindow</scope><name>SearchEventTable</name></member>
+      <member refid="classwx_window_1a7e21eb6a0819281b29134a6432d064fe" prot="protected" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>SendDestroyEvent</name></member>
+      <member refid="classwx_window_1a1afc1653413957537073c074dcc3eade" prot="public" virt="virtual"><scope>wxHtmlHelpWindow</scope><name>SendIdleEvents</name></member>
+      <member refid="classwx_window_1a237f739b21937d3e8f1bff5fa82ba4c2" prot="public" virt="virtual"><scope>wxHtmlHelpWindow</scope><name>SendSizeEvent</name></member>
+      <member refid="classwx_window_1af7987987978fd8a93df88b29b19a6388" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>SendSizeEventToParent</name></member>
+      <member refid="classwx_window_1a0af5e9aa4dee6a4e92c0700f92605642" prot="public" virt="virtual"><scope>wxHtmlHelpWindow</scope><name>SetAcceleratorTable</name></member>
+      <member refid="classwx_window_1a413220ead41f05a2ec2cfe10b3d573df" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>SetAccessible</name></member>
+      <member refid="classwx_window_1ad369fe1db5c20f9d9edff7b5eb1f7226" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>SetAutoLayout</name></member>
+      <member refid="classwx_window_1a37219df52734626e23401fd83b25d8a0" prot="public" virt="virtual"><scope>wxHtmlHelpWindow</scope><name>SetBackgroundColour</name></member>
+      <member refid="classwx_window_1af14f8fd2ed2d30a9bbb5d4f9fd6594ec" prot="public" virt="virtual"><scope>wxHtmlHelpWindow</scope><name>SetBackgroundStyle</name></member>
+      <member refid="classwx_window_1a2b8b2e99231a0ec1a05f5066f1b7f3d8" prot="public" virt="virtual"><scope>wxHtmlHelpWindow</scope><name>SetCanFocus</name></member>
+      <member refid="classwx_window_1acfef5e1cada92c73e2937b84ff57ff57" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>SetCaret</name></member>
+      <member refid="classwx_evt_handler_1a82c74f2cebfa02cb3c1563d459c872bf" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>SetClientData</name></member>
+      <member refid="classwx_evt_handler_1af1e33a06087b8b2ddc43c7d15a91b326" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>SetClientObject</name></member>
+      <member refid="classwx_window_1aa59f715217fffa5bcf14cd97f92e7840" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>SetClientSize</name></member>
+      <member refid="classwx_window_1ab2aadc857ee7f55f47ab9a8669e3beb7" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>SetClientSize</name></member>
+      <member refid="classwx_window_1a582d4d1f60a3f777627773b2da0bb2ef" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>SetClientSize</name></member>
+      <member refid="classwx_window_1afa75d111bbd9a68f837101a5fbed60a7" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>SetConstraints</name></member>
+      <member refid="classwx_window_1a0ccf78fe06722b500adfb7f36b8ce443" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>SetContainingSizer</name></member>
+      <member refid="classwx_html_help_window_1ae5bbb868de29ed87331d7fbab535595e" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>SetController</name></member>
+      <member refid="classwx_window_1ad83f9c51c6f31e0e05f598b47a19ed98" prot="public" virt="virtual"><scope>wxHtmlHelpWindow</scope><name>SetCursor</name></member>
+      <member refid="classwx_window_1a5477a89c17fdcc3ec6c90274796eb1c3" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>SetDoubleBuffered</name></member>
+      <member refid="classwx_window_1ae34b4d45433ca8287df0e47d46411e58" prot="public" virt="virtual"><scope>wxHtmlHelpWindow</scope><name>SetDropTarget</name></member>
+      <member refid="classwx_window_1af6c84b7679183b377ba27a52a2f708b4" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>SetEventHandler</name></member>
+      <member refid="classwx_evt_handler_1a7388ae19c8657e5656471b658c320036" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>SetEvtHandlerEnabled</name></member>
+      <member refid="classwx_window_1ae9655f7c35ce7ac89cac2f6c0054b103" prot="public" virt="virtual"><scope>wxHtmlHelpWindow</scope><name>SetExtraStyle</name></member>
+      <member refid="classwx_window_1a697f9f8d3ff389790f1c74b59bcb1d75" prot="public" virt="virtual"><scope>wxHtmlHelpWindow</scope><name>SetFocus</name></member>
+      <member refid="classwx_window_1a6fa03f82d7917dff482754d0d2e2b1c8" prot="public" virt="virtual"><scope>wxHtmlHelpWindow</scope><name>SetFocusFromKbd</name></member>
+      <member refid="classwx_window_1a9ab11e7da57a1d08918aa75fc33f6ad3" prot="public" virt="virtual"><scope>wxHtmlHelpWindow</scope><name>SetFont</name></member>
+      <member refid="classwx_window_1a69f1e1c7ddd370d72e68c70f13ac8de9" prot="public" virt="virtual"><scope>wxHtmlHelpWindow</scope><name>SetForegroundColour</name></member>
+      <member refid="classwx_window_1a4c1a2cbc7363237b3a7c70af4e702c72" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>SetHelpText</name></member>
+      <member refid="classwx_window_1a7f27d0faed14effa013381bdc40e1bcd" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>SetId</name></member>
+      <member refid="classwx_window_1ae6dfe0b0d4a8c666b21ce8df8d96727b" prot="protected" virt="virtual"><scope>wxHtmlHelpWindow</scope><name>SetInitialBestSize</name></member>
+      <member refid="classwx_window_1a1b309ca50ba87e34f968c83b79af1397" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>SetInitialSize</name></member>
+      <member refid="classwx_window_1aa00ffea9f53587f29ae343adde033b8e" prot="public" virt="virtual"><scope>wxHtmlHelpWindow</scope><name>SetLabel</name></member>
+      <member refid="classwx_window_1a7d494549f7fcfed44af95f8ee364c1f9" prot="public" virt="virtual"><scope>wxHtmlHelpWindow</scope><name>SetLayoutDirection</name></member>
+      <member refid="classwx_window_1a664e5b2ddd817d9c58788269fe1d8479" prot="public" virt="virtual"><scope>wxHtmlHelpWindow</scope><name>SetMaxClientSize</name></member>
+      <member refid="classwx_window_1a38b496214d728a3212afadee5ed51606" prot="public" virt="virtual"><scope>wxHtmlHelpWindow</scope><name>SetMaxSize</name></member>
+      <member refid="classwx_window_1a6e35ba44b97e374dfffa460d41d94b31" prot="public" virt="virtual"><scope>wxHtmlHelpWindow</scope><name>SetMinClientSize</name></member>
+      <member refid="classwx_window_1a3fc066f4d8083319f004ac43811d545d" prot="public" virt="virtual"><scope>wxHtmlHelpWindow</scope><name>SetMinSize</name></member>
+      <member refid="classwx_window_1af80875cda5e1af98dcd7c8e712e3c800" prot="public" virt="virtual"><scope>wxHtmlHelpWindow</scope><name>SetName</name></member>
+      <member refid="classwx_window_1aeab905f61df7004c1b76a3351dca9e96" prot="public" virt="virtual"><scope>wxHtmlHelpWindow</scope><name>SetNextHandler</name></member>
+      <member refid="classwx_window_1a9a3f9d8477aab1d9176cd66ee56e75d9" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>SetOwnBackgroundColour</name></member>
+      <member refid="classwx_window_1a89a4f62f23c1e7c845b8d07cecae4c43" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>SetOwnFont</name></member>
+      <member refid="classwx_window_1a53f4a878e4e2d440bd00543f8014aaaa" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>SetOwnForegroundColour</name></member>
+      <member refid="classwx_window_1aee57358435d6bd33f598c81354b47425" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>SetPalette</name></member>
+      <member refid="classwx_window_1a81f23590239934fa10fded0566a65d8c" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>SetPosition</name></member>
+      <member refid="classwx_window_1a07f5f7ed3f78e0ef7b3dee3f4da81001" prot="public" virt="virtual"><scope>wxHtmlHelpWindow</scope><name>SetPreviousHandler</name></member>
+      <member refid="classwx_object_1afab780710f2adc1bb33310e27590140b" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>SetRefData</name></member>
+      <member refid="classwx_window_1aa842d59529f873683e55cd8392ec46e9" prot="public" virt="virtual"><scope>wxHtmlHelpWindow</scope><name>SetScrollbar</name></member>
+      <member refid="classwx_window_1afbf4dc9064cf70cfe6884554b97a27bf" prot="public" virt="virtual"><scope>wxHtmlHelpWindow</scope><name>SetScrollPos</name></member>
+      <member refid="classwx_window_1a180312d5ad4a4a5ad805b8d52d67a74e" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>SetSize</name></member>
+      <member refid="classwx_window_1a8e383bc6d5ca008965922a36c676aea0" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>SetSize</name></member>
+      <member refid="classwx_window_1a030a928cd854de3def97c5720f14695b" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>SetSize</name></member>
+      <member refid="classwx_window_1a2ea9b25296d591aea4470c8fd99ff7cb" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>SetSize</name></member>
+      <member refid="classwx_window_1a307329dc3b10f5584aeb2cbce9293ffd" prot="public" virt="virtual"><scope>wxHtmlHelpWindow</scope><name>SetSizeHints</name></member>
+      <member refid="classwx_window_1ae813c640e1e2bc6014423247050846cf" prot="public" virt="virtual"><scope>wxHtmlHelpWindow</scope><name>SetSizeHints</name></member>
+      <member refid="classwx_window_1abc95691b45e29a52c24aa9d33d46dec1" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>SetSizer</name></member>
+      <member refid="classwx_window_1a29938af9828fd35da666536cdfb6b73c" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>SetSizerAndFit</name></member>
+      <member refid="classwx_window_1a41dd19ed8809fd8ec662e2aa2a9579c3" prot="public" virt="virtual"><scope>wxHtmlHelpWindow</scope><name>SetThemeEnabled</name></member>
+      <member refid="classwx_window_1a81a9fb74e3c6c7f4416e882f5e589b8c" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>SetToolTip</name></member>
+      <member refid="classwx_window_1a494e0b7cfca9299caa40e847767e7357" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>SetToolTip</name></member>
+      <member refid="classwx_window_1ac8cf4398cec50ac36634760f45a0656f" prot="public" virt="virtual"><scope>wxHtmlHelpWindow</scope><name>SetTransparent</name></member>
+      <member refid="classwx_window_1a00066c70049a7be3ce6b648d206e6432" prot="public" virt="virtual"><scope>wxHtmlHelpWindow</scope><name>SetValidator</name></member>
+      <member refid="classwx_window_1a37f293b7904bc6668b86cccb0aea5669" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>SetVirtualSize</name></member>
+      <member refid="classwx_window_1a8e95201edebe43b9623bd3bdc555af4d" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>SetVirtualSize</name></member>
+      <member refid="classwx_window_1a306af30adec68689f74ed537b4f9d5fd" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>SetWindowStyle</name></member>
+      <member refid="classwx_window_1aee2cf342f80523432e7f2299d299451b" prot="public" virt="virtual"><scope>wxHtmlHelpWindow</scope><name>SetWindowStyleFlag</name></member>
+      <member refid="classwx_window_1acd955418c336e73b3e32cadf1ca46e29" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>SetWindowVariant</name></member>
+      <member refid="classwx_window_1aa51b169745cda1746c1a45b4ffe3217a" prot="public" virt="virtual"><scope>wxHtmlHelpWindow</scope><name>ShouldInheritColours</name></member>
+      <member refid="classwx_window_1a7fbc92ce240a8d4f6956b6e0276ef07f" prot="public" virt="virtual"><scope>wxHtmlHelpWindow</scope><name>Show</name></member>
+      <member refid="classwx_window_1a596b1715edfc7609f352b2e000ecbaec" prot="public" virt="virtual"><scope>wxHtmlHelpWindow</scope><name>ShowWithEffect</name></member>
+      <member refid="classwx_window_1a279a532124073261b28131b6afb59a1e" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>Thaw</name></member>
+      <member refid="classwx_window_1a8a4fa47129de552bfec37db8c69688a2" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>ToggleWindowStyle</name></member>
+      <member refid="classwx_window_1ab8e51f36e7d8790b361c8d8c6f37b1ad" prot="public" virt="virtual"><scope>wxHtmlHelpWindow</scope><name>TransferDataFromWindow</name></member>
+      <member refid="classwx_window_1a88cc65e424a129d9b0057756cdb67ec9" prot="public" virt="virtual"><scope>wxHtmlHelpWindow</scope><name>TransferDataToWindow</name></member>
+      <member refid="classwx_evt_handler_1a5e25fece1cb6cbc11fd1d41ec140319c" prot="protected" virt="virtual"><scope>wxHtmlHelpWindow</scope><name>TryAfter</name></member>
+      <member refid="classwx_evt_handler_1ad4b0eac704dd005ac6a88fdb1e673c13" prot="protected" virt="virtual"><scope>wxHtmlHelpWindow</scope><name>TryBefore</name></member>
+      <member refid="classwx_evt_handler_1a2b7df8272075a96daea78cdd799c00da" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>Unbind</name></member>
+      <member refid="classwx_evt_handler_1aa49f9c4ad4462456b4fe4bd1ab53533d" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>Unbind</name></member>
+      <member refid="classwx_evt_handler_1a22e5db2ec1d19c8252c056fd116975d7" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>Unlink</name></member>
+      <member refid="classwx_object_1af51efc6b1ae632fc7f0cd7ebbce9fa36" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>UnRef</name></member>
+      <member refid="classwx_window_1a695f60d65f8f6c12e3c3645ad9c0c35b" prot="public" virt="virtual"><scope>wxHtmlHelpWindow</scope><name>UnregisterHotKey</name></member>
+      <member refid="classwx_window_1ad9bc342d1e38d221e37f0f6396950c8c" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>UnreserveControlId</name></member>
+      <member refid="classwx_window_1ae75712451673658b0a533480bf5eeaa4" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>UnsetToolTip</name></member>
+      <member refid="classwx_object_1a74b40e42d19a4b9e9bec0b57d62a5725" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>UnShare</name></member>
+      <member refid="classwx_window_1abaf28f1a075fd1b10f761a8febe597ec" prot="public" virt="virtual"><scope>wxHtmlHelpWindow</scope><name>Update</name></member>
+      <member refid="classwx_window_1adf0a4987728bd0bf69f922641b3efbfc" prot="public" virt="virtual"><scope>wxHtmlHelpWindow</scope><name>UpdateWindowUI</name></member>
+      <member refid="classwx_window_1a9131e424ddc3b332a08377e5ad713c60" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>UseBgCol</name></member>
+      <member refid="classwx_html_help_window_1ab511f9f0cbb96b77d8231fd066805c6e" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>UseConfig</name></member>
+      <member refid="classwx_window_1ac87f253253a0c5eb498871c83afa40fd" prot="public" virt="virtual"><scope>wxHtmlHelpWindow</scope><name>Validate</name></member>
+      <member refid="classwx_window_1ac500152d1eca3a2ee98a68e7ea7372b5" prot="public" virt="virtual"><scope>wxHtmlHelpWindow</scope><name>WarpPointer</name></member>
+      <member refid="classwx_window_1a75e9c29023e441305574056cd5a725ff" prot="public" virt="virtual"><scope>wxHtmlHelpWindow</scope><name>WindowToClientSize</name></member>
+      <member refid="classwx_html_help_window_1ace0635e5da464e5aea047d409bbd759b" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>WriteCustomization</name></member>
+      <member refid="classwx_evt_handler_1a3f0166c4154227d05575b01eb2c8d4be" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>wxEvtHandler</name></member>
+      <member refid="classwx_html_help_window_1a96d90a254e3ad02bf134e108c4656d67" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>wxHtmlHelpWindow</name></member>
+      <member refid="classwx_html_help_window_1a3ebfda5a9cecd778ae414067524b06e8" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>wxHtmlHelpWindow</name></member>
+      <member refid="classwx_object_1acaa378363a28af421ab56ad7b46eadf0" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>wxObject</name></member>
+      <member refid="classwx_object_1a4721b4dc9b7aff0f30904ba2ea3954cf" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>wxObject</name></member>
+      <member refid="classwx_window_1a695200a4915b934926dcf32afa44544c" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>wxWindow</name></member>
+      <member refid="classwx_window_1a7799009b10d1765d1bbb6db4994f922e" prot="public" virt="non-virtual"><scope>wxHtmlHelpWindow</scope><name>wxWindow</name></member>
+      <member refid="classwx_evt_handler_1a372d2239d91521eddc8fd2715fcab584" prot="public" virt="virtual"><scope>wxHtmlHelpWindow</scope><name>~wxEvtHandler</name></member>
+      <member refid="classwx_object_1a2a51aa8bfbab47ca2f051bcf84b3f35b" prot="public" virt="virtual"><scope>wxHtmlHelpWindow</scope><name>~wxObject</name></member>
+      <member refid="classwx_window_1a0c2a46181a89c349327f0b276f5ef8d7" prot="public" virt="virtual"><scope>wxHtmlHelpWindow</scope><name>~wxWindow</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

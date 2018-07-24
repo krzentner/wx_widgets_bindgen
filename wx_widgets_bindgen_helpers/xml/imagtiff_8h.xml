@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="imagtiff_8h" kind="file" language="C++">
+    <compoundname>imagtiff.h</compoundname>
+    <innerclass refid="classwx_t_i_f_f_handler" prot="public">wxTIFFHandler</innerclass>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="imagtiff_8h_1ab96a6265134997d4579bcb499e9638c9" prot="public" static="no">
+        <name>wxIMAGE_OPTION_TIFF_BITSPERSAMPLE</name>
+        <initializer><ref refid="classwx_string" kindref="compound">wxString</ref>(&quot;BitsPerSample&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/imagtiff.h" line="8" column="9" bodyfile="interface/wx/imagtiff.h" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="imagtiff_8h_1a930e56aadfb0c5626c72948525af3e64" prot="public" static="no">
+        <name>wxIMAGE_OPTION_TIFF_SAMPLESPERPIXEL</name>
+        <initializer><ref refid="classwx_string" kindref="compound">wxString</ref>(&quot;SamplesPerPixel&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/imagtiff.h" line="9" column="9" bodyfile="interface/wx/imagtiff.h" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="imagtiff_8h_1aecf50ea16811829e3b83e3052f8bce0c" prot="public" static="no">
+        <name>wxIMAGE_OPTION_TIFF_COMPRESSION</name>
+        <initializer><ref refid="classwx_string" kindref="compound">wxString</ref>(&quot;Compression&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/imagtiff.h" line="10" column="9" bodyfile="interface/wx/imagtiff.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="imagtiff_8h_1a993ae4f92fd28046c6640f3bb47ac34e" prot="public" static="no">
+        <name>wxIMAGE_OPTION_TIFF_PHOTOMETRIC</name>
+        <initializer><ref refid="classwx_string" kindref="compound">wxString</ref>(&quot;Photometric&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/imagtiff.h" line="11" column="9" bodyfile="interface/wx/imagtiff.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="imagtiff_8h_1a8b59b8a88b4f44f5d98a446733b37d1f" prot="public" static="no">
+        <name>wxIMAGE_OPTION_TIFF_IMAGEDESCRIPTOR</name>
+        <initializer><ref refid="classwx_string" kindref="compound">wxString</ref>(&quot;ImageDescriptor&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/imagtiff.h" line="12" column="9" bodyfile="interface/wx/imagtiff.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="interface/wx/imagtiff.h"/>
+  </compounddef>
+</doxygen>

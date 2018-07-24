@@ -1,0 +1,564 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_point2_d_double" kind="class" language="C++" prot="public">
+    <compoundname>wxPoint2DDouble</compoundname>
+    <includes local="no">wx/geometry.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classwx_point2_d_double_1ab61015eb148b7040eb8902edbf6cd298" prot="public" static="no" mutable="no">
+        <type><ref refid="defs_8h_1a75a450a943d1f217d7cf24f2b9eeed2e" kindref="member">wxDouble</ref></type>
+        <definition>wxDouble wxPoint2DDouble::m_x</definition>
+        <argsstring></argsstring>
+        <name>m_x</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/geometry.h" line="120" column="1" bodyfile="interface/wx/geometry.h" bodystart="120" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classwx_point2_d_double_1aa52695ed85d1ecb2b58b046b2c5b29dc" prot="public" static="no" mutable="no">
+        <type><ref refid="defs_8h_1a75a450a943d1f217d7cf24f2b9eeed2e" kindref="member">wxDouble</ref></type>
+        <definition>wxDouble wxPoint2DDouble::m_y</definition>
+        <argsstring></argsstring>
+        <name>m_y</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/geometry.h" line="121" column="1" bodyfile="interface/wx/geometry.h" bodystart="121" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classwx_point2_d_double_1ab9949da19abeeaff4656287424a18d8b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxPoint2DDouble::wxPoint2DDouble</definition>
+        <argsstring>()</argsstring>
+        <name>wxPoint2DDouble</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/geometry.h" line="81" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_point2_d_double_1a64770901a5f5948d23f27a2a9eab5bb6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxPoint2DDouble::wxPoint2DDouble</definition>
+        <argsstring>(wxDouble x, wxDouble y)</argsstring>
+        <name>wxPoint2DDouble</name>
+        <param>
+          <type><ref refid="defs_8h_1a75a450a943d1f217d7cf24f2b9eeed2e" kindref="member">wxDouble</ref></type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type><ref refid="defs_8h_1a75a450a943d1f217d7cf24f2b9eeed2e" kindref="member">wxDouble</ref></type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/geometry.h" line="82" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_point2_d_double_1a9839c3617317fcccdfa8d28f390a69e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxPoint2DDouble::wxPoint2DDouble</definition>
+        <argsstring>(const wxPoint2DDouble &amp;pt)</argsstring>
+        <name>wxPoint2DDouble</name>
+        <param>
+          <type>const <ref refid="classwx_point2_d_double" kindref="compound">wxPoint2DDouble</ref> &amp;</type>
+          <declname>pt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/geometry.h" line="83" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_point2_d_double_1a25479d14bf5f3f2ceda92fe7dc2d8582" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxPoint2DDouble::wxPoint2DDouble</definition>
+        <argsstring>(const wxPoint2DInt &amp;pt)</argsstring>
+        <name>wxPoint2DDouble</name>
+        <param>
+          <type>const <ref refid="classwx_point2_d_int" kindref="compound">wxPoint2DInt</ref> &amp;</type>
+          <declname>pt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/geometry.h" line="84" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_point2_d_double_1ab7ff55a86713332a9c8a29bf11c299d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxPoint2DDouble::wxPoint2DDouble</definition>
+        <argsstring>(const wxPoint &amp;pt)</argsstring>
+        <name>wxPoint2DDouble</name>
+        <param>
+          <type>const <ref refid="classwx_point" kindref="compound">wxPoint</ref> &amp;</type>
+          <declname>pt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/geometry.h" line="85" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_point2_d_double_1a80a5b4d4d9126c0832cc08eb2499261d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxPoint2DDouble::GetFloor</definition>
+        <argsstring>(wxInt32 *x, wxInt32 *y) const</argsstring>
+        <name>GetFloor</name>
+        <param>
+          <type><ref refid="defs_8h_1a5c084575ef1ffaa7586dda7e4b22d78a" kindref="member">wxInt32</ref> *</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type><ref refid="defs_8h_1a5c084575ef1ffaa7586dda7e4b22d78a" kindref="member">wxInt32</ref> *</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/geometry.h" line="88" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_point2_d_double_1ad96c61fb8bcd2a4ab8d10b3c7d61f73f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxPoint2DDouble::GetRounded</definition>
+        <argsstring>(wxInt32 *x, wxInt32 *y) const</argsstring>
+        <name>GetRounded</name>
+        <param>
+          <type><ref refid="defs_8h_1a5c084575ef1ffaa7586dda7e4b22d78a" kindref="member">wxInt32</ref> *</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type><ref refid="defs_8h_1a5c084575ef1ffaa7586dda7e4b22d78a" kindref="member">wxInt32</ref> *</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/geometry.h" line="89" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_point2_d_double_1a4f813e110ff4682fe1399712e376e0ca" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="defs_8h_1a75a450a943d1f217d7cf24f2b9eeed2e" kindref="member">wxDouble</ref></type>
+        <definition>wxDouble wxPoint2DDouble::GetVectorLength</definition>
+        <argsstring>() const</argsstring>
+        <name>GetVectorLength</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/geometry.h" line="91" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_point2_d_double_1a527b0e2711f458a16d371e1043d3bc8f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="defs_8h_1a75a450a943d1f217d7cf24f2b9eeed2e" kindref="member">wxDouble</ref></type>
+        <definition>wxDouble wxPoint2DDouble::GetVectorAngle</definition>
+        <argsstring>() const</argsstring>
+        <name>GetVectorAngle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/geometry.h" line="92" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_point2_d_double_1afaba09e9e341a1dd08e4c1a717d9e220" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxPoint2DDouble::SetVectorLength</definition>
+        <argsstring>(wxDouble length)</argsstring>
+        <name>SetVectorLength</name>
+        <param>
+          <type><ref refid="defs_8h_1a75a450a943d1f217d7cf24f2b9eeed2e" kindref="member">wxDouble</ref></type>
+          <declname>length</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/geometry.h" line="93" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_point2_d_double_1a81611c1fd268719540b40ccf803057c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxPoint2DDouble::SetVectorAngle</definition>
+        <argsstring>(wxDouble degrees)</argsstring>
+        <name>SetVectorAngle</name>
+        <param>
+          <type><ref refid="defs_8h_1a75a450a943d1f217d7cf24f2b9eeed2e" kindref="member">wxDouble</ref></type>
+          <declname>degrees</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/geometry.h" line="94" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_point2_d_double_1a3626c42fbf873a289cd15b2fe1f243c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxPoint2DDouble::SetPolarCoordinates</definition>
+        <argsstring>(wxDouble angle, wxDouble length)</argsstring>
+        <name>SetPolarCoordinates</name>
+        <param>
+          <type><ref refid="defs_8h_1a75a450a943d1f217d7cf24f2b9eeed2e" kindref="member">wxDouble</ref></type>
+          <declname>angle</declname>
+        </param>
+        <param>
+          <type><ref refid="defs_8h_1a75a450a943d1f217d7cf24f2b9eeed2e" kindref="member">wxDouble</ref></type>
+          <declname>length</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/geometry.h" line="95" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_point2_d_double_1af0cbfa1582bc29acbaf728d0eabfde96" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxPoint2DDouble::Normalize</definition>
+        <argsstring>()</argsstring>
+        <name>Normalize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/geometry.h" line="97" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_point2_d_double_1ae34a9d88c2f637c08475db3450c2b34c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="defs_8h_1a75a450a943d1f217d7cf24f2b9eeed2e" kindref="member">wxDouble</ref></type>
+        <definition>wxDouble wxPoint2DDouble::GetDistance</definition>
+        <argsstring>(const wxPoint2DDouble &amp;pt) const</argsstring>
+        <name>GetDistance</name>
+        <param>
+          <type>const <ref refid="classwx_point2_d_double" kindref="compound">wxPoint2DDouble</ref> &amp;</type>
+          <declname>pt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/geometry.h" line="99" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_point2_d_double_1a9d99fe5e6a9beab52ac7b55bfa0542e4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="defs_8h_1a75a450a943d1f217d7cf24f2b9eeed2e" kindref="member">wxDouble</ref></type>
+        <definition>wxDouble wxPoint2DDouble::GetDistanceSquare</definition>
+        <argsstring>(const wxPoint2DDouble &amp;pt) const</argsstring>
+        <name>GetDistanceSquare</name>
+        <param>
+          <type>const <ref refid="classwx_point2_d_double" kindref="compound">wxPoint2DDouble</ref> &amp;</type>
+          <declname>pt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/geometry.h" line="100" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_point2_d_double_1a51ed4ee567ad88cbfcf4905c8bd998f6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="defs_8h_1a75a450a943d1f217d7cf24f2b9eeed2e" kindref="member">wxDouble</ref></type>
+        <definition>wxDouble wxPoint2DDouble::GetDotProduct</definition>
+        <argsstring>(const wxPoint2DDouble &amp;vec) const</argsstring>
+        <name>GetDotProduct</name>
+        <param>
+          <type>const <ref refid="classwx_point2_d_double" kindref="compound">wxPoint2DDouble</ref> &amp;</type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/geometry.h" line="101" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_point2_d_double_1a85a37fe4e54fdff835031aec4f4e859f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="defs_8h_1a75a450a943d1f217d7cf24f2b9eeed2e" kindref="member">wxDouble</ref></type>
+        <definition>wxDouble wxPoint2DDouble::GetCrossProduct</definition>
+        <argsstring>(const wxPoint2DDouble &amp;vec) const</argsstring>
+        <name>GetCrossProduct</name>
+        <param>
+          <type>const <ref refid="classwx_point2_d_double" kindref="compound">wxPoint2DDouble</ref> &amp;</type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/geometry.h" line="102" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_point2_d_double_1af137de3f510204ef7678c8529b8dcbd7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_point2_d_double" kindref="compound">wxPoint2DDouble</ref></type>
+        <definition>wxPoint2DDouble wxPoint2DDouble::operator-</definition>
+        <argsstring>()</argsstring>
+        <name>operator-</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/geometry.h" line="105" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_point2_d_double_1a975bbfaff22be9a0bb1c24a03984f2d5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_point2_d_double" kindref="compound">wxPoint2DDouble</ref> &amp;</type>
+        <definition>wxPoint2DDouble&amp; wxPoint2DDouble::operator=</definition>
+        <argsstring>(const wxPoint2DDouble &amp;pt)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="classwx_point2_d_double" kindref="compound">wxPoint2DDouble</ref> &amp;</type>
+          <declname>pt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/geometry.h" line="107" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_point2_d_double_1a7bca9d31e421b829707499c841e2c349" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_point2_d_double" kindref="compound">wxPoint2DDouble</ref> &amp;</type>
+        <definition>wxPoint2DDouble&amp; wxPoint2DDouble::operator+=</definition>
+        <argsstring>(const wxPoint2DDouble &amp;pt)</argsstring>
+        <name>operator+=</name>
+        <param>
+          <type>const <ref refid="classwx_point2_d_double" kindref="compound">wxPoint2DDouble</ref> &amp;</type>
+          <declname>pt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/geometry.h" line="108" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_point2_d_double_1ac1d6f45fcf8961d272f508dd03f40249" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_point2_d_double" kindref="compound">wxPoint2DDouble</ref> &amp;</type>
+        <definition>wxPoint2DDouble&amp; wxPoint2DDouble::operator-=</definition>
+        <argsstring>(const wxPoint2DDouble &amp;pt)</argsstring>
+        <name>operator-=</name>
+        <param>
+          <type>const <ref refid="classwx_point2_d_double" kindref="compound">wxPoint2DDouble</ref> &amp;</type>
+          <declname>pt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/geometry.h" line="109" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_point2_d_double_1aa8537e9b10fbb01d983c9cea72f5b9ca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_point2_d_double" kindref="compound">wxPoint2DDouble</ref> &amp;</type>
+        <definition>wxPoint2DDouble&amp; wxPoint2DDouble::operator*=</definition>
+        <argsstring>(const wxPoint2DDouble &amp;pt)</argsstring>
+        <name>operator*=</name>
+        <param>
+          <type>const <ref refid="classwx_point2_d_double" kindref="compound">wxPoint2DDouble</ref> &amp;</type>
+          <declname>pt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/geometry.h" line="110" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_point2_d_double_1a5a1e27b16caabfbc2583139f9d9b3640" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_point2_d_double" kindref="compound">wxPoint2DDouble</ref> &amp;</type>
+        <definition>wxPoint2DDouble&amp; wxPoint2DDouble::operator*=</definition>
+        <argsstring>(wxDouble n)</argsstring>
+        <name>operator*=</name>
+        <param>
+          <type><ref refid="defs_8h_1a75a450a943d1f217d7cf24f2b9eeed2e" kindref="member">wxDouble</ref></type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/geometry.h" line="111" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_point2_d_double_1af4531f5a908545472214d0e6379224c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_point2_d_double" kindref="compound">wxPoint2DDouble</ref> &amp;</type>
+        <definition>wxPoint2DDouble&amp; wxPoint2DDouble::operator*=</definition>
+        <argsstring>(wxInt32 n)</argsstring>
+        <name>operator*=</name>
+        <param>
+          <type><ref refid="defs_8h_1a5c084575ef1ffaa7586dda7e4b22d78a" kindref="member">wxInt32</ref></type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/geometry.h" line="112" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_point2_d_double_1afd1f550f02ace1adea62aa781390dc5a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_point2_d_double" kindref="compound">wxPoint2DDouble</ref> &amp;</type>
+        <definition>wxPoint2DDouble&amp; wxPoint2DDouble::operator/=</definition>
+        <argsstring>(const wxPoint2DDouble &amp;pt)</argsstring>
+        <name>operator/=</name>
+        <param>
+          <type>const <ref refid="classwx_point2_d_double" kindref="compound">wxPoint2DDouble</ref> &amp;</type>
+          <declname>pt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/geometry.h" line="113" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_point2_d_double_1a5ab2378751bd555038cfad16a61fc6aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_point2_d_double" kindref="compound">wxPoint2DDouble</ref> &amp;</type>
+        <definition>wxPoint2DDouble&amp; wxPoint2DDouble::operator/=</definition>
+        <argsstring>(wxDouble n)</argsstring>
+        <name>operator/=</name>
+        <param>
+          <type><ref refid="defs_8h_1a75a450a943d1f217d7cf24f2b9eeed2e" kindref="member">wxDouble</ref></type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/geometry.h" line="114" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_point2_d_double_1a8249e6aeacffa9736fae4e7e13a53754" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_point2_d_double" kindref="compound">wxPoint2DDouble</ref> &amp;</type>
+        <definition>wxPoint2DDouble&amp; wxPoint2DDouble::operator/=</definition>
+        <argsstring>(wxInt32 n)</argsstring>
+        <name>operator/=</name>
+        <param>
+          <type><ref refid="defs_8h_1a5c084575ef1ffaa7586dda7e4b22d78a" kindref="member">wxInt32</ref></type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/geometry.h" line="115" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_point2_d_double_1aad507231c5943aa2d3361974baf0106c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxPoint2DDouble::operator==</definition>
+        <argsstring>(const wxPoint2DDouble &amp;pt) const</argsstring>
+        <name>operator==</name>
+        <param>
+          <type>const <ref refid="classwx_point2_d_double" kindref="compound">wxPoint2DDouble</ref> &amp;</type>
+          <declname>pt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/geometry.h" line="117" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_point2_d_double_1abffb25551928a36df0edb5f917178756" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxPoint2DDouble::operator!=</definition>
+        <argsstring>(const wxPoint2DDouble &amp;pt) const</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type>const <ref refid="classwx_point2_d_double" kindref="compound">wxPoint2DDouble</ref> &amp;</type>
+          <declname>pt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/geometry.h" line="118" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="interface/wx/geometry.h" line="79" column="1" bodyfile="interface/wx/geometry.h" bodystart="78" bodyend="122"/>
+    <listofallmembers>
+      <member refid="classwx_point2_d_double_1a85a37fe4e54fdff835031aec4f4e859f" prot="public" virt="non-virtual"><scope>wxPoint2DDouble</scope><name>GetCrossProduct</name></member>
+      <member refid="classwx_point2_d_double_1ae34a9d88c2f637c08475db3450c2b34c" prot="public" virt="non-virtual"><scope>wxPoint2DDouble</scope><name>GetDistance</name></member>
+      <member refid="classwx_point2_d_double_1a9d99fe5e6a9beab52ac7b55bfa0542e4" prot="public" virt="non-virtual"><scope>wxPoint2DDouble</scope><name>GetDistanceSquare</name></member>
+      <member refid="classwx_point2_d_double_1a51ed4ee567ad88cbfcf4905c8bd998f6" prot="public" virt="non-virtual"><scope>wxPoint2DDouble</scope><name>GetDotProduct</name></member>
+      <member refid="classwx_point2_d_double_1a80a5b4d4d9126c0832cc08eb2499261d" prot="public" virt="non-virtual"><scope>wxPoint2DDouble</scope><name>GetFloor</name></member>
+      <member refid="classwx_point2_d_double_1ad96c61fb8bcd2a4ab8d10b3c7d61f73f" prot="public" virt="non-virtual"><scope>wxPoint2DDouble</scope><name>GetRounded</name></member>
+      <member refid="classwx_point2_d_double_1a527b0e2711f458a16d371e1043d3bc8f" prot="public" virt="non-virtual"><scope>wxPoint2DDouble</scope><name>GetVectorAngle</name></member>
+      <member refid="classwx_point2_d_double_1a4f813e110ff4682fe1399712e376e0ca" prot="public" virt="non-virtual"><scope>wxPoint2DDouble</scope><name>GetVectorLength</name></member>
+      <member refid="classwx_point2_d_double_1ab61015eb148b7040eb8902edbf6cd298" prot="public" virt="non-virtual"><scope>wxPoint2DDouble</scope><name>m_x</name></member>
+      <member refid="classwx_point2_d_double_1aa52695ed85d1ecb2b58b046b2c5b29dc" prot="public" virt="non-virtual"><scope>wxPoint2DDouble</scope><name>m_y</name></member>
+      <member refid="classwx_point2_d_double_1af0cbfa1582bc29acbaf728d0eabfde96" prot="public" virt="non-virtual"><scope>wxPoint2DDouble</scope><name>Normalize</name></member>
+      <member refid="classwx_point2_d_double_1abffb25551928a36df0edb5f917178756" prot="public" virt="non-virtual"><scope>wxPoint2DDouble</scope><name>operator!=</name></member>
+      <member refid="classwx_point2_d_double_1aa8537e9b10fbb01d983c9cea72f5b9ca" prot="public" virt="non-virtual"><scope>wxPoint2DDouble</scope><name>operator*=</name></member>
+      <member refid="classwx_point2_d_double_1a5a1e27b16caabfbc2583139f9d9b3640" prot="public" virt="non-virtual"><scope>wxPoint2DDouble</scope><name>operator*=</name></member>
+      <member refid="classwx_point2_d_double_1af4531f5a908545472214d0e6379224c4" prot="public" virt="non-virtual"><scope>wxPoint2DDouble</scope><name>operator*=</name></member>
+      <member refid="classwx_point2_d_double_1a7bca9d31e421b829707499c841e2c349" prot="public" virt="non-virtual"><scope>wxPoint2DDouble</scope><name>operator+=</name></member>
+      <member refid="classwx_point2_d_double_1af137de3f510204ef7678c8529b8dcbd7" prot="public" virt="non-virtual"><scope>wxPoint2DDouble</scope><name>operator-</name></member>
+      <member refid="classwx_point2_d_double_1ac1d6f45fcf8961d272f508dd03f40249" prot="public" virt="non-virtual"><scope>wxPoint2DDouble</scope><name>operator-=</name></member>
+      <member refid="classwx_point2_d_double_1afd1f550f02ace1adea62aa781390dc5a" prot="public" virt="non-virtual"><scope>wxPoint2DDouble</scope><name>operator/=</name></member>
+      <member refid="classwx_point2_d_double_1a5ab2378751bd555038cfad16a61fc6aa" prot="public" virt="non-virtual"><scope>wxPoint2DDouble</scope><name>operator/=</name></member>
+      <member refid="classwx_point2_d_double_1a8249e6aeacffa9736fae4e7e13a53754" prot="public" virt="non-virtual"><scope>wxPoint2DDouble</scope><name>operator/=</name></member>
+      <member refid="classwx_point2_d_double_1a975bbfaff22be9a0bb1c24a03984f2d5" prot="public" virt="non-virtual"><scope>wxPoint2DDouble</scope><name>operator=</name></member>
+      <member refid="classwx_point2_d_double_1aad507231c5943aa2d3361974baf0106c" prot="public" virt="non-virtual"><scope>wxPoint2DDouble</scope><name>operator==</name></member>
+      <member refid="classwx_point2_d_double_1a3626c42fbf873a289cd15b2fe1f243c3" prot="public" virt="non-virtual"><scope>wxPoint2DDouble</scope><name>SetPolarCoordinates</name></member>
+      <member refid="classwx_point2_d_double_1a81611c1fd268719540b40ccf803057c0" prot="public" virt="non-virtual"><scope>wxPoint2DDouble</scope><name>SetVectorAngle</name></member>
+      <member refid="classwx_point2_d_double_1afaba09e9e341a1dd08e4c1a717d9e220" prot="public" virt="non-virtual"><scope>wxPoint2DDouble</scope><name>SetVectorLength</name></member>
+      <member refid="classwx_point2_d_double_1ab9949da19abeeaff4656287424a18d8b" prot="public" virt="non-virtual"><scope>wxPoint2DDouble</scope><name>wxPoint2DDouble</name></member>
+      <member refid="classwx_point2_d_double_1a64770901a5f5948d23f27a2a9eab5bb6" prot="public" virt="non-virtual"><scope>wxPoint2DDouble</scope><name>wxPoint2DDouble</name></member>
+      <member refid="classwx_point2_d_double_1a9839c3617317fcccdfa8d28f390a69e7" prot="public" virt="non-virtual"><scope>wxPoint2DDouble</scope><name>wxPoint2DDouble</name></member>
+      <member refid="classwx_point2_d_double_1a25479d14bf5f3f2ceda92fe7dc2d8582" prot="public" virt="non-virtual"><scope>wxPoint2DDouble</scope><name>wxPoint2DDouble</name></member>
+      <member refid="classwx_point2_d_double_1ab7ff55a86713332a9c8a29bf11c299d9" prot="public" virt="non-virtual"><scope>wxPoint2DDouble</scope><name>wxPoint2DDouble</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

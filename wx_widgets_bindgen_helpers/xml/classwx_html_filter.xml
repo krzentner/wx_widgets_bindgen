@@ -1,0 +1,126 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_html_filter" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>wxHtmlFilter</compoundname>
+    <basecompoundref refid="classwx_object" prot="public" virt="non-virtual">wxObject</basecompoundref>
+    <includes local="no">wx/html/htmlfilt.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classwx_html_filter_1a412e9664de88aac936745f0048a5ae67" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxHtmlFilter::wxHtmlFilter</definition>
+        <argsstring>()</argsstring>
+        <name>wxHtmlFilter</name>
+        <briefdescription>
+<para>Constructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/html/htmlfilt.h" line="25" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_html_filter_1ad9747f5a034fd11decec640ec9a488e0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>bool</type>
+        <definition>virtual bool wxHtmlFilter::CanRead</definition>
+        <argsstring>(const wxFSFile &amp;file) const =0</argsstring>
+        <name>CanRead</name>
+        <param>
+          <type>const <ref refid="classwx_f_s_file" kindref="compound">wxFSFile</ref> &amp;</type>
+          <declname>file</declname>
+        </param>
+        <briefdescription>
+<para>Returns true if this filter is capable of reading file <emphasis>file</emphasis>. </para>        </briefdescription>
+        <detaileddescription>
+<para>Example: <programlisting><codeline><highlight class="normal">bool<sp/>MyFilter::CanRead(const<sp/>wxFSFile&amp;<sp/>file)</highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>return<sp/>(file.GetMimeType()<sp/>==<sp/>&quot;application/x-ugh&quot;);</highlight></codeline>
+<codeline><highlight class="normal">}</highlight></codeline>
+</programlisting> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/html/htmlfilt.h" line="37" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_html_filter_1a46e613725041e97a8934ce37da2e620f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type><ref refid="classwx_string" kindref="compound">wxString</ref></type>
+        <definition>virtual wxString wxHtmlFilter::ReadFile</definition>
+        <argsstring>(const wxFSFile &amp;file) const =0</argsstring>
+        <name>ReadFile</name>
+        <param>
+          <type>const <ref refid="classwx_f_s_file" kindref="compound">wxFSFile</ref> &amp;</type>
+          <declname>file</declname>
+        </param>
+        <briefdescription>
+<para>Reads the file and returns string with HTML document. </para>        </briefdescription>
+        <detaileddescription>
+<para>Example: <programlisting><codeline><highlight class="normal">wxString<sp/>MyImgFilter::ReadFile(const<sp/>wxFSFile&amp;<sp/>file)</highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>return<sp/>&quot;&lt;html&gt;&lt;body&gt;&lt;img<sp/>src=\&quot;&quot;<sp/>+<sp/>file.GetLocation()<sp/>+</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&quot;\&quot;&gt;&lt;/body&gt;&lt;/html&gt;&quot;;</highlight></codeline>
+<codeline><highlight class="normal">}</highlight></codeline>
+</programlisting> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/html/htmlfilt.h" line="50" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class is the parent class of input filters for <ref refid="classwx_html_window" kindref="compound">wxHtmlWindow</ref>. </para>    </briefdescription>
+    <detaileddescription>
+<para>It allows you to read and display files of different file formats.</para><para><heading level="2"></heading>
+</para><para>Library:<nonbreakablespace/><nonbreakablespace/><ref refid="page_libs_1page_libs_wxhtml" kindref="member">wxHTML</ref> &lt;&gt;&lt; =&apos;&apos;&gt;:&lt;/&gt;&amp;;&amp;;&lt; =&apos;&apos;&gt;\ &lt;/&gt;&lt;/&gt;</para><para><simplesect kind="see"><para><ref refid="overview_html_1overview_html_filters" kindref="member">Input Filters</ref> </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="3362">
+        <label>wxObject</label>
+        <link refid="classwx_object"/>
+      </node>
+      <node id="3361">
+        <label>wxHtmlFilter</label>
+        <link refid="classwx_html_filter"/>
+        <childnode refid="3362" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3364">
+        <label>wxObject</label>
+        <link refid="classwx_object"/>
+        <childnode refid="3365" relation="usage">
+          <edgelabel>m_refData</edgelabel>
+        </childnode>
+      </node>
+      <node id="3363">
+        <label>wxHtmlFilter</label>
+        <link refid="classwx_html_filter"/>
+        <childnode refid="3364" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3365">
+        <label>wxObjectRefData</label>
+        <link refid="classwx_object_ref_data"/>
+      </node>
+    </collaborationgraph>
+    <location file="interface/wx/html/htmlfilt.h" line="20" column="1" bodyfile="interface/wx/html/htmlfilt.h" bodystart="19" bodyend="51"/>
+    <listofallmembers>
+      <member refid="classwx_object_1a60204063f3cc3aa2fa1c7ff5bda9eb13" prot="protected" virt="non-virtual"><scope>wxHtmlFilter</scope><name>AllocExclusive</name></member>
+      <member refid="classwx_html_filter_1ad9747f5a034fd11decec640ec9a488e0" prot="public" virt="pure-virtual"><scope>wxHtmlFilter</scope><name>CanRead</name></member>
+      <member refid="classwx_object_1a436fc8fe68cf8a31000296d9cd3d2427" prot="protected" virt="virtual"><scope>wxHtmlFilter</scope><name>CloneRefData</name></member>
+      <member refid="classwx_object_1a3f4f497c65cef611e121c41f21dd5ccc" prot="protected" virt="virtual"><scope>wxHtmlFilter</scope><name>CreateRefData</name></member>
+      <member refid="classwx_object_1ae6d365f2556b26767ced8410c5e839d0" prot="public" virt="virtual"><scope>wxHtmlFilter</scope><name>GetClassInfo</name></member>
+      <member refid="classwx_object_1af3c6c76a775864832f1536d3c0de3a2b" prot="public" virt="non-virtual"><scope>wxHtmlFilter</scope><name>GetRefData</name></member>
+      <member refid="classwx_object_1a3c7115ef4132dcee0c4fc34e84d7fced" prot="public" virt="non-virtual"><scope>wxHtmlFilter</scope><name>IsKindOf</name></member>
+      <member refid="classwx_object_1a059373c494c2369d7db2a556efef8ecf" prot="public" virt="non-virtual"><scope>wxHtmlFilter</scope><name>IsSameAs</name></member>
+      <member refid="classwx_object_1a9e31954530a0abd54982effc443ed2b8" prot="protected" virt="non-virtual"><scope>wxHtmlFilter</scope><name>m_refData</name></member>
+      <member refid="classwx_object_1a07b8f34f5afc5743195c5fed052f55d3" prot="public" virt="non-virtual"><scope>wxHtmlFilter</scope><name>operator delete</name></member>
+      <member refid="classwx_object_1a96fa423a1dbc212c8227a5d83825971f" prot="public" virt="non-virtual"><scope>wxHtmlFilter</scope><name>operator new</name></member>
+      <member refid="classwx_html_filter_1a46e613725041e97a8934ce37da2e620f" prot="public" virt="pure-virtual"><scope>wxHtmlFilter</scope><name>ReadFile</name></member>
+      <member refid="classwx_object_1a2f6f1aa51fe9fc2b1415ca4211a90e9e" prot="public" virt="non-virtual"><scope>wxHtmlFilter</scope><name>Ref</name></member>
+      <member refid="classwx_object_1afab780710f2adc1bb33310e27590140b" prot="public" virt="non-virtual"><scope>wxHtmlFilter</scope><name>SetRefData</name></member>
+      <member refid="classwx_object_1af51efc6b1ae632fc7f0cd7ebbce9fa36" prot="public" virt="non-virtual"><scope>wxHtmlFilter</scope><name>UnRef</name></member>
+      <member refid="classwx_object_1a74b40e42d19a4b9e9bec0b57d62a5725" prot="public" virt="non-virtual"><scope>wxHtmlFilter</scope><name>UnShare</name></member>
+      <member refid="classwx_html_filter_1a412e9664de88aac936745f0048a5ae67" prot="public" virt="non-virtual"><scope>wxHtmlFilter</scope><name>wxHtmlFilter</name></member>
+      <member refid="classwx_object_1acaa378363a28af421ab56ad7b46eadf0" prot="public" virt="non-virtual"><scope>wxHtmlFilter</scope><name>wxObject</name></member>
+      <member refid="classwx_object_1a4721b4dc9b7aff0f30904ba2ea3954cf" prot="public" virt="non-virtual"><scope>wxHtmlFilter</scope><name>wxObject</name></member>
+      <member refid="classwx_object_1a2a51aa8bfbab47ca2f051bcf84b3f35b" prot="public" virt="virtual"><scope>wxHtmlFilter</scope><name>~wxObject</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

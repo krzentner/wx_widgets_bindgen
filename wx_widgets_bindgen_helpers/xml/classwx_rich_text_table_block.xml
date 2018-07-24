@@ -1,0 +1,381 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_rich_text_table_block" kind="class" language="C++" prot="public">
+    <compoundname>wxRichTextTableBlock</compoundname>
+    <includes local="no">wx/richtext/richtextbuffer.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classwx_rich_text_table_block_1ac0f109e93c6a41e6d80095a9cca9f222" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int wxRichTextTableBlock::m_colStart</definition>
+        <argsstring></argsstring>
+        <name>m_colStart</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="5725" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="5725" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classwx_rich_text_table_block_1af99bc198af98ac5e9e1e26b76241c967" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int wxRichTextTableBlock::m_colEnd</definition>
+        <argsstring></argsstring>
+        <name>m_colEnd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="5725" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="5725" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classwx_rich_text_table_block_1a60b7706b1bf8ac5921e0a9bbb87b834f" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int wxRichTextTableBlock::m_rowStart</definition>
+        <argsstring></argsstring>
+        <name>m_rowStart</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="5725" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="5725" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classwx_rich_text_table_block_1a66192a2f1e2a0c98b4cd492e15cd8b4b" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int wxRichTextTableBlock::m_rowEnd</definition>
+        <argsstring></argsstring>
+        <name>m_rowEnd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="5725" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="5725" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classwx_rich_text_table_block_1a8bfa6e32bc28970d793506cca5a815f2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>wxRichTextTableBlock::wxRichTextTableBlock</definition>
+        <argsstring>()</argsstring>
+        <name>wxRichTextTableBlock</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="5686" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="5686" bodyend="5686"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_table_block_1aa05208a7fc2f5959e5df2288caf85eab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>wxRichTextTableBlock::wxRichTextTableBlock</definition>
+        <argsstring>(int colStart, int colEnd, int rowStart, int rowEnd)</argsstring>
+        <name>wxRichTextTableBlock</name>
+        <param>
+          <type>int</type>
+          <declname>colStart</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>colEnd</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>rowStart</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>rowEnd</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="5687" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="5687" bodyend="5688"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_table_block_1a80f421efcbb93df807780c99e5678216" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>wxRichTextTableBlock::wxRichTextTableBlock</definition>
+        <argsstring>(const wxRichTextTableBlock &amp;block)</argsstring>
+        <name>wxRichTextTableBlock</name>
+        <param>
+          <type>const <ref refid="classwx_rich_text_table_block" kindref="compound">wxRichTextTableBlock</ref> &amp;</type>
+          <declname>block</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="5689" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="5689" bodyend="5689"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_table_block_1a8b26d4092178e5cf4f28f19792f7ecae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxRichTextTableBlock::Init</definition>
+        <argsstring>()</argsstring>
+        <name>Init</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="5691" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="5691" bodyend="5691"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_table_block_1a5a742259c15dbb35f9f632f58604b6a9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxRichTextTableBlock::Copy</definition>
+        <argsstring>(const wxRichTextTableBlock &amp;block)</argsstring>
+        <name>Copy</name>
+        <param>
+          <type>const <ref refid="classwx_rich_text_table_block" kindref="compound">wxRichTextTableBlock</ref> &amp;</type>
+          <declname>block</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="5693" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="5693" bodyend="5696"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_table_block_1ac4e27678198f8859d80bc87b56cdbbe4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxRichTextTableBlock::operator=</definition>
+        <argsstring>(const wxRichTextTableBlock &amp;block)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="classwx_rich_text_table_block" kindref="compound">wxRichTextTableBlock</ref> &amp;</type>
+          <declname>block</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="5697" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="5697" bodyend="5697"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_table_block_1afffa0019cec29f059f4fa6b4e3add004" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxRichTextTableBlock::operator==</definition>
+        <argsstring>(const wxRichTextTableBlock &amp;block)</argsstring>
+        <name>operator==</name>
+        <param>
+          <type>const <ref refid="classwx_rich_text_table_block" kindref="compound">wxRichTextTableBlock</ref> &amp;</type>
+          <declname>block</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="5698" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="5698" bodyend="5699"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_table_block_1a831dcc8ed088508b25f5a3fa2b5d843e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxRichTextTableBlock::ComputeBlockForSelection</definition>
+        <argsstring>(wxRichTextTable *table, wxRichTextCtrl *ctrl, bool requireCellSelection=true)</argsstring>
+        <name>ComputeBlockForSelection</name>
+        <param>
+          <type><ref refid="classwx_rich_text_table" kindref="compound">wxRichTextTable</ref> *</type>
+          <declname>table</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_rich_text_ctrl" kindref="compound">wxRichTextCtrl</ref> *</type>
+          <declname>ctrl</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>requireCellSelection</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+<para>Computes the block given a table (perhaps about to be edited) and a rich text control that may have a selection. </para>        </briefdescription>
+        <detaileddescription>
+<para>If no selection, the whole table is used. If just the whole content of one cell is selected, this cell only is used. If the cell contents is not selected and requireCellSelection is false, the focused cell will count as a selected cell. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="5705" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_table_block_1a82ebaf570614e37538292839b6562132" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxRichTextTableBlock::IsWholeTable</definition>
+        <argsstring>(wxRichTextTable *table) const</argsstring>
+        <name>IsWholeTable</name>
+        <param>
+          <type><ref refid="classwx_rich_text_table" kindref="compound">wxRichTextTable</ref> *</type>
+          <declname>table</declname>
+        </param>
+        <briefdescription>
+<para>Does this block represent the whole table? </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="5708" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_table_block_1aaf21ecfb8c0c8d63e7ce329b562e96e3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int &amp;</type>
+        <definition>int&amp; wxRichTextTableBlock::ColStart</definition>
+        <argsstring>()</argsstring>
+        <name>ColStart</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="5713" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="5713" bodyend="5713"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_table_block_1a891a8639a03da729f9d18c77e4e2f8aa" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int wxRichTextTableBlock::ColStart</definition>
+        <argsstring>() const</argsstring>
+        <name>ColStart</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="5714" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="5714" bodyend="5714"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_table_block_1a82328798ac0ee8ee90c0ea66120eff6c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int &amp;</type>
+        <definition>int&amp; wxRichTextTableBlock::ColEnd</definition>
+        <argsstring>()</argsstring>
+        <name>ColEnd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="5716" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="5716" bodyend="5716"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_table_block_1ac5a6fd093c842b42b6c9f73d1f3a2917" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int wxRichTextTableBlock::ColEnd</definition>
+        <argsstring>() const</argsstring>
+        <name>ColEnd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="5717" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="5717" bodyend="5717"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_table_block_1a1729270e04c67c52e5682a68adc0c563" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int &amp;</type>
+        <definition>int&amp; wxRichTextTableBlock::RowStart</definition>
+        <argsstring>()</argsstring>
+        <name>RowStart</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="5719" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="5719" bodyend="5719"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_table_block_1af48b0d31956fd10b9fd9de200903a4b4" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int wxRichTextTableBlock::RowStart</definition>
+        <argsstring>() const</argsstring>
+        <name>RowStart</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="5720" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="5720" bodyend="5720"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_table_block_1a45e7c4fbcb69d1c3e9f514fefa181bb7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int &amp;</type>
+        <definition>int&amp; wxRichTextTableBlock::RowEnd</definition>
+        <argsstring>()</argsstring>
+        <name>RowEnd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="5722" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="5722" bodyend="5722"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_table_block_1a90d5083ddc098d5d3a0c18439d402ff2" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int wxRichTextTableBlock::RowEnd</definition>
+        <argsstring>() const</argsstring>
+        <name>RowEnd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="5723" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="5723" bodyend="5723"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classwx_rich_text_table_block_1a1492d9b5b6188cd3b822cecd85d13e71" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_rich_text_cell" kindref="compound">wxRichTextCell</ref> *</type>
+        <definition>static wxRichTextCell* wxRichTextTableBlock::GetFocusedCell</definition>
+        <argsstring>(wxRichTextCtrl *ctrl)</argsstring>
+        <name>GetFocusedCell</name>
+        <param>
+          <type><ref refid="classwx_rich_text_ctrl" kindref="compound">wxRichTextCtrl</ref> *</type>
+          <declname>ctrl</declname>
+        </param>
+        <briefdescription>
+<para>Returns the cell focused in the table, if any. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="5711" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Stores the coordinates for a block of cells. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="interface/wx/richtext/richtextbuffer.h" line="5684" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="5683" bodyend="5726"/>
+    <listofallmembers>
+      <member refid="classwx_rich_text_table_block_1a82328798ac0ee8ee90c0ea66120eff6c" prot="public" virt="non-virtual"><scope>wxRichTextTableBlock</scope><name>ColEnd</name></member>
+      <member refid="classwx_rich_text_table_block_1ac5a6fd093c842b42b6c9f73d1f3a2917" prot="public" virt="non-virtual"><scope>wxRichTextTableBlock</scope><name>ColEnd</name></member>
+      <member refid="classwx_rich_text_table_block_1aaf21ecfb8c0c8d63e7ce329b562e96e3" prot="public" virt="non-virtual"><scope>wxRichTextTableBlock</scope><name>ColStart</name></member>
+      <member refid="classwx_rich_text_table_block_1a891a8639a03da729f9d18c77e4e2f8aa" prot="public" virt="non-virtual"><scope>wxRichTextTableBlock</scope><name>ColStart</name></member>
+      <member refid="classwx_rich_text_table_block_1a831dcc8ed088508b25f5a3fa2b5d843e" prot="public" virt="non-virtual"><scope>wxRichTextTableBlock</scope><name>ComputeBlockForSelection</name></member>
+      <member refid="classwx_rich_text_table_block_1a5a742259c15dbb35f9f632f58604b6a9" prot="public" virt="non-virtual"><scope>wxRichTextTableBlock</scope><name>Copy</name></member>
+      <member refid="classwx_rich_text_table_block_1a1492d9b5b6188cd3b822cecd85d13e71" prot="public" virt="non-virtual"><scope>wxRichTextTableBlock</scope><name>GetFocusedCell</name></member>
+      <member refid="classwx_rich_text_table_block_1a8b26d4092178e5cf4f28f19792f7ecae" prot="public" virt="non-virtual"><scope>wxRichTextTableBlock</scope><name>Init</name></member>
+      <member refid="classwx_rich_text_table_block_1a82ebaf570614e37538292839b6562132" prot="public" virt="non-virtual"><scope>wxRichTextTableBlock</scope><name>IsWholeTable</name></member>
+      <member refid="classwx_rich_text_table_block_1af99bc198af98ac5e9e1e26b76241c967" prot="public" virt="non-virtual"><scope>wxRichTextTableBlock</scope><name>m_colEnd</name></member>
+      <member refid="classwx_rich_text_table_block_1ac0f109e93c6a41e6d80095a9cca9f222" prot="public" virt="non-virtual"><scope>wxRichTextTableBlock</scope><name>m_colStart</name></member>
+      <member refid="classwx_rich_text_table_block_1a66192a2f1e2a0c98b4cd492e15cd8b4b" prot="public" virt="non-virtual"><scope>wxRichTextTableBlock</scope><name>m_rowEnd</name></member>
+      <member refid="classwx_rich_text_table_block_1a60b7706b1bf8ac5921e0a9bbb87b834f" prot="public" virt="non-virtual"><scope>wxRichTextTableBlock</scope><name>m_rowStart</name></member>
+      <member refid="classwx_rich_text_table_block_1ac4e27678198f8859d80bc87b56cdbbe4" prot="public" virt="non-virtual"><scope>wxRichTextTableBlock</scope><name>operator=</name></member>
+      <member refid="classwx_rich_text_table_block_1afffa0019cec29f059f4fa6b4e3add004" prot="public" virt="non-virtual"><scope>wxRichTextTableBlock</scope><name>operator==</name></member>
+      <member refid="classwx_rich_text_table_block_1a45e7c4fbcb69d1c3e9f514fefa181bb7" prot="public" virt="non-virtual"><scope>wxRichTextTableBlock</scope><name>RowEnd</name></member>
+      <member refid="classwx_rich_text_table_block_1a90d5083ddc098d5d3a0c18439d402ff2" prot="public" virt="non-virtual"><scope>wxRichTextTableBlock</scope><name>RowEnd</name></member>
+      <member refid="classwx_rich_text_table_block_1a1729270e04c67c52e5682a68adc0c563" prot="public" virt="non-virtual"><scope>wxRichTextTableBlock</scope><name>RowStart</name></member>
+      <member refid="classwx_rich_text_table_block_1af48b0d31956fd10b9fd9de200903a4b4" prot="public" virt="non-virtual"><scope>wxRichTextTableBlock</scope><name>RowStart</name></member>
+      <member refid="classwx_rich_text_table_block_1a8bfa6e32bc28970d793506cca5a815f2" prot="public" virt="non-virtual"><scope>wxRichTextTableBlock</scope><name>wxRichTextTableBlock</name></member>
+      <member refid="classwx_rich_text_table_block_1aa05208a7fc2f5959e5df2288caf85eab" prot="public" virt="non-virtual"><scope>wxRichTextTableBlock</scope><name>wxRichTextTableBlock</name></member>
+      <member refid="classwx_rich_text_table_block_1a80f421efcbb93df807780c99e5678216" prot="public" virt="non-virtual"><scope>wxRichTextTableBlock</scope><name>wxRichTextTableBlock</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

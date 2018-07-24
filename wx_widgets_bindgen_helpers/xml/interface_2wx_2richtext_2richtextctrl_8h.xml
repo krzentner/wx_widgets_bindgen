@@ -1,0 +1,545 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="interface_2wx_2richtext_2richtextctrl_8h" kind="file" language="C++">
+    <compoundname>richtextctrl.h</compoundname>
+    <innerclass refid="classwx_rich_text_context_menu_properties_info" prot="public">wxRichTextContextMenuPropertiesInfo</innerclass>
+    <innerclass refid="classwx_rich_text_ctrl" prot="public">wxRichTextCtrl</innerclass>
+    <innerclass refid="classwx_rich_text_event" prot="public">wxRichTextEvent</innerclass>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="interface_2wx_2richtext_2richtextctrl_8h_1ab98f65db1f52ca6264e9cb313ae03e13" prot="public" static="no">
+        <name>wxRE_READONLY</name>
+        <initializer>0x0010</initializer>
+        <briefdescription>
+<para>Styles. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextctrl.h" line="19" column="9" bodyfile="interface/wx/richtext/richtextctrl.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="interface_2wx_2richtext_2richtextctrl_8h_1a96c33563cb5dcd69aeeab193ddf37c48" prot="public" static="no">
+        <name>wxRE_MULTILINE</name>
+        <initializer>0x0020</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextctrl.h" line="20" column="9" bodyfile="interface/wx/richtext/richtextctrl.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="interface_2wx_2richtext_2richtextctrl_8h_1a978c7728e58edf0cbe457ae0e4e095be" prot="public" static="no">
+        <name>wxRE_CENTRE_CARET</name>
+        <initializer>0x8000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextctrl.h" line="21" column="9" bodyfile="interface/wx/richtext/richtextctrl.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="interface_2wx_2richtext_2richtextctrl_8h_1a7287988d7111028adc0963e37bf4137c" prot="public" static="no">
+        <name>wxRE_CENTER_CARET</name>
+        <initializer><ref refid="interface_2wx_2richtext_2richtextctrl_8h_1a978c7728e58edf0cbe457ae0e4e095be" kindref="member">wxRE_CENTRE_CARET</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextctrl.h" line="22" column="9" bodyfile="interface/wx/richtext/richtextctrl.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="interface_2wx_2richtext_2richtextctrl_8h_1aff2f80950c4986c35a8ba329a20f0af5" prot="public" static="no">
+        <name>wxRICHTEXT_SHIFT_DOWN</name>
+        <initializer>0x01</initializer>
+        <briefdescription>
+<para>Flags. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextctrl.h" line="28" column="9" bodyfile="interface/wx/richtext/richtextctrl.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="interface_2wx_2richtext_2richtextctrl_8h_1ae0c293ce4d9debe9377dd346350bc91c" prot="public" static="no">
+        <name>wxRICHTEXT_CTRL_DOWN</name>
+        <initializer>0x02</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextctrl.h" line="29" column="9" bodyfile="interface/wx/richtext/richtextctrl.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="interface_2wx_2richtext_2richtextctrl_8h_1ad16600e44def8b0369b7d698f9a92f81" prot="public" static="no">
+        <name>wxRICHTEXT_ALT_DOWN</name>
+        <initializer>0x04</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextctrl.h" line="30" column="9" bodyfile="interface/wx/richtext/richtextctrl.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="interface_2wx_2richtext_2richtextctrl_8h_1a1ddd5481b84ae3be5b3c464ac3a0babc" prot="public" static="no">
+        <name>wxRICHTEXT_EX_NO_GUIDELINES</name>
+        <initializer>0x00000100</initializer>
+        <briefdescription>
+<para>Extra flags. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextctrl.h" line="37" column="9" bodyfile="interface/wx/richtext/richtextctrl.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="interface_2wx_2richtext_2richtextctrl_8h_1a45f8f772d737858f62d3024a4fce07cd" prot="public" static="no">
+        <name>wxRICHTEXT_DEFAULT_OVERALL_SIZE</name>
+        <initializer><ref refid="classwx_size" kindref="compound">wxSize</ref>(-1, -1)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextctrl.h" line="44" column="9" bodyfile="interface/wx/richtext/richtextctrl.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="interface_2wx_2richtext_2richtextctrl_8h_1a70e49e026f363b3e349e4e6e7df7c277" prot="public" static="no">
+        <name>wxRICHTEXT_DEFAULT_IMAGE_SIZE</name>
+        <initializer><ref refid="classwx_size" kindref="compound">wxSize</ref>(80, 80)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextctrl.h" line="45" column="9" bodyfile="interface/wx/richtext/richtextctrl.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="interface_2wx_2richtext_2richtextctrl_8h_1ad907b072a2abaf8feeab2cb56d6e48b2" prot="public" static="no">
+        <name>wxRICHTEXT_DEFAULT_SPACING</name>
+        <initializer>3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextctrl.h" line="46" column="9" bodyfile="interface/wx/richtext/richtextctrl.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="interface_2wx_2richtext_2richtextctrl_8h_1a36973c69208e11be4f3af649267c34b7" prot="public" static="no">
+        <name>wxRICHTEXT_DEFAULT_MARGIN</name>
+        <initializer>3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextctrl.h" line="47" column="9" bodyfile="interface/wx/richtext/richtextctrl.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="interface_2wx_2richtext_2richtextctrl_8h_1aeeae0cec3d95b1a6479dab91369fad6f" prot="public" static="no">
+        <name>wxRICHTEXT_DEFAULT_UNFOCUSSED_BACKGROUND</name>
+        <initializer><ref refid="classwx_colour" kindref="compound">wxColour</ref>(175, 175, 175)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextctrl.h" line="48" column="9" bodyfile="interface/wx/richtext/richtextctrl.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="interface_2wx_2richtext_2richtextctrl_8h_1a609cb17e31f478c40fe613aa9b0b2a53" prot="public" static="no">
+        <name>wxRICHTEXT_DEFAULT_FOCUSSED_BACKGROUND</name>
+        <initializer><ref refid="classwx_colour" kindref="compound">wxColour</ref>(140, 140, 140)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextctrl.h" line="49" column="9" bodyfile="interface/wx/richtext/richtextctrl.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="interface_2wx_2richtext_2richtextctrl_8h_1a4b85a7c210c47ef9e12b0e85bc82e9d2" prot="public" static="no">
+        <name>wxRICHTEXT_DEFAULT_UNSELECTED_BACKGROUND</name>
+        <initializer><ref refid="classwx_system_settings_1ab252414b60f16a233bc17df2a19bd804" kindref="member">wxSystemSettings::GetColour</ref>(<ref refid="settings_8h_1a44ad26cbd8d579d1b7eff7015c8bd24baf09fdd41cff099739e185c27be98f85c" kindref="member">wxSYS_COLOUR_3DFACE</ref>)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextctrl.h" line="50" column="9" bodyfile="interface/wx/richtext/richtextctrl.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="interface_2wx_2richtext_2richtextctrl_8h_1a7cd056faef85e714e35d77b3a5512161" prot="public" static="no">
+        <name>wxRICHTEXT_DEFAULT_TYPE_COLOUR</name>
+        <initializer><ref refid="classwx_colour" kindref="compound">wxColour</ref>(0, 0, 200)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextctrl.h" line="51" column="9" bodyfile="interface/wx/richtext/richtextctrl.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="interface_2wx_2richtext_2richtextctrl_8h_1affffe5205679b9c6b934e198d7ff15b4" prot="public" static="no">
+        <name>wxRICHTEXT_DEFAULT_FOCUS_RECT_COLOUR</name>
+        <initializer><ref refid="classwx_colour" kindref="compound">wxColour</ref>(100, 80, 80)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextctrl.h" line="52" column="9" bodyfile="interface/wx/richtext/richtextctrl.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="interface_2wx_2richtext_2richtextctrl_8h_1aaf267438c4e9e7fe75ab5435d534fe22" prot="public" static="no">
+        <name>wxRICHTEXT_DEFAULT_CARET_WIDTH</name>
+        <initializer>2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextctrl.h" line="53" column="9" bodyfile="interface/wx/richtext/richtextctrl.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="interface_2wx_2richtext_2richtextctrl_8h_1a300f89a9ee123ba83596e760ccf245e4" prot="public" static="no">
+        <name>wxRICHTEXT_DEFAULT_DELAYED_LAYOUT_THRESHOLD</name>
+        <initializer>20000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextctrl.h" line="55" column="9" bodyfile="interface/wx/richtext/richtextctrl.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="interface_2wx_2richtext_2richtextctrl_8h_1a937ce1fc6a2f281417393ca8a331b4f7" prot="public" static="no">
+        <name>wxRICHTEXT_DEFAULT_LAYOUT_INTERVAL</name>
+        <initializer>50</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextctrl.h" line="57" column="9" bodyfile="interface/wx/richtext/richtextctrl.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="interface_2wx_2richtext_2richtextctrl_8h_1aae774a8945bdf2eeeb0e2e1b073ef1c6" prot="public" static="no">
+        <name>wxID_RICHTEXT_PROPERTIES1</name>
+        <initializer>(<ref refid="defs_8h_1ac66d0a09761e7d86b2ac0b2e0c6a8cbba4cab53e45bbd1920158769f1ddb2c309" kindref="member">wxID_HIGHEST</ref> + 1)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextctrl.h" line="61" column="9" bodyfile="interface/wx/richtext/richtextctrl.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="interface_2wx_2richtext_2richtextctrl_8h_1aebafc8870a2e53b0e32a6b4244f60134" prot="public" static="no">
+        <name>wxID_RICHTEXT_PROPERTIES2</name>
+        <initializer>(<ref refid="defs_8h_1ac66d0a09761e7d86b2ac0b2e0c6a8cbba4cab53e45bbd1920158769f1ddb2c309" kindref="member">wxID_HIGHEST</ref> + 2)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextctrl.h" line="62" column="9" bodyfile="interface/wx/richtext/richtextctrl.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="interface_2wx_2richtext_2richtextctrl_8h_1a8f96447079acfafc0399ac9ed9798ebc" prot="public" static="no">
+        <name>wxID_RICHTEXT_PROPERTIES3</name>
+        <initializer>(<ref refid="defs_8h_1ac66d0a09761e7d86b2ac0b2e0c6a8cbba4cab53e45bbd1920158769f1ddb2c309" kindref="member">wxID_HIGHEST</ref> + 3)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextctrl.h" line="63" column="9" bodyfile="interface/wx/richtext/richtextctrl.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="interface_2wx_2richtext_2richtextctrl_8h_1a38ca0203735b66a27ae13e7d7986b393" prot="public" static="no" strong="no">
+        <type></type>
+        <name>wxRichTextCtrlSelectionState</name>
+        <enumvalue id="interface_2wx_2richtext_2richtextctrl_8h_1a38ca0203735b66a27ae13e7d7986b393a796c39ba7c9beb766f973fb7a2a94df4" prot="public">
+          <name>wxRichTextCtrlSelectionState_Normal</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="interface_2wx_2richtext_2richtextctrl_8h_1a38ca0203735b66a27ae13e7d7986b393aed3ddb47d8490ffba384ecf32cac033a" prot="public">
+          <name>wxRichTextCtrlSelectionState_CommonAncestor</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextctrl.h" line="72" column="1" bodyfile="interface/wx/richtext/richtextctrl.h" bodystart="71" bodyend="75"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="interface_2wx_2richtext_2richtextctrl_8h_1a8530dbad9aa47520c18e56ced1f06b97" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_RICHTEXT_LEFT_CLICK</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_RICHTEXT_LEFT_CLICK</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextctrl.h" line="2415" column="1" bodyfile="interface/wx/richtext/richtextctrl.h" bodystart="2415" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="interface_2wx_2richtext_2richtextctrl_8h_1a403430168f7f352f87ce0643f26f3588" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_RICHTEXT_RIGHT_CLICK</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_RICHTEXT_RIGHT_CLICK</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextctrl.h" line="2416" column="1" bodyfile="interface/wx/richtext/richtextctrl.h" bodystart="2416" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="interface_2wx_2richtext_2richtextctrl_8h_1a49d89c80971bc7924a70dc012f9d8992" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_RICHTEXT_MIDDLE_CLICK</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_RICHTEXT_MIDDLE_CLICK</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextctrl.h" line="2417" column="1" bodyfile="interface/wx/richtext/richtextctrl.h" bodystart="2417" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="interface_2wx_2richtext_2richtextctrl_8h_1af5dcf208f209cbc7ea304522c5e3d309" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_RICHTEXT_LEFT_DCLICK</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_RICHTEXT_LEFT_DCLICK</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextctrl.h" line="2418" column="1" bodyfile="interface/wx/richtext/richtextctrl.h" bodystart="2418" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="interface_2wx_2richtext_2richtextctrl_8h_1af893f32c6055261f4668977fe23848b0" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_RICHTEXT_RETURN</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_RICHTEXT_RETURN</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextctrl.h" line="2419" column="1" bodyfile="interface/wx/richtext/richtextctrl.h" bodystart="2419" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="interface_2wx_2richtext_2richtextctrl_8h_1a60a29b737fee7256e60812690e8e4b81" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_RICHTEXT_CHARACTER</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_RICHTEXT_CHARACTER</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextctrl.h" line="2420" column="1" bodyfile="interface/wx/richtext/richtextctrl.h" bodystart="2420" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="interface_2wx_2richtext_2richtextctrl_8h_1ad407672b58292221d6535118a3932826" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_RICHTEXT_CONSUMING_CHARACTER</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_RICHTEXT_CONSUMING_CHARACTER</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextctrl.h" line="2421" column="1" bodyfile="interface/wx/richtext/richtextctrl.h" bodystart="2421" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="interface_2wx_2richtext_2richtextctrl_8h_1aa685dffb5a0557ee9e52954c603a99da" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_RICHTEXT_DELETE</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_RICHTEXT_DELETE</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextctrl.h" line="2422" column="1" bodyfile="interface/wx/richtext/richtextctrl.h" bodystart="2422" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="interface_2wx_2richtext_2richtextctrl_8h_1a292008bdb42274d22b81765a2d34713a" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_RICHTEXT_STYLESHEET_CHANGING</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_RICHTEXT_STYLESHEET_CHANGING</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextctrl.h" line="2424" column="1" bodyfile="interface/wx/richtext/richtextctrl.h" bodystart="2424" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="interface_2wx_2richtext_2richtextctrl_8h_1a0ca731fd6f12192191e531cf660caac9" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_RICHTEXT_STYLESHEET_CHANGED</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_RICHTEXT_STYLESHEET_CHANGED</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextctrl.h" line="2425" column="1" bodyfile="interface/wx/richtext/richtextctrl.h" bodystart="2425" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="interface_2wx_2richtext_2richtextctrl_8h_1a764f5117aa7e646e0318b7d875309cf9" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_RICHTEXT_STYLESHEET_REPLACING</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_RICHTEXT_STYLESHEET_REPLACING</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextctrl.h" line="2426" column="1" bodyfile="interface/wx/richtext/richtextctrl.h" bodystart="2426" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="interface_2wx_2richtext_2richtextctrl_8h_1a87fb10317afe3ef7c0aadc51c7682534" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_RICHTEXT_STYLESHEET_REPLACED</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_RICHTEXT_STYLESHEET_REPLACED</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextctrl.h" line="2427" column="1" bodyfile="interface/wx/richtext/richtextctrl.h" bodystart="2427" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="interface_2wx_2richtext_2richtextctrl_8h_1afda87144d28dad12a3fd8b15e02796b0" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_RICHTEXT_CONTENT_INSERTED</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_RICHTEXT_CONTENT_INSERTED</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextctrl.h" line="2429" column="1" bodyfile="interface/wx/richtext/richtextctrl.h" bodystart="2429" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="interface_2wx_2richtext_2richtextctrl_8h_1ac85de53fb1069e9c73f5c2469bcf31f3" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_RICHTEXT_CONTENT_DELETED</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_RICHTEXT_CONTENT_DELETED</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextctrl.h" line="2430" column="1" bodyfile="interface/wx/richtext/richtextctrl.h" bodystart="2430" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="interface_2wx_2richtext_2richtextctrl_8h_1a98d61927a8f83801f163f1475199a9e2" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_RICHTEXT_STYLE_CHANGED</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_RICHTEXT_STYLE_CHANGED</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextctrl.h" line="2431" column="1" bodyfile="interface/wx/richtext/richtextctrl.h" bodystart="2431" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="interface_2wx_2richtext_2richtextctrl_8h_1a755e5897b9975e664bdca484952c2b82" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_RICHTEXT_PROPERTIES_CHANGED</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_RICHTEXT_PROPERTIES_CHANGED</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextctrl.h" line="2432" column="1" bodyfile="interface/wx/richtext/richtextctrl.h" bodystart="2432" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="interface_2wx_2richtext_2richtextctrl_8h_1a3461a9a14c28f2a0ad30709bc59d0d44" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_RICHTEXT_SELECTION_CHANGED</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_RICHTEXT_SELECTION_CHANGED</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextctrl.h" line="2433" column="1" bodyfile="interface/wx/richtext/richtextctrl.h" bodystart="2433" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="interface_2wx_2richtext_2richtextctrl_8h_1a5368e46988ee2142053e5ccbfd931234" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_RICHTEXT_BUFFER_RESET</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_RICHTEXT_BUFFER_RESET</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextctrl.h" line="2434" column="1" bodyfile="interface/wx/richtext/richtextctrl.h" bodystart="2434" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="interface_2wx_2richtext_2richtextctrl_8h_1a900293e14cac1105237a5432d8662603" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_RICHTEXT_FOCUS_OBJECT_CHANGED</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_RICHTEXT_FOCUS_OBJECT_CHANGED</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextctrl.h" line="2435" column="1" bodyfile="interface/wx/richtext/richtextctrl.h" bodystart="2435" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="interface/wx/richtext/richtextctrl.h"/>
+  </compounddef>
+</doxygen>

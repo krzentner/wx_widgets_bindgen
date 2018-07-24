@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_aui_pane_button" kind="class" language="C++" prot="public">
+    <compoundname>wxAuiPaneButton</compoundname>
+    <includes local="no">wx/aui/framemanager.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classwx_aui_pane_button_1a510a8faa29af9ba05a416393a9f1510e" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int wxAuiPaneButton::button_id</definition>
+        <argsstring></argsstring>
+        <name>button_id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/aui/framemanager.h" line="1089" column="1" bodyfile="interface/wx/aui/framemanager.h" bodystart="1089" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="interface/wx/aui/framemanager.h" line="1087" column="1" bodyfile="interface/wx/aui/framemanager.h" bodystart="1086" bodyend="1090"/>
+    <listofallmembers>
+      <member refid="classwx_aui_pane_button_1a510a8faa29af9ba05a416393a9f1510e" prot="public" virt="non-virtual"><scope>wxAuiPaneButton</scope><name>button_id</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

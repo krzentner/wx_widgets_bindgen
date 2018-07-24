@@ -1,0 +1,409 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="propgriddefs_8h" kind="file" language="C++">
+    <compoundname>propgriddefs.h</compoundname>
+      <sectiondef kind="user-defined">
+      <memberdef kind="define" id="propgriddefs_8h_1a02064e949a659998a5b05d94a5203158" prot="public" static="no">
+        <name>wxPG_LABEL</name>
+        <initializer>(*wxPGProperty::sm_wxPG_LABEL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<sect1 id="overview_propgrid_1propgrid_misc">
+<title>Miscellaneous Topics</title>
+<para>This section describes some miscellanous values, types and macros. </para></sect1>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/propgriddefs.h" line="18" column="9" bodyfile="interface/wx/propgrid/propgriddefs.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="propgriddefs_8h_1a3411b5d72d19021e8170aa210149b5b9" prot="public" static="no">
+        <name>wxPG_LABEL_STRING</name>
+        <initializer><ref refid="group__group__funcmacro__string_1ga0a06701ea0e6bb00c5171ace1b1f5691" kindref="member">wxS</ref>(&quot;@!&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<sect1 id="overview_propgrid_1propgrid_misc">
+<title>Miscellaneous Topics</title>
+<para>This section describes some miscellanous values, types and macros. </para></sect1>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/propgriddefs.h" line="21" column="9" bodyfile="interface/wx/propgrid/propgriddefs.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="propgriddefs_8h_1a05384e90f45b0f639241e0fee623ba85" prot="public" static="no">
+        <name>wxPG_NULL_BITMAP</name>
+        <initializer><ref refid="interface_2wx_2bitmap_8h_1a2947690e84b8fdb2e37b79a4af8f8a21" kindref="member">wxNullBitmap</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<sect1 id="overview_propgrid_1propgrid_misc">
+<title>Miscellaneous Topics</title>
+<para>This section describes some miscellanous values, types and macros. </para></sect1>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/propgriddefs.h" line="22" column="9" bodyfile="interface/wx/propgrid/propgriddefs.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="propgriddefs_8h_1a7ba4ad4a4912e3d0c814ab0a08fc6f01" prot="public" static="no">
+        <name>wxPG_COLOUR_BLACK</name>
+        <initializer>(*<ref refid="colour_8h_1a28c9e9208c4907063eb9869ff2332776" kindref="member">wxBLACK</ref>)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<sect1 id="overview_propgrid_1propgrid_misc">
+<title>Miscellaneous Topics</title>
+<para>This section describes some miscellanous values, types and macros. </para></sect1>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/propgriddefs.h" line="23" column="9" bodyfile="interface/wx/propgrid/propgriddefs.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="propgriddefs_8h_1a59fd572254a501df13236ad5363b4253" prot="public" static="no">
+        <name>wxPG_COLOUR</name>
+        <param><defname>R</defname></param>
+        <param><defname>G</defname></param>
+        <param><defname>B</defname></param>
+        <initializer>((<ref refid="defs_8h_1afdb12e5345c3fae4b537e813df9f02a3" kindref="member">wxUint32</ref>)(R+(G&lt;&lt;8)+(B&lt;&lt;16)))</initializer>
+        <briefdescription>
+<para>Convert Red, Green and Blue to a single 32-bit value. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/propgriddefs.h" line="27" column="9" bodyfile="interface/wx/propgrid/propgriddefs.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="propgriddefs_8h_1a6da9de26639368cfba7ef3306a64fd45" prot="public" static="no">
+        <name>wxPG_DEFAULT_IMAGE_SIZE</name>
+        <initializer><ref refid="classwx_size" kindref="compound">wxSize</ref>(-1, -1)</initializer>
+        <briefdescription>
+<para>If property is supposed to have custom-painted image, then returning this in OnMeasureImage() will usually be enough. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/propgriddefs.h" line="33" column="9" bodyfile="interface/wx/propgrid/propgriddefs.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="propgriddefs_8h_1aa112317fc96fe18b118f083d6c0c0daf" prot="public" static="no">
+        <type>int(*</type>
+        <definition>typedef int(* wxPGSortCallback) (wxPropertyGrid *propGrid, wxPGProperty *p1, wxPGProperty *p2)</definition>
+        <argsstring>)(wxPropertyGrid *propGrid, wxPGProperty *p1, wxPGProperty *p2)</argsstring>
+        <name>wxPGSortCallback</name>
+        <briefdescription>
+<para>This callback function is used for sorting properties. </para>        </briefdescription>
+        <detaileddescription>
+<para>Call <ref refid="classwx_property_grid_1ad413c2a9f94db90466bc9039f928afe6" kindref="member">wxPropertyGrid::SetSortFunction()</ref> to set it.</para><para>Sort function should return a value greater than 0 if position of p1 is after p2. So, for instance, when comparing property names, you can use following implementation:</para><para><programlisting><codeline><highlight class="normal">int<sp/>MyPropertySortFunction(wxPropertyGrid*<sp/>propGrid,</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>wxPGProperty*<sp/>p1,</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>wxPGProperty*<sp/>p2)</highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>return<sp/>p1-&gt;GetBaseName().compare(<sp/>p2-&gt;GetBaseName()<sp/>);</highlight></codeline>
+<codeline><highlight class="normal">}</highlight></codeline>
+</programlisting> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/propgriddefs.h" line="53" column="1" bodyfile="interface/wx/propgrid/propgriddefs.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="propgriddefs_8h_1afe257745b4d138d5d3414baeb2260be1" prot="public" static="no">
+        <type><ref refid="classwx_string" kindref="compound">wxString</ref></type>
+        <definition>typedef wxString wxPGCachedString</definition>
+        <argsstring></argsstring>
+        <name>wxPGCachedString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<sect1 id="overview_propgrid_1propgrid_misc">
+<title>Miscellaneous Topics</title>
+<para>This section describes some miscellanous values, types and macros. </para></sect1>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/propgriddefs.h" line="59" column="1" bodyfile="interface/wx/propgrid/propgriddefs.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="propgriddefs_8h_1a35567004c2b7c2fbf73ba2a8d3dfa6ab" prot="public" static="no">
+        <name>wxPG_INVALID_VALUE</name>
+        <initializer>INT_MAX</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/propgriddefs.h" line="68" column="9" bodyfile="interface/wx/propgrid/propgriddefs.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="propgriddefs_8h_1a7b2c19a6032b1bd2977d75f4b7673469" prot="public" static="no">
+        <name>wxPG_DONT_RECURSE</name>
+        <initializer>0x00000000</initializer>
+        <briefdescription>
+<para>Flags for <ref refid="classwx_property_grid_interface_1a129a37f9d87a2a08516772de9860432d" kindref="member">wxPropertyGrid::SetPropertyAttribute()</ref> etc. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/propgriddefs.h" line="98" column="9" bodyfile="interface/wx/propgrid/propgriddefs.h" bodystart="97" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="propgriddefs_8h_1ab5b0fc6e755ade1ef9711f0f04c2cb43" prot="public" static="no">
+        <name>wxPG_BASE_OCT</name>
+        <initializer>(long)8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/propgriddefs.h" line="147" column="9" bodyfile="interface/wx/propgrid/propgriddefs.h" bodystart="146" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="propgriddefs_8h_1a90d01f54db92d816db43168b0bfd7c52" prot="public" static="no">
+        <name>wxPG_BASE_DEC</name>
+        <initializer>(long)10</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/propgriddefs.h" line="148" column="9" bodyfile="interface/wx/propgrid/propgriddefs.h" bodystart="147" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="propgriddefs_8h_1aeb7a081b9532e25c5230af2cd09f4ae4" prot="public" static="no">
+        <name>wxPG_BASE_HEX</name>
+        <initializer>(long)16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/propgriddefs.h" line="149" column="9" bodyfile="interface/wx/propgrid/propgriddefs.h" bodystart="148" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="propgriddefs_8h_1abe5c18a091093f198b3a7ae2648e5a78" prot="public" static="no">
+        <name>wxPG_BASE_HEXL</name>
+        <initializer>(long)32</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/propgriddefs.h" line="150" column="9" bodyfile="interface/wx/propgrid/propgriddefs.h" bodystart="149" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="propgriddefs_8h_1abbd32b62bb6838b64eb5cf8033949b97" prot="public" static="no">
+        <name>wxPG_PREFIX_NONE</name>
+        <initializer>(long)0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/propgriddefs.h" line="154" column="9" bodyfile="interface/wx/propgrid/propgriddefs.h" bodystart="153" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="propgriddefs_8h_1a32718a2983e45900687703089b4d110a" prot="public" static="no">
+        <name>wxPG_PREFIX_0x</name>
+        <initializer>(long)1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/propgriddefs.h" line="155" column="9" bodyfile="interface/wx/propgrid/propgriddefs.h" bodystart="154" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="propgriddefs_8h_1a86e2d40bb67729585a43506c9be1efa1" prot="public" static="no">
+        <name>wxPG_PREFIX_DOLLAR_SIGN</name>
+        <initializer>(long)2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/propgriddefs.h" line="156" column="9" bodyfile="interface/wx/propgrid/propgriddefs.h" bodystart="155" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="propgriddefs_8h_1a77bb7880e3ea2359f13566eff2a1478c" prot="public" static="no" strong="no">
+        <type></type>
+        <name>wxPG_GETPROPERTYVALUES_FLAGS</name>
+        <enumvalue id="propgriddefs_8h_1a77bb7880e3ea2359f13566eff2a1478ca1992bab46b50495ec68085d5eaebea51" prot="public">
+          <name>wxPG_KEEP_STRUCTURE</name>
+          <initializer>= 0x00000010</initializer>
+          <briefdescription>
+<para>Flags for <ref refid="classwx_property_grid_interface_1ad3b171468f2b3999b98c44be4be5b45d" kindref="member">wxPropertyGridInterface::GetPropertyValues</ref>. </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="propgriddefs_8h_1a77bb7880e3ea2359f13566eff2a1478cac9c20676ced7bcd3ecbd227bdc3f70da" prot="public">
+          <name>wxPG_RECURSE</name>
+          <initializer>= 0x00000020</initializer>
+          <briefdescription>
+<para>Flags for <ref refid="classwx_property_grid_interface_1a129a37f9d87a2a08516772de9860432d" kindref="member">wxPropertyGrid::SetPropertyAttribute()</ref> etc. </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="propgriddefs_8h_1a77bb7880e3ea2359f13566eff2a1478ca48386e3571f94e92f77be46ff8816a46" prot="public">
+          <name>wxPG_INC_ATTRIBUTES</name>
+          <initializer>= 0x00000040</initializer>
+          <briefdescription>
+<para>Include attributes for GetPropertyValues. </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="propgriddefs_8h_1a77bb7880e3ea2359f13566eff2a1478ca44bd5239a911eb253c8ab859cd2c9cfa" prot="public">
+          <name>wxPG_RECURSE_STARTS</name>
+          <initializer>= 0x00000080</initializer>
+          <briefdescription>
+<para>Used when first starting recursion. </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="propgriddefs_8h_1a77bb7880e3ea2359f13566eff2a1478ca62fe88801882c64dcfac0ae13b3620c5" prot="public">
+          <name>wxPG_FORCE</name>
+          <initializer>= 0x00000100</initializer>
+          <briefdescription>
+<para>Force value change. </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="propgriddefs_8h_1a77bb7880e3ea2359f13566eff2a1478ca1e9e60a90147682f3479966fe683694f" prot="public">
+          <name>wxPG_SORT_TOP_LEVEL_ONLY</name>
+          <initializer>= 0x00000200</initializer>
+          <briefdescription>
+<para>Only sort categories and their immediate children. </para>          </briefdescription>
+          <detaileddescription>
+<para>Sorting done by wxPG_AUTO_SORT option uses this. </para>          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/propgriddefs.h" line="72" column="1" bodyfile="interface/wx/propgrid/propgriddefs.h" bodystart="71" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="enum" id="propgriddefs_8h_1a2e574c079c342fab1960477005472503" prot="public" static="no" strong="no">
+        <type></type>
+        <name>wxPG_MISC_ARG_FLAGS</name>
+        <enumvalue id="propgriddefs_8h_1a2e574c079c342fab1960477005472503a4d2f6662f91eb24676207f36c722bdb3" prot="public">
+          <name>wxPG_FULL_VALUE</name>
+          <initializer>= 0x00000001</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="propgriddefs_8h_1a2e574c079c342fab1960477005472503a50485475d8d396e111af9fe752233748" prot="public">
+          <name>wxPG_REPORT_ERROR</name>
+          <initializer>= 0x00000002</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="propgriddefs_8h_1a2e574c079c342fab1960477005472503a8b32fe8c06fc253ee2ac4f008b8e6dee" prot="public">
+          <name>wxPG_PROPERTY_SPECIFIC</name>
+          <initializer>= 0x00000004</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="propgriddefs_8h_1a2e574c079c342fab1960477005472503a0cfbecf3b80aa76188b31a14c2d1aef1" prot="public">
+          <name>wxPG_EDITABLE_VALUE</name>
+          <initializer>= 0x00000008</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="propgriddefs_8h_1a2e574c079c342fab1960477005472503ab85233518cebed1c724a3f5cf2f56e2a" prot="public">
+          <name>wxPG_COMPOSITE_FRAGMENT</name>
+          <initializer>= 0x00000010</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="propgriddefs_8h_1a2e574c079c342fab1960477005472503ae2bc13f386718491f518c8f064f69ce3" prot="public">
+          <name>wxPG_UNEDITABLE_COMPOSITE_FRAGMENT</name>
+          <initializer>= 0x00000020</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="propgriddefs_8h_1a2e574c079c342fab1960477005472503a11e60a12377867bb17565e506bbb1265" prot="public">
+          <name>wxPG_VALUE_IS_CURRENT</name>
+          <initializer>= 0x00000040</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="propgriddefs_8h_1a2e574c079c342fab1960477005472503a803a6a9e1e2367d6e3b2908add6de2a7" prot="public">
+          <name>wxPG_PROGRAMMATIC_VALUE</name>
+          <initializer>= 0x00000080</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/propgriddefs.h" line="103" column="1" bodyfile="interface/wx/propgrid/propgriddefs.h" bodystart="102" bodyend="128"/>
+      </memberdef>
+      <memberdef kind="enum" id="propgriddefs_8h_1ac3b998155d4217dca44e0396ba06d6f0" prot="public" static="no" strong="no">
+        <type></type>
+        <name>wxPG_SETVALUE_FLAGS</name>
+        <enumvalue id="propgriddefs_8h_1ac3b998155d4217dca44e0396ba06d6f0ae9afc3a6e8df5957236f8b01c135fae3" prot="public">
+          <name>wxPG_SETVAL_REFRESH_EDITOR</name>
+          <initializer>= 0x0001</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="propgriddefs_8h_1ac3b998155d4217dca44e0396ba06d6f0a40e0bfec5214ed56e4a52c05b09349b4" prot="public">
+          <name>wxPG_SETVAL_AGGREGATED</name>
+          <initializer>= 0x0002</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="propgriddefs_8h_1ac3b998155d4217dca44e0396ba06d6f0a853efa33d21ea98307c4d1b306b424cb" prot="public">
+          <name>wxPG_SETVAL_FROM_PARENT</name>
+          <initializer>= 0x0004</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="propgriddefs_8h_1ac3b998155d4217dca44e0396ba06d6f0a666817cffe808992f421616072094bb3" prot="public">
+          <name>wxPG_SETVAL_BY_USER</name>
+          <initializer>= 0x0008</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/propgrid/propgriddefs.h" line="134" column="1" bodyfile="interface/wx/propgrid/propgriddefs.h" bodystart="133" bodyend="139"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="interface/wx/propgrid/propgriddefs.h"/>
+  </compounddef>
+</doxygen>

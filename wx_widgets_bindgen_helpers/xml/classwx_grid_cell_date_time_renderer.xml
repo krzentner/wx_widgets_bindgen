@@ -1,0 +1,161 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_grid_cell_date_time_renderer" kind="class" language="C++" prot="public">
+    <compoundname>wxGridCellDateTimeRenderer</compoundname>
+    <basecompoundref refid="classwx_grid_cell_string_renderer" prot="public" virt="non-virtual">wxGridCellStringRenderer</basecompoundref>
+    <includes local="no">wx/grid.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classwx_grid_cell_date_time_renderer_1aa250350cb0e420bccffe0ff0e8233f7d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxGridCellDateTimeRenderer::wxGridCellDateTimeRenderer</definition>
+        <argsstring>(const wxString &amp;outformat=wxDefaultDateTimeFormat, const wxString &amp;informat=wxDefaultDateTimeFormat)</argsstring>
+        <name>wxGridCellDateTimeRenderer</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>outformat</declname>
+          <defval>wxDefaultDateTimeFormat</defval>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>informat</declname>
+          <defval>wxDefaultDateTimeFormat</defval>
+        </param>
+        <briefdescription>
+<para>Date/time renderer constructor. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>outformat</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>strptime()-like format string used the parse the output date/time. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>informat</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>strptime()-like format string used to parse the string entered in the cell. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/grid.h" line="150" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_grid_cell_date_time_renderer_1a15d677122c58b8aeb54184c79d4c75e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void wxGridCellDateTimeRenderer::SetParameters</definition>
+        <argsstring>(const wxString &amp;params)</argsstring>
+        <name>SetParameters</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+<para>Sets the strptime()-like format string which will be used to parse the date/time. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>params</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>strptime()-like format string used to parse the date/time. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/grid.h" line="161" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class may be used to format a date/time data in a cell. </para>    </briefdescription>
+    <detaileddescription>
+<para>The class <ref refid="classwx_date_time" kindref="compound">wxDateTime</ref> is used internally to display the local date/time or to parse the string date entered in the cell thanks to the defined format.</para><para><heading level="2"></heading>
+</para><para>Library:<nonbreakablespace/><nonbreakablespace/><ref refid="page_libs_1page_libs_wxadv" kindref="member">wxAdvanced</ref> &lt;&gt;&lt; =&apos;&apos;&gt;:&lt;/&gt;&amp;;&amp;;&lt; =&apos;&apos;&gt;\ &lt;/&gt;&lt;/&gt;</para><para><simplesect kind="see"><para><ref refid="classwx_grid_cell_renderer" kindref="compound">wxGridCellRenderer</ref>, <ref refid="classwx_grid_cell_auto_wrap_string_renderer" kindref="compound">wxGridCellAutoWrapStringRenderer</ref>, <ref refid="classwx_grid_cell_bool_renderer" kindref="compound">wxGridCellBoolRenderer</ref>, <ref refid="classwx_grid_cell_enum_renderer" kindref="compound">wxGridCellEnumRenderer</ref>, <ref refid="classwx_grid_cell_float_renderer" kindref="compound">wxGridCellFloatRenderer</ref>, <ref refid="classwx_grid_cell_number_renderer" kindref="compound">wxGridCellNumberRenderer</ref>, <ref refid="classwx_grid_cell_string_renderer" kindref="compound">wxGridCellStringRenderer</ref> </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="2949">
+        <label>wxRefCounter</label>
+        <link refid="classwx_ref_counter"/>
+      </node>
+      <node id="2948">
+        <label>wxClientDataContainer</label>
+        <link refid="classwx_client_data_container"/>
+      </node>
+      <node id="2945">
+        <label>wxGridCellDateTimeRenderer</label>
+        <link refid="classwx_grid_cell_date_time_renderer"/>
+        <childnode refid="2946" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2947">
+        <label>wxGridCellRenderer</label>
+        <link refid="classwx_grid_cell_renderer"/>
+        <childnode refid="2948" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2949" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2946">
+        <label>wxGridCellStringRenderer</label>
+        <link refid="classwx_grid_cell_string_renderer"/>
+        <childnode refid="2947" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2954">
+        <label>wxRefCounter</label>
+        <link refid="classwx_ref_counter"/>
+      </node>
+      <node id="2953">
+        <label>wxClientDataContainer</label>
+        <link refid="classwx_client_data_container"/>
+      </node>
+      <node id="2950">
+        <label>wxGridCellDateTimeRenderer</label>
+        <link refid="classwx_grid_cell_date_time_renderer"/>
+        <childnode refid="2951" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2952">
+        <label>wxGridCellRenderer</label>
+        <link refid="classwx_grid_cell_renderer"/>
+        <childnode refid="2953" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2954" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2951">
+        <label>wxGridCellStringRenderer</label>
+        <link refid="classwx_grid_cell_string_renderer"/>
+        <childnode refid="2952" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="interface/wx/grid.h" line="140" column="1" bodyfile="interface/wx/grid.h" bodystart="139" bodyend="162"/>
+    <listofallmembers>
+      <member refid="classwx_grid_cell_renderer_1a55c1db8c06f8cb994beb90615d5264f7" prot="public" virt="pure-virtual"><scope>wxGridCellDateTimeRenderer</scope><name>Clone</name></member>
+      <member refid="classwx_ref_counter_1a803eb5be907b1a342082ceb59c01d8c5" prot="public" virt="non-virtual"><scope>wxGridCellDateTimeRenderer</scope><name>DecRef</name></member>
+      <member refid="classwx_grid_cell_renderer_1a1848512422742bbbf9dec1b173bfc752" prot="public" virt="pure-virtual"><scope>wxGridCellDateTimeRenderer</scope><name>Draw</name></member>
+      <member refid="classwx_grid_cell_renderer_1a747661d7b50f6bc5d67a6ac218b12ed8" prot="public" virt="pure-virtual"><scope>wxGridCellDateTimeRenderer</scope><name>GetBestSize</name></member>
+      <member refid="classwx_client_data_container_1aad41cd81b3f64bfd10f9bd89ce758dec" prot="public" virt="non-virtual"><scope>wxGridCellDateTimeRenderer</scope><name>GetClientData</name></member>
+      <member refid="classwx_client_data_container_1a1845f232b64e6ca3907620f991f427f3" prot="public" virt="non-virtual"><scope>wxGridCellDateTimeRenderer</scope><name>GetClientObject</name></member>
+      <member refid="classwx_ref_counter_1a98ca5fc3fa6219d993dd3654925c46aa" prot="public" virt="non-virtual"><scope>wxGridCellDateTimeRenderer</scope><name>GetRefCount</name></member>
+      <member refid="classwx_ref_counter_1a9fec1fb6f778d9df7a8c046ad6a2d887" prot="public" virt="non-virtual"><scope>wxGridCellDateTimeRenderer</scope><name>IncRef</name></member>
+      <member refid="classwx_client_data_container_1a3b291dde8d851583b00e6917af539d13" prot="public" virt="non-virtual"><scope>wxGridCellDateTimeRenderer</scope><name>SetClientData</name></member>
+      <member refid="classwx_client_data_container_1afc03e080cc61dd9acaac86b76965cbb5" prot="public" virt="non-virtual"><scope>wxGridCellDateTimeRenderer</scope><name>SetClientObject</name></member>
+      <member refid="classwx_grid_cell_date_time_renderer_1a15d677122c58b8aeb54184c79d4c75e3" prot="public" virt="virtual"><scope>wxGridCellDateTimeRenderer</scope><name>SetParameters</name></member>
+      <member refid="classwx_client_data_container_1a7de68b5dc45762f7507840d9deac511b" prot="public" virt="non-virtual"><scope>wxGridCellDateTimeRenderer</scope><name>wxClientDataContainer</name></member>
+      <member refid="classwx_grid_cell_date_time_renderer_1aa250350cb0e420bccffe0ff0e8233f7d" prot="public" virt="non-virtual"><scope>wxGridCellDateTimeRenderer</scope><name>wxGridCellDateTimeRenderer</name></member>
+      <member refid="classwx_grid_cell_renderer_1a023f503b35120ae37a659b6856335594" prot="public" virt="non-virtual"><scope>wxGridCellDateTimeRenderer</scope><name>wxGridCellRenderer</name></member>
+      <member refid="classwx_grid_cell_string_renderer_1a70b06ac882fc1f7481ae66af4a87bf16" prot="public" virt="non-virtual"><scope>wxGridCellDateTimeRenderer</scope><name>wxGridCellStringRenderer</name></member>
+      <member refid="classwx_ref_counter_1aebcddb8241dfea7f60f8e4df6776a0e3" prot="public" virt="non-virtual"><scope>wxGridCellDateTimeRenderer</scope><name>wxRefCounter</name></member>
+      <member refid="classwx_client_data_container_1a20946ab7128a84681ccb7d5da52ba695" prot="public" virt="virtual"><scope>wxGridCellDateTimeRenderer</scope><name>~wxClientDataContainer</name></member>
+      <member refid="classwx_grid_cell_renderer_1ab65211e7eebb25f4c47e0d6ce13a3b6e" prot="protected" virt="virtual"><scope>wxGridCellDateTimeRenderer</scope><name>~wxGridCellRenderer</name></member>
+      <member refid="classwx_ref_counter_1aeaa9aceda6421eaa0d693cc29795263a" prot="protected" virt="virtual"><scope>wxGridCellDateTimeRenderer</scope><name>~wxRefCounter</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,181 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_web_view_factory" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>wxWebViewFactory</compoundname>
+    <basecompoundref refid="classwx_object" prot="public" virt="non-virtual">wxObject</basecompoundref>
+    <includes local="no">wx/webview.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classwx_web_view_factory_1af276423fde109d658139857338d9c75b" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type><ref refid="classwx_web_view" kindref="compound">wxWebView</ref> *</type>
+        <definition>virtual wxWebView* wxWebViewFactory::Create</definition>
+        <argsstring>()=0</argsstring>
+        <name>Create</name>
+        <briefdescription>
+<para>Function to create a new <ref refid="classwx_web_view" kindref="compound">wxWebView</ref> with two-step creation, <ref refid="classwx_web_view_1ad20a4d4a98ce4f8a096e4e6da52f9560" kindref="member">wxWebView::Create</ref> should be called on the returned object. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the created <ref refid="classwx_web_view" kindref="compound">wxWebView</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/webview.h" line="147" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_web_view_factory_1a0b23661024592256af031b8c3877002b" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type><ref refid="classwx_web_view" kindref="compound">wxWebView</ref> *</type>
+        <definition>virtual wxWebView* wxWebViewFactory::Create</definition>
+        <argsstring>(wxWindow *parent, wxWindowID id, const wxString &amp;url=wxWebViewDefaultURLStr, const wxPoint &amp;pos=wxDefaultPosition, const wxSize &amp;size=wxDefaultSize, long style=0, const wxString &amp;name=wxWebViewNameStr)=0</argsstring>
+        <name>Create</name>
+        <param>
+          <type><ref refid="classwx_window" kindref="compound">wxWindow</ref> *</type>
+          <declname>parent</declname>
+        </param>
+        <param>
+          <type><ref refid="windowid_8h_1ae8091432cc2cb2485d45f2302fb51133" kindref="member">wxWindowID</ref></type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>url</declname>
+          <defval>wxWebViewDefaultURLStr</defval>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_point" kindref="compound">wxPoint</ref> &amp;</type>
+          <declname>pos</declname>
+          <defval><ref refid="gdicmn_8h_1af5a90c753eaf3d3e3e5068a19ec3c1d0" kindref="member">wxDefaultPosition</ref></defval>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_size" kindref="compound">wxSize</ref> &amp;</type>
+          <declname>size</declname>
+          <defval><ref refid="gdicmn_8h_1a33a012cdb075e9f78c93f63bec2dc27b" kindref="member">wxDefaultSize</ref></defval>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>style</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>name</declname>
+          <defval>wxWebViewNameStr</defval>
+        </param>
+        <briefdescription>
+<para>Function to create a new <ref refid="classwx_web_view" kindref="compound">wxWebView</ref> with parameters. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>parent</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Parent window for the control </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>ID of this control </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>url</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Initial URL to load </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>pos</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Position of the control </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>size</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Size of the control </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>style</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Window style. For generic window styles, please see <ref refid="classwx_window" kindref="compound">wxWindow</ref>. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Window name. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the created <ref refid="classwx_web_view" kindref="compound">wxWebView</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/webview.h" line="161" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>An abstract factory class for creating <ref refid="classwx_web_view" kindref="compound">wxWebView</ref> backends. </para>    </briefdescription>
+    <detaileddescription>
+<para>Each implementation of <ref refid="classwx_web_view" kindref="compound">wxWebView</ref> should have its own factory.</para><para><simplesect kind="since"><para>2.9.5 <heading level="2"></heading>
+</para></simplesect>
+Library:<nonbreakablespace/><nonbreakablespace/><ref refid="page_libs_1page_libs_wxwebview" kindref="member">wxWebView</ref> &lt;&gt;&lt; =&apos;&apos;&gt;:&lt;/&gt;&amp;;&amp;;&lt; =&apos;&apos;&gt;\ &lt;/&gt;&lt;/&gt;</para><para><simplesect kind="see"><para><ref refid="classwx_web_view" kindref="compound">wxWebView</ref> </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="8658">
+        <label>wxObject</label>
+        <link refid="classwx_object"/>
+      </node>
+      <node id="8657">
+        <label>wxWebViewFactory</label>
+        <link refid="classwx_web_view_factory"/>
+        <childnode refid="8658" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="8660">
+        <label>wxObject</label>
+        <link refid="classwx_object"/>
+        <childnode refid="8661" relation="usage">
+          <edgelabel>m_refData</edgelabel>
+        </childnode>
+      </node>
+      <node id="8659">
+        <label>wxWebViewFactory</label>
+        <link refid="classwx_web_view_factory"/>
+        <childnode refid="8660" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8661">
+        <label>wxObjectRefData</label>
+        <link refid="classwx_object_ref_data"/>
+      </node>
+    </collaborationgraph>
+    <location file="interface/wx/webview.h" line="140" column="1" bodyfile="interface/wx/webview.h" bodystart="139" bodyend="168"/>
+    <listofallmembers>
+      <member refid="classwx_object_1a60204063f3cc3aa2fa1c7ff5bda9eb13" prot="protected" virt="non-virtual"><scope>wxWebViewFactory</scope><name>AllocExclusive</name></member>
+      <member refid="classwx_object_1a436fc8fe68cf8a31000296d9cd3d2427" prot="protected" virt="virtual"><scope>wxWebViewFactory</scope><name>CloneRefData</name></member>
+      <member refid="classwx_web_view_factory_1af276423fde109d658139857338d9c75b" prot="public" virt="pure-virtual"><scope>wxWebViewFactory</scope><name>Create</name></member>
+      <member refid="classwx_web_view_factory_1a0b23661024592256af031b8c3877002b" prot="public" virt="pure-virtual"><scope>wxWebViewFactory</scope><name>Create</name></member>
+      <member refid="classwx_object_1a3f4f497c65cef611e121c41f21dd5ccc" prot="protected" virt="virtual"><scope>wxWebViewFactory</scope><name>CreateRefData</name></member>
+      <member refid="classwx_object_1ae6d365f2556b26767ced8410c5e839d0" prot="public" virt="virtual"><scope>wxWebViewFactory</scope><name>GetClassInfo</name></member>
+      <member refid="classwx_object_1af3c6c76a775864832f1536d3c0de3a2b" prot="public" virt="non-virtual"><scope>wxWebViewFactory</scope><name>GetRefData</name></member>
+      <member refid="classwx_object_1a3c7115ef4132dcee0c4fc34e84d7fced" prot="public" virt="non-virtual"><scope>wxWebViewFactory</scope><name>IsKindOf</name></member>
+      <member refid="classwx_object_1a059373c494c2369d7db2a556efef8ecf" prot="public" virt="non-virtual"><scope>wxWebViewFactory</scope><name>IsSameAs</name></member>
+      <member refid="classwx_object_1a9e31954530a0abd54982effc443ed2b8" prot="protected" virt="non-virtual"><scope>wxWebViewFactory</scope><name>m_refData</name></member>
+      <member refid="classwx_object_1a07b8f34f5afc5743195c5fed052f55d3" prot="public" virt="non-virtual"><scope>wxWebViewFactory</scope><name>operator delete</name></member>
+      <member refid="classwx_object_1a96fa423a1dbc212c8227a5d83825971f" prot="public" virt="non-virtual"><scope>wxWebViewFactory</scope><name>operator new</name></member>
+      <member refid="classwx_object_1a2f6f1aa51fe9fc2b1415ca4211a90e9e" prot="public" virt="non-virtual"><scope>wxWebViewFactory</scope><name>Ref</name></member>
+      <member refid="classwx_object_1afab780710f2adc1bb33310e27590140b" prot="public" virt="non-virtual"><scope>wxWebViewFactory</scope><name>SetRefData</name></member>
+      <member refid="classwx_object_1af51efc6b1ae632fc7f0cd7ebbce9fa36" prot="public" virt="non-virtual"><scope>wxWebViewFactory</scope><name>UnRef</name></member>
+      <member refid="classwx_object_1a74b40e42d19a4b9e9bec0b57d62a5725" prot="public" virt="non-virtual"><scope>wxWebViewFactory</scope><name>UnShare</name></member>
+      <member refid="classwx_object_1acaa378363a28af421ab56ad7b46eadf0" prot="public" virt="non-virtual"><scope>wxWebViewFactory</scope><name>wxObject</name></member>
+      <member refid="classwx_object_1a4721b4dc9b7aff0f30904ba2ea3954cf" prot="public" virt="non-virtual"><scope>wxWebViewFactory</scope><name>wxObject</name></member>
+      <member refid="classwx_object_1a2a51aa8bfbab47ca2f051bcf84b3f35b" prot="public" virt="virtual"><scope>wxWebViewFactory</scope><name>~wxObject</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

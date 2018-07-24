@@ -1,0 +1,187 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="filepicker_8h" kind="file" language="C++">
+    <compoundname>filepicker.h</compoundname>
+    <innerclass refid="classwx_file_picker_ctrl" prot="public">wxFilePickerCtrl</innerclass>
+    <innerclass refid="classwx_dir_picker_ctrl" prot="public">wxDirPickerCtrl</innerclass>
+    <innerclass refid="classwx_file_dir_picker_event" prot="public">wxFileDirPickerEvent</innerclass>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="filepicker_8h_1a4bc8534cee17c0c1cb04a139abba0524" prot="public" static="no">
+        <name>wxFLP_OPEN</name>
+        <initializer>0x0400</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/filepicker.h" line="8" column="9" bodyfile="interface/wx/filepicker.h" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="filepicker_8h_1a20527199d089ac56510932e82366649a" prot="public" static="no">
+        <name>wxFLP_SAVE</name>
+        <initializer>0x0800</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/filepicker.h" line="9" column="9" bodyfile="interface/wx/filepicker.h" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="filepicker_8h_1a39f94fdb84058759b5bdfb8268575eac" prot="public" static="no">
+        <name>wxFLP_OVERWRITE_PROMPT</name>
+        <initializer>0x1000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/filepicker.h" line="10" column="9" bodyfile="interface/wx/filepicker.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="filepicker_8h_1a6a6d5567bdbb53cd5814c35730e5ae07" prot="public" static="no">
+        <name>wxFLP_FILE_MUST_EXIST</name>
+        <initializer>0x2000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/filepicker.h" line="11" column="9" bodyfile="interface/wx/filepicker.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="filepicker_8h_1aa6f42e92a1895878bffa55b94021c556" prot="public" static="no">
+        <name>wxFLP_CHANGE_DIR</name>
+        <initializer>0x4000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/filepicker.h" line="12" column="9" bodyfile="interface/wx/filepicker.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="filepicker_8h_1aeb1af665591fa2673ef475ceed7f2f73" prot="public" static="no">
+        <name>wxFLP_SMALL</name>
+        <initializer><ref refid="pickerbase_8h_1a043f0ec693bdbe2d771a4f3fd6f138f0" kindref="member">wxPB_SMALL</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/filepicker.h" line="13" column="9" bodyfile="interface/wx/filepicker.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="filepicker_8h_1a18cf2a5d25bc813c0bc4c7184cd48d7f" prot="public" static="no">
+        <name>wxFLP_USE_TEXTCTRL</name>
+        <initializer>(<ref refid="pickerbase_8h_1a545f8e1e3c51106519bddaf513553c5d" kindref="member">wxPB_USE_TEXTCTRL</ref>)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/filepicker.h" line="14" column="9" bodyfile="interface/wx/filepicker.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="filepicker_8h_1a2968a28979d25855535681973ceabee6" prot="public" static="no">
+        <name>wxFLP_DEFAULT_STYLE</name>
+        <initializer>(<ref refid="filepicker_8h_1a4bc8534cee17c0c1cb04a139abba0524" kindref="member">wxFLP_OPEN</ref>|<ref refid="filepicker_8h_1a6a6d5567bdbb53cd5814c35730e5ae07" kindref="member">wxFLP_FILE_MUST_EXIST</ref>)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/filepicker.h" line="15" column="9" bodyfile="interface/wx/filepicker.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="filepicker_8h_1a32446820c3d1dd499a7f61ae027ad86c" prot="public" static="no">
+        <name>wxDIRP_DIR_MUST_EXIST</name>
+        <initializer>0x0008</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/filepicker.h" line="17" column="9" bodyfile="interface/wx/filepicker.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="filepicker_8h_1afe3f8b6c2473b2ffa38ec7920f687fb5" prot="public" static="no">
+        <name>wxDIRP_CHANGE_DIR</name>
+        <initializer>0x0010</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/filepicker.h" line="18" column="9" bodyfile="interface/wx/filepicker.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="filepicker_8h_1a618c6ceb796b0df55ee793fdacbe419c" prot="public" static="no">
+        <name>wxDIRP_SMALL</name>
+        <initializer><ref refid="pickerbase_8h_1a043f0ec693bdbe2d771a4f3fd6f138f0" kindref="member">wxPB_SMALL</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/filepicker.h" line="19" column="9" bodyfile="interface/wx/filepicker.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="filepicker_8h_1aa70b9f48ee6e0ce17b89e9e930f677ba" prot="public" static="no">
+        <name>wxDIRP_USE_TEXTCTRL</name>
+        <initializer>(<ref refid="pickerbase_8h_1a545f8e1e3c51106519bddaf513553c5d" kindref="member">wxPB_USE_TEXTCTRL</ref>)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/filepicker.h" line="20" column="9" bodyfile="interface/wx/filepicker.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="filepicker_8h_1ac000ec219ec9c8c28fce84830b4a645c" prot="public" static="no">
+        <name>wxDIRP_DEFAULT_STYLE</name>
+        <initializer>(<ref refid="filepicker_8h_1a32446820c3d1dd499a7f61ae027ad86c" kindref="member">wxDIRP_DIR_MUST_EXIST</ref>)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/filepicker.h" line="21" column="9" bodyfile="interface/wx/filepicker.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="filepicker_8h_1a13a7159b08bf505bb94d61071834a3fd" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_FILEPICKER_CHANGED</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_FILEPICKER_CHANGED</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/filepicker.h" line="23" column="1" bodyfile="interface/wx/filepicker.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="filepicker_8h_1a3a64ac497f00e7c334e82912ce825f71" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_DIRPICKER_CHANGED</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_DIRPICKER_CHANGED</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/filepicker.h" line="24" column="1" bodyfile="interface/wx/filepicker.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="interface/wx/filepicker.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,544 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_automation_object" kind="class" language="C++" prot="public">
+    <compoundname>wxAutomationObject</compoundname>
+    <basecompoundref refid="classwx_object" prot="public" virt="non-virtual">wxObject</basecompoundref>
+    <includes local="no">wx/msw/ole/automtn.h</includes>
+      <sectiondef kind="user-defined">
+      <memberdef kind="function" id="classwx_automation_object_1ab531d9256b2cf5fc43c8ebb839d43a82" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_variant" kindref="compound">wxVariant</ref></type>
+        <definition>wxVariant wxAutomationObject::CallMethod</definition>
+        <argsstring>(const wxString &amp;method, int noArgs, wxVariant args[]) const</argsstring>
+        <name>CallMethod</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>method</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>noArgs</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_variant" kindref="compound">wxVariant</ref></type>
+          <declname>args</declname>
+          <array>[]</array>
+        </param>
+        <briefdescription>
+<para>Calls an automation method for this object. </para>        </briefdescription>
+        <detaileddescription>
+<para>The first form takes a method name, number of arguments, and an array of variants. The second form takes a method name and zero to six constant references to variants. Since the variant class has constructors for the basic data types, and C++ provides temporary objects automatically, both of the following lines are syntactically valid:</para><para>Note that <emphasis>method</emphasis> can contain dot-separated property names, to save the application needing to call GetProperty several times using several temporary objects. For example: </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/msw/ole/automtn.h" line="436" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_automation_object_1ad27346e1413fb67cda4233686651d7d8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="classwx_variant" kindref="compound">wxVariant</ref></type>
+        <definition>const wxVariant wxAutomationObject::CallMethod</definition>
+        <argsstring>(const wxString &amp;method,...) const</argsstring>
+        <name>CallMethod</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>method</declname>
+        </param>
+        <param>
+          <type>...</type>
+        </param>
+        <briefdescription>
+<para>Calls an automation method for this object. </para>        </briefdescription>
+        <detaileddescription>
+<para>The first form takes a method name, number of arguments, and an array of variants. The second form takes a method name and zero to six constant references to variants. Since the variant class has constructors for the basic data types, and C++ provides temporary objects automatically, both of the following lines are syntactically valid:</para><para>Note that <emphasis>method</emphasis> can contain dot-separated property names, to save the application needing to call GetProperty several times using several temporary objects. For example: </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/msw/ole/automtn.h" line="438" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="user-defined">
+      <memberdef kind="function" id="classwx_automation_object_1ab38329e0f186b4a0bb3a9acef02e6884" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classwx_variant" kindref="compound">wxVariant</ref></type>
+        <definition>wxVariant wxAutomationObject::GetProperty</definition>
+        <argsstring>(const wxString &amp;property, int noArgs, wxVariant args[]) const</argsstring>
+        <name>GetProperty</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>property</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>noArgs</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_variant" kindref="compound">wxVariant</ref></type>
+          <declname>args</declname>
+          <array>[]</array>
+        </param>
+        <briefdescription>
+<para>Gets a property value from this object. </para>        </briefdescription>
+        <detaileddescription>
+<para>The first form takes a property name, number of arguments, and an array of variants. The second form takes a property name and zero to six constant references to variants. Since the variant class has constructors for the basic data types, and C++ provides temporary objects automatically, both of the following lines are syntactically valid:</para><para>Note that <emphasis>property</emphasis> can contain dot-separated property names, to save the application needing to call GetProperty several times using several temporary objects. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/msw/ole/automtn.h" line="524" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_automation_object_1ab42e4884bb55d304390b31bfa3beb98b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="classwx_variant" kindref="compound">wxVariant</ref></type>
+        <definition>const wxVariant wxAutomationObject::GetProperty</definition>
+        <argsstring>(const wxString &amp;property,...) const</argsstring>
+        <name>GetProperty</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>property</declname>
+        </param>
+        <param>
+          <type>...</type>
+        </param>
+        <briefdescription>
+<para>Gets a property value from this object. </para>        </briefdescription>
+        <detaileddescription>
+<para>The first form takes a property name, number of arguments, and an array of variants. The second form takes a property name and zero to six constant references to variants. Since the variant class has constructors for the basic data types, and C++ provides temporary objects automatically, both of the following lines are syntactically valid:</para><para>Note that <emphasis>property</emphasis> can contain dot-separated property names, to save the application needing to call GetProperty several times using several temporary objects. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/msw/ole/automtn.h" line="526" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="user-defined">
+      <memberdef kind="function" id="classwx_automation_object_1ad1bcb65b8e3b8b40968a0dcf2b28fbb6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxAutomationObject::PutProperty</definition>
+        <argsstring>(const wxString &amp;property, int noArgs, wxVariant args[])</argsstring>
+        <name>PutProperty</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>property</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>noArgs</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_variant" kindref="compound">wxVariant</ref></type>
+          <declname>args</declname>
+          <array>[]</array>
+        </param>
+        <briefdescription>
+<para>Puts a property value into this object. </para>        </briefdescription>
+        <detaileddescription>
+<para>The first form takes a property name, number of arguments, and an array of variants. The second form takes a property name and zero to six constant references to variants. Since the variant class has constructors for the basic data types, and C++ provides temporary objects automatically, both of the following lines are syntactically valid:</para><para>Note that <emphasis>property</emphasis> can contain dot-separated property names, to save the application needing to call GetProperty several times using several temporary objects. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/msw/ole/automtn.h" line="575" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_automation_object_1a02b78f7b3edde1b82c556ead38e8db2e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const bool</type>
+        <definition>const bool wxAutomationObject::PutProperty</definition>
+        <argsstring>(const wxString &amp;property,...)</argsstring>
+        <name>PutProperty</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>property</declname>
+        </param>
+        <param>
+          <type>...</type>
+        </param>
+        <briefdescription>
+<para>Puts a property value into this object. </para>        </briefdescription>
+        <detaileddescription>
+<para>The first form takes a property name, number of arguments, and an array of variants. The second form takes a property name and zero to six constant references to variants. Since the variant class has constructors for the basic data types, and C++ provides temporary objects automatically, both of the following lines are syntactically valid:</para><para>Note that <emphasis>property</emphasis> can contain dot-separated property names, to save the application needing to call GetProperty several times using several temporary objects. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/msw/ole/automtn.h" line="577" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classwx_automation_object_1ab3ea2c7f9108b7aaa07b019eb5c0de86" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxAutomationObject::wxAutomationObject</definition>
+        <argsstring>(WXIDISPATCH *dispatchPtr=NULL)</argsstring>
+        <name>wxAutomationObject</name>
+        <param>
+          <type>WXIDISPATCH *</type>
+          <declname>dispatchPtr</declname>
+          <defval>NULL</defval>
+        </param>
+        <briefdescription>
+<para>Constructor, taking an optional IDispatch pointer which will be released when the object is deleted. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/msw/ole/automtn.h" line="412" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_automation_object_1a00e8e37330ef24c4b6384ac856a27fbe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>wxAutomationObject::~wxAutomationObject</definition>
+        <argsstring>()</argsstring>
+        <name>~wxAutomationObject</name>
+        <briefdescription>
+<para>Destructor. </para>        </briefdescription>
+        <detaileddescription>
+<para>If the internal IDispatch pointer is non-null, it will be released. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/msw/ole/automtn.h" line="417" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_automation_object_1af2bc6bd3ff45bec003c135292ba2a877" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxAutomationObject::CreateInstance</definition>
+        <argsstring>(const wxString &amp;progId) const</argsstring>
+        <name>CreateInstance</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>progId</declname>
+        </param>
+        <briefdescription>
+<para>Creates a new object based on the ProgID, returning true if the object was successfully created, or false if not. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/msw/ole/automtn.h" line="446" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_automation_object_1a86e4a2d565365d2f3e6c424395c6bb06" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxAutomationObject::IsOk</definition>
+        <argsstring>() const</argsstring>
+        <name>IsOk</name>
+        <briefdescription>
+<para>Checks if the object is in a valid state. </para>        </briefdescription>
+        <detaileddescription>
+<para>Returns true if the object was successfully initialized or false if it has no valid IDispatch pointer.</para><para><simplesect kind="see"><para><ref refid="classwx_automation_object_1af77af2551874b8c3316099fe2ea33e64" kindref="member">GetDispatchPtr()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/msw/ole/automtn.h" line="456" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_automation_object_1af77af2551874b8c3316099fe2ea33e64" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void *</type>
+        <definition>void* wxAutomationObject::GetDispatchPtr</definition>
+        <argsstring>() const</argsstring>
+        <name>GetDispatchPtr</name>
+        <briefdescription>
+<para>Gets the IDispatch pointer. </para>        </briefdescription>
+        <detaileddescription>
+<para>Notice that the return value of this function is an untyped pointer but it can be safely cast to <computeroutput>IDispatch</computeroutput>. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/msw/ole/automtn.h" line="464" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_automation_object_1af95603ec766f4813e4cea6687a210e45" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxAutomationObject::GetInstance</definition>
+        <argsstring>(const wxString &amp;progId, int flags=wxAutomationInstance_CreateIfNeeded) const</argsstring>
+        <name>GetInstance</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>progId</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>flags</declname>
+          <defval><ref refid="automtn_8h_1a2a632c1c7e22d8092a8f94b3ac95909eafb46c31acfe0ee3c33b6f1235fb30e12" kindref="member">wxAutomationInstance_CreateIfNeeded</ref></defval>
+        </param>
+        <briefdescription>
+<para>Retrieves the current object associated with the specified ProgID, and attaches the IDispatch pointer to this object. </para>        </briefdescription>
+        <detaileddescription>
+<para>If attaching to an existing object failed and <emphasis>flags</emphasis> includes wxAutomationInstance_CreateIfNeeded flag, a new object will be created. Otherwise this function will normally log an error message which may be undesirable if the object may or may not exist. The wxAutomationInstance_SilentIfNone flag can be used to prevent the error from being logged in this case.</para><para>Returns true if a pointer was successfully retrieved, false otherwise.</para><para>Note that this cannot cope with two instances of a given OLE object being active simultaneously, such as two copies of Excel running. Which object is referenced cannot currently be specified.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>progId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>COM ProgID, e.g. &quot;Excel.Application&quot; </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>flags</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The creation flags (this parameters was added in wxWidgets 2.9.2) </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/msw/ole/automtn.h" line="489" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_automation_object_1a873a3874312c3708060d829222db9e75" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxAutomationObject::GetObject</definition>
+        <argsstring>(wxAutomationObject &amp;obj, const wxString &amp;property, int noArgs=0, wxVariant args[]=NULL) const</argsstring>
+        <name>GetObject</name>
+        <param>
+          <type><ref refid="classwx_automation_object" kindref="compound">wxAutomationObject</ref> &amp;</type>
+          <declname>obj</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>property</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>noArgs</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type><ref refid="classwx_variant" kindref="compound">wxVariant</ref></type>
+          <declname>args</declname>
+          <array>[]</array>
+          <defval>NULL</defval>
+        </param>
+        <briefdescription>
+<para>Retrieves a property from this object, assumed to be a dispatch pointer, and initialises <emphasis>obj</emphasis> with it. </para>        </briefdescription>
+        <detaileddescription>
+<para>To avoid having to deal with IDispatch pointers directly, use this function in preference to <ref refid="classwx_automation_object_1ab38329e0f186b4a0bb3a9acef02e6884" kindref="member">GetProperty()</ref> when retrieving objects from other objects. Note that an IDispatch pointer is stored as a void* pointer in <ref refid="classwx_variant" kindref="compound">wxVariant</ref> objects.</para><para><simplesect kind="see"><para><ref refid="classwx_automation_object_1ab38329e0f186b4a0bb3a9acef02e6884" kindref="member">GetProperty()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/msw/ole/automtn.h" line="504" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_automation_object_1aeeb8cd822916be349ec30aca6cf58a2d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool wxAutomationObject::Invoke</definition>
+        <argsstring>(const wxString &amp;member, int action, wxVariant &amp;retValue, int noArgs, wxVariant args[], const wxVariant *ptrArgs[]=0) const</argsstring>
+        <name>Invoke</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>member</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>action</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_variant" kindref="compound">wxVariant</ref> &amp;</type>
+          <declname>retValue</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>noArgs</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_variant" kindref="compound">wxVariant</ref></type>
+          <declname>args</declname>
+          <array>[]</array>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_variant" kindref="compound">wxVariant</ref> *</type>
+          <declname>ptrArgs</declname>
+          <array>[]</array>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>This function is a low-level implementation that allows access to the IDispatch Invoke function. </para>        </briefdescription>
+        <detaileddescription>
+<para>It is not meant to be called directly by the application, but is used by other convenience functions.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>member</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The member function or property name. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>action</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Bitlist: may contain DISPATCH_PROPERTYPUT, DISPATCH_PROPERTYPUTREF, DISPATCH_METHOD. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>retValue</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Return value (ignored if there is no return value) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>noArgs</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Number of arguments in args or ptrArgs. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>args</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>If non-null, contains an array of variants. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ptrArgs</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>If non-null, contains an array of constant pointers to variants.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true if the operation was successful, false otherwise.</para></simplesect>
+<simplesect kind="remark"><para>Two types of argument array are provided, so that when possible pointers are used for efficiency. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/msw/ole/automtn.h" line="554" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_automation_object_1a4b27e2bce9aaac9f05261ac5cc0e695b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxAutomationObject::SetDispatchPtr</definition>
+        <argsstring>(WXIDISPATCH *dispatchPtr)</argsstring>
+        <name>SetDispatchPtr</name>
+        <param>
+          <type>WXIDISPATCH *</type>
+          <declname>dispatchPtr</declname>
+        </param>
+        <briefdescription>
+<para>Sets the IDispatch pointer. </para>        </briefdescription>
+        <detaileddescription>
+<para>This function does not check if there is already an IDispatch pointer. You may need to cast from IDispatch* to WXIDISPATCH* when calling this function. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/msw/ole/automtn.h" line="585" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_automation_object_1a66a6b6ebbfb15616626bc0adb5189af4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>LCID</type>
+        <definition>LCID wxAutomationObject::GetLCID</definition>
+        <argsstring>() const</argsstring>
+        <name>GetLCID</name>
+        <briefdescription>
+<para>Returns the locale identifier used in automation calls. </para>        </briefdescription>
+        <detaileddescription>
+<para>The default is LOCALE_SYSTEM_DEFAULT but the objects obtained by <ref refid="classwx_automation_object_1a873a3874312c3708060d829222db9e75" kindref="member">GetObject()</ref> inherit the locale identifier from the one that created them.</para><para><simplesect kind="since"><para>2.9.5 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/msw/ole/automtn.h" line="596" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_automation_object_1ae46c5cdabc3c087a97b412248b6d0280" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxAutomationObject::SetLCID</definition>
+        <argsstring>(LCID lcid)</argsstring>
+        <name>SetLCID</name>
+        <param>
+          <type>LCID</type>
+          <declname>lcid</declname>
+        </param>
+        <briefdescription>
+<para>Sets the locale identifier to be used in automation calls performed by this object. </para>        </briefdescription>
+        <detaileddescription>
+<para>The default value is LOCALE_SYSTEM_DEFAULT.</para><para>Notice that any automation objects created by this one inherit the same LCID.</para><para><simplesect kind="since"><para>2.9.5 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/msw/ole/automtn.h" line="609" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_automation_object_1af8565d70c2e0370bc0dac5a86d4afeb0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>long</type>
+        <definition>long wxAutomationObject::GetConvertVariantFlags</definition>
+        <argsstring>() const</argsstring>
+        <name>GetConvertVariantFlags</name>
+        <briefdescription>
+<para>Returns the flags used for conversions between <ref refid="classwx_variant" kindref="compound">wxVariant</ref> and OLE VARIANT, see wxOleConvertVariantFlags. </para>        </briefdescription>
+        <detaileddescription>
+<para>The default value is wxOleConvertVariant_Default for compatibility but it can be changed using <ref refid="classwx_automation_object_1af68c1dfd67c9c018983e0da3c0385fae" kindref="member">SetConvertVariantFlags()</ref>.</para><para>Notice that objects obtained by <ref refid="classwx_automation_object_1a873a3874312c3708060d829222db9e75" kindref="member">GetObject()</ref> inherit the flags from the one that created them.</para><para><simplesect kind="since"><para>3.0 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/msw/ole/automtn.h" line="623" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_automation_object_1af68c1dfd67c9c018983e0da3c0385fae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wxAutomationObject::SetConvertVariantFlags</definition>
+        <argsstring>(long flags)</argsstring>
+        <name>SetConvertVariantFlags</name>
+        <param>
+          <type>long</type>
+          <declname>flags</declname>
+        </param>
+        <briefdescription>
+<para>Sets the flags used for conversions between <ref refid="classwx_variant" kindref="compound">wxVariant</ref> and OLE VARIANT, see wxOleConvertVariantFlags. </para>        </briefdescription>
+        <detaileddescription>
+<para>The default value is wxOleConvertVariant_Default.</para><para><simplesect kind="since"><para>3.0 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/msw/ole/automtn.h" line="633" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>The <bold><ref refid="classwx_automation_object" kindref="compound">wxAutomationObject</ref></bold> class represents an OLE automation object containing a single data member, an IDispatch pointer. </para>    </briefdescription>
+    <detaileddescription>
+<para>It contains a number of functions that make it easy to perform automation operations, and set and get properties. The class makes heavy use of the <ref refid="classwx_variant" kindref="compound">wxVariant</ref> class.</para><para>The usage of these classes is quite close to OLE automation usage in Visual Basic. The API is high-level, and the application can specify multiple properties in a single string. The following example gets the current Excel instance, and if it exists, makes the active cell bold.</para><para><programlisting><codeline><highlight class="normal">wxAutomationObject<sp/>excelObject;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>if<sp/>(excelObject.GetInstance(&quot;Excel.Application&quot;))</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>excelObject.PutProperty(&quot;ActiveCell.Font.Bold&quot;,<sp/>@true);</highlight></codeline>
+</programlisting></para><para>Note that this class obviously works under Windows only.</para><para>Availability:<nonbreakablespace/><nonbreakablespace/>only available for the <ref refid="page_port_1page_port_wxmsw" kindref="member">wxMSW</ref> port. <onlyfor>wxmsw</onlyfor> </para><para><heading level="2"></heading>
+</para><para>Library:<nonbreakablespace/><nonbreakablespace/><ref refid="page_libs_1page_libs_wxcore" kindref="member">wxCore</ref> &lt;&gt;&lt; =&apos;&apos;&gt;:&lt;/&gt;&amp;;&amp;;&lt; =&apos;&apos;&gt;\ &lt;/&gt;&lt;/&gt;</para><para><simplesect kind="see"><para><ref refid="classwx_variant" kindref="compound">wxVariant</ref>, <ref refid="classwx_variant_data_currency" kindref="compound">wxVariantDataCurrency</ref>, <ref refid="classwx_variant_data_error_code" kindref="compound">wxVariantDataErrorCode</ref>, <ref refid="classwx_variant_data_safe_array" kindref="compound">wxVariantDataSafeArray</ref> </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="451">
+        <label>wxObject</label>
+        <link refid="classwx_object"/>
+      </node>
+      <node id="450">
+        <label>wxAutomationObject</label>
+        <link refid="classwx_automation_object"/>
+        <childnode refid="451" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="453">
+        <label>wxObject</label>
+        <link refid="classwx_object"/>
+        <childnode refid="454" relation="usage">
+          <edgelabel>m_refData</edgelabel>
+        </childnode>
+      </node>
+      <node id="452">
+        <label>wxAutomationObject</label>
+        <link refid="classwx_automation_object"/>
+        <childnode refid="453" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="454">
+        <label>wxObjectRefData</label>
+        <link refid="classwx_object_ref_data"/>
+      </node>
+    </collaborationgraph>
+    <location file="interface/wx/msw/ole/automtn.h" line="405" column="1" bodyfile="interface/wx/msw/ole/automtn.h" bodystart="404" bodyend="634"/>
+    <listofallmembers>
+      <member refid="classwx_object_1a60204063f3cc3aa2fa1c7ff5bda9eb13" prot="protected" virt="non-virtual"><scope>wxAutomationObject</scope><name>AllocExclusive</name></member>
+      <member refid="classwx_automation_object_1ab531d9256b2cf5fc43c8ebb839d43a82" prot="public" virt="non-virtual"><scope>wxAutomationObject</scope><name>CallMethod</name></member>
+      <member refid="classwx_automation_object_1ad27346e1413fb67cda4233686651d7d8" prot="public" virt="non-virtual"><scope>wxAutomationObject</scope><name>CallMethod</name></member>
+      <member refid="classwx_object_1a436fc8fe68cf8a31000296d9cd3d2427" prot="protected" virt="virtual"><scope>wxAutomationObject</scope><name>CloneRefData</name></member>
+      <member refid="classwx_automation_object_1af2bc6bd3ff45bec003c135292ba2a877" prot="public" virt="non-virtual"><scope>wxAutomationObject</scope><name>CreateInstance</name></member>
+      <member refid="classwx_object_1a3f4f497c65cef611e121c41f21dd5ccc" prot="protected" virt="virtual"><scope>wxAutomationObject</scope><name>CreateRefData</name></member>
+      <member refid="classwx_object_1ae6d365f2556b26767ced8410c5e839d0" prot="public" virt="virtual"><scope>wxAutomationObject</scope><name>GetClassInfo</name></member>
+      <member refid="classwx_automation_object_1af8565d70c2e0370bc0dac5a86d4afeb0" prot="public" virt="non-virtual"><scope>wxAutomationObject</scope><name>GetConvertVariantFlags</name></member>
+      <member refid="classwx_automation_object_1af77af2551874b8c3316099fe2ea33e64" prot="public" virt="non-virtual"><scope>wxAutomationObject</scope><name>GetDispatchPtr</name></member>
+      <member refid="classwx_automation_object_1af95603ec766f4813e4cea6687a210e45" prot="public" virt="non-virtual"><scope>wxAutomationObject</scope><name>GetInstance</name></member>
+      <member refid="classwx_automation_object_1a66a6b6ebbfb15616626bc0adb5189af4" prot="public" virt="non-virtual"><scope>wxAutomationObject</scope><name>GetLCID</name></member>
+      <member refid="classwx_automation_object_1a873a3874312c3708060d829222db9e75" prot="public" virt="non-virtual"><scope>wxAutomationObject</scope><name>GetObject</name></member>
+      <member refid="classwx_automation_object_1ab38329e0f186b4a0bb3a9acef02e6884" prot="public" virt="non-virtual"><scope>wxAutomationObject</scope><name>GetProperty</name></member>
+      <member refid="classwx_automation_object_1ab42e4884bb55d304390b31bfa3beb98b" prot="public" virt="non-virtual"><scope>wxAutomationObject</scope><name>GetProperty</name></member>
+      <member refid="classwx_object_1af3c6c76a775864832f1536d3c0de3a2b" prot="public" virt="non-virtual"><scope>wxAutomationObject</scope><name>GetRefData</name></member>
+      <member refid="classwx_automation_object_1aeeb8cd822916be349ec30aca6cf58a2d" prot="public" virt="non-virtual"><scope>wxAutomationObject</scope><name>Invoke</name></member>
+      <member refid="classwx_object_1a3c7115ef4132dcee0c4fc34e84d7fced" prot="public" virt="non-virtual"><scope>wxAutomationObject</scope><name>IsKindOf</name></member>
+      <member refid="classwx_automation_object_1a86e4a2d565365d2f3e6c424395c6bb06" prot="public" virt="non-virtual"><scope>wxAutomationObject</scope><name>IsOk</name></member>
+      <member refid="classwx_object_1a059373c494c2369d7db2a556efef8ecf" prot="public" virt="non-virtual"><scope>wxAutomationObject</scope><name>IsSameAs</name></member>
+      <member refid="classwx_object_1a9e31954530a0abd54982effc443ed2b8" prot="protected" virt="non-virtual"><scope>wxAutomationObject</scope><name>m_refData</name></member>
+      <member refid="classwx_object_1a07b8f34f5afc5743195c5fed052f55d3" prot="public" virt="non-virtual"><scope>wxAutomationObject</scope><name>operator delete</name></member>
+      <member refid="classwx_object_1a96fa423a1dbc212c8227a5d83825971f" prot="public" virt="non-virtual"><scope>wxAutomationObject</scope><name>operator new</name></member>
+      <member refid="classwx_automation_object_1ad1bcb65b8e3b8b40968a0dcf2b28fbb6" prot="public" virt="non-virtual"><scope>wxAutomationObject</scope><name>PutProperty</name></member>
+      <member refid="classwx_automation_object_1a02b78f7b3edde1b82c556ead38e8db2e" prot="public" virt="non-virtual"><scope>wxAutomationObject</scope><name>PutProperty</name></member>
+      <member refid="classwx_object_1a2f6f1aa51fe9fc2b1415ca4211a90e9e" prot="public" virt="non-virtual"><scope>wxAutomationObject</scope><name>Ref</name></member>
+      <member refid="classwx_automation_object_1af68c1dfd67c9c018983e0da3c0385fae" prot="public" virt="non-virtual"><scope>wxAutomationObject</scope><name>SetConvertVariantFlags</name></member>
+      <member refid="classwx_automation_object_1a4b27e2bce9aaac9f05261ac5cc0e695b" prot="public" virt="non-virtual"><scope>wxAutomationObject</scope><name>SetDispatchPtr</name></member>
+      <member refid="classwx_automation_object_1ae46c5cdabc3c087a97b412248b6d0280" prot="public" virt="non-virtual"><scope>wxAutomationObject</scope><name>SetLCID</name></member>
+      <member refid="classwx_object_1afab780710f2adc1bb33310e27590140b" prot="public" virt="non-virtual"><scope>wxAutomationObject</scope><name>SetRefData</name></member>
+      <member refid="classwx_object_1af51efc6b1ae632fc7f0cd7ebbce9fa36" prot="public" virt="non-virtual"><scope>wxAutomationObject</scope><name>UnRef</name></member>
+      <member refid="classwx_object_1a74b40e42d19a4b9e9bec0b57d62a5725" prot="public" virt="non-virtual"><scope>wxAutomationObject</scope><name>UnShare</name></member>
+      <member refid="classwx_automation_object_1ab3ea2c7f9108b7aaa07b019eb5c0de86" prot="public" virt="non-virtual"><scope>wxAutomationObject</scope><name>wxAutomationObject</name></member>
+      <member refid="classwx_object_1acaa378363a28af421ab56ad7b46eadf0" prot="public" virt="non-virtual"><scope>wxAutomationObject</scope><name>wxObject</name></member>
+      <member refid="classwx_object_1a4721b4dc9b7aff0f30904ba2ea3954cf" prot="public" virt="non-virtual"><scope>wxAutomationObject</scope><name>wxObject</name></member>
+      <member refid="classwx_automation_object_1a00e8e37330ef24c4b6384ac856a27fbe" prot="public" virt="non-virtual"><scope>wxAutomationObject</scope><name>~wxAutomationObject</name></member>
+      <member refid="classwx_object_1a2a51aa8bfbab47ca2f051bcf84b3f35b" prot="public" virt="virtual"><scope>wxAutomationObject</scope><name>~wxObject</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

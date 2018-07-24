@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="treebook_8h" kind="file" language="C++">
+    <compoundname>treebook.h</compoundname>
+    <innerclass refid="classwx_treebook" prot="public">wxTreebook</innerclass>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="treebook_8h_1a3dbd063220ee856d8697411d345b372d" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_TREEBOOK_PAGE_CHANGED</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_TREEBOOK_PAGE_CHANGED</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/treebook.h" line="9" column="1" bodyfile="interface/wx/treebook.h" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="treebook_8h_1ad3b1d34d4fc37d7ce5fa9cbcee162a96" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_TREEBOOK_PAGE_CHANGING</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_TREEBOOK_PAGE_CHANGING</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/treebook.h" line="10" column="1" bodyfile="interface/wx/treebook.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="treebook_8h_1adc3377c2567851420c9b79e0d548615c" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_TREEBOOK_NODE_COLLAPSED</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_TREEBOOK_NODE_COLLAPSED</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/treebook.h" line="11" column="1" bodyfile="interface/wx/treebook.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="treebook_8h_1aa6e47e860944c7c464703143055a09da" prot="public" static="no" mutable="no">
+        <type><ref refid="group__group__funcmacro__events_1ga6a7fd172612c0d6d9029bfa3aa91aca0" kindref="member">wxEventType</ref></type>
+        <definition>wxEventType wxEVT_TREEBOOK_NODE_EXPANDED</definition>
+        <argsstring></argsstring>
+        <name>wxEVT_TREEBOOK_NODE_EXPANDED</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/treebook.h" line="12" column="1" bodyfile="interface/wx/treebook.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="interface/wx/treebook.h"/>
+  </compounddef>
+</doxygen>

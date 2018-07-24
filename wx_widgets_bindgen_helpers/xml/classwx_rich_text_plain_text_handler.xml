@@ -1,0 +1,219 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classwx_rich_text_plain_text_handler" kind="class" language="C++" prot="public">
+    <compoundname>wxRichTextPlainTextHandler</compoundname>
+    <basecompoundref refid="classwx_rich_text_file_handler" prot="public" virt="non-virtual">wxRichTextFileHandler</basecompoundref>
+    <includes local="no">wx/richtext/richtextbuffer.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classwx_rich_text_plain_text_handler_1a306f0995aef02e289599381fd8984459" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>wxRichTextPlainTextHandler::wxRichTextPlainTextHandler</definition>
+        <argsstring>(const wxString &amp;name=&quot;Text&quot;, const wxString &amp;ext=&quot;txt&quot;, wxRichTextFileType type=wxRICHTEXT_TYPE_TEXT)</argsstring>
+        <name>wxRichTextPlainTextHandler</name>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>name</declname>
+          <defval>&quot;Text&quot;</defval>
+        </param>
+        <param>
+          <type>const <ref refid="classwx_string" kindref="compound">wxString</ref> &amp;</type>
+          <declname>ext</declname>
+          <defval>&quot;txt&quot;</defval>
+        </param>
+        <param>
+          <type><ref refid="richtextbuffer_8h_1a8c9beb7a76d787e04afe3fb4026bc8d6" kindref="member">wxRichTextFileType</ref></type>
+          <declname>type</declname>
+          <defval><ref refid="richtextbuffer_8h_1a8c9beb7a76d787e04afe3fb4026bc8d6adef76b16bc1298c1f5e5fa375d0156ef" kindref="member">wxRICHTEXT_TYPE_TEXT</ref></defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="6259" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="6259" bodyend="6263"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_plain_text_handler_1a15ff5c3362bac7572a9fc62f7c2c1bf9" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool wxRichTextPlainTextHandler::CanSave</definition>
+        <argsstring>() const</argsstring>
+        <name>CanSave</name>
+        <reimplements refid="classwx_rich_text_file_handler_1a5c0cbc3224f28bbc4b8ca3aed7e4a736">CanSave</reimplements>
+        <briefdescription>
+<para>Returns true if we can save using this handler. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="6266" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="6266" bodyend="6266"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_plain_text_handler_1a0692211e3c1107daa30d788c2d295676" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool wxRichTextPlainTextHandler::CanLoad</definition>
+        <argsstring>() const</argsstring>
+        <name>CanLoad</name>
+        <reimplements refid="classwx_rich_text_file_handler_1a19a7adf6de8ac290680e6f730ce30193">CanLoad</reimplements>
+        <briefdescription>
+<para>Returns true if we can load using this handler. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="6269" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="6269" bodyend="6269"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classwx_rich_text_plain_text_handler_1acd593a1c4c892fbcc26b726dc9b6ab8c" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool wxRichTextPlainTextHandler::DoLoadFile</definition>
+        <argsstring>(wxRichTextBuffer *buffer, wxInputStream &amp;stream)</argsstring>
+        <name>DoLoadFile</name>
+        <reimplements refid="classwx_rich_text_file_handler_1af5dc1360f668e4f3439b2bfff52cc84c">DoLoadFile</reimplements>
+        <param>
+          <type><ref refid="classwx_rich_text_buffer" kindref="compound">wxRichTextBuffer</ref> *</type>
+          <declname>buffer</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_input_stream" kindref="compound">wxInputStream</ref> &amp;</type>
+          <declname>stream</declname>
+        </param>
+        <briefdescription>
+<para>Override to load content from <emphasis>stream</emphasis> into <emphasis>buffer</emphasis>. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="6273" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classwx_rich_text_plain_text_handler_1aa43e67d6b0fcf01451d65678461e04c7" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool wxRichTextPlainTextHandler::DoSaveFile</definition>
+        <argsstring>(wxRichTextBuffer *buffer, wxOutputStream &amp;stream)</argsstring>
+        <name>DoSaveFile</name>
+        <reimplements refid="classwx_rich_text_file_handler_1afc26918b48fea71631cbd54ad2dec905">DoSaveFile</reimplements>
+        <param>
+          <type><ref refid="classwx_rich_text_buffer" kindref="compound">wxRichTextBuffer</ref> *</type>
+          <declname>buffer</declname>
+        </param>
+        <param>
+          <type><ref refid="classwx_output_stream" kindref="compound">wxOutputStream</ref> &amp;</type>
+          <declname>stream</declname>
+        </param>
+        <briefdescription>
+<para>Override to save content to <emphasis>stream</emphasis> from <emphasis>buffer</emphasis>. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="interface/wx/richtext/richtextbuffer.h" line="6274" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Implements saving a buffer to plain text. </para>    </briefdescription>
+    <detaileddescription>
+<para><heading level="2"></heading>
+</para><para>Library:<nonbreakablespace/><nonbreakablespace/><ref refid="page_libs_1page_libs_wxrichtext" kindref="member">wxRichText</ref> &lt;&gt;&lt; =&apos;&apos;&gt;:&lt;/&gt;&amp;;&amp;;&lt; =&apos;&apos;&gt;\ &lt;/&gt;&lt;/&gt;</para><para><simplesect kind="see"><para><ref refid="classwx_rich_text_file_handler" kindref="compound">wxRichTextFileHandler</ref>, <ref refid="classwx_rich_text_buffer" kindref="compound">wxRichTextBuffer</ref>, <ref refid="classwx_rich_text_ctrl" kindref="compound">wxRichTextCtrl</ref> </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="6848">
+        <label>wxRichTextFileHandler</label>
+        <link refid="classwx_rich_text_file_handler"/>
+        <childnode refid="6849" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6849">
+        <label>wxObject</label>
+        <link refid="classwx_object"/>
+      </node>
+      <node id="6847">
+        <label>wxRichTextPlainTextHandler</label>
+        <link refid="classwx_rich_text_plain_text_handler"/>
+        <childnode refid="6848" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="6854">
+        <label>wxString</label>
+        <link refid="classwx_string"/>
+      </node>
+      <node id="6851">
+        <label>wxRichTextFileHandler</label>
+        <link refid="classwx_rich_text_file_handler"/>
+        <childnode refid="6852" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6854" relation="usage">
+          <edgelabel>m_encoding</edgelabel>
+          <edgelabel>m_extension</edgelabel>
+          <edgelabel>m_name</edgelabel>
+        </childnode>
+      </node>
+      <node id="6852">
+        <label>wxObject</label>
+        <link refid="classwx_object"/>
+        <childnode refid="6853" relation="usage">
+          <edgelabel>m_refData</edgelabel>
+        </childnode>
+      </node>
+      <node id="6850">
+        <label>wxRichTextPlainTextHandler</label>
+        <link refid="classwx_rich_text_plain_text_handler"/>
+        <childnode refid="6851" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6853">
+        <label>wxObjectRefData</label>
+        <link refid="classwx_object_ref_data"/>
+      </node>
+    </collaborationgraph>
+    <location file="interface/wx/richtext/richtextbuffer.h" line="6257" column="1" bodyfile="interface/wx/richtext/richtextbuffer.h" bodystart="6256" bodyend="6276"/>
+    <listofallmembers>
+      <member refid="classwx_object_1a60204063f3cc3aa2fa1c7ff5bda9eb13" prot="protected" virt="non-virtual"><scope>wxRichTextPlainTextHandler</scope><name>AllocExclusive</name></member>
+      <member refid="classwx_rich_text_file_handler_1a89b3bf669d4b760a41e1d97e048851ee" prot="public" virt="virtual"><scope>wxRichTextPlainTextHandler</scope><name>CanHandle</name></member>
+      <member refid="classwx_rich_text_plain_text_handler_1a0692211e3c1107daa30d788c2d295676" prot="public" virt="virtual"><scope>wxRichTextPlainTextHandler</scope><name>CanLoad</name></member>
+      <member refid="classwx_rich_text_plain_text_handler_1a15ff5c3362bac7572a9fc62f7c2c1bf9" prot="public" virt="virtual"><scope>wxRichTextPlainTextHandler</scope><name>CanSave</name></member>
+      <member refid="classwx_object_1a436fc8fe68cf8a31000296d9cd3d2427" prot="protected" virt="virtual"><scope>wxRichTextPlainTextHandler</scope><name>CloneRefData</name></member>
+      <member refid="classwx_object_1a3f4f497c65cef611e121c41f21dd5ccc" prot="protected" virt="virtual"><scope>wxRichTextPlainTextHandler</scope><name>CreateRefData</name></member>
+      <member refid="classwx_rich_text_plain_text_handler_1acd593a1c4c892fbcc26b726dc9b6ab8c" prot="protected" virt="virtual"><scope>wxRichTextPlainTextHandler</scope><name>DoLoadFile</name></member>
+      <member refid="classwx_rich_text_plain_text_handler_1aa43e67d6b0fcf01451d65678461e04c7" prot="protected" virt="virtual"><scope>wxRichTextPlainTextHandler</scope><name>DoSaveFile</name></member>
+      <member refid="classwx_object_1ae6d365f2556b26767ced8410c5e839d0" prot="public" virt="virtual"><scope>wxRichTextPlainTextHandler</scope><name>GetClassInfo</name></member>
+      <member refid="classwx_rich_text_file_handler_1a5e5d1560c790406c00981ed70c0c108a" prot="public" virt="non-virtual"><scope>wxRichTextPlainTextHandler</scope><name>GetEncoding</name></member>
+      <member refid="classwx_rich_text_file_handler_1ab284a241c1a30c34283238d0b32b344c" prot="public" virt="non-virtual"><scope>wxRichTextPlainTextHandler</scope><name>GetExtension</name></member>
+      <member refid="classwx_rich_text_file_handler_1acd57cbe10864aeca101094c9a858cfcc" prot="public" virt="non-virtual"><scope>wxRichTextPlainTextHandler</scope><name>GetFlags</name></member>
+      <member refid="classwx_rich_text_file_handler_1a1e3b96a63ad2c00ecbfd579c1deeacce" prot="public" virt="non-virtual"><scope>wxRichTextPlainTextHandler</scope><name>GetName</name></member>
+      <member refid="classwx_object_1af3c6c76a775864832f1536d3c0de3a2b" prot="public" virt="non-virtual"><scope>wxRichTextPlainTextHandler</scope><name>GetRefData</name></member>
+      <member refid="classwx_rich_text_file_handler_1adee80020c483471c10e1c83abc217b39" prot="public" virt="non-virtual"><scope>wxRichTextPlainTextHandler</scope><name>GetType</name></member>
+      <member refid="classwx_object_1a3c7115ef4132dcee0c4fc34e84d7fced" prot="public" virt="non-virtual"><scope>wxRichTextPlainTextHandler</scope><name>IsKindOf</name></member>
+      <member refid="classwx_object_1a059373c494c2369d7db2a556efef8ecf" prot="public" virt="non-virtual"><scope>wxRichTextPlainTextHandler</scope><name>IsSameAs</name></member>
+      <member refid="classwx_rich_text_file_handler_1a752002a3c93b6b3e1ed68aa07f0c1a2b" prot="public" virt="virtual"><scope>wxRichTextPlainTextHandler</scope><name>IsVisible</name></member>
+      <member refid="classwx_rich_text_file_handler_1a926537b520ddca22e6c770dbcc91c3f4" prot="public" virt="non-virtual"><scope>wxRichTextPlainTextHandler</scope><name>LoadFile</name></member>
+      <member refid="classwx_rich_text_file_handler_1a26154421ceab43b02cb713bba69a60cd" prot="public" virt="virtual"><scope>wxRichTextPlainTextHandler</scope><name>LoadFile</name></member>
+      <member refid="classwx_rich_text_file_handler_1aaa173104e3a7bc529308d0edffb9ddef" prot="protected" virt="non-virtual"><scope>wxRichTextPlainTextHandler</scope><name>m_encoding</name></member>
+      <member refid="classwx_rich_text_file_handler_1a656539a2bd2705781baf24775ca9a7c5" prot="protected" virt="non-virtual"><scope>wxRichTextPlainTextHandler</scope><name>m_extension</name></member>
+      <member refid="classwx_rich_text_file_handler_1ace5bfb1a7a7d46d1d2a10fbb72f53813" prot="protected" virt="non-virtual"><scope>wxRichTextPlainTextHandler</scope><name>m_flags</name></member>
+      <member refid="classwx_rich_text_file_handler_1a440e405a19e949e64c031341506c44e8" prot="protected" virt="non-virtual"><scope>wxRichTextPlainTextHandler</scope><name>m_name</name></member>
+      <member refid="classwx_object_1a9e31954530a0abd54982effc443ed2b8" prot="protected" virt="non-virtual"><scope>wxRichTextPlainTextHandler</scope><name>m_refData</name></member>
+      <member refid="classwx_rich_text_file_handler_1a262dbf7446f35720ebaadba74ecd9593" prot="protected" virt="non-virtual"><scope>wxRichTextPlainTextHandler</scope><name>m_type</name></member>
+      <member refid="classwx_rich_text_file_handler_1a73bf7d7c2dd7b29c1abc9333b9b68a77" prot="protected" virt="non-virtual"><scope>wxRichTextPlainTextHandler</scope><name>m_visible</name></member>
+      <member refid="classwx_object_1a07b8f34f5afc5743195c5fed052f55d3" prot="public" virt="non-virtual"><scope>wxRichTextPlainTextHandler</scope><name>operator delete</name></member>
+      <member refid="classwx_object_1a96fa423a1dbc212c8227a5d83825971f" prot="public" virt="non-virtual"><scope>wxRichTextPlainTextHandler</scope><name>operator new</name></member>
+      <member refid="classwx_object_1a2f6f1aa51fe9fc2b1415ca4211a90e9e" prot="public" virt="non-virtual"><scope>wxRichTextPlainTextHandler</scope><name>Ref</name></member>
+      <member refid="classwx_rich_text_file_handler_1a93f83b7d467c423bd243ab9eb4ddbaa4" prot="public" virt="non-virtual"><scope>wxRichTextPlainTextHandler</scope><name>SaveFile</name></member>
+      <member refid="classwx_rich_text_file_handler_1ac28d68a18c605f8d7536fb5ab82e8d94" prot="public" virt="virtual"><scope>wxRichTextPlainTextHandler</scope><name>SaveFile</name></member>
+      <member refid="classwx_rich_text_file_handler_1ae4ef62e9f8ffc36c6f410c0d58e15fe8" prot="public" virt="non-virtual"><scope>wxRichTextPlainTextHandler</scope><name>SetEncoding</name></member>
+      <member refid="classwx_rich_text_file_handler_1a76d4eab35af696b50712e925c9e4082a" prot="public" virt="non-virtual"><scope>wxRichTextPlainTextHandler</scope><name>SetExtension</name></member>
+      <member refid="classwx_rich_text_file_handler_1adb45b2376036729d68f9d572f8d1b15f" prot="public" virt="non-virtual"><scope>wxRichTextPlainTextHandler</scope><name>SetFlags</name></member>
+      <member refid="classwx_rich_text_file_handler_1a1559f89c91e446ef004e9784057fc2a9" prot="public" virt="non-virtual"><scope>wxRichTextPlainTextHandler</scope><name>SetName</name></member>
+      <member refid="classwx_object_1afab780710f2adc1bb33310e27590140b" prot="public" virt="non-virtual"><scope>wxRichTextPlainTextHandler</scope><name>SetRefData</name></member>
+      <member refid="classwx_rich_text_file_handler_1ac27e7b08fda35574f23db8b33b6febf3" prot="public" virt="non-virtual"><scope>wxRichTextPlainTextHandler</scope><name>SetType</name></member>
+      <member refid="classwx_rich_text_file_handler_1ac0491f2ec0616b73c2fbd469f5f65ed2" prot="public" virt="virtual"><scope>wxRichTextPlainTextHandler</scope><name>SetVisible</name></member>
+      <member refid="classwx_object_1af51efc6b1ae632fc7f0cd7ebbce9fa36" prot="public" virt="non-virtual"><scope>wxRichTextPlainTextHandler</scope><name>UnRef</name></member>
+      <member refid="classwx_object_1a74b40e42d19a4b9e9bec0b57d62a5725" prot="public" virt="non-virtual"><scope>wxRichTextPlainTextHandler</scope><name>UnShare</name></member>
+      <member refid="classwx_object_1acaa378363a28af421ab56ad7b46eadf0" prot="public" virt="non-virtual"><scope>wxRichTextPlainTextHandler</scope><name>wxObject</name></member>
+      <member refid="classwx_object_1a4721b4dc9b7aff0f30904ba2ea3954cf" prot="public" virt="non-virtual"><scope>wxRichTextPlainTextHandler</scope><name>wxObject</name></member>
+      <member refid="classwx_rich_text_file_handler_1a536779d805d21199a6bccfac49bf1156" prot="public" virt="non-virtual"><scope>wxRichTextPlainTextHandler</scope><name>wxRichTextFileHandler</name></member>
+      <member refid="classwx_rich_text_plain_text_handler_1a306f0995aef02e289599381fd8984459" prot="public" virt="non-virtual"><scope>wxRichTextPlainTextHandler</scope><name>wxRichTextPlainTextHandler</name></member>
+      <member refid="classwx_object_1a2a51aa8bfbab47ca2f051bcf84b3f35b" prot="public" virt="virtual"><scope>wxRichTextPlainTextHandler</scope><name>~wxObject</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
